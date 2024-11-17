@@ -465,29 +465,29 @@ body {
 }
 
 .footer-social {
+  width: 50%;
+  height: auto;
   display: flex;
   gap: 1rem;
 }
 
 .footer-social a {
-  width: 32px;
-  height: 32px;
+  width: 30%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(186, 156, 98, 0.1);
-  border-radius: 50%;
   transition: all 0.3s ease;
 }
 
 .footer-social a:hover {
-  background: rgba(186, 156, 98, 1);
+  transform: scale(1.25);
+  transition: transform 0.2s ease;
 }
 
 .footer-social img {
-  width: 16px;
-  height: 16px;
-  filter: invert(1);
+  width: 100%;
+  height: auto;
 }
 
 .footer-bottom {
