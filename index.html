@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TenaPrime</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/login-overlay-style.css">
+    <link rel="stylesheet" href="./styles/user-stats-popup.css">
+    <link rel="icon" href="./assets/logo-mini.svg">
+</head>
+<body>
+<div class="homepage">
+  <div class="header">
+    <div class="logo">
+      <img src="./assets/logo.svg" alt="TenaPrime">
+    </div>
+    <div class="navigation aleo-text">
+      <div class="navigation-home">
+        <a href="index.html">
+          <div class="home-text" data-text-key="home-menu-item">Home</div>
+        </a>
+      </div>
+      
+      <div class="navigation-exercises">
+        <a href="exercises.html">
+          <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+        </a>
+      </div>
+        
+      <div class="navigation-nutrition">
+        <a href="nutrition.html">
+          <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+        </a>
+      </div>
+      
+      <div class="navigation-prizes">
+        <a href="prizes.html">
+          <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
+        </a>
+      </div>
+
+      <div class="navigation-about">
+        <a href="about.html">
+          <div class="about-text" data-text-key="about-menu-item">About</div>
+        </a>
+      </div>
+    </div>
+    <div class="extra-navigation">
+      <div class="avatar">
+        <img src="./assets/avatar.svg" alt="Account">
+      </div>
+      <div class="language-selector aleo-text">
+        <p>EN</p>
+        <div class="language-dropdown">
+          <div class="language-option" data-lang="en">English</div>
+          <div class="language-option" data-lang="አማ">አማርኛ</div>
+        </div>
+      </div>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <div class="ethiotelecom">
+      <div class="ethiotelecom-container">
+        <img src="./assets/ethiotelecom.png" alt="Ethiotelecom">
+      </div>
+    </div>
+  </div>
+  <div class="front-page aleo-text">
+    <div class="guest-content">
+        <div class="front-page-greeting">
+            <h2 data-text-key="front-page-greeting-1">Stay Fit and Healthy</h2>
+            <h1 data-text-key="front-page-greeting-2">As You Win 10,000 Birr</h1>
+            <div class="intro-buttons aleo-text">
+                <button class="intro-login-button aleo-text" data-text-key="login">Login</button>
+                <button class="intro-register-button aleo-text" data-text-key="register">Register</button>
+            </div>
+        </div>
+        <div class="front-page-offerings aleo-text">
+          <div class="services-container">
+            <div class="service-item">
+              <img src="./assets/shipping.svg" alt="Free Shipping">
+              <div class="service-text">
+                <h3 data-text-key="front-page-offerings-1">Free Shipping</h3>
+                <p data-text-key="front-page-offerings-1-description">Free shipping on all orders</p>
+              </div>
+            </div>
+            
+            <div class="service-item">
+              <img src="./assets/money-back.svg" alt="Money Back">
+              <div class="service-text">
+                <h3 data-text-key="front-page-offerings-2">Money Back Guarantee</h3>
+                <p data-text-key="front-page-offerings-2-description">30 days money back guarantee</p>
+              </div>
+            </div>
+            
+            <div class="service-item">
+              <img src="./assets/support.svg" alt="24/7 Support">
+              <div class="service-text">
+                <h3 data-text-key="front-page-offerings-3">24/7 Support</h3>
+                <p data-text-key="front-page-offerings-3-description">Contact us 24 hours a day</p>
+              </div>
+            </div>
+            
+            <div class="service-item">
+              <img src="./assets/secure.svg" alt="Secure Payment">
+              <div class="service-text">
+                <h3 data-text-key="front-page-offerings-4">Secure Payment</h3>
+                <p data-text-key="front-page-offerings-4-description">Your payment is safe with us</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="user-content" style="display: none;">
+        <div class="front-page-greeting">
+            <h2 data-text-key="front-page-user-greeting-1">Welcome Back!</h2>
+            <div class="user-dashboard">
+                <div class="quick-actions">
+                    <a href="exercises.html" class="dashboard-button">View Exercise Plans</a>
+                    <a href="nutrition.html" class="dashboard-button">View Nutrition Plans</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="footer aleo-text">
+    <div class="footer-content">
+      <div class="footer-sections">
+        <div class="footer-section">
+          <h3 data-text-key="footer-quick-links">Quick Links</h3>
+          <ul>
+            <li><a href="index.html" data-text-key="home-menu-item">Home</a></li>
+            <li><a href="exercises.html" data-text-key="exercises-menu-item">Exercises</a></li>
+            <li><a href="nutrition.html" data-text-key="nutrition-menu-item">Nutrition</a></li>
+            <li><a href="prizes.html" data-text-key="prizes-menu-item">Prizes</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3 data-text-key="footer-information">Information</h3>
+          <ul>
+            <li><a href="about.html" data-text-key="about-menu-item">About</a></li>
+            <li><a href="#" data-text-key="faq">FAQ</a></li>
+            <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
+            <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3 data-text-key="footer-contact">Contact</h3>
+          <ul>
+            <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+            <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+            <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+            <li><a href="#" data-text-key="support">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-section footer-logo">
+          <img src="./assets/logo.svg" alt="TenaPrime">
+          <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+          <div class="footer-social">
+            <a href="#"><img src="./assets/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="./assets/telegram.svg" alt="Telegram"></a>
+            <a href="#"><img src="./assets/instagram.svg" alt="Instagram"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 TenaPrime. All rights reserved.</p>
+        <div class="footer-ethiotelecom">
+          <img src="./assets/ethiotelecom.png" alt="Ethiotelecom">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="./scripts/auth-check.js"></script>
+<script src="./scripts/strings-loader.js"></script>
+<script src="./scripts/login-overlay-script.js"></script>
+<script src="./scripts/language-selector.js"></script>
+<script src="./scripts/sidebar-overlay.js"></script>
+<script src="./scripts/user-stats-popup.js"></script>
+
+</body>
+</html>

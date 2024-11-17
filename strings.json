@@ -1,0 +1,202 @@
+{
+    "home-menu-item": {
+        "en": "Home",
+        "am": "መግቢያ"
+    },
+    "exercises-menu-item": {
+        "en": "Exercises",
+        "am": "ስፖርቶች"
+    },
+    "nutrition-menu-item": {
+        "en": "Nutrition",
+        "am": "አመጋገብ"
+    },
+    "prizes-menu-item": {
+        "en": "Prizes",
+        "am": "ሽልማቶች"
+    },
+    "about-menu-item": {
+        "en": "About",
+        "am": "ስለ እኛ"
+    },
+    "login": {
+        "en": "Login",
+        "am": "ይግቡ"
+    },
+    "register": {
+        "en": "Register",
+        "am": "ይመዝገቡ"
+    },
+    "front-page-greeting-1": {
+        "en": "Stay Fit and Healthy",
+        "am": "ጤንነትዎን እየጠበቁ"
+    },
+    "front-page-greeting-2": {
+        "en": "As You Win 10,000 Birr!",
+        "am": "10,000 ብር ይሸለሙ!"
+    },
+    "front-page-offerings-1": {
+        "en": "Free Shipping",
+        "am": "ነጻ ማድረሻ"
+    },
+    "front-page-offerings-1-description": {
+        "en": "Free shipping on all orders",
+        "am": "ለሁሉም ትእዛዞች ነጻ ማድረሻ"
+    },
+    "front-page-offerings-2": {
+        "en": "Money Back Guarantee",
+        "am": "የተመላሽ ገንዘብ ማረጋገጫ"
+    },
+    "front-page-offerings-2-description": {
+        "en": "30 days money back guarantee",
+        "am": "የ30 ቀናት የተመላሽ ገንዘብ ማረጋገጫ"
+    },  
+    "front-page-offerings-3": {
+        "en": "24/7 Support",
+        "am": "የ24/7 ድጋፍ"
+    },
+    "front-page-offerings-3-description": {
+        "en": "Contact us 24 hours a day",
+        "am": "በቀን 24 ሰዓት ያግኙን"
+    },
+    "front-page-offerings-4": {
+        "en": "Secure Payment",
+        "am": "ደህንነቱ የተጠበቀ ክፍያ"
+    },
+    "front-page-offerings-4-description": {
+        "en": "Your payment is safe with us",
+        "am": "ክፍያዎ ከእኛ ጋር ደህንነቱ የተጠበቀ ነው"
+    },
+    "about-page-greeting-title": {
+        "en": "About TenaPrime",
+        "am": "ስለ TenaPrime"
+    },
+    "about-page-greeting-description": {
+        "en": "TenaPrime is a platform that provides personalized nutrition and exercise plans to help you achieve your fitness goals.",
+        "am": "TenaPrime የአካል ብቃት ግቦችዎን እንዲያሳኩ የሚያግዝዎ ግላዊ የተመጣጠነ ምግብ እና የአካል ብቃት እንቅስቃሴ እቅድ የሚያቀርብ መድረክ ነው"
+    },
+    "exercises-page-greeting-1": {
+        "en": "In Order to Access Exercise Plans Provided By TenaPrime, Please Login to Your TenaPrime Account",
+        "am": "በTenaPrime የቀረቡ የአካል ብቃት እንቅስቃሴ ዕቅዶችን ለመድረስ እባክዎ ወደ TenaPrime መለያዎ ይግቡ"
+    },
+    "exercises-page-greeting-2": {
+        "en": "If You Are New To TenaPrime, You Can Register by Clicking the Button Below",
+        "am": "ለTenaPrime አዲስ ከሆኑ ከታች ያለውን አዝራር ጠቅ በማድረግ መመዝገብ ይችላሉ።"
+    },
+    "nutrition-page-greeting-1": {
+        "en": "In Order to Access Nutrition Plans Provided By TenaPrime, Please Login to Your TenaPrime Account",
+        "am": "በTenaPrime የቀረቡ የአመጋገብ ዕቅዶችን ለማግኘት፣ እባክዎ ወደ TenaPrime መለያዎ ይግቡ"
+    },
+    "nutrition-page-greeting-2": {
+        "en": "If You Are New To TenaPrime, You Can Register by Clicking the Button Below",
+        "am": "ለTenaPrime አዲስ ከሆኑ ከታች ያለውን አዝራር ጠቅ በማድረግ መመዝገብ ይችላሉ።"
+    },
+    "prizes-page-greeting-title": {
+        "en": "Prizes",
+        "am": "ሽልማቶች"
+    },
+    "prizes-page-greeting-description": {
+        "en": "We have a variety of prizes to offer to our participants. The more you participate, the more chances you have to win!",
+        "am": "ለተሳታፊዎቻችን የምንሰጣቸው የተለያዩ ሽልማቶች አሉን። ብዙ በተሳተፉ ቁጥር የማሸነፍ እድሎችዎ ይጨምራል!"
+    },
+    "login-title": {
+        "en": "Login to TenaPrime",
+        "am": "ወደ TenaPrime ይግቡ"
+    },
+    "phone-number-label": {
+        "en": "Phone Number",
+        "am": "ስልክ ቁጥር"
+    },
+    "pin-label": {
+        "en": "PIN",
+        "am": "ፒን"
+    },
+    "remember-me": {
+        "en": "Remember me",
+        "am": "አስታውሰኝ"
+    },
+    "forgot-password": {
+        "en": "Forgot Password?",
+        "am": "የይለፍ ቃል ረሱ?"
+    },
+    "tandc-agree": {
+        "en": "Agree to <b>Terms & Conditions</b>",
+        "am": "<b>በውሎች እና ሁኔታዎች</b> እስማማለሁ"
+    },
+    "no-account": {
+        "en": "Don't have an account?",
+        "am": "መለያ የለዎትም?"
+    },
+    "register-toast": {
+        "en": "If you don't have an account, you can register by sending OK to 8362.",
+        "am": "መለያ ከሌለዎት፣ ወደ 8362 OK ብለው በመላክ መመዝገብ ይችላሉ።"
+    },
+    "tandc": {
+        "en": "Terms & Conditions",
+        "am": "ውሎች እና ሁኔታዎች"
+    },
+    "faq": {
+        "en": "FAQ",
+        "am": "የተደጋጋሚ ጥያቄዎች"
+    },
+    "privacy-policy": {
+        "en": "Privacy Policy",
+        "am": "የግላዊነት ፖሊሲ"
+    },
+    "contact-us": {
+        "en": "Contact Us",
+        "am": "ያግኙን"
+    },
+    "stats-title": {
+        "en": "Your Stats",
+        "am": "የእርስዎ ስታቲስቲክስ"
+    },
+    "workout-streak": {
+        "en": "Workout Streak",
+        "am": "የልምምድ ቀናት"
+    },
+    "points-earned": {
+        "en": "Points Earned",
+        "am": "ያገኙት ነጥብ"
+    },
+    "completed-workouts": {
+        "en": "Completed Workouts",
+        "am": "የተጠናቀቁ ልምምዶች"
+    },
+    "logout": {
+        "en": "Logout",
+        "am": "ውጣ"
+    },
+    "days": {
+        "en": "days",
+        "am": "ቀናት"
+    },
+    "points": {
+        "en": "points",
+        "am": "ነጥብ"
+    },
+    "footer-quick-links": {
+        "en": "Quick Links",
+        "am": "ፈጣን ገፆች"
+    },
+    "footer-information": {
+        "en": "Information",
+        "am": "መረጃ"
+    },
+    "footer-contact": {
+        "en": "Contact",
+        "am": "ያግኙን"
+    },
+    "footer-tagline": {
+        "en": "Stay Fit, Win Big",
+        "am": "ጤናማ ይሁኑ፣ በትልቁ ያሸንፉ"
+    },
+    "support": {
+        "en": "Support",
+        "am": "ድጋፍ ያግኙ"
+    },
+    "footer-copyright": {
+        "en": "© 2024 TenaPrime. All rights reserved.",
+        "am": "© 2024 TenaPrime። መብቱ በህግ የተጠበቀ ነው።"
+    }
+}

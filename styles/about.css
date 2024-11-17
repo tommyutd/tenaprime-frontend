@@ -1,0 +1,88 @@
+.navigation-about {
+  flex: 1;  /* Added to make it share width equally */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(186, 156, 98, 1);
+}
+
+.navigation-home,
+.navigation-exercises,
+.navigation-nutrition,
+.navigation-prizes {
+  color: white;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navigation-home::after,
+.navigation-exercises::after,
+.navigation-nutrition::after,
+.navigation-prizes::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: rgba(186, 156, 98, 1);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navigation-home:hover a,
+.navigation-exercises:hover a,
+.navigation-nutrition:hover a,
+.navigation-prizes:hover a {
+  background-color: transparent;
+  color: rgba(186, 156, 98, 1);
+}
+
+.navigation-home:hover::after,
+.navigation-exercises:hover::after,
+.navigation-nutrition:hover::after,
+.navigation-prizes:hover::after {
+  width: 100%;
+}
+
+.about-page {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 80vh;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-wrap: normal;
+}
+
+.about-page-greeting {
+  width: 100%;
+  min-height: 70%;
+  display: flex;
+  margin-top: 2%;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  gap: 20px;
+  padding-left: 5%;
+}
+
+.about-page-greeting h1 {
+  max-width: 90%;
+  color: rgba(186, 156, 98, 1);
+}
+
+.about-page-greeting p {
+  max-width: 90%;
+}

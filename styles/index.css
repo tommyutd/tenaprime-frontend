@@ -1,0 +1,173 @@
+.navigation-home {
+  flex: 1;  /* Added to make it share width equally */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(186, 156, 98, 1);
+}
+
+.navigation-exercises,
+.navigation-nutrition,
+.navigation-about,
+.navigation-prizes {
+  color: white;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navigation-exercises::after,
+.navigation-nutrition::after,
+.navigation-about::after,
+.navigation-prizes::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: rgba(186, 156, 98, 1);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navigation-exercises:hover a,
+.navigation-nutrition:hover a,
+.navigation-about:hover a,
+.navigation-prizes:hover a {
+  background-color: transparent;
+  color: rgba(186, 156, 98, 1);
+}
+
+.navigation-exercises:hover::after,
+.navigation-nutrition:hover::after,
+.navigation-about:hover::after,
+.navigation-prizes:hover::after {
+  width: 100%;
+}
+
+.front-page {
+  width: 100%;
+  max-width: 100%;
+  height: 80vh;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  background-image: url('../assets/muscleman.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 80%;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .front-page {
+    background-position: left bottom;
+  }
+}
+
+.front-page-greeting {
+  width: 100%;
+  height: 70%;
+  padding-left: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  color: white;
+}
+
+.front-page-offerings {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-container {
+  width: 80%;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.service-item:last-child {
+  border-right: none;
+}
+
+.service-item img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.service-text {
+  color: white;
+}
+
+.service-text h3 {
+  font-size: 1rem;
+  margin: 0 0 5px 0;
+  color: rgba(186, 156, 98, 1);
+}
+
+.service-text p {
+  font-size: 0.8rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.user-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.quick-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.dashboard-button {
+    padding: 1rem 2rem;
+    background-color: rgba(186, 156, 98, 1);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.dashboard-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(186, 156, 98, 0.3);
+}
+
+.guest-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
