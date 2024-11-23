@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>Test</title>
+        <style>
+            .slideshow-container {
+                /*width: calc(100% - 40px);*/
+                max-width: 100%;
+                /*max-width: 1000px;*/
+                border: 1px solid red;
+                margin: 0 auto;
+                overflow: hidden;
+                padding: 20px;
+                perspective: 1000px;
+            }
+
+            .carousel {
+                display: flex;
+                flex-direction: row;
+                transition: transform 0.5s ease-in-out;
+                transform-style: preserve-3d;
+                border: 1px solid blue;
+                position: relative;
+                /*left: 0;*/
+                /*width: calc(33.333% * 3 + 40px);*/
+            }
+
+            .card {
+                flex: 0 0 33.333%;
+                margin: 0 10px;
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                transition: all 0.5s ease-in-out;
+                transform: scale(0.9) translateZ(-50px);
+                opacity: 0.7;
+                filter: brightness(0.8);
+                position: relative;
+            }
+
+            .card img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+
+            .card h3 {
+                padding: 10px;
+                margin: 0;
+            }
+
+            .card p {
+                padding: 0 10px 10px;
+                margin: 0;
+            }
+
+            .card.active {
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+                z-index: 2;
+                transform: scale(1.1) translateZ(100px);
+                opacity: 1;
+                filter: brightness(1);
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <div class="slideshow-container">
+            <div class="carousel">
+                <!-- Cards will be added by JavaScript -->
+            </div>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const carousel = document.querySelector('.carousel');
+                const cardData = [
+                    { image: 'assets/winners/img1.png', title: 'Title 1', description: 'Description 1' },
+                    { image: 'assets/winners/img2.png', title: 'Title 2', description: 'Description 2' },
+                    { image: 'assets/winners/img3.png', title: 'Title 3', description: 'Description 3' },
+                    { image: 'assets/winners/img4.png', title: 'Title 4', description: 'Description 4' },
+                    { image: 'assets/winners/img5.png', title: 'Title 5', description: 'Description 5' },
+                ];
+
+                // Function to create a card element
+                function createCard(data) {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.innerHTML = `
+                        <img src="${data.image}" alt="${data.title}">
+                        <h3>${data.title}</h3>
+                        <p>${data.description}</p>
+                    `;
+                    return card;
+                }
+
+                function rotateSlides() {
+                    const firstCard = carousel.firstElementChild;
+                    const cards = document.querySelectorAll('.card');
+                    const cardWidth = cards[0].offsetWidth + 20;
+                    
+                    dataIndex = (dataIndex + 1) % cardData.length;
+                    const newCard = createCard(cardData[dataIndex]);
+                    newCard.classList.add('next');
+                    carousel.appendChild(newCard);
+                    
+                    carousel.style.transform = `translateX(-${cardWidth}px)`;
+                    carousel.children[1].classList.remove('active');
+                    carousel.children[2].classList.add('active');
+                    
+                    setTimeout(() => {
+                        carousel.style.transition = 'none';
+                        carousel.style.transform = 'translateX(0)';
+                        carousel.removeChild(firstCard);
+                        
+                        setTimeout(() => {
+                            carousel.style.transition = 'transform 0.5s ease-in-out';
+                        }, 50);
+                        
+                        currentIndex = 1;
+                    }, 500);
+                }
+
+                // Add only the initial three cards needed for display
+                // Add the last card first (for the left position)
+                previousCard = createCard(cardData[cardData.length - 1]);
+                carousel.appendChild(previousCard);
+                
+                // Add the first card (will be emphasized in center)
+                currentCard = createCard(cardData[0]);
+                carousel.appendChild(currentCard);
+                
+                // Add the second card (for the right position)
+                nextCard = createCard(cardData[1]);
+                carousel.appendChild(nextCard);
+
+                let dataIndex = 1; // Track which card data to show next
+
+                carousel.children[1].classList.add('active');
+
+                setInterval(rotateSlides, 2000);
+            });
+        </script>
+    </body>
+</html>
