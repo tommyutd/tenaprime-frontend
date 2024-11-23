@@ -184,9 +184,8 @@
 
 .slideshow-container {
   max-width: 100%;
-  margin: 0 auto;
   overflow: hidden;
-  padding: 5%;
+  padding: 5% 10%;
   perspective: 1000px;
 }
 
@@ -199,8 +198,8 @@
 }
 
 .card {
-  flex: 0 0 33.333%;
-  margin: 0 10px;
+  flex: 0 0 31.333%;
+  margin: 0 1%;
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

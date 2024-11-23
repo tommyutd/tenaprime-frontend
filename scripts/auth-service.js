@@ -1,3 +1,4 @@
+/*
 // Global state for user data
 window.userData = {
     user: null,
@@ -66,3 +67,4 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 // Export function for reuse
 window.validateTokenAndGetUserData = validateTokenAndGetUserData; 
+*/

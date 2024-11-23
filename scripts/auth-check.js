@@ -1,9 +1,10 @@
 window.authState = {
     isLoggedIn: false,
     checkLoginStatus: async function() {
+        /*
         const isValid = await window.validateTokenAndGetUserData();
         this.isLoggedIn = isValid;
-        return this.isLoggedIn;
+        return this.isLoggedIn;*/
     },
     updateUI: function() {
         const guestContent = document.querySelector('.guest-content');
