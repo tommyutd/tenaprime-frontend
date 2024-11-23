@@ -36,6 +36,7 @@
                 opacity: 0.7;
                 filter: brightness(0.8);
                 position: relative;
+                cursor: pointer;
             }
 
             .card img {
@@ -54,7 +55,15 @@
                 margin: 0;
             }
 
-            .card.active {
+            .card.active:not(:hover) {
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+                z-index: 2;
+                transform: scale(1.1) translateZ(100px);
+                opacity: 1;
+                filter: brightness(1);
+            }
+
+            .card:hover {
                 box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
                 z-index: 2;
                 transform: scale(1.1) translateZ(100px);
@@ -106,7 +115,9 @@
                     
                     carousel.style.transform = `translateX(-${cardWidth}px)`;
                     carousel.children[1].classList.remove('active');
-                    carousel.children[2].classList.add('active');
+                    if (!carousel.children[2].matches(':hover')) {
+                        carousel.children[2].classList.add('active');
+                    }
                     
                     setTimeout(() => {
                         carousel.style.transition = 'none';
@@ -138,7 +149,41 @@
 
                 carousel.children[1].classList.add('active');
 
-                setInterval(rotateSlides, 2000);
+                let rotationInterval;
+                let isPaused = false;
+
+                // Add mouse event listeners to the carousel
+                carousel.addEventListener('mouseenter', () => {
+                    isPaused = true;
+                    clearInterval(rotationInterval);
+                });
+
+                carousel.addEventListener('mouseleave', () => {
+                    isPaused = false;
+                    rotationInterval = setInterval(rotateSlides, 2000);
+                });
+
+                // Add event listeners to handle hover states
+                carousel.addEventListener('mouseover', (e) => {
+                    if (e.target.closest('.card')) {
+                        // Remove active class from all cards
+                        document.querySelectorAll('.card').forEach(card => {
+                            card.classList.remove('active');
+                        });
+                    }
+                });
+
+                carousel.addEventListener('mouseout', (e) => {
+                    if (e.target.closest('.card')) {
+                        // When mouse leaves a card, make the center card active again
+                        if (!carousel.matches(':hover')) {
+                            carousel.children[1].classList.add('active');
+                        }
+                    }
+                });
+
+                // Initialize the rotation
+                rotationInterval = setInterval(rotateSlides, 5000);
             });
         </script>
     </body>
