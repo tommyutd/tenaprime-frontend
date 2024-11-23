@@ -26,7 +26,92 @@ document.addEventListener('DOMContentLoaded', () => {
         return card;
     }
 
+    let dataIndex = 1; // Track which card data to show next
+    let isRotating = false;
+
+    // Add the initial three cards
+    previousCard = createCard(cardData[cardData.length - 1]);
+    carousel.appendChild(previousCard);
+    
+    currentCard = createCard(cardData[0]);
+    carousel.appendChild(currentCard);
+    
+    nextCard = createCard(cardData[1]);
+    carousel.appendChild(nextCard);
+
+    carousel.children[1].classList.add('active');
+
+    let rotationInterval = null; // Initialize as null
+    let isPaused = false;
+
+    // Add mouse event listeners to the carousel
+    carousel.addEventListener('mouseenter', (e) => {
+        isPaused = true;
+        if (window.carouselInterval) {
+            clearInterval(window.carouselInterval);
+            window.carouselInterval = null;
+        }
+        // Only remove active class if directly hovering a card
+        if (e.target.closest('.card')) {
+            document.querySelectorAll('.card').forEach(card => {
+                card.classList.remove('active');
+            });
+        } else {
+            // If entering carousel but not on a card, ensure center card is active
+            carousel.children[1].classList.add('active');
+        }
+    });
+
+    carousel.addEventListener('mouseleave', () => {
+        isPaused = false;
+        if (!window.carouselInterval) {
+            window.carouselInterval = setInterval(rotateSlides, 5000);
+        }
+        // When leaving carousel, make center card active
+        document.querySelectorAll('.card').forEach(card => {
+            card.classList.remove('active');
+        });
+        carousel.children[1].classList.add('active');
+    });
+
+    // Add hover handlers for individual cards
+    carousel.addEventListener('mouseover', (e) => {
+        const card = e.target.closest('.card');
+        if (card) {
+            // Remove active class from all cards when hovering any card
+            document.querySelectorAll('.card').forEach(c => {
+                c.classList.remove('active');
+            });
+        }
+    });
+
+    carousel.addEventListener('mouseout', (e) => {
+        const card = e.target.closest('.card');
+        if (card) {
+            // If mouse leaves a card but is still in carousel, 
+            // and not entering another card, restore active state to center card
+            const toElement = e.relatedTarget;
+            if (!toElement.closest('.card') && carousel.contains(toElement)) {
+                carousel.children[1].classList.add('active');
+            }
+        }
+    });
+
+    // Initialize the rotation
+    if (!window.carouselInterval) {
+        window.carouselInterval = setInterval(rotateSlides, 5000);
+    }
+
     function rotateSlides() {
+        // Prevent multiple simultaneous rotations
+        if (isRotating) {
+            console.log('Rotation in progress, skipping...');
+            return;
+        }
+        
+        isRotating = true;
+        console.log('Starting rotation, cards count:', carousel.children.length);
+        
         const firstCard = carousel.firstElementChild;
         const cards = document.querySelectorAll('.card');
         const cardWidth = cards[0].offsetWidth + 20;
@@ -61,65 +146,18 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Clean up any excess cards (there should only be 3)
             while (carousel.children.length > 3) {
+                console.log('Removing excess card, count:', carousel.children.length);
                 carousel.removeChild(carousel.firstChild);
             }
             
             // Restore transition
             setTimeout(() => {
                 carousel.style.transition = 'transform 0.5s ease-in-out';
+                isRotating = false; // Reset the rotation flag
+                console.log('Rotation complete, cards count:', carousel.children.length);
             }, 50);
             
             currentIndex = 1;
         }, 500);
     }
-
-    // Add the initial three cards
-    previousCard = createCard(cardData[cardData.length - 1]);
-    carousel.appendChild(previousCard);
-    
-    currentCard = createCard(cardData[0]);
-    carousel.appendChild(currentCard);
-    
-    nextCard = createCard(cardData[1]);
-    carousel.appendChild(nextCard);
-
-    let dataIndex = 1; // Track which card data to show next
-
-    carousel.children[1].classList.add('active');
-
-    let rotationInterval;
-    let isPaused = false;
-
-    // Add mouse event listeners to the carousel
-    carousel.addEventListener('mouseenter', () => {
-        isPaused = true;
-        clearInterval(rotationInterval);
-    });
-
-    carousel.addEventListener('mouseleave', () => {
-        isPaused = false;
-        rotationInterval = setInterval(rotateSlides, 5000);
-    });
-
-    // Add event listeners to handle hover states
-    carousel.addEventListener('mouseover', (e) => {
-        if (e.target.closest('.card')) {
-            // Remove active class from all cards
-            document.querySelectorAll('.card').forEach(card => {
-                card.classList.remove('active');
-            });
-        }
-    });
-
-    carousel.addEventListener('mouseout', (e) => {
-        if (e.target.closest('.card')) {
-            // When mouse leaves a card, make the center card active again
-            if (!carousel.matches(':hover')) {
-                carousel.children[1].classList.add('active');
-            }
-        }
-    });
-
-    // Initialize the rotation
-    rotationInterval = setInterval(rotateSlides, 5000);
 });
