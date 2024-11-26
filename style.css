@@ -46,8 +46,9 @@ body {
   top: 0;
   left: 0;
   padding-left: 2%;
-  width: 96vw;
-  height: 20vh;
+  padding-right: 2%;
+  min-width: 96vw;
+  height: 15vh;
   display: flex;
   align-items: center;
   flex-direction: row;

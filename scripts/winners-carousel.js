@@ -103,7 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function rotateSlides() {
-        // Prevent multiple simultaneous rotations
         if (isRotating) {
             console.log('Rotation in progress, skipping...');
             return;
@@ -116,11 +115,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const cards = document.querySelectorAll('.card');
         const cardWidth = cards[0].offsetWidth + 20;
         
-        // Create and add new card
+        firstCard.classList.add('fade-out');
+        
+        // Create and add new card with initial fade-in class
         dataIndex = (dataIndex + 1) % cardData.length;
         const newCard = createCard(cardData[dataIndex]);
-        newCard.classList.add('next');
+        newCard.classList.add('next', 'fade-in');
         carousel.appendChild(newCard);
+        
+        // Remove the fade-in class after a brief delay to trigger the animation
+        setTimeout(() => {
+            newCard.classList.remove('fade-in');
+        }, 50);
         
         // Animate the carousel
         carousel.style.transform = `translateX(-${cardWidth}px)`;
@@ -146,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Clean up any excess cards (there should only be 3)
             while (carousel.children.length > 3) {
-                console.log('Removing excess card, count:', carousel.children.length);
+                //console.log('Removing excess card, count:', carousel.children.length);
                 carousel.removeChild(carousel.firstChild);
             }
             
@@ -154,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => {
                 carousel.style.transition = 'transform 0.5s ease-in-out';
                 isRotating = false; // Reset the rotation flag
-                console.log('Rotation complete, cards count:', carousel.children.length);
+                //console.log('Rotation complete, cards count:', carousel.children.length);
             }, 50);
             
             currentIndex = 1;
