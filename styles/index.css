@@ -287,6 +287,54 @@
   object-fit: contain;
 }
 
+/*Nutrition Section*/ 
+.nutrition-section {
+  width: 100%;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #BA9C62 0%, #62BA70 400%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 5%;
+}
+
+.nutrition-section-text-container {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nutrition-section-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 20%;
+}
+
+.nutrition-section-texts h1, p {
+  color: white;
+  max-width: 75%;
+  align-content: left;
+}
+
+.nutrition-section-image-container {
+  flex: 1;
+  height: 70vh;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+.nutrition-section-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 /*Logged in Content*/
 .user-dashboard {
   display: flex;
