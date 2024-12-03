@@ -107,9 +107,10 @@
   }
   
   .login-footer {
-    color: #fff;
+    max-width: 100%;
     text-align: center;
     margin-top: 1rem;
+    color: #fff;
   }
   
   .login-footer a {

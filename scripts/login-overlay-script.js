@@ -260,8 +260,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Update auth state
             if (window.authState) {
-                window.authState.checkLoginStatus();
-                window.authState.init();
+                await window.authState.init();
                 if (typeof initializeUserStats === 'function') {
                     initializeUserStats();
                 }

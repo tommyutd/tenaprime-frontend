@@ -1,21 +1,65 @@
-/*
-// Global state for user data
+// Global states
 window.userData = {
     user: null,
     isTokenValid: false
 };
 
-async function validateTokenAndGetUserData() {
-    const token = localStorage.getItem('login-token');
-    
-    if (!token) {
-        window.userData.isTokenValid = false;
-        window.userData.user = null;
-        return false;
+// Auth state management
+window.authState = {
+    isLoggedIn: false,
+    checkLoginStatus: async function() {
+        const isValid = await validateTokenAndGetUserData();
+        this.isLoggedIn = isValid;
+        return this.isLoggedIn;
+    },
+    updateUI: function() {
+        const guestContent = document.querySelector('.guest-content');
+        const userContent = document.querySelector('.user-content');
+        
+        if (this.isLoggedIn) {
+            if (guestContent) guestContent.style.display = 'none';
+            if (userContent) userContent.style.display = 'block';
+            const loginButtons = document.querySelectorAll('.intro-login-button, .intro-register-button');
+            loginButtons.forEach(button => button.style.display = 'none');
+        } else {
+            if (guestContent) guestContent.style.display = 'block';
+            if (userContent) userContent.style.display = 'none';
+        }
+    },
+    init: async function() {
+        await this.checkLoginStatus();
+        this.updateUI();
     }
+};
 
+// Initial quick check
+function performInitialAuthCheck() {
+    const token = localStorage.getItem('login-token');
+    const hasToken = !!token;
+    
+    const guestContent = document.querySelector('.guest-content');
+    const userContent = document.querySelector('.user-content');
+    
+    if (hasToken) {
+        if (guestContent) guestContent.style.display = 'none';
+        if (userContent) userContent.style.display = 'block';
+    } else {
+        if (guestContent) guestContent.style.display = 'block';
+        if (userContent) userContent.style.display = 'none';
+    }
+}
+
+// Token validation and user data fetch
+async function validateTokenAndGetUserData() {
     try {
-        // Verify token and get user data
+        const token = localStorage.getItem('login-token');
+        
+        if (!token) {
+            window.userData.isTokenValid = false;
+            window.userData.user = null;
+            return false;
+        }
+
         const response = await fetch('http://127.0.0.1:5000/api/v1/subscriber/me', {
             method: 'GET',
             headers: {
@@ -30,31 +74,15 @@ async function validateTokenAndGetUserData() {
 
         const userData = await response.json();
         
-        // Update global state
         window.userData.isTokenValid = true;
         window.userData.user = userData;
-        
-        // Update existing auth state
-        if (window.authState) {
-            window.authState.isLoggedIn = true;
-            window.authState.updateUI();
-        }
 
         return true;
     } catch (error) {
         console.error('Token validation error:', error);
-        
-        // Clear invalid token
         localStorage.removeItem('login-token');
-        
-        // Update states
         window.userData.isTokenValid = false;
         window.userData.user = null;
-        
-        if (window.authState) {
-            window.authState.isLoggedIn = false;
-            window.authState.updateUI();
-        }
 
         return false;
     }
@@ -62,9 +90,9 @@ async function validateTokenAndGetUserData() {
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', async function() {
-    await validateTokenAndGetUserData();
+    performInitialAuthCheck();
+    await window.authState.init();
 });
 
 // Export function for reuse
-window.validateTokenAndGetUserData = validateTokenAndGetUserData; 
-*/
+window.validateTokenAndGetUserData = validateTokenAndGetUserData;

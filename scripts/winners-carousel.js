@@ -104,12 +104,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function rotateSlides() {
         if (isRotating) {
-            console.log('Rotation in progress, skipping...');
+            //console.log('Rotation in progress, skipping...');
             return;
         }
         
         isRotating = true;
-        console.log('Starting rotation, cards count:', carousel.children.length);
+        //console.log('Starting rotation, cards count:', carousel.children.length);
         
         const firstCard = carousel.firstElementChild;
         const cards = document.querySelectorAll('.card');
