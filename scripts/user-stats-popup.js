@@ -1,15 +1,42 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    // Wait for auth state to be initialized
+    if (window.authState) {
+        await window.authState.init();
+    }
     initializeUserStats();
 });
 
 function initializeUserStats() {
     // If user is not logged in, don't create stats popup functionality
-    if (!window.authState || !window.authState.isLoggedIn) {
+    if (!window.authState || !window.authState.isTokenPresent) {
         return;
     }
 
     const avatar = document.querySelector('.avatar');
-    
+    if (!avatar) {
+        console.error('Avatar element not found');
+        return;
+    }
+
+    // Create new click handler
+    const clickHandler = async function(e) {
+        e.stopPropagation();
+        // Check auth state on every click
+        if (window.authState) {
+            await window.authState.init();
+        }
+
+        if (window.authState && window.authState.isTokenPresent) {
+            createStatsPopup();
+        }
+    };
+
+    // Store the listener reference
+    avatar._clickHandler = clickHandler;
+
+    // Add new click event listener to avatar
+    avatar.addEventListener('click', clickHandler);
+
     // Add this after the avatar declaration (line 7)
     avatar.style.position = 'relative';
 
@@ -75,12 +102,8 @@ function initializeUserStats() {
                 }, 300);
             });
 
-            logoutButton.addEventListener('click', function() {
+            logoutButton.addEventListener('click', async function() {
                 localStorage.removeItem('login-token');
-                if (window.authState) {
-                    window.authState.checkLoginStatus();
-                    window.authState.init();
-                }
                 window.location.reload();
             });
 
@@ -106,12 +129,4 @@ function initializeUserStats() {
         statsPopup.classList.add('show');
         statsContainer.classList.add('show');
     }
-
-    // Add click event listener to avatar
-    avatar.addEventListener('click', function(e) {
-        e.stopPropagation();
-        if (window.authState && window.authState.isLoggedIn) {
-            createStatsPopup();
-        }
-    });
 } 

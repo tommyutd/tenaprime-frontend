@@ -8,9 +8,14 @@ window.userData = {
 window.authState = {
     isLoggedIn: false,
     checkLoginStatus: async function() {
+        const isPresent = performInitialAuthCheck();
         const isValid = await validateTokenAndGetUserData();
+        this.isTokenPresent = isPresent;
         this.isLoggedIn = isValid;
-        return this.isLoggedIn;
+        return {
+            isLoggedIn: this.isLoggedIn,
+            isTokenPresent: this.isTokenPresent
+        };
     },
     updateUI: function() {
         const guestContent = document.querySelector('.guest-content');
@@ -47,6 +52,8 @@ function performInitialAuthCheck() {
         if (guestContent) guestContent.style.display = 'block';
         if (userContent) userContent.style.display = 'none';
     }
+
+    return hasToken;
 }
 
 // Token validation and user data fetch
@@ -79,10 +86,12 @@ async function validateTokenAndGetUserData() {
 
         return true;
     } catch (error) {
-        console.error('Token validation error:', error);
+        //console.error('Token validation error:', error);
         localStorage.removeItem('login-token');
         window.userData.isTokenValid = false;
         window.userData.user = null;
+
+        window.location.reload()
 
         return false;
     }

@@ -1,6 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // If user is logged in, don't create login/register functionality
-    if (window.authState && window.authState.isLoggedIn) {
+document.addEventListener('DOMContentLoaded', async function() {
+    // Wait for auth state to be initialized
+    if (window.authState) {
+        await window.authState.init();
+    }
+
+    if (window.authState && window.authState.isTokenPresent) {
         return;
     }
 
@@ -252,7 +256,52 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             
             if (!response.ok) {
-                throw new Error("Login failed");
+                // Handle the error without logging to console
+                // Create and show error toast
+                const errorToastHTML = `
+                    <div class="error-toast-overlay aleo-text" id="errorToastOverlay">
+                        <div class="toast-notification error">
+                            <span data-text-key="login-failed">Login failed. Please check the information you entered and try again.</span>
+                        </div>
+                    </div>
+                `;
+                
+                document.body.insertAdjacentHTML('beforeend', errorToastHTML);
+                const errorToast = document.getElementById('errorToastOverlay');
+                const toastNotification = errorToast.querySelector('.toast-notification');
+                
+                // Show toast with animation
+                errorToast.style.display = 'flex';
+                requestAnimationFrame(() => {
+                    errorToast.classList.add('show');
+                    toastNotification.classList.add('show');
+                });
+                
+                // Hide and remove toast after 5 seconds
+                setTimeout(() => {
+                    toastNotification.classList.remove('show');
+                    errorToast.classList.remove('show');
+                    setTimeout(() => {
+                        if (errorToast && errorToast.parentNode) {
+                            errorToast.parentNode.removeChild(errorToast);
+                        }
+                    }, 300);
+                }, 5000);
+                
+                // Add click event listener to close toast on click
+                errorToast.addEventListener('click', function(e) {
+                    if (e.target === errorToast) {
+                        toastNotification.classList.remove('show');
+                        errorToast.classList.remove('show');
+                        setTimeout(() => {
+                            if (errorToast && errorToast.parentNode) {
+                                errorToast.parentNode.removeChild(errorToast);
+                            }
+                        }, 300);
+                    }
+                });
+                
+                return;
             }
 
             const data = await response.json();
@@ -265,16 +314,20 @@ document.addEventListener('DOMContentLoaded', function() {
                     initializeUserStats();
                 }
             }
-
-            console.log("JWT stored in local storage:", data.token);
         } catch (error) {
-            console.error("Error during login:", error);
+            // Handle the error silently or log a custom message
+            console.error("An error occurred during login, but it has been handled.");
         }
     }
 
     // Add click event listener to avatar
-    avatar.addEventListener('click', function(e) {
-        if (!window.authState || !window.authState.isLoggedIn) {
+    avatar.addEventListener('click', async function(e) {
+        e.stopPropagation();
+        if (window.authState) {
+            await window.authState.init();
+        }
+
+        if (!window.authState || !window.authState.isTokenPresent) {
             createLoginOverlay();
         }
     });
