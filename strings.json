@@ -68,12 +68,12 @@
         "am": "ክፍያዎ ከእኛ ጋር ደህንነቱ የተጠበቀ ነው"
     },
     "about-page-greeting-title": {
-        "en": "About TenaPrime",
-        "am": "ስለ TenaPrime"
+        "en": "Supercharge Your Fitness. Stay Consistent. Get Results.",
+        "am": "የአካል ብቃት እንቅስቃሴዎን ከፍ ያድርጉ። ወጥነት ያለው ሁን። ውጤቶችን አግኝ።"
     },
     "about-page-greeting-description": {
-        "en": "TenaPrime is a platform that provides personalized nutrition and exercise plans to help you achieve your fitness goals.",
-        "am": "TenaPrime የአካል ብቃት ግቦችዎን እንዲያሳኩ የሚያግዝዎ ግላዊ የተመጣጠነ ምግብ እና የአካል ብቃት እንቅስቃሴ እቅድ የሚያቀርብ መድረክ ነው"
+        "en": "TenaPrime harnesses the power of AI and the expertise of human scientists to generate the best workout plan for you.",
+        "am": "TenaPrime ለእርስዎ ምርጡን የአካል ብቃት እንቅስቃሴ እቅድ ለማውጣት የAI ሃይልን እና የሰው ሳይንቲስቶችን እውቀት ይጠቀማል።"
     },
     "exercises-page-greeting-1": {
         "en": "In Order to Access Exercise Plans Provided By TenaPrime, Please Login to Your TenaPrime Account",
@@ -130,6 +130,10 @@
     "register-toast": {
         "en": "If you don't have an account, you can register by sending OK to 8362.",
         "am": "መለያ ከሌለዎት፣ ወደ 8362 OK ብለው በመላክ መመዝገብ ይችላሉ።"
+    },
+    "login-failed": {
+        "en": "Login failed. Please check the information you entered and try again.",
+        "am": "በመለያ መግባት አልተሳካም። እባክዎ ያስገቡትን መረጃ ያረጋግጡና እንደገና ይሞክሩ።"
     },
     "tandc": {
         "en": "Terms & Conditions",
@@ -198,5 +202,49 @@
     "footer-copyright": {
         "en": "© 2024 TenaPrime. All rights reserved.",
         "am": "© 2024 TenaPrime። መብቱ በህግ የተጠበቀ ነው።"
+    },
+    "winners-section-title": {
+        "en": "Meet the winners!",
+        "am": "አሸናፊዎቹን ይመልከቱ!"
+    },
+    "winners-section-description": {
+        "en": "Here are some of the winners of our weekly contest. <a href=\"#\">Login</a> or <a href=\"#\">Register</a> to participate.",
+        "am": "እነዚህ የሳምንታዊ ውድድራችን አሸናፊዎች ናቸው። ለመሳተፍ <a href=\"#\">ይግቡ</a> ወይም <a href=\"#\">ይመዝገቡ</a>።"
+    },
+    "exercises-section-title": {
+        "en": "Exercises",
+        "am": "ስፖርቶች"
+    },
+    "exercises-section-description": {
+        "en": "Transform your body, uplift your spirit, and unlock your potential! Whether you're just starting or pushing past your limits, every drop of sweat is a victory, and every movement is a celebration of what your body can achieve. Start today, because the journey to a healthier, happier you begins with a single decision to move forward.",
+        "am": "አካልዎን ይለውጡ፣ መንፈስዎን ያነሱ እና አቅምዎን ይፍቱ! አዲስ ጀማሪ ቢሆኑም ወይም ገደብዎን እየተሻገሩ ቢሆንም፣ እያንዳንዱ የላብ ጠብታ ድል ነው፣ እያንዳንዱም እንቅስቃሴ አካልዎ ሊያደርገው የሚችለውን የሚያከብር ነው። ዛሬ ይጀምሩ፣ ምክንያቱም ወደ ጤናማ እና ደስተኛ እርስዎ የሚወስደው ጉዞ የሚጀምረው በአንድ ወደፊት የመሄድ ውሳኔ ነው።"
+    },
+    "nutrition-section-title": {
+        "en": "Nutrition",
+        "am": "አመጋገብ"
+    },
+    "nutrition-section-description": {
+        "en": "Fuel your body, uplift your spirit, and discover your true potential! Whether you're just beginning your nutrition journey or fine-tuning your habits, every meal is a step forward, and every nutritious choice is a celebration of self-love. Take the first step today, because building a healthier, more energized you starts with one conscious choice to thrive.",
+        "am": "አካልዎን ያንቁ፣ መንፈስዎን ያነሱ እና እውነተኛ አቅምዎን ይፋ ያድርጉ! የአመጋገብ ጉዞዎን እየጀመሩ ወይም ልማዶችዎን እያስተካከሉ ቢሆንም፣ እያንዳንዱ ምግብ አንድ እርምጃ ወደፊት ነው፣ እያንዳንዱም ጤናማ ምርጫ የራስ ፍቅር አከባበር ነው። ዛሬ የመጀመሪያውን እርምጃ ይውሰዱ፣ ምክንያቱም ጤናማ እና 더 ኃይለኛ እርስዎን መገንባት የሚጀምረው በአንድ ንቁ የመብቃት ምርጫ ነው።"
+    },
+    "prizes-section-title": {
+        "en": "Prizes",
+        "am": "ሽልማቶች"
+    },
+    "prizes-section-description": {
+        "en": "Win amazing prizes and rewards by taking part in our weekly contests! No matter if you're a beginner or pushing yourself to new heights, every step you take brings you closer to winning. Don't wait—start today and get in on the action, because the prizes are waiting for you, and all it takes is a little effort to claim them!",
+        "am": "በሳምንታዊ ውድድሮቻችን በመሳተፍ አስደናቂ ሽልማቶችን እና ሽልማቶችን ያሸንፉ! ጀማሪ ቢሆኑም ወይም ራስዎን ወደ አዲስ ከፍታዎች እየገፉ ቢሆንም፣ የሚወስዱት እያንዳንዱ እርምጃ ወደ ድል ያቀርብዎታል። አይጠብቁ—ዛሬውኑ ይጀምሩ እና በድርጊቱ ውስጥ ይግቡ፣ ምክንያቱም ሽልማቶቹ እየጠበቁዎት ነው፣ እና ለማግኘት የሚያስፈልገው ትንሽ ጥረት ብቻ ነው!"
+    },
+    "front-page-user-greeting-1": {
+        "en": "Welcome Back!",
+        "am": "እንኳን ደህና መጡ!"
+    },
+    "view-exercise-plans": {
+        "en": "View Exercise Plans",
+        "am": "የስፖርት እቅዶችን ይመልከቱ"
+    },
+    "view-nutrition-plans": {
+        "en": "View Nutrition Plans",
+        "am": "የአመጋገብ እቅዶችን ይመልከቱ"
     }
 }

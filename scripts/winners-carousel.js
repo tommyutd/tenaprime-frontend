@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         card.className = 'card';
         card.innerHTML = `
             <img src="${data.image}" alt="${data.title}">
-            <h3>${data.title}</h3>
-            <p>${data.description}</p>
+            <h3 data-text-key="winners-carousel-title">${data.title}</h3>
+            <p data-text-key="winners-carousel-description">${data.description}</p>
         `;
         return card;
     }

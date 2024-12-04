@@ -261,25 +261,29 @@ document.addEventListener('DOMContentLoaded', async function() {
                 const errorToastHTML = `
                     <div class="error-toast-overlay aleo-text" id="errorToastOverlay">
                         <div class="toast-notification error">
-                            <span data-text-key="login-failed">Login failed. Please check the information you entered and try again.</span>
+                            <span data-text-key="login-failed"></span>
                         </div>
                     </div>
                 `;
                 
                 document.body.insertAdjacentHTML('beforeend', errorToastHTML);
                 const errorToast = document.getElementById('errorToastOverlay');
-                const toastNotification = errorToast.querySelector('.toast-notification');
+                const errorToastNotification = errorToast.querySelector('.toast-notification');
+                const textElement = errorToast.querySelector('[data-text-key]');
+                const currentLang = document.querySelector('.language-selector p').textContent.toLowerCase();
+                const key = textElement.dataset.textKey;
+                textElement.textContent = currentLang === 'en' ? window.englishStrings[key] : window.amharicStrings[key];
                 
                 // Show toast with animation
                 errorToast.style.display = 'flex';
                 requestAnimationFrame(() => {
                     errorToast.classList.add('show');
-                    toastNotification.classList.add('show');
+                    errorToastNotification.classList.add('show');
                 });
                 
                 // Hide and remove toast after 5 seconds
                 setTimeout(() => {
-                    toastNotification.classList.remove('show');
+                    errorToastNotification.classList.remove('show');
                     errorToast.classList.remove('show');
                     setTimeout(() => {
                         if (errorToast && errorToast.parentNode) {
@@ -291,7 +295,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 // Add click event listener to close toast on click
                 errorToast.addEventListener('click', function(e) {
                     if (e.target === errorToast) {
-                        toastNotification.classList.remove('show');
+                        errorToastNotification.classList.remove('show');
                         errorToast.classList.remove('show');
                         setTimeout(() => {
                             if (errorToast && errorToast.parentNode) {

@@ -200,11 +200,13 @@
 .card h3 {
   padding: 10px;
   margin: 0;
+  color: #000
 }
 
 .card p {
   padding: 0 10px 10px;
   margin: 0;
+  color: #000
 }
 
 .card.active:not(:hover) {
@@ -291,7 +293,7 @@
 .nutrition-section {
   width: 100%;
   min-height: 90vh;
-  background: linear-gradient(135deg, #BA9C62 0%, #62BA70 400%);
+  background: linear-gradient(135deg, #BA9C62 0%, #62BA70 150%);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -330,6 +332,53 @@
 }
 
 .nutrition-section-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/*Prizes Section*/ 
+.prizes-section {
+  width: 100%;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #BA9C62 0%, #BA62AC 150%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 5%;
+}
+
+.prizes-section-text-container {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.prizes-section-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 20%;
+}
+
+.prizes-section-texts h1, p {
+  color: white;
+  max-width: 75%;
+  align-content: left;
+}
+
+.prizes-section-image-container {
+  flex: 1;
+  height: 70vh;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prizes-section-image-container img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
