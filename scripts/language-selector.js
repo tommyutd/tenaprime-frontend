@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
     // Wait for strings to be loaded
     if (Object.keys(window.englishStrings).length === 0) {
         setTimeout(() => {
@@ -13,13 +13,18 @@ document.addEventListener('DOMContentLoaded', function() {
         updateLanguage(storedLang);
     }
     // Then check user data if available
-    else if (window.userData && window.userData.user && window.userData.user.lang) {
-        const userLang = window.userData.user.lang;
-        updateLanguage(userLang);
-    }
-    // Default to English if no stored preference
     else {
-        updateLanguage('en');
+        if (window.authState) {
+            await window.authState.init();
+        }
+
+        if (window.userData && window.userData.user && window.userData.user.user.lang) {
+            const userLang = window.userData.user.user.lang;
+            updateLanguage(userLang);
+        }
+        else {
+            updateLanguage('en');
+        }
     }
 
     const languageOptions = document.querySelectorAll('.language-option');

@@ -311,15 +311,21 @@ document.addEventListener('DOMContentLoaded', async function() {
             const data = await response.json();
             localStorage.setItem("login-token", data.token);
             
-            // Update auth state
+            // Update auth state and get user data
             if (window.authState) {
                 await window.authState.init();
+                
+                // Check if user data contains language preference
+                if (window.userData && window.userData.user && window.userData.user.user.lang) {
+                    // Update UI with user's preferred language
+                    updateLanguage(window.userData.user.user.lang);
+                }
+                
                 if (typeof initializeUserStats === 'function') {
                     initializeUserStats();
                 }
             }
         } catch (error) {
-            // Handle the error silently or log a custom message
             console.error("An error occurred during login, but it has been handled.");
         }
     }
