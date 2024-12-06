@@ -93,7 +93,7 @@ async function updateUserLanguagePreference(lang) {
         const token = localStorage.getItem('login-token');
         if (!token) return;
 
-        const response = await fetch('http://127.0.0.1:5000/api/v1/subscriber/update-lang', {
+        const response = await fetch(`${window.CONFIG.API_URL}/subscriber/update-lang`, {
             method: 'PUT',
             headers: {
                 'Authorization': `Bearer ${token}`,

@@ -104,7 +104,7 @@ function initializeUserStats() {
 
             logoutButton.addEventListener('click', async function() {
                 localStorage.removeItem('login-token');
-                window.location.reload();
+                window.location.href = 'index.html';
             });
 
             // Close popup when clicking outside

@@ -64,11 +64,13 @@ async function validateTokenAndGetUserData() {
         if (!token) {
             window.userData.isTokenValid = false;
             window.userData.user = null;
+            if (window.location.pathname.includes('dashboard.html')) {
+                window.location.href = 'index.html';
+            }
             return false;
         }
 
-        const response = await fetch('http://127.0.0.1:5000/api/v1/subscriber/me', {
-            method: 'GET',
+        const response = await fetch(`${window.CONFIG.API_URL}/subscriber/me`, {
             headers: {
                 'Authorization': `Bearer ${token}`,
                 'Content-Type': 'application/json'
@@ -80,19 +82,22 @@ async function validateTokenAndGetUserData() {
         }
 
         const userData = await response.json();
-        
         window.userData.isTokenValid = true;
         window.userData.user = userData;
 
+        if (!window.location.pathname.includes('dashboard.html')) {
+            window.location.href = 'dashboard.html';
+        }
+
         return true;
     } catch (error) {
-        //console.error('Token validation error:', error);
         localStorage.removeItem('login-token');
         window.userData.isTokenValid = false;
         window.userData.user = null;
-
-        window.location.reload()
-
+        
+        if (window.location.pathname.includes('dashboard.html')) {
+            window.location.href = 'index.html';
+        }
         return false;
     }
 }

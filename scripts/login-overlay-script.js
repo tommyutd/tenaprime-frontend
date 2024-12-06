@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     async function loginUser(credentials) {
         try {
-            const response = await fetch("http://127.0.0.1:5000/api/v1/subscriber/login", {
+            const response = await fetch(`${window.CONFIG.API_URL}/subscriber/login`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(credentials),
@@ -325,6 +325,9 @@ document.addEventListener('DOMContentLoaded', async function() {
                     initializeUserStats();
                 }
             }
+
+            window.location.href = 'dashboard.html';
+            
         } catch (error) {
             console.error("An error occurred during login, but it has been handled.");
         }

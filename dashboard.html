@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TenaPrime</title>
+    <title>TenaPrime - Dashboard</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./styles/nutrition.css">
-    <link rel="stylesheet" href="./styles/login-overlay-style.css">
+    <link rel="stylesheet" href="./styles/index-loggedin.css">
     <link rel="stylesheet" href="./styles/user-stats-popup.css">
     <link rel="icon" href="./assets/logo-mini.svg">
 </head>
@@ -34,13 +33,13 @@
           <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
         </a>
       </div>
-
+      
       <div class="navigation-prizes">
         <a href="prizes.html">
           <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
         </a>
       </div>
-      
+
       <div class="navigation-about">
         <a href="about.html">
           <div class="about-text" data-text-key="about-menu-item">About</div>
@@ -70,16 +69,50 @@
       </div>
     </div>
   </div>
-  <div class="nutrition-page aleo-text">
-    <div class="nutrition-page-greeting">
-      <h1 data-text-key="nutrition-page-greeting-1">In Order to Access Nutrition Plans Provided By TenaPrime, Please Login to Your TenaPrime Account</h1>
-      <h2 data-text-key="nutrition-page-greeting-2">If You Are New To TenaPrime, You Can Register by Clicking the Button Below</h2>
-      <div class="intro-buttons aleo-text">
-        <button class="intro-login-button aleo-text" data-text-key="login">Login</button>
-        <button class="intro-register-button aleo-text" data-text-key="register">Register</button>
+
+  <div class="user-front-page-greeting aleo-text">
+    <div class="user-front-page-greeting-texts">  
+      <h1 data-text-key="front-page-user-greeting-1">Welcome Back!</h1>
+    </div>
+    <div class="cards-page aleo-text">
+      <div class="cards-container">
+        <div class="big-card">
+          <div class="card-content">
+            <h2>Main Card</h2>
+            <p>This is the main content area</p>
+          </div>
+        </div>
+        <div class="small-cards">
+            <div class="small-card">
+              <div class="card-content">
+                <h3>Card 1</h3>
+                <p>Content for card 1</p>
+              </div>
+            </div>
+            <div class="small-card">
+              <div class="card-content">
+                <h3>Card 2</h3>
+                <p>Content for card 2</p>
+              </div>
+            </div>
+            <div class="small-card">
+              <div class="card-content">
+                <h3>Card 3</h3>
+                <p>Content for card 3</p>
+              </div>
+            </div>
+            <div class="small-card">
+              <div class="card-content">
+                <h3>Card 4</h3>
+                <p>Content for card 4</p>
+              </div>
+            </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <!-- Include the same footer as index.html -->
   <div class="footer aleo-text">
     <div class="footer-content">
       <div class="footer-sections">
@@ -133,10 +166,9 @@
 <script src="./scripts/config.js"></script>
 <script src="./scripts/auth-service.js"></script>
 <script src="./scripts/strings-loader.js"></script>
-<script src="./scripts/login-overlay-script.js"></script>
 <script src="./scripts/language-selector.js"></script>
-<script src="./scripts/sidebar-overlay.js"></script>
 <script src="./scripts/user-stats-popup.js"></script>
-    
+<script src="./scripts/sidebar-overlay.js"></script>
+
 </body>
-</html>
+</html> 
