@@ -1,142 +1,76 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
   const hamburgerMenu = document.querySelector('.hamburger-menu');
+  const sidebar = document.getElementById('sidebar');
+  const sidebarClose = sidebar.querySelector('.sidebar-close');
+  const sidebarOverlay = document.querySelector('.sidebar-overlay');
+  const languageOptions = sidebar.querySelectorAll('.sidebar-language-option');
   
-  // Function to create and append sidebar
-  function createSidebar() {
-    if (!document.getElementById('sidebar')) {
-      if (Object.keys(window.englishStrings).length === 0) {
-        setTimeout(createSidebar, 100);
-        return;
-      }
-
-      // Get current language before creating HTML
-      const currentLang = document.querySelector('.language-selector p').textContent.toLowerCase();
-      
-      // Create sidebar HTML with currentLang
-      const sidebarHTML = `
-        <div class="sidebar aleo-text" id="sidebar">
-          <div class="sidebar-header">
-            <div class="sidebar-logo">
-              <img src="./assets/logo.svg" alt="TenaPrime">
-            </div>
-            <button class="sidebar-close">&times;</button>
-          </div>
-          
-          <div class="sidebar-language-selector">
-            <div class="language-options-container">
-              <div class="sidebar-language-option ${currentLang === 'en' ? 'active' : ''}" data-lang="en">
-                <span class="language-text">English</span>
-              </div>
-              <div class="sidebar-language-option ${currentLang === 'አማ' ? 'active' : ''} ethiopic-text" data-lang="አማ">
-                <span class="language-text">አማርኛ</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="sidebar-navigation">
-            <a href="index.html" class="sidebar-item">
-              <div data-text-key="home-menu-item">Home</div>
-            </a>
-            <a href="exercises.html" class="sidebar-item">
-              <div data-text-key="exercises-menu-item">Exercises</div>
-            </a>
-            <a href="nutrition.html" class="sidebar-item">
-              <div data-text-key="nutrition-menu-item">Nutrition</div>
-            </a>
-            <a href="prizes.html" class="sidebar-item">
-              <div data-text-key="prizes-menu-item">Prizes</div>
-            </a>
-            <a href="about.html" class="sidebar-item">
-              <div data-text-key="about-menu-item">About</div>
-            </a>
-          </div>
-
-          <div class="sidebar-footer">
-            <a href="#" class="sidebar-item">
-              <div data-text-key="tandc">Terms & Conditions</div>
-            </a>
-            <a href="#" class="sidebar-item">
-              <div data-text-key="faq">FAQ</div>
-            </a>
-            <a href="#" class="sidebar-item">
-              <div data-text-key="privacy-policy">Privacy Policy</div>
-            </a>
-            <a href="#" class="sidebar-item">
-              <div data-text-key="contact-us">Contact Us</div>
-            </a>
-          </div>
-        </div>
-        <div class="sidebar-overlay"></div>
-      `;
-
-      document.body.insertAdjacentHTML('beforeend', sidebarHTML);
-      
-      const sidebar = document.getElementById('sidebar');
-      const sidebarClose = sidebar.querySelector('.sidebar-close');
-      const sidebarOverlay = document.querySelector('.sidebar-overlay');
-      const languageOptions = sidebar.querySelectorAll('.sidebar-language-option');
-      
-      // Language switching functionality
-      languageOptions.forEach(option => {
-        option.addEventListener('click', function() {
-          const lang = this.dataset.lang;
-          const mainLanguageText = document.querySelector('.language-selector p');
-          mainLanguageText.textContent = lang.toUpperCase();
-          
-          // Update active states
-          languageOptions.forEach(opt => {
-            opt.classList.remove('active');
-          });
-          this.classList.add('active');
-          
-          // Update fonts
-          const fontElements = document.querySelectorAll('.aleo-text, .ethiopic-text');
-          fontElements.forEach(element => {
-            // Skip elements that contain Amharic text
-            if (element.classList.contains('sidebar-language-option') && element.dataset.lang === 'አማ') {
-              return;
-            }
-            
-            if (lang === 'en') {
-              element.classList.remove('ethiopic-text');
-              element.classList.add('aleo-text');
-            } else {
-              element.classList.remove('aleo-text');
-              element.classList.add('ethiopic-text');
-            }
-          });
-          
-          // Update text content
-          const textElements = document.querySelectorAll('[data-text-key]');
-          textElements.forEach(element => {
-            const key = element.dataset.textKey;
-            element.innerHTML = lang === 'en' ? 
-              window.englishStrings[key] : 
-              window.amharicStrings[key];
-          });
-        });
-      });
-
-      // Toggle sidebar
-      function toggleSidebar() {
-        sidebar.classList.toggle('open');
-        sidebarOverlay.classList.toggle('active');
-        document.body.style.overflow = sidebar.classList.contains('open') ? 'hidden' : '';
-      }
-
-      // Event listeners
-      hamburgerMenu.addEventListener('click', toggleSidebar);
-      sidebarClose.addEventListener('click', toggleSidebar);
-      sidebarOverlay.addEventListener('click', toggleSidebar);
-
-      // Close sidebar on escape key
-      document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape' && sidebar.classList.contains('open')) {
-          toggleSidebar();
-        }
-      });
-    }
+  // Set initial states
+  sidebar.style.display = 'none';
+  sidebarOverlay.style.display = 'none';
+  
+  // Set initial active language from localStorage or user data
+  const storedLang = localStorage.getItem('app-language');
+  if (storedLang) {
+    setActiveSidebarLanguage(storedLang);
+  } else if (window.userData && window.userData.user && window.userData.user.user.lang) {
+    setActiveSidebarLanguage(window.userData.user.user.lang);
+  } else {
+    setActiveSidebarLanguage('en');
   }
 
-  createSidebar();
+  // Language switching functionality
+  languageOptions.forEach(option => {
+    option.addEventListener('click', function() {
+      const lang = this.dataset.lang;
+      updateLanguage(lang); // Using the global updateLanguage function
+      setActiveSidebarLanguage(lang === 'en' ? 'en' : 'am');
+    });
+  });
+
+  function setActiveSidebarLanguage(lang) {
+    const normalizedLang = lang === 'en' || lang === 'EN' ? 'en' : 'አማ';
+    languageOptions.forEach(option => {
+      if (option.dataset.lang === normalizedLang) {
+        option.classList.add('active');
+      } else {
+        option.classList.remove('active');
+      }
+    });
+  }
+
+  function showSidebar() {
+    sidebar.style.display = 'flex';
+    sidebarOverlay.style.display = 'block';
+    // Trigger reflow
+    sidebar.offsetHeight;
+    sidebarOverlay.offsetHeight;
+    
+    requestAnimationFrame(() => {
+      sidebar.classList.add('open');
+      sidebarOverlay.classList.add('active');
+    });
+  }
+
+  function hideSidebar() {
+    sidebar.classList.remove('open');
+    sidebarOverlay.classList.remove('active');
+    
+    setTimeout(() => {
+      sidebar.style.display = 'none';
+      sidebarOverlay.style.display = 'none';
+    }, 300);
+  }
+
+  // Event listeners
+  hamburgerMenu.addEventListener('click', showSidebar);
+  sidebarClose.addEventListener('click', hideSidebar);
+  sidebarOverlay.addEventListener('click', hideSidebar);
+
+  // Close sidebar on escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && sidebar.classList.contains('open')) {
+      hideSidebar();
+    }
+  });
 });
