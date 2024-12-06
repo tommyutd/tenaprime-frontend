@@ -130,6 +130,12 @@ document.addEventListener('DOMContentLoaded', async function() {
     loginForm.addEventListener('submit', async function(e) {
         e.preventDefault();
         if (!loginSubmitButton.disabled) {
+            // Add loading state and disable button
+            loginSubmitButton.classList.add('loading');
+            loginSubmitButton.disabled = true;
+            loginSubmitButton.style.opacity = '0.5';
+            loginSubmitButton.style.cursor = 'not-allowed';
+
             const credentials = {
                 phone: phoneInput.value,
                 pin: pinInput.value,
@@ -142,6 +148,9 @@ document.addEventListener('DOMContentLoaded', async function() {
             } catch (error) {
                 // Error handling is done within loginUser function
                 console.error("Login failed");
+                // Re-enable the button and restore its state only on error
+                loginSubmitButton.classList.remove('loading');
+                validateForm(); // This will properly set the button state based on form validity
             }
         }
     });
@@ -190,7 +199,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                     }
                 });
                 
-                return;
+                throw new Error('Login failed');
             }
 
             const data = await response.json();
@@ -199,7 +208,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             window.location.href = 'dashboard.html';
 
         } catch (error) {
-            console.error("An error occurred during login, but it has been handled.");
+            throw error; // Re-throw to handle in the submit handler
         }
     }
 });
