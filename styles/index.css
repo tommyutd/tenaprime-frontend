@@ -274,6 +274,35 @@
   align-content: left;
 }
 
+.exercises-section-texts h1 {
+  font-size: 2.5rem;
+}
+
+.exercises-section-texts p {
+  font-size: 1.5rem;
+}
+
+.exercises-section-texts p #exercises-promo-text {
+  font-weight: bold;
+  color: #BA9C62;
+  background-color: white;
+}
+
+.exercises-section-texts p #exercises-promo-text-inner {
+  text-decoration: underline;
+  color: #BA6262;
+}
+
+.exercises-section-texts p #exercises-promo-goals {
+  font-weight: bold;
+  color: #BA62AC;
+}
+
+.exercises-section-texts p #exercises-promo-500 {
+  font-weight: bold;
+  color: #62BA70;
+}
+
 .exercises-section-image-container {
   flex: 1;
   height: 70vh;
@@ -319,6 +348,35 @@
   color: white;
   max-width: 75%;
   align-content: left;
+}
+
+.nutrition-section-texts h1 {
+  font-size: 2.5rem;
+}
+
+.nutrition-section-texts p {
+  font-size: 1.5rem;
+}
+
+.nutrition-section-texts p #nutrition-promo-text {
+  font-weight: bold;
+  color: #BA9C62;
+  background-color: white;
+}
+
+.nutrition-section-texts p #nutrition-promo-text-inner {
+  text-decoration: underline;
+  color: #62BA70;
+}
+
+.nutrition-section-texts p #nutrition-promo-cookbook {
+  font-weight: bold;
+  color: #BA62AC;
+}
+
+.nutrition-section-texts p #nutrition-promo-1k {
+  font-weight: bold;
+  color: #BA7062;
 }
 
 .nutrition-section-image-container {
@@ -369,6 +427,31 @@
   align-content: left;
 }
 
+.prizes-section-texts h1 {
+  font-size: 2.5rem;
+}
+
+.prizes-section-texts p {
+  font-size: 1.5rem;
+}
+
+.prizes-section-texts p #prize-promo-10k {
+  font-weight: bold;
+  color: #BA62AC;
+}
+
+.prizes-section-texts p #prize-promo-50k {
+  font-weight: bold;
+  color: #62BA70;
+}
+
+.prizes-section-texts p #prize-promo-text {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #BA9C62;
+  background-color: white;
+}
+
 .prizes-section-image-container {
   flex: 1;
   height: 70vh;
@@ -382,31 +465,4 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-}
-
-/*Logged in Content*/
-.user-dashboard {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.quick-actions {
-  display: flex;
-  gap: 1rem;
-}
-
-.dashboard-button {
-  padding: 1rem 2rem;
-  background-color: rgba(186, 156, 98, 1);
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-}
-
-.dashboard-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(186, 156, 98, 0.3);
 }

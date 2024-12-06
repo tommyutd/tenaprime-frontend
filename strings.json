@@ -212,27 +212,27 @@
         "am": "እነዚህ የሳምንታዊ ውድድራችን አሸናፊዎች ናቸው። ለመሳተፍ <a href=\"#\">ይግቡ</a> ወይም <a href=\"#\">ይመዝገቡ</a>።"
     },
     "exercises-section-title": {
-        "en": "Exercises",
+        "en": "Prime Fitness",
         "am": "ስፖርቶች"
     },
     "exercises-section-description": {
-        "en": "Transform your body, uplift your spirit, and unlock your potential! Whether you're just starting or pushing past your limits, every drop of sweat is a victory, and every movement is a celebration of what your body can achieve. Start today, because the journey to a healthier, happier you begins with a single decision to move forward.",
+        "en": "<span id=\"exercises-promo-text\">Get Stronger, <span id=\"exercises-promo-text-inner\">Feel Better</span></span> - We'll craft a plan that fits your <span id=\"exercises-promo-goals\">goals, lifestyle, and fitness level</span>. Access <span id=\"exercises-promo-500\">500+</span> exercises and expert tips to stay motivated.",
         "am": "አካልዎን ይለውጡ፣ መንፈስዎን ያነሱ እና አቅምዎን ይፍቱ! አዲስ ጀማሪ ቢሆኑም ወይም ገደብዎን እየተሻገሩ ቢሆንም፣ እያንዳንዱ የላብ ጠብታ ድል ነው፣ እያንዳንዱም እንቅስቃሴ አካልዎ ሊያደርገው የሚችለውን የሚያከብር ነው። ዛሬ ይጀምሩ፣ ምክንያቱም ወደ ጤናማ እና ደስተኛ እርስዎ የሚወስደው ጉዞ የሚጀምረው በአንድ ወደፊት የመሄድ ውሳኔ ነው።"
     },
     "nutrition-section-title": {
-        "en": "Nutrition",
+        "en": "Personalized Meals",
         "am": "አመጋገብ"
     },
     "nutrition-section-description": {
-        "en": "Fuel your body, uplift your spirit, and discover your true potential! Whether you're just beginning your nutrition journey or fine-tuning your habits, every meal is a step forward, and every nutritious choice is a celebration of self-love. Take the first step today, because building a healthier, more energized you starts with one conscious choice to thrive.",
+        "en": "<span id=\"nutrition-promo-text\">Eat Better, <span id=\"nutrition-promo-text-inner\">Live Better</span></span> - We'll make a plan that works for you! Enjoy our <span id=\"nutrition-promo-cookbook\">cookbook</span> with over <span id=\"nutrition-promo-1k\">1000</span> healthy recipes.",
         "am": "አካልዎን ያንቁ፣ መንፈስዎን ያነሱ እና እውነተኛ አቅምዎን ይፋ ያድርጉ! የአመጋገብ ጉዞዎን እየጀመሩ ወይም ልማዶችዎን እያስተካከሉ ቢሆንም፣ እያንዳንዱ ምግብ አንድ እርምጃ ወደፊት ነው፣ እያንዳንዱም ጤናማ ምርጫ የራስ ፍቅር አከባበር ነው። ዛሬ የመጀመሪያውን እርምጃ ይውሰዱ፣ ምክንያቱም ጤናማ እና 더 ኃይለኛ እርስዎን መገንባት የሚጀምረው በአንድ ንቁ የመብቃት ምርጫ ነው።"
     },
     "prizes-section-title": {
-        "en": "Prizes",
+        "en": "Incredible Prizes",
         "am": "ሽልማቶች"
     },
     "prizes-section-description": {
-        "en": "Win amazing prizes and rewards by taking part in our weekly contests! No matter if you're a beginner or pushing yourself to new heights, every step you take brings you closer to winning. Don't wait—start today and get in on the action, because the prizes are waiting for you, and all it takes is a little effort to claim them!",
+        "en": "Health Is Wealth - <span id=\"prize-promo-text\">Literally!</span> Win <span id=\"prize-promo-10k\">10,000 ETB</span> instantly and <span id=\"prize-promo-50k\">50,000 ETB</span> with TenaPrime's Personalized Programs.",
         "am": "በሳምንታዊ ውድድሮቻችን በመሳተፍ አስደናቂ ሽልማቶችን እና ሽልማቶችን ያሸንፉ! ጀማሪ ቢሆኑም ወይም ራስዎን ወደ አዲስ ከፍታዎች እየገፉ ቢሆንም፣ የሚወስዱት እያንዳንዱ እርምጃ ወደ ድል ያቀርብዎታል። አይጠብቁ—ዛሬውኑ ይጀምሩ እና በድርጊቱ ውስጥ ይግቡ፣ ምክንያቱም ሽልማቶቹ እየጠበቁዎት ነው፣ እና ለማግኘት የሚያስፈልገው ትንሽ ጥረት ብቻ ነው!"
     },
     "front-page-user-greeting-1": {
@@ -246,5 +246,25 @@
     "view-nutrition-plans": {
         "en": "View Nutrition Plans",
         "am": "የአመጋገብ እቅዶችን ይመልከቱ"
+    },
+    "about-page-greeting-description-2": {
+        "en": "You must do 5 things to live better longer: stay active, eat right, sleep well, think positively, and make meaningful connections. Doing these things, day in and day out, means more time with friends, more time with children (and grandchildren), and more time to laugh and love. But actually doing these things can be so hard for so many of us.",
+        "am": "የተሻለ ረጅም ዕድሜ ለመኖር 5 ነገሮችን ማድረግ አለብዎት፡ ንቁ ይሁኑ፣ በትክክል ይመገቡ፣ በደንብ ይተኙ፣ በአዎንታዊነት ያስቡ እና ትርጉም ያላቸው ግንኙነቶችን ይፍጠሩ። እነዚህን ነገሮች ቀን በቀን ማድረግ ከጓደኞች ጋር የበለጠ ጊዜ፣ ከልጆች (እና ከልጅ ልጆች) ጋር የበለጠ ጊዜ እና ለመሳቅና ለመዋደድ የበለጠ ጊዜ ማለት ነው። ነገር ግን እነዚህን ነገሮች በትክክል ማድረግ ለብዙዎቻችን በጣም ከባድ ሊሆን ይችላል።"
+    },
+    "about-page-greeting-description-3": {
+        "en": "That's where TenaPrime comes in. By making it FUN and REWARDING to build good habits, and by doing it as part of a supportive community with live sessions from Noom wellness coaches and other experts and leading voices, we are here to help you live better. Our mission is to unlock 100 million additional healthy years for people like you over the next decade. It all starts with you having more time to be you.",
+        "am": "TenaPrime የሚገባው እዚህ ላይ ነው። ጥሩ ልማዶችን መገንባት አዝናኝ እና ሽልማት የሚያስገኝ በማድረግ እና ከNoom የጤና አሰልጣኞች እና ሌሎች ባለሙያዎች እና መሪ ድምፆች ጋር በቀጥታ ክፍለ ጊዜዎች በሚደጋገፍ ማህበረሰብ አካል በመሆን፣ የተሻለ ህይወት እንዲኖሩ ለመርዳት እዚህ አለን። ተልዕኳችን በሚቀጥሉት አስር ዓመታት ውስጥ ለእርስዎ መሰል ሰዎች 100 ሚሊዮን ተጨማሪ ጤናማ ዓመታትን ማስገኘት ነው። ሁሉም የሚጀምረው እርስዎ ራስዎ ለመሆን የበለጠ ጊዜ ሲኖርዎት ነው።"
+    },
+    "about-page-greeting-title-2": {
+        "en": "Feel Great.",
+        "am": "ጥሩ ይሰማዎት።"
+    },
+    "about-page-greeting-title-3": {
+        "en": "Body and Mind.",
+        "am": "አካል እና አእምሮ።"
+    },
+    "about-page-greeting-description-4": {
+        "en": "Choose from hundreds of workouts, healthy recipes, relaxing meditations, and expert articles, for a whole body and mind approach to feeling great.",
+        "am": "ለመላ አካልና አእምሮ ደህንነት ከመቶዎች የሚቆጠሩ የአካል ብቃት እንቅስቃሴዎችን፣ ጤናማ የምግብ ዝግጅቶችን፣ አረፋጅ ማሰላሰያዎችን እና የባለሙያ ጽሑፎችን ይምረጡ።"
     }
 }

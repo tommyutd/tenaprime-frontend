@@ -1,0 +1,95 @@
+/*Logged in Content*/
+.user-front-page-greeting {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-front-page-greeting-texts {
+  display: flex;
+  margin-left: 3%;
+}
+
+.user-front-page-greeting-texts h1 {
+  max-width: 90%;
+  color: rgba(186, 156, 98, 1);
+}
+
+.cards-page {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.cards-container {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  height: 80vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.big-card {
+  flex: 1;
+  background: linear-gradient(135deg, #BA9C62 0%, #BA7062 110%);
+  border-radius: 1rem;
+  padding: 2rem;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.big-card:hover {
+  transform: translateY(-5px);
+}
+
+.small-cards {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.small-card {
+  background: rgba(186, 156, 98, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.small-card:hover {
+  transform: translateY(-5px);
+  background: rgba(186, 156, 98, 0.2);
+}
+
+.card-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-content h2 {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.card-content h3 {
+  color: rgba(186, 156, 98, 1);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.card-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  line-height: 1.5;
+}
