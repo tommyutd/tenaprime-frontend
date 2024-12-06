@@ -1,10 +1,19 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    if (window.authState) {
+        await window.authState.init();
+    }
+
+    if (!window.authState || !window.authState.isTokenPresent) {
+        return;
+    }
+
     const avatar = document.querySelector('.avatar');
     const statsPopup = document.getElementById('statsPopup');
     const statsContainer = statsPopup.querySelector('.stats-container');
     const closeButton = document.getElementById('closeStats');
+    const logoutButton = document.querySelector('.logout-button');
 
-    if (!avatar || !statsPopup || !statsContainer || !closeButton) {
+    if (!avatar || !statsPopup || !statsContainer || !closeButton || !logoutButton) {
         console.error('Required elements not found');
         return;
     }
@@ -14,12 +23,10 @@ document.addEventListener('DOMContentLoaded', function() {
         e.stopPropagation();
         
         // Check if user is authenticated
-        if (window.authState && window.authState.isTokenPresent) {
-            statsPopup.style.display = 'block';
-            statsPopup.offsetHeight;
-            statsPopup.classList.add('show');
-            statsContainer.classList.add('show');
-        }
+        statsPopup.style.display = 'block';
+        statsPopup.offsetHeight;
+        statsPopup.classList.add('show');
+        statsContainer.classList.add('show');
     });
 
     // Close popup when clicking close button
@@ -29,6 +36,15 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(() => {
             statsPopup.style.display = 'none';
         }, 300);
+    });
+
+    // Handle logout
+    logoutButton.addEventListener('click', function() {
+        // Clear the login token
+        localStorage.removeItem('login-token');
+        
+        // Redirect to index page
+        window.location.href = 'index.html';
     });
 
     // Close popup when clicking outside

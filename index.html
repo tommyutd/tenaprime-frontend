@@ -6,8 +6,6 @@
     <title>TenaPrime</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/login-overlay-style.css">
-    <link rel="stylesheet" href="./styles/index-loggedin.css">
     <link rel="icon" href="./assets/logo-mini.svg">
 </head>
 <body>
@@ -213,6 +211,65 @@
       </div>
     </div>
   </div>
+</div>
+
+<!-- Login Overlay -->
+<div class="login-overlay aleo-text" id="loginOverlay">
+    <div class="login-container">
+        <div class="login-header">
+            <h2 data-text-key="login-title">Login to TenaPrime</h2>
+            <button class="close-button" id="closeLogin">&times;</button>
+        </div>
+        <form class="login-form">
+            <div class="form-group">
+                <label for="number" class="form-label" data-text-key="phone-number-label">Phone Number</label>
+                <div class="phone-input-container">
+                    <span class="country-code">+251</span>
+                    <input type="number" id="number" required maxlength="6">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="pin" class="form-label" data-text-key="pin-label">PIN</label>
+                <div class="pin-input-container">
+                    <input type="number" id="pin" required maxlength="6">
+                </div>
+            </div>
+            <div class="form-options">
+                <label class="remember-me">
+                    <input type="checkbox">
+                    <span data-text-key="remember-me">Remember me</span>
+                </label>
+                <a href="#" class="forgot-password" data-text-key="forgot-password">Forgot Password?</a>
+            </div>
+            <div class="tandc-options">
+                <label class="tandc-option">
+                    <input type="checkbox">
+                    <a href="#" class="tandc-link" data-text-key="tandc-agree">Agree to Terms and Conditions</a>
+                </label>
+            </div>
+            <div class="login-buttons">
+                <button type="submit" class="login-submit" data-text-key="login">Login</button>
+            </div>
+        </form>
+        <p class="login-footer" data-text-key="no-account">Don't have an account?</p>
+        <div class="login-buttons">
+            <button class="login-register" data-text-key="register">Register</button>
+        </div>
+    </div>
+</div>
+
+<!-- Register Overlay -->
+<div class="register-overlay aleo-text" id="registerOverlay">
+    <div class="register-toast-notification">
+        <span data-text-key="register-toast">If you don't have an account, you can register by sending OK to 8362.</span>
+    </div>
+</div>
+
+<!-- Error Toast Overlay -->
+<div class="error-toast-overlay aleo-text" id="errorToastOverlay">
+    <div class="error-toast-notification">
+        <span data-text-key="login-failed"></span>
+    </div>
 </div>
 
 <script src="./scripts/config.js"></script>
