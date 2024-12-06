@@ -100,6 +100,7 @@ body {
   gap: 5px;
   padding: 20px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .avatar {
@@ -108,14 +109,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
-.avatar img {
+.avatar > img {
   width: 35%;
   height: auto;
 }
 
-.avatar:hover {
+.avatar:hover > img {
   filter: brightness(0) saturate(100%) invert(71%) sepia(19%) saturate(757%) hue-rotate(355deg) brightness(89%) contrast(84%);
 }
 
