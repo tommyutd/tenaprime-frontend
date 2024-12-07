@@ -146,8 +146,8 @@ document.addEventListener('DOMContentLoaded', async function() {
                 await loginUser(credentials);
                 hideLoginOverlay(); // Hide the login overlay after successful login
             } catch (error) {
-                // Error handling is done within loginUser function
                 console.error("Login failed");
+                showLoginError()
                 // Re-enable the button and restore its state only on error
                 loginSubmitButton.classList.remove('loading');
                 validateForm(); // This will properly set the button state based on form validity
@@ -165,40 +165,6 @@ document.addEventListener('DOMContentLoaded', async function() {
             });
             
             if (!response.ok) {
-                const errorToast = document.getElementById('errorToastOverlay');
-                const errorToastNotification = errorToast.querySelector('.error-toast-notification');
-                const textElement = errorToast.querySelector('[data-text-key]');
-                const currentLang = document.querySelector('.language-selector p').textContent.toLowerCase();
-                const key = textElement.dataset.textKey;
-                textElement.textContent = currentLang === 'en' ? window.englishStrings[key] : window.amharicStrings[key];
-                
-                // Show toast with animation
-                errorToast.style.display = 'flex';
-                requestAnimationFrame(() => {
-                    errorToast.classList.add('show');
-                    errorToastNotification.classList.add('show');
-                });
-                
-                // Hide and remove toast after 5 seconds
-                setTimeout(() => {
-                    errorToastNotification.classList.remove('show');
-                    errorToast.classList.remove('show');
-                    setTimeout(() => {
-                        errorToast.style.display = 'none';
-                    }, 300);
-                }, 5000);
-                
-                // Add click event listener to close toast on click
-                errorToast.addEventListener('click', function(e) {
-                    if (e.target === errorToast) {
-                        errorToastNotification.classList.remove('show');
-                        errorToast.classList.remove('show');
-                        setTimeout(() => {
-                            errorToast.style.display = 'none';
-                        }, 300);
-                    }
-                });
-                
                 throw new Error('Login failed');
             }
 
@@ -210,5 +176,41 @@ document.addEventListener('DOMContentLoaded', async function() {
         } catch (error) {
             throw error; // Re-throw to handle in the submit handler
         }
+    }
+
+    function showLoginError() {
+        const errorToast = document.getElementById('errorToastOverlay');
+        const errorToastNotification = errorToast.querySelector('.error-toast-notification');
+        const textElement = errorToast.querySelector('[data-text-key]');
+        const currentLang = document.querySelector('.language-selector p').textContent.toLowerCase();
+        const key = textElement.dataset.textKey;
+        textElement.textContent = currentLang === 'en' ? window.englishStrings[key] : window.amharicStrings[key];
+        
+        // Show toast with animation
+        errorToast.style.display = 'flex';
+        requestAnimationFrame(() => {
+            errorToast.classList.add('show');
+            errorToastNotification.classList.add('show');
+        });
+        
+        // Hide and remove toast after 5 seconds
+        setTimeout(() => {
+            errorToastNotification.classList.remove('show');
+            errorToast.classList.remove('show');
+            setTimeout(() => {
+                errorToast.style.display = 'none';
+            }, 300);
+        }, 5000);
+        
+        // Add click event listener to close toast on click
+        errorToast.addEventListener('click', function(e) {
+            if (e.target === errorToast) {
+                errorToastNotification.classList.remove('show');
+                errorToast.classList.remove('show');
+                setTimeout(() => {
+                    errorToast.style.display = 'none';
+                }, 300);
+            }
+        });
     }
 });

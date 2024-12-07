@@ -208,8 +208,8 @@
         "am": "አሸናፊዎቹን ይመልከቱ!"
     },
     "winners-section-description": {
-        "en": "Here are some of the winners of our weekly contest. <a href=\"#\">Login</a> or <a href=\"#\">Register</a> to participate.",
-        "am": "እነዚህ የሳምንታዊ ውድድራችን አሸናፊዎች ናቸው። ለመሳተፍ <a href=\"#\">ይግቡ</a> ወይም <a href=\"#\">ይመዝገቡ</a>።"
+        "en": "Here are some of the winners of our weekly contest. <a href=\"#\">Play now</a>, you might be this week's winner!",
+        "am": "እነዚህ የሳምንታዊ ውድድራችን አሸናፊዎች ናቸው። ለመሳተፍ <a href=\"#\">አሁኑኑ ይጫወቱ</a> የዚህ ሳምንት አሸናፊ እርስዎ ሊሆኑ ይችላሉ።"
     },
     "exercises-section-title": {
         "en": "Prime Fitness",
@@ -266,5 +266,45 @@
     "about-page-greeting-description-4": {
         "en": "Choose from hundreds of workouts, healthy recipes, relaxing meditations, and expert articles, for a whole body and mind approach to feeling great.",
         "am": "ለመላ አካልና አእምሮ ደህንነት ከመቶዎች የሚቆጠሩ የአካል ብቃት እንቅስቃሴዎችን፣ ጤናማ የምግብ ዝግጅቶችን፣ አረፋጅ ማሰላሰያዎችን እና የባለሙያ ጽሑፎችን ይምረጡ።"
+    },
+    "dashboard-main-card-title": {
+        "en": "Play to Win",
+        "am": "ይጫወቱ ይሸለሙ"
+    },
+    "dashboard-main-card-content": {
+        "en": "Answer questions to win 50,000 ETB weekly.",
+        "am": "ጥያቄዎችን ይመልሱ እና በየሳምንቱ 50,000 ብር ይሸለሙ።"
+    },
+    "exercises-card-title": {
+        "en": "Exercises",
+        "am": "ስፖርቶች"
+    },
+    "exercises-card-content": {
+        "en": "Explore our plans to stay fit.",
+        "am": "ብቁ ሆኖ ለመቆየት እቅዶቻችንን ያስሱ።"
+    },
+    "nutrition-card-title": {
+        "en": "Nutrition",
+        "am": "አመጋገብ"
+    },
+    "nutrition-card-content": {
+        "en": "Find tips on how to eat better.",
+        "am": "ስለ አመጋገብ ጠቃሚ መረጃዎችን ያግኙ።"
+    },
+    "products-card-title": {
+        "en": "Products",
+        "am": "ሽያጮች"
+    },
+    "products-card-content": {
+        "en": "Improve your lifestyle with our products.",
+        "am": "በምርቶቻችን የአኗኗር ዘይቤዎን ያሻሽሉ።"
+    },
+    "scoreboard-card-title": {
+        "en": "Scoreboard",
+        "am": "የመሪ ሰሌዳ"
+    },
+    "scoreboard-card-content": {
+        "en": "View your weekly ranking.",
+        "am": "የሳምንቱን ደርጃዎን ይመልከቱ።"
     }
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TenaPrime - Dashboard</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./styles/index-loggedin.css">
+    <link rel="stylesheet" href="./styles/dashboard.css">
     <link rel="icon" href="./assets/logo-mini.svg">
 </head>
 <body>
@@ -101,37 +101,46 @@
     <div class="cards-page aleo-text">
       <div class="cards-container">
         <div class="big-card">
-          <div class="card-content">
-            <h2>Main Card</h2>
-            <p>This is the main content area</p>
+          <div class="card-content big-card-content">
+            <h2 data-text-key="dashboard-main-card-title" style="color: #121518;"></h2>
+            <p data-text-key="dashboard-main-card-content" style="color: #121518;"></p>
           </div>
         </div>
         <div class="small-cards">
-            <div class="small-card">
+            <div class="small-card" id="exercises-card">
               <div class="card-content">
-                <h3>Card 1</h3>
-                <p>Content for card 1</p>
+                <h3 data-text-key="exercises-card-title"></h3>
+                <p data-text-key="exercises-card-content"></p>
               </div>
             </div>
-            <div class="small-card">
+            <div class="small-card" id="nutrition-card">
               <div class="card-content">
-                <h3>Card 2</h3>
-                <p>Content for card 2</p>
+                <h3 data-text-key="nutrition-card-title"></h3>
+                <p data-text-key="nutrition-card-content"></p>
               </div>
             </div>
-            <div class="small-card">
+            <div class="small-card" id="products-card">
               <div class="card-content">
-                <h3>Card 3</h3>
-                <p>Content for card 3</p>
+                <h3 data-text-key="products-card-title"></h3>
+                <p data-text-key="products-card-content"></p>
               </div>
             </div>
-            <div class="small-card">
+            <div class="small-card" id="scoreboard-card">
               <div class="card-content">
-                <h3>Card 4</h3>
-                <p>Content for card 4</p>
+                <h3 data-text-key="scoreboard-card-title"></h3>
+                <p data-text-key="scoreboard-card-content"></p>
               </div>
             </div>
         </div>
+      </div>
+    </div>
+    <div class="winners-section">
+      <div class="slideshow-container">
+        <div class="carousel"></div>
+      </div>
+      <div class="winners-section-text-container">
+        <h1 data-text-key="winners-section-title">Meet the winners!</h1>
+        <h3 data-text-key="winners-section-description">Here are some of the winners of our weekly contest. <a href="#">Login</a> or <a href="#">Register</a> to participate.</h3>
       </div>
     </div>
   </div>
@@ -247,6 +256,7 @@
 <script src="./scripts/language-selector.js"></script>
 <script src="./scripts/user-stats-popup.js"></script>
 <script src="./scripts/sidebar-overlay.js"></script>
+<script src="./scripts/winners-carousel.js"></script>
 
 </body>
 </html> 
