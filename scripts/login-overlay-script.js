@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             const data = await response.json();
             localStorage.setItem("login-token", data.token);
             
-            window.location.href = 'dashboard.html';
+            window.location.href = '/dashboard';
 
         } catch (error) {
             throw error; // Re-throw to handle in the submit handler

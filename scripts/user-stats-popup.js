@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         localStorage.removeItem('login-token');
         
         // Redirect to index page
-        window.location.href = 'index.html';
+        window.location.href = '/';
     });
 
     // Close popup when clicking outside

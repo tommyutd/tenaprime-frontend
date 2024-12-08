@@ -29,8 +29,8 @@ window.authState = {
                 if (!token) {
                     window.userData.isTokenValid = false;
                     window.userData.user = null;
-                    if (window.location.pathname.includes('dashboard.html')) {
-                        window.location.href = 'index.html';
+                    if (window.location.pathname.includes('/dashboard')) {
+                        window.location.href = '/';
                     }
                     return false;
                 }
@@ -49,10 +49,11 @@ window.authState = {
                 const userData = await response.json();
                 window.userData.isTokenValid = true;
                 window.userData.user = userData;
-        
-                if (!window.location.pathname.includes('dashboard.html')) {
-                    window.location.href = 'dashboard.html';
-                }
+                
+
+                //if (!window.location.pathname.includes('/dashboard')) {
+                //    window.location.href = '/dashboard';
+                //}
 
                 updateLanguage(window.userData.user.user.lang);
         
@@ -62,8 +63,8 @@ window.authState = {
                 window.userData.isTokenValid = false;
                 window.userData.user = null;
                 
-                if (window.location.pathname.includes('dashboard.html')) {
-                    window.location.href = 'index.html';
+                if (window.location.pathname.includes('/dashboard')) {
+                    window.location.href = '/';
                 }
                 return false;
             } finally {

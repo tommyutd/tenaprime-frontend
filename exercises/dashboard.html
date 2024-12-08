@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Exercise Programs</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            grid-column: 1 / -1;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        .exercise-category {
+            background-color: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .exercise-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+        .exercise-category h2 {
+            color: #1e3c72;
+            border-bottom: 2px solid #e1e4e8;
+            padding-bottom: 15px;
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f2f5;
+            color: #4a5568;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        li:hover {
+            color: #1e3c72;
+            padding-left: 5px;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to FitLife</h1>
+            <p>Your Journey to a Healthier Lifestyle Starts Here</p>
+        </div>
+
+        <div class="exercise-category">
+            <h2>Strength Training</h2>
+            <ul>
+                <li>Bench Press - Build chest and upper body strength</li>
+                <li>Squats - Develop lower body power</li>
+                <li>Deadlifts - Full body compound exercise</li>
+                <li>Pull-ups - Upper body and core strength</li>
+            </ul>
+        </div>
+
+        <div class="exercise-category">
+            <h2>Cardio Workouts</h2>
+            <ul>
+                <li>High-Intensity Interval Training (HIIT)</li>
+                <li>Running Programs</li>
+                <li>Cycling Sessions</li>
+                <li>Jump Rope Routines</li>
+            </ul>
+        </div>
+
+        <div class="exercise-category">
+            <h2>Flexibility & Recovery</h2>
+            <ul>
+                <li>Yoga Sessions</li>
+                <li>Dynamic Stretching</li>
+                <li>Foam Rolling Techniques</li>
+                <li>Mobility Exercises</li>
+            </ul>
+        </div>
+
+        <div class="exercise-category">
+            <h2>Core & Abs</h2>
+            <ul>
+                <li>Planks and Variations</li>
+                <li>Russian Twists</li>
+                <li>Ab Rollouts</li>
+                <li>Leg Raises</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
