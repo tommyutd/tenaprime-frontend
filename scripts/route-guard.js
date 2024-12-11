@@ -1,9 +1,12 @@
 (function() {
-    const routeMappings = {
-        '/': '/dashboard',
+    const protectedRouteMappings = {
         '/dashboard': '/',
-        '/exercises': '/exercises/dashboard',
         '/exercises/dashboard': '/exercises'
+    };
+
+    const guestRouteMappings = {
+        '/': '/dashboard',
+        '/exercises': '/exercises/dashboard'
     };
 
     // Execute route check immediately
@@ -17,22 +20,15 @@
     const token = localStorage.getItem('login-token');
     const hasTokenHere = !!token;
 
-    // If the current path is in routeMappings, check if we need to redirect
-    if (currentPath in routeMappings) {
-        // If it's a protected route (value in routeMappings is guest route)
-        const isProtectedRoute = Object.values(routeMappings).includes(currentPath);
-        
-        if (isProtectedRoute && !hasTokenHere) {
-            window.location.href = routeMappings[currentPath];
-            return;
-        }
-        
-        // If it's a guest route (key in routeMappings)
-        const isGuestRoute = Object.keys(routeMappings).includes(currentPath);
-        
-        if (isGuestRoute && hasTokenHere) {
-            window.location.href = routeMappings[currentPath];
-            return;
-        }
+    // Handle protected routes (logged-in users only)
+    if (currentPath in protectedRouteMappings && !hasTokenHere) {
+        window.location.href = protectedRouteMappings[currentPath];
+        return;
+    }
+
+    // Handle guest routes (non-logged-in users only)
+    if (currentPath in guestRouteMappings && hasTokenHere) {
+        window.location.href = guestRouteMappings[currentPath];
+        return;
     }
 })();
