@@ -306,5 +306,281 @@
     "scoreboard-card-content": {
         "en": "View your weekly ranking.",
         "am": "የሳምንቱን ደርጃዎን ይመልከቱ።"
+    },
+    "workout-text": {
+        "en": "Workout Planner",
+        "am": "የአካል ብቃት እንቅስቃሴ እቅድ"
+    },
+    "strength-text": {
+        "en": "Strength Training",
+        "am": "የጥንካሬ ስልጠና"
+    },
+    "three-day-split-title": {
+        "en": "3-Day Split",
+        "am": "የ3-ቀን ክፍፍል"
+    },
+    "three-day-split-description": {
+        "en": "Perfect for beginners. Focus on full-body workouts with adequate rest days.",
+        "am": "ለጀማሪዎች ተስማሚ። በበቂ የእረፍት ቀናት ላይ በሙሉ አካል ልምምዶች ላይ ያተኩራል።"
+    },
+    "four-day-split-title": {
+        "en": "4-Day Split",
+        "am": "የ4-ቀን ክፍፍል"
+    },
+    "four-day-split-description": {
+        "en": "Intermediate level. Balance between workout intensity and recovery time.",
+        "am": "መካከለኛ ደረጃ። በልምምድ ጥንካሬ እና በማገገሚያ ጊዜ መካከል ያለ ሚዛን።"
+    },
+    "five-day-split-title": {
+        "en": "5-Day Split",
+        "am": "የ5-ቀን ክፍፍል"
+    },
+    "five-day-split-description": {
+        "en": "Advanced training. Maximize muscle growth with targeted workouts.",
+        "am": "የላቀ ስልጠና። በተመራጭ ልምምዶች የጡንቻ እድገትን ያሳድጉ።"
+    },
+    "day-one-full-body": {
+        "en": "Day 1: Full Body",
+        "am": "ቀን 1: ሙሉ አካል"
+    },
+    "day-two-full-body": {
+        "en": "Day 2: Full Body",
+        "am": "ቀን 2: ሙሉ አካል"
+    },
+    "day-three-full-body": {
+        "en": "Day 3: Full Body",
+        "am": "ቀን 3: ሙሉ አካል"
+    },
+    "day-one-upper-body": {
+        "en": "Day 1: Upper Body",
+        "am": "ቀን 1: የላይኛው አካል"
+    },
+    "day-two-lower-body": {
+        "en": "Day 2: Lower Body",
+        "am": "ቀን 2: የታችኛው አካል"
+    },
+    "day-three-upper-body": {
+        "en": "Day 3: Upper Body",
+        "am": "ቀን 3: የላይኛው አካል"
+    },
+    "day-four-lower-body": {
+        "en": "Day 4: Lower Body",
+        "am": "ቀን 4: የታችኛው አካል"
+    },
+    "day-one-chest-and-triceps": {
+        "en": "Day 1: Chest & Triceps",
+        "am": "ቀን 1: ደረት & ትሪሴፕስ"
+    },
+    "day-two-back-and-biceps": {
+        "en": "Day 2: Back & Biceps",
+        "am": "ቀን 2: ጀርባ & ቡድኖች"
+    },
+    "day-three-legs": {
+        "en": "Day 3: Legs",
+        "am": "ቀን 3: እግሮች"
+    },
+    "day-four-shoulders-and-abs": {
+        "en": "Day 4: Shoulders & Abs",
+        "am": "ቀን 4: ትከሻ እና ሆድ"
+    },
+    "day-five-full-body-cardio": {
+        "en": "Day 5: Full Body/Cardio",
+        "am": "ቀን 5: ሙሉ አካል/ካርዲዮ"
+    },
+    "upper-body-training-title": {
+        "en": "Upper Body Training",
+        "am": "የላይኛው አካል ስልጠና"
+    },
+    "upper-body-training-description": {
+        "en": "Comprehensive upper body strength training targeting all major muscle groups.",
+        "am": "ሁሉንም ዋና ዋና የጡንቻ ቡድኖችን የሚያማትር ሁለንተናዊ የላይኛው አካል የጥንካሬ ስልጠና።"
+    },
+    "lower-body-training-title": {
+        "en": "Lower Body Training",
+        "am": "የታችኛው አካል ስልጠና"
+    },
+    "lower-body-training-description": {
+        "en": "Build strength and power in your lower body with these targeted exercises.",
+        "am": "በእነዚህ ተኮር ልምምዶች በታችኛው አካልዎ ጥንካሬን እና ኃይልን ይገንቡ።"
+    },
+    "full-body-training-title": {
+        "en": "Full Body Training",
+        "am": "ሙሉ አካል ስልጠና"
+    },
+    "full-body-training-description": {
+        "en": "Complete full body workouts that target multiple muscle groups in one session.",
+        "am": "በአንድ ክፍለ ጊዜ ውስጥ ብዙ የጡንቻ ቡድኖችን የሚያነጣጥሩ ሙሉ የአካል ልምምዶችን ያጠናቅቁ።"
+    },
+    "upper-body-chest": {
+        "en": "Chest",
+        "am": "ደረት"
+    },
+    "upper-body-arms": {
+        "en": "Arms",
+        "am": "ቡድኖች"
+    },
+    "upper-body-shoulders": {
+        "en": "Shoulders",
+        "am": "ትከሻ"
+    },
+    "upper-body-back": {
+        "en": "Back",
+        "am": "ጀርባ"
+    },
+    "upper-body-core": {
+        "en": "Core",
+        "am": "ሆድ"
+    },
+    "upper-body-complex": {
+        "en": "Complex",
+        "am": "ትምህርት"
+    },
+    "lower-body-legs": {
+        "en": "Legs",
+        "am": "እግሮች"
+    },
+    "lower-body-glutes": {
+        "en": "Glutes",
+        "am": "ግሉትስ"
+    },
+    "lower-body-complex": {
+        "en": "Complex",
+        "am": "ትምህርት"
+    },
+    "full-body-builder": {
+        "en": "Full Body Builder",
+        "am": "ሙሉ አካል ስልጠና"
+    },
+    "full-body-abs-and-core": {
+        "en": "Abs & Core",
+        "am": "ሆድ እና ማእከላዊ"
+    },
+    "full-body-strong-back": {
+        "en": "Strong Back",
+        "am": "ጀርባ እንቅስቃሴ"
+    },
+    "full-body-cardio-strength": {
+        "en": "Cardio & Strength",
+        "am": "ካርዲዮ እና ጥንካሬ"
+    },
+    "weight-loss-text": {
+        "en": "Weight Loss",
+        "am": "ክብደት መቀነስ"
+    },
+    "cardio-training-title": {
+        "en": "Cardio Training",
+        "am": "የልብ ስልጠና"
+    },
+    "cardio-training-description": {
+        "en": "Burn calories and improve cardiovascular health with effective cardio workouts.",
+        "am": "ውጤታማ የልብ ስልጠናዎች ጋር ካሎሪዎችን ያቃጥሉ እና የልብ ጤንነትን ያሻሽሉ።"
+    },
+    "aerobics-training-title": {
+        "en": "Aerobics",
+        "am": "ኤሮቢክስ"
+    },
+    "aerobics-training-description": {
+        "en": "Energetic aerobic exercises to boost metabolism and enhance endurance.",
+        "am": "የሰውነት ኃይልን እና የመቋቋም አቅምን ለማሳደግ ጉልበት ያላቸው የኤሮቢክ ስልጠናዎች።"
+    },
+    "hiit-training-title": {
+        "en": "HIIT",
+        "am": "ኤች.አይ.አይ.ቲ"
+    },
+    "hiit-training-description": {
+        "en": "High-intensity interval training for maximum calorie burn and fat loss.",
+        "am": "ከፍተኛ ጉልበት የሚጠይቅ የጊዜ ልዩነት ስልጠና ለከፍተኛ የካሎሪ ማቃጠል እና የስብ መቀነስ።"
+    },
+    "cardio": {
+        "en": "Cardio",
+        "am": "የልብ ስልጠና"
+    },
+    "aerobics": {
+        "en": "Aerobics",
+        "am": "ኤሮቢክስ"
+    },
+    "hiit": {
+        "en": "HIIT",
+        "am": "ኤች.አይ.አይ.ቲ"
+    },
+    "flexibility-text": {
+        "en": "Flexibility and Mobility",
+        "am": "ተለዋዋጭነት እና ተንቀሳቃሽነት"
+    },
+    "stretching-training-title": {
+        "en": "Stretching Exercises",
+        "am": "መዘርጋት ስልጠና"
+    },
+    "stretching-training-description": {
+        "en": "Improve flexibility and range of motion with dynamic stretching exercises.",
+        "am": "በተንቀሳቃሽ መዘርጋት ስልጠናዎች የሚገኝ እንቅስቃሴ እና የመቋቋም አቅምን ያሳድጉ።"
+    },
+    "stretching": {
+        "en": "Stretching Exercises",
+        "am": "መዘርጋት"
+    },
+    "yoga-training-title": {
+        "en": "Yoga Poses",
+        "am": "ዮጋ ስልጠና"
+    },
+    "yoga-training-description": {
+        "en": "Balance mind, body, and spirit with yoga.",
+        "am": "የመረጃ እና የመቋቋም አቅምን ለማሳደግ ዮጋ።"
+    },
+    "yoga": {
+        "en": "Yoga Poses",
+        "am": "ዮጋ ስልጠና"
+    },
+    "balance-training-title": {
+        "en": "Balance and Stability",
+        "am": "ሚዛን እና የመቋቋም"
+    },
+    "balance-training-description": {
+        "en": "Improve balance and stability with these exercises.",
+        "am": "በእነዚህ ስልጠናዎች የሚገኝ ሚዛን እና የመቋቋም አቅምን ያሳድጉ።"
+    },
+    "balance": {
+        "en": "Balance and Stability",
+        "am": "ሚዛን እና የመቋቋም"
+    },
+    "mind-body-text": {
+        "en": "Mind-Body Essentials",
+        "am": "የአእምሮ-አካል አስፈላጊ ነገሮች"
+    },
+    "breathwork-training-title": {
+        "en": "Breathwork",
+        "am": "አተነፋፈስ"
+    },
+    "breathwork-training-description": {
+        "en": "Improve breath control and relaxation with breathwork exercises.",
+        "am": "በትንፋሽ ስልጠናዎች የሚገኝ ትንፋሽ ስልጠና እና የመቋቋም አቅምን ያሳድጉ።"
+    },
+    "breathwork": {
+        "en": "Breathwork",
+        "am": "አተነፋፈስ"
+    },
+    "sleep-training-title": {
+        "en": "Healthy Sleeping",
+        "am": "ጤናማ እንቅልፍ"
+    },
+    "sleep-training-description": {
+        "en": "Improve sleep quality with these tips.",
+        "am": "በእነዚህ ጠቃሚ ምክሮች የእንቅልፍ አቅምን ያሳድጉ።"
+    },
+    "sleep": {
+        "en": "Healthy Sleep",
+        "am": "ጤናማ እንቅልፍ"
+    },
+    "stress-training-title": {
+        "en": "Stress Regulation",
+        "am": "ጭንቀትን መቆጣጠር"
+    },
+    "stress-training-description": {
+        "en": "Manage stress and anxiety with these techniques.",
+        "am": "በእነዚህ ስልጠናዎች የጭንቀት መቋቋም አቅምን ያሳድጉ።"
+    },
+    "meditation": {
+        "en": "Meditation",
+        "am": "ማስተንፈስ"
     }
 }

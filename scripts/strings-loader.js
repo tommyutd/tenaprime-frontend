@@ -1,7 +1,7 @@
 let englishStrings = {};    
 let amharicStrings = {};
 
-fetch('strings.json')
+fetch('/strings.json')
 .then(response => response.json())
 .then(data => {
     Object.keys(data).forEach(key => {

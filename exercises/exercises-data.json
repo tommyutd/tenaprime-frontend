@@ -1,0 +1,126 @@
+{
+    "workout-card-three-day": {
+        "titleKey": "three-day-split-title",
+        "descriptionKey": "three-day-split-description",
+        "buttons": [
+            {"textKey": "day-one-full-body", "page": "three-day-one"},
+            {"textKey": "day-two-full-body", "page": "three-day-two"},
+            {"textKey": "day-three-full-body", "page": "three-day-three"}
+        ]
+    },
+    "workout-card-four-day": {
+        "titleKey": "four-day-split-title",
+        "descriptionKey": "four-day-split-description",
+        "buttons": [
+            {"textKey": "day-one-upper-body", "page": "four-day-one"},
+            {"textKey": "day-two-lower-body", "page": "four-day-two"},
+            {"textKey": "day-three-upper-body", "page": "four-day-three"},
+            {"textKey": "day-four-lower-body", "page": "four-day-four"}
+        ]
+    },
+    "workout-card-five-day": {
+        "titleKey": "five-day-split-title",
+        "descriptionKey": "five-day-split-description",
+        "buttons": [
+            {"textKey": "day-one-chest-and-triceps", "page": "five-day-one"},
+            {"textKey": "day-two-back-and-biceps", "page": "five-day-two"},
+            {"textKey": "day-three-legs", "page": "five-day-three"},
+            {"textKey": "day-four-shoulders-and-abs", "page": "five-day-four"},
+            {"textKey": "day-five-full-body-cardio", "page": "five-day-five"}
+        ]
+    },
+    "strength-upper-body": {
+        "titleKey": "upper-body-training-title",
+        "descriptionKey": "upper-body-training-description",
+        "buttons": [
+            {"textKey": "upper-body-chest", "page": "upper-body-chest"},
+            {"textKey": "upper-body-arms", "page": "upper-body-arms"},
+            {"textKey": "upper-body-shoulders", "page": "upper-body-shoulders"},
+            {"textKey": "upper-body-back", "page": "upper-body-back"},
+            {"textKey": "upper-body-core", "page": "upper-body-core"},
+            {"textKey": "upper-body-complex", "page": "upper-body-complex"}
+        ]
+    },
+    "strength-lower-body": {
+        "titleKey": "lower-body-training-title",
+        "descriptionKey": "lower-body-training-description",
+        "buttons": [
+            {"textKey": "lower-body-legs", "page": "lower-body-legs"},
+            {"textKey": "lower-body-glutes", "page": "lower-body-glutes"},
+            {"textKey": "lower-body-complex", "page": "lower-body-complex"}
+        ]
+    },
+    "strength-full-body": {
+        "titleKey": "full-body-training-title",
+        "descriptionKey": "full-body-training-description",
+        "buttons": [
+            {"textKey": "full-body-builder", "page": "full-body-builder"},
+            {"textKey": "full-body-abs-and-core", "page": "full-body-abs-and-core"},
+            {"textKey": "full-body-strong-back", "page": "full-body-strong-back"},
+            {"textKey": "full-body-cardio-strength", "page": "full-body-cardio-strength"}
+        ]
+    },
+    "weight-loss-cardio": {
+        "titleKey": "cardio-training-title",
+        "descriptionKey": "cardio-training-description",
+        "buttons": [
+            {"textKey": "cardio", "page": "cardio"}
+        ]
+    },
+    "weight-loss-aerobics": {
+        "titleKey": "aerobics-training-title",
+        "descriptionKey": "aerobics-training-description",
+        "buttons": [
+            {"textKey": "aerobics", "page": "aerobics"}
+        ]
+    },
+    "weight-loss-hiit": {
+        "titleKey": "hiit-training-title",
+        "descriptionKey": "hiit-training-description",
+        "buttons": [
+            {"textKey": "hiit", "page": "hiit"}
+        ]
+    },
+    "flexibility-stretching": {
+        "titleKey": "stretching-training-title",
+        "descriptionKey": "stretching-training-description",
+        "buttons": [
+            {"textKey": "stretching", "page": "stretching"}
+        ]
+    },
+    "flexibility-yoga": {
+        "titleKey": "yoga-training-title",
+        "descriptionKey": "yoga-training-description",
+        "buttons": [
+            {"textKey": "yoga", "page": "yoga"}
+        ]
+    },
+    "flexibility-balance": {
+        "titleKey": "balance-training-title",
+        "descriptionKey": "balance-training-description",
+        "buttons": [
+            {"textKey": "balance", "page": "balance"}
+        ]
+    },
+    "mind-body-breathwork": {
+        "titleKey": "breathwork-training-title",
+        "descriptionKey": "breathwork-training-description",
+        "buttons": [
+            {"textKey": "breathwork", "page": "breathwork"}
+        ]
+    },
+    "mind-body-sleep": {
+        "titleKey": "sleep-training-title",
+        "descriptionKey": "sleep-training-description",
+        "buttons": [
+            {"textKey": "sleep", "page": "sleep"}
+        ]
+    },
+    "mind-body-stress": {
+        "titleKey": "stress-training-title",
+        "descriptionKey": "stress-training-description",
+        "buttons": [
+            {"textKey": "meditation", "page": "meditation"}
+        ]
+    }
+}

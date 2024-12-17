@@ -94,3 +94,200 @@
   font-size: clamp(1rem, 3vw, 1.5rem);
   line-height: 1.4;
 }
+
+
+
+
+
+/*User Content*/
+.exercises-user-workout,
+.exercises-user-strength,
+.exercises-user-weight-loss,
+.exercises-user-flexibility,
+.exercises-user-mind-body {
+    padding: 2rem;
+    color: white;
+}
+
+.exercises-user-workout h1,
+.exercises-user-strength h1,
+.exercises-user-weight-loss h1,
+.exercises-user-flexibility h1,
+.exercises-user-mind-body h1 {
+    color: rgba(186, 156, 98, 1);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.workout-cards,
+.exercises-user-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+#workout-card-three-day,
+#workout-card-four-day,
+#workout-card-five-day,
+#strength-upper-body,
+#strength-lower-body,
+#strength-full-body,
+#weight-loss-cardio,
+#weight-loss-aerobics,
+#weight-loss-hiit,
+#flexibility-stretching,
+#flexibility-yoga,
+#flexibility-balance,
+#mind-body-breathwork,
+#mind-body-sleep,
+#mind-body-stress {
+    background: rgba(186, 156, 98, 0.1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#workout-card-three-day:hover,
+#workout-card-four-day:hover,
+#workout-card-five-day:hover,
+#strength-upper-body:hover,
+#strength-lower-body:hover,
+#strength-full-body:hover,
+#weight-loss-cardio:hover,
+#weight-loss-aerobics:hover,
+#weight-loss-hiit:hover,
+#flexibility-stretching:hover,
+#flexibility-yoga:hover,
+#flexibility-balance:hover,
+#mind-body-breathwork:hover,
+#mind-body-sleep:hover,
+#mind-body-stress:hover {
+    transform: translateY(-5px);
+    background: rgba(186, 156, 98, 0.2);
+    cursor: pointer;
+}
+
+.card-title {
+    color: rgba(186, 156, 98, 1);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-description {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.exercise-popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.exercise-popup-overlay.show {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.exercise-popup-content {
+    background: #121518;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    border: 1px solid rgba(186, 156, 98, 0.3);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+.exercise-popup-content.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.exercise-popup-container {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.exercise-popup-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: rgba(186, 156, 98, 1);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.exercise-popup-content h2 {
+    color: rgba(186, 156, 98, 1);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.exercise-popup-content p {
+    color: white;
+    margin-bottom: 2.5rem;
+    flex-grow: 1;
+    line-height: 1.6;
+}
+
+.exercise-popup-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: auto;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.exercise-popup-button {
+    background-color: rgba(186, 156, 98, 1);
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-popup-button:hover {
+    background-color: rgba(186, 156, 98, 0.9);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
+}
+
+.exercise-popup-button:disabled:hover {
+    background-color: rgba(186, 156, 98, 1);
+    transform: none;
+    box-shadow: none;
+}
+
+.exercise-popup-buttons:has(:only-child) {
+    grid-template-columns: 1fr;
+}
