@@ -23,6 +23,11 @@ document.addEventListener('DOMContentLoaded', async function() {
             const popup = template.content.cloneNode(true).firstElementChild;
             popup.id = cardId + '-popup';
             
+            // Set the image source
+            const imageElement = popup.querySelector('.exercise-popup-image img');
+            imageElement.src = data.imagePath;
+            imageElement.alt = strings[data.titleKey] || data.titleKey;
+            
             // Populate content with correct language strings
             const content = popup.querySelector('.exercise-popup-content');
             const titleElement = content.querySelector('h2');
@@ -64,6 +69,12 @@ document.addEventListener('DOMContentLoaded', async function() {
             }
             if (e.target.matches('.exercise-popup-overlay')) {
                 hideExercisePopup(e.target);
+            }
+            if (e.target.matches('.exercise-popup-button')) {
+                const page = e.target.dataset.page;
+                if (page) {
+                    window.location.href = `/exercises/${page}`;
+                }
             }
         });
     } catch (error) {

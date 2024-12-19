@@ -320,7 +320,7 @@
         "am": "የ3-ቀን ክፍፍል"
     },
     "three-day-split-description": {
-        "en": "Perfect for beginners. Focus on full-body workouts with adequate rest days.",
+        "en": "<b>Beginner Training</b><br>Focus on full-body workouts with adequate rest days.",
         "am": "ለጀማሪዎች ተስማሚ። በበቂ የእረፍት ቀናት ላይ በሙሉ አካል ልምምዶች ላይ ያተኩራል።"
     },
     "four-day-split-title": {
@@ -328,7 +328,7 @@
         "am": "የ4-ቀን ክፍፍል"
     },
     "four-day-split-description": {
-        "en": "Intermediate level. Balance between workout intensity and recovery time.",
+        "en": "<b>Intermediate Training</b><br>Balance between workout intensity and recovery time.",
         "am": "መካከለኛ ደረጃ። በልምምድ ጥንካሬ እና በማገገሚያ ጊዜ መካከል ያለ ሚዛን።"
     },
     "five-day-split-title": {
@@ -336,7 +336,7 @@
         "am": "የ5-ቀን ክፍፍል"
     },
     "five-day-split-description": {
-        "en": "Advanced training. Maximize muscle growth with targeted workouts.",
+        "en": "<b>Advanced Training</b><br>Maximize muscle growth with targeted workouts.",
         "am": "የላቀ ስልጠና። በተመራጭ ልምምዶች የጡንቻ እድገትን ያሳድጉ።"
     },
     "day-one-full-body": {
