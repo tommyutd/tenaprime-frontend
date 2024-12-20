@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         existingPopups.forEach(popup => popup.remove());
 
         // Fetch workout data
-        const response = await fetch('/exercises/exercises-data.json');
+        const response = await fetch('/exercises/exercise-categories.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

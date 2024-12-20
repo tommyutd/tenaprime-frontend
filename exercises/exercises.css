@@ -414,3 +414,249 @@
     object-fit: contain;
     max-height: 45vh;
 }
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workout-overview {
+    width: 80%;
+    color: white;
+}
+
+.overview-container h1 {
+    text-align: center;
+    color: #BA9C62;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.overview-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.overview-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.overview-schedule {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.schedule-day {
+    background: rgba(186, 156, 98, 0.3);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.schedule-day h3 {
+    color: #BA9C62;
+    margin-bottom: 0.5rem;
+}
+
+.schedule-day p {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.current-day {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #BA9C62;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+
+.workout-content {
+    width: 80%;
+    border-radius: 20px;
+    color: white;
+}
+
+.workout-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #BA9C62;
+}
+
+.workout-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.workout-header p {
+    color: white;
+}
+
+.workout-header p b {
+    color: #BA9C62;
+}
+
+.workout-description {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Workout sections styling */
+.workout-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.workout-section h2 {
+    color: #BA9C62;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.exercise-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.exercise-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(186, 156, 98, 0.1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    gap: 2rem;
+}
+
+.exercise-details {
+    flex: 1;
+    min-width: 300px;
+}
+
+.exercise-details h3 {
+    color: rgba(186, 156, 98, 1);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.exercise-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.exercise-info-row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.exercise-info-label {
+    flex: 0 0 15%;
+    color: #BA9C62;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.exercise-info-description {
+    flex: 1;
+    color: white;
+}
+
+.exercise-visual {
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exercise-visual img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.video-guide-btn {
+    background-color: rgba(186, 156, 98, 1);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.video-guide-btn:hover {
+    background-color: rgba(186, 156, 98, 0.8);
+}
+
+.workout-footer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.complete-workout-btn,
+.save-for-later-btn {
+    min-width: 160px;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.complete-workout-btn {
+    background-color: rgba(186, 156, 98, 1);
+    color: #121518;
+}
+
+.complete-workout-btn:hover {
+    background-color: rgb(226, 196, 138);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
+}
+
+.save-for-later-btn {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.save-for-later-btn:hover {
+    background-color: #FFFFFF;
+    color: #121518;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.complete-workout-btn:active,
+.save-for-later-btn:active {
+    transform: translateY(0);
+    box-shadow: none;
+}

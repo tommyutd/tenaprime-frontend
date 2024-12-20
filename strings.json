@@ -582,5 +582,205 @@
     "meditation": {
         "en": "Meditation",
         "am": "ማስተንፈስ"
+    },
+    "three-day-overview-title": {
+        "en": "Three Day Split Overview",
+        "am": "የ3-ቀን ሙሉ አካል ክፍፍል ስልጠና"
+    },
+    "three-day-overview-description": {
+        "en": "This beginner-friendly program focuses on full-body workouts with adequate rest days between sessions. The program is designed to build overall strength and muscle endurance while allowing proper recovery time.",
+        "am": "ለጀማሪዎች ተስማሚ። በበቂ የእረፍት ቀናት ላይ በሙሉ አካል ልምምዶች ላይ ያተኩራል።"
+    },
+    "three-day-split-day-one": {
+        "en": "Day 1: Full Body Workout",
+        "am": "ቀን 1: ሙሉ አካል ስልጠና"
+    },
+    "three-day-split-day-one-description": {
+        "en": "Muscle Groups Targeted: <b>Legs, Chest, Back, Shoulders, Core</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "warmup-section": {
+        "en": "Warm-up",
+        "am": "መዘርጋት"
+    },
+    "main-workout-section": {
+        "en": "Main Workout",
+        "am": "ሙሉ አካል ስልጠና"
+    },
+    "cooldown-section": {
+        "en": "Cool-down",
+        "am": "መዘርጋት"
+    },
+    "monday": {
+        "en": "Monday",
+        "am": "ሰኞ"
+    },
+    "tuesday": {
+        "en": "Tuesday",
+        "am": "ማክሰኞ"
+    },
+    "wednesday": {
+        "en": "Wednesday",
+        "am": "ረቡዕ"
+    },
+    "thursday": {
+        "en": "Thursday",
+        "am": "ሐሙስ"
+    },
+    "friday": {
+        "en": "Friday",
+        "am": "አርብ"
+    },
+    "saturday": {
+        "en": "Saturday",
+        "am": "ቅዳሜ"
+    },
+    "sunday": {
+        "en": "Sunday",
+        "am": "እሁድ"
+    },
+    "full-body-workout": {
+        "en": "Full Body Workout",
+        "am": "ሙሉ አካል ስልጠና"
+    },
+    "rest-and-recovery": {
+        "en": "Rest & Recovery",
+        "am": "እረፍት እና መልሶ ማገገም"
+    },
+    "you-are-here": {
+        "en": "You are here",
+        "am": "እዚህ ነዎት"
+    },
+    "light-cardio": {
+        "en": "Light Cardio",
+        "am": "ቀላል የልብ ስልጠና"
+    },
+    "activities": {
+        "en": "Activities",
+        "am": "እርምጃዎች"
+    },
+    "duration": {
+        "en": "Duration",
+        "am": "ጊዜ"
+    },
+    "intensity": {
+        "en": "Intensity",
+        "am": "ጥንካሬ"
+    },
+    "focus": {
+        "en": "Focus",
+        "am": "ትኩረት"
+    },
+    "light-cardio-activity": {
+        "en": "Light jogging or brisk walking",
+        "am": "ቀላል ሩጫ ወይም ፈጣን እርምጃ"
+    },
+    "duration-5-minutes": {
+        "en": "5 minutes",
+        "am": "5 ደቂቃ"
+    },
+    "low-to-moderate": {
+        "en": "Low to moderate",
+        "am": "ከዝቅተኛ እስከ መካከለኛ"
+    },
+    "increasing-heart-rate": {
+        "en": "Gradually increasing heart rate",
+        "am": "በቅድመ ተከተል የልብ ምት መጨመር"
+    },
+    "dynamic-stretches": {
+        "en": "Dynamic Stretches",
+        "am": "ተንቀሳቃሽ መዘርጋቶች"
+    },
+    "dynamic-stretches-activities": {
+        "en": "Arm circles, leg swings, hip rotations",
+        "am": "የክንድ ዙሪያዎች፣ የእግር ማወዛወዝ፣ የወገብ ዙሪያዎች"
+    },
+    "mobility-muscle-activation": {
+        "en": "Mobility and muscle activation",
+        "am": "እንቅስቃሴ እና የጡንቻ ማነቃቃት"
+    },
+    "reps-10-12": {
+        "en": "10-12 reps",
+        "am": "10-12 ድግግሞሾች"
+    },
+    "bodyweight-squats": {
+        "en": "Bodyweight Squats",
+        "am": "የሰውነት ክብደት ስኳት"
+    },
+    "muscles": {
+        "en": "Muscles",
+        "am": "ጡንቻዎች"
+    },
+    "sets": {
+        "en": "Sets",
+        "am": "ስብስቦች"
+    },
+    "reps": {
+        "en": "Reps",
+        "am": "ድግግሞሾች"
+    },
+    "rest": {
+        "en": "Rest",
+        "am": "እረፍት"
+    },
+    "quadriceps-hamstrings-glutes": {
+        "en": "Quadriceps, Hamstrings, Glutes",
+        "am": "ኳድሪሴፕስ፣ ሃምስትሪንግስ፣ ግሉትስ"
+    },
+    "sets-3": {
+        "en": "3",
+        "am": "3"
+    },
+    "reps-15": {
+        "en": "15",
+        "am": "15"
+    },
+    "rest-60-seconds": {
+        "en": "60 seconds between sets",
+        "am": "በስብስቦች መካከል 60 ሰከንዶች"
+    },
+    "pushups": {
+        "en": "Push-ups",
+        "am": "ፑሽ-አፕስ"
+    },
+    "chest-shoulders-triceps": {
+        "en": "Chest, Shoulders, Triceps",
+        "am": "ደረት፣ ትከሻዎች፣ ትሪሴፕስ"
+    },
+    "static-stretches": {
+        "en": "Static Stretches",
+        "am": "ቋሚ መዘርጋቶች"
+    },
+    "type": {
+        "en": "Type",
+        "am": "ትምህርት"
+    },
+    "hold-time": {
+        "en": "Hold Time",
+        "am": "መልሶ ጊዜ"
+    },
+    "hold-time-15-30": {
+        "en": "15-30 seconds per stretch",
+        "am": "በእያንዳንዱ መዘርጋት 15-30 ሰከንዶች"
+    },
+    "full-body-stretch": {
+        "en": "Full body stretching routine",
+        "am": "የሙሉ አካል መዘርጋት መርሃ ግብር"
+    },
+    "muscle-recovery-flexibility": {
+        "en": "Muscle recovery and flexibility",
+        "am": "የጡንቻ መልሶ ማገገም እና ተለዋዋጭነት"
+    },
+    "complete-workout": {
+        "en": "Complete Workout",
+        "am": "ሙሉ አካል ስልጠና"
+    },
+    "save-for-later": {
+        "en": "Save for Later",
+        "am": "በቀን ላይ ያስቀምጥ"
+    },
+    "workout-error": {
+        "en": "Workout not found!",
+        "am": "ስልጠና አልተገኘም!"
     }
 }

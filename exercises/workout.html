@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TenaPrime - 3-Day Split (Day 1)</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/exercises/exercises.css">
+    <link rel="icon" href="/assets/logo-mini.svg">
+    <script src="/scripts/route-guard.js"></script>
+</head>
+<body>
+<div class="homepage">
+    <div class="header">
+        <div class="logo">
+          <img src="/assets/logo.svg" alt="TenaPrime">
+        </div>
+        <div class="navigation aleo-text">
+          <div class="navigation-home">
+            <a href="/dashboard">
+              <div class="home-text" data-text-key="home-menu-item">Home</div>
+            </a>
+          </div>
+          
+          <div class="navigation-exercises">
+            <a href="/exercises">
+              <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+            </a>
+          </div>
+            
+          <div class="navigation-nutrition">
+            <a href="/nutrition">
+              <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+            </a>
+          </div>
+          
+          <div class="navigation-prizes">
+            <a href="/prizes">
+              <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
+            </a>
+          </div>
+    
+          <div class="navigation-about">
+            <a href="/about">
+              <div class="about-text" data-text-key="about-menu-item">About</div>
+            </a>
+          </div>
+        </div>
+        <div class="extra-navigation">
+          <div class="avatar">
+            <img src="/assets/avatar.svg" alt="Account">
+            <div class="stats-popup aleo-text" id="statsPopup">
+                <div class="stats-container">
+                    <div class="stats-header">
+                        <h2 data-text-key="stats-title">Your Stats</h2>
+                        <button class="close-button" id="closeStats">&times;</button>
+                    </div>
+                    <div class="stats-content">
+                        <div class="stats-item">
+                            <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                            <span class="stats-value">5 <span data-text-key="days">days</span></span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label" data-text-key="points-earned">Points Earned</span>
+                            <span class="stats-value">250 <span data-text-key="points">points</span></span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                            <span class="stats-value">12</span>
+                        </div>
+                    </div>
+                    <div class="stats-footer">
+                        <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="language-selector aleo-text">
+            <p>EN</p>
+            <div class="language-dropdown">
+              <div class="language-option" data-lang="en">English</div>
+              <div class="language-option" data-lang="አማ">አማርኛ</div>
+            </div>
+          </div>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <div class="ethiotelecom">
+          <div class="ethiotelecom-container">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+          </div>
+        </div>
+    </div>
+    
+    <div class="workout-overview aleo-text">
+        <!-- Content will be dynamically loaded -->
+    </div>
+    
+    <div class="workout-content aleo-text">
+        <div class="workout-header">
+            <!-- Content will be dynamically loaded -->
+        </div>
+
+        <div class="exercise-list">
+            <!-- Content will be dynamically loaded -->
+        </div>
+
+        <div class="workout-footer aleo-text">
+            <button class="complete-workout-btn" data-text-key="complete-workout">Complete Workout</button>
+            <button class="save-for-later-btn" data-text-key="save-for-later">Save for Later</button>
+        </div>
+    </div>
+
+    <!-- Footer section (same as dashboard.html) -->
+    <div class="footer aleo-text">
+        <div class="footer-content">
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <h3 data-text-key="footer-quick-links">Quick Links</h3>
+                    <ul>
+                        <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
+                        <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
+                        <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
+                        <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-text-key="footer-information">Information</h3>
+                    <ul>
+                        <li><a href="/about" data-text-key="about-menu-item">About</a></li>
+                        <li><a href="#" data-text-key="faq">FAQ</a></li>
+                        <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-text-key="footer-contact">Contact</h3>
+                    <ul>
+                        <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+                        <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+                        <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+                        <li><a href="#" data-text-key="support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section footer-logo">
+                    <img src="/assets/logo.svg" alt="TenaPrime">
+                    <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+                    <div class="footer-social">
+                        <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
+                        <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 TenaPrime. All rights reserved.</p>
+                <div class="footer-ethiotelecom">
+                    <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sidebar-overlay"></div>
+<div class="sidebar aleo-text" id="sidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-logo">
+      <img src="/assets/logo.svg" alt="TenaPrime">
+    </div>
+    <button class="sidebar-close">&times;</button>
+  </div>
+  
+  <div class="sidebar-language-selector">
+    <div class="language-options-container">
+      <div class="sidebar-language-option" data-lang="en">
+        <span class="language-text">English</span>
+      </div>
+      <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+        <span class="language-text">አማርኛ</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-navigation">
+    <a href="/dashboard" class="sidebar-item">
+      <div data-text-key="home-menu-item">Home</div>
+    </a>
+    <a href="/exercises" class="sidebar-item">
+      <div data-text-key="exercises-menu-item">Exercises</div>
+    </a>
+    <a href="/nutrition" class="sidebar-item">
+      <div data-text-key="nutrition-menu-item">Nutrition</div>
+    </a>
+    <a href="/prizes" class="sidebar-item">
+      <div data-text-key="prizes-menu-item">Prizes</div>
+    </a>
+    <a href="/about" class="sidebar-item">
+      <div data-text-key="about-menu-item">About</div>
+    </a>
+  </div>
+
+  <div class="sidebar-footer">
+    <a href="#" class="sidebar-item">
+      <div data-text-key="tandc">Terms & Conditions</div>
+    </a>
+    <a href="#" class="sidebar-item">
+      <div data-text-key="faq">FAQ</div>
+    </a>
+    <a href="#" class="sidebar-item">
+      <div data-text-key="privacy-policy">Privacy Policy</div>
+    </a>
+    <a href="#" class="sidebar-item">
+      <div data-text-key="contact-us">Contact Us</div>
+    </a>
+  </div>
+</div>
+
+<script src="/scripts/config.js"></script>
+<script src="/scripts/auth-service.js"></script>
+<script src="/scripts/strings-loader.js"></script>
+<script src="/scripts/language-selector.js"></script>
+<script src="/scripts/user-stats-popup.js"></script>
+<script src="/scripts/sidebar-overlay.js"></script>
+<script src="/scripts/workout-tracker.js"></script>
+<script src="/scripts/workout-content-loader.js"></script>
+
+</body>
+</html>

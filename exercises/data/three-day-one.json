@@ -1,0 +1,150 @@
+{
+    "overview": {
+        "title": "three-day-overview-title",
+        "description": "three-day-overview-description",
+        "schedule": [
+            {
+                "day": "monday",
+                "activity": "full-body-workout",
+                "current": true
+            },
+            {
+                "day": "tuesday",
+                "activity": "rest-and-recovery",
+                "current": false
+            },
+            {
+                "day": "wednesday",
+                "activity": "full-body-workout",
+                "current": false
+            },
+            {
+                "day": "thursday",
+                "activity": "rest-and-recovery",
+                "current": false
+            },
+            {
+                "day": "friday",
+                "activity": "full-body-workout",
+                "current": false
+            },
+            {
+                "day": "saturday",
+                "activity": "rest-and-recovery",
+                "current": false
+            },
+            {
+                "day": "sunday",
+                "activity": "rest-and-recovery",
+                "current": false
+            }
+        ]
+    },
+    "header": {
+        "title": "three-day-split-day-one",
+        "description": "three-day-split-day-one-description"
+    },
+    "warmup": {
+      "title": "warmup-section",
+      "exercises": [
+        {
+          "name": "light-cardio",
+          "details": [
+            {
+              "label": "activities",
+              "key": "light-cardio-activity"
+            },
+            {
+              "label": "duration",
+              "key": "duration-5-minutes"
+            },
+            {
+              "label": "intensity",
+              "key": "low-to-moderate"
+            },
+            {
+              "label": "focus",
+              "key": "increasing-heart-rate"
+            }
+          ],
+          "image": "/exercises/gifs/warmup-cardio.gif"
+        },
+        {
+          "name": "dynamic-stretches",
+          "details": [
+            {
+              "label": "activities",
+              "key": "dynamic-stretches-activities"
+            },
+            {
+              "label": "duration",
+              "key": "duration-5-minutes"
+            },
+            {
+              "label": "reps",
+              "key": "reps-10-12"
+            },
+            {
+              "label": "focus",
+              "key": "mobility-muscle-activation"
+            }
+          ],
+          "image": "/exercises/gifs/dynamic-stretches.gif"
+        }
+      ]
+    },
+    "main": {
+      "title": "main-workout-section",
+      "exercises": [
+        {
+          "name": "bodyweight-squats",
+          "details": [
+            {
+              "label": "muscles",
+              "key": "quadriceps-hamstrings-glutes"
+            },
+            {
+              "label": "sets",
+              "key": "sets-3"
+            },
+            {
+              "label": "reps",
+              "key": "reps-15"
+            },
+            {
+              "label": "rest",
+              "key": "rest-60-seconds"
+            }
+          ],
+          "image": "/exercises/gifs/squats.gif"
+        }
+      ]
+    },
+    "cooldown": {
+      "title": "cooldown-section",
+      "exercises": [
+        {
+          "name": "static-stretches",
+          "details": [
+            {
+              "label": "type",
+              "key": "full-body-stretch"
+            },
+            {
+              "label": "duration",
+              "key": "duration-5-minutes"
+            },
+            {
+              "label": "hold-time",
+              "key": "hold-time-15-30"
+            },
+            {
+              "label": "focus",
+              "key": "muscle-recovery-flexibility"
+            }
+          ],
+          "image": "/exercises/gifs/static-stretches.gif"
+        }
+      ]
+    }
+  }

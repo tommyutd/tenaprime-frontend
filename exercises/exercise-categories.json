@@ -4,9 +4,9 @@
         "descriptionKey": "three-day-split-description",
         "imagePath": "/exercises/assets/three-day-split.png",
         "buttons": [
-            {"textKey": "day-one-full-body", "page": "three-day-one"},
-            {"textKey": "day-two-full-body", "page": "three-day-two"},
-            {"textKey": "day-three-full-body", "page": "three-day-three"}
+            {"textKey": "day-one-full-body", "page": "workout.html?plan=three-day-one"},
+            {"textKey": "day-two-full-body", "page": "workout.html?plan=three-day-two"},
+            {"textKey": "day-three-full-body", "page": "workout.html?plan=three-day-three"}
         ]
     },
     "workout-card-four-day": {
