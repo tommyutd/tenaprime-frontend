@@ -1,6 +1,5 @@
 async function loadWorkoutContent() {
     try {
-        // Get workout ID from URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const workoutId = urlParams.get('plan');
         
@@ -10,32 +9,49 @@ async function loadWorkoutContent() {
             return;
         }
 
-        // Fetch the specific workout data
-        const response = await fetch(`/exercises/data/${workoutId}.json`);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+        // Fetch both the workout plan and exercises list
+        const [workoutResponse, exercisesResponse] = await Promise.all([
+            fetch(`/exercises/data/${workoutId}.json`),
+            fetch('/exercises/exercises-list.json')
+        ]);
+
+        if (!workoutResponse.ok || !exercisesResponse.ok) {
+            throw new Error('Failed to fetch workout data');
         }
-        const data = await response.json();
-        
+
+        const [workoutData, exercisesList] = await Promise.all([
+            workoutResponse.json(),
+            exercisesResponse.json()
+        ]);
+
         // Load overview content
         const workoutOverview = document.querySelector('.workout-overview');
-        if (workoutOverview && data.overview) {
+        if (workoutOverview && workoutData.overview) {
             workoutOverview.innerHTML = `
                 <div class="overview-container">
-                    <h1 data-text-key="${data.overview.title}"></h1>
+                    <h1 data-text-key="${workoutData.overview.title}"></h1>
                     <div class="overview-content">
                         <div class="overview-description">
-                            <p data-text-key="${data.overview.description}"></p>
+                            <p data-text-key="${workoutData.overview.description}"></p>
                         </div>
-                        <div class="overview-schedule">
-                            ${data.overview.schedule.map(day => `
-                                <div class="schedule-day">
-                                    <h3 data-text-key="${day.day}"></h3>
-                                    <p data-text-key="${day.activity}"></p>
-                                    ${day.current ? '<span class="current-day" data-text-key="you-are-here"></span>' : ''}
-                                </div>
-                            `).join('')}
-                        </div>
+                        ${workoutData.overview.schedule ? `
+                            <div class="overview-schedule">
+                                ${workoutData.overview.schedule.map(day => `
+                                    <div class="schedule-day ${day.link ? 'clickable' : ''}">
+                                        ${day.link ? 
+                                            `<a href="${day.link}">
+                                                <h3 data-text-key="${day.day}"></h3>
+                                                <p data-text-key="${day.activity}"></p>
+                                                ${day.current ? '<span class="current-day" data-text-key="you-are-here"></span>' : ''}
+                                            </a>` :
+                                            `<h3 data-text-key="${day.day}"></h3>
+                                            <p data-text-key="${day.activity}"></p>
+                                            ${day.current ? '<span class="current-day" data-text-key="you-are-here"></span>' : ''}`
+                                        }
+                                    </div>
+                                `).join('')}
+                            </div>
+                        ` : ''}
                     </div>
                 </div>
             `;
@@ -43,14 +59,13 @@ async function loadWorkoutContent() {
 
         // Load header content
         const workoutHeader = document.querySelector('.workout-header');
-        if (workoutHeader && data.header) {
+        if (workoutHeader && workoutData.header) {
             workoutHeader.innerHTML = `
-                <h1 data-text-key="${data.header.title}"></h1>
-                <p class="workout-description" data-text-key="${data.header.description}"></p>
+                <h1 data-text-key="${workoutData.header.title}"></h1>
+                <p class="workout-description" data-text-key="${workoutData.header.description}"></p>
             `;
         }
 
-        // Clear existing content
         const exerciseList = document.querySelector('.exercise-list');
         if (!exerciseList) {
             throw new Error('Exercise list container not found');
@@ -59,33 +74,57 @@ async function loadWorkoutContent() {
         
         // Helper function to create exercise items
         function createExerciseItem(exercise) {
+            const exerciseData = exercisesList[exercise.id];
+            if (!exerciseData) {
+                console.error(`Exercise data not found for ID: ${exercise.id}`);
+                return '';
+            }
+
+            const detailsArray = Object.entries(exercise)
+                .filter(([key]) => key !== 'id')
+                .map(([key, value]) => ({
+                    label: key,
+                    key: value
+                }));
+
             return `
                 <div class="exercise-item">
                     <div class="exercise-details">
-                        <h3 data-text-key="${exercise.name}">${exercise.name}</h3>
+                        <h3 data-text-key="${exerciseData.name}"></h3>
                         <div class="exercise-info">
-                            ${exercise.details.map(detail => `
+                            ${exerciseData.target && exerciseData.target.length > 0 ? `
+                                <div class="exercise-info-row">
+                                    <div class="exercise-info-label" data-text-key="muscles">muscles</div>
+                                    <div class="exercise-info-description">
+                                        ${exerciseData.target.map(muscle => `<span data-text-key="${muscle}"></span>`).join(', ')}
+                                    </div>
+                                </div>
+                            ` : ''}
+                            ${detailsArray.map(detail => `
                                 <div class="exercise-info-row">
                                     <div class="exercise-info-label" data-text-key="${detail.label}">${detail.label}</div>
-                                    <div class="exercise-info-description" data-text-key="${detail.key}">${detail.key}</div>
+                                    <div class="exercise-info-description" data-text-key="${detail.key}"></div>
                                 </div>
                             `).join('')}
                         </div>
                     </div>
-                    <div class="exercise-visual">
-                        <img src="${exercise.image}" alt="${exercise.name}">
-                    </div>
+                    ${exerciseData.image ? `
+                        <div class="exercise-visual">
+                            <img src="${exerciseData.image}" alt="${exerciseData.name}">
+                        </div>
+                    ` : ''}
                 </div>
             `;
         }
 
         // Create sections
         ['warmup', 'main', 'cooldown'].forEach(section => {
-            const sectionData = data[section];
-            if (!sectionData) return; // Skip if section doesn't exist
+            const sectionData = workoutData[section];
+            if (!sectionData) return;
             
             const sectionElement = document.createElement('div');
             sectionElement.className = 'workout-section';
+            sectionElement.id = section;
             sectionElement.innerHTML = `
                 <h2 data-text-key="${sectionData.title}"></h2>
                 <div class="exercise-items">
@@ -95,7 +134,6 @@ async function loadWorkoutContent() {
             exerciseList.appendChild(sectionElement);
         });
 
-        // Trigger translation update if using language system
         if (typeof updatePageStrings === 'function') {
             updatePageStrings();
         }

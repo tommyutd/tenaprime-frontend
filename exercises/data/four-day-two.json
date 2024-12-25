@@ -1,37 +1,37 @@
 {
     "overview": {
-        "title": "three-day-overview-title",
-        "description": "three-day-overview-description",
+        "title": "four-day-overview-title",
+        "description": "four-day-overview-description",
         "schedule": [
             {
               "day": "monday",
-              "activity": "full-body-workout",
-              "current": true,
-              "link": "workout?plan=three-day-one"
+              "activity": "upper-body",
+              "current": false,
+              "link": "workout?plan=four-day-one"
             },
             {
                 "day": "tuesday",
-                "activity": "rest-and-recovery",
-                "current": false,
-                "link": null
+                "activity": "lower-body",
+                "current": true,
+                "link": "workout?plan=four-day-two"
             },
             {
                 "day": "wednesday",
-                "activity": "full-body-workout",
-                "current": false,
-                "link": "workout?plan=three-day-two"
-            },
-            {
-                "day": "thursday",
                 "activity": "rest-and-recovery",
                 "current": false,
                 "link": null
             },
             {
-                "day": "friday",
-                "activity": "full-body-workout",
+                "day": "thursday",
+                "activity": "upper-body",
                 "current": false,
-                "link": "workout?plan=three-day-three"
+                "link": "workout?plan=four-day-three"
+            },
+            {
+                "day": "friday",
+                "activity": "lower-body",
+                "current": false,
+                "link": "workout?plan=four-day-four"
             },
             {
                 "day": "saturday",
@@ -48,18 +48,18 @@
         ]
     },
     "header": {
-        "title": "three-day-split-day-one",
-        "description": "three-day-split-day-one-description"
+        "title": "four-day-split-day-two",
+        "description": "four-day-split-day-two-description"
     },
     "warmup": {
         "title": "warmup-section",
         "exercises": [
             {
-                "id": "marching-in-place",
+                "id": "jumping-jacks",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "arm-circles",
+                "id": "arm-swings",
                 "duration": "duration-30-seconds"
             },
             {
@@ -67,15 +67,11 @@
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "squat-jacks",
+                "id": "high-knees",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "high-kicks",
-                "duration": "duration-30-seconds"
-            },
-            {
-                "id": "side-to-side-squats",
+                "id": "fingertip-to-toe-jacks",
                 "duration": "duration-30-seconds"
             }
         ]
@@ -90,27 +86,27 @@
                 "rest": "rest-60-seconds"
             },
             {
-                "id": "bench-press",
+                "id": "leg-curl",
                 "sets": "sets-3",
-                "reps": "reps-10",
+                "reps": "reps-12",
                 "rest": "rest-60-seconds"
             },
             {
-                "id": "bent-over-rows",
+                "id": "leg-extension",
                 "sets": "sets-3",
-                "reps": "reps-10",
+                "reps": "reps-12",
                 "rest": "rest-60-seconds"
             },
             {
-                "id": "overhead-press",
+                "id": "standing-calf-raises",
                 "sets": "sets-3",
-                "reps": "reps-10",
+                "reps": "reps-15",
                 "rest": "rest-60-seconds"
             },
             {
-                "id": "plank",
+                "id": "glutes-bridge",
                 "sets": "sets-3",
-                "duration": "duration-30-seconds",
+                "reps": "reps-12",
                 "rest": "rest-60-seconds"
             }
         ]
@@ -131,7 +127,7 @@
                 "duration": "duration-20-seconds"
             },
             {
-                "id": "upper-back-stretch",
+                "id": "back-stretch",
                 "duration": "duration-20-seconds"
             },
             {

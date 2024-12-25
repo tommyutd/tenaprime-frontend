@@ -101,6 +101,7 @@
 
 /*User Content*/
 .exercises-user-workout,
+.exercises-user-at-home,
 .exercises-user-strength,
 .exercises-user-weight-loss,
 .exercises-user-flexibility,
@@ -110,6 +111,7 @@
 }
 
 .exercises-user-workout h1,
+.exercises-user-at-home h1,
 .exercises-user-strength h1,
 .exercises-user-weight-loss h1,
 .exercises-user-flexibility h1,
@@ -120,6 +122,7 @@
 }
 
 .exercises-user-workout b,
+.exercises-user-at-home b,
 .exercises-user-strength b,
 .exercises-user-weight-loss b,
 .exercises-user-flexibility b,
@@ -137,6 +140,9 @@
 #workout-card-three-day,
 #workout-card-four-day,
 #workout-card-five-day,
+#at-home-card-upper-body,
+#at-home-card-lower-body,
+#at-home-card-full-body,
 #strength-upper-body,
 #strength-lower-body,
 #strength-full-body,
@@ -165,6 +171,9 @@
 #workout-card-three-day:hover,
 #workout-card-four-day:hover,
 #workout-card-five-day:hover,
+#at-home-card-upper-body:hover,
+#at-home-card-lower-body:hover,
+#at-home-card-full-body:hover,
 #strength-upper-body:hover,
 #strength-lower-body:hover,
 #strength-full-body:hover,
@@ -185,6 +194,9 @@
 #workout-card-three-day::before,
 #workout-card-four-day::before,
 #workout-card-five-day::before,
+#at-home-card-upper-body::before,
+#at-home-card-lower-body::before,
+#at-home-card-full-body::before,
 #strength-upper-body::before,
 #strength-lower-body::before,
 #strength-full-body::before,
@@ -221,6 +233,18 @@
 
 #workout-card-five-day::before {
     background-image: url('/exercises/assets/five-day-split.png');
+}
+
+#at-home-card-upper-body::before {
+    background-image: url('/exercises/assets/at-home-upper-body.png');
+}
+
+#at-home-card-lower-body::before {
+    background-image: url('/exercises/assets/at-home-lower-body.png');
+}
+
+#at-home-card-full-body::before {
+    background-image: url('/exercises/assets/at-home-full-body.png');
 }
 
 #strength-upper-body::before {
@@ -430,7 +454,7 @@
     text-align: center;
     color: #BA9C62;
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    
 }
 
 .overview-content {
@@ -454,11 +478,28 @@
 }
 
 .schedule-day {
-    background: rgba(186, 156, 98, 0.3);
+    background: rgba(186, 156, 98, 0.05);
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
     position: relative;
+    transition: all 0.3s ease;
+}
+
+.schedule-day.clickable {
+    cursor: pointer;
+    background: rgba(186, 156, 98, 0.3);
+}
+
+.schedule-day.clickable:hover {
+    background: rgba(186, 156, 98, 0.5);
+    transform: translateY(-2px);
+}
+
+.schedule-day a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
 .schedule-day h3 {
@@ -495,7 +536,7 @@
 }
 
 .workout-header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -508,7 +549,6 @@
 }
 
 .workout-description {
-    font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.6;
@@ -516,7 +556,7 @@
 
 /* Workout sections styling */
 .workout-section {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     padding: 2rem;
     margin-bottom: 2rem;
@@ -526,6 +566,10 @@
     color: #BA9C62;
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
+}
+
+#main {
+    background: rgba(186, 156, 98, 0.1);
 }
 
 .exercise-items {
@@ -540,14 +584,20 @@
     align-items: center;
     background: rgba(186, 156, 98, 0.1);
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
     margin-bottom: 1.5rem;
     gap: 2rem;
 }
 
 .exercise-details {
     flex: 1;
-    min-width: 300px;
+    min-width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .exercise-details h3 {
@@ -568,10 +618,9 @@
 }
 
 .exercise-info-label {
-    flex: 0 0 15%;
+    flex: 0 0 25%;
     color: #BA9C62;
     font-weight: bold;
-    margin-right: 15px;
 }
 
 .exercise-info-description {
@@ -581,10 +630,12 @@
 
 .exercise-visual {
     flex: 1;
-    max-width: 400px;
+    max-width: 20%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 1.5rem;
 }
 
 .exercise-visual img {

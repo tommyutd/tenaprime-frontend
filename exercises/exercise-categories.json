@@ -4,9 +4,9 @@
         "descriptionKey": "three-day-split-description",
         "imagePath": "/exercises/assets/three-day-split.png",
         "buttons": [
-            {"textKey": "day-one-full-body", "page": "workout.html?plan=three-day-one"},
-            {"textKey": "day-two-full-body", "page": "workout.html?plan=three-day-two"},
-            {"textKey": "day-three-full-body", "page": "workout.html?plan=three-day-three"}
+            {"textKey": "day-one-full-body", "page": "workout?plan=three-day-one"},
+            {"textKey": "day-two-full-body", "page": "workout?plan=three-day-two"},
+            {"textKey": "day-three-full-body", "page": "workout?plan=three-day-three"}
         ]
     },
     "workout-card-four-day": {
@@ -14,10 +14,10 @@
         "descriptionKey": "four-day-split-description",
         "imagePath": "/exercises/assets/four-day-split.png",
         "buttons": [
-            {"textKey": "day-one-upper-body", "page": "four-day-one"},
-            {"textKey": "day-two-lower-body", "page": "four-day-two"},
-            {"textKey": "day-three-upper-body", "page": "four-day-three"},
-            {"textKey": "day-four-lower-body", "page": "four-day-four"}
+            {"textKey": "day-one-upper-body", "page": "workout?plan=four-day-one"},
+            {"textKey": "day-two-lower-body", "page": "workout?plan=four-day-two"},
+            {"textKey": "day-three-upper-body", "page": "workout?plan=four-day-three"},
+            {"textKey": "day-four-lower-body", "page": "workout?plan=four-day-four"}
         ]
     },
     "workout-card-five-day": {
@@ -25,11 +25,43 @@
         "descriptionKey": "five-day-split-description",
         "imagePath": "/exercises/assets/five-day-split.png",
         "buttons": [
-            {"textKey": "day-one-chest-and-triceps", "page": "five-day-one"},
-            {"textKey": "day-two-back-and-biceps", "page": "five-day-two"},
-            {"textKey": "day-three-legs", "page": "five-day-three"},
-            {"textKey": "day-four-shoulders-and-abs", "page": "five-day-four"},
-            {"textKey": "day-five-full-body-cardio", "page": "five-day-five"}
+            {"textKey": "day-one-chest-and-triceps", "page": "workout?plan=five-day-one"},
+            {"textKey": "day-two-back-and-biceps", "page": "workout?plan=five-day-two"},
+            {"textKey": "day-three-legs", "page": "workout?plan=five-day-three"},
+            {"textKey": "day-four-shoulders-and-core", "page": "workout?plan=five-day-four"},
+            {"textKey": "day-five-full-body-cardio", "page": "workout?plan=five-day-five"}
+        ]
+    },
+    "at-home-card-upper-body": {
+        "titleKey": "at-home-upper-body-training-title",
+        "descriptionKey": "at-home-upper-body-training-description",
+        "imagePath": "/exercises/assets/at-home-upper-body.png",
+        "buttons": [
+            {"textKey": "at-home-full-upper-body", "page": "workout?plan=at-home-full-upper-body"},
+            {"textKey": "at-home-chest-arms", "page": "workout?plan=at-home-chest-arms"},
+            {"textKey": "at-home-shoulders-upper-back", "page": "workout?plan=at-home-shoulders-upper-back"},
+            {"textKey": "at-home-core", "page": "workout?plan=at-home-core"}
+            
+        ]
+    },
+    "at-home-card-lower-body": {
+        "titleKey": "at-home-lower-body-training-title",
+        "descriptionKey": "at-home-lower-body-training-description",
+        "imagePath": "/exercises/assets/at-home-lower-body.png",
+        "buttons": [
+            {"textKey": "at-home-full-lower-body", "page": "workout?plan=at-home-full-lower-body"},
+            {"textKey": "at-home-amazing-glutes", "page": "workout?plan=at-home-amazing-glutes"}
+        ]
+    },
+    "at-home-card-full-body": {
+        "titleKey": "at-home-full-body-training-title",
+        "descriptionKey": "at-home-full-body-training-description",
+        "imagePath": "/exercises/assets/at-home-full-body.png",
+        "buttons": [
+            {"textKey": "at-home-full-body", "page": "workout?plan=at-home-full-body"},
+            {"textKey": "at-home-abs-and-core", "page": "workout?plan=at-home-abs-and-core"},
+            {"textKey": "at-home-strong-back", "page": "workout?plan=at-home-strong-back"},
+            {"textKey": "at-home-cardio-strength", "page": "workout?plan=at-home-cardio-strength"}
         ]
     },
     "strength-upper-body": {
@@ -41,8 +73,7 @@
             {"textKey": "upper-body-arms", "page": "upper-body-arms"},
             {"textKey": "upper-body-shoulders", "page": "upper-body-shoulders"},
             {"textKey": "upper-body-back", "page": "upper-body-back"},
-            {"textKey": "upper-body-core", "page": "upper-body-core"},
-            {"textKey": "upper-body-complex", "page": "upper-body-complex"}
+            {"textKey": "upper-body-core", "page": "upper-body-core"}
         ]
     },
     "strength-lower-body": {
@@ -50,9 +81,7 @@
         "descriptionKey": "lower-body-training-description",
         "imagePath": "/exercises/assets/lower-body.png",
         "buttons": [
-            {"textKey": "lower-body-legs", "page": "lower-body-legs"},
-            {"textKey": "lower-body-glutes", "page": "lower-body-glutes"},
-            {"textKey": "lower-body-complex", "page": "lower-body-complex"}
+            {"textKey": "lower-body-training", "page": "lower-body-training"}
         ]
     },
     "strength-full-body": {
@@ -60,10 +89,7 @@
         "descriptionKey": "full-body-training-description",
         "imagePath": "/exercises/assets/full-body.png",
         "buttons": [
-            {"textKey": "full-body-builder", "page": "full-body-builder"},
-            {"textKey": "full-body-abs-and-core", "page": "full-body-abs-and-core"},
-            {"textKey": "full-body-strong-back", "page": "full-body-strong-back"},
-            {"textKey": "full-body-cardio-strength", "page": "full-body-cardio-strength"}
+            {"textKey": "fitness", "page": "fitness"}
         ]
     },
     "weight-loss-cardio": {

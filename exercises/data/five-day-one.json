@@ -1,25 +1,25 @@
 {
     "overview": {
-        "title": "three-day-overview-title",
-        "description": "three-day-overview-description",
+        "title": "five-day-overview-title",
+        "description": "five-day-overview-description",
         "schedule": [
             {
               "day": "monday",
-              "activity": "full-body-workout",
+              "activity": "chest-triceps",
               "current": true,
-              "link": "workout?plan=three-day-one"
+              "link": "workout?plan=five-day-one"
             },
             {
                 "day": "tuesday",
-                "activity": "rest-and-recovery",
+                "activity": "back-biceps",
                 "current": false,
-                "link": null
+                "link": "workout?plan=five-day-two"
             },
             {
                 "day": "wednesday",
-                "activity": "full-body-workout",
+                "activity": "legs",
                 "current": false,
-                "link": "workout?plan=three-day-two"
+                "link": "workout?plan=five-day-three"
             },
             {
                 "day": "thursday",
@@ -29,15 +29,15 @@
             },
             {
                 "day": "friday",
-                "activity": "full-body-workout",
+                "activity": "shoulders-core",
                 "current": false,
-                "link": "workout?plan=three-day-three"
+                "link": "workout?plan=five-day-four"
             },
             {
                 "day": "saturday",
-                "activity": "rest-and-recovery",
+                "activity": "full-body-workout",
                 "current": false,
-                "link": null
+                "link": "workout?plan=five-day-five"
             },
             {
                 "day": "sunday",
@@ -48,18 +48,14 @@
         ]
     },
     "header": {
-        "title": "three-day-split-day-one",
-        "description": "three-day-split-day-one-description"
+        "title": "five-day-split-day-one",
+        "description": "five-day-split-day-one-description"
     },
     "warmup": {
         "title": "warmup-section",
         "exercises": [
             {
-                "id": "marching-in-place",
-                "duration": "duration-30-seconds"
-            },
-            {
-                "id": "arm-circles",
+                "id": "bird-dog",
                 "duration": "duration-30-seconds"
             },
             {
@@ -67,15 +63,11 @@
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "squat-jacks",
+                "id": "arm-swings",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "high-kicks",
-                "duration": "duration-30-seconds"
-            },
-            {
-                "id": "side-to-side-squats",
+                "id": "stutter-steps",
                 "duration": "duration-30-seconds"
             }
         ]
@@ -84,33 +76,33 @@
         "title": "main-workout-section",
         "exercises": [
             {
-                "id": "squats",
-                "sets": "sets-3",
-                "reps": "reps-10",
-                "rest": "rest-60-seconds"
-            },
-            {
                 "id": "bench-press",
                 "sets": "sets-3",
-                "reps": "reps-10",
+                "reps": "reps-8",
                 "rest": "rest-60-seconds"
             },
             {
-                "id": "bent-over-rows",
+                "id": "incline-dumbbell-press",
                 "sets": "sets-3",
                 "reps": "reps-10",
                 "rest": "rest-60-seconds"
             },
             {
-                "id": "overhead-press",
+                "id": "dumbbell-flys",
                 "sets": "sets-3",
-                "reps": "reps-10",
+                "reps": "reps-12",
                 "rest": "rest-60-seconds"
             },
             {
-                "id": "plank",
+                "id": "triceps-pushdown",
                 "sets": "sets-3",
-                "duration": "duration-30-seconds",
+                "reps": "reps-12",
+                "rest": "rest-60-seconds"
+            },
+            {
+                "id": "overhead-triceps-extension",
+                "sets": "sets-3",
+                "reps": "reps-12",
                 "rest": "rest-60-seconds"
             }
         ]
@@ -119,7 +111,7 @@
         "title": "cooldown-section",
         "exercises": [
             {
-                "id": "forward-fold",
+                "id": "neck-stretch",
                 "duration": "duration-20-seconds"
             },
             {

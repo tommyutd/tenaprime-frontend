@@ -379,13 +379,65 @@
         "en": "Day 3: Legs",
         "am": "ቀን 3: እግሮች"
     },
-    "day-four-shoulders-and-abs": {
-        "en": "Day 4: Shoulders & Abs",
+    "day-four-shoulders-and-core": {
+        "en": "Day 4: Shoulders & Core",
         "am": "ቀን 4: ትከሻ እና ሆድ"
     },
     "day-five-full-body-cardio": {
-        "en": "Day 5: Full Body/Cardio",
-        "am": "ቀን 5: ሙሉ አካል/ካርዲዮ"
+        "en": "Day 5: Full Body",
+        "am": "ቀን 5: ሙሉ አካል"
+    },
+    "at-home-text": {
+        "en": "At-Home Workouts",
+        "am": "በተስፋ አካል ስልጠና"
+    },
+    "at-home-upper-body-training-title": {
+        "en": "At-Home: Upper Body",
+        "am": "በተስፋ የላይኛው አካል ስልጠና"
+    },
+    "at-home-upper-body-training-description": {
+        "en": "Build strength in your chest, shoulders, arms, upper back, and core muscles.",
+        "am": "በላይኛው አካል የጡንቻ ቡድኖች የሚያማትር ሁለንተናዊ የላይኛው አካል የጥንካሬ ስልጠና።"
+    },
+    "at-home-lower-body-training-title": {
+        "en": "At-Home: Lower Body",
+        "am": "በተስፋ የታችኛው አካል ስልጠና"
+    },
+    "at-home-lower-body-training-description": {
+        "en": "Develop powerful legs with focused lower body exercises.",
+        "am": "በታችኛው አካል የጡንቻ ቡድኖች የሚያማትር እንቅስቃሴ ስልጠና።"
+    },
+    "at-home-full-body-training-title": {
+        "en": "At-Home: Full Body",
+        "am": "በተስፋ ሙሉ አካል ስልጠና"
+    },
+    "at-home-full-body-training-description": {
+        "en": "Complete full body workouts that target multiple muscle groups in one session.",
+        "am": "በአንድ ክፍለ ጊዜ ውስጥ ብዙ የጡንቻ ቡድኖችን የሚያማትር ሙሉ የአካል ልምምዶችን ያጠናቅቁ።"
+    },
+    "at-home-full-upper-body": {
+        "en": "At-Home: Full Upper Body",
+        "am": "በተስፋ የላይኛው አካል ስልጠና"
+    },
+    "at-home-chest-arms": {
+        "en": "At-Home: Chest & Arms",
+        "am": "በተስፋ ደረት & ቡድኖች"
+    },
+    "at-home-shoulders-upper-back": {
+        "en": "At-Home: Shoulders & Upper Back",
+        "am": "በተስፋ ትከሻ እና የላይኛው አካል"
+    },
+    "at-home-core": {
+        "en": "At-Home: Core",
+        "am": "በተስፋ ሆድ"
+    },
+    "at-home-lower-body": {
+        "en": "At-Home: Lower Body",
+        "am": "በተስፋ የታችኛው አካል ስልጠና"
+    },
+    "at-home-full-body": {
+        "en": "At-Home: Full Body",
+        "am": "በተስፋ ሙሉ አካል ስልጠና"
     },
     "upper-body-training-title": {
         "en": "Upper Body Training",
@@ -411,6 +463,14 @@
         "en": "Complete full body workouts that target multiple muscle groups in one session.",
         "am": "በአንድ ክፍለ ጊዜ ውስጥ ብዙ የጡንቻ ቡድኖችን የሚያነጣጥሩ ሙሉ የአካል ልምምዶችን ያጠናቅቁ።"
     },
+    "upper-body": {
+        "en": "Upper Body",
+        "am": "የላይኛው አካል"
+    },
+    "lower-body": {
+        "en": "Lower Body",
+        "am": "የታችኛው አካል"
+    },
     "upper-body-chest": {
         "en": "Chest",
         "am": "ደረት"
@@ -435,32 +495,20 @@
         "en": "Complex",
         "am": "ትምህርት"
     },
-    "lower-body-legs": {
-        "en": "Legs",
-        "am": "እግሮች"
+    "lower-body-training": {
+        "en": "Lower Body Training",
+        "am": "የታችኛው አካል ስልጠና"
     },
-    "lower-body-glutes": {
-        "en": "Glutes",
-        "am": "ግሉትስ"
-    },
-    "lower-body-complex": {
-        "en": "Complex",
-        "am": "ትምህርት"
-    },
-    "full-body-builder": {
-        "en": "Full Body Builder",
-        "am": "ሙሉ አካል ስልጠና"
-    },
-    "full-body-abs-and-core": {
-        "en": "Abs & Core",
+    "at-home-abs-and-core": {
+        "en": "At-Home: Abs & Core",
         "am": "ሆድ እና ማእከላዊ"
     },
-    "full-body-strong-back": {
-        "en": "Strong Back",
+    "at-home-strong-back": {
+        "en": "At-Home: Strong Back",
         "am": "ጀርባ እንቅስቃሴ"
     },
-    "full-body-cardio-strength": {
-        "en": "Cardio & Strength",
+    "at-home-cardio-strength": {
+        "en": "At-Home: Cardio-Strength",
         "am": "ካርዲዮ እና ጥንካሬ"
     },
     "weight-loss-text": {
@@ -599,6 +647,22 @@
         "en": "Muscle Groups Targeted: <b>Legs, Chest, Back, Shoulders, Core</b>",
         "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
     },
+    "three-day-split-day-two": {
+        "en": "Day 2: Full Body Workout",
+        "am": "ቀን 2: ሙሉ አካል ስልጠና"
+    },
+    "three-day-split-day-two-description": {
+        "en": "Muscle Groups Targeted: <b>Back, Legs, Biceps, Core</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "three-day-split-day-three": {
+        "en": "Day 1: Full Body Workout",
+        "am": "ቀን 1: ሙሉ አካል ስልጠና"
+    },
+    "three-day-split-day-three-description": {
+        "en": "Muscle Groups Targeted: <b>Legs, Chest, Back, Triceps, Core</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
     "warmup-section": {
         "en": "Warm-up",
         "am": "መዘርጋት"
@@ -699,16 +763,20 @@
         "en": "Mobility and muscle activation",
         "am": "እንቅስቃሴ እና የጡንቻ ማነቃቃት"
     },
+    "reps-10": {
+        "en": "10 reps",
+        "am": "10 ድግግሞሾች"
+    },
     "reps-10-12": {
         "en": "10-12 reps",
         "am": "10-12 ድግግሞሾች"
     },
-    "bodyweight-squats": {
-        "en": "Bodyweight Squats",
-        "am": "የሰውነት ክብደት ስኳት"
+    "squats": {
+        "en": "Squats",
+        "am": "ስኳት"
     },
     "muscles": {
-        "en": "Muscles",
+        "en": "Target",
         "am": "ጡንቻዎች"
     },
     "sets": {
@@ -723,16 +791,12 @@
         "en": "Rest",
         "am": "እረፍት"
     },
-    "quadriceps-hamstrings-glutes": {
-        "en": "Quadriceps, Hamstrings, Glutes",
-        "am": "ኳድሪሴፕስ፣ ሃምስትሪንግስ፣ ግሉትስ"
-    },
     "sets-3": {
-        "en": "3",
-        "am": "3"
+        "en": "3 sets",
+        "am": "3 ስብስቦች"
     },
     "reps-15": {
-        "en": "15",
+        "en": "15 reps",
         "am": "15"
     },
     "rest-60-seconds": {
@@ -740,12 +804,20 @@
         "am": "በስብስቦች መካከል 60 ሰከንዶች"
     },
     "pushups": {
-        "en": "Push-ups",
+        "en": "Pushups",
         "am": "ፑሽ-አፕስ"
     },
-    "chest-shoulders-triceps": {
-        "en": "Chest, Shoulders, Triceps",
-        "am": "ደረት፣ ትከሻዎች፣ ትሪሴፕስ"
+    "chest-triceps": {
+        "en": "Chest and Triceps",
+        "am": "ደረት እና ትሪሴፕስ"
+    },
+    "back-biceps": {
+        "en": "Back and Biceps",
+        "am": "ትምህርት እና ትሪሴፕስ"
+    },
+    "shoulders-core": {
+        "en": "Shoulders and Core",
+        "am": "ትከሻዎች እና መስመር"
     },
     "static-stretches": {
         "en": "Static Stretches",
@@ -782,5 +854,757 @@
     "workout-error": {
         "en": "Workout not found!",
         "am": "ስልጠና አልተገኘም!"
+    },
+    "legs": {
+        "en": "Legs",
+        "am": "እግር"
+    },
+    "chest": {
+        "en": "Chest",
+        "am": "ደረት"
+    },
+    "bench-press": {
+        "en": "Bench Press",
+        "am": "ትምህርት"
+    },
+    "back": {
+        "en": "Back",
+        "am": "ትምህርት"
+    },
+    "core": {
+        "en": "Core",
+        "am": "መስመር"
+    },
+    "shoulders": {
+        "en": "Shoulders",
+        "am": "ትከሻዎች"
+    },
+    "bent-over-rows": {
+        "en": "Bent Over Rows",
+        "am": "ትምህርት"
+    },
+    "overhead-press": {
+        "en": "Overhead Press",
+        "am": "ትምህርት"
+    },
+    "plank": {
+        "en": "Plank",
+        "am": "ትምህርት"
+    },
+    "duration-40-seconds": {
+        "en": "40 seconds",
+        "am": "40 ሰከንዶች"
+    },
+    "duration-35-seconds": {
+        "en": "35 seconds",
+        "am": "35 ሰከንዶች"
+    },
+    "duration-30-seconds": {
+        "en": "30 seconds",
+        "am": "30 ሰከንዶች"
+    },
+    "duration-25-seconds": {
+        "en": "25 seconds",
+        "am": "25 ሰከንዶች"
+    },
+    "duration-20-seconds": {
+        "en": "20 seconds",
+        "am": "20 ሰከንዶች"
+    },
+    "back-and-legs": {
+        "en": "Back and Legs",
+        "am": "ትምህርት እና እግር"
+    },
+    "deadlifts": {
+        "en": "Deadlifts",
+        "am": "ደስታ ስልጠና"
+    },
+    "reps-8": {
+        "en": "8 reps",
+        "am": "8 ድግግሞሾች"
+    },
+    "lat-pulldown": {
+        "en": "Lat Pulldown",
+        "am": "ትምህርት"
+    },
+    "lunges": {
+        "en": "Lunges",
+        "am": "ልክንግ"
+    },
+    "dumbbell-curl": {
+        "en": "Dumbbell Curl",
+        "am": "ትምህርት"
+    },
+    "bicycle-crunches": {
+        "en": "Bicycle Crunches",
+        "am": "ትምህርት"
+    },
+    "arms": {
+        "en": "Arms",
+        "am": "ክንድ"
+    },
+    "reps-12": {
+        "en": "12 reps",
+        "am": "12 ድግግሞሾች"
+    },
+    "leg-press": {
+        "en": "Leg Press",
+        "am": "እግር ስልጠና"
+    },
+    "dumbbell-flys": {
+        "en": "Dumbbell Flys",
+        "am": "ትምህርት"
+    },
+    "seated-cable-rows": {
+        "en": "Seated Cable Rows",
+        "am": "ትምህርት"
+    },
+    "triceps-pushdown": {
+        "en": "Triceps Pushdown",
+        "am": "ትምህርት"
+    },
+    "russian-twists": {
+        "en": "Russian Twists",
+        "am": "ትምህርት"
+    },
+    "four-day-overview-title": {
+        "en": "Four Day Split Overview",
+        "am": "አራት ቀን ስምምነት"
+    },
+    "four-day-overview-description": {
+        "en": "A Four-Day Split Workout targets different muscle groups each session, balancing strength, recovery, and growth for efficient training.",
+        "am": "አራት ቀን ስምምነት ስልጠና መርሃ ግብር"
+    },
+    "four-day-split-day-one": {
+        "en": "Day 1: Upper Body",
+        "am": "ቀን 1: ደረት አካል"
+    },
+    "four-day-split-day-one-description": {
+        "en": "Muscle Groups Targeted: <b>Chest, Back, Shoulders, Triceps, Biceps</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "four-day-split-day-two": {
+        "en": "Day 2: Lower Body",
+        "am": "ቀን 2: እግር አካል"
+    },
+    "four-day-split-day-two-description": {
+        "en": "Muscle Groups Targeted: <b>Quadriceps, Hamstrings, Glutes, Calves</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "four-day-split-day-three": {
+        "en": "Day 3: Upper Body",
+        "am": "ቀን 3: ደረት አካል"
+    },
+    "four-day-split-day-three-description": {
+        "en": "Muscle Groups Targeted: <b>Back, Chest, Shoulders, Biceps</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "four-day-split-day-four": {
+        "en": "Day 4: Lower Body",
+        "am": "ቀን 4: ደግር አካል"
+    },
+    "four-day-split-day-four-description": {
+        "en": "Muscle Groups Targeted: <b>Hamstrings, Glutes, Quadriceps, Calves, Core</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "triceps-dips": {
+        "en": "Triceps Dips",
+        "am": "ትምህርት"
+    },
+    "leg-curl": {
+        "en": "Leg Curl",
+        "am": "እግር ስልጠና"
+    },
+    "leg-extension": {
+        "en": "Leg Extension",
+        "am": "እግር ስልጠና"
+    },
+    "hamstrings": {
+        "en": "Hamstrings",
+        "am": "ሃምስትሪንግስ"
+    },
+    "quadriceps": {
+        "en": "Quadriceps",
+        "am": "ኳድሪሴፕስ"
+    },
+    "biceps": {
+        "en": "Biceps",
+        "am": "ትምህርት"
+    },
+    "triceps": {
+        "en": "Triceps",
+        "am": "ትምህርት"
+    },
+    "calves": {
+        "en": "Calves",
+        "am": "መስተሳሰብ"
+    },
+    "standing-calf-raises": {
+        "en": "Standing Calf Raises",
+        "am": "መስተሳሰብ ስልጠና"
+    },
+    "seated-calf-raises": {
+        "en": "Seated Calf Raises",
+        "am": "መስተሳሰብ ስልጠና"
+    },
+    "glutes": {
+        "en": "Glutes",
+        "am": "ግሉትስ"
+    },
+    "glutes-bridge": {
+        "en": "Glutes Bridge",
+        "am": "ግሉትስ ስልጠና"
+    },
+    "incline-dumbbell-press": {
+        "en": "Incline Dumbbell Press",
+        "am": "ትምህርት"
+    },
+    "hammer-curls": {
+        "en": "Hammer Curls",
+        "am": "ትምህርት"
+    },
+    "lateral-raises": {
+        "en": "Lateral Raises",
+        "am": "ትምህርት"
+    },
+    "hamstrings-back": {
+        "en": "Hamstrings and Back",
+        "am": "ሀምስትሪንግ እና ጀርባ"
+    },
+    "cardiovascular-system": {
+        "en": "Cardiovascular System",
+        "am": "የመስተሳሰብ ስምምዶች"
+    },
+    "forearms": {
+        "en": "Forearms",
+        "am": "ትምህርት"
+    },
+    "obliques": {
+        "en": "Obliques",
+        "am": "ትምህርት"
+    },
+    "traps": {
+        "en": "Traps",
+        "am": "ትምህርት"
+    },
+    "full-body": {
+        "en": "Full Body",
+        "am": "ሙሉ አካል"
+    },
+    "ab-wheel-rollout": {
+        "en": "Ab Wheel Rollout",
+        "am": "ትምህርት"
+    },
+    "five-day-overview-title": {
+        "en": "Five Day Split Overview",
+        "am": "አራት ቀን ስምምነት"
+    },
+    "five-day-overview-description": {
+        "en": "A Five-Day Split Workout targets different muscle groups each session, balancing strength, recovery, and growth for efficient training.",
+        "am": "አራት ቀን ስምምነት ስልጠና መርሃ ግብር"
+    },
+    "five-day-split-day-one": {
+        "en": "Day 1: Chest and Triceps",
+        "am": "ቀን 1: ደረት እና ትሪሴፕስ"
+    },
+    "five-day-split-day-one-description": {
+        "en": "Muscle Groups Targeted: <b>Chest, Triceps</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "five-day-split-day-two": {
+        "en": "Day 2: Back and Biceps",
+        "am": "ቀን 2: ጀርባ እና ትሪሴፕስ"
+    },
+    "five-day-split-day-two-description": {
+        "en": "Muscle Groups Targeted: <b>Back, Biceps</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "five-day-split-day-three": {
+        "en": "Day 3: Legs",
+        "am": "ቀን 3: እግር"
+    },
+    "five-day-split-day-three-description": {
+        "en": "Muscle Groups Targeted: <b>Legs</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "five-day-split-day-four": {
+        "en": "Day 4: Shoulders and Core",
+        "am": "ቀን 4: ትከሻዎች እና መስመር"
+    },
+    "five-day-split-day-four-description": {
+        "en": "Muscle Groups Targeted: <b>Shoulders, Core</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "five-day-split-day-five": {
+        "en": "Day 5: Full Body",
+        "am": "ቀን 5: መልሶ ማገገም"
+    },
+    "five-day-split-day-five-description": {
+        "en": "Muscle Groups Targeted: <b>Full Body</b>",
+        "am": "በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና በሙሉ አካል ልምምዶች ላይ ያለ ትምህርት ስልጠና ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "overhead-triceps-extension": {
+        "en": "Overhead Triceps Extension",
+        "am": "ትምህርት"
+    },
+    "preacher-curl": {
+        "en": "Preacher Curl",
+        "am": "ትምህርት"
+    },
+    "marching-in-place": {
+        "en": "Marching in Place",
+        "am": "በቦታ ላይ መራመድ"
+    },
+    "arm-circles": {
+        "en": "Arm Circles",
+        "am": "የክንድ ዙሪያዎች"
+    },
+    "hip-circles": {
+        "en": "Hip Circles",
+        "am": "የወገብ ዙሪያዎች"
+    },
+    "squat-jacks": {
+        "en": "Squat Jacks",
+        "am": "ስኳት ጃክስ"
+    },
+    "high-kicks": {
+        "en": "High Kicks",
+        "am": "ከፍ ያለ ኪክስ"
+    },
+    "side-to-side-squats": {
+        "en": "Side to Side Squats",
+        "am": "ከጎን ወደ ጎን ስኳት"
+    },
+    "jumping-jacks": {
+        "en": "Jumping Jacks",
+        "am": "ጄምፒንግ ጃክስ"
+    },
+    "arm-swings": {
+        "en": "Arm Swings",
+        "am": "የክንድ ዙረት"
+    },
+    "high-knees": {
+        "en": "High Knees",
+        "am": "ከፍ ያለ ጉልበት"
+    },
+    "fingertip-to-toe-jacks": {
+        "en": "Fingertip to Toe Jacks",
+        "am": "ጣት እስከ ጣት ጃክስ"
+    },
+    "bird-dog": {
+        "en": "Bird Dog",
+        "am": "በርድ ዶግ"
+    },
+    "stutter-steps": {
+        "en": "Stutter Steps",
+        "am": "ስተተር ስተፕስ"
+    },
+    "forward-fold": {
+        "en": "Forward Fold",
+        "am": "ወደ ፊት መጎንበስ"
+    },
+    "quad-stretch": {
+        "en": "Quad Stretch",
+        "am": "የቁልቋል መዘርጋት"
+    },
+    "tricep-stretch": {
+        "en": "Tricep Stretch",
+        "am": "የትራይሴፕ መዘርጋት"
+    },
+    "upper-back-stretch": {
+        "en": "Upper Back Stretch",
+        "am": "የላይኛው ጀርባ መዘርጋት"
+    },
+    "calf-stretch": {
+        "en": "Calf Stretch",
+        "am": "የጭኖ መዘርጋት"
+    },
+    "hips": {
+        "en": "Hips",
+        "am": "ወገብ"
+    },
+    "lower-back": {
+        "en": "Lower Back",
+        "am": "ጀርባ"
+    },
+    "upper-back": {
+        "en": "Upper Back",
+        "am": "የላይኛው ጀርባ"
+    },
+    "middle-back": {
+        "en": "Middle Back",
+        "am": "የአንድነት ጀርባ"
+    },
+    "back-stretch": {
+        "en": "Back Stretch",
+        "am": "ጀርባ መዘርጋት"
+    },
+    "neck": {
+        "en": "Neck",
+        "am": "አስቲ"
+    },
+    "neck-stretch": {
+        "en": "Neck Stretch",
+        "am": "የአስቲ መዘርጋት"
+    },
+    "front-raises": {
+        "en": "Front Raises",
+        "am": "የፊት መርሃ"
+    },
+    "shrugs": {
+        "en": "Shrugs",
+        "am": "ስራንግ"
+    },
+    "fitness": {
+        "en": "Fitness",
+        "am": "ፍስት"
+    },
+    "extended-arm-circles": {
+        "en": "Extended Arm Circles",
+        "am": "የክንድ ዙሪያዎች"
+    },
+    "jump-rope": {
+        "en": "Jump Rope",
+        "am": "ጄምፒንግ"
+    },
+    "hand-to-toe": {
+        "en": "Hand to Toe",
+        "am": "ጣት እስከ ጣት"
+    },
+    "at-home-upper-body-overview-title": {
+        "en": "At Home Upper Body Overview",
+        "am": "የታችኛው አካል ስምምዶች"
+    },
+    "at-home-upper-body-overview-description": {
+        "en": "This workout focuses on upper body strength and endurance, using bodyweight exercises and minimal equipment.",
+        "am": "የታችኛው አካል ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "at-home-full-upper-body-description": {
+        "en": "This workout targets the entire upper body, using bodyweight exercises and minimal equipment.",
+        "am": "የታችኛው አካል ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "rest-period": {
+        "en": "Rest Period",
+        "am": "ስልጠና"
+    },
+    "kneeled-pushups": {
+        "en": "Kneeled Pushups",
+        "am": "ስኳት ጃክስ"
+    },
+    "kneeled-wide-pushups": {
+        "en": "Kneeled Wide Pushups",
+        "am": "ስኳት ጃክስ"
+    },
+    "kneeled-narrow-pushups": {
+        "en": "Kneeled Narrow Pushups",
+        "am": "ስኳት ጃክስ"
+    },
+    "hindu-pushups": {
+        "en": "Hindu Pushup",
+        "am": "ህንድዩ ጃክስ"
+    },
+    "inclined-pushup": {
+        "en": "Inclined Pushup",
+        "am": "መጠቀም ጃክስ"
+    },
+    "wall-pushup": {
+        "en": "Wall Pushup",
+        "am": "መጠቀም ጃክስ"
+    },
+    "narrow-pushup": {
+        "en": "Narrow Pushup",
+        "am": "ስኳት ጃክስ"
+    },
+    "mountain-walkers": {
+        "en": "Mountain Walkers",
+        "am": "መልእክት መራመድ"
+    },
+    "sumo-squat": {
+        "en": "Sumo Squat",
+        "am": "ስኳት ጃክስ"
+    },
+    "kneeled-diamond-pushups": {
+        "en": "Kneeled Diamond Pushups",
+        "am": "ስኳት ጃክስ"
+    },
+    "bridge-kicker": {
+        "en": "Bridge Kicker",
+        "am": "ስኳት ጃክስ"
+    },
+    "triceps-pushup": {
+        "en": "Triceps Pushup",
+        "am": "ትምህርት ጃክስ"
+    },
+    "burpees": {
+        "en": "Burpees",
+        "am": "በርቴስ"
+    },
+    "bear-crawl": {
+        "en": "Bear Crawl",
+        "am": "በርቴስ"
+    },
+    "mountain-climbers": {
+        "en": "Mountain Climbers",
+        "am": "መልእክት መራመድ"
+    },
+    "punches": {
+        "en": "Punches",
+        "am": "በርቴስ"
+    },
+    "at-home-chest-arms-description": {
+        "en": "This workout targets the chest, shoulders, and triceps, using bodyweight exercises and minimal equipment.",
+        "am": "የታችኛው አካል ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "decline-pushups": {
+        "en": "Decline Pushups",
+        "am": "መጠቀም ጃክስ"
+    },
+    "superman": {
+        "en": "Super Man",
+        "am": "ሰፓርሙን"
+    },
+    "side-plank-elbow-to-knee": {
+        "en": "Side Plank Elbow to Knee",
+        "am": "ጎን መጠቀም ጃክስ"
+    },
+    "diamond-pushups": {
+        "en": "Diamond Pushups",
+        "am": "ስኳት ጃክስ"
+    },
+    "pull-up": {
+        "en": "Pull Ups",
+        "am": "መጠቀም ጃክስ"
+    },
+    "at-home-shoulders-upper-back-description": {
+        "en": "This workout targets the shoulders, upper back, and triceps, using bodyweight exercises and minimal equipment.",
+        "am": "የታችኛው አካል ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "at-home-core-description": {
+        "en": "This workout targets the core, using bodyweight exercises and minimal equipment.",
+        "am": "የታችኛው አካል ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "flutter-kick-squats": {
+        "en": "Flutter Kick Squats",
+        "am": "መራመድ ስኳት"
+    },
+    "crunches": {
+        "en": "Crunches",
+        "am": "ስኳት"
+    },
+    "v-ups": {
+        "en": "V-Ups",
+        "am": "ስኳት"
+    },
+    "leg-pull-knee-ups": {
+        "en": "Leg Pull Knee Ups",
+        "am": "ስኳት"
+    },
+    "l-sit": {
+        "en": "L-Sit",
+        "am": "ስኳት"
+    },
+    "kneeling-back-rotation": {
+        "en": "Kneeling Back Rotation",
+        "am": "ስኳት"
+    },
+    "side-plank-hip-raise": {
+        "en": "Side Plank Hip Raise",
+        "am": "ስኳት"
+    },
+    "side-plank": {
+        "en": "Side Plank",
+        "am": "ስኳት"
+    },
+    "cross-crunches": {
+        "en": "Cross Crunches",
+        "am": "ስኳት"
+    },
+    "reverse-crunches": {
+        "en": "Reverse Crunches",
+        "am": "ስኳት"
+    },
+    "crab-twist-toe-touch": {
+        "en": "Crab Twist Toe Touch",
+        "am": "ስኳት"
+    },
+    "hanging-knee-raises": {
+        "en": "Hanging Knee Raises",
+        "am": "ስኳት"
+    },
+    "upper-abs": {
+        "en": "Upper Abs",
+        "am": "ስኳት"
+    },
+    "lower-abs": {
+        "en": "Lower Abs",
+        "am": "ስኳት"
+    },
+    "at-home-full-lower-body": {
+        "en": "At Home: Full Lower Body",
+        "am": "የታችኛው መልሶ ስምምዶች"
+    },
+    "at-home-amazing-glutes": {
+        "en": "At Home: Amazing Glutes",
+        "am": "የታችኛው መልሶ ስምምዶች"
+    },
+    "at-home-lower-body-overview-title": {
+        "en": "At Home: Lower Body Overview",
+        "am": "የታችኛው መልሶ ስምምዶች"
+    },
+    "at-home-lower-body-overview-description": {
+        "en": "This workout targets the lower body, using bodyweight exercises and minimal equipment.",
+        "am": "የታችኛው መልሶ ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "at-home-full-lower-body-description": {
+        "en": "This workout targets the entire lower body, using bodyweight exercises and minimal equipment.",
+        "am": "የታችኛው መልሶ ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "squat-and-knee-kick": {
+        "en": "Squat and Knee Kick",
+        "am": "ስኳት እና ጉልበት ጃክስ"
+    },
+    "leg-raises": {
+        "en": "Leg Raises",
+        "am": "ጉልበት መርሃ"
+    },
+    "jump-squat": {
+        "en": "Jump Squat",
+        "am": "ጄምፒንግ ስኳት"
+    },
+    "bulgarian-squat": {
+        "en": "Bulgarian Squat",
+        "am": "ቡልጋሪያን ስኳት"
+    },
+    "wall-sit": {
+        "en": "Wall Sit",
+        "am": "መጠቀም ጃክስ"
+    },
+    "rear-lunges": {
+        "en": "Rear Lunges",
+        "am": "መጠቀም ጃክስ"
+    },
+    "pistol-squat": {
+        "en": "Pistol Squat",
+        "am": "ስኳት"
+    },
+    "frog-jumps": {
+        "en": "Frog Jumps",
+        "am": "ስኳት"
+    },
+    "at-home-amazing-glutes-description": {
+        "en": "This workout targets the glutes, using bodyweight exercises and minimal equipment.",
+        "am": "የታችኛው አካል ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "prisoners-squat": {
+        "en": "Prisoners Squat",
+        "am": "ስኳት"
+    },
+    "bulgarian-split-squat-jump": {
+        "en": "Bulgarian Split Squat Jump",
+        "am": "ቡልጋሪያን ስኳት ጃክስ"
+    },
+    "step-ups": {
+        "en": "Step Ups",
+        "am": "ስኳት"
+    },
+    "high-knee-squat": {
+        "en": "High Knee Squat",
+        "am": "ስኳት"
+    },
+    "high-knees-lift-run": {
+        "en": "High Knees Lift Run",
+        "am": "ስኳት"
+    },
+    "bench-glute-flutter-kicks": {
+        "en": "Bench Glute Flutter Kicks",
+        "am": "ስኳት"
+    },
+    "toe-touch-squat": {
+        "en": "Toe Touch Squat",
+        "am": "ስኳት"
+    },
+    "toe-touches": {
+        "en": "Toe Touches",
+        "am": "ስኳት"
+    },
+    "side-crunches": {
+        "en": "Side Crunches",
+        "am": "ስኳት"
+    },
+    "knee-to-elbow": {
+        "en": "Knee to Elbow",
+        "am": "ስኳት"
+    },
+    "at-home-abs-and-core-description": {
+        "en": "This workout targets the abs and core, using bodyweight exercises and minimal equipment.",
+        "am": "የታችኛው አካል ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "elevated-crunches": {
+        "en": "Elevated Crunches",
+        "am": "ስኳት"
+    },
+    "shoulder-pushups": {
+        "en": "Shoulder Pushups",
+        "am": "ስኳት"
+    },
+    "easy-side-plank": {
+        "en": "Easy Side Plank",
+        "am": "ስኳት"
+    },
+    "single-leg-plank": {
+        "en": "Single Leg Plank",
+        "am": "ስኳት"
+    },
+    "abdominal-hip-raises": {
+        "en": "Abdominal Hip Raises",
+        "am": "ስኳት"
+    },
+    "alternating-leg-lifts": {
+        "en": "Alternating Leg Lifts",
+        "am": "ስኳት"
+    },
+    "sit-ups": {
+        "en": "Sit-Ups",
+        "am": "ስኳት"
+    },
+    "alternating-crunches": {
+        "en": "Alternating Crunches",
+        "am": "ስኳት"
+    },
+    "oblique-crunches": {
+        "en": "Oblique Crunches",
+        "am": "ስኳት"
+    },
+    "at-home-strong-back-description": {
+        "en": "This workout targets the back, using bodyweight exercises and minimal equipment.",
+        "am": "የታችኛው አካል ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "cat-cow": {
+        "en": "Cat Cow",
+        "am": "ስኳት"
+    },
+    "lying-lat-pulldown": {
+        "en": "Lying Lat Pulldown",
+        "am": "ስኳት"
+    },
+    "at-home-cardio-strength-description": {
+        "en": "This workout maximizes calorie burn, enhances overall fitness, and supports a balanced, functional body.",
+        "am": "የታችኛው አካል ስምምዶች ስልጠና እና ስልጠና መርሃ ግብር ለሙሉ አካል ልምምዶች ያሳድጉ።"
+    },
+    "high-knees-against-wall": {
+        "en": "High Knees Against Wall",
+        "am": "የጠቀም ጃክስ"
+    },
+    "jumping": {
+        "en": "Jumping",
+        "am": "መራመድ"
+    },
+    "running-in-place": {
+        "en": "Running In Place",
+        "am": "መራመድ"
+    },
+    "knee-kick": {
+        "en": "Knee Kicks",
+        "am": "መራመድ"
     }
 }

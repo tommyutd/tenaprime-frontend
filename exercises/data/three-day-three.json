@@ -4,10 +4,10 @@
         "description": "three-day-overview-description",
         "schedule": [
             {
-              "day": "monday",
-              "activity": "full-body-workout",
-              "current": true,
-              "link": "workout?plan=three-day-one"
+                "day": "monday",
+                "activity": "full-body-workout",
+                "current": false,
+                "link": "workout.html?plan=three-day-one"
             },
             {
                 "day": "tuesday",
@@ -19,7 +19,7 @@
                 "day": "wednesday",
                 "activity": "full-body-workout",
                 "current": false,
-                "link": "workout?plan=three-day-two"
+                "link": "workout.html?plan=three-day-two"
             },
             {
                 "day": "thursday",
@@ -30,8 +30,8 @@
             {
                 "day": "friday",
                 "activity": "full-body-workout",
-                "current": false,
-                "link": "workout?plan=three-day-three"
+                "current": true,
+                "link": "workout.html?plan=three-day-three"
             },
             {
                 "day": "saturday",
@@ -48,8 +48,8 @@
         ]
     },
     "header": {
-        "title": "three-day-split-day-one",
-        "description": "three-day-split-day-one-description"
+        "title": "three-day-split-day-three",
+        "description": "three-day-split-day-three-description"
     },
     "warmup": {
         "title": "warmup-section",
@@ -84,33 +84,33 @@
         "title": "main-workout-section",
         "exercises": [
             {
-                "id": "squats",
+                "id": "leg-press",
                 "sets": "sets-3",
                 "reps": "reps-10",
                 "rest": "rest-60-seconds"
             },
             {
-                "id": "bench-press",
+                "id": "dumbbell-flys",
+                "sets": "sets-3",
+                "reps": "reps-12",
+                "rest": "rest-60-seconds"
+            },
+            {
+                "id": "seated-cable-rows",
                 "sets": "sets-3",
                 "reps": "reps-10",
                 "rest": "rest-60-seconds"
             },
             {
-                "id": "bent-over-rows",
+                "id": "triceps-pushdown",
                 "sets": "sets-3",
-                "reps": "reps-10",
+                "reps": "reps-12",
                 "rest": "rest-60-seconds"
             },
             {
-                "id": "overhead-press",
+                "id": "russian-twists",
                 "sets": "sets-3",
-                "reps": "reps-10",
-                "rest": "rest-60-seconds"
-            },
-            {
-                "id": "plank",
-                "sets": "sets-3",
-                "duration": "duration-30-seconds",
+                "reps": "reps-12",
                 "rest": "rest-60-seconds"
             }
         ]

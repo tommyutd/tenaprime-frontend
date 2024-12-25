@@ -1,0 +1,143 @@
+{
+    "overview": {
+        "title": "at-home-upper-body-overview-title",
+        "description": "at-home-upper-body-overview-description",
+        "schedule": [
+            {
+              "day": "at-home-text",
+              "activity": "at-home-full-upper-body",
+              "current": false,
+              "link": "workout?plan=at-home-full-upper-body"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-chest-arms",
+                "current": true,
+                "link": "workout?plan=at-home-chest-arms"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-shoulders-upper-back",
+                "current": false,
+                "link": "workout?plan=at-home-shoulders-upper-back"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-core",
+                "current": false,
+                "link": "workout?plan=at-home-core"
+            }
+      ]
+    },
+    "header": {
+        "title": "at-home-chest-arms",
+        "description": "at-home-chest-arms-description"
+    },
+    "warmup": {
+        "title": "warmup-section",
+        "exercises": [
+            {
+                "id": "mountain-walkers",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "hip-circles",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "hand-to-toe",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "sumo-squat",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "main": {
+        "title": "main-workout-section",
+        "exercises": [
+            {
+                "id": "inclined-pushup",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "kneeled-diamond-pushups",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "triceps-dips",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "extended-arm-circles",
+                "duration": "duration-25-seconds"
+            },
+            {
+                "id": "bridge-kicker",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "triceps-pushup",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "burpees",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "bear-crawl",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "mountain-climbers",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "kneeled-wide-pushups",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "punches",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "pushups",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "cooldown": {
+        "title": "cooldown-section",
+        "exercises": [
+            {
+                "id": "forward-fold",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "tricep-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "back-stretch",
+                "duration": "duration-20-seconds"
+            }
+        ]
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "overview": {
+        "title": "at-home-upper-body-overview-title",
+        "description": "at-home-upper-body-overview-description",
+        "schedule": [
+            {
+              "day": "at-home-text",
+              "activity": "at-home-full-upper-body",
+              "current": false,
+              "link": "workout?plan=at-home-full-upper-body"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-chest-arms",
+                "current": false,
+                "link": "workout?plan=at-home-chest-arms"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-shoulders-upper-back",
+                "current": false,
+                "link": "workout?plan=at-home-shoulders-upper-back"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-core",
+                "current": true,
+                "link": "workout?plan=at-home-core"
+            }
+      ]
+    },
+    "header": {
+        "title": "at-home-core",
+        "description": "at-home-core-description"
+    },
+    "warmup": {
+        "title": "warmup-section",
+        "exercises": [
+            {
+                "id": "jump-rope",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "arm-circles",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "flutter-kick-squats",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "main": {
+        "title": "main-workout-section",
+        "exercises": [
+            {
+                "id": "crunches",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "v-ups",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "leg-pull-knee-ups",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "bicycle-crunches",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "plank",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "l-sit",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "kneeling-back-rotation",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "russian-twists",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "side-plank-hip-raise",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "side-plank",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "cross-crunches",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "reverse-crunches",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "crab-twist-toe-touch",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "hanging-knee-raises",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "cooldown": {
+        "title": "cooldown-section",
+        "exercises": [
+            {
+                "id": "forward-fold",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "back-stretch",
+                "duration": "duration-20-seconds"
+            }
+        ]
+    }
+}
