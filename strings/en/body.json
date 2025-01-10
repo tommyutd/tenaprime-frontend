@@ -1,0 +1,110 @@
+[
+    {
+        "id": "chest-triceps",
+        "en": "Chest and Triceps"
+    },
+    {
+        "id": "back-biceps",
+        "en": "Back and Biceps"
+    },
+    {
+        "id": "shoulders-core",
+        "en": "Shoulders and Core"
+    },
+    {
+        "id": "legs",
+        "en": "Legs"
+    },
+    {
+        "id": "chest",
+        "en": "Chest"
+    },
+    {
+        "id": "back",
+        "en": "Back"
+    },
+    {
+        "id": "core",
+        "en": "Core"
+    },
+    {
+        "id": "shoulders",
+        "en": "Shoulders"
+    },
+    {
+        "id": "back-and-legs",
+        "en": "Back and Legs"
+    },
+    {
+        "id": "arms",
+        "en": "Arms"
+    },
+    {
+        "id": "hamstrings",
+        "en": "Hamstrings"
+    },
+    {
+        "id": "quadriceps",
+        "en": "Quadriceps"
+    },
+    {
+        "id": "biceps",
+        "en": "Biceps"
+    },
+    {
+        "id": "triceps",
+        "en": "Triceps"
+    },
+    {
+        "id": "calves",
+        "en": "Calves"
+    },
+    {
+        "id": "glutes",
+        "en": "Glutes"
+    },
+    {
+        "id": "hamstrings-back",
+        "en": "Hamstrings and Back"
+    },
+    {
+        "id": "cardiovascular-system",
+        "en": "Cardiovascular System"
+    },
+    {
+        "id": "forearms",
+        "en": "Forearms"
+    },
+    {
+        "id": "obliques",
+        "en": "Obliques"
+    },
+    {
+        "id": "traps",
+        "en": "Traps"
+    },
+    {
+        "id": "full-body",
+        "en": "Full Body"
+    },
+    {
+        "id": "hips",
+        "en": "Hips"
+    },
+    {
+        "id": "lower-back",
+        "en": "Lower Back"
+    },
+    {
+        "id": "upper-back",
+        "en": "Upper Back"
+    },
+    {
+        "id": "middle-back",
+        "en": "Middle Back"
+    },
+    {
+        "id": "neck",
+        "en": "Neck"
+    }
+]

@@ -1,0 +1,155 @@
+{
+    "overview": {
+        "title": "at-home-full-body-training-title",
+        "description": "at-home-full-body-training-overview",
+        "schedule": [
+            {
+              "day": "at-home-text",
+              "activity": "at-home-full-body",
+              "current": false,
+              "link": "workout?plan=at-home-full-body"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-abs-and-core",
+                "current": true,
+                "link": "workout?plan=at-home-abs-and-core"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-strong-back",
+                "current": false,
+                "link": "workout?plan=at-home-strong-back"
+              },
+              {
+                  "day": "at-home-text",
+                  "activity": "at-home-cardio-strength",
+                  "current": false,
+                  "link": "workout?plan=at-home-cardio-strength"
+              }
+      ]
+    },
+    "header": {
+        "title": "at-home-abs-and-core",
+        "description": "at-home-abs-and-core-description"
+    },
+    "warmup": {
+        "title": "warmup-section",
+        "exercises": [
+            {
+                "id": "marching-in-place",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "squat-jacks",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "hip-circles",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "bird-dog",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "main": {
+        "title": "main-workout-section",
+        "exercises": [
+            {
+                "id": "shoulder-pushups",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "plank",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "easy-side-plank",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "single-leg-plank",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "elevated-crunches",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "abdominal-hip-raises",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "side-plank",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "toe-touches",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "mountain-climbers",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "sit-ups",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "alternating-crunches",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "oblique-crunches",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "reverse-crunches",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "russian-twists",
+                "duration": "duration-35-seconds"
+            }
+        ]
+    },
+    "cooldown": {
+        "title": "cooldown-section",
+        "exercises": [
+            {
+                "id": "forward-fold",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "quad-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "tricep-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "back-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "calf-stretch",
+                "duration": "duration-20-seconds"
+            }
+        ]
+    }
+}

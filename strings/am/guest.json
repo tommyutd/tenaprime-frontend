@@ -1,0 +1,46 @@
+[
+    {
+        "id": "login",
+        "am": "ይግቡ"
+    },
+    {
+        "id": "register",
+        "am": "ይመዝገቡ"
+    },
+    {
+        "id": "login-title",
+        "am": "ወደ TenaPrime ይግቡ"
+    },
+    {
+        "id": "phone-number-label",
+        "am": "ስልክ ቁጥር"
+    },
+    {
+        "id": "pin-label",
+        "am": "ፒን"
+    },
+    {
+        "id": "remember-me",
+        "am": "አስታውሰኝ"
+    },
+    {
+        "id": "forgot-password",
+        "am": "የይለፍ ቃል ረሱ?"
+    },
+    {
+        "id": "tandc-agree",
+        "am": "<b>በውሎች እና ሁኔታዎች</b> እስማማለሁ"
+    },
+    {
+        "id": "no-account",
+        "am": "መለያ የለዎትም?"
+    },
+    {
+        "id": "register-toast",
+        "am": "መለያ ከሌለዎት፣ ወደ 8362 OK ብለው በመላክ መመዝገብ ይችላሉ።"
+    },
+    {
+        "id": "login-failed",
+        "am": "በመለያ መግባት አልተሳካም። እባክዎ ያስገቡትን መረጃ ያረጋግጡና እንደገና ይሞክሩ።"
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "id": "chest-triceps",
+        "am": "ደረት እና ትሪሴፕስ"
+    },
+    {
+        "id": "back-biceps",
+        "am": "ትምህርት እና ትሪሴፕስ"
+    },
+    {
+        "id": "shoulders-core",
+        "am": "ትከሻዎች እና መስመር"
+    },
+    {
+        "id": "legs",
+        "am": "እግር"
+    },
+    {
+        "id": "chest",
+        "am": "ደረት"
+    },
+    {
+        "id": "back",
+        "am": "ትምህርት"
+    },
+    {
+        "id": "core",
+        "am": "መስመር"
+    },
+    {
+        "id": "shoulders",
+        "am": "ትከሻዎች"
+    },
+    {
+        "id": "back-and-legs",
+        "am": "ትምህርት እና እግር"
+    },
+    {
+        "id": "arms",
+        "am": "ክንድ"
+    },
+    {
+        "id": "hamstrings",
+        "am": "ሃምስትሪንግስ"
+    },
+    {
+        "id": "quadriceps",
+        "am": "ኳድሪሴፕስ"
+    },
+    {
+        "id": "biceps",
+        "am": "ትምህርት"
+    },
+    {
+        "id": "triceps",
+        "am": "ትምህርት"
+    },
+    {
+        "id": "calves",
+        "am": "መስተሳሰብ"
+    },
+    {
+        "id": "glutes",
+        "am": "ግሉትስ"
+    },
+    {
+        "id": "hamstrings-back",
+        "am": "ሀምስትሪንግ እና ጀርባ"
+    },
+    {
+        "id": "cardiovascular-system",
+        "am": "የመስተሳሰብ ስምምዶች"
+    },
+    {
+        "id": "forearms",
+        "am": "ትምህርት"
+    },
+    {
+        "id": "obliques",
+        "am": "ትምህርት"
+    },
+    {
+        "id": "traps",
+        "am": "ትምህርት"
+    },
+    {
+        "id": "full-body",
+        "am": "ሙሉ አካል"
+    },
+    {
+        "id": "hips",
+        "am": "ወገብ"
+    },
+    {
+        "id": "lower-back",
+        "am": "ጀርባ"
+    },
+    {
+        "id": "upper-back",
+        "am": "የላይኛው ጀርባ"
+    },
+    {
+        "id": "middle-back",
+        "am": "የአንድነት ጀርባ"
+    },
+    {
+        "id": "neck",
+        "am": "አስቲ"
+    }
+]

@@ -711,3 +711,86 @@
     transform: translateY(0);
     box-shadow: none;
 }
+
+.strength-training {
+  max-width: 60vw;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.strength-training-header {
+  text-align: center;
+}
+
+.strength-training-header h1,
+.strength-training-content h2,
+.strength-training-content h3,
+.strength-training-content h4,
+.strength-exercise-category h3 {
+  color: #BA9C62;
+}
+
+.strength-training-header p,
+.strength-training-content p,
+.strength-training-content ul,
+.strength-training-content ol {
+  color: white;
+}
+
+.strength-training-content-anatomy-image img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 1rem;
+  border: 0.5rem solid #BA9C62;
+}
+
+.strength-training-content-anatomy-image p {
+  color: #BA9C62;
+}
+
+.strength-training-content-anatomy-image {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+}
+
+.strength-exercise-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 80%;
+}
+
+.strength-exercise-button {
+    background-color: rgba(186, 156, 98, 1);
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.strength-exercise-button p {
+    font-size: 1rem;
+}
+
+.strength-exercise-button:hover {
+    background-color: rgba(186, 156, 98, 0.9);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
+}
+
+.strength-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}

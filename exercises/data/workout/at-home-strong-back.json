@@ -1,0 +1,123 @@
+{
+    "overview": {
+        "title": "at-home-full-body-training-title",
+        "description": "at-home-full-body-training-overview",
+        "schedule": [
+            {
+              "day": "at-home-text",
+              "activity": "at-home-full-body",
+              "current": false,
+              "link": "workout?plan=at-home-full-body"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-abs-and-core",
+                "current": false,
+                "link": "workout?plan=at-home-abs-and-core"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-strong-back",
+                "current": true,
+                "link": "workout?plan=at-home-strong-back"
+              },
+              {
+                  "day": "at-home-text",
+                  "activity": "at-home-cardio-strength",
+                  "current": false,
+                  "link": "workout?plan=at-home-cardio-strength"
+              }
+      ]
+    },
+    "header": {
+        "title": "at-home-strong-back",
+        "description": "at-home-strong-back-description"
+    },
+    "warmup": {
+        "title": "warmup-section",
+        "exercises": [
+            {
+                "id": "marching-in-place",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "squat-jacks",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "hip-circles",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "bird-dog",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "main": {
+        "title": "main-workout-section",
+        "exercises": [
+            {
+                "id": "bridge-kicker",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "superman",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "pull-up",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "pushups",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "cat-cow",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "jump-squat",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "single-leg-plank",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "lying-lat-pulldown",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "cooldown": {
+        "title": "cooldown-section",
+        "exercises": [
+            {
+                "id": "forward-fold",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "quad-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "tricep-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "back-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "calf-stretch",
+                "duration": "duration-20-seconds"
+            }
+        ]
+    }
+}

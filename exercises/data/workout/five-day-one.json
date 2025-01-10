@@ -1,0 +1,135 @@
+{
+    "overview": {
+        "title": "five-day-split-title",
+        "description": "five-day-split-overview",
+        "schedule": [
+            {
+              "day": "monday",
+              "activity": "chest-triceps",
+              "current": true,
+              "link": "workout?plan=five-day-one"
+            },
+            {
+                "day": "tuesday",
+                "activity": "back-biceps",
+                "current": false,
+                "link": "workout?plan=five-day-two"
+            },
+            {
+                "day": "wednesday",
+                "activity": "legs",
+                "current": false,
+                "link": "workout?plan=five-day-three"
+            },
+            {
+                "day": "thursday",
+                "activity": "rest-and-recovery",
+                "current": false,
+                "link": null
+            },
+            {
+                "day": "friday",
+                "activity": "shoulders-core",
+                "current": false,
+                "link": "workout?plan=five-day-four"
+            },
+            {
+                "day": "saturday",
+                "activity": "full-body-workout",
+                "current": false,
+                "link": "workout?plan=five-day-five"
+            },
+            {
+                "day": "sunday",
+                "activity": "rest-and-recovery",
+                "current": false,
+                "link": null
+            }
+        ]
+    },
+    "header": {
+        "title": "five-day-split-day-one",
+        "description": "five-day-split-day-one-description"
+    },
+    "warmup": {
+        "title": "warmup-section",
+        "exercises": [
+            {
+                "id": "bird-dog",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "hip-circles",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "arm-swings",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "stutter-steps",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "main": {
+        "title": "main-workout-section",
+        "exercises": [
+            {
+                "id": "bench-press",
+                "sets": "sets-3",
+                "reps": "reps-8",
+                "rest": "rest-60-seconds"
+            },
+            {
+                "id": "incline-dumbbell-press",
+                "sets": "sets-3",
+                "reps": "reps-10",
+                "rest": "rest-60-seconds"
+            },
+            {
+                "id": "dumbbell-flys",
+                "sets": "sets-3",
+                "reps": "reps-12",
+                "rest": "rest-60-seconds"
+            },
+            {
+                "id": "triceps-pushdown",
+                "sets": "sets-3",
+                "reps": "reps-12",
+                "rest": "rest-60-seconds"
+            },
+            {
+                "id": "overhead-triceps-extension",
+                "sets": "sets-3",
+                "reps": "reps-12",
+                "rest": "rest-60-seconds"
+            }
+        ]
+    },
+    "cooldown": {
+        "title": "cooldown-section",
+        "exercises": [
+            {
+                "id": "neck-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "quad-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "tricep-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "upper-back-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "calf-stretch",
+                "duration": "duration-20-seconds"
+            }
+        ]
+    }
+}

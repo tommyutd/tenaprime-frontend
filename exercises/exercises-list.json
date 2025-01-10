@@ -507,7 +507,7 @@
     "name": "hand-to-toe",
     "description": "hand-to-toe-description",
     "target": ["hamstrings", "lower-back", "shoulders"],
-    "image": "https://i.pinimg.com/originals/8c/53/27/8c532774e4e1c524576bf1fb829ad895.gif",
+    "image": "https://i.pinimg.com/originals/68/4d/33/684d3368aa03537c8fb49db06f7d70a4.gif",
     "equipment": false
   },
   "sumo-squat": {
@@ -843,7 +843,7 @@
     "name": "superman",
     "description": "superman-description",
     "target": ["lower-back", "glutes", "core"],
-    "image": "https://i.pinimg.com/736x/d6/e9/72/d6e9720c6fa3572061bed7d712fe44aa.jpg",
+    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Superman-exercise.gif",
     "equipment": false
   },
   "side-plank-elbow-to-knee": {

@@ -1,0 +1,30 @@
+[
+    {
+        "id": "stats-title",
+        "am": "የእርስዎ ስታቲስቲክስ"
+    },
+    {
+        "id": "workout-streak",
+        "am": "የልምምድ ቀናት"
+    },
+    {
+        "id": "points-earned",
+        "am": "ያገኙት ነጥብ"
+    },
+    {
+        "id": "completed-workouts",
+        "am": "የተጠናቀቁ ልምምዶች"
+    },
+    {
+        "id": "logout",
+        "am": "ውጣ"
+    },
+    {
+        "id": "days",
+        "am": "ቀናት"
+    },
+    {
+        "id": "points",
+        "am": "ነጥብ"
+    }
+]

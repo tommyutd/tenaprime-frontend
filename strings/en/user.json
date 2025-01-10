@@ -1,0 +1,30 @@
+[
+    {
+        "id": "stats-title",
+        "en": "Your Stats"
+    },
+    {
+        "id": "workout-streak",
+        "en": "Workout Streak"
+    },
+    {
+        "id": "points-earned",
+        "en": "Points Earned"
+    },
+    {
+        "id": "completed-workouts",
+        "en": "Completed Workouts"
+    },
+    {
+        "id": "logout",
+        "en": "Logout"
+    },
+    {
+        "id": "days",
+        "en": "days"
+    },
+    {
+        "id": "points",
+        "en": "points"
+    }
+]

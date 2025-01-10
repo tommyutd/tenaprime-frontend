@@ -1,0 +1,66 @@
+[
+    {
+        "id": "front-page-greeting-1",
+        "en": "Stay Fit and Healthy"
+    },
+    {
+        "id": "front-page-greeting-2",
+        "en": "As You Win 10,000 Birr!"
+    },
+    {
+        "id": "front-page-offerings-1",
+        "en": "Free Shipping"
+    },
+    {
+        "id": "front-page-offerings-1-description",
+        "en": "Free shipping on all orders"
+    },
+    {
+        "id": "front-page-offerings-2",
+        "en": "Money Back Guarantee"
+    },
+    {
+        "id": "front-page-offerings-2-description",
+        "en": "30 days money back guarantee"
+    },
+    {
+        "id": "front-page-offerings-3",
+        "en": "24/7 Support"
+    },
+    {
+        "id": "front-page-offerings-3-description",
+        "en": "Contact us 24 hours a day"
+    },
+    {
+        "id": "front-page-offerings-4",
+        "en": "Secure Payment"
+    },
+    {
+        "id": "front-page-offerings-4-description",
+        "en": "Your payment is safe with us"
+    },
+    {
+        "id": "exercises-section-title",
+        "en": "Prime Fitness"
+    },
+    {
+        "id": "exercises-section-description",
+        "en": "<span id=\"exercises-promo-text\">Get Stronger, <span id=\"exercises-promo-text-inner\">Feel Better</span></span> - We'll craft a plan that fits your <span id=\"exercises-promo-goals\">goals, lifestyle, and fitness level</span>. Access <span id=\"exercises-promo-500\">500+</span> exercises and expert tips to stay motivated."
+    },
+    {
+        "id": "nutrition-section-title",
+        "en": "Personalized Meals"
+    },
+    {
+        "id": "nutrition-section-description",
+        "en": "<span id=\"nutrition-promo-text\">Eat Better, <span id=\"nutrition-promo-text-inner\">Live Better</span></span> - We'll make a plan that works for you! Enjoy our <span id=\"nutrition-promo-cookbook\">cookbook</span> with over <span id=\"nutrition-promo-1k\">1000</span> healthy recipes."
+    },
+    {
+        "id": "prizes-section-title",
+        "en": "Incredible Prizes"
+    },
+    {
+        "id": "prizes-section-description",
+        "en": "Health Is Wealth - <span id=\"prize-promo-text\">Literally!</span> Win <span id=\"prize-promo-10k\">10,000 ETB</span> instantly and <span id=\"prize-promo-50k\">50,000 ETB</span> with TenaPrime's Personalized Programs."
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "id": "warmup-section",
+        "am": "መዘርጋት"
+    },
+    {
+        "id": "main-workout-section",
+        "am": "ሙሉ አካል ስልጠና"
+    },
+    {
+        "id": "cooldown-section",
+        "am": "መዘርጋት"
+    },
+    {
+        "id": "monday",
+        "am": "ሰኞ"
+    },
+    {
+        "id": "tuesday",
+        "am": "ማክሰኞ"
+    },
+    {
+        "id": "wednesday",
+        "am": "ረቡዕ"
+    },
+    {
+        "id": "thursday",
+        "am": "ሐሙስ"
+    },
+    {
+        "id": "friday",
+        "am": "አርብ"
+    },
+    {
+        "id": "saturday",
+        "am": "ቅዳሜ"
+    },
+    {
+        "id": "sunday",
+        "am": "እሁድ"
+    },
+    {
+        "id": "full-body-workout",
+        "am": "ሙሉ አካል ስልጠና"
+    },
+    {
+        "id": "rest-and-recovery",
+        "am": "እረፍት እና መልሶ ማገገም"
+    },
+    {
+        "id": "you-are-here",
+        "am": "እዚህ ነዎት"
+    },
+    {
+        "id": "activities",
+        "am": "እርምጃዎች"
+    },
+    {
+        "id": "duration",
+        "am": "ጊዜ"
+    },
+    {
+        "id": "intensity",
+        "am": "ጥንካሬ"
+    },
+    {
+        "id": "focus",
+        "am": "ትኩረት"
+    },
+    {
+        "id": "duration-5-minutes",
+        "am": "5 ደቂቃ"
+    },
+    {
+        "id": "low-to-moderate",
+        "am": "ከዝቅተኛ እስከ መካከለኛ"
+    },
+    {
+        "id": "increasing-heart-rate",
+        "am": "በቅድመ ተከተል የልብ ምት መጨመር"
+    },
+    {
+        "id": "dynamic-stretches-activities",
+        "am": "የክንድ ዙሪያዎች፣ የእግር ማወዛወዝ፣ የወገብ ዙሪያዎች"
+    },
+    {
+        "id": "mobility-muscle-activation",
+        "am": "እንቅስቃሴ እና የጡንቻ ማነቃቃት"
+    },
+    {
+        "id": "reps-10",
+        "am": "10 ድግግሞሾች"
+    },
+    {
+        "id": "reps-10-12",
+        "am": "10-12 ድግግሞሾች"
+    },
+    {
+        "id": "muscles",
+        "am": "ጡንቻዎች"
+    },
+    {
+        "id": "sets",
+        "am": "ስብስቦች"
+    },
+    {
+        "id": "reps",
+        "am": "ድግግሞሾች"
+    },
+    {
+        "id": "rest",
+        "am": "እረፍት"
+    },
+    {
+        "id": "sets-3",
+        "am": "3 ስብስቦች"
+    },
+    {
+        "id": "reps-15",
+        "am": "15"
+    },
+    {
+        "id": "rest-60-seconds",
+        "am": "በስብስቦች መካከል 60 ሰከንዶች"
+    },
+    {
+        "id": "type",
+        "am": "ትምህርት"
+    },
+    {
+        "id": "hold-time",
+        "am": "መልሶ ጊዜ"
+    },
+    {
+        "id": "hold-time-15-30",
+        "am": "በእያንዳንዱ መዘርጋት 15-30 ሰከንዶች"
+    },
+    {
+        "id": "full-body-stretch",
+        "am": "የሙሉ አካል መዘርጋት መርሃ ግብር"
+    },
+    {
+        "id": "muscle-recovery-flexibility",
+        "am": "የጡንቻ መልሶ ማገገም እና ተለዋዋጭነት"
+    },
+    {
+        "id": "complete-workout",
+        "am": "ሙሉ አካል ስልጠና"
+    },
+    {
+        "id": "save-for-later",
+        "am": "በቀን ላይ ያስቀምጥ"
+    },
+    {
+        "id": "workout-error",
+        "am": "ስልጠና አልተገኘም!"
+    },
+    {
+        "id": "duration-40-seconds",
+        "am": "40 ሰከንዶች"
+    },
+    {
+        "id": "duration-35-seconds",
+        "am": "35 ሰከንዶች"
+    },
+    {
+        "id": "duration-30-seconds",
+        "am": "30 ሰከንዶች"
+    },
+    {
+        "id": "duration-25-seconds",
+        "am": "25 ሰከንዶች"
+    },
+    {
+        "id": "duration-20-seconds",
+        "am": "20 ሰከንዶች"
+    },
+    {
+        "id": "reps-8",
+        "am": "8 ድግግሞሾች"
+    },
+    {
+        "id": "reps-12",
+        "am": "12 ድግግሞሾች"
+    },
+    {
+        "id": "rest-period",
+        "am": "ስልጠና"
+    },
+    {
+        "id": "duration-30-seconds-change",
+        "am": "30 ሰከንድ (በ15 ሰከንድ በቀኝ እና በላይ ቀኝ ተመለስ)"
+    },
+    {
+        "id": "duration-30-seconds-each",
+        "am": "30 ሰከንድ በቀኝ እና በላይ ቀኝ"
+    },
+    {
+        "id": "duration-40-seconds-change",
+        "am": "40 ሰከንድ (በ20 ሰከንድ በቀኝ እና በላይ ቀኝ ተመለስ)"
+    }
+]

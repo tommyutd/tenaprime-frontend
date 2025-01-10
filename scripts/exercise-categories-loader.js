@@ -34,10 +34,10 @@ document.addEventListener('DOMContentLoaded', async function() {
             const descriptionElement = content.querySelector('p');
 
             titleElement.setAttribute('data-text-key', data.titleKey);
-            titleElement.textContent = strings[data.titleKey] || data.titleKey;
+            //titleElement.innerHTML = strings[data.titleKey] || data.titleKey;
 
             descriptionElement.setAttribute('data-text-key', data.descriptionKey);
-            descriptionElement.textContent = strings[data.descriptionKey] || data.descriptionKey;
+            //descriptionElement.innerHTML = strings[data.descriptionKey] || data.descriptionKey;
             
             // Add buttons with correct language strings
             const buttonContainer = content.querySelector('.exercise-popup-buttons');
@@ -45,13 +45,19 @@ document.addEventListener('DOMContentLoaded', async function() {
                 const btn = document.createElement('button');
                 btn.className = 'exercise-popup-button aleo-text';
                 btn.setAttribute('data-text-key', button.textKey);
-                btn.textContent = strings[button.textKey] || button.textKey;
+                //btn.textContent = strings[button.textKey] || button.textKey;
                 btn.dataset.page = button.page;
                 buttonContainer.appendChild(btn);
             });
             
             // Add to document
             document.body.appendChild(popup);
+
+            window.stringsLoaded.then(() => {
+                updatePageStrings();
+            }).catch(error => {
+                console.error('Error updating strings:', error);
+            });
             
             // Add click handler to card
             const card = document.getElementById(cardId);

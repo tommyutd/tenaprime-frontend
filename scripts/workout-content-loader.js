@@ -11,7 +11,7 @@ async function loadWorkoutContent() {
 
         // Fetch both the workout plan and exercises list
         const [workoutResponse, exercisesResponse] = await Promise.all([
-            fetch(`/exercises/data/${workoutId}.json`),
+            fetch(`/exercises/data/workout/${workoutId}.json`),
             fetch('/exercises/exercises-list.json')
         ]);
 
@@ -134,9 +134,11 @@ async function loadWorkoutContent() {
             exerciseList.appendChild(sectionElement);
         });
 
-        if (typeof updatePageStrings === 'function') {
+        window.stringsLoaded.then(() => {
             updatePageStrings();
-        }
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
     } catch (error) {
         console.error('Error loading workout content:', error);
         showError('Error loading workout content');

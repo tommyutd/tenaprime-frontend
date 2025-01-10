@@ -1,0 +1,115 @@
+{
+    "overview": {
+        "title": "at-home-lower-body-training-title",
+        "description": "at-home-lower-body-training-overview",
+        "schedule": [
+            {
+              "day": "at-home-text",
+              "activity": "at-home-full-lower-body",
+              "current": true,
+              "link": "workout?plan=at-home-full-lower-body"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-amazing-glutes",
+                "current": false,
+                "link": "workout?plan=at-home-amazing-glutes"
+            }
+      ]
+    },
+    "header": {
+        "title": "at-home-full-lower-body",
+        "description": "at-home-full-lower-body-description"
+    },
+    "warmup": {
+        "title": "warmup-section",
+        "exercises": [
+            {
+                "id": "mountain-walkers",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "jumping-jacks",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "hip-circles",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "main": {
+        "title": "main-workout-section",
+        "exercises": [
+            {
+                "id": "sumo-squat",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "squat-and-knee-kick",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "leg-raises",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "squats",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "frog-jumps",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-25-seconds"
+            },
+            {
+                "id": "jump-squat",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "bulgarian-squat",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "wall-sit",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rear-lunges",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "jumping-jacks",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "pistol-squat",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "bulgarian-squat",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "cooldown": {
+        "title": "cooldown-section",
+        "exercises": [
+            {
+                "id": "forward-fold",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "quad-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "calf-stretch",
+                "duration": "duration-20-seconds"
+            }
+        ]
+    }
+}

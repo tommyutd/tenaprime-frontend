@@ -1,0 +1,70 @@
+[
+    {
+        "id": "home-menu-item",
+        "am": "መግቢያ"
+    },
+    {
+        "id": "exercises-menu-item",
+        "am": "ስፖርቶች"
+    },
+    {
+        "id": "nutrition-menu-item",
+        "am": "አመጋገብ"
+    },
+    {
+        "id": "prizes-menu-item",
+        "am": "ሽልማቶች"
+    },
+    {
+        "id": "about-menu-item",
+        "am": "ስለ እኛ"
+    },
+    {
+        "id": "tandc",
+        "am": "ውሎች እና ሁኔታዎች"
+    },
+    {
+        "id": "faq",
+        "am": "የተደጋጋሚ ጥያቄዎች"
+    },
+    {
+        "id": "privacy-policy",
+        "am": "የግላዊነት ፖሊሲ"
+    },
+    {
+        "id": "contact-us",
+        "am": "ያግኙን"
+    },
+    {
+        "id": "footer-quick-links",
+        "am": "ፈጣን ገፆች"
+    },
+    {
+        "id": "footer-information",
+        "am": "መረጃ"
+    },
+    {
+        "id": "footer-contact",
+        "am": "ያግኙን"
+    },
+    {
+        "id": "footer-tagline",
+        "am": "ጤናማ ይሁኑ፣ በትልቁ ያሸንፉ"
+    },
+    {
+        "id": "support",
+        "am": "ድጋፍ ያግኙ"
+    },
+    {
+        "id": "footer-copyright",
+        "am": "© 2024 TenaPrime። መብቱ በህግ የተጠበቀ ነው።"
+    },
+    {
+        "id": "winners-section-title",
+        "am": "አሸናፊዎቹን ይመልከቱ!"
+    },
+    {
+        "id": "winners-section-description",
+        "am": "እነዚህ የሳምንታዊ ውድድራችን አሸናፊዎች ናቸው። የዚህ ሳምንት አሸናፊ እርስዎ ሊሆኑ ይችላሉ። <a href=\"#\">አሁኑኑ ይጫወቱ!</a>"
+    }
+]

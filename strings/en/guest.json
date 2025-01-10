@@ -1,0 +1,46 @@
+[
+    {
+        "id": "login",
+        "en": "Login"
+    },
+    {
+        "id": "register",
+        "en": "Register"
+    },
+    {
+        "id": "login-title",
+        "en": "Login to TenaPrime"
+    },
+    {
+        "id": "phone-number-label",
+        "en": "Phone Number"
+    },
+    {
+        "id": "pin-label",
+        "en": "PIN"
+    },
+    {
+        "id": "remember-me",
+        "en": "Remember me"
+    },
+    {
+        "id": "forgot-password",
+        "en": "Forgot Password?"
+    },
+    {
+        "id": "tandc-agree",
+        "en": "Agree to <b>Terms & Conditions</b>"
+    },
+    {
+        "id": "no-account",
+        "en": "Don't have an account?"
+    },
+    {
+        "id": "register-toast",
+        "en": "If you don't have an account, you can register by sending OK to 8362."
+    },
+    {
+        "id": "login-failed",
+        "en": "Login failed. Please check the information you entered and try again."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": "four-day-split-title",
+        "en": "Four Day Split"
+    },
+    {
+        "id": "four-day-overview",
+        "en": "A Four-Day Split Workout targets different muscle groups each session, balancing strength, recovery, and growth for efficient training."
+    },
+    {
+        "id": "four-day-split-day-one",
+        "en": "Day 1: Upper Body"
+    },
+    {
+        "id": "four-day-split-day-one-description",
+        "en": "Muscle Groups Targeted: <b>Chest, Back, Shoulders, Triceps, Biceps</b>"
+    },
+    {
+        "id": "four-day-split-day-two",
+        "en": "Day 2: Lower Body"
+    },
+    {
+        "id": "four-day-split-day-two-description",
+        "en": "Muscle Groups Targeted: <b>Quadriceps, Hamstrings, Glutes, Calves</b>"
+    },
+    {
+        "id": "four-day-split-day-three",
+        "en": "Day 3: Upper Body"
+    },
+    {
+        "id": "four-day-split-day-three-description",
+        "en": "Muscle Groups Targeted: <b>Back, Chest, Shoulders, Biceps</b>"
+    },
+    {
+        "id": "four-day-split-day-four",
+        "en": "Day 4: Lower Body"
+    },
+    {
+        "id": "four-day-split-day-four-description",
+        "en": "Muscle Groups Targeted: <b>Hamstrings, Glutes, Quadriceps, Calves, Core</b>"
+    }
+]

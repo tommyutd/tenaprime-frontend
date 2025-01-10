@@ -39,8 +39,12 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
     function showLoginOverlay() {
-        if (Object.keys(window.englishStrings).length === 0) {
-            setTimeout(showLoginOverlay, 100);
+        // Get current language and check appropriate strings
+        const currentLang = document.querySelector('.language-selector p').textContent.toLowerCase();
+        const stringsToCheck = currentLang === 'en' ? window.englishStrings : window.amharicStrings;
+        
+        if (Object.keys(stringsToCheck).length === 0) {
+            setTimeout(showLoginOverlay, 10);
             return;
         }
 

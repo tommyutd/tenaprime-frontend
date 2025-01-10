@@ -1,0 +1,139 @@
+{
+    "overview": {
+        "title": "at-home-upper-body-training-title",
+        "description": "at-home-upper-body-training-overview",
+        "schedule": [
+            {
+              "day": "at-home-text",
+              "activity": "at-home-full-upper-body",
+              "current": true,
+              "link": "workout?plan=at-home-full-upper-body"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-chest-arms",
+                "current": false,
+                "link": "workout?plan=at-home-chest-arms"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-shoulders-upper-back",
+                "current": false,
+                "link": "workout?plan=at-home-shoulders-upper-back"
+            },
+            {
+                "day": "at-home-text",
+                "activity": "at-home-core",
+                "current": false,
+                "link": "workout?plan=at-home-core"
+            }
+      ]
+    },
+    "header": {
+        "title": "at-home-full-upper-body",
+        "description": "at-home-full-upper-body-description"
+    },
+    "warmup": {
+        "title": "warmup-section",
+        "exercises": [
+            {
+                "id": "extended-arm-circles",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "jump-rope",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "hand-to-toe",
+                "duration": "duration-40-seconds"
+            },
+            {
+                "id": "jumping-jacks",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "main": {
+        "title": "main-workout-section",
+        "exercises": [
+            {
+                "id": "kneeled-diamond-pushups",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "extended-arm-circles",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "wall-pushup",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "kneeled-wide-pushups",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "punches",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "burpees",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "rest-period",
+                "duration": "duration-25-seconds"
+            },
+            {
+                "id": "hindu-pushups",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "narrow-pushup",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "plank",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "extended-arm-circles",
+                "duration": "duration-35-seconds"
+            },
+            {
+                "id": "pushups",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "inclined-pushup",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "cooldown": {
+        "title": "cooldown-section",
+        "exercises": [
+            {
+                "id": "forward-fold",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "quad-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "tricep-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "upper-back-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "calf-stretch",
+                "duration": "duration-20-seconds"
+            }
+        ]
+    }
+}

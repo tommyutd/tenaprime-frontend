@@ -1,0 +1,70 @@
+[
+    {
+        "id": "home-menu-item",
+        "en": "Home"
+    },
+    {
+        "id": "exercises-menu-item",
+        "en": "Exercises"
+    },
+    {
+        "id": "nutrition-menu-item",
+        "en": "Nutrition"
+    },
+    {
+        "id": "prizes-menu-item",
+        "en": "Prizes"
+    },
+    {
+        "id": "about-menu-item",
+        "en": "About"
+    },
+    {
+        "id": "tandc",
+        "en": "Terms & Conditions"
+    },
+    {
+        "id": "faq",
+        "en": "FAQ"
+    },
+    {
+        "id": "privacy-policy",
+        "en": "Privacy Policy"
+    },
+    {
+        "id": "contact-us",
+        "en": "Contact Us"
+    },
+    {
+        "id": "footer-quick-links",
+        "en": "Quick Links"
+    },
+    {
+        "id": "footer-information",
+        "en": "Information"
+    },
+    {
+        "id": "footer-contact",
+        "en": "Contact"
+    },
+    {
+        "id": "footer-tagline",
+        "en": "Stay Fit, Win Big"
+    },
+    {
+        "id": "support",
+        "en": "Support"
+    },
+    {
+        "id": "footer-copyright",
+        "en": "© 2024 TenaPrime. All rights reserved."
+    },
+    {
+        "id": "winners-section-title",
+        "en": "Meet the winners!"
+    },
+    {
+        "id": "winners-section-description",
+        "en": "Here are some of the winners of our weekly contest. You might be this week's winner. <a href=\"#\">Play now</a>!"
+    }
+]

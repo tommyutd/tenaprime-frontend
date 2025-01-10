@@ -1,0 +1,498 @@
+[
+    {
+        "id": "light-cardio",
+        "en": "Light Cardio"
+    },
+    {
+        "id": "light-cardio-activity",
+        "en": "Light jogging or brisk walking"
+    },
+    {
+        "id": "dynamic-stretches",
+        "en": "Dynamic Stretches"
+    },
+    {
+        "id": "squats",
+        "en": "Squats"
+    },
+    {
+        "id": "pushups",
+        "en": "Pushups"
+    },
+    {
+        "id": "static-stretches",
+        "en": "Static Stretches"
+    },
+    {
+        "id": "bench-press",
+        "en": "Bench Press"
+    },
+    {
+        "id": "bent-over-rows",
+        "en": "Bent Over Rows"
+    },
+    {
+        "id": "overhead-press",
+        "en": "Overhead Press"
+    },
+    {
+        "id": "plank",
+        "en": "Plank"
+    },
+    {
+        "id": "deadlifts",
+        "en": "Deadlifts"
+    },
+    {
+        "id": "lat-pulldown",
+        "en": "Lat Pulldown"
+    },
+    {
+        "id": "lunges",
+        "en": "Lunges"
+    },
+    {
+        "id": "dumbbell-curl",
+        "en": "Dumbbell Curl"
+    },
+    {
+        "id": "bicycle-crunches",
+        "en": "Bicycle Crunches"
+    },
+    {
+        "id": "leg-press",
+        "en": "Leg Press"
+    },
+    {
+        "id": "dumbbell-flys",
+        "en": "Dumbbell Flys"
+    },
+    {
+        "id": "seated-cable-rows",
+        "en": "Seated Cable Rows"
+    },
+    {
+        "id": "triceps-pushdown",
+        "en": "Triceps Pushdown"
+    },
+    {
+        "id": "russian-twists",
+        "en": "Russian Twists"
+    },
+    {
+        "id": "triceps-dips",
+        "en": "Triceps Dips"
+    },
+    {
+        "id": "leg-curl",
+        "en": "Leg Curl"
+    },
+    {
+        "id": "leg-extension",
+        "en": "Leg Extension"
+    },
+    {
+        "id": "standing-calf-raises",
+        "en": "Standing Calf Raises"
+    },
+    {
+        "id": "seated-calf-raises",
+        "en": "Seated Calf Raises"
+    },
+    {
+        "id": "glutes-bridge",
+        "en": "Glutes Bridge"
+    },
+    {
+        "id": "incline-dumbbell-press",
+        "en": "Incline Dumbbell Press"
+    },
+    {
+        "id": "hammer-curls",
+        "en": "Hammer Curls"
+    },
+    {
+        "id": "lateral-raises",
+        "en": "Lateral Raises"
+    },
+    {
+        "id": "ab-wheel-rollout",
+        "en": "Ab Wheel Rollout"
+    },
+    {
+        "id": "overhead-triceps-extension",
+        "en": "Overhead Triceps Extension"
+    },
+    {
+        "id": "preacher-curl",
+        "en": "Preacher Curl"
+    },
+    {
+        "id": "marching-in-place",
+        "en": "Marching in Place"
+    },
+    {
+        "id": "arm-circles",
+        "en": "Arm Circles"
+    },
+    {
+        "id": "hip-circles",
+        "en": "Hip Circles"
+    },
+    {
+        "id": "squat-jacks",
+        "en": "Squat Jacks"
+    },
+    {
+        "id": "high-kicks",
+        "en": "High Kicks"
+    },
+    {
+        "id": "side-to-side-squats",
+        "en": "Side to Side Squats"
+    },
+    {
+        "id": "jumping-jacks",
+        "en": "Jumping Jacks"
+    },
+    {
+        "id": "arm-swings",
+        "en": "Arm Swings"
+    },
+    {
+        "id": "high-knees",
+        "en": "High Knees"
+    },
+    {
+        "id": "fingertip-to-toe-jacks",
+        "en": "Fingertip to Toe Jacks"
+    },
+    {
+        "id": "bird-dog",
+        "en": "Bird Dog"
+    },
+    {
+        "id": "stutter-steps",
+        "en": "Stutter Steps"
+    },
+    {
+        "id": "forward-fold",
+        "en": "Forward Fold"
+    },
+    {
+        "id": "quad-stretch",
+        "en": "Quad Stretch"
+    },
+    {
+        "id": "tricep-stretch",
+        "en": "Tricep Stretch"
+    },
+    {
+        "id": "upper-back-stretch",
+        "en": "Upper Back Stretch"
+    },
+    {
+        "id": "calf-stretch",
+        "en": "Calf Stretch"
+    },
+    {
+        "id": "back-stretch",
+        "en": "Back Stretch"
+    },
+    {
+        "id": "neck-stretch",
+        "en": "Neck Stretch"
+    },
+    {
+        "id": "front-raises",
+        "en": "Front Raises"
+    },
+    {
+        "id": "shrugs",
+        "en": "Shrugs"
+    },
+    {
+        "id": "extended-arm-circles",
+        "en": "Extended Arm Circles"
+    },
+    {
+        "id": "jump-rope",
+        "en": "Jump Rope"
+    },
+    {
+        "id": "hand-to-toe",
+        "en": "Hand to Toe"
+    },
+    {
+        "id": "kneeled-pushups",
+        "en": "Kneeled Pushups"
+    },
+    {
+        "id": "kneeled-wide-pushups",
+        "en": "Kneeled Wide Pushups"
+    },
+    {
+        "id": "kneeled-narrow-pushups",
+        "en": "Kneeled Narrow Pushups"
+    },
+    {
+        "id": "hindu-pushups",
+        "en": "Hindu Pushup"
+    },
+    {
+        "id": "inclined-pushup",
+        "en": "Inclined Pushup"
+    },
+    {
+        "id": "wall-pushup",
+        "en": "Wall Pushup"
+    },
+    {
+        "id": "narrow-pushup",
+        "en": "Narrow Pushup"
+    },
+    {
+        "id": "mountain-walkers",
+        "en": "Mountain Walkers"
+    },
+    {
+        "id": "sumo-squat",
+        "en": "Sumo Squat"
+    },
+    {
+        "id": "kneeled-diamond-pushups",
+        "en": "Kneeled Diamond Pushups"
+    },
+    {
+        "id": "bridge-kicker",
+        "en": "Bridge Kicker"
+    },
+    {
+        "id": "triceps-pushup",
+        "en": "Triceps Pushup"
+    },
+    {
+        "id": "burpees",
+        "en": "Burpees"
+    },
+    {
+        "id": "bear-crawl",
+        "en": "Bear Crawl"
+    },
+    {
+        "id": "mountain-climbers",
+        "en": "Mountain Climbers"
+    },
+    {
+        "id": "punches",
+        "en": "Punches"
+    },
+    {
+        "id": "decline-pushups",
+        "en": "Decline Pushups"
+    },
+    {
+        "id": "superman",
+        "en": "Super Man"
+    },
+    {
+        "id": "side-plank-elbow-to-knee",
+        "en": "Side Plank Elbow to Knee"
+    },
+    {
+        "id": "diamond-pushups",
+        "en": "Diamond Pushups"
+    },
+    {
+        "id": "pull-up",
+        "en": "Pull Ups"
+    },
+    {
+        "id": "flutter-kick-squats",
+        "en": "Flutter Kick Squats"
+    },
+    {
+        "id": "crunches",
+        "en": "Crunches"
+    },
+    {
+        "id": "v-ups",
+        "en": "V-Ups"
+    },
+    {
+        "id": "leg-pull-knee-ups",
+        "en": "Leg Pull Knee Ups"
+    },
+    {
+        "id": "l-sit",
+        "en": "L-Sit"
+    },
+    {
+        "id": "kneeling-back-rotation",
+        "en": "Kneeling Back Rotation"
+    },
+    {
+        "id": "side-plank-hip-raise",
+        "en": "Side Plank Hip Raise"
+    },
+    {
+        "id": "side-plank",
+        "en": "Side Plank"
+    },
+    {
+        "id": "cross-crunches",
+        "en": "Cross Crunches"
+    },
+    {
+        "id": "reverse-crunches",
+        "en": "Reverse Crunches"
+    },
+    {
+        "id": "crab-twist-toe-touch",
+        "en": "Crab Twist Toe Touch"
+    },
+    {
+        "id": "hanging-knee-raises",
+        "en": "Hanging Knee Raises"
+    },
+    {
+        "id": "upper-abs",
+        "en": "Upper Abs"
+    },
+    {
+        "id": "lower-abs",
+        "en": "Lower Abs"
+    },
+    {
+        "id": "squat-and-knee-kick",
+        "en": "Squat and Knee Kick"
+    },
+    {
+        "id": "leg-raises",
+        "en": "Leg Raises"
+    },
+    {
+        "id": "jump-squat",
+        "en": "Jump Squat"
+    },
+    {
+        "id": "bulgarian-squat",
+        "en": "Bulgarian Squat"
+    },
+    {
+        "id": "wall-sit",
+        "en": "Wall Sit"
+    },
+    {
+        "id": "rear-lunges",
+        "en": "Rear Lunges"
+    },
+    {
+        "id": "pistol-squat",
+        "en": "Pistol Squat"
+    },
+    {
+        "id": "frog-jumps",
+        "en": "Frog Jumps"
+    },
+    {
+        "id": "prisoners-squat",
+        "en": "Prisoners Squat"
+    },
+    {
+        "id": "bulgarian-split-squat-jump",
+        "en": "Bulgarian Split Squat Jump"
+    },
+    {
+        "id": "step-ups",
+        "en": "Step Ups"
+    },
+    {
+        "id": "high-knee-squat",
+        "en": "High Knee Squat"
+    },
+    {
+        "id": "high-knees-lift-run",
+        "en": "High Knees Lift Run"
+    },
+    {
+        "id": "bench-glute-flutter-kicks",
+        "en": "Bench Glute Flutter Kicks"
+    },
+    {
+        "id": "toe-touch-squat",
+        "en": "Toe Touch Squat"
+    },
+    {
+        "id": "toe-touches",
+        "en": "Toe Touches"
+    },
+    {
+        "id": "side-crunches",
+        "en": "Side Crunches"
+    },
+    {
+        "id": "knee-to-elbow",
+        "en": "Knee to Elbow"
+    },
+    {
+        "id": "elevated-crunches",
+        "en": "Elevated Crunches"
+    },
+    {
+        "id": "shoulder-pushups",
+        "en": "Shoulder Pushups"
+    },
+    {
+        "id": "easy-side-plank",
+        "en": "Easy Side Plank"
+    },
+    {
+        "id": "single-leg-plank",
+        "en": "Single Leg Plank"
+    },
+    {
+        "id": "abdominal-hip-raises",
+        "en": "Abdominal Hip Raises"
+    },
+    {
+        "id": "alternating-leg-lifts",
+        "en": "Alternating Leg Lifts"
+    },
+    {
+        "id": "sit-ups",
+        "en": "Sit-Ups"
+    },
+    {
+        "id": "alternating-crunches",
+        "en": "Alternating Crunches"
+    },
+    {
+        "id": "oblique-crunches",
+        "en": "Oblique Crunches"
+    },
+    {
+        "id": "cat-cow",
+        "en": "Cat Cow"
+    },
+    {
+        "id": "lying-lat-pulldown",
+        "en": "Lying Lat Pulldown"
+    },
+    {
+        "id": "high-knees-against-wall",
+        "en": "High Knees Against Wall"
+    },
+    {
+        "id": "jumping",
+        "en": "Jumping"
+    },
+    {
+        "id": "running-in-place",
+        "en": "Running In Place"
+    },
+    {
+        "id": "knee-kick",
+        "en": "Knee Kicks"
+    }
+]

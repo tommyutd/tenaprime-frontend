@@ -4,9 +4,9 @@
         "descriptionKey": "three-day-split-description",
         "imagePath": "/exercises/assets/three-day-split.png",
         "buttons": [
-            {"textKey": "day-one-full-body", "page": "workout?plan=three-day-one"},
-            {"textKey": "day-two-full-body", "page": "workout?plan=three-day-two"},
-            {"textKey": "day-three-full-body", "page": "workout?plan=three-day-three"}
+            {"textKey": "three-day-split-day-one", "page": "workout?plan=three-day-one"},
+            {"textKey": "three-day-split-day-two", "page": "workout?plan=three-day-two"},
+            {"textKey": "three-day-split-day-three", "page": "workout?plan=three-day-three"}
         ]
     },
     "workout-card-four-day": {
@@ -14,10 +14,10 @@
         "descriptionKey": "four-day-split-description",
         "imagePath": "/exercises/assets/four-day-split.png",
         "buttons": [
-            {"textKey": "day-one-upper-body", "page": "workout?plan=four-day-one"},
-            {"textKey": "day-two-lower-body", "page": "workout?plan=four-day-two"},
-            {"textKey": "day-three-upper-body", "page": "workout?plan=four-day-three"},
-            {"textKey": "day-four-lower-body", "page": "workout?plan=four-day-four"}
+            {"textKey": "four-day-split-day-one", "page": "workout?plan=four-day-one"},
+            {"textKey": "four-day-split-day-two", "page": "workout?plan=four-day-two"},
+            {"textKey": "four-day-split-day-three", "page": "workout?plan=four-day-three"},
+            {"textKey": "four-day-split-day-four", "page": "workout?plan=four-day-four"}
         ]
     },
     "workout-card-five-day": {
@@ -25,11 +25,11 @@
         "descriptionKey": "five-day-split-description",
         "imagePath": "/exercises/assets/five-day-split.png",
         "buttons": [
-            {"textKey": "day-one-chest-and-triceps", "page": "workout?plan=five-day-one"},
-            {"textKey": "day-two-back-and-biceps", "page": "workout?plan=five-day-two"},
-            {"textKey": "day-three-legs", "page": "workout?plan=five-day-three"},
-            {"textKey": "day-four-shoulders-and-core", "page": "workout?plan=five-day-four"},
-            {"textKey": "day-five-full-body-cardio", "page": "workout?plan=five-day-five"}
+            {"textKey": "five-day-split-day-one", "page": "workout?plan=five-day-one"},
+            {"textKey": "five-day-split-day-two", "page": "workout?plan=five-day-two"},
+            {"textKey": "five-day-split-day-three", "page": "workout?plan=five-day-three"},
+            {"textKey": "five-day-split-day-four", "page": "workout?plan=five-day-four"},
+            {"textKey": "five-day-split-day-five", "page": "workout?plan=five-day-five"}
         ]
     },
     "at-home-card-upper-body": {
@@ -89,7 +89,7 @@
         "descriptionKey": "full-body-training-description",
         "imagePath": "/exercises/assets/full-body.png",
         "buttons": [
-            {"textKey": "fitness", "page": "fitness"}
+            {"textKey": "full-body-fitness", "page": "full-body-fitness"}
         ]
     },
     "weight-loss-cardio": {

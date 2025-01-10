@@ -1,0 +1,54 @@
+[
+    {
+        "id": "front-page-user-greeting-1",
+        "am": "እንኳን ደህና መጡ!"
+    },
+    {
+        "id": "view-exercise-plans",
+        "am": "የስፖርት እቅዶችን ይመልከቱ"
+    },
+    {
+        "id": "view-nutrition-plans",
+        "am": "የአመጋገብ እቅዶችን ይመልከቱ"
+    },
+    {
+        "id": "dashboard-main-card-title",
+        "am": "ይጫወቱ ይሸለሙ"
+    },
+    {
+        "id": "dashboard-main-card-content",
+        "am": "ጥያቄዎችን ይመልሱ እና በየሳምንቱ 50,000 ብር ይሸለሙ።"
+    },
+    {
+        "id": "exercises-card-title",
+        "am": "ስፖርቶች"
+    },
+    {
+        "id": "exercises-card-content",
+        "am": "ብቁ ሆኖ ለመቆየት እቅዶቻችንን ያስሱ።"
+    },
+    {
+        "id": "nutrition-card-title",
+        "am": "አመጋገብ"
+    },
+    {
+        "id": "nutrition-card-content",
+        "am": "ስለ አመጋገብ ጠቃሚ መረጃዎችን ያግኙ።"
+    },
+    {
+        "id": "products-card-title",
+        "am": "ሽያጮች"
+    },
+    {
+        "id": "products-card-content",
+        "am": "በምርቶቻችን የአኗኗር ዘይቤዎን ያሻሽሉ።"
+    },
+    {
+        "id": "scoreboard-card-title",
+        "am": "የመሪ ሰሌዳ"
+    },
+    {
+        "id": "scoreboard-card-content",
+        "am": "የሳምንቱን ደርጃዎን ይመልከቱ።"
+    }
+]

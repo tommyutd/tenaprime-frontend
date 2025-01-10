@@ -1,0 +1,54 @@
+[
+    {
+        "id": "front-page-user-greeting-1",
+        "en": "Welcome Back!"
+    },
+    {
+        "id": "view-exercise-plans",
+        "en": "View Exercise Plans"
+    },
+    {
+        "id": "view-nutrition-plans",
+        "en": "View Nutrition Plans"
+    },
+    {
+        "id": "dashboard-main-card-title",
+        "en": "Play to Win"
+    },
+    {
+        "id": "dashboard-main-card-content",
+        "en": "Answer questions to win 50,000 ETB weekly."
+    },
+    {
+        "id": "exercises-card-title",
+        "en": "Exercises"
+    },
+    {
+        "id": "exercises-card-content",
+        "en": "Explore our plans to stay fit."
+    },
+    {
+        "id": "nutrition-card-title",
+        "en": "Nutrition"
+    },
+    {
+        "id": "nutrition-card-content",
+        "en": "Find tips on how to eat better."
+    },
+    {
+        "id": "products-card-title",
+        "en": "Products"
+    },
+    {
+        "id": "products-card-content",
+        "en": "Improve your lifestyle with our products."
+    },
+    {
+        "id": "scoreboard-card-title",
+        "en": "Scoreboard"
+    },
+    {
+        "id": "scoreboard-card-content",
+        "en": "View your weekly ranking."
+    }
+]

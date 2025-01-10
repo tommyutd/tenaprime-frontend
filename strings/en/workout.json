@@ -1,0 +1,202 @@
+[
+    {
+        "id": "warmup-section",
+        "en": "Warm-up"
+    },
+    {
+        "id": "main-workout-section",
+        "en": "Main Workout"
+    },
+    {
+        "id": "cooldown-section",
+        "en": "Cool-down"
+    },
+    {
+        "id": "monday",
+        "en": "Monday"
+    },
+    {
+        "id": "tuesday",
+        "en": "Tuesday"
+    },
+    {
+        "id": "wednesday",
+        "en": "Wednesday"
+    },
+    {
+        "id": "thursday",
+        "en": "Thursday"
+    },
+    {
+        "id": "friday",
+        "en": "Friday"
+    },
+    {
+        "id": "saturday",
+        "en": "Saturday"
+    },
+    {
+        "id": "sunday",
+        "en": "Sunday"
+    },
+    {
+        "id": "full-body-workout",
+        "en": "Full Body Workout"
+    },
+    {
+        "id": "rest-and-recovery",
+        "en": "Rest & Recovery"
+    },
+    {
+        "id": "you-are-here",
+        "en": "You are here"
+    },
+    {
+        "id": "activities",
+        "en": "Activities"
+    },
+    {
+        "id": "duration",
+        "en": "Duration"
+    },
+    {
+        "id": "intensity",
+        "en": "Intensity"
+    },
+    {
+        "id": "focus",
+        "en": "Focus"
+    },
+    {
+        "id": "duration-5-minutes",
+        "en": "5 minutes"
+    },
+    {
+        "id": "low-to-moderate",
+        "en": "Low to moderate"
+    },
+    {
+        "id": "increasing-heart-rate",
+        "en": "Gradually increasing heart rate"
+    },
+    {
+        "id": "dynamic-stretches-activities",
+        "en": "Arm circles, leg swings, hip rotations"
+    },
+    {
+        "id": "mobility-muscle-activation",
+        "en": "Mobility and muscle activation"
+    },
+    {
+        "id": "reps-10",
+        "en": "10 reps"
+    },
+    {
+        "id": "reps-10-12",
+        "en": "10-12 reps"
+    },
+    {
+        "id": "muscles",
+        "en": "Target"
+    },
+    {
+        "id": "sets",
+        "en": "Sets"
+    },
+    {
+        "id": "reps",
+        "en": "Reps"
+    },
+    {
+        "id": "rest",
+        "en": "Rest"
+    },
+    {
+        "id": "sets-3",
+        "en": "3 sets"
+    },
+    {
+        "id": "reps-15",
+        "en": "15 reps"
+    },
+    {
+        "id": "rest-60-seconds",
+        "en": "60 seconds between sets"
+    },
+    {
+        "id": "type",
+        "en": "Type"
+    },
+    {
+        "id": "hold-time",
+        "en": "Hold Time"
+    },
+    {
+        "id": "hold-time-15-30",
+        "en": "15-30 seconds per stretch"
+    },
+    {
+        "id": "full-body-stretch",
+        "en": "Full body stretching routine"
+    },
+    {
+        "id": "muscle-recovery-flexibility",
+        "en": "Muscle recovery and flexibility"
+    },
+    {
+        "id": "complete-workout",
+        "en": "Complete Workout"
+    },
+    {
+        "id": "save-for-later",
+        "en": "Save for Later"
+    },
+    {
+        "id": "workout-error",
+        "en": "Workout not found!"
+    },
+    {
+        "id": "duration-40-seconds",
+        "en": "40 seconds"
+    },
+    {
+        "id": "duration-35-seconds",
+        "en": "35 seconds"
+    },
+    {
+        "id": "duration-30-seconds",
+        "en": "30 seconds"
+    },
+    {
+        "id": "duration-25-seconds",
+        "en": "25 seconds"
+    },
+    {
+        "id": "duration-20-seconds",
+        "en": "20 seconds"
+    },
+    {
+        "id": "reps-8",
+        "en": "8 reps"
+    },
+    {
+        "id": "reps-12",
+        "en": "12 reps"
+    },
+    {
+        "id": "rest-period",
+        "en": "Rest Period"
+    },
+    {
+        "id": "duration-30-seconds-change",
+        "en": "30 Seconds (Change Sides at 15 seconds)"
+    },
+    {
+        "id": "duration-30-seconds-each",
+        "en": "30 Seconds Each Side"
+    },
+    {
+        "id": "duration-40-seconds-change",
+        "en": "40 Seconds (Change Sides at 20 seconds)"
+    }
+]

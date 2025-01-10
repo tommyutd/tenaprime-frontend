@@ -1,0 +1,322 @@
+[
+    {
+        "id": "workout-text",
+        "en": "Workout Planner"
+    },
+    {
+        "id": "strength-text",
+        "en": "Strength Training"
+    },
+    {
+        "id": "three-day-split-title",
+        "en": "Three Day Split"
+    },
+    {
+        "id": "three-day-split-description",
+        "en": "<b>Beginner Training</b><br>Focus on full-body workouts with adequate rest days."
+    },
+    {
+        "id": "three-day-split-day-one",
+        "en": "Day 1: Full Body Workout"
+    },
+    {
+        "id": "three-day-split-day-two",
+        "en": "Day 2: Full Body Workout"
+    },
+    {
+        "id": "three-day-split-day-three",
+        "en": "Day 3: Full Body Workout"
+    },
+    {
+        "id": "four-day-split-title",
+        "en": "Four Day Split"
+    },
+    {
+        "id": "four-day-split-description",
+        "en": "<b>Intermediate Training</b><br>Balance between workout intensity and recovery time."
+    },
+    {
+        "id": "four-day-split-day-one",
+        "en": "Day 1: Upper Body"
+    },
+    {
+        "id": "four-day-split-day-two",
+        "en": "Day 2: Lower Body"
+    },
+    {
+        "id": "four-day-split-day-three",
+        "en": "Day 3: Upper Body"
+    },
+    {
+        "id": "four-day-split-day-four",
+        "en": "Day 4: Lower Body"
+    },
+    {
+        "id": "five-day-split-title",
+        "en": "Five Day Split"
+    },
+    {
+        "id": "five-day-split-description",
+        "en": "<b>Advanced Training</b><br>Maximize muscle growth with targeted workouts."
+    },
+    {
+        "id": "five-day-split-day-one",
+        "en": "Day 1: Chest and Triceps"
+    },
+    {
+        "id": "five-day-split-day-two",
+        "en": "Day 2: Back and Biceps"
+    },
+    {
+        "id": "five-day-split-day-three",
+        "en": "Day 3: Legs"
+    },
+    {
+        "id": "five-day-split-day-four",
+        "en": "Day 4: Shoulders and Core"
+    },
+    {
+        "id": "five-day-split-day-five",
+        "en": "Day 5: Full Body"
+    },
+    {
+        "id": "at-home-text",
+        "en": "At-Home Workouts"
+    },
+    {
+        "id": "at-home-upper-body-training-title",
+        "en": "At-Home: Upper Body"
+    },
+    {
+        "id": "at-home-upper-body-training-description",
+        "en": "Build strength in your chest, shoulders, arms, upper back, and core muscles."
+    },
+    {
+        "id": "at-home-full-upper-body",
+        "en": "At-Home: Full Upper Body"
+    },
+    {
+        "id": "at-home-chest-arms",
+        "en": "At-Home: Chest & Arms"
+    },
+    {
+        "id": "at-home-shoulders-upper-back",
+        "en": "At-Home: Shoulders & Upper Back"
+    },
+    {
+        "id": "at-home-core",
+        "en": "At-Home: Core"
+    },
+    {
+        "id": "at-home-lower-body-training-title",
+        "en": "At-Home: Lower Body"
+    },
+    {
+        "id": "at-home-lower-body-training-description",
+        "en": "Develop powerful legs with focused lower body exercises."
+    },
+    {
+        "id": "at-home-full-lower-body",
+        "en": "At Home: Full Lower Body"
+    },
+    {
+        "id": "at-home-amazing-glutes",
+        "en": "At Home: Amazing Glutes"
+    },
+    {
+        "id": "at-home-full-body-training-title",
+        "en": "At-Home: Full Body"
+    },
+    {
+        "id": "at-home-full-body-training-description",
+        "en": "Complete full body workouts that target multiple muscle groups in one session."
+    },
+    {
+        "id": "at-home-full-body",
+        "en": "At-Home: Full Body"
+    },
+    {
+        "id": "at-home-abs-and-core",
+        "en": "At-Home: Abs & Core"
+    },
+    {
+        "id": "at-home-strong-back",
+        "en": "At-Home: Strong Back"
+    },
+    {
+        "id": "at-home-cardio-strength",
+        "en": "At-Home: Cardio-Strength"
+    },
+    {
+        "id": "upper-body-training-title",
+        "en": "Upper Body Training"
+    },
+    {
+        "id": "upper-body-training-description",
+        "en": "Comprehensive upper body strength training targeting all major muscle groups."
+    },
+    {
+        "id": "upper-body-chest",
+        "en": "Chest"
+    },
+    {
+        "id": "upper-body-arms",
+        "en": "Arms"
+    },
+    {
+        "id": "upper-body-shoulders",
+        "en": "Shoulders"
+    },
+    {
+        "id": "upper-body-back",
+        "en": "Back"
+    },
+    {
+        "id": "upper-body-core",
+        "en": "Core"
+    },
+    {
+        "id": "lower-body-training-title",
+        "en": "Lower Body Training"
+    },
+    {
+        "id": "lower-body-training-description",
+        "en": "Build strength and power in your lower body with these targeted exercises."
+    },
+    {
+        "id": "lower-body-training",
+        "en": "Lower Body Training"
+    },
+    {
+        "id": "full-body-training-title",
+        "en": "Full Body Training"
+    },
+    {
+        "id": "full-body-training-description",
+        "en": "Complete full body workouts that target multiple muscle groups in one session."
+    },
+    {
+        "id": "full-body-fitness",
+        "en": "Full Body Fitness"
+    },
+    {
+        "id": "weight-loss-text",
+        "en": "Weight Loss"
+    },
+    {
+        "id": "cardio-training-title",
+        "en": "Cardio Training"
+    },
+    {
+        "id": "cardio-training-description",
+        "en": "Burn calories and improve cardiovascular health with effective cardio workouts."
+    },
+    {
+        "id": "aerobics-training-title",
+        "en": "Aerobics"
+    },
+    {
+        "id": "aerobics-training-description",
+        "en": "Energetic aerobic exercises to boost metabolism and enhance endurance."
+    },
+    {
+        "id": "hiit-training-title",
+        "en": "HIIT"
+    },
+    {
+        "id": "hiit-training-description",
+        "en": "High-intensity interval training for maximum calorie burn and fat loss."
+    },
+    {
+        "id": "cardio",
+        "en": "Cardio"
+    },
+    {
+        "id": "aerobics",
+        "en": "Aerobics"
+    },
+    {
+        "id": "hiit",
+        "en": "HIIT"
+    },
+    {
+        "id": "flexibility-text",
+        "en": "Flexibility and Mobility"
+    },
+    {
+        "id": "stretching-training-title",
+        "en": "Stretching Exercises"
+    },
+    {
+        "id": "stretching-training-description",
+        "en": "Improve flexibility and range of motion with dynamic stretching exercises."
+    },
+    {
+        "id": "stretching",
+        "en": "Stretching Exercises"
+    },
+    {
+        "id": "yoga-training-title",
+        "en": "Yoga Poses"
+    },
+    {
+        "id": "yoga-training-description",
+        "en": "Balance mind, body, and spirit with yoga."
+    },
+    {
+        "id": "yoga",
+        "en": "Yoga Poses"
+    },
+    {
+        "id": "balance-training-title",
+        "en": "Balance and Stability"
+    },
+    {
+        "id": "balance-training-description",
+        "en": "Improve balance and stability with these exercises."
+    },
+    {
+        "id": "balance",
+        "en": "Balance and Stability"
+    },
+    {
+        "id": "mind-body-text",
+        "en": "Mind-Body Essentials"
+    },
+    {
+        "id": "breathwork-training-title",
+        "en": "Breathwork"
+    },
+    {
+        "id": "breathwork-training-description",
+        "en": "Improve breath control and relaxation with breathwork exercises."
+    },
+    {
+        "id": "breathwork",
+        "en": "Breathwork"
+    },
+    {
+        "id": "sleep-training-title",
+        "en": "Healthy Sleeping"
+    },
+    {
+        "id": "sleep-training-description",
+        "en": "Improve sleep quality with these tips."
+    },
+    {
+        "id": "sleep",
+        "en": "Healthy Sleep"
+    },
+    {
+        "id": "stress-training-title",
+        "en": "Stress Regulation"
+    },
+    {
+        "id": "stress-training-description",
+        "en": "Manage stress and anxiety with these techniques."
+    },
+    {
+        "id": "meditation",
+        "en": "Meditation"
+    }
+]
