@@ -1,15 +1,15 @@
 [
     {
         "id": "home-menu-item",
-        "am": "መግቢያ"
+        "am": "ቤት"
     },
     {
         "id": "exercises-menu-item",
-        "am": "ስፖርቶች"
+        "am": "መልመጃዎች"
     },
     {
         "id": "nutrition-menu-item",
-        "am": "አመጋገብ"
+        "am": "የተመጣጠነ ምግብ"
     },
     {
         "id": "prizes-menu-item",
@@ -17,7 +17,7 @@
     },
     {
         "id": "about-menu-item",
-        "am": "ስለ እኛ"
+        "am": "ስለ"
     },
     {
         "id": "tandc",
@@ -25,7 +25,7 @@
     },
     {
         "id": "faq",
-        "am": "የተደጋጋሚ ጥያቄዎች"
+        "am": "የሚጠየቁ ጥያቄዎች"
     },
     {
         "id": "privacy-policy",
@@ -37,7 +37,7 @@
     },
     {
         "id": "footer-quick-links",
-        "am": "ፈጣን ገፆች"
+        "am": "ፈጣን አገናኞች"
     },
     {
         "id": "footer-information",
@@ -45,26 +45,26 @@
     },
     {
         "id": "footer-contact",
-        "am": "ያግኙን"
+        "am": "ተገናኝ"
     },
     {
         "id": "footer-tagline",
-        "am": "ጤናማ ይሁኑ፣ በትልቁ ያሸንፉ"
+        "am": "በአካል ብቃት ይቆዩ፣ ትልቅ ያሸንፉ"
     },
     {
         "id": "support",
-        "am": "ድጋፍ ያግኙ"
+        "am": "ድጋፍ"
     },
     {
         "id": "footer-copyright",
-        "am": "© 2024 TenaPrime። መብቱ በህግ የተጠበቀ ነው።"
+        "am": "© 2024 TenaPrime. ሁሉም መብቶች የተጠበቁ ናቸው።"
     },
     {
         "id": "winners-section-title",
-        "am": "አሸናፊዎቹን ይመልከቱ!"
+        "am": "አሸናፊዎቹን ያግኙ!"
     },
     {
         "id": "winners-section-description",
-        "am": "እነዚህ የሳምንታዊ ውድድራችን አሸናፊዎች ናቸው። የዚህ ሳምንት አሸናፊ እርስዎ ሊሆኑ ይችላሉ። <a href=\"#\">አሁኑኑ ይጫወቱ!</a>"
+        "am": "በሳምንታዊ ውድድሩ አሸናፊዎች መካከል ጥቂቶቹ እነሆ። የዚህ ሳምንት አሸናፊ ሊሆኑ ይችላሉ። <a href=\"#\">አሁን ይጫወቱ</a>!"
     }
 ]

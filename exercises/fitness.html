@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/exercises/exercises.css">
+  <link rel="icon" href="/assets/logo-mini.svg">
+  <script src="/scripts/route-guard.js"></script>
+</head>
+
+<body>
+  <div class="homepage">
+    <div class="header">
+      <div class="logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <div class="navigation aleo-text">
+        <div class="navigation-home">
+          <a href="/dashboard">
+            <div class="home-text" data-text-key="home-menu-item">Home</div>
+          </a>
+        </div>
+
+        <div class="navigation-exercises">
+          <a href="/exercises">
+            <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+          </a>
+        </div>
+
+        <div class="navigation-nutrition">
+          <a href="/nutrition">
+            <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+          </a>
+        </div>
+
+        <div class="navigation-prizes">
+          <a href="/prizes">
+            <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
+          </a>
+        </div>
+
+        <div class="navigation-about">
+          <a href="/about">
+            <div class="about-text" data-text-key="about-menu-item">About</div>
+          </a>
+        </div>
+      </div>
+      <div class="extra-navigation">
+        <div class="avatar">
+          <img src="/assets/avatar.svg" alt="Account">
+          <div class="stats-popup aleo-text" id="statsPopup">
+            <div class="stats-container">
+              <div class="stats-header">
+                <h2 data-text-key="stats-title">Your Stats</h2>
+                <button class="close-button" id="closeStats">&times;</button>
+              </div>
+              <div class="stats-content">
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                  <span class="stats-value">5 <span data-text-key="days">days</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="points-earned">Points Earned</span>
+                  <span class="stats-value">250 <span data-text-key="points">points</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                  <span class="stats-value">12</span>
+                </div>
+              </div>
+              <div class="stats-footer">
+                <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="language-selector aleo-text">
+          <p>EN</p>
+          <div class="language-dropdown">
+            <div class="language-option" data-lang="en">English</div>
+            <div class="language-option" data-lang="አማ">አማርኛ</div>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="ethiotelecom">
+        <div class="ethiotelecom-container">
+          <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+        </div>
+      </div>
+    </div>
+
+    <div class="strength-training aleo-text">
+      <div class="strength-training-header">
+        <h1 data-text-key="fitness-guide-title">A Comprehensive Guide to Fitness: Achieving Physical, Mental, and Emotional Well-being</h1>
+        <p data-text-key="fitness-guide-description">Unlock your full potential with this ultimate guide to achieving total fitness and well-being—start your journey today.</p>
+      </div>
+      <div class="strength-training-content">
+        <h2 data-text-key="fitness-intro-title">Introduction to Fitness</h2>
+        <p data-text-key="fitness-intro-content">Welcome to your journey towards understanding fitness! This guide is designed for individuals with little to no background knowledge in health and fitness. Our goal is to provide clear, detailed information to help you grasp the fundamental concepts of fitness and how they contribute to overall health and well-being.</p>
+      </div>
+      <div class="strength-training-content">
+        <h2 data-text-key="fitness-what-is-fitness-title">What Is Fitness?</h2>
+        <p data-text-key="fitness-what-is-fitness-content">Fitness is a holistic concept that encompasses the physical, mental, and emotional aspects of health. It refers to your body's ability to function efficiently and effectively in work and leisure activities, resist diseases, and handle emergency situations. Achieving fitness means you can perform daily tasks with vigor, without undue fatigue, and have ample energy to enjoy leisure pursuits and respond to unexpected demands.</p>
+        <h3 data-text-key="fitness-physical-wellbeing-title">Physical Well-being</h3>
+        <ul>
+          <li><p data-text-key="fitness-physical-wellbeing-point-1">The condition of your body, taking into consideration everything from the absence of disease to fitness level.</p></li>
+          <li><p data-text-key="fitness-physical-wellbeing-point-2">A healthy body supports daily activities, reduces the risk of chronic diseases, and enhances quality of life.</p></li>
+        </ul>
+      </div>
+      <div class="strength-training-content">
+        <h2 data-text-key="fitness-components-title">Key Components of Fitness</h2>
+        <p data-text-key="fitness-components-description">Understanding the key components of fitness helps in creating a well-rounded fitness program. Each component contributes uniquely to your overall health.</p>
+        
+        <h3 data-text-key="fitness-cardio-endurance-title">1. Cardiovascular Endurance</h3>
+        <p data-text-key="fitness-cardio-endurance-description">The ability of your heart, lungs, and circulatory system to supply oxygen-rich blood to your muscles during sustained physical activity.</p>
+        <h4 data-text-key="fitness-importance-title">Importance</h4>
+        <ul>
+          <li><p data-text-key="fitness-cardio-importance-1"><b>Enhanced Heart Health:</b> Strengthens the heart muscle, improving circulation.</p></li>
+          <li><p data-text-key="fitness-cardio-importance-2"><b>Increased Stamina:</b> Allows prolonged physical activity without excessive fatigue.</p></li>
+          <li><p data-text-key="fitness-cardio-importance-3"><b>Improved Metabolic Efficiency:</b> Boosts energy levels by enhancing oxygen utilization.</p></li>
+        </ul>
+        <h4 data-text-key="fitness-examples-title">Examples of Activities</h4>
+        <ul>
+          <li><p data-text-key="fitness-cardio-example-1">Walking</p></li>
+          <li><p data-text-key="fitness-cardio-example-2">Running</p></li>
+          <li><p data-text-key="fitness-cardio-example-3">Swimming</p></li>
+          <li><p data-text-key="fitness-cardio-example-4">Cycling</p></li>
+          <li><p data-text-key="fitness-cardio-example-5">Dancing</p></li>
+        </ul>
+
+        <h3 data-text-key="fitness-muscular-strength-title">2. Muscular Strength</h3>
+        <p data-text-key="fitness-muscular-strength-description">The maximum amount of force a muscle or group of muscles can exert against resistance in a single effort.</p>
+        <h4 data-text-key="fitness-importance-title">Importance</h4>
+        <ul>
+          <li><p data-text-key="fitness-strength-importance-1"><b>Daily Functionality:</b> Facilitates tasks that require lifting or moving heavy objects.</p></li>
+          <li><p data-text-key="fitness-strength-importance-2"><b>Injury Prevention:</b> Supports joints and reduces the risk of musculoskeletal injuries.</p></li>
+          <li><p data-text-key="fitness-strength-importance-3"><b>Improved Posture:</b> Strong muscles contribute to better alignment and posture.</p></li>
+        </ul>
+        <h4 data-text-key="fitness-examples-title">Examples of Activities</h4>
+        <ul>
+          <li><p data-text-key="fitness-strength-example-1">Weightlifting</p></li>
+          <li><p data-text-key="fitness-strength-example-2">Bodyweight exercises (push-ups, squats)</p></li>
+          <li><p data-text-key="fitness-strength-example-3">Resistance band workouts</p></li>
+        </ul>
+
+        <h3 data-text-key="fitness-muscular-endurance-title">3. Muscular Endurance</h3>
+        <p data-text-key="fitness-muscular-endurance-description">The ability of a muscle or group of muscles to perform repeated contractions over time without becoming fatigued.</p>
+        <h4 data-text-key="fitness-importance-title">Importance</h4>
+        <ul>
+          <li><p data-text-key="fitness-endurance-importance-1"><b>Sustained Activities:</b> Essential for endurance sports and prolonged physical tasks.</p></li>
+          <li><p data-text-key="fitness-endurance-importance-2"><b>Enhanced Performance:</b> Improves efficiency in activities like climbing stairs or cycling.</p></li>
+          <li><p data-text-key="fitness-endurance-importance-3"><b>Injury Reduction:</b> Enduring muscles are less prone to overuse injuries.</p></li>
+        </ul>
+        <h4 data-text-key="fitness-examples-title">Examples of Activities</h4>
+        <ul>
+          <li><p data-text-key="fitness-endurance-example-1">Circuit training</p></li>
+          <li><p data-text-key="fitness-endurance-example-2">Rowing</p></li>
+          <li><p data-text-key="fitness-endurance-example-3">High-repetition weight training</p></li>
+        </ul>
+
+        <h3 data-text-key="fitness-flexibility-title">4. Flexibility</h3>
+        <p data-text-key="fitness-flexibility-description">The range of motion available at a joint or group of joints.</p>
+        <h4 data-text-key="fitness-importance-title">Importance</h4>
+        <ul>
+          <li><p data-text-key="fitness-flexibility-importance-1"><b>Injury Prevention:</b> Reduces the risk of strains and sprains by allowing joints to move freely.</p></li>
+          <li><p data-text-key="fitness-flexibility-importance-2"><b>Improved Mobility:</b> Enhances the ability to perform daily activities and movements.</p></li>
+          <li><p data-text-key="fitness-flexibility-importance-3"><b>Decreased Muscle Tension:</b> Alleviates tightness and discomfort in muscles.</p></li>
+        </ul>
+        <h4 data-text-key="fitness-examples-title">Examples of Activities</h4>
+        <ul>
+          <li><p data-text-key="fitness-flexibility-example-1">Stretching routines</p></li>
+          <li><p data-text-key="fitness-flexibility-example-2">Yoga</p></li>
+          <li><p data-text-key="fitness-flexibility-example-3">Pilates</p></li>
+        </ul>
+
+        <h3 data-text-key="fitness-body-composition-title">5. Body Composition</h3>
+        <p data-text-key="fitness-body-composition-description">The ratio of fat mass to lean mass (muscle, bone, organs, and fluids) in your body.</p>
+        <h4 data-text-key="fitness-importance-title">Importance</h4>
+        <ul>
+          <li><p data-text-key="fitness-body-composition-importance-1"><b>Health Indicator:</b> A balanced body composition lowers the risk of chronic diseases.</p></li>
+          <li><p data-text-key="fitness-body-composition-importance-2"><b>Metabolic Health:</b> Higher muscle mass increases metabolism, aiding in weight management.</p></li>
+          <li><p data-text-key="fitness-body-composition-importance-3"><b>Physical Appearance:</b> Influences body shape and can affect self-esteem.</p></li>
+        </ul>
+        <h4 data-text-key="fitness-assessment-methods-title">Methods of Assessment</h4>
+        <ul>
+          <li><p data-text-key="fitness-assessment-method-1">Body Mass Index (BMI)</p></li>
+          <li><p data-text-key="fitness-assessment-method-2">Skinfold measurements</p></li>
+          <li><p data-text-key="fitness-assessment-method-3">Bioelectrical impedance analysis</p></li>
+        </ul>
+
+        <h3 data-text-key="fitness-balance-coordination-title">6. Balance and Coordination</h3>
+        <p data-text-key="fitness-balance-coordination-description">The ability to maintain control of your body's movements and stay upright, whether you are stationary or moving.</p>
+        <h4 data-text-key="fitness-importance-title">Importance</h4>
+        <ul>
+          <li><p data-text-key="fitness-balance-importance-1"><b>Fall Prevention:</b> Critical for safety, especially in older adults.</p></li>
+          <li><p data-text-key="fitness-balance-importance-2"><b>Efficient Movement:</b> Enhances performance in sports and daily activities.</p></li>
+          <li><p data-text-key="fitness-balance-importance-3"><b>Proprioception:</b> Improves body awareness and control.</p></li>
+        </ul>
+        <h4 data-text-key="fitness-examples-title">Examples of Activities</h4>
+        <ul>
+          <li><p data-text-key="fitness-balance-example-1">Balance exercises (standing on one foot)</p></li>
+          <li><p data-text-key="fitness-balance-example-2">Tai Chi</p></li>
+          <li><p data-text-key="fitness-balance-example-3">Coordination drills (agility ladders)</p></li>
+        </ul>
+
+        <h3 data-text-key="fitness-mental-emotional-health-title">7. Mental and Emotional Health</h3>
+        <p data-text-key="fitness-mental-emotional-description">A state of well-being where you can cope with normal stresses, work productively, and contribute to your community.</p>
+        <h4 data-text-key="fitness-importance-title">Importance</h4>
+        <ul>
+          <li><p data-text-key="fitness-mental-importance-1"><b>Stress Management:</b> Better handles life's challenges and reduces anxiety.</p></li>
+          <li><p data-text-key="fitness-mental-importance-2"><b>Positive Relationships:</b> Enhances social connections and support systems.</p></li>
+          <li><p data-text-key="fitness-mental-importance-3"><b>Overall Happiness:</b> Contributes to life satisfaction and fulfillment.</p></li>
+        </ul>
+        <h4 data-text-key="fitness-improvement-methods-title">Ways to Improve</h4>
+        <ul>
+          <li><p data-text-key="fitness-mental-improvement-1">Mindfulness and meditation</p></li>
+          <li><p data-text-key="fitness-mental-improvement-2">Counseling or therapy</p></li>
+          <li><p data-text-key="fitness-mental-improvement-3">Social activities and hobbies</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="fitness-interconnected-title">The Interconnectedness of Fitness Components</h2>
+        <p data-text-key="fitness-interconnected-description">Each fitness component is interconnected, meaning improvements in one area can positively affect others.</p>
+        <h4 data-text-key="fitness-examples-title">Examples</h4>
+        <ul>
+          <li><p data-text-key="fitness-interconnected-example-1"><b>Cardiovascular Endurance and Muscular Endurance:</b> Enhanced heart and lung function support prolonged muscle activity.</p></li>
+          <li><p data-text-key="fitness-interconnected-example-2"><b>Muscular Strength and Flexibility:</b> Strong, flexible muscles perform better and are less susceptible to injury.</p></li>
+          <li><p data-text-key="fitness-interconnected-example-3"><b>Balance and Coordination with Mental Health:</b> Physical activities that improve balance can also boost confidence and mental well-being.</p></li>
+        </ul>
+        <p data-text-key="fitness-interconnected-content">Understanding these connections helps in designing a comprehensive fitness program that addresses multiple areas simultaneously.</p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="fitness-program-title">Creating a Balanced Fitness Program</h2>
+        <p data-text-key="fitness-program-description">Developing a fitness program involves careful planning to ensure all components are addressed.</p>
+        <h3 data-text-key="fitness-assessment-title">1. Assessing Your Current Fitness Level</h3>
+        <ul>
+          <li><p data-text-key="fitness-health-check"><b>Health Check:</b> Consult a healthcare provider before starting, especially if you have existing health conditions.</p></li>
+          <li><p data-text-key="fitness-testing"><b>Fitness Testing:</b> Simple assessments like measuring how long you can walk or how many repetitions of an exercise you can perform.</p></li>
+        </ul>
+
+        <h3 data-text-key="fitness-smart-goals-title">2. Setting SMART Goals</h3>
+        <ul>
+          <li><p data-text-key="fitness-smart-specific"><b>Specific:</b> Clearly define what you want to achieve.</p></li>
+          <li><p data-text-key="fitness-smart-measurable"><b>Measurable:</b> Quantify your goals to track progress.</p></li>
+          <li><p data-text-key="fitness-smart-achievable"><b>Achievable:</b> Set realistic goals within your capabilities.</p></li>
+          <li><p data-text-key="fitness-smart-relevant"><b>Relevant:</b> Ensure goals align with your interests and needs.</p></li>
+          <li><p data-text-key="fitness-smart-timebound"><b>Time-bound:</b> Set a deadline to stay motivated.</p></li>
+        </ul>
+
+        <h3 data-text-key="fitness-exercise-types-title">3. Incorporating Various Types of Exercise</h3>
+        <ul>
+          <li><p data-text-key="fitness-cardio-activities"><b>Cardiovascular Activities:</b> Aim for at least 150 minutes of moderate-intensity or 75 minutes of vigorous-intensity aerobic activity per week.</p></li>
+          <li><p data-text-key="fitness-strength-activities"><b>Strength Training:</b> Include exercises targeting all major muscle groups at least two days per week.</p></li>
+          <li><p data-text-key="fitness-flexibility-activities"><b>Flexibility Exercises:</b> Incorporate stretching or yoga several times a week.</p></li>
+          <li><p data-text-key="fitness-balance-activities"><b>Balance and Coordination:</b> Practice activities that challenge your balance regularly.</p></li>
+        </ul>
+
+        <h3 data-text-key="fitness-progress-monitoring-title">4. Monitoring Progress</h3>
+        <ul>
+          <li><p data-text-key="fitness-monitoring-journal"><b>Keep a Journal:</b> Record workouts, how you felt, and any changes noticed.</p></li>
+          <li><p data-text-key="fitness-monitoring-assessment"><b>Regular Assessments:</b> Reevaluate your fitness level periodically.</p></li>
+          <li><p data-text-key="fitness-monitoring-adjust"><b>Adjust Goals:</b> Modify your program as needed based on progress.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="fitness-conclusion-title">Conclusion</h2>
+        <p data-text-key="fitness-conclusion-content-1">Achieving fitness is a journey that involves understanding and nurturing various aspects of your health. By focusing on the key components—cardiovascular endurance, muscular strength, muscular endurance, flexibility, body composition, balance, coordination, and mental health—you set a strong foundation for a healthier, more fulfilling life.</p>
+        <p data-text-key="fitness-conclusion-content-2">Remember, it's important to start at a level that's comfortable for you and gradually increase the intensity and complexity of your activities. Consistency is key, and celebrating small victories along the way can keep you motivated.</p>
+      </div>
+    </div>
+
+    <div class="footer aleo-text">
+      <div class="footer-content">
+        <div class="footer-sections">
+          <div class="footer-section">
+            <h3 data-text-key="footer-quick-links">Quick Links</h3>
+            <ul>
+              <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
+              <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
+              <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
+              <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-information">Information</h3>
+            <ul>
+              <li><a href="/about" data-text-key="about-menu-item">About</a></li>
+              <li><a href="#" data-text-key="faq">FAQ</a></li>
+              <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
+              <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-contact">Contact</h3>
+            <ul>
+              <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+              <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+              <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+              <li><a href="#" data-text-key="support">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-section footer-logo">
+            <img src="/assets/logo.svg" alt="TenaPrime">
+            <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+            <div class="footer-social">
+              <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
+              <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
+              <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 TenaPrime. All rights reserved.</p>
+          <div class="footer-ethiotelecom">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-overlay"></div>
+  <div class="sidebar aleo-text" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <button class="sidebar-close">&times;</button>
+    </div>
+
+    <div class="sidebar-language-selector">
+      <div class="language-options-container">
+        <div class="sidebar-language-option" data-lang="en">
+          <span class="language-text">English</span>
+        </div>
+        <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+          <span class="language-text">አማርኛ</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-navigation">
+      <a href="/dashboard" class="sidebar-item">
+        <div data-text-key="home-menu-item">Home</div>
+      </a>
+      <a href="/exercises" class="sidebar-item">
+        <div data-text-key="exercises-menu-item">Exercises</div>
+      </a>
+      <a href="/nutrition" class="sidebar-item">
+        <div data-text-key="nutrition-menu-item">Nutrition</div>
+      </a>
+      <a href="/prizes" class="sidebar-item">
+        <div data-text-key="prizes-menu-item">Prizes</div>
+      </a>
+      <a href="/about" class="sidebar-item">
+        <div data-text-key="about-menu-item">About</div>
+      </a>
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="#" class="sidebar-item">
+        <div data-text-key="tandc">Terms & Conditions</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="faq">FAQ</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="privacy-policy">Privacy Policy</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="contact-us">Contact Us</div>
+      </a>
+    </div>
+  </div>
+
+  <script src="/scripts/config.js"></script>
+  <script src="/scripts/auth-service.js"></script>
+  <script src="/scripts/strings-loader.js"></script>
+  <script src="/scripts/language-selector.js"></script>
+  <script src="/scripts/user-stats-popup.js"></script>
+  <script src="/scripts/sidebar-overlay.js"></script>
+
+</body>
+
+</html>

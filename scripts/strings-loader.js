@@ -1,3 +1,6 @@
+// At the top of strings-loader.js
+window.currentLang = 'en';  // default value
+
 // Create a promise that resolves when strings are loaded
 window.stringsLoaded = new Promise((resolve) => {
     window.resolveStrings = resolve;
@@ -5,15 +8,15 @@ window.stringsLoaded = new Promise((resolve) => {
 
 const storedLang = localStorage.getItem('app-language');
 if (storedLang) {
-    currentLang = storedLang;
+    window.currentLang = storedLang;
 }
 else {
     if (window.userData && window.userData.user && window.userData.user.user.lang) {
         const userLang = window.userData.user.user.lang;
-        currentLang = userLang;
+        window.currentLang = userLang;
     }
     else {
-        currentLang = 'en';
+        window.currentLang = 'en';
     }
 }
 
@@ -34,7 +37,8 @@ function getPageTags(path) {
         '/exercises': ['exercises-index', 'guest'],
         '/exercises/dashboard': ['exercises-dashboard', 'user'],
         '/exercises/workout': ['workout', 'body', 'exercise', 'user'],
-        '/exercises/strength': ['strength', 'body', 'exercise', 'user'],
+        '/exercises/strength': ['strength', 'exercise', 'user'],
+        '/exercises/fitness': ['fitness', 'exercise', 'user'],
         '/nutrition': ['nutrition-index', 'guest'],
         '/nutrition/dashboard': ['nutrition-dashboard', 'user'],
         '/prizes': ['prizes-index', 'guest'],
@@ -59,7 +63,7 @@ function getPageTags(path) {
     }
     if (path === '/exercises/strength' && params.has('group')) {
         const group = params.get('group');
-        const matches = group.match(/(upper|lower|full)/);
+        const matches = group.match(/(chest|arms|shoulders|back|core|lower-body|fitness)/);
         if (matches) {
             tags.push(`${matches[1]}`);
         }
@@ -79,7 +83,7 @@ async function loadStringFiles() {
         
         // Create an array of fetch promises for each tag
         const fetchPromises = pageTags.map(tag => 
-            fetch(`/strings/${currentLang}/${tag}.json`)
+            fetch(`/strings/${window.currentLang}/${tag}.json`)
                 .then(response => {
                     if (!response.ok) {
                         return [];
@@ -95,7 +99,7 @@ async function loadStringFiles() {
         // Merge all string arrays
         results.forEach(stringArray => {
             stringArray.forEach(item => {
-                if (currentLang === 'en') {
+                if (window.currentLang === 'en') {
                     window.englishStrings[item.id] = item.en;
                 } else {
                     window.amharicStrings[item.id] = item.am;
@@ -112,12 +116,12 @@ async function loadStringFiles() {
 }
 
 async function updatePageStrings() {
-    const strings = currentLang === 'en' ? window.englishStrings : window.amharicStrings;
+    const strings = window.currentLang === 'en' ? window.englishStrings : window.amharicStrings;
 
     const fontElements = document.querySelectorAll('.aleo-text, .ethiopic-text');
     
     fontElements.forEach(element => {
-        if (currentLang === 'en') {
+        if (window.currentLang === 'en') {
             element.classList.remove('ethiopic-text');
             element.classList.add('aleo-text');
         } else {

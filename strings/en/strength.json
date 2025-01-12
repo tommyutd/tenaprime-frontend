@@ -1,0 +1,58 @@
+[
+    {
+        "id": "strength-primary-muscles",
+        "en": "Primary Muscles:"
+    },
+    {
+        "id": "strength-functions",
+        "en": "Functions:"
+    },
+    {
+        "id": "strength-supporting-muscles",
+        "en": "Supporting Muscles:"
+    },
+    {
+        "id": "strength-primary-exercises",
+        "en": "Primary Exercises"
+    },
+    {
+        "id": "strength-secondary-exercises",
+        "en": "Secondary Exercises"
+    },
+    {
+        "id": "strength-safety-precautions",
+        "en": "Medical Clearance: Consult a healthcare professional before starting any new exercise program, especially if you have existing health conditions.\\nProper Warm-Up: Engage in 5-10 minutes of light cardio and dynamic stretches targeting the chest and shoulders.\\nUse Correct Form: Focus on technique over heavy weights to prevent injuries.\\nControlled Movements: Avoid rapid or jerky motions.\\nBreathing Technique: Exhale during exertion (lifting phase) and inhale during the lowering phase.\\nSpotter Assistance: When using heavy weights, especially with barbell exercises, have someone assist you.\\nEquipment Check: Ensure benches, machines, and weights are in good condition.\\nListen to Your Body: Stop immediately if you feel sharp pain or discomfort."
+    },
+    {
+        "id": "strength-warmup",
+        "en": "Warm-up"
+    },
+    {
+        "id": "strength-warmup-content",
+        "en": "5–10 minutes of light cardio (e.g., arm circles, jumping jacks)\\nDynamic stretches focusing on shoulders and upper back"
+    },
+    {
+        "id": "strength-workout",
+        "en": "Workout"
+    },
+    {
+        "id": "strength-cooldown",
+        "en": "Cool-down"
+    },
+    {
+        "id": "strength-cooldown-content",
+        "en": "5 minutes of stretching, focusing on shoulders, neck, and upper back"
+    },
+    {
+        "id": "strength-notes",
+        "en": "Notes"
+    },
+    {
+        "id": "strength-notes-content",
+        "en": "Rest: 60–90 seconds between sets\\nFrequency: Perform this workout 1–2 times per week with at least 48 hours between sessions\\nProgression: Gradually increase weight or repetitions as strength improves"
+    },
+    {
+        "id": "strength-conclusion",
+        "en": "Conclusion"
+    }
+]

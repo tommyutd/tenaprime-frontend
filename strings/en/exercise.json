@@ -494,5 +494,173 @@
     {
         "id": "knee-kick",
         "en": "Knee Kicks"
+    },
+    {
+        "id": "butterfly-dips",
+        "en": "Butteryfly Dips"
+    },
+    {
+        "id": "ankle-tap-push-ups",
+        "en": "Ankle Tap Pushups"
+    },
+    {
+        "id": "push-up-burpees",
+        "en": "Pushup Burpees"
+    },
+    {
+        "id": "chest-stretch",
+        "en": "Chest Stretch"
+    },
+    {
+        "id": "speed-bag-punches",
+        "en": "Speed Bag Punches"
+    },
+    {
+        "id": "concentration-curl",
+        "en": "Concentration Curl"
+    },
+    {
+        "id": "wrist-curl",
+        "en": "Wrist Curl"
+    },
+    {
+        "id": "reverse-wrist-curl",
+        "en": "Reverse Wrist Curl"
+    },
+    {
+        "id": "close-grip-bench-press",
+        "en": "Close-Grip Bench Press"
+    },
+    {
+        "id": "farmers-walk",
+        "en": "Farmer's Walk"
+    },
+    {
+        "id": "dumbbell-shoulder-press",
+        "en": "Dumbbell Shoulder Press"
+    },
+    {
+        "id": "arnold-press",
+        "en": "Arnold Press"
+    },
+    {
+        "id": "bent-over-reverse-fly",
+        "en": "Bent-Over Reverse Fly"
+    },
+    {
+        "id": "face-pull",
+        "en": "Face Pull"
+    },
+    {
+        "id": "big-arm-circles",
+        "en": "Big Arm Circles"
+    },
+    {
+        "id": "deadlift-upright-row",
+        "en": "Deadlift Upright Row"
+    },
+    {
+        "id": "inchworm",
+        "en": "Inchworm"
+    },
+    {
+        "id": "half-squat-jab-cross",
+        "en": "Half-Squat Jab Cross"
+    },
+    {
+        "id": "plie-squat-scoop-up",
+        "en": "Plie Squat Scoop-Up"
+    },
+    {
+        "id": "side-lunge-front-raise",
+        "en": "Side Lunge Front Raise"
+    },
+    {
+        "id": "lunge-punch",
+        "en": "Lunge Punch"
+    },
+    {
+        "id": "split-squat-press",
+        "en": "Split Squat Press"
+    },
+    {
+        "id": "plank-bird-dog",
+        "en": "Plank Bird Dog"
+    },
+    {
+        "id": "balance-chop",
+        "en": "Balance Chop"
+    },
+    {
+        "id": "single-arm-dumbbell-row",
+        "en": "Single Arm Dumbbell Row"
+    },
+    {
+        "id": "t-bar-row",
+        "en": "T-Bar Row"
+    },
+    {
+        "id": "hyperextensions",
+        "en": "Hyperextensions"
+    },
+    {
+        "id": "floor-hyperextension",
+        "en": "Floor Hyperextension"
+    },
+    {
+        "id": "frog-crunches",
+        "en": "Frog Crunches"
+    },
+    {
+        "id": "heel-touches",
+        "en": "Heel Touches"
+    },
+    {
+        "id": "sumo-side-bends",
+        "en": "Sumo Side Bends"
+    },
+    {
+        "id": "single-leg-squat-kickback",
+        "en": "Single Leg Squat Kickback"
+    },
+    {
+        "id": "gate-swings",
+        "en": "Gate Swings"
+    },
+    {
+        "id": "leg-lifts",
+        "en": "Leg Lifts"
+    },
+    {
+        "id": "side-bend",
+        "en": "Side Bend"
+    },
+    {
+        "id": "curtsy-lunge-side-kick-raise",
+        "en": "Curtsy Lunge Side-Kick Raise"
+    },
+    {
+        "id": "lunge-back-kick",
+        "en": "Lunge Back Kick"
+    },
+    {
+        "id": "cossack-squat",
+        "en": "Cossack Squat"
+    },
+    {
+        "id": "double-pulse-squat-jump",
+        "en": "Double Pulse Squat Jump"
+    },
+    {
+        "id": "squat-and-jump",
+        "en": "Squat and Jump"
+    },
+    {
+        "id": "hamstring-curl",
+        "en": "Hamstring Curl"
+    },
+    {
+        "id": "hip-thrusts",
+        "en": "Hip Thrusts"
     }
 ]

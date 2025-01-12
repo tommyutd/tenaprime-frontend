@@ -92,11 +92,19 @@ async function loadWorkoutContent() {
                     <div class="exercise-details">
                         <h3 data-text-key="${exerciseData.name}"></h3>
                         <div class="exercise-info">
-                            ${exerciseData.target && exerciseData.target.length > 0 ? `
+                            ${exerciseData.primaryTargets && exerciseData.primaryTargets.length > 0 ? `
                                 <div class="exercise-info-row">
-                                    <div class="exercise-info-label" data-text-key="muscles">muscles</div>
+                                    <div class="exercise-info-label" data-text-key="primary-targets"></div>
                                     <div class="exercise-info-description">
-                                        ${exerciseData.target.map(muscle => `<span data-text-key="${muscle}"></span>`).join(', ')}
+                                        ${exerciseData.primaryTargets.map(muscle => `<span data-text-key="${muscle}"></span>`).join(', ')}
+                                    </div>
+                                </div>
+                            ` : ''}
+                            ${exerciseData.secondaryTargets && exerciseData.secondaryTargets.length > 0 ? `
+                                <div class="exercise-info-row">
+                                    <div class="exercise-info-label" data-text-key="secondary-targets"></div>
+                                    <div class="exercise-info-description">
+                                        ${exerciseData.secondaryTargets.map(muscle => `<span data-text-key="${muscle}"></span>`).join(', ')}
                                     </div>
                                 </div>
                             ` : ''}

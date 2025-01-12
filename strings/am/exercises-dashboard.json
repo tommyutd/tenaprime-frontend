@@ -1,7 +1,7 @@
 [
     {
         "id": "workout-text",
-        "am": "የአካል ብቃት እንቅስቃሴ እቅድ"
+        "am": "የአካል ብቃት እንቅስቃሴ እቅድ አውጪ"
     },
     {
         "id": "strength-text",
@@ -9,143 +9,143 @@
     },
     {
         "id": "three-day-split-title",
-        "am": "የ3-ቀን ክፍፍል"
+        "am": "የሶስት ቀን ክፍፍል"
     },
     {
         "id": "three-day-split-description",
-        "am": "ለጀማሪዎች ተስማሚ። በበቂ የእረፍት ቀናት ላይ በሙሉ አካል ልምምዶች ላይ ያተኩራል።"
+        "am": "<b>የጀማሪ ስልጠና</b><br>በቂ የእረፍት ቀናት ባለው ሙሉ ሰውነት ላይ ያተኩሩ።"
     },
     {
         "id": "three-day-split-day-one",
-        "am": "ቀን 1: ሙሉ አካል ስልጠና"
+        "am": "ቀን 1፡ ሙሉ የሰውነት እንቅስቃሴ"
     },
     {
         "id": "three-day-split-day-two",
-        "am": "ቀን 2: ሙሉ አካል ስልጠና"
+        "am": "ቀን 2፡ ሙሉ የሰውነት እንቅስቃሴ"
     },
     {
         "id": "three-day-split-day-three",
-        "am": "ቀን 3: ሙሉ አካል ስልጠና"
+        "am": "ቀን 3፡ ሙሉ የሰውነት እንቅስቃሴ"
     },
     {
         "id": "four-day-split-title",
-        "am": "የ4-ቀን ክፍፍል"
+        "am": "የአራት ቀን ክፍፍል"
     },
     {
         "id": "four-day-split-description",
-        "am": "መካከለኛ ደረጃ። በልምምድ ጥንካሬ እና በማገገሚያ ጊዜ መካከል ያለ ሚዛን።"
+        "am": "<b>መካከለኛ ስልጠና</b><br>በአካል ብቃት እንቅስቃሴ ጥንካሬ እና በማገገም ጊዜ መካከል ያለው ሚዛን።"
     },
     {
         "id": "four-day-split-day-one",
-        "am": "ቀን 1: ደረት አካል"
+        "am": "ቀን 1: የላይኛው አካል"
     },
     {
         "id": "four-day-split-day-two",
-        "am": "ቀን 2: እግር አካል"
+        "am": "ቀን 2: የታችኛው አካል"
     },
     {
         "id": "four-day-split-day-three",
-        "am": "ቀን 3: ደረት አካል"
+        "am": "ቀን 3: የላይኛው አካል"
     },
     {
         "id": "four-day-split-day-four",
-        "am": "ቀን 4: ደግር አካል"
+        "am": "ቀን 4: የታችኛው አካል"
     },
     {
         "id": "five-day-split-title",
-        "am": "የ5-ቀን ክፍፍል"
+        "am": "የአምስት ቀን ክፍፍል"
     },
     {
         "id": "five-day-split-description",
-        "am": "የላቀ ስልጠና። በተመራጭ ልምምዶች የጡንቻ እድገትን ያሳድጉ።"
+        "am": "<b>የላቀ ስልጠና</b><br>በተነጣጠሩ ስፖርታዊ እንቅስቃሴዎች የጡንቻን እድገት ያሳድጉ።"
     },
     {
         "id": "five-day-split-day-one",
-        "am": "ቀን 1: ደረት እና ትሪሴፕስ"
+        "am": "ቀን 1: ደረትና ትሪሴፕስ"
     },
     {
         "id": "five-day-split-day-two",
-        "am": "ቀን 2: ጀርባ እና ትሪሴፕስ"
+        "am": "ቀን 2፡ ጀርባ እና ቢሴፕስ"
     },
     {
         "id": "five-day-split-day-three",
-        "am": "ቀን 3: እግር"
+        "am": "ቀን 3: እግሮች"
     },
     {
         "id": "five-day-split-day-four",
-        "am": "ቀን 4: ትከሻዎች እና መስመር"
+        "am": "ቀን 4: ትከሻዎች እና ኮር"
     },
     {
         "id": "five-day-split-day-five",
-        "am": "ቀን 5: መልሶ ማገገም"
+        "am": "ቀን 5፡ ሙሉ አካል"
     },
     {
         "id": "at-home-text",
-        "am": "በተስፋ አካል ስልጠና"
+        "am": "በቤት ውስጥ የአካል ብቃት እንቅስቃሴዎች"
     },
     {
         "id": "at-home-upper-body-training-title",
-        "am": "በተስፋ የላይኛው አካል ስልጠና"
+        "am": "በቤት ውስጥ: የላይኛው አካል"
     },
     {
         "id": "at-home-upper-body-training-description",
-        "am": "በላይኛው አካል የጡንቻ ቡድኖች የሚያማትር ሁለንተናዊ የላይኛው አካል የጥንካሬ ስልጠና።"
+        "am": "በደረትዎ፣ ትከሻዎ፣ ክንዶችዎ፣ በላይኛው ጀርባዎ እና በዋና ጡንቻዎችዎ ላይ ጥንካሬን ይገንቡ።"
     },
     {
         "id": "at-home-full-upper-body",
-        "am": "በተስፋ የላይኛው አካል ስልጠና"
+        "am": "በቤት ውስጥ: ሙሉ የላይኛው አካል"
     },
     {
         "id": "at-home-chest-arms",
-        "am": "በተስፋ ደረት & ቡድኖች"
+        "am": "ቤት ውስጥ፡ ደረት እና ክንዶች"
     },
     {
         "id": "at-home-shoulders-upper-back",
-        "am": "በተስፋ ትከሻ እና የላይኛው አካል"
+        "am": "ቤት ውስጥ፡ ትከሻዎች እና የላይኛው ጀርባ"
     },
     {
         "id": "at-home-core",
-        "am": "በተስፋ ሆድ"
+        "am": "በቤት ውስጥ፡ ኮር"
     },
     {
         "id": "at-home-lower-body-training-title",
-        "am": "በተስፋ የታችኛው አካል ስልጠና"
+        "am": "በቤት ውስጥ: የታችኛው አካል"
     },
     {
         "id": "at-home-lower-body-training-description",
-        "am": "በታችኛው አካል የጡንቻ ቡድኖች የሚያማትር እንቅስቃሴ ስልጠና።"
+        "am": "በትኩረት ዝቅተኛ የሰውነት እንቅስቃሴዎች ኃይለኛ እግሮችን ያዳብሩ."
     },
     {
         "id": "at-home-full-lower-body",
-        "am": "የታችኛው መልሶ ስምምዶች"
+        "am": "በቤት ውስጥ: ሙሉ የታችኛው አካል"
     },
     {
         "id": "at-home-amazing-glutes",
-        "am": "የታችኛው መልሶ ስምምዶች"
+        "am": "በቤት ውስጥ: አስደናቂ ግሉቶች"
     },
     {
         "id": "at-home-full-body-training-title",
-        "am": "በተስፋ ሙሉ አካል ስልጠና"
+        "am": "በቤት ውስጥ: ሙሉ አካል"
     },
     {
         "id": "at-home-full-body-training-description",
-        "am": "በአንድ ክፍለ ጊዜ ውስጥ ብዙ የጡንቻ ቡድኖችን የሚያማትር ሙሉ የአካል ልምምዶችን ያጠናቅቁ።"
+        "am": "በአንድ ክፍለ ጊዜ ውስጥ ብዙ የጡንቻ ቡድኖችን የሚያነጣጥሩ ሙሉ የአካል ብቃት እንቅስቃሴዎችን ያጠናቅቁ።"
     },
     {
         "id": "at-home-full-body",
-        "am": "በተስፋ ሙሉ አካል ስልጠና"
+        "am": "በቤት ውስጥ: ሙሉ አካል"
     },
     {
         "id": "at-home-abs-and-core",
-        "am": "ሆድ እና ማእከላዊ"
+        "am": "ቤት ውስጥ፡ Abs & Core"
     },
     {
         "id": "at-home-strong-back",
-        "am": "ጀርባ እንቅስቃሴ"
+        "am": "ቤት ውስጥ፡ ጠንካራ ጀርባ"
     },
     {
         "id": "at-home-cardio-strength",
-        "am": "ካርዲዮ እና ጥንካሬ"
+        "am": "በቤት ውስጥ: Cardio-ጥንካሬ"
     },
     {
         "id": "upper-body-training-title",
@@ -153,7 +153,7 @@
     },
     {
         "id": "upper-body-training-description",
-        "am": "ሁሉንም ዋና ዋና የጡንቻ ቡድኖችን የሚያማትር ሁለንተናዊ የላይኛው አካል የጥንካሬ ስልጠና።"
+        "am": "ሁሉንም ዋና ዋና የጡንቻ ቡድኖችን ያነጣጠረ አጠቃላይ የሰውነት ጥንካሬ ስልጠና።"
     },
     {
         "id": "upper-body-chest",
@@ -161,19 +161,19 @@
     },
     {
         "id": "upper-body-arms",
-        "am": "ቡድኖች"
+        "am": "ክንዶች"
     },
     {
         "id": "upper-body-shoulders",
-        "am": "ትከሻ"
+        "am": "ትከሻዎች"
     },
     {
         "id": "upper-body-back",
-        "am": "ጀርባ"
+        "am": "ተመለስ"
     },
     {
         "id": "upper-body-core",
-        "am": "ሆድ"
+        "am": "ኮር"
     },
     {
         "id": "lower-body-training-title",
@@ -181,7 +181,7 @@
     },
     {
         "id": "lower-body-training-description",
-        "am": "በእነዚህ ተኮር ልምምዶች በታችኛው አካልዎ ጥንካሬን እና ኃይልን ይገንቡ።"
+        "am": "በእነዚህ የታለሙ ልምምዶች በታችኛው ሰውነትዎ ላይ ጥንካሬን እና ኃይልን ይገንቡ።"
     },
     {
         "id": "lower-body-training",
@@ -189,15 +189,15 @@
     },
     {
         "id": "full-body-training-title",
-        "am": "ሙሉ አካል ስልጠና"
+        "am": "የሙሉ ሰውነት ስልጠና"
     },
     {
         "id": "full-body-training-description",
-        "am": "በአንድ ክፍለ ጊዜ ውስጥ ብዙ የጡንቻ ቡድኖችን የሚያነጣጥሩ ሙሉ የአካል ልምምዶችን ያጠናቅቁ።"
+        "am": "በአንድ ክፍለ ጊዜ ውስጥ ብዙ የጡንቻ ቡድኖችን የሚያነጣጥሩ ሙሉ የአካል ብቃት እንቅስቃሴዎችን ያጠናቅቁ።"
     },
     {
         "id": "full-body-fitness",
-        "am": "ፍስት"
+        "am": "ሙሉ አካል ብቃት"
     },
     {
         "id": "weight-loss-text",
@@ -205,11 +205,11 @@
     },
     {
         "id": "cardio-training-title",
-        "am": "የልብ ስልጠና"
+        "am": "የካርዲዮ ስልጠና"
     },
     {
         "id": "cardio-training-description",
-        "am": "ውጤታማ የልብ ስልጠናዎች ጋር ካሎሪዎችን ያቃጥሉ እና የልብ ጤንነትን ያሻሽሉ።"
+        "am": "ውጤታማ በሆነ የካርዲዮ ስፖርታዊ እንቅስቃሴ ካሎሪዎችን ያቃጥሉ እና የልብና የደም ቧንቧ ጤናን ያሻሽሉ።"
     },
     {
         "id": "aerobics-training-title",
@@ -217,19 +217,19 @@
     },
     {
         "id": "aerobics-training-description",
-        "am": "የሰውነት ኃይልን እና የመቋቋም አቅምን ለማሳደግ ጉልበት ያላቸው የኤሮቢክ ስልጠናዎች።"
+        "am": "ሜታቦሊዝምን ለመጨመር እና ጽናትን ለማጎልበት ኃይለኛ የኤሮቢክ ልምምዶች።"
     },
     {
         "id": "hiit-training-title",
-        "am": "ኤች.አይ.አይ.ቲ"
+        "am": "HIIT"
     },
     {
         "id": "hiit-training-description",
-        "am": "ከፍተኛ ጉልበት የሚጠይቅ የጊዜ ልዩነት ስልጠና ለከፍተኛ የካሎሪ ማቃጠል እና የስብ መቀነስ።"
+        "am": "ከፍተኛ የካሎሪ ማቃጠል እና ስብን ለማቃለል ከፍተኛ-የጊዜ ልዩነት ስልጠና።"
     },
     {
         "id": "cardio",
-        "am": "የልብ ስልጠና"
+        "am": "ካርዲዮ"
     },
     {
         "id": "aerobics",
@@ -237,7 +237,7 @@
     },
     {
         "id": "hiit",
-        "am": "ኤች.አይ.አይ.ቲ"
+        "am": "HIIT"
     },
     {
         "id": "flexibility-text",
@@ -245,39 +245,39 @@
     },
     {
         "id": "stretching-training-title",
-        "am": "መዘርጋት ስልጠና"
+        "am": "የመለጠጥ መልመጃዎች"
     },
     {
         "id": "stretching-training-description",
-        "am": "በተንቀሳቃሽ መዘርጋት ስልጠናዎች የሚገኝ እንቅስቃሴ እና የመቋቋም አቅምን ያሳድጉ።"
+        "am": "በተለዋዋጭ የመለጠጥ ልምምዶች የመተጣጠፍ እና የእንቅስቃሴ ክልልን ያሻሽሉ።"
     },
     {
         "id": "stretching",
-        "am": "መዘርጋት"
+        "am": "የመለጠጥ መልመጃዎች"
     },
     {
         "id": "yoga-training-title",
-        "am": "ዮጋ ስልጠና"
+        "am": "ዮጋ አቀማመጥ"
     },
     {
         "id": "yoga-training-description",
-        "am": "የመረጃ እና የመቋቋም አቅምን ለማሳደግ ዮጋ።"
+        "am": "አእምሮን፣ አካልን እና መንፈስን በዮጋ ማመጣጠን።"
     },
     {
         "id": "yoga",
-        "am": "ዮጋ ስልጠና"
+        "am": "ዮጋ አቀማመጥ"
     },
     {
         "id": "balance-training-title",
-        "am": "ሚዛን እና የመቋቋም"
+        "am": "ሚዛን እና መረጋጋት"
     },
     {
         "id": "balance-training-description",
-        "am": "በእነዚህ ስልጠናዎች የሚገኝ ሚዛን እና የመቋቋም አቅምን ያሳድጉ።"
+        "am": "በእነዚህ መልመጃዎች ሚዛን እና መረጋጋትን ያሻሽሉ።"
     },
     {
         "id": "balance",
-        "am": "ሚዛን እና የመቋቋም"
+        "am": "ሚዛን እና መረጋጋት"
     },
     {
         "id": "mind-body-text",
@@ -285,15 +285,15 @@
     },
     {
         "id": "breathwork-training-title",
-        "am": "አተነፋፈስ"
+        "am": "የመተንፈስ ስራ"
     },
     {
         "id": "breathwork-training-description",
-        "am": "በትንፋሽ ስልጠናዎች የሚገኝ ትንፋሽ ስልጠና እና የመቋቋም አቅምን ያሳድጉ።"
+        "am": "በአተነፋፈስ የአካል ብቃት እንቅስቃሴዎች የትንፋሽ ቁጥጥርን እና መዝናናትን ያሻሽሉ።"
     },
     {
         "id": "breathwork",
-        "am": "አተነፋፈስ"
+        "am": "የመተንፈስ ስራ"
     },
     {
         "id": "sleep-training-title",
@@ -301,7 +301,7 @@
     },
     {
         "id": "sleep-training-description",
-        "am": "በእነዚህ ጠቃሚ ምክሮች የእንቅልፍ አቅምን ያሳድጉ።"
+        "am": "በእነዚህ ምክሮች የእንቅልፍ ጥራትን ያሻሽሉ."
     },
     {
         "id": "sleep",
@@ -309,14 +309,14 @@
     },
     {
         "id": "stress-training-title",
-        "am": "ጭንቀትን መቆጣጠር"
+        "am": "የጭንቀት ደንብ"
     },
     {
         "id": "stress-training-description",
-        "am": "በእነዚህ ስልጠናዎች የጭንቀት መቋቋም አቅምን ያሳድጉ።"
+        "am": "በእነዚህ ዘዴዎች ጭንቀትን እና ጭንቀትን ይቆጣጠሩ."
     },
     {
         "id": "meditation",
-        "am": "ማስተንፈስ"
+        "am": "ማሰላሰል"
     }
 ]

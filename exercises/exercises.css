@@ -759,15 +759,22 @@
     margin: 5% auto;
 }
 
+#strength-exercise-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .strength-exercise-buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     width: 80%;
+    margin: 0 auto;
 }
 
 .strength-exercise-button {
-    background-color: rgba(186, 156, 98, 1);
+    background-color: rgba(186, 156, 98, 0.3);
     border: none;
     color: white;
     border-radius: 0.5rem;
@@ -775,15 +782,21 @@
     transition: all 0.3s ease;
     text-align: center;
     width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
 }
 
 .strength-exercise-button p {
     font-size: 1rem;
+    margin: 0;
 }
 
 .strength-exercise-button:hover {
-    background-color: rgba(186, 156, 98, 0.9);
+    background-color: rgba(186, 156, 98, 0.7);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
 }

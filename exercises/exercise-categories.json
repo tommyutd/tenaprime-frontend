@@ -69,11 +69,11 @@
         "descriptionKey": "upper-body-training-description",
         "imagePath": "/exercises/assets/upper-body.png",
         "buttons": [
-            {"textKey": "upper-body-chest", "page": "upper-body-chest"},
-            {"textKey": "upper-body-arms", "page": "upper-body-arms"},
-            {"textKey": "upper-body-shoulders", "page": "upper-body-shoulders"},
-            {"textKey": "upper-body-back", "page": "upper-body-back"},
-            {"textKey": "upper-body-core", "page": "upper-body-core"}
+            {"textKey": "upper-body-chest", "page": "strength?group=chest"},
+            {"textKey": "upper-body-arms", "page": "strength?group=arms"},
+            {"textKey": "upper-body-shoulders", "page": "strength?group=shoulders"},
+            {"textKey": "upper-body-back", "page": "strength?group=back"},
+            {"textKey": "upper-body-core", "page": "strength?group=core"}
         ]
     },
     "strength-lower-body": {
@@ -81,7 +81,7 @@
         "descriptionKey": "lower-body-training-description",
         "imagePath": "/exercises/assets/lower-body.png",
         "buttons": [
-            {"textKey": "lower-body-training", "page": "lower-body-training"}
+            {"textKey": "lower-body-training", "page": "strength?group=lower-body"}
         ]
     },
     "strength-full-body": {
@@ -89,7 +89,7 @@
         "descriptionKey": "full-body-training-description",
         "imagePath": "/exercises/assets/full-body.png",
         "buttons": [
-            {"textKey": "full-body-fitness", "page": "full-body-fitness"}
+            {"textKey": "full-body-fitness", "page": "fitness"}
         ]
     },
     "weight-loss-cardio": {

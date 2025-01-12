@@ -1,43 +1,43 @@
 [
     {
         "id": "front-page-user-greeting-1",
-        "am": "እንኳን ደህና መጡ!"
+        "am": "እንኳን ደህና መጣህ!"
     },
     {
         "id": "view-exercise-plans",
-        "am": "የስፖርት እቅዶችን ይመልከቱ"
+        "am": "የአካል ብቃት እንቅስቃሴ እቅዶችን ይመልከቱ"
     },
     {
         "id": "view-nutrition-plans",
-        "am": "የአመጋገብ እቅዶችን ይመልከቱ"
+        "am": "የአመጋገብ ዕቅዶችን ይመልከቱ"
     },
     {
         "id": "dashboard-main-card-title",
-        "am": "ይጫወቱ ይሸለሙ"
+        "am": "ለማሸነፍ ይጫወቱ"
     },
     {
         "id": "dashboard-main-card-content",
-        "am": "ጥያቄዎችን ይመልሱ እና በየሳምንቱ 50,000 ብር ይሸለሙ።"
+        "am": "በየሳምንቱ 50,000 ETB ለማሸነፍ ጥያቄዎችን ይመልሱ።"
     },
     {
         "id": "exercises-card-title",
-        "am": "ስፖርቶች"
+        "am": "መልመጃዎች"
     },
     {
         "id": "exercises-card-content",
-        "am": "ብቁ ሆኖ ለመቆየት እቅዶቻችንን ያስሱ።"
+        "am": "ጤናማ ለመሆን እቅዶቻችንን ያስሱ።"
     },
     {
         "id": "nutrition-card-title",
-        "am": "አመጋገብ"
+        "am": "የተመጣጠነ ምግብ"
     },
     {
         "id": "nutrition-card-content",
-        "am": "ስለ አመጋገብ ጠቃሚ መረጃዎችን ያግኙ።"
+        "am": "በተሻለ ሁኔታ እንዴት እንደሚበሉ ጠቃሚ ምክሮችን ያግኙ።"
     },
     {
         "id": "products-card-title",
-        "am": "ሽያጮች"
+        "am": "ምርቶች"
     },
     {
         "id": "products-card-content",
@@ -45,10 +45,10 @@
     },
     {
         "id": "scoreboard-card-title",
-        "am": "የመሪ ሰሌዳ"
+        "am": "የውጤት ሰሌዳ"
     },
     {
         "id": "scoreboard-card-content",
-        "am": "የሳምንቱን ደርጃዎን ይመልከቱ።"
+        "am": "ሳምንታዊ ደረጃዎን ይመልከቱ።"
     }
 ]

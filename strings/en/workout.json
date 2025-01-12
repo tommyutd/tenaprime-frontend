@@ -96,8 +96,12 @@
         "en": "10-12 reps"
     },
     {
-        "id": "muscles",
-        "en": "Target"
+        "id": "primary-targets",
+        "en": "Primary Targets"
+    },
+    {
+        "id": "secondary-targets",
+        "en": "Secondary Targets"
     },
     {
         "id": "sets",

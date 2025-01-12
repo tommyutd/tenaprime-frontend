@@ -1,0 +1,410 @@
+[
+    {
+        "id": "fitness-guide-title",
+        "am": "አጠቃላይ የአካል ብቃት መመሪያ፡ አካላዊ፣ አእምሯዊ እና ስሜታዊ ደህንነትን ማሳካት"
+    },
+    {
+        "id": "fitness-guide-description",
+        "am": "አጠቃላይ ብቃትን እና ደህንነትን ለማሳካት በዚህ የመጨረሻ መመሪያ ሙሉ አቅምዎን ይክፈቱት ጉዞዎን ዛሬ ይጀምሩ።"
+    },
+    {
+        "id": "fitness-intro-title",
+        "am": "የአካል ብቃት መግቢያ"
+    },
+    {
+        "id": "fitness-intro-content",
+        "am": "ወደ የአካል ብቃት ግንዛቤ ጉዞዎ እንኳን በደህና መጡ! ይህ መመሪያ የተነደፈው በጤና እና በአካል ብቃት ላይ ከትንሽ እስከ ምንም የጀርባ እውቀት ለሌላቸው ግለሰቦች ነው። ግባችን የአካል ብቃት መሰረታዊ ፅንሰ-ሀሳቦችን እና ለአጠቃላይ ጤና እና ደህንነት እንዴት አስተዋፅዖ እንደሚያበረክቱ ለመረዳት የሚያግዝዎ ግልጽ፣ ዝርዝር መረጃ ማቅረብ ነው።"
+    },
+    {
+        "id": "fitness-what-is-fitness-title",
+        "am": "የአካል ብቃት እንቅስቃሴ ምንድነው?"
+    },
+    {
+        "id": "fitness-what-is-fitness-content",
+        "am": "የአካል ብቃት የጤና አካላዊ፣ አእምሯዊ እና ስሜታዊ ገጽታዎችን የሚያጠቃልል ሁለንተናዊ ፅንሰ-ሀሳብ ነው። እሱ የሚያመለክተው ሰውነትዎ በስራ እና በመዝናኛ እንቅስቃሴዎች ውስጥ በብቃት እና በብቃት የመሥራት ፣ በሽታዎችን የመቋቋም እና የአደጋ ጊዜ ሁኔታዎችን የመቆጣጠር ችሎታን ነው። የአካል ብቃት እንቅስቃሴን ማሳካት ማለት የእለት ተእለት ተግባራትን ያለአንዳች ድካም ያለ ድካም ማከናወን እና በትርፍ ጊዜ ማሳለፊያዎች ለመደሰት እና ላልተጠበቁ ፍላጎቶች ምላሽ ለመስጠት የሚያስችል በቂ ሃይል ማግኘት ማለት ነው።"
+    },
+    {
+        "id": "fitness-physical-wellbeing-title",
+        "am": "አካላዊ ደህንነት"
+    },
+    {
+        "id": "fitness-physical-wellbeing-point-1",
+        "am": "ከበሽታ አለመኖር እስከ የአካል ብቃት ደረጃ ድረስ ሁሉንም ነገር ግምት ውስጥ በማስገባት የሰውነትዎ ሁኔታ."
+    },
+    {
+        "id": "fitness-physical-wellbeing-point-2",
+        "am": "ጤናማ አካል የዕለት ተዕለት እንቅስቃሴን ይደግፋል, ሥር የሰደዱ በሽታዎችን አደጋ ይቀንሳል እና የህይወት ጥራትን ያሻሽላል."
+    },
+    {
+        "id": "fitness-components-title",
+        "am": "የአካል ብቃት ቁልፍ አካላት"
+    },
+    {
+        "id": "fitness-components-description",
+        "am": "የአካል ብቃት ዋና ዋና ክፍሎችን መረዳቱ የተሟላ የአካል ብቃት ፕሮግራም ለመፍጠር ይረዳል። እያንዳንዱ አካል ለጠቅላላ ጤናዎ ልዩ አስተዋጽኦ ያደርጋል."
+    },
+    {
+        "id": "fitness-cardio-endurance-title",
+        "am": "1. የካርዲዮቫስኩላር ጽናት"
+    },
+    {
+        "id": "fitness-cardio-endurance-description",
+        "am": "ቀጣይነት ባለው የአካል ብቃት እንቅስቃሴ ወቅት የልብዎ፣ የሳምባዎ እና የደም ዝውውር ስርዓትዎ በኦክሲጅን የበለፀገ ደም ለጡንቻዎችዎ የማቅረብ ችሎታ።"
+    },
+    {
+        "id": "fitness-importance-title",
+        "am": "አስፈላጊነት"
+    },
+    {
+        "id": "fitness-examples-title",
+        "am": "የእንቅስቃሴዎች ምሳሌዎች"
+    },
+    {
+        "id": "fitness-cardio-importance-1",
+        "am": "የተሻሻለ የልብ ጤና: የልብ ጡንቻን ያጠናክራል, የደም ዝውውርን ያሻሽላል."
+    },
+    {
+        "id": "fitness-cardio-importance-2",
+        "am": "ጥንካሬ መጨመር፡- ከመጠን በላይ ድካም ሳይኖር ለረጅም ጊዜ የአካል ብቃት እንቅስቃሴን ይፈቅዳል።"
+    },
+    {
+        "id": "fitness-cardio-importance-3",
+        "am": "የተሻሻለ የሜታቦሊክ ቅልጥፍና፡ የኦክስጂን አጠቃቀምን በማሳደግ የሃይል ደረጃን ያሳድጋል።"
+    },
+    {
+        "id": "fitness-cardio-example-1",
+        "am": "መራመድ"
+    },
+    {
+        "id": "fitness-cardio-example-2",
+        "am": "መሮጥ"
+    },
+    {
+        "id": "fitness-cardio-example-3",
+        "am": "መዋኘት"
+    },
+    {
+        "id": "fitness-cardio-example-4",
+        "am": "ብስክሌት መንዳት"
+    },
+    {
+        "id": "fitness-cardio-example-5",
+        "am": "መደነስ"
+    },
+    {
+        "id": "fitness-muscular-strength-title",
+        "am": "2. የጡንቻ ጥንካሬ"
+    },
+    {
+        "id": "fitness-muscular-strength-description",
+        "am": "በአንድ ጥረት ውስጥ አንድ ጡንቻ ወይም የጡንቻ ቡድን መቋቋም የሚችሉት ከፍተኛው የኃይል መጠን።"
+    },
+    {
+        "id": "fitness-strength-importance-1",
+        "am": "ዕለታዊ ተግባር፡ ከባድ ዕቃዎችን ማንሳት ወይም ማንቀሳቀስ የሚጠይቁ ሥራዎችን ያመቻቻል።"
+    },
+    {
+        "id": "fitness-strength-importance-2",
+        "am": "የጉዳት መከላከል፡ መገጣጠሚያዎችን ይደግፋል እና የጡንቻኮላኮች ጉዳቶችን አደጋ ይቀንሳል።"
+    },
+    {
+        "id": "fitness-strength-importance-3",
+        "am": "የተሻሻለ አቀማመጥ: ጠንካራ ጡንቻዎች ለተሻለ አሰላለፍ እና አቀማመጥ አስተዋፅኦ ያደርጋሉ."
+    },
+    {
+        "id": "fitness-strength-example-1",
+        "am": "ክብደት ማንሳት"
+    },
+    {
+        "id": "fitness-strength-example-2",
+        "am": "የሰውነት ክብደት መልመጃዎች (ግፊዎች ፣ ስኩዊቶች)"
+    },
+    {
+        "id": "fitness-strength-example-3",
+        "am": "የመቋቋም ባንድ ስፖርታዊ እንቅስቃሴ"
+    },
+    {
+        "id": "fitness-muscular-endurance-title",
+        "am": "3. የጡንቻ ጽናት"
+    },
+    {
+        "id": "fitness-muscular-endurance-description",
+        "am": "የጡንቻ ወይም የቡድን ጡንቻዎች ሳይታክቱ በጊዜ ሂደት ተደጋጋሚ መኮማተርን የመፈፀም ችሎታ።"
+    },
+    {
+        "id": "fitness-endurance-importance-1",
+        "am": "ቀጣይነት ያለው ተግባራት፡ ለጽናት ስፖርቶች እና ለረጅም ጊዜ አካላዊ ስራዎች አስፈላጊ።"
+    },
+    {
+        "id": "fitness-endurance-importance-2",
+        "am": "የተሻሻለ አፈጻጸም፡ እንደ ደረጃዎች መውጣት ወይም ብስክሌት መንዳት ባሉ ተግባራት ውስጥ ቅልጥፍናን ያሻሽላል።"
+    },
+    {
+        "id": "fitness-endurance-importance-3",
+        "am": "የጉዳት ቅነሳ፡ ዘላቂ የሆኑ ጡንቻዎች ከመጠን በላይ የመጠቀም እድላቸው አነስተኛ ነው።"
+    },
+    {
+        "id": "fitness-endurance-example-1",
+        "am": "የወረዳ ስልጠና"
+    },
+    {
+        "id": "fitness-endurance-example-2",
+        "am": "መቅዘፊያ"
+    },
+    {
+        "id": "fitness-endurance-example-3",
+        "am": "ከፍተኛ-ድግግሞሽ የክብደት ስልጠና"
+    },
+    {
+        "id": "fitness-flexibility-title",
+        "am": "4. ተለዋዋጭነት"
+    },
+    {
+        "id": "fitness-flexibility-description",
+        "am": "በመገጣጠሚያዎች ወይም በቡድን በመገጣጠሚያዎች ላይ የሚገኝ የእንቅስቃሴ መጠን።"
+    },
+    {
+        "id": "fitness-flexibility-importance-1",
+        "am": "የጉዳት መከላከል፡ መገጣጠሚያዎች በነፃነት እንዲንቀሳቀሱ በማድረግ የጭንቀት እና የመወጠር አደጋን ይቀንሳል።"
+    },
+    {
+        "id": "fitness-flexibility-importance-2",
+        "am": "የተሻሻለ ተንቀሳቃሽነት፡ የእለት ተእለት እንቅስቃሴዎችን እና እንቅስቃሴዎችን የማከናወን ችሎታን ያሳድጋል።"
+    },
+    {
+        "id": "fitness-flexibility-importance-3",
+        "am": "የጡንቻ ውጥረት መቀነስ፡ በጡንቻዎች ውስጥ መጨናነቅ እና ምቾት ማጣትን ያስወግዳል።"
+    },
+    {
+        "id": "fitness-flexibility-example-1",
+        "am": "የመለጠጥ ልማዶች"
+    },
+    {
+        "id": "fitness-flexibility-example-2",
+        "am": "ዮጋ"
+    },
+    {
+        "id": "fitness-flexibility-example-3",
+        "am": "ጲላጦስ"
+    },
+    {
+        "id": "fitness-body-composition-title",
+        "am": "5. የሰውነት ቅንብር"
+    },
+    {
+        "id": "fitness-body-composition-description",
+        "am": "በሰውነትዎ ውስጥ ያለው የስብ ብዛት ወደ ዘንበል ያለ ክብደት (ጡንቻ፣ አጥንት፣ የአካል ክፍሎች እና ፈሳሾች) ጥምርታ።"
+    },
+    {
+        "id": "fitness-body-composition-importance-1",
+        "am": "የጤና አመልካች፡ የተመጣጠነ የሰውነት ስብጥር ሥር የሰደደ በሽታዎችን የመጋለጥ እድልን ይቀንሳል።"
+    },
+    {
+        "id": "fitness-body-composition-importance-2",
+        "am": "ሜታቦሊክ ጤና፡- ከፍ ያለ የጡንቻዎች ብዛት ሜታቦሊዝምን ይጨምራል፣ ክብደትን ለመቆጣጠር ይረዳል።"
+    },
+    {
+        "id": "fitness-body-composition-importance-3",
+        "am": "አካላዊ መልክ፡ በሰውነት ቅርፅ ላይ ተጽእኖ ያሳድራል እና በራስ የመተማመን ስሜትን ሊነካ ይችላል።"
+    },
+    {
+        "id": "fitness-assessment-methods-title",
+        "am": "የግምገማ ዘዴዎች"
+    },
+    {
+        "id": "fitness-assessment-method-1",
+        "am": "የሰውነት ብዛት መረጃ ጠቋሚ (BMI)"
+    },
+    {
+        "id": "fitness-assessment-method-2",
+        "am": "የቆዳ ማጠፍ መለኪያዎች"
+    },
+    {
+        "id": "fitness-assessment-method-3",
+        "am": "የባዮኤሌክትሪክ እክል ትንተና"
+    },
+    {
+        "id": "fitness-balance-coordination-title",
+        "am": "6. ሚዛን እና ማስተባበር"
+    },
+    {
+        "id": "fitness-balance-coordination-description",
+        "am": "የቆመም ሆነ የምትንቀሳቀስ የሰውነትህን እንቅስቃሴ የመቆጣጠር እና ቀና ብሎ የመቆየት ችሎታ።"
+    },
+    {
+        "id": "fitness-balance-importance-1",
+        "am": "የውድቀት መከላከያ፡ ለደህንነት በጣም አስፈላጊ ነው፣ በተለይም በዕድሜ የገፉ ሰዎች።"
+    },
+    {
+        "id": "fitness-balance-importance-2",
+        "am": "ቀልጣፋ እንቅስቃሴ፡ በስፖርት እና በዕለት ተዕለት እንቅስቃሴዎች አፈጻጸምን ያሳድጋል።"
+    },
+    {
+        "id": "fitness-balance-importance-3",
+        "am": "Proprioception: የሰውነት ግንዛቤን እና ቁጥጥርን ያሻሽላል."
+    },
+    {
+        "id": "fitness-balance-example-1",
+        "am": "የአካል ብቃት እንቅስቃሴ (በአንድ እግር መቆም)"
+    },
+    {
+        "id": "fitness-balance-example-2",
+        "am": "ታይ ቺ"
+    },
+    {
+        "id": "fitness-balance-example-3",
+        "am": "የማስተባበር ልምምዶች (የአቅጣጫ መሰላል)"
+    },
+    {
+        "id": "fitness-mental-emotional-health-title",
+        "am": "7. የአእምሮ እና ስሜታዊ ጤና"
+    },
+    {
+        "id": "fitness-mental-emotional-description",
+        "am": "የተለመዱ ጭንቀቶችን የሚቋቋሙበት፣ በምርታማነት የሚሰሩበት እና ለማህበረሰብዎ አስተዋፅዖ የሚያደርጉበት የደህንነት ሁኔታ።"
+    },
+    {
+        "id": "fitness-mental-importance-1",
+        "am": "ውጥረትን መቆጣጠር፡- የህይወት ፈተናዎችን በተሻለ ሁኔታ ማስተናገድ እና ጭንቀትን ይቀንሳል።"
+    },
+    {
+        "id": "fitness-mental-importance-2",
+        "am": "አወንታዊ ግንኙነቶች፡ ማህበራዊ ግንኙነቶችን እና የድጋፍ ስርዓቶችን ያሻሽላል።"
+    },
+    {
+        "id": "fitness-mental-importance-3",
+        "am": "አጠቃላይ ደስታ፡ ለህይወት እርካታ እና እርካታ አስተዋፅዖ ያደርጋል።"
+    },
+    {
+        "id": "fitness-improvement-methods-title",
+        "am": "የማሻሻያ መንገዶች"
+    },
+    {
+        "id": "fitness-mental-improvement-1",
+        "am": "ንቃተ-ህሊና እና ማሰላሰል"
+    },
+    {
+        "id": "fitness-mental-improvement-2",
+        "am": "ምክር ወይም ሕክምና"
+    },
+    {
+        "id": "fitness-mental-improvement-3",
+        "am": "ማህበራዊ እንቅስቃሴዎች እና የትርፍ ጊዜ ማሳለፊያዎች"
+    },
+    {
+        "id": "fitness-interconnected-title",
+        "am": "የአካል ብቃት ክፍሎች እርስ በርስ ግንኙነት"
+    },
+    {
+        "id": "fitness-interconnected-description",
+        "am": "እያንዳንዱ የአካል ብቃት ክፍል እርስ በርስ የተገናኘ ነው, ይህም ማለት በአንድ አካባቢ መሻሻሎች በሌሎች ላይ አዎንታዊ ተጽእኖ ይኖራቸዋል."
+    },
+    {
+        "id": "fitness-interconnected-example-1",
+        "am": "የካርዲዮቫስኩላር ጽናት እና የጡንቻ ጽናት፡ የተሻሻለ የልብ እና የሳንባ ተግባር ረዘም ላለ ጊዜ የጡንቻ እንቅስቃሴን ይደግፋል።"
+    },
+    {
+        "id": "fitness-interconnected-example-2",
+        "am": "የጡንቻ ጥንካሬ እና ተለዋዋጭነት: ጠንካራ, ተለዋዋጭ ጡንቻዎች በተሻለ ሁኔታ የሚሰሩ እና ለጉዳት የተጋለጡ አይደሉም."
+    },
+    {
+        "id": "fitness-interconnected-example-3",
+        "am": "ከአእምሮ ጤና ጋር ማመጣጠን እና ማስተባበር፡ ሚዛኑን የሚያሻሽሉ አካላዊ እንቅስቃሴዎች በራስ መተማመንን እና አእምሮአዊ ደህንነትን ይጨምራሉ።"
+    },
+    {
+        "id": "fitness-interconnected-content",
+        "am": "እነዚህን ግንኙነቶች መረዳት በአንድ ጊዜ በርካታ አካባቢዎችን የሚመለከት ሁሉን አቀፍ የአካል ብቃት ፕሮግራም ለመንደፍ ይረዳል።"
+    },
+    {
+        "id": "fitness-program-title",
+        "am": "ሚዛናዊ የአካል ብቃት ፕሮግራም መፍጠር"
+    },
+    {
+        "id": "fitness-program-description",
+        "am": "የአካል ብቃት መርሃ ግብር ማዘጋጀት ሁሉም አካላት መፍትሄ እንዲያገኙ በጥንቃቄ ማቀድን ያካትታል."
+    },
+    {
+        "id": "fitness-assessment-title",
+        "am": "1. አሁን ያለዎትን የአካል ብቃት ደረጃ መገምገም"
+    },
+    {
+        "id": "fitness-health-check",
+        "am": "የጤና ፍተሻ፡ ከመጀመርዎ በፊት የጤና እንክብካቤ አቅራቢን ያማክሩ፣ በተለይም አሁን ያሉ የጤና ችግሮች ካሉዎት።"
+    },
+    {
+        "id": "fitness-testing",
+        "am": "የአካል ብቃት ሙከራ፡ እንደ ምን ያህል ጊዜ መራመድ እንደሚችሉ ወይም የአካል ብቃት እንቅስቃሴን ምን ያህል ድግግሞሾችን ማከናወን እንደሚችሉ መለካት ያሉ ቀላል ግምገማዎች።"
+    },
+    {
+        "id": "fitness-smart-goals-title",
+        "am": "2. SMART ግቦችን ማዘጋጀት"
+    },
+    {
+        "id": "fitness-smart-specific",
+        "am": "ልዩ፡ ምን ማግኘት እንደሚፈልጉ በግልፅ ይግለጹ።"
+    },
+    {
+        "id": "fitness-smart-measurable",
+        "am": "ሊለካ የሚችል፡ ግስጋሴን ለመከታተል ግቦቻችሁን ይቁጠሩ።"
+    },
+    {
+        "id": "fitness-smart-achievable",
+        "am": "ሊደረስበት የሚችል፡ በችሎታዎ ውስጥ ተጨባጭ ግቦችን ያዘጋጁ።"
+    },
+    {
+        "id": "fitness-smart-relevant",
+        "am": "አግባብነት ያለው፡ ግቦች ከፍላጎቶችዎ እና ፍላጎቶችዎ ጋር የሚጣጣሙ መሆናቸውን ያረጋግጡ።"
+    },
+    {
+        "id": "fitness-smart-timebound",
+        "am": "በጊዜ የተገደበ፡ ተነሳሽ ለመሆን ቀነ ገደብ አዘጋጅ።"
+    },
+    {
+        "id": "fitness-exercise-types-title",
+        "am": "3. የተለያዩ አይነት የአካል ብቃት እንቅስቃሴዎችን ማካተት"
+    },
+    {
+        "id": "fitness-cardio-activities",
+        "am": "የካርዲዮቫስኩላር እንቅስቃሴዎች፡ ቢያንስ ለ150 ደቂቃዎች መጠነኛ-ጥንካሬ ወይም 75 ደቂቃ የጠንካራ-ጠንካራ ኤሮቢክ እንቅስቃሴን በሳምንት ያድርጉ።"
+    },
+    {
+        "id": "fitness-strength-activities",
+        "am": "የጥንካሬ ስልጠና፡ ሁሉንም ዋና ዋና የጡንቻ ቡድኖች ቢያንስ በሳምንት ሁለት ቀን ያነጣጠሩ ልምምዶችን ያካትቱ።"
+    },
+    {
+        "id": "fitness-flexibility-activities",
+        "am": "ተለዋዋጭነት መልመጃዎች፡ በሳምንት ውስጥ ብዙ ጊዜ መወጠርን ወይም ዮጋን አካትት።"
+    },
+    {
+        "id": "fitness-balance-activities",
+        "am": "ሚዛን እና ማስተባበር፡ ሚዛንዎን የሚፈታተኑ እንቅስቃሴዎችን በመደበኛነት ይለማመዱ።"
+    },
+    {
+        "id": "fitness-progress-monitoring-title",
+        "am": "4. የክትትል ሂደት"
+    },
+    {
+        "id": "fitness-monitoring-journal",
+        "am": "ጆርናል አቆይ፡ ስፖርታዊ እንቅስቃሴዎችን ፣ የተሰማህን ስሜት እና ማንኛቸውም ለውጦች ታይተዋል።"
+    },
+    {
+        "id": "fitness-monitoring-assessment",
+        "am": "መደበኛ ግምገማዎች፡ የአካል ብቃት ደረጃዎን በየጊዜው ይገምግሙ።"
+    },
+    {
+        "id": "fitness-monitoring-adjust",
+        "am": "ግቦችን ያስተካክሉ፡ በሂደት ላይ በመመስረት ፕሮግራምዎን እንደ አስፈላጊነቱ ያሻሽሉ።"
+    },
+    {
+        "id": "fitness-conclusion-title",
+        "am": "መደምደሚያ"
+    },
+    {
+        "id": "fitness-conclusion-content-1",
+        "am": "የአካል ብቃትን ማሳካት የተለያዩ የጤናዎን ገፅታዎች መረዳት እና መንከባከብን የሚያካትት ጉዞ ነው። በዋና ዋናዎቹ ክፍሎች ላይ በማተኮር \"የልብና የደም ቧንቧ ጽናት, የጡንቻ ጥንካሬ, የጡንቻ ጽናት, ተለዋዋጭነት, የሰውነት ስብጥር, ሚዛን, ቅንጅት እና የአዕምሮ ጤና\" ለጤናማ እና አርኪ ህይወት ጠንካራ መሰረት ይጥላሉ."
+    },
+    {
+        "id": "fitness-conclusion-content-2",
+        "am": "ያስታውሱ፣ ለእርስዎ ምቹ በሆነ ደረጃ መጀመር እና የእንቅስቃሴዎን ጥንካሬ እና ውስብስብነት ቀስ በቀስ መጨመር አስፈላጊ ነው። ወጥነት ቁልፍ ነው፣ እና በመንገዶ ላይ ትናንሽ ድሎችን ማክበር እርስዎን ማበረታታት ይችላል።"
+    }
+]

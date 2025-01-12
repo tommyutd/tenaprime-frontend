@@ -1,1003 +1,1266 @@
 {
-  "marching-in-place": {
-    "name": "marching-in-place",
-    "description": "marching-in-place-description",
-    "target": ["cardiovascular-system", "legs"],
-    "image": "https://i.pinimg.com/originals/f9/52/6a/f9526a943772f04f69cda6bcdb5b1d00.gif",
-    "equipment": false
-  },
-  "arm-circles": {
-    "name": "arm-circles",
-    "description": "arm-circles-description",
-    "target": ["shoulders", "arms"],
-    "image": "https://i.pinimg.com/originals/8e/6a/ef/8e6aef4e247dcfa16ca4416122b9f5d0.gif",
-    "equipment": false
-  },
-  "hip-circles": {
-    "name": "hip-circles",
-    "description": "hip-circles-description",
-    "target": ["hips", "core"],
-    "image": "https://i.pinimg.com/originals/12/31/e2/1231e24fc3d7944e38b180c51067689d.gif",
-    "equipment": false
-  },
-  "squat-jacks": {
-    "name": "squat-jacks",
-    "description": "squat-jacks-description",
-    "target": ["quadriceps", "glutes", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/39/9b/a2/399ba209e9e93331e9ff62371b5de6fa.gif",
-    "equipment": false
-  },
-  "high-kicks": {
-    "name": "high-kicks",
-    "description": "high-kicks-description",
-    "target": ["hamstrings", "hips", "core"],
-    "image": "https://i.pinimg.com/originals/2d/26/48/2d2648a754d2af933ab70ffbd2ed35a8.gif",
-    "equipment": false
-  },
-  "side-to-side-squats": {
-    "name": "side-to-side-squats",
-    "description": "side-to-side-squats-description",
-    "target": ["quadriceps", "glutes"],
-    "image": "https://i.pinimg.com/originals/22/74/3f/22743ff712dd05f8c3c2bff3de183806.gif",
-    "equipment": false
-  },
-  "jumping-jacks": {
-    "name": "jumping-jacks",
-    "description": "jumping-jacks-description",
-    "target": ["cardiovascular-system", "full-body"],
-    "image": "https://www.spotebi.com/wp-content/uploads/2014/10/jumping-jacks-exercise-illustration.gif",
-    "equipment": false
-  },
-  "arm-swings": {
-    "name": "arm-swings",
-    "description": "arm-swings-description",
-    "target": ["shoulders", "arms", "upper-back"],
-    "image": "https://www.spotebi.com/wp-content/uploads/2016/06/arm-swings-exercise-illustration-spotebi.gif",
-    "equipment": false
-  },
-  "high-knees": {
-    "name": "high-knees",
-    "description": "high-knees-description",
-    "target": ["hips", "quadriceps", "cardiovascular-system"],
-    "image": "https://www.spotebi.com/wp-content/uploads/2014/10/high-knees-exercise-illustration.gif",
-    "equipment": false
-  },
-  "fingertip-to-toe-jacks": {
-    "name": "fingertip-to-toe-jacks",
-    "description": "fingertip-to-toe-jacks-description",
-    "target": ["hamstrings", "lower-back", "shoulders"],
-    "image": "https://i.pinimg.com/originals/e7/0a/3b/e70a3b797ee20f38a523803000e71247.gif",
-    "equipment": false
-  },
-  "bird-dog": {
-    "name": "bird-dog",
-    "description": "bird-dog-description",
-    "target": ["core", "lower-back", "shoulders"],
-    "image": "https://i.pinimg.com/originals/17/e6/42/17e642120d1470540aed8bb765d10727.gif",
-    "equipment": false
-  },
-  "stutter-steps": {
-    "name": "stutter-steps",
-    "description": "stutter-steps-description",
-    "target": ["calves", "quadriceps", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/87/23/12/872312f37bdbb2863ba7aaf993b6eccd.gif",
-    "equipment": false
-  },
-  "forward-fold": {
-    "name": "forward-fold",
-    "description": "forward-fold-description",
-    "target": ["hamstrings", "lower-back"],
-    "image": "https://i.pinimg.com/originals/d9/4f/1b/d94f1b26b3fc12313f2e8731386b1b9b.gif",
-    "equipment": false
-  },
-  "quad-stretch": {
-    "name": "quad-stretch",
-    "description": "quad-stretch-description",
-    "target": ["quadriceps", "hips"],
-    "image": "https://www.spotebi.com/wp-content/uploads/2015/03/quad-stretch-exercise-illustration.gif",
-    "equipment": false
-  },
-  "tricep-stretch": {
-    "name": "tricep-stretch",
-    "description": "tricep-stretch-description",
-    "target": ["triceps", "shoulders"],
-    "image": "https://www.spotebi.com/wp-content/uploads/2014/10/triceps-stretch-exercise-illustration.gif",
-    "equipment": false
-  },
-  "upper-back-stretch": {
-    "name": "upper-back-stretch",
-    "description": "upper-back-stretch-description",
-    "target": ["upper-back", "shoulders"],
-    "image": "https://www.spotebi.com/wp-content/uploads/2014/11/upper-back-stretch-exercise-illustration.gif",
-    "equipment": false
-  },
-  "calf-stretch": {
-    "name": "calf-stretch",
-    "description": "calf-stretch-description",
-    "target": ["calves"],
-    "image": "https://i.pinimg.com/originals/3b/09/9c/3b099c3761a50c56bb8aa11bee2aee3d.gif",
-    "equipment": false
-  },
-  "back-stretch": {
-    "name": "back-stretch",
-    "description": "back-stretch-description",
-    "target": ["lower-back", "middle-back", "upper-back"],
-    "image": "https://www.spotebi.com/wp-content/uploads/2014/10/cat-back-stretch-exercise-illustration.gif",
-    "equipment": false
-  },
-  "neck-stretch": {
-    "name": "neck-stretch",
-    "description": "neck-stretch-description",
-    "target": ["neck", "traps"],
-    "image": "https://www.spotebi.com/wp-content/uploads/2014/10/neck-stretch-exercise-illustration.gif",
-    "equipment": false
-  },
-  "squats": {
-    "name": "squats",
-    "description": "squats-description",
-    "target": ["quadriceps", "glutes", "hamstrings", "core"],
-    "image": "https://i.pinimg.com/originals/ef/cd/a2/efcda277f70d100af161c355c282ea4b.gif",
-    "equipment": false
-  },
-  "bench-press": {
-    "name": "bench-press",
-    "description": "bench-press-description",
-    "target": ["chest", "triceps", "shoulders"],
-    "image": "https://i.pinimg.com/originals/8e/34/bb/8e34bb41d30ceb2f65aa7873a87a4371.gif",
-    "equipment": true
-  },
-  "bent-over-rows": {
-    "name": "bent-over-rows",
-    "description": "bent-over-rows-description",
-    "target": ["back", "biceps", "core"],
-    "image": "https://i.pinimg.com/originals/43/1e/2a/431e2afebe825b64be8c524d95cf8802.gif",
-    "equipment": true
-  },
-  "overhead-press": {
-    "name": "overhead-press",
-    "description": "overhead-press-description",
-    "target": ["shoulders", "triceps", "back"],
-    "image": "https://i.pinimg.com/originals/b8/07/7a/b8077adb1e89c4069c758e571ee722c3.gif",
-    "equipment": true
-  },
-  "deadlifts": {
-    "name": "deadlifts",
-    "description": "deadlifts-description",
-    "target": ["back", "hamstrings", "glutes", "core"],
-    "image": "https://i.pinimg.com/originals/35/0e/09/350e09bb1bcbdb1ba4115d4b1a68c4e2.gif",
-    "equipment": true
-  },
-  "lat-pulldown": {
-    "name": "lat-pulldown",
-    "description": "lat-pulldown-description",
-    "target": ["back", "biceps", "shoulders"],
-    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif",
-    "equipment": true
-  },
-  "lunges": {
-    "name": "lunges",
-    "description": "lunges-description",
-    "target": ["quadriceps", "glutes", "hamstrings"],
-    "image": "https://i.pinimg.com/originals/94/b9/fb/94b9fbf1689b8e3b12735a8ce5a8e144.gif",
-    "equipment": false
-  },
-  "dumbbell-curl": {
-    "name": "dumbbell-curl",
-    "description": "dumbbell-curl-description",
-    "target": ["biceps", "forearms"],
-    "image": "https://i.pinimg.com/originals/85/c5/2a/85c52aede8d5bd99858c6ca83b89082f.gif",
-    "equipment": true
-  },
-  "plank": {
-    "name": "plank",
-    "description": "plank-description",
-    "target": ["core", "shoulders", "back"],
-    "image": "https://i.pinimg.com/736x/72/95/77/729577e02db621667c32c62b9f5797b8.jpg",
-    "equipment": false
-  },
-  "leg-press": {
-    "name": "leg-press",
-    "description": "leg-press-description",
-    "target": ["quadriceps", "glutes", "hamstrings"],
-    "image": "https://i.pinimg.com/originals/60/fb/4a/60fb4a02b481d7a1b71fbb1795d6109b.gif",
-    "equipment": true
-  },
-  "dumbbell-flys": {
-    "name": "dumbbell-flys",
-    "description": "dumbbell-flys-description",
-    "target": ["chest", "shoulders"],
-    "image": "https://i.pinimg.com/originals/4d/13/21/4d1321aa03219119063ffec7617deef4.gif",
-    "equipment": true
-  },
-  "seated-cable-rows": {
-    "name": "seated-cable-rows",
-    "description": "seated-cable-rows-description",
-    "target": ["back", "biceps", "core"],
-    "image": "https://burnfit.io/wp-content/uploads/2023/11/SEATED_CABLE_ROW.gif",
-    "equipment": true
-  },
-  "triceps-pushdown": {
-    "name": "triceps-pushdown",
-    "description": "triceps-pushdown-description",
-    "target": ["triceps"],
-    "image": "https://i.pinimg.com/originals/72/6a/6a/726a6ae9a2c9b83340f27ebcb0d5fc1d.gif",
-    "equipment": true
-  },
-  "russian-twists": {
-    "name": "russian-twists",
-    "description": "russian-twists-description",
-    "target": ["core", "obliques"],
-    "image": "https://i.pinimg.com/originals/fd/21/67/fd216722627b23cef752623a57cf406b.gif",
-    "equipment": false
-  },
-  "triceps-dips": {
-    "name": "triceps-dips",
-    "description": "triceps-dips-description",
-    "target": ["triceps", "shoulders"],
-    "image": "https://i.pinimg.com/originals/40/8a/29/408a29849ef328ac26eaec7d972874e7.gif",
-    "equipment": true
-  },
-  "leg-curl": {
-    "name": "leg-curl",
-    "description": "leg-curl-description",
-    "target": ["quadriceps", "glutes", "hamstrings"],
-    "image": "https://i.pinimg.com/originals/4d/58/19/4d581995094c4cff1343dfe609118219.gif",
-    "equipment": true
-  },
-  "leg-extension": {
-    "name": "leg-extension",
-    "description": "leg-extension-description",
-    "target": ["quadriceps", "glutes", "hamstrings"],
-    "image": "https://i.pinimg.com/originals/44/34/b1/4434b1ac4cdc440fc63a258f075db8fd.gif",
-    "equipment": true
-  },
-  "standing-calf-raises": {
-    "name": "standing-calf-raises",
-    "description": "standing-calf-raises-description",
-    "target": ["calves", "glutes", "hamstrings"],
-    "image": "https://i.pinimg.com/originals/91/1f/b1/911fb167ad907dc16a293a59cb2d95db.gif",
-    "equipment": true
-  },
-  "glutes-bridge": {
-    "name": "glutes-bridge",
-    "description": "glutes-bridge-description",
-    "target": ["glutes", "hamstrings", "core"],
-    "image": "https://i.pinimg.com/originals/81/06/d4/8106d4d5f00a226f368bf0c4d201ab50.gif",
-    "equipment": false
-  },
-  "incline-dumbbell-press": {
-    "name": "incline-dumbbell-press",
-    "description": "incline-dumbbell-press-description",
-    "target": ["chest", "shoulders", "triceps"],
-    "image": "https://i.pinimg.com/originals/be/94/3f/be943f55c4a35f5599824db11168d686.gif",
-    "equipment": true
-  },
-  "lateral-raises": {
-    "name": "lateral-raises",
-    "description": "lateral-raises-description",
-    "target": ["shoulders"],
-    "image": "https://i.pinimg.com/originals/b7/0e/d9/b70ed992020435b936764c7920c03e0b.gif",
-    "equipment": true
-  },
-  "hammer-curls": {
-    "name": "hammer-curls",
-    "description": "hammer-curls-description",
-    "target": ["biceps"],
-    "image": "https://i.pinimg.com/originals/68/74/d3/6874d3d3bdcb3c885e3f52b385959f4a.gif",
-    "equipment": true
-  },
-  "seated-calf-raises": {
-    "name": "seated-calf-raises",
-    "description": "seated-calf-raises-description",
-    "target": ["calves"],
-    "image": "https://i.pinimg.com/originals/3e/f4/e3/3ef4e3f40a9b12a32a2f111b2dab27ad.gif",
-    "equipment": true
-  },
-  "ab-wheel-rollout": {
-    "name": "ab-wheel-rollout",
-    "description": "ab-wheel-rollout-description",
-    "target": ["core"],
-    "image": "https://i.pinimg.com/originals/81/c6/ac/81c6ac9bf4e3de344451a42286cb89be.gif",
-    "equipment": true
-  },
-  "overhead-triceps-extension": {
-    "name": "overhead-triceps-extension",
-    "description": "overhead-triceps-extension-description",
-    "target": ["triceps", "shoulders"],
-    "image": "https://i.pinimg.com/originals/2c/62/ba/2c62ba80d37c94d06ad6d60f1e5445df.gif",
-    "equipment": true
-  },
-  "preacher-curl": {
-    "name": "preacher-curl",
-    "description": "preacher-curl-description",
-    "target": ["biceps"],
-    "image": "https://i.pinimg.com/originals/b4/62/7f/b4627ff5e274bda7c854aef8b9d5998d.gif",
-    "equipment": true
-  },
-  "front-raises": {
-    "name": "front-raises",
-    "description": "front-raises-description",
-    "target": ["shoulders"],
-    "image": "https://i.pinimg.com/originals/a0/8e/fe/a08efe01b391549e1a0ec8f70d390d28.gif",
-    "equipment": true
-  },
-  "shrugs": {
-    "name": "shrugs",
-    "description": "shrugs-description",
-    "target": ["traps", "shoulders"],
-    "image": "https://i.pinimg.com/originals/fe/a5/af/fea5af88cca2ae9f4b1a940b106cbdcf.gif",
-    "equipment": true
-  },
-  "pushups": {
-    "name": "pushups",
-    "description": "pushups-description",
-    "target": ["chest", "shoulders", "triceps", "core"],
-    "image": "https://i.pinimg.com/originals/1e/ad/ad/1eadad644c80735ffc1cd62f07d216dc.gif",
-    "equipment": false
-  },
-  "bicycle-crunches": {
-    "name": "bicycle-crunches",
-    "description": "bicycle-crunches-description",
-    "target": ["core"],
-    "image": "https://i.pinimg.com/originals/a5/bf/93/a5bf93f163bdbe8035b050bfb40f342b.gif",
-    "equipment": false
-  },
-  "leg-raises": {
-    "name": "leg-raises",
-    "description": "leg-raises-description",
-    "target": ["core", "obliques"],
-    "image": "https://i.pinimg.com/originals/0f/a7/46/0fa74623d5be37c74b11fec1e8f04db4.gif",
-    "equipment": false
-  },
-  "mountain-climbers": {
-    "name": "mountain-climbers",
-    "description": "mountain-climbers-description",
-    "target": ["core", "shoulders", "triceps"],
-    "image": "https://i.pinimg.com/originals/fb/fa/09/fbfa0902f381a5735972c21255935aff.gif",
-    "equipment": false
-  },
-  "mountain-walkers": {
-    "name": "mountain-walkers",
-    "description": "mountain-walkers-description",
-    "target": ["core", "shoulders", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/48/ab/04/48ab04dcfc4269b59c363e7ce53a3c7f.gif",
-    "equipment": false
-  },
-  "crunches": {
-    "name": "crunches",
-    "description": "crunches-description",
-    "target": ["core", "upper-abs"],
-    "image": "https://i.pinimg.com/originals/02/5a/7d/025a7d5cc4d5c4c7c85165a3593ce919.gif",
-    "equipment": false
-  },
-  "v-ups": {
-    "name": "v-ups",
-    "description": "v-ups-description",
-    "target": ["core", "lower-abs", "hips"],
-    "image": "https://i.pinimg.com/originals/ac/19/e5/ac19e583821462224bc5d44cdd4afe8b.gif",
-    "equipment": false
-  },
-  "leg-pull-knee-ups": {
-    "name": "leg-pull-knee-ups",
-    "description": "leg-pull-knee-ups-description",
-    "target": ["core", "hips"],
-    "image": "https://i.pinimg.com/originals/c5/03/51/c5035150a8f7b09912e33a17c01f3086.gif",
-    "equipment": false
-  },
-  "l-sit": {
-    "name": "l-sit",
-    "description": "l-sit-description",
-    "target": ["core", "hips", "quadriceps"],
-    "image": "https://i.pinimg.com/originals/35/f5/a3/35f5a309543b39dda04dc9fa879c8a26.gif",
-    "equipment": false
-  },
-  "kneeling-back-rotation": {
-    "name": "kneeling-back-rotation",
-    "description": "kneeling-back-rotation-description",
-    "target": ["core", "obliques", "lower-back"],
-    "image": "https://i.pinimg.com/originals/a6/30/88/a63088453bd47dbf6201c25c16bcc403.gif",
-    "equipment": false
-  },
-  "side-plank-hip-raise": {
-    "name": "side-plank-hip-raise",
-    "description": "side-plank-hip-raise-description",
-    "target": ["core", "obliques", "hips"],
-    "image": "https://i.pinimg.com/originals/24/08/6c/24086c4039855257c6810df6f8e40539.gif",
-    "equipment": false
-  },
-  "side-plank": {
-    "name": "side-plank",
-    "description": "side-plank-description",
-    "target": ["core", "obliques"],
-    "image": "https://i.pinimg.com/736x/f9/0a/9e/f90a9ec4861dfccc3b27d54c081d5e29.jpg",
-    "equipment": false
-  },
-  "cross-crunches": {
-    "name": "cross-crunches",
-    "description": "cross-crunches-description",
-    "target": ["core", "obliques", "upper-abs"],
-    "image": "https://i.pinimg.com/originals/34/5c/d9/345cd9414e1e743debd278eaddf33473.gif",
-    "equipment": false
-  },
-  "reverse-crunches": {
-    "name": "reverse-crunches",
-    "description": "reverse-crunches-description",
-    "target": ["core", "lower-abs"],
-    "image": "https://i.pinimg.com/originals/47/88/ba/4788ba8159595dd2bc81ac5ffa1a9d84.gif",
-    "equipment": false
-  },
-  "crab-twist-toe-touch": {
-    "name": "crab-twist-toe-touch",
-    "description": "crab-twist-toe-touch-description",
-    "target": ["core", "obliques", "shoulders"],
-    "image": "https://i.pinimg.com/originals/72/c6/73/72c6738f9a25e750933a45fde690cd87.gif",
-    "equipment": false
-  },
-  "hanging-knee-raises": {
-    "name": "hanging-knee-raises",
-    "description": "hanging-knee-raises-description",
-    "target": ["core", "hips", "lower-abs"],
-    "image": "https://i.pinimg.com/originals/21/86/e7/2186e7a33fda75a9ff3f1f2a8eef435a.gif",
-    "equipment": false
-  },
-  "inclined-pushup": {
-    "name": "inclined-pushup",
-    "description": "inclined-pushup-description",
-    "target": ["chest", "shoulders", "triceps"],
-    "image": "https://i.pinimg.com/originals/aa/a2/73/aaa27319a7270ecfc134c02169862618.gif",
-    "equipment": false
-  },
-  "kneeled-diamond-pushups": {
-    "name": "kneeled-diamond-pushups",
-    "description": "kneeled-diamond-pushups-description",
-    "target": ["chest", "triceps", "shoulders"],
-    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/04/Knee-Push-Up.gif",
-    "equipment": false
-  },
-  "extended-arm-circles": {
-    "name": "extended-arm-circles",
-    "description": "extended-arm-circles-description",
-    "target": ["shoulders", "upper-back", "arms"],
-    "image": "https://i.pinimg.com/originals/51/ae/a1/51aea1df721b5434b30d8ceb618446be.gif",
-    "equipment": false
-  },
-  "bridge-kicker": {
-    "name": "bridge-kicker",
-    "description": "bridge-kicker-description",
-    "target": ["triceps", "shoulders", "core"],
-    "image": "https://i.pinimg.com/originals/81/06/d4/8106d4d5f00a226f368bf0c4d201ab50.gif",
-    "equipment": false
-  },
-  "triceps-pushup": {
-    "name": "triceps-pushup",
-    "description": "triceps-pushup-description",
-    "target": ["triceps", "chest", "shoulders"],
-    "image": "https://i.pinimg.com/originals/f9/1e/25/f91e252ccec48090bf58266cc20b0742.gif",
-    "equipment": false
-  },
-  "burpees": {
-    "name": "burpees",
-    "description": "burpees-description",
-    "target": ["full-body", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/d8/81/43/d881439ebaa938ba364d7113d8ca5c99.gif",
-    "equipment": false
-  },
-  "bear-crawl": {
-    "name": "bear-crawl",
-    "description": "bear-crawl-description",
-    "target": ["shoulders", "core", "arms"],
-    "image": "https://i.pinimg.com/originals/d7/0d/10/d70d10899b1f3379d7cb870fd706e1b1.gif",
-    "equipment": false
-  },
-  "kneeled-wide-pushups": {
-    "name": "kneeled-wide-pushups",
-    "description": "kneeled-wide-pushups-description",
-    "target": ["chest", "shoulders", "triceps"],
-    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2023/04/knee-push-ups.gif",
-    "equipment": false
-  },
-  "punches": {
-    "name": "punches",
-    "description": "punches-description",
-    "target": ["shoulders", "arms", "core"],
-    "image": "https://i.pinimg.com/originals/88/b7/f6/88b7f63b17e603da3cbfb036b2400df2.gif",
-    "equipment": false
-  },
-  "hand-to-toe": {
-    "name": "hand-to-toe",
-    "description": "hand-to-toe-description",
-    "target": ["hamstrings", "lower-back", "shoulders"],
-    "image": "https://i.pinimg.com/originals/68/4d/33/684d3368aa03537c8fb49db06f7d70a4.gif",
-    "equipment": false
-  },
-  "sumo-squat": {
-    "name": "sumo-squat",
-    "description": "sumo-squat-description",
-    "target": ["quadriceps", "glutes", "hamstrings"],
-    "image": "https://i.pinimg.com/originals/92/d6/cc/92d6ccdee9823717136cd52505d8b2ed.gif",
-    "equipment": false
-  },
-  "plie-squat-scoop-up": {
-    "name": "plie-squat-scoop-up",
-    "description": "plie-squat-scoop-up-description",
-    "target": ["quadriceps", "glutes", "shoulders", "core"],
-    "image": "https://i.pinimg.com/originals/73/93/eb/7393eb72c65472e46c213e2b99c10992.gif",
-    "equipment": false
-  },
-  "side-lunge-front-raise": {
-    "name": "side-lunge-front-raise",
-    "description": "side-lunge-front-raise-description",
-    "target": ["quadriceps", "glutes", "shoulders", "core"],
-    "image": "https://i.pinimg.com/originals/48/d3/18/48d318b6fd069adf7fd5ad23bf3206f6.gif",
-    "equipment": false
-  },
-  "deadlift-upright-row": {
-    "name": "deadlift-upright-row",
-    "description": "deadlift-upright-row-description",
-    "target": ["back", "shoulders", "hamstrings", "glutes"],
-    "image": "https://i.pinimg.com/originals/c4/15/13/c41513afb3abb500d59dfae4a5ebbf33.gif",
-    "equipment": false
-  },
-  "sumo-side-bends": {
-    "name": "sumo-side-bends",
-    "description": "sumo-side-bends-description",
-    "target": ["obliques", "core", "hips"],
-    "image": "https://i.pinimg.com/originals/10/4c/5f/104c5f7ea76d834b4a7c730de66cb580.gif",
-    "equipment": false
-  },
-  "lunge-punch": {
-    "name": "lunge-punch",
-    "description": "lunge-punch-description",
-    "target": ["quadriceps", "glutes", "shoulders", "core"],
-    "image": "https://i.pinimg.com/originals/49/e2/47/49e247d529e46aee55ffb5b3b28eacac.gif",
-    "equipment": false
-  },
-  "split-squat-press": {
-    "name": "split-squat-press",
-    "description": "split-squat-press-description",
-    "target": ["quadriceps", "glutes", "shoulders", "core"],
-    "image": "https://i.pinimg.com/originals/d0/54/1b/d0541bb653319a56a5d876e3eabb319a.gif",
-    "equipment": false
-  },
-  "plank-bird-dog": {
-    "name": "plank-bird-dog",
-    "description": "plank-bird-dog-description",
-    "target": ["core", "shoulders", "back"],
-    "image": "https://i.pinimg.com/originals/91/e1/bc/91e1bc972552801178bb0dda55422f2c.gif",
-    "equipment": false
-  },
-  "curtsy-lunge-side-kick-raise": {
-    "name": "curtsy-lunge-side-kick-raise",
-    "description": "curtsy-lunge-side-kick-raise-description",
-    "target": ["glutes", "quadriceps", "hips"],
-    "image": "https://i.pinimg.com/originals/75/90/9d/75909d3c7bc61a35eef41f129edae1b3.gif",
-    "equipment": false
-  },
-  "single-leg-squat-kickback": {
-    "name": "single-leg-squat-kickback",
-    "description": "single-leg-squat-kickback-description",
-    "target": ["glutes", "quadriceps", "hamstrings", "core"],
-    "image": "https://i.pinimg.com/originals/40/cd/50/40cd502ba0ec62b239d439f6d2aa5b35.gif",
-    "equipment": false
-  },
-  "gate-swings": {
-    "name": "gate-swings",
-    "description": "gate-swings-description",
-    "target": ["hips", "core", "obliques"],
-    "image": "https://i.pinimg.com/originals/43/d8/fd/43d8fdd135fe581ccc0403b6574c4be8.gif",
-    "equipment": false
-  },
-  "lunge-back-kick": {
-    "name": "lunge-back-kick",
-    "description": "lunge-back-kick-description",
-    "target": ["glutes", "quadriceps", "hamstrings"],
-    "image": "https://i.pinimg.com/originals/64/16/1b/64161b1bbd8cade3dd6c5e4beddd696c.gif",
-    "equipment": false
-  },
-  "butterfly-dips": {
-    "name": "butterfly-dips",
-    "description": "butterfly-dips-description",
-    "target": ["triceps", "chest", "shoulders"],
-    "image": "https://i.pinimg.com/originals/7f/35/f1/7f35f144f06a115aedd3e2d2163b8d69.gif",
-    "equipment": false
-  },
-  "cossack-squat": {
-    "name": "cossack-squat",
-    "description": "cossack-squat-description",
-    "target": ["quadriceps", "glutes", "hips"],
-    "image": "https://i.pinimg.com/originals/3e/7a/76/3e7a76ff9cac8b0dbbd658b18e69d029.gif",
-    "equipment": false
-  },
-  "double-pulse-squat-jump": {
-    "name": "double-pulse-squat-jump",
-    "description": "double-pulse-squat-jump-description",
-    "target": ["quadriceps", "glutes", "calves", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/b1/08/36/b1083670d171f4e6b23780847b90e518.gif",
-    "equipment": false
-  },
-  "inchworm": {
-    "name": "inchworm",
-    "description": "inchworm-description",
-    "target": ["core", "shoulders", "hamstrings"],
-    "image": "https://i.pinimg.com/originals/c8/b3/3b/c8b33ba060b1edbd7ca826e1faf6ba0f.gif",
-    "equipment": false
-  },
-  "ankle-tap-push-ups": {
-    "name": "ankle-tap-push-ups",
-    "description": "ankle-tap-push-ups-description",
-    "target": ["chest", "triceps", "core", "shoulders"],
-    "image": "https://i.pinimg.com/originals/6a/b6/c3/6ab6c3120fc3b1fc83151e26f6d49216.gif",
-    "equipment": false
-  },
-  "half-squat-jab-cross": {
-    "name": "half-squat-jab-cross",
-    "description": "half-squat-jab-cross-description",
-    "target": ["quadriceps", "shoulders", "core"],
-    "image": "https://i.pinimg.com/originals/e5/d2/ab/e5d2ab2de9b2bae882c65318b8d7cc94.gif",
-    "equipment": false
-  },
-  "speed-bag-punches": {
-    "name": "speed-bag-punches",
-    "description": "speed-bag-punches-description",
-    "target": ["shoulders", "arms", "core"],
-    "image": "https://i.pinimg.com/originals/4b/93/a4/4b93a4c5a4d4f59eb2909a8fb0e97969.gif",
-    "equipment": false
-  },
-  "big-arm-circles": {
-    "name": "big-arm-circles",
-    "description": "big-arm-circles-description",
-    "target": ["shoulders", "upper-back"],
-    "image": "https://i.pinimg.com/originals/8e/6a/ef/8e6aef4e247dcfa16ca4416122b9f5d0.gif",
-    "equipment": false
-  },
-  "balance-chop": {
-    "name": "balance-chop",
-    "description": "balance-chop-description",
-    "target": ["core", "obliques", "shoulders"],
-    "image": "https://i.pinimg.com/originals/ad/b1/8c/adb18c85e6dc0ca313505f1acd6f4c82.gif",
-    "equipment": false
-  },
-  "frog-crunches": {
-    "name": "frog-crunches",
-    "description": "frog-crunches-description",
-    "target": ["core", "hips"],
-    "image": "https://i.pinimg.com/originals/9d/72/99/9d7299717133f1e75894492776b3ac61.gif",
-    "equipment": false
-  },
-  "squat-and-jump": {
-    "name": "squat-and-jump",
-    "description": "squat-and-jump-description",
-    "target": ["quadriceps", "glutes", "calves", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/fa/ca/63/faca63e8e5082cef30381133c0d4325a.gif",
-    "equipment": false
-  },
-  "push-up-burpees": {
-    "name": "push-up-burpees",
-    "description": "push-up-burpees-description",
-    "target": ["full-body", "chest", "core", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/76/c5/d4/76c5d4bf331c7bf1a4065de10db207e1.gif",
-    "equipment": false
-  },
-  "heel-touches": {
-    "name": "heel-touches",
-    "description": "heel-touches-description",
-    "target": ["core", "obliques"],
-    "image": "https://i.pinimg.com/originals/93/64/61/9364617f29af43aaf0a8860769bae0ba.gif",
-    "equipment": false
-  },
-  "running-in-place": {
-    "name": "running-in-place",
-    "description": "running-in-place-description",
-    "target": ["cardiovascular-system", "legs"],
-    "image": "https://i.pinimg.com/originals/79/a2/d0/79a2d05c8474f9cf964ebf10db399d16.gif",
-    "equipment": false
-  },
-  "floor-hyperextension": {
-    "name": "floor-hyperextension",
-    "description": "floor-hyperextension-description",
-    "target": ["lower-back", "glutes", "hamstrings"],
-    "image": "https://i.pinimg.com/originals/f7/62/a5/f762a5c1c9d0d818c482e2829a1f9db1.gif",
-    "equipment": false
-  },
-  "elevated-crunches": {
-    "name": "elevated-crunches",
-    "description": "elevated-crunches-description",
-    "target": ["core", "upper-abs"],
-    "image": "https://i.pinimg.com/originals/af/3a/a1/af3aa1a7ce97c56350fda73829525075.gif",
-    "equipment": false
-  },
-  "chest-stretch": {
-    "name": "chest-stretch",
-    "description": "chest-stretch-description",
-    "target": ["chest", "shoulders"],
-    "image": "https://i.pinimg.com/originals/bf/c5/5d/bfc55d005508fca31efa48f3e04186a5.gif",
-    "equipment": false
-  },
-  "leg-lifts": {
-    "name": "leg-lifts",
-    "description": "leg-lifts-description",
-    "target": ["core", "hips", "lower-abs"],
-    "image": "https://i.pinimg.com/originals/a1/1b/7f/a11b7f0cdd87d69c3dffab4cbf88b94e.gif",
-    "equipment": false
-  },
-  "rear-lunges": {
-    "name": "rear-lunges",
-    "description": "rear-lunges-description",
-    "target": ["quadriceps", "glutes", "hamstrings"],
-    "image": "https://i.pinimg.com/originals/8b/4a/32/8b4a32982e54f4d5ea5e8b9c6b114303.gif",
-    "equipment": false
-  },
-  "wall-pushup": {
-    "name": "wall-pushup",
-    "description": "wall-pushup-description",
-    "target": ["chest", "shoulders", "triceps"],
-    "image": "https://i.pinimg.com/originals/42/8d/94/428d94757cafc4e8dc43ad35b862685c.gif",
-    "equipment": false
-  },
-  "high-knees-against-wall": {
-    "name": "high-knees-against-wall",
-    "description": "high-knees-against-wall-description",
-    "target": ["quadriceps", "hips", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/ee/f4/89/eef4892f2fff756eadeceafd98fa401d.gif",
-    "equipment": false
-  },
-  "knee-kick": {
-    "name": "knee-kick",
-    "description": "knee-kick-description",
-    "target": ["quadriceps", "hips", "core"],
-    "image": "https://i.pinimg.com/originals/4f/50/06/4f50063dd2dd8db16354e86d0a5dc083.gif",
-    "equipment": false
-  },
-  "toe-touches": {
-    "name": "toe-touches",
-    "description": "toe-touches-description",
-    "target": ["hamstrings", "lower-back", "core"],
-    "image": "https://i.pinimg.com/originals/79/dd/98/79dd9844813e8d94bfaf225e40dae2fb.gif",
-    "equipment": false
-  },
-  "toe-touch-squat": {
-    "name": "toe-touch-squat",
-    "description": "toe-touch-squat-description",
-    "target": ["quadriceps", "hamstrings", "glutes", "core"],
-    "image": "https://i.pinimg.com/736x/64/c4/61/64c461978d018417096cbcc21e992525.jpg",
-    "equipment": false
-  },
-  "squat-and-knee-kick": {
-    "name": "squat-and-knee-kick",
-    "description": "squat-and-knee-kick-description",
-    "target": ["quadriceps", "glutes", "core"],
-    "image": "https://i.pinimg.com/originals/22/f1/6e/22f16e07da454ec589acbf3d537ad60f.gif",
-    "equipment": false
-  },
-  "bulgarian-squat": {
-    "name": "bulgarian-squat",
-    "description": "bulgarian-squat-description",
-    "target": ["quadriceps", "glutes", "hamstrings", "core"],
-    "image": "https://i.pinimg.com/originals/9e/2b/61/9e2b61ff3eceec7672c3d9d18acb29a3.gif",
-    "equipment": false
-  },
-  "jump-squat": {
-    "name": "jump-squat",
-    "description": "jump-squat-description",
-    "target": ["quadriceps", "glutes", "calves", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/fa/ca/63/faca63e8e5082cef30381133c0d4325a.gif",
-    "equipment": false
-  },
-  "prisoners-squat": {
-    "name": "prisoners-squat",
-    "description": "prisoners-squat-description",
-    "target": ["quadriceps", "glutes", "core"],
-    "image": "https://i.pinimg.com/736x/a5/f9/02/a5f902f54903e7609f2f5b167def143f.jpg",
-    "equipment": false
-  },
-  "bulgarian-split-squat-jump": {
-    "name": "bulgarian-split-squat-jump",
-    "description": "bulgarian-split-squat-jump-description",
-    "target": ["quadriceps", "glutes", "hamstrings", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/9e/2b/61/9e2b61ff3eceec7672c3d9d18acb29a3.gif",
-    "equipment": false
-  },
-  "step-ups": {
-    "name": "step-ups",
-    "description": "step-ups-description",
-    "target": ["quadriceps", "glutes", "calves"],
-    "image": "https://i.pinimg.com/originals/1c/88/eb/1c88ebbc4c4c05f7e108a8339f6c22fd.gif",
-    "equipment": false
-  },
-  "high-knees-lift-run": {
-    "name": "high-knees-lift-run",
-    "description": "high-knees-lift-run-description",
-    "target": ["quadriceps", "hips", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/64/8f/36/648f368d096be26e3a3a41f5c0bba6b8.gif",
-    "equipment": false
-  },
-  "bench-glute-flutter-kicks": {
-    "name": "bench-glute-flutter-kicks",
-    "description": "bench-glute-flutter-kicks-description",
-    "target": ["glutes", "hamstrings", "core"],
-    "image": "https://i.pinimg.com/originals/26/6a/65/266a65d0ae63045de12ff5b77eb6acb8.gif",
-    "equipment": false
-  },
-  "jump-rope": {
-    "name": "jump-rope",
-    "description": "jump-rope-description",
-    "target": ["cardiovascular-system", "calves", "shoulders"],
-    "image": "https://i.pinimg.com/originals/65/24/58/65245884fadb500e825fd264be0b1c2f.gif",
-    "equipment": false
-  },
-  "decline-pushups": {
-    "name": "decline-pushups",
-    "description": "decline-pushups-description",
-    "target": ["chest", "shoulders", "triceps", "core"],
-    "image": "https://i.pinimg.com/originals/ed/08/2c/ed082c307a5ec6b358ad31f37400b9f6.gif",
-    "equipment": false
-  },
-  "hindu-pushups": {
-    "name": "hindu-pushups",
-    "description": "hindu-pushups-description",
-    "target": ["chest", "shoulders", "triceps", "core"],
-    "image": "https://i.pinimg.com/originals/a5/5a/2a/a55a2a425218517312392bc1fe089e5e.gif",
-    "equipment": false
-  },
-  "superman": {
-    "name": "superman",
-    "description": "superman-description",
-    "target": ["lower-back", "glutes", "core"],
-    "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Superman-exercise.gif",
-    "equipment": false
-  },
-  "side-plank-elbow-to-knee": {
-    "name": "side-plank-elbow-to-knee",
-    "description": "side-plank-elbow-to-knee-description",
-    "target": ["core", "obliques"],
-    "image": "https://i.pinimg.com/originals/90/94/24/909424da27208a3aaaa3798ed23ed3e1.gif",
-    "equipment": false
-  },
-  "diamond-pushups": {
-    "name": "diamond-pushups",
-    "description": "diamond-pushups-description",
-    "target": ["chest", "triceps", "shoulders"],
-    "image": "https://i.pinimg.com/originals/b8/6e/2b/b86e2baf2e17170f940b598d0386c475.gif",
-    "equipment": false
-  },
-  "pull-up": {
-    "name": "pull-up",
-    "description": "pull-up-description",
-    "target": ["back", "biceps", "shoulders"],
-    "image": "https://i.pinimg.com/originals/f6/40/12/f64012169c23b6be2a7f1823cac1db13.gif",
-    "equipment": true
-  },
-  "narrow-pushup": {
-    "name": "narrow-pushup",
-    "description": "narrow-pushup-description",
-    "target": ["chest", "triceps", "shoulders"],
-    "image": "https://i.pinimg.com/originals/f9/1e/25/f91e252ccec48090bf58266cc20b0742.gif",
-    "equipment": false
-  },
-  "flutter-kick-squats": {
-    "name": "flutter-kick-squats",
-    "description": "flutter-kick-squats-description",
-    "target": ["quadriceps", "glutes", "hips", "core", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/27/30/c2/2730c2da52a5f9200caa7e5d8705efde.gif",
-    "equipment": false
-  },
-  "frog-jumps": {
-    "name": "frog-jumps",
-    "description": "frog-jumps-description",
-    "target": ["quadriceps", "glutes", "calves", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/c4/b4/02/c4b402b07b5accacf413cf16ed1b36ed.gif",
-    "equipment": false
-  },
-  "wall-sit": {
-    "name": "wall-sit",
-    "description": "wall-sit-description",
-    "target": ["quadriceps", "glutes", "core"],
-    "image": "https://i.pinimg.com/736x/50/f6/dc/50f6dc459be2b411a7f2cd1eea51598e.jpg",
-    "equipment": false
-  },
-  "pistol-squat": {
-    "name": "pistol-squat",
-    "description": "pistol-squat-description",
-    "target": ["quadriceps", "glutes", "hamstrings", "core", "balance"],
-    "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/09/pistol-squat-muscles.gif",
-    "equipment": false
-  },
-  "high-knee-squat": {
-    "name": "high-knee-squat",
-    "description": "high-knee-squat-description",
-    "target": ["quadriceps", "glutes", "core", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/9a/e4/7b/9ae47b9cafd8baf076e4e662e6d24e3d.gif",
-    "equipment": false
-  },
-  "side-crunches": {
-    "name": "side-crunches",
-    "description": "side-crunches-description",
-    "target": ["core", "obliques"],
-    "image": "https://i.pinimg.com/originals/34/5c/d9/345cd9414e1e743debd278eaddf33473.gif",
-    "equipment": false
-  },
-  "knee-to-elbow": {
-    "name": "knee-to-elbow",
-    "description": "knee-to-elbow-description",
-    "target": ["core", "obliques", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/b9/81/db/b981dbd19c33f5d5a3f3b73abc7d1681.gif",
-    "equipment": false
-  },
-  "shoulder-pushups": {
-    "name": "shoulder-pushups",
-    "description": "shoulder-pushups-description",
-    "target": ["shoulders", "chest", "triceps"],
-    "image": "https://i.pinimg.com/originals/11/ec/4c/11ec4c8f57e566f85f1c97218f48f1cc.gif",
-    "equipment": false
-  },
-  "easy-side-plank": {
-    "name": "easy-side-plank",
-    "description": "easy-side-plank-description",
-    "target": ["core", "obliques"],
-    "image": "https://i.pinimg.com/736x/f9/0a/9e/f90a9ec4861dfccc3b27d54c081d5e29.jpg",
-    "equipment": false
-  },
-  "single-leg-plank": {
-    "name": "single-leg-plank",
-    "description": "single-leg-plank-description",
-    "target": ["core", "shoulders", "balance"],
-    "image": "https://i.pinimg.com/736x/22/6a/35/226a359ca3c8d7d636fa6ca77549c236.jpg",
-    "equipment": false
-  },
-  "abdominal-hip-raises": {
-    "name": "abdominal-hip-raises",
-    "description": "abdominal-hip-raises-description",
-    "target": ["core", "lower-abs", "hips"],
-    "image": "https://i.pinimg.com/originals/0f/a7/46/0fa74623d5be37c74b11fec1e8f04db4.gif",
-    "equipment": false
-  },
-  "sit-ups": {
-    "name": "sit-ups",
-    "description": "sit-ups-description",
-    "target": ["core", "upper-abs", "hip-flexors"],
-    "image": "https://i.pinimg.com/originals/87/5d/7b/875d7b8f896da03b4644566f9f64a748.gif",
-    "equipment": false
-  },
-  "alternating-crunches": {
-    "name": "alternating-crunches",
-    "description": "alternating-crunches-description",
-    "target": ["core", "obliques", "upper-abs"],
-    "image": "https://i.pinimg.com/originals/34/5c/d9/345cd9414e1e743debd278eaddf33473.gif",
-    "equipment": false
-  },
-  "oblique-crunches": {
-    "name": "oblique-crunches",
-    "description": "oblique-crunches-description",
-    "target": ["core", "obliques"],
-    "image": "https://i.pinimg.com/originals/6e/b2/55/6eb255145a108b9cbf2a8827b7cb000f.gif",
-    "equipment": false
-  },
-  "cat-cow": {
-    "name": "cat-cow",
-    "description": "cat-cow-description",
-    "target": ["core", "back", "flexibility"],
-    "image": "https://i.pinimg.com/originals/e3/64/1c/e3641cc5a4fa29b6674abe38b14a8b26.gif",
-    "equipment": false
-  },
-  "lying-lat-pulldown": {
-    "name": "lying-lat-pulldown",
-    "description": "lying-lat-pulldown-description",
-    "target": ["back", "lats", "biceps"],
-    "image": "https://i.pinimg.com/736x/18/e8/23/18e823de0c96a1003539a61ae0ec65b9.jpg",
-    "equipment": false
-  },
-  "jumping": {
-    "name": "jumping",
-    "description": "jumping-description",
-    "target": ["calves", "quadriceps", "cardiovascular-system"],
-    "image": "https://i.pinimg.com/originals/f6/d9/f7/f6d9f7eec2e62672d30de29bbf870173.gif",
-    "equipment": false
-  },
-  "rest-period": {
-    "name": "rest-period",
-    "description": "rest-period-description",
-    "target": [],
-    "image": "",
-    "equipment": false
-  }
+    "marching-in-place": {
+        "name": "marching-in-place",
+        "description": "marching-in-place-description",
+        "primaryTargets": ["gastrocnemius", "soleus", "quadriceps"],
+        "secondaryTargets": ["hip-flexors", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/f9/52/6a/f9526a943772f04f69cda6bcdb5b1d00.gif",
+        "equipment": false
+    },
+    "arm-circles": {
+        "name": "arm-circles",
+        "description": "arm-circles-description",
+        "primaryTargets": ["anterior-deltoid", "lateral-deltoid", "posterior-deltoid"],
+        "secondaryTargets": ["biceps", "triceps", "trapezius"],
+        "image": "https://i.pinimg.com/originals/8e/6a/ef/8e6aef4e247dcfa16ca4416122b9f5d0.gif",
+        "equipment": false
+    },
+    "hip-circles": {
+        "name": "hip-circles",
+        "description": "hip-circles-description",
+        "primaryTargets": ["hip-flexors", "adductors", "abductors"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/12/31/e2/1231e24fc3d7944e38b180c51067689d.gif",
+        "equipment": false
+    },
+    "squat-jacks": {
+        "name": "squat-jacks",
+        "description": "squat-jacks-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/39/9b/a2/399ba209e9e93331e9ff62371b5de6fa.gif",
+        "equipment": false
+    },
+    "high-kicks": {
+        "name": "high-kicks",
+        "description": "high-kicks-description",
+        "primaryTargets": ["hamstrings"],
+        "secondaryTargets": ["hip-flexors", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/2d/26/48/2d2648a754d2af933ab70ffbd2ed35a8.gif",
+        "equipment": false
+    },
+    "side-to-side-squats": {
+        "name": "side-to-side-squats",
+        "description": "side-to-side-squats-description",
+        "primaryTargets": ["quadriceps", "adductors", "abductors"],
+        "secondaryTargets": ["glutes", "gastrocnemius", "soleus"],
+        "image": "https://i.pinimg.com/originals/22/74/3f/22743ff712dd05f8c3c2bff3de183806.gif",
+        "equipment": false
+    },
+    "jumping-jacks": {
+        "name": "jumping-jacks",
+        "description": "jumping-jacks-description",
+        "primaryTargets": ["cardiovascular-system"],
+        "secondaryTargets": ["quadriceps", "hip-flexors", "gastrocnemius", "soleus", "anterior-deltoid"],
+        "image": "https://www.spotebi.com/wp-content/uploads/2014/10/jumping-jacks-exercise-illustration.gif",
+        "equipment": false
+    },
+    "arm-swings": {
+        "name": "arm-swings",
+        "description": "arm-swings-description",
+        "primaryTargets": ["anterior-deltoid", "lateral-deltoid"],
+        "secondaryTargets": ["trapezius", "rhomboids", "biceps", "triceps"],
+        "image": "https://www.spotebi.com/wp-content/uploads/2016/06/arm-swings-exercise-illustration-spotebi.gif",
+        "equipment": false
+    },
+    "high-knees": {
+        "name": "high-knees",
+        "description": "high-knees-description",
+        "primaryTargets": ["quadriceps", "hip-flexors"],
+        "secondaryTargets": ["gastrocnemius", "soleus", "cardiovascular-system"],
+        "image": "https://www.spotebi.com/wp-content/uploads/2014/10/high-knees-exercise-illustration.gif",
+        "equipment": false
+    },
+    "fingertip-to-toe-jacks": {
+        "name": "fingertip-to-toe-jacks",
+        "description": "fingertip-to-toe-jacks-description",
+        "primaryTargets": ["hamstrings"],
+        "secondaryTargets": ["erector-spinae", "anterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/e7/0a/3b/e70a3b797ee20f38a523803000e71247.gif",
+        "equipment": false
+    },
+    "bird-dog": {
+        "name": "bird-dog",
+        "description": "bird-dog-description",
+        "primaryTargets": ["erector-spinae", "rectus-abdominis"],
+        "secondaryTargets": ["transverse-abdominis", "anterior-deltoid", "posterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/17/e6/42/17e642120d1470540aed8bb765d10727.gif",
+        "equipment": false
+    },
+    "stutter-steps": {
+        "name": "stutter-steps",
+        "description": "stutter-steps-description",
+        "primaryTargets": ["gastrocnemius", "soleus", "quadriceps"],
+        "secondaryTargets": ["cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/87/23/12/872312f37bdbb2863ba7aaf993b6eccd.gif",
+        "equipment": false
+    },
+    "forward-fold": {
+        "name": "forward-fold",
+        "description": "forward-fold-description",
+        "primaryTargets": ["hamstrings"],
+        "secondaryTargets": ["erector-spinae"],
+        "image": "https://i.pinimg.com/originals/d9/4f/1b/d94f1b26b3fc12313f2e8731386b1b9b.gif",
+        "equipment": false
+    },
+    "quad-stretch": {
+        "name": "quad-stretch",
+        "description": "quad-stretch-description",
+        "primaryTargets": ["quadriceps"],
+        "secondaryTargets": ["hip-flexors", "adductors"],
+        "image": "https://www.spotebi.com/wp-content/uploads/2015/03/quad-stretch-exercise-illustration.gif",
+        "equipment": false
+    },
+    "tricep-stretch": {
+        "name": "tricep-stretch",
+        "description": "tricep-stretch-description",
+        "primaryTargets": ["triceps"],
+        "secondaryTargets": ["posterior-deltoid"],
+        "image": "https://www.spotebi.com/wp-content/uploads/2014/10/triceps-stretch-exercise-illustration.gif",
+        "equipment": false
+    },
+    "upper-back-stretch": {
+        "name": "upper-back-stretch",
+        "description": "upper-back-stretch-description",
+        "primaryTargets": ["trapezius", "rhomboids"],
+        "secondaryTargets": ["posterior-deltoid", "lateral-deltoid"],
+        "image": "https://www.spotebi.com/wp-content/uploads/2014/11/upper-back-stretch-exercise-illustration.gif",
+        "equipment": false
+    },
+    "calf-stretch": {
+        "name": "calf-stretch",
+        "description": "calf-stretch-description",
+        "primaryTargets": ["gastrocnemius", "soleus"],
+        "secondaryTargets": [],
+        "image": "https://i.pinimg.com/originals/3b/09/9c/3b099c3761a50c56bb8aa11bee2aee3d.gif",
+        "equipment": false
+    },
+    "back-stretch": {
+        "name": "back-stretch",
+        "description": "back-stretch-description",
+        "primaryTargets": ["erector-spinae"],
+        "secondaryTargets": ["latissimus-dorsi", "rhomboids"],
+        "image": "https://www.spotebi.com/wp-content/uploads/2014/10/cat-back-stretch-exercise-illustration.gif",
+        "equipment": false
+    },
+    "neck-stretch": {
+        "name": "neck-stretch",
+        "description": "neck-stretch-description",
+        "primaryTargets": ["neck"],
+        "secondaryTargets": ["trapezius"],
+        "image": "https://www.spotebi.com/wp-content/uploads/2014/10/neck-stretch-exercise-illustration.gif",
+        "equipment": false
+    },
+    "squats": {
+        "name": "squats",
+        "description": "squats-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hamstrings", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/ef/cd/a2/efcda277f70d100af161c355c282ea4b.gif",
+        "equipment": false
+    },
+    "bench-press": {
+        "name": "bench-press",
+        "description": "bench-press-description",
+        "primaryTargets": ["pectoralis-major"],
+        "secondaryTargets": ["triceps", "anterior-deltoid", "pectoralis-minor"],
+        "image": "https://i.pinimg.com/originals/8e/34/bb/8e34bb41d30ceb2f65aa7873a87a4371.gif",
+        "equipment": true
+    },
+    "bent-over-rows": {
+        "name": "bent-over-rows",
+        "description": "bent-over-rows-description",
+        "primaryTargets": ["latissimus-dorsi", "rhomboids", "trapezius"],
+        "secondaryTargets": ["biceps", "teres-major", "posterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/43/1e/2a/431e2afebe825b64be8c524d95cf8802.gif",
+        "equipment": true
+    },
+    "overhead-press": {
+        "name": "overhead-press",
+        "description": "overhead-press-description",
+        "primaryTargets": ["anterior-deltoid", "lateral-deltoid", "trapezius"],
+        "secondaryTargets": ["triceps", "serratus-anterior", "posterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/b8/07/7a/b8077adb1e89c4069c758e571ee722c3.gif",
+        "equipment": true
+    },
+    "deadlifts": {
+        "name": "deadlifts",
+        "description": "deadlifts-description",
+        "primaryTargets": ["erector-spinae", "latissimus-dorsi", "hamstrings", "glutes"],
+        "secondaryTargets": ["trapezius", "rhomboids", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/35/0e/09/350e09bb1bcbdb1ba4115d4b1a68c4e2.gif",
+        "equipment": true
+    },
+    "lat-pulldown": {
+        "name": "lat-pulldown",
+        "description": "lat-pulldown-description",
+        "primaryTargets": ["latissimus-dorsi", "teres-major"],
+        "secondaryTargets": ["biceps", "rhomboids", "posterior-deltoid"],
+        "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Lat-Pulldown.gif",
+        "equipment": true
+    },
+    "lunges": {
+        "name": "lunges",
+        "description": "lunges-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hamstrings"],
+        "image": "https://i.pinimg.com/originals/94/b9/fb/94b9fbf1689b8e3b12735a8ce5a8e144.gif",
+        "equipment": false
+    },
+    "dumbbell-curl": {
+        "name": "dumbbell-curl",
+        "description": "dumbbell-curl-description",
+        "primaryTargets": ["biceps"],
+        "secondaryTargets": ["forearm-flexors"],
+        "image": "https://i.pinimg.com/originals/85/c5/2a/85c52aede8d5bd99858c6ca83b89082f.gif",
+        "equipment": true
+    },
+    "plank": {
+        "name": "plank",
+        "description": "plank-description",
+        "primaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "secondaryTargets": ["anterior-deltoid", "erector-spinae"],
+        "image": "https://i.pinimg.com/736x/72/95/77/729577e02db621667c32c62b9f5797b8.jpg",
+        "equipment": false
+    },
+    "leg-press": {
+        "name": "leg-press",
+        "description": "leg-press-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hamstrings"],
+        "image": "https://i.pinimg.com/originals/60/fb/4a/60fb4a02b481d7a1b71fbb1795d6109b.gif",
+        "equipment": true
+    },
+    "dumbbell-flys": {
+        "name": "dumbbell-flys",
+        "description": "dumbbell-flys-description",
+        "primaryTargets": ["pectoralis-major"],
+        "secondaryTargets": ["anterior-deltoid", "lateral-deltoid", "pectoralis-minor"],
+        "image": "https://i.pinimg.com/originals/4d/13/21/4d1321aa03219119063ffec7617deef4.gif",
+        "equipment": true
+    },
+    "seated-cable-rows": {
+        "name": "seated-cable-rows",
+        "description": "seated-cable-rows-description",
+        "primaryTargets": ["latissimus-dorsi", "rhomboids", "trapezius"],
+        "secondaryTargets": ["biceps", "teres-major", "posterior-deltoid"],
+        "image": "https://burnfit.io/wp-content/uploads/2023/11/SEATED_CABLE_ROW.gif",
+        "equipment": true
+    },
+    "triceps-pushdown": {
+        "name": "triceps-pushdown",
+        "description": "triceps-pushdown-description",
+        "primaryTargets": ["triceps"],
+        "secondaryTargets": ["forearm-flexors"],
+        "image": "https://i.pinimg.com/originals/72/6a/6a/726a6ae9a2c9b83340f27ebcb0d5fc1d.gif",
+        "equipment": true
+    },
+    "russian-twists": {
+        "name": "russian-twists",
+        "description": "russian-twists-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/fd/21/67/fd216722627b23cef752623a57cf406b.gif",
+        "equipment": false
+    },
+    "triceps-dips": {
+        "name": "triceps-dips",
+        "description": "triceps-dips-description",
+        "primaryTargets": ["triceps"],
+        "secondaryTargets": ["anterior-deltoid", "pectoralis-major"],
+        "image": "https://i.pinimg.com/originals/40/8a/29/408a29849ef328ac26eaec7d972874e7.gif",
+        "equipment": true
+    },
+    "leg-curl": {
+        "name": "leg-curl",
+        "description": "leg-curl-description",
+        "primaryTargets": ["hamstrings", "gastrocnemius", "soleus"],
+        "secondaryTargets": ["glutes", "hip-flexors", "quadriceps", "adductors", "abductors"],
+        "image": "https://i.pinimg.com/originals/4d/58/19/4d581995094c4cff1343dfe609118219.gif",
+        "equipment": true
+    },
+    "leg-extension": {
+        "name": "leg-extension",
+        "description": "leg-extension-description",
+        "primaryTargets": ["quadriceps"],
+        "secondaryTargets": ["glutes", "hamstrings"],
+        "image": "https://i.pinimg.com/originals/44/34/b1/4434b1ac4cdc440fc63a258f075db8fd.gif",
+        "equipment": true
+    },
+    "standing-calf-raises": {
+        "name": "standing-calf-raises",
+        "description": "standing-calf-raises-description",
+        "primaryTargets": ["gastrocnemius", "soleus"],
+        "secondaryTargets": ["glutes", "hamstrings"],
+        "image": "https://i.pinimg.com/originals/91/1f/b1/911fb167ad907dc16a293a59cb2d95db.gif",
+        "equipment": true
+    },
+    "glutes-bridge": {
+        "name": "glutes-bridge",
+        "description": "glutes-bridge-description",
+        "primaryTargets": ["glutes"],
+        "secondaryTargets": ["hamstrings", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/81/06/d4/8106d4d5f00a226f368bf0c4d201ab50.gif",
+        "equipment": false
+    },
+    "incline-dumbbell-press": {
+        "name": "incline-dumbbell-press",
+        "description": "incline-dumbbell-press-description",
+        "primaryTargets": ["pectoralis-major"],
+        "secondaryTargets": ["anterior-deltoid", "triceps", "pectoralis-minor"],
+        "image": "https://i.pinimg.com/originals/be/94/3f/be943f55c4a35f5599824db11168d686.gif",
+        "equipment": true
+    },
+    "lateral-raises": {
+        "name": "lateral-raises",
+        "description": "lateral-raises-description",
+        "primaryTargets": ["lateral-deltoid"],
+        "secondaryTargets": ["anterior-deltoid", "trapezius", "supraspinatus"],
+        "image": "https://i.pinimg.com/originals/b7/0e/d9/b70ed992020435b936764c7920c03e0b.gif",
+        "equipment": true
+    },
+    "hammer-curls": {
+        "name": "hammer-curls",
+        "description": "hammer-curls-description",
+        "primaryTargets": ["biceps"],
+        "secondaryTargets": ["forearm-flexors", "brachialis"],
+        "image": "https://i.pinimg.com/originals/68/74/d3/6874d3d3bdcb3c885e3f52b385959f4a.gif",
+        "equipment": true
+    },
+    "seated-calf-raises": {
+        "name": "seated-calf-raises",
+        "description": "seated-calf-raises-description",
+        "primaryTargets": ["gastrocnemius", "soleus"],
+        "secondaryTargets": ["glutes", "hamstrings"],
+        "image": "https://i.pinimg.com/originals/3e/f4/e3/3ef4e3f40a9b12a32a2f111b2dab27ad.gif",
+        "equipment": true
+    },
+    "ab-wheel-rollout": {
+        "name": "ab-wheel-rollout",
+        "description": "ab-wheel-rollout-description",
+        "primaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "secondaryTargets": ["anterior-deltoid", "latissimus-dorsi", "triceps"],
+        "image": "https://i.pinimg.com/originals/81/c6/ac/81c6ac9bf4e3de344451a42286cb89be.gif",
+        "equipment": true
+    },
+    "overhead-triceps-extension": {
+        "name": "overhead-triceps-extension",
+        "description": "overhead-triceps-extension-description",
+        "primaryTargets": ["triceps"],
+        "secondaryTargets": ["anterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/2c/62/ba/2c62ba80d37c94d06ad6d60f1e5445df.gif",
+        "equipment": true
+    },
+    "front-raises": {
+        "name": "front-raises",
+        "description": "front-raises-description",
+        "primaryTargets": ["anterior-deltoid"],
+        "secondaryTargets": ["lateral-deltoid", "trapezius", "serratus-anterior"],
+        "image": "https://i.pinimg.com/originals/a0/8e/fe/a08efe01b391549e1a0ec8f70d390d28.gif",
+        "equipment": true
+    },
+    "shrugs": {
+        "name": "shrugs",
+        "description": "shrugs-description",
+        "primaryTargets": ["trapezius"],
+        "secondaryTargets": ["anterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/fe/a5/af/fea5af88cca2ae9f4b1a940b106cbdcf.gif",
+        "equipment": true
+    },
+    "pushups": {
+        "name": "pushups",
+        "description": "pushups-description",
+        "primaryTargets": ["pectoralis-major"],
+        "secondaryTargets": ["anterior-deltoid", "triceps", "rectus-abdominis", "transverse-abdominis", "pectoralis-minor"],
+        "image": "https://i.pinimg.com/originals/1e/ad/ad/1eadad644c80735ffc1cd62f07d216dc.gif",
+        "equipment": false
+    },
+    "bicycle-crunches": {
+        "name": "bicycle-crunches",
+        "description": "bicycle-crunches-description",
+        "primaryTargets": ["rectus-abdominis", "external-obliques", "internal-obliques"],
+        "secondaryTargets": ["hip-flexors", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/a5/bf/93/a5bf93f163bdbe8035b050bfb40f342b.gif",
+        "equipment": false
+    },
+    "leg-raises": {
+        "name": "leg-raises",
+        "description": "leg-raises-description",
+        "primaryTargets": ["rectus-abdominis", "hip-flexors"],
+        "secondaryTargets": ["adductors", "transverse-abdominis", "external-obliques", "internal-obliques"],
+        "image": "https://i.pinimg.com/originals/0f/a7/46/0fa74623d5be37c74b11fec1e8f04db4.gif",
+        "equipment": false
+    },
+    "mountain-climbers": {
+        "name": "mountain-climbers",
+        "description": "mountain-climbers-description",
+        "primaryTargets": ["rectus-abdominis", "hip-flexors"],
+        "secondaryTargets": ["anterior-deltoid", "triceps", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/fb/fa/09/fbfa0902f381a5735972c21255935aff.gif",
+        "equipment": false
+    },
+    "mountain-walkers": {
+        "name": "mountain-walkers",
+        "description": "mountain-walkers-description",
+        "primaryTargets": ["rectus-abdominis", "hip-flexors"],
+        "secondaryTargets": ["transverse-abdominis", "anterior-deltoid", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/48/ab/04/48ab04dcfc4269b59c363e7ce53a3c7f.gif",
+        "equipment": false
+    },
+    "crunches": {
+        "name": "crunches",
+        "description": "crunches-description",
+        "primaryTargets": ["rectus-abdominis"],
+        "secondaryTargets": ["transverse-abdominis", "hip-flexors"],
+        "image": "https://i.pinimg.com/originals/02/5a/7d/025a7d5cc4d5c4c7c85165a3593ce919.gif",
+        "equipment": false
+    },
+    "v-ups": {
+        "name": "v-ups",
+        "description": "v-ups-description",
+        "primaryTargets": ["rectus-abdominis", "hip-flexors"],
+        "secondaryTargets": ["transverse-abdominis", "external-obliques", "internal-obliques"],
+        "image": "https://i.pinimg.com/originals/ac/19/e5/ac19e583821462224bc5d44cdd4afe8b.gif",
+        "equipment": false
+    },
+    "leg-pull-knee-ups": {
+        "name": "leg-pull-knee-ups",
+        "description": "leg-pull-knee-ups-description",
+        "primaryTargets": ["rectus-abdominis", "hip-flexors"],
+        "secondaryTargets": ["adductors", "transverse-abdominis", "external-obliques", "internal-obliques"],
+        "image": "https://i.pinimg.com/originals/c5/03/51/c5035150a8f7b09912e33a17c01f3086.gif",
+        "equipment": false
+    },
+    "l-sit": {
+        "name": "l-sit",
+        "description": "l-sit-description",
+        "primaryTargets": ["rectus-abdominis", "hip-flexors"],
+        "secondaryTargets": ["adductors", "transverse-abdominis", "external-obliques", "internal-obliques"],
+        "image": "https://i.pinimg.com/originals/35/f5/a3/35f5a309543b39dda04dc9fa879c8a26.gif",
+        "equipment": false
+    },
+    "kneeling-back-rotation": {
+        "name": "kneeling-back-rotation",
+        "description": "kneeling-back-rotation-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["multifidus", "erector-spinae"],
+        "image": "https://i.pinimg.com/originals/a6/30/88/a63088453bd47dbf6201c25c16bcc403.gif",
+        "equipment": false
+    },
+    "side-plank-hip-raise": {
+        "name": "side-plank-hip-raise",
+        "description": "side-plank-hip-raise-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["transverse-abdominis", "hip-flexors", "glutes", "adductors"],
+        "image": "https://i.pinimg.com/originals/24/08/6c/24086c4039855257c6810df6f8e40539.gif",
+        "equipment": false
+    },
+    "side-plank": {
+        "name": "side-plank",
+        "description": "side-plank-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["transverse-abdominis", "hip-flexors"],
+        "image": "https://i.pinimg.com/736x/f9/0a/9e/f90a9ec4861dfccc3b27d54c081d5e29.jpg",
+        "equipment": false
+    },
+    "cross-crunches": {
+        "name": "cross-crunches",
+        "description": "cross-crunches-description",
+        "primaryTargets": ["rectus-abdominis", "external-obliques", "internal-obliques"],
+        "secondaryTargets": ["transverse-abdominis", "hip-flexors"],
+        "image": "https://i.pinimg.com/originals/34/5c/d9/345cd9414e1e743debd278eaddf33473.gif",
+        "equipment": false
+    },
+    "reverse-crunches": {
+        "name": "reverse-crunches",
+        "description": "reverse-crunches-description",
+        "primaryTargets": ["rectus-abdominis", "hip-flexors"],
+        "secondaryTargets": ["adductors", "transverse-abdominis", "external-obliques", "internal-obliques"],
+        "image": "https://i.pinimg.com/originals/47/88/ba/4788ba8159595dd2bc81ac5ffa1a9d84.gif",
+        "equipment": false
+    },
+    "crab-twist-toe-touch": {
+        "name": "crab-twist-toe-touch",
+        "description": "crab-twist-toe-touch-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["rectus-abdominis", "anterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/72/c6/73/72c6738f9a25e750933a45fde690cd87.gif",
+        "equipment": false
+    },
+    "hanging-knee-raises": {
+        "name": "hanging-knee-raises",
+        "description": "hanging-knee-raises-description",
+        "primaryTargets": ["rectus-abdominis", "hip-flexors"],
+        "secondaryTargets": ["adductors", "transverse-abdominis", "external-obliques", "internal-obliques"],
+        "image": "https://i.pinimg.com/originals/21/86/e7/2186e7a33fda75a9ff3f1f2a8eef435a.gif",
+        "equipment": false
+    },
+    "inclined-pushup": {
+        "name": "inclined-pushup",
+        "description": "inclined-pushup-description",
+        "primaryTargets": ["pectoralis-major", "pectoralis-minor"],
+        "secondaryTargets": ["anterior-deltoid", "triceps"],
+        "image": "https://i.pinimg.com/originals/aa/a2/73/aaa27319a7270ecfc134c02169862618.gif",
+        "equipment": false
+    },
+    "kneeled-diamond-pushups": {
+        "name": "kneeled-diamond-pushups",
+        "description": "kneeled-diamond-pushups-description",
+        "primaryTargets": ["pectoralis-major", "triceps"],
+        "secondaryTargets": ["anterior-deltoid", "pectoralis-minor"],
+        "image": "https://fitnessprogramer.com/wp-content/uploads/2021/04/Knee-Push-Up.gif",
+        "equipment": false
+    },
+    "extended-arm-circles": {
+        "name": "extended-arm-circles",
+        "description": "extended-arm-circles-description",
+        "primaryTargets": ["anterior-deltoid", "lateral-deltoid"],
+        "secondaryTargets": ["trapezius", "rhomboids", "biceps", "triceps"],
+        "image": "https://i.pinimg.com/originals/51/ae/a1/51aea1df721b5434b30d8ceb618446be.gif",
+        "equipment": false
+    },
+    "bridge-kicker": {
+        "name": "bridge-kicker",
+        "description": "bridge-kicker-description",
+        "primaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "secondaryTargets": ["triceps", "anterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/81/06/d4/8106d4d5f00a226f368bf0c4d201ab50.gif",
+        "equipment": false
+    },
+    "triceps-pushup": {
+        "name": "triceps-pushup",
+        "description": "triceps-pushup-description",
+        "primaryTargets": ["triceps"],
+        "secondaryTargets": ["anterior-deltoid", "pectoralis-major"],
+        "image": "https://i.pinimg.com/originals/f9/1e/25/f91e252ccec48090bf58266cc20b0742.gif",
+        "equipment": false
+    },
+    "burpees": {
+        "name": "burpees",
+        "description": "burpees-description",
+        "primaryTargets": ["cardiovascular-system"],
+        "secondaryTargets": ["full-body"],
+        "image": "https://i.pinimg.com/originals/d8/81/43/d881439ebaa938ba364d7113d8ca5c99.gif",
+        "equipment": false
+    },
+    "bear-crawl": {
+        "name": "bear-crawl",
+        "description": "bear-crawl-description",
+        "primaryTargets": ["anterior-deltoid", "lateral-deltoid", "rectus-abdominis", "transverse-abdominis"],
+        "secondaryTargets": ["biceps", "triceps"],
+        "image": "https://i.pinimg.com/originals/d7/0d/10/d70d10899b1f3379d7cb870fd706e1b1.gif",
+        "equipment": false
+    },
+    "kneeled-wide-pushups": {
+        "name": "kneeled-wide-pushups",
+        "description": "kneeled-wide-pushups-description",
+        "primaryTargets": ["pectoralis-major"],
+        "secondaryTargets": ["anterior-deltoid", "triceps", "pectoralis-minor"],
+        "image": "https://www.inspireusafoundation.org/wp-content/uploads/2023/04/knee-push-ups.gif",
+        "equipment": false
+    },
+    "punches": {
+        "name": "punches",
+        "description": "punches-description",
+        "primaryTargets": ["anterior-deltoid", "biceps", "triceps"],
+        "secondaryTargets": ["rectus-abdominis", "external-obliques", "internal-obliques"],
+        "image": "https://i.pinimg.com/originals/88/b7/f6/88b7f63b17e603da3cbfb036b2400df2.gif",
+        "equipment": false
+    },
+    "hand-to-toe": {
+        "name": "hand-to-toe",
+        "description": "hand-to-toe-description",
+        "primaryTargets": ["hamstrings"],
+        "secondaryTargets": ["erector-spinae", "anterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/68/4d/33/684d3368aa03537c8fb49db06f7d70a4.gif",
+        "equipment": false
+    },
+    "sumo-squat": {
+        "name": "sumo-squat",
+        "description": "sumo-squat-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hamstrings"],
+        "image": "https://i.pinimg.com/originals/92/d6/cc/92d6ccdee9823717136cd52505d8b2ed.gif",
+        "equipment": false
+    },
+    "plie-squat-scoop-up": {
+        "name": "plie-squat-scoop-up",
+        "description": "plie-squat-scoop-up-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["anterior-deltoid", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/73/93/eb/7393eb72c65472e46c213e2b99c10992.gif",
+        "equipment": false
+    },
+    "side-lunge-front-raise": {
+        "name": "side-lunge-front-raise",
+        "description": "side-lunge-front-raise-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["anterior-deltoid", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/48/d3/18/48d318b6fd069adf7fd5ad23bf3206f6.gif",
+        "equipment": false
+    },
+    "deadlift-upright-row": {
+        "name": "deadlift-upright-row",
+        "description": "deadlift-upright-row-description",
+        "primaryTargets": ["trapezius", "latissimus-dorsi", "rhomboids"],
+        "secondaryTargets": ["hamstrings", "glutes"],
+        "image": "https://i.pinimg.com/originals/c4/15/13/c41513afb3abb500d59dfae4a5ebbf33.gif",
+        "equipment": false
+    },
+    "sumo-side-bends": {
+        "name": "sumo-side-bends",
+        "description": "sumo-side-bends-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["hip-flexors", "adductors", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/10/4c/5f/104c5f7ea76d834b4a7c730de66cb580.gif",
+        "equipment": false
+    },
+    "lunge-punch": {
+        "name": "lunge-punch",
+        "description": "lunge-punch-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["anterior-deltoid", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/49/e2/47/49e247d529e46aee55ffb5b3b28eacac.gif",
+        "equipment": false
+    },
+    "split-squat-press": {
+        "name": "split-squat-press",
+        "description": "split-squat-press-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["anterior-deltoid", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/d0/54/1b/d0541bb653319a56a5d876e3eabb319a.gif",
+        "equipment": false
+    },
+    "plank-bird-dog": {
+        "name": "plank-bird-dog",
+        "description": "plank-bird-dog-description",
+        "primaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "secondaryTargets": ["anterior-deltoid", "erector-spinae"],
+        "image": "https://i.pinimg.com/originals/91/e1/bc/91e1bc972552801178bb0dda55422f2c.gif",
+        "equipment": false
+    },
+    "curtsy-lunge-side-kick-raise": {
+        "name": "curtsy-lunge-side-kick-raise",
+        "description": "curtsy-lunge-side-kick-raise-description",
+        "primaryTargets": ["glutes"],
+        "secondaryTargets": ["quadriceps", "adductors", "abductors"],
+        "image": "https://i.pinimg.com/originals/75/90/9d/75909d3c7bc61a35eef41f129edae1b3.gif",
+        "equipment": false
+    },
+    "single-leg-squat-kickback": {
+        "name": "single-leg-squat-kickback",
+        "description": "single-leg-squat-kickback-description",
+        "primaryTargets": ["glutes", "quadriceps"],
+        "secondaryTargets": ["hamstrings", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/40/cd/50/40cd502ba0ec62b239d439f6d2aa5b35.gif",
+        "equipment": false
+    },
+    "gate-swings": {
+        "name": "gate-swings",
+        "description": "gate-swings-description",
+        "primaryTargets": ["hip-flexors", "adductors", "abductors"],
+        "secondaryTargets": ["rectus-abdominis", "external-obliques", "internal-obliques"],
+        "image": "https://i.pinimg.com/originals/43/d8/fd/43d8fdd135fe581ccc0403b6574c4be8.gif",
+        "equipment": false
+    },
+    "lunge-back-kick": {
+        "name": "lunge-back-kick",
+        "description": "lunge-back-kick-description",
+        "primaryTargets": ["glutes", "quadriceps"],
+        "secondaryTargets": ["hamstrings"],
+        "image": "https://i.pinimg.com/originals/64/16/1b/64161b1bbd8cade3dd6c5e4beddd696c.gif",
+        "equipment": false
+    },
+    "butterfly-dips": {
+        "name": "butterfly-dips",
+        "description": "butterfly-dips-description",
+        "primaryTargets": ["triceps"],
+        "secondaryTargets": ["anterior-deltoid", "pectoralis-major"],
+        "image": "https://i.pinimg.com/originals/7f/35/f1/7f35f144f06a115aedd3e2d2163b8d69.gif",
+        "equipment": false
+    },
+    "cossack-squat": {
+        "name": "cossack-squat",
+        "description": "cossack-squat-description",
+        "primaryTargets": ["quadriceps", "adductors"],
+        "secondaryTargets": ["glutes", "abductors", "gastrocnemius", "soleus"],
+        "image": "https://i.pinimg.com/originals/3e/7a/76/3e7a76ff9cac8b0dbbd658b18e69d029.gif",
+        "equipment": false
+    },
+    "double-pulse-squat-jump": {
+        "name": "double-pulse-squat-jump",
+        "description": "double-pulse-squat-jump-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["gastrocnemius", "soleus", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/b1/08/36/b1083670d171f4e6b23780847b90e518.gif",
+        "equipment": false
+    },
+    "inchworm": {
+        "name": "inchworm",
+        "description": "inchworm-description",
+        "primaryTargets": ["rectus-abdominis", "transverse-abdominis", "anterior-deltoid", "lateral-deltoid"],
+        "secondaryTargets": ["hamstrings"],
+        "image": "https://i.pinimg.com/originals/c8/b3/3b/c8b33ba060b1edbd7ca826e1faf6ba0f.gif",
+        "equipment": false
+    },
+    "ankle-tap-push-ups": {
+        "name": "ankle-tap-push-ups",
+        "description": "ankle-tap-push-ups-description",
+        "primaryTargets": ["pectoralis-major", "triceps"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis", "anterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/6a/b6/c3/6ab6c3120fc3b1fc83151e26f6d49216.gif",
+        "equipment": false
+    },
+    "half-squat-jab-cross": {
+        "name": "half-squat-jab-cross",
+        "description": "half-squat-jab-cross-description",
+        "primaryTargets": ["quadriceps", "anterior-deltoid"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/e5/d2/ab/e5d2ab2de9b2bae882c65318b8d7cc94.gif",
+        "equipment": false
+    },
+    "speed-bag-punches": {
+        "name": "speed-bag-punches",
+        "description": "speed-bag-punches-description",
+        "primaryTargets": ["anterior-deltoid"],
+        "secondaryTargets": ["biceps", "triceps"],
+        "image": "https://i.pinimg.com/originals/4b/93/a4/4b93a4c5a4d4f59eb2909a8fb0e97969.gif",
+        "equipment": false
+    },
+    "big-arm-circles": {
+        "name": "big-arm-circles",
+        "description": "big-arm-circles-description",
+        "primaryTargets": ["anterior-deltoid", "lateral-deltoid"],
+        "secondaryTargets": ["trapezius", "rhomboids", "biceps", "triceps"],
+        "image": "https://i.pinimg.com/originals/8e/6a/ef/8e6aef4e247dcfa16ca4416122b9f5d0.gif",
+        "equipment": false
+    },
+    "balance-chop": {
+        "name": "balance-chop",
+        "description": "balance-chop-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["anterior-deltoid", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/ad/b1/8c/adb18c85e6dc0ca313505f1acd6f4c82.gif",
+        "equipment": false
+    },
+    "frog-crunches": {
+        "name": "frog-crunches",
+        "description": "frog-crunches-description",
+        "primaryTargets": ["rectus-abdominis", "hip-flexors"],
+        "secondaryTargets": ["adductors", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/9d/72/99/9d7299717133f1e75894492776b3ac61.gif",
+        "equipment": false
+    },
+    "squat-and-jump": {
+        "name": "squat-and-jump",
+        "description": "squat-and-jump-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["gastrocnemius", "soleus", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/fa/ca/63/faca63e8e5082cef30381133c0d4325a.gif",
+        "equipment": false
+    },
+    "push-up-burpees": {
+        "name": "push-up-burpees",
+        "description": "push-up-burpees-description",
+        "primaryTargets": ["pectoralis-major", "pectoralis-minor"],
+        "secondaryTargets": ["full-body", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/76/c5/d4/76c5d4bf331c7bf1a4065de10db207e1.gif",
+        "equipment": false
+    },
+    "heel-touches": {
+        "name": "heel-touches",
+        "description": "heel-touches-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/93/64/61/9364617f29af43aaf0a8860769bae0ba.gif",
+        "equipment": false
+    },
+    "running-in-place": {
+        "name": "running-in-place",
+        "description": "running-in-place-description",
+        "primaryTargets": ["gastrocnemius", "soleus", "quadriceps", "glutes", "hamstrings", "hip-flexors", "adductors", "abductors"],
+        "secondaryTargets": ["cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/79/a2/d0/79a2d05c8474f9cf964ebf10db399d16.gif",
+        "equipment": false
+    },
+    "floor-hyperextension": {
+        "name": "floor-hyperextension",
+        "description": "floor-hyperextension-description",
+        "primaryTargets": ["erector-spinae"],
+        "secondaryTargets": ["glutes", "hamstrings"],
+        "image": "https://i.pinimg.com/originals/f7/62/a5/f762a5c1c9d0d818c482e2829a1f9db1.gif",
+        "equipment": false
+    },
+    "elevated-crunches": {
+        "name": "elevated-crunches",
+        "description": "elevated-crunches-description",
+        "primaryTargets": ["rectus-abdominis"],
+        "secondaryTargets": ["transverse-abdominis", "hip-flexors"],
+        "image": "https://i.pinimg.com/originals/af/3a/a1/af3aa1a7ce97c56350fda73829525075.gif",
+        "equipment": false
+    },
+    "chest-stretch": {
+        "name": "chest-stretch",
+        "description": "chest-stretch-description",
+        "primaryTargets": ["pectoralis-major"],
+        "secondaryTargets": ["anterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/bf/c5/5d/bfc55d005508fca31efa48f3e04186a5.gif",
+        "equipment": false
+    },
+    "leg-lifts": {
+        "name": "leg-lifts",
+        "description": "leg-lifts-description",
+        "primaryTargets": ["rectus-abdominis", "hip-flexors"],
+        "secondaryTargets": ["adductors", "transverse-abdominis", "external-obliques", "internal-obliques"],
+        "image": "https://i.pinimg.com/originals/a1/1b/7f/a11b7f0cdd87d69c3dffab4cbf88b94e.gif",
+        "equipment": false
+    },
+    "rear-lunges": {
+        "name": "rear-lunges",
+        "description": "rear-lunges-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hamstrings"],
+        "image": "https://i.pinimg.com/originals/8b/4a/32/8b4a32982e54f4d5ea5e8b9c6b114303.gif",
+        "equipment": false
+    },
+    "wall-pushup": {
+        "name": "wall-pushup",
+        "description": "wall-pushup-description",
+        "primaryTargets": ["pectoralis-major"],
+        "secondaryTargets": ["anterior-deltoid", "triceps"],
+        "image": "https://i.pinimg.com/originals/42/8d/94/428d94757cafc4e8dc43ad35b862685c.gif",
+        "equipment": false
+    },
+    "high-knees-against-wall": {
+        "name": "high-knees-against-wall",
+        "description": "high-knees-against-wall-description",
+        "primaryTargets": ["quadriceps"],
+        "secondaryTargets": ["rectus-abdominis", "hip-flexors", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/ee/f4/89/eef4892f2fff756eadeceafd98fa401d.gif",
+        "equipment": false
+    },
+    "knee-kick": {
+        "name": "knee-kick",
+        "description": "knee-kick-description",
+        "primaryTargets": ["quadriceps"],
+        "secondaryTargets": ["hip-flexors", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/4f/50/06/4f50063dd2dd8db16354e86d0a5dc083.gif",
+        "equipment": false
+    },
+    "toe-touches": {
+        "name": "toe-touches",
+        "description": "toe-touches-description",
+        "primaryTargets": ["hamstrings"],
+        "secondaryTargets": ["erector-spinae", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/79/dd/98/79dd9844813e8d94bfaf225e40dae2fb.gif",
+        "equipment": false
+    },
+    "toe-touch-squat": {
+        "name": "toe-touch-squat",
+        "description": "toe-touch-squat-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hamstrings", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/736x/64/c4/61/64c461978d018417096cbcc21e992525.jpg",
+        "equipment": false
+    },
+    "squat-and-knee-kick": {
+        "name": "squat-and-knee-kick",
+        "description": "squat-and-knee-kick-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/22/f1/6e/22f16e07da454ec589acbf3d537ad60f.gif",
+        "equipment": false
+    },
+    "bulgarian-squat": {
+        "name": "bulgarian-squat",
+        "description": "bulgarian-squat-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hip-flexors", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/9e/2b/61/9e2b61ff3eceec7672c3d9d18acb29a3.gif",
+        "equipment": false
+    },
+    "jump-squat": {
+        "name": "jump-squat",
+        "description": "jump-squat-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["gastrocnemius", "soleus", "hip-flexors", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/fa/ca/63/faca63e8e5082cef30381133c0d4325a.gif",
+        "equipment": false
+    },
+    "prisoners-squat": {
+        "name": "prisoners-squat",
+        "description": "prisoners-squat-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/736x/a5/f9/02/a5f902f54903e7609f2f5b167def143f.jpg",
+        "equipment": false
+    },
+    "bulgarian-split-squat-jump": {
+        "name": "bulgarian-split-squat-jump",
+        "description": "bulgarian-split-squat-jump-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hip-flexors", "adductors", "gastrocnemius", "soleus", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/9e/2b/61/9e2b61ff3eceec7672c3d9d18acb29a3.gif",
+        "equipment": false
+    },
+    "step-ups": {
+        "name": "step-ups",
+        "description": "step-ups-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["gastrocnemius", "soleus"],
+        "image": "https://i.pinimg.com/originals/1c/88/eb/1c88ebbc4c4c05f7e108a8339f6c22fd.gif",
+        "equipment": false
+    },
+    "high-knees-lift-run": {
+        "name": "high-knees-lift-run",
+        "description": "high-knees-lift-run-description",
+        "primaryTargets": ["quadriceps", "hip-flexors"],
+        "secondaryTargets": ["gastrocnemius", "soleus", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/64/8f/36/648f368d096be26e3a3a41f5c0bba6b8.gif",
+        "equipment": false
+    },
+    "bench-glute-flutter-kicks": {
+        "name": "bench-glute-flutter-kicks",
+        "description": "bench-glute-flutter-kicks-description",
+        "primaryTargets": ["glutes"],
+        "secondaryTargets": ["hamstrings", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/26/6a/65/266a65d0ae63045de12ff5b77eb6acb8.gif",
+        "equipment": false
+    },
+    "jump-rope": {
+        "name": "jump-rope",
+        "description": "jump-rope-description",
+        "primaryTargets": ["cardiovascular-system", "gastrocnemius", "soleus"],
+        "secondaryTargets": ["quadriceps", "anterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/65/24/58/65245884fadb500e825fd264be0b1c2f.gif",
+        "equipment": false
+    },
+    "decline-pushups": {
+        "name": "decline-pushups",
+        "description": "decline-pushups-description",
+        "primaryTargets": ["pectoralis-major", "pectoralis-minor"],
+        "secondaryTargets": ["anterior-deltoid", "triceps", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/ed/08/2c/ed082c307a5ec6b358ad31f37400b9f6.gif",
+        "equipment": false
+    },
+    "hindu-pushups": {
+        "name": "hindu-pushups",
+        "description": "hindu-pushups-description",
+        "primaryTargets": ["pectoralis-major", "pectoralis-minor"],
+        "secondaryTargets": ["anterior-deltoid", "triceps"],
+        "image": "https://i.pinimg.com/originals/a5/5a/2a/a55a2a425218517312392bc1fe089e5e.gif",
+        "equipment": false
+    },
+    "superman": {
+        "name": "superman",
+        "description": "superman-description",
+        "primaryTargets": ["erector-spinae", "multifidus"],
+        "secondaryTargets": ["rhomboids", "posterior-deltoid", "gluteal-muscles"],
+        "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Superman-exercise.gif",
+        "equipment": false
+    },
+    "side-plank-elbow-to-knee": {
+        "name": "side-plank-elbow-to-knee",
+        "description": "side-plank-elbow-to-knee-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/90/94/24/909424da27208a3aaaa3798ed23ed3e1.gif",
+        "equipment": false
+    },
+    "diamond-pushups": {
+        "name": "diamond-pushups",
+        "description": "diamond-pushups-description",
+        "primaryTargets": ["pectoralis-major", "triceps"],
+        "secondaryTargets": ["anterior-deltoid", "pectoralis-minor"],
+        "image": "https://i.pinimg.com/originals/b8/6e/2b/b86e2baf2e17170f940b598d0386c475.gif",
+        "equipment": false
+    },
+    "pull-up": {
+        "name": "pull-up",
+        "description": "pull-up-description",
+        "primaryTargets": ["latissimus-dorsi", "teres-major"],
+        "secondaryTargets": ["biceps", "rhomboids", "trapezius"],
+        "image": "https://i.pinimg.com/originals/f6/40/12/f64012169c23b6be2a7f1823cac1db13.gif",
+        "equipment": true
+    },
+    "narrow-pushup": {
+        "name": "narrow-pushup",
+        "description": "narrow-pushup-description",
+        "primaryTargets": ["pectoralis-major", "triceps"],
+        "secondaryTargets": ["anterior-deltoid", "pectoralis-minor"],
+        "image": "https://i.pinimg.com/originals/f9/1e/25/f91e252ccec48090bf58266cc20b0742.gif",
+        "equipment": false
+    },
+    "flutter-kick-squats": {
+        "name": "flutter-kick-squats",
+        "description": "flutter-kick-squats-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hip-flexors", "rectus-abdominis", "transverse-abdominis", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/27/30/c2/2730c2da52a5f9200caa7e5d8705efde.gif",
+        "equipment": false
+    },
+    "frog-jumps": {
+        "name": "frog-jumps",
+        "description": "frog-jumps-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hip-flexors", "adductors", "gastrocnemius", "soleus", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/c4/b4/02/c4b402b07b5accacf413cf16ed1b36ed.gif",
+        "equipment": false
+    },
+    "wall-sit": {
+        "name": "wall-sit",
+        "description": "wall-sit-description",
+        "primaryTargets": ["quadriceps", "adductors"],
+        "secondaryTargets": ["glutes", "gastrocnemius", "soleus", "rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/736x/50/f6/dc/50f6dc459be2b411a7f2cd1eea51598e.jpg",
+        "equipment": false
+    },
+    "pistol-squat": {
+        "name": "pistol-squat",
+        "description": "pistol-squat-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["hamstrings", "rectus-abdominis", "transverse-abdominis", "balance"],
+        "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/09/pistol-squat-muscles.gif",
+        "equipment": false
+    },
+    "high-knee-squat": {
+        "name": "high-knee-squat",
+        "description": "high-knee-squat-description",
+        "primaryTargets": ["quadriceps", "glutes"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/9a/e4/7b/9ae47b9cafd8baf076e4e662e6d24e3d.gif",
+        "equipment": false
+    },
+    "side-crunches": {
+        "name": "side-crunches",
+        "description": "side-crunches-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/34/5c/d9/345cd9414e1e743debd278eaddf33473.gif",
+        "equipment": false
+    },
+    "knee-to-elbow": {
+        "name": "knee-to-elbow",
+        "description": "knee-to-elbow-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/b9/81/db/b981dbd19c33f5d5a3f3b73abc7d1681.gif",
+        "equipment": false
+    },
+    "shoulder-pushups": {
+        "name": "shoulder-pushups",
+        "description": "shoulder-pushups-description",
+        "primaryTargets": ["anterior-deltoid", "lateral-deltoid"],
+        "secondaryTargets": ["pectoralis-major", "triceps", "serratus-anterior"],
+        "image": "https://i.pinimg.com/originals/11/ec/4c/11ec4c8f57e566f85f1c97218f48f1cc.gif",
+        "equipment": false
+    },
+    "easy-side-plank": {
+        "name": "easy-side-plank",
+        "description": "easy-side-plank-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["transverse-abdominis", "hip-flexors"],
+        "image": "https://i.pinimg.com/736x/f9/0a/9e/f90a9ec4861dfccc3b27d54c081d5e29.jpg",
+        "equipment": false
+    },
+    "single-leg-plank": {
+        "name": "single-leg-plank",
+        "description": "single-leg-plank-description",
+        "primaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "secondaryTargets": ["anterior-deltoid", "balance"],
+        "image": "https://i.pinimg.com/736x/22/6a/35/226a359ca3c8d7d636fa6ca77549c236.jpg",
+        "equipment": false
+    },
+    "abdominal-hip-raises": {
+        "name": "abdominal-hip-raises",
+        "description": "abdominal-hip-raises-description",
+        "primaryTargets": ["rectus-abdominis"],
+        "secondaryTargets": ["transverse-abdominis", "hip-flexors"],
+        "image": "https://i.pinimg.com/originals/0f/a7/46/0fa74623d5be37c74b11fec1e8f04db4.gif",
+        "equipment": false
+    },
+    "sit-ups": {
+        "name": "sit-ups",
+        "description": "sit-ups-description",
+        "primaryTargets": ["rectus-abdominis"],
+        "secondaryTargets": ["transverse-abdominis", "hip-flexors"],
+        "image": "https://i.pinimg.com/originals/87/5d/7b/875d7b8f896da03b4644566f9f64a748.gif",
+        "equipment": false
+    },
+    "alternating-crunches": {
+        "name": "alternating-crunches",
+        "description": "alternating-crunches-description",
+        "primaryTargets": ["rectus-abdominis"],
+        "secondaryTargets": ["external-obliques", "internal-obliques"],
+        "image": "https://i.pinimg.com/originals/34/5c/d9/345cd9414e1e743debd278eaddf33473.gif",
+        "equipment": false
+    },
+    "oblique-crunches": {
+        "name": "oblique-crunches",
+        "description": "oblique-crunches-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/6e/b2/55/6eb255145a108b9cbf2a8827b7cb000f.gif",
+        "equipment": false
+    },
+    "cat-cow": {
+        "name": "cat-cow",
+        "description": "cat-cow-description",
+        "primaryTargets": ["erector-spinae", "multifidus"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis", "flexibility"],
+        "image": "https://i.pinimg.com/originals/e3/64/1c/e3641cc5a4fa29b6674abe38b14a8b26.gif",
+        "equipment": false
+    },
+    "lying-lat-pulldown": {
+        "name": "lying-lat-pulldown",
+        "description": "lying-lat-pulldown-description",
+        "primaryTargets": ["latissimus-dorsi", "teres-major"],
+        "secondaryTargets": ["biceps", "rhomboids"],
+        "image": "https://i.pinimg.com/736x/18/e8/23/18e823de0c96a1003539a61ae0ec65b9.jpg",
+        "equipment": false
+    },
+    "jumping": {
+        "name": "jumping",
+        "description": "jumping-description",
+        "primaryTargets": ["cardiovascular-system", "gastrocnemius", "soleus"],
+        "secondaryTargets": ["quadriceps", "anterior-deltoid"],
+        "image": "https://i.pinimg.com/originals/f6/d9/f7/f6d9f7eec2e62672d30de29bbf870173.gif",
+        "equipment": false
+    },
+    "concentration-curl": {
+        "name": "concentration-curl",
+        "description": "concentration-curl-description",
+        "primaryTargets": ["biceps"],
+        "secondaryTargets": ["forearm-flexors", "anterior deltoid"],
+        "image": "https://i.pinimg.com/originals/40/5f/cc/405fcc07968c4722e5c5e918ccffddd9.gif",
+        "equipment": true
+    },
+    "wrist-curl": {
+        "name": "wrist-curl",
+        "description": "wrist-curl-description",
+        "primaryTargets": ["forearm-flexors"],
+        "secondaryTargets": [],
+        "image": "https://i.pinimg.com/originals/63/ea/0f/63ea0f10bcce2a1a8811573a6ba913b6.gif",
+        "equipment": true
+    },
+    "reverse-wrist-curl": {
+        "name": "reverse-wrist-curl",
+        "description": "reverse-wrist-curl-description",
+        "primaryTargets": ["forearm-extensors"],
+        "secondaryTargets": [],
+        "image": "https://i.pinimg.com/736x/7a/bc/50/7abc503e1c7e9df461f1b716021c948e.jpg",
+        "equipment": true
+    },
+    "preacher-curl": {
+        "name": "preacher-curl",
+        "description": "preacher-curl-description",
+        "primaryTargets": ["biceps"],
+        "secondaryTargets": ["forearm-flexors"],
+        "image": "https://i.pinimg.com/originals/b4/62/7f/b4627ff5e274bda7c854aef8b9d5998d.gif",
+        "equipment": true
+    },
+    "close-grip-bench-press": {
+        "name": "close-grip-bench-press",
+        "description": "close-grip-bench-press-description",
+        "primaryTargets": ["triceps"],
+        "secondaryTargets": ["pectoralis-major", "anterior-deltoid", "lateral-deltoid"],
+        "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/close-grip-bench-press-movement.gif",
+        "equipment": true
+    },
+    "farmers-walk": {
+        "name": "farmers-walk",
+        "description": "farmers-walk-description",
+        "primaryTargets": ["trapezius", "anterior-deltoid", "lateral-deltoid"],
+        "secondaryTargets": ["triceps", "rectus-abdominis", "transverse-abdominis", "forearm-flexors"],
+        "image": "https://fitnessprogramer.com/wp-content/uploads/2022/02/Farmers-walk_Cardio.gif",
+        "equipment": true
+    },
+    "dumbbell-shoulder-press": {
+        "name": "dumbbell-shoulder-press",
+        "description": "dumbbell-shoulder-press-description",
+        "primaryTargets": ["anterior-deltoid", "lateral-deltoid"],
+        "secondaryTargets": ["triceps", "serratus-anterior"],
+        "image": "https://i.pinimg.com/originals/15/36/84/15368453a284ad677e9cf1eaed140491.gif",
+        "equipment": true
+    },
+    "arnold-press": {
+        "name": "arnold-press",
+        "description": "arnold-press-description",
+        "primaryTargets": ["anterior-deltoid", "lateral-deltoid", "triceps"],
+        "secondaryTargets": ["serratus-anterior"],
+        "image": "https://i.pinimg.com/originals/a0/62/45/a06245ae35f261838e8aa7eb133c080d.gif",
+        "equipment": true
+    },
+    "bent-over-reverse-fly": {
+        "name": "bent-over-reverse-fly",
+        "description": "bent-over-reverse-fly-description",
+        "primaryTargets": ["posterior-deltoid", "trapezius", "serratus-anterior"],
+        "secondaryTargets": ["biceps"],
+        "image": "https://i.pinimg.com/originals/01/6f/5e/016f5e3c2cd5088dd234c3dbc74213d4.gif",
+        "equipment": true
+    },
+    "face-pull": {
+        "name": "face-pull",
+        "description": "face-pull-description",
+        "primaryTargets": ["posterior-deltoid", "trapezius", "serratus-anterior"],
+        "secondaryTargets": ["biceps"],
+        "image": "https://i.pinimg.com/originals/13/06/84/130684bb3cde3e3f4e871b06d535233e.gif",
+        "equipment": true
+    },
+    "single-arm-dumbbell-row": {
+        "name": "single-arm-dumbbell-row",
+        "description": "single-arm-dumbbell-row-description",
+        "primaryTargets": ["posterior-deltoid", "trapezius", "serratus-anterior"],
+        "secondaryTargets": ["biceps"],
+        "image": "https://i.pinimg.com/736x/1d/fb/d8/1dfbd886b917387ab005b788c0b7c694.jpg",
+        "equipment": true
+    },
+    "t-bar-row": {
+        "name": "t-bar-row",
+        "description": "t-bar-row-description",
+        "primaryTargets": ["posterior-deltoid", "trapezius", "serratus-anterior"],
+        "secondaryTargets": ["biceps"],
+        "image": "https://i.pinimg.com/originals/83/4f/63/834f63bd2938792b48da4079d942f4ae.gif",
+        "equipment": true
+    },
+    "hyperextensions": {
+        "name": "hyperextensions",
+        "description": "hyperextensions-description",
+        "primaryTargets": ["erector-spinae", "multifidus"],
+        "secondaryTargets": ["gluteal-muscles", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/originals/f1/f6/4d/f1f64d227e8cfbc751102105f9927e72.gif",
+        "equipment": true
+    },
+    "side-bend": {
+        "name": "side-bend",
+        "description": "side-bend-description",
+        "primaryTargets": ["external-obliques", "internal-obliques"],
+        "secondaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "image": "https://i.pinimg.com/736x/94/09/05/940905398c00278be41bc3411d90fbc0.jpg",
+        "equipment": false
+    },
+    "hamstring-curl": {
+        "name": "hamstring-curl",
+        "description": "hamstring-curl-description",
+        "primaryTargets": ["hamstrings"],
+        "secondaryTargets": [],
+        "image": "https://i.pinimg.com/originals/4d/58/19/4d581995094c4cff1343dfe609118219.gif",
+        "equipment": true
+    },
+    "hip-thrusts": {
+        "name": "hip-thrusts",
+        "description": "hip-thrusts-description",
+        "primaryTargets": ["glutes", "hamstrings"],
+        "secondaryTargets": [],
+        "image": "https://i.pinimg.com/originals/c7/89/ae/c789aeb6aeca39524cd34e46fed382a5.gif",
+        "equipment": true
+    },
+    "rest-period": {
+        "name": "rest-period",
+        "description": "rest-period-description",
+        "primaryTargets": [],
+        "secondaryTargets": [],
+        "image": "",
+        "equipment": false
+    }
 }

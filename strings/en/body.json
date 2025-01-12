@@ -104,7 +104,127 @@
         "en": "Middle Back"
     },
     {
+        "id": "anterior-deltoid",
+        "en": "Anterior Deltoid"
+    },
+    {
+        "id": "lateral-deltoid",
+        "en": "Lateral Deltoid"
+    },
+    {
+        "id": "posterior-deltoid",
+        "en": "Posterior Deltoid"
+    },
+    {
+        "id": "trapezius",
+        "en": "Trapezius"
+    },
+    {
+        "id": "serratus-anterior",
+        "en": "Serratus Anterior"
+    },
+    {
+        "id": "pectoralis-major",
+        "en": "Pectoralis Major"
+    },
+    {
+        "id": "pectoralis-minor",
+        "en": "Pectoralis Minor"
+    },
+    {
+        "id": "forearm-flexors",
+        "en": "Forearm Flexors"
+    },
+    {
+        "id": "forearm-extensors",
+        "en": "Forearm Extensors"
+    },
+    {
+        "id": "brachialis",
+        "en": "Brachialis"
+    },
+    {
         "id": "neck",
         "en": "Neck"
+    },
+    {
+        "id": "upper-body",
+        "en": "Upper Body"
+    },
+    {
+        "id": "lower-body",
+        "en": "Lower Body"
+    },
+    {
+        "id": "hip-flexors",
+        "en": "Hip Flexors"
+    },
+    {
+        "id": "hip-extensors",
+        "en": "Hip Extensors"
+    },
+    {
+        "id": "gastrocnemius",
+        "en": "Gastrocnemius"
+    },
+    {
+        "id": "soleus",
+        "en": "Soleus"
+    },
+    {
+        "id": "rhomboids",
+        "en": "Rhomboids"
+    },
+    {
+        "id": "adductors",
+        "en": "Adductors"
+    },
+    {
+        "id": "abductors",
+        "en": "Abductors"
+    },
+    {
+        "id": "rectus-abdominis",
+        "en": "Rectus Abdominis"
+    },
+    {
+        "id": "transverse-abdominis",
+        "en": "Transverse Abdominis"
+    },
+    {
+        "id": "erector-spinae",
+        "en": "Erector Spinae"
+    },
+    {
+        "id": "latissimus-dorsi",
+        "en": "Latissimus Dorsi"
+    },
+    {
+        "id": "teres-major",
+        "en": "Teres Major"
+    },
+    {
+        "id": "teres-minor",
+        "en": "Teres Minor"
+    },
+    {
+        "id": "infraspinatus",
+        "en": "Infraspinatus"
+    },
+    {
+        "id": "supraspinatus",
+        "en": "Supraspinatus"
+    },
+    {
+        "id": "external-obliques",
+        "en": "External Obliques"
+    },
+    {
+        "id": "internal-obliques",
+        "en": "Internal Obliques"
+    },
+    {
+        "id": "multifidus",
+        "en": "Multifidus"
     }
 ]
