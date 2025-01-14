@@ -9,6 +9,12 @@ async function loadWorkoutContent() {
             return;
         }
 
+        const matches = workoutId.match(/(three-day|four-day|five-day)/);
+        if (matches) {
+            document.querySelector('.strength-training').style.display = 'block';
+            document.querySelector('.workout-content-guide').style.display = 'block';
+        }
+
         // Fetch both the workout plan and exercises list
         const [workoutResponse, exercisesResponse] = await Promise.all([
             fetch(`/exercises/data/workout/${workoutId}.json`),

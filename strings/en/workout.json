@@ -202,5 +202,145 @@
     {
         "id": "duration-40-seconds-change",
         "en": "40 Seconds (Change Sides at 20 seconds)"
+    },
+    {
+        "id": "workout-guide-button",
+        "en": "View Our Workout Guide Below"
+    },
+    {
+        "id": "workout-guide-title",
+        "en": "Strength and Muscle Building Workout Plan Guideline"
+    },
+    {
+        "id": "workout-guide-description",
+        "en": "Comprehensive workout schedules for beginners aiming to build strength and muscle mass. Choose between 3, 4, or 5 days per week routines, all targeting major muscle groups."
+    },
+    {
+        "id": "workout-intro-title",
+        "en": "Introduction"
+    },
+    {
+        "id": "workout-intro-content",
+        "en": "This workout plan is designed for beginners looking to build strength and muscle mass. The routines incorporate exercises from previous guides, targeting all major muscle groups: chest, back, shoulders, arms, legs, and core. Each schedule spans 2 months (8 weeks) and can be recycled throughout the year to ensure continuous progress."
+    },
+    {
+        "id": "workout-guidelines-title",
+        "en": "Guidelines"
+    },
+    {
+        "id": "workout-guideline-1",
+        "en": "<b>Consult a Professional:</b> Before starting any new exercise program, consult with a healthcare professional, especially if you have any underlying health conditions."
+    },
+    {
+        "id": "workout-guideline-2",
+        "en": "<b>Warm-Up:</b> Begin each workout with a 5-10 minute warm-up (e.g., light cardio, dynamic stretches)."
+    },
+    {
+        "id": "workout-guideline-3",
+        "en": "<b>Cool Down:</b> End each session with a 5-10 minute cool down and stretching."
+    },
+    {
+        "id": "workout-guideline-4",
+        "en": "<b>Rest Periods:</b> Rest 60-90 seconds between sets."
+    },
+    {
+        "id": "workout-guideline-5",
+        "en": "<b>Proper Form:</b> Focus on mastering technique before increasing weight."
+    },
+    {
+        "id": "workout-guideline-6",
+        "en": "<b>Progressive Overload:</b> Gradually increase weight or repetitions as strength improves."
+    },
+    {
+        "id": "workout-guideline-7",
+        "en": "<b>Hydration:</b> Drink plenty of water before, during, and after workouts."
+    },
+    {
+        "id": "workout-guideline-8",
+        "en": "<b>Nutrition:</b> Maintain a balanced diet rich in protein, carbohydrates, and healthy fats."
+    },
+    {
+        "id": "workout-progression-title",
+        "en": "Progression and Adaptation"
+    },
+    {
+        "id": "workout-progression-1",
+        "en": "<b>Week 1-2:</b> Focus on learning exercises and proper form."
+    },
+    {
+        "id": "workout-progression-2",
+        "en": "<b>Week 3-4:</b> Begin to increase weight slightly."
+    },
+    {
+        "id": "workout-progression-3",
+        "en": "<b>Week 5-6:</b> Increase sets or reps as indicated."
+    },
+    {
+        "id": "workout-progression-4",
+        "en": "<b>Week 7-8:</b> Challenge yourself with higher weights or additional exercises."
+    },
+    {
+        "id": "workout-progression-5",
+        "en": "<b>After Week 8:</b> Repeat the 2-month cycle, adjusting weights and exercises to continue progression."
+    },
+    {
+        "id": "workout-nutrition-title",
+        "en": "Nutrition and Recovery Tips"
+    },
+    {
+        "id": "workout-nutrition-1",
+        "en": "<b>Protein Intake:</b> Consume adequate protein to support muscle repair and growth (approximately 0.7-0.8 grams per pound of body weight)."
+    },
+    {
+        "id": "workout-nutrition-2",
+        "en": "<b>Balanced Diet:</b> Include carbohydrates for energy and healthy fats for overall health."
+    },
+    {
+        "id": "workout-nutrition-3",
+        "en": "<b>Hydration:</b> Aim for at least 8 glasses of water per day."
+    },
+    {
+        "id": "workout-nutrition-4",
+        "en": "<b>Sleep:</b> Get 7-9 hours of quality sleep each night to facilitate recovery."
+    },
+    {
+        "id": "workout-nutrition-5",
+        "en": "<b>Active Recovery:</b> Incorporate light activities like walking or yoga on rest days."
+    },
+    {
+        "id": "workout-nutrition-6",
+        "en": "<b>Supplements:</b> Consider basic supplements like whey protein or multivitamins if dietary intake is insufficient (consult with a healthcare professional)."
+    },
+    {
+        "id": "workout-conclusion-title",
+        "en": "Conclusion"
+    },
+    {
+        "id": "workout-conclusion-content",
+        "en": "This comprehensive workout plan provides beginners with structured routines to build strength and muscle mass effectively. By following the schedules tailored to 3, 4, or 5 days per week, you can choose the plan that best fits your lifestyle. Remember, consistency and proper form are key to achieving your fitness goals. Stay dedicated, listen to your body, and enjoy the journey toward a stronger, healthier you."
+    },
+    {
+        "id": "workout-disclaimer-title",
+        "en": "Disclaimer"
+    },
+    {
+        "id": "workout-disclaimer-content",
+        "en": "This workout plan is intended for informational purposes only. Always consult with a healthcare professional or certified fitness trainer before starting any new exercise program, especially if you have any underlying medical conditions or injuries. The exercises and recommendations provided are general guidelines and may not be suitable for everyone. Use caution and prioritize safety at all times."
+    },
+    {
+        "id": "workout-commitment-title",
+        "en": "Commit to Your Fitness Journey Today!"
+    },
+    {
+        "id": "workout-commitment-content",
+        "en": "Embarking on a strength and muscle-building program is a significant step toward improving your health and well-being. Stay focused, be patient with your progress, and celebrate the milestones along the way."
+    },
+    {
+        "id": "hiit-workout-title",
+        "en": "Power Burst: 12-Minute HIIT Routine"
+    },
+    {
+        "id": "hiit-workout-description",
+        "en": "A high-intensity interval training session designed to boost metabolism, improve endurance, and burn calories in just 12 minutes."
     }
 ]

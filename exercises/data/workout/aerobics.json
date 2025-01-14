@@ -1,0 +1,141 @@
+{
+    "header": {
+        "title": "aerobics-workout-title",
+        "description": "aerobics-workout-description"
+    },
+    "warmup": {
+        "title": "warmup-section",
+        "exercises": [
+            {
+                "id": "marching-in-place",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "arm-circles",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "bird-dog",
+                "duration": "duration-40-seconds"
+            }
+        ]
+    },
+    "main": {
+        "title": "main-workout-section",
+        "exercises": [
+            {
+                "id": "plie-squat-scoop-up",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "side-lunge-front-raise",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "deadlift-upright-row",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "sumo-side-bends",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "lunge-punch",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "split-squat-press",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "plank-bird-dog",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "curtsy-lunge-side-kick-raise",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "single-leg-squat-kickback",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "gate-swings",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "arm-swings",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "lunge-back-kick",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "butterfly-dips",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "cossack-squat",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "double-pulse-squat-jump",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "inchworm",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "ankle-tap-push-ups",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "half-squat-jab-cross",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "speed-bag-punches",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "big-arm-circles",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "balance-chop",
+                "duration": "duration-30-seconds"
+            },
+            {
+                "id": "frog-crunches",
+                "duration": "duration-30-seconds"
+            }
+        ]
+    },
+    "cooldown": {
+        "title": "cooldown-section",
+        "exercises": [
+            {
+                "id": "forward-fold",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "quad-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "tricep-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "back-stretch",
+                "duration": "duration-20-seconds"
+            },
+            {
+                "id": "calf-stretch",
+                "duration": "duration-20-seconds"
+            }
+        ]
+    }
+}

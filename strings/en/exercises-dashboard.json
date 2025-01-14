@@ -240,83 +240,55 @@
         "en": "HIIT"
     },
     {
-        "id": "flexibility-text",
-        "en": "Flexibility and Mobility"
-    },
-    {
-        "id": "stretching-training-title",
-        "en": "Stretching Exercises"
-    },
-    {
-        "id": "stretching-training-description",
-        "en": "Improve flexibility and range of motion with dynamic stretching exercises."
-    },
-    {
-        "id": "stretching",
-        "en": "Stretching Exercises"
-    },
-    {
-        "id": "yoga-training-title",
-        "en": "Yoga Poses"
-    },
-    {
-        "id": "yoga-training-description",
-        "en": "Balance mind, body, and spirit with yoga."
-    },
-    {
-        "id": "yoga",
-        "en": "Yoga Poses"
-    },
-    {
-        "id": "balance-training-title",
-        "en": "Balance and Stability"
-    },
-    {
-        "id": "balance-training-description",
-        "en": "Improve balance and stability with these exercises."
-    },
-    {
-        "id": "balance",
-        "en": "Balance and Stability"
-    },
-    {
         "id": "mind-body-text",
         "en": "Mind-Body Essentials"
     },
     {
-        "id": "breathwork-training-title",
-        "en": "Breathwork"
+        "id": "yoga-title",
+        "en": "Yoga Poses"
     },
     {
-        "id": "breathwork-training-description",
-        "en": "Improve breath control and relaxation with breathwork exercises."
+        "id": "yoga-description",
+        "en": "Balance mind, body, and spirit with yoga."
     },
     {
-        "id": "breathwork",
-        "en": "Breathwork"
-    },
-    {
-        "id": "sleep-training-title",
+        "id": "sleep-title",
         "en": "Healthy Sleeping"
     },
     {
-        "id": "sleep-training-description",
+        "id": "sleep-description",
         "en": "Improve sleep quality with these tips."
     },
     {
-        "id": "sleep",
-        "en": "Healthy Sleep"
-    },
-    {
-        "id": "stress-training-title",
+        "id": "stress-regulation-title",
         "en": "Stress Regulation"
     },
     {
-        "id": "stress-training-description",
+        "id": "stress-regulation-description",
         "en": "Manage stress and anxiety with these techniques."
     },
     {
-        "id": "meditation",
-        "en": "Meditation"
+        "id": "cardio-guide",
+        "en": "Cardio Guide"
+    },
+    {
+        "id": "cardio-workout",
+        "en": "Cardio Workout"
+    },
+    {
+        "id": "aerobics-guide",
+        "en": "Aerobics Guide"
+    },
+    {
+        "id": "aerobics-workout",
+        "en": "Aerobics Workout"
+    },
+    {
+        "id": "hiit-guide",
+        "en": "HIIT Guide"
+    },
+    {
+        "id": "hiit-workout",
+        "en": "HIIT Workout"
     }
 ]

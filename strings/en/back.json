@@ -33,7 +33,7 @@
     },
     {
         "id": "back-anatomy-caption",
-        "en": "Back Anatomy"
+        "en": "<b>Back Anatomy</b>"
     },
     {
         "id": "back-safety-title",
@@ -45,7 +45,7 @@
     },
     {
         "id": "back-sample-workout-steps",
-        "en": "Lat Pulldown: 2 sets x 10 reps\\nSeated Cable Row: 2 sets x 10 reps\\nSingle-Arm Dumbbell Row: 2 sets x 10 reps per arm\\nHyperextensions: 2 sets x 12 reps\\nSuperman: 2 sets x 10 reps\\nDeadlifts (Light Weight): 2 sets x 8 reps\\nBird Dog: 2 sets x 8 reps per side"
+        "en": "<b>Lat Pulldown:</b> 2 sets x 10 reps\\n<b>Seated Cable Row:</b> 2 sets x 10 reps\\n<b>Single-Arm Dumbbell Row:</b> 2 sets x 10 reps per arm\\n<b>Hyperextensions:</b> 2 sets x 12 reps\\n<b>Superman:</b> 2 sets x 10 reps\\n<b>Deadlifts (Light Weight):</b> 2 sets x 8 reps\\n<b>Bird Dog:</b> 2 sets x 8 reps per side"
     },
     {
         "id": "back-conclusion",

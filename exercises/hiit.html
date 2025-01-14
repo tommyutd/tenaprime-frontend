@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/exercises/exercises.css">
+  <link rel="icon" href="/assets/logo-mini.svg">
+  <script src="/scripts/route-guard.js"></script>
+</head>
+
+<body>
+  <div class="homepage">
+    <div class="header">
+      <div class="logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <div class="navigation aleo-text">
+        <div class="navigation-home">
+          <a href="/dashboard">
+            <div class="home-text" data-text-key="home-menu-item">Home</div>
+          </a>
+        </div>
+
+        <div class="navigation-exercises">
+          <a href="/exercises">
+            <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+          </a>
+        </div>
+
+        <div class="navigation-nutrition">
+          <a href="/nutrition">
+            <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+          </a>
+        </div>
+
+        <div class="navigation-prizes">
+          <a href="/prizes">
+            <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
+          </a>
+        </div>
+
+        <div class="navigation-about">
+          <a href="/about">
+            <div class="about-text" data-text-key="about-menu-item">About</div>
+          </a>
+        </div>
+      </div>
+      <div class="extra-navigation">
+        <div class="avatar">
+          <img src="/assets/avatar.svg" alt="Account">
+          <div class="stats-popup aleo-text" id="statsPopup">
+            <div class="stats-container">
+              <div class="stats-header">
+                <h2 data-text-key="stats-title">Your Stats</h2>
+                <button class="close-button" id="closeStats">&times;</button>
+              </div>
+              <div class="stats-content">
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                  <span class="stats-value">5 <span data-text-key="days">days</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="points-earned">Points Earned</span>
+                  <span class="stats-value">250 <span data-text-key="points">points</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                  <span class="stats-value">12</span>
+                </div>
+              </div>
+              <div class="stats-footer">
+                <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="language-selector aleo-text">
+          <p>EN</p>
+          <div class="language-dropdown">
+            <div class="language-option" data-lang="en">English</div>
+            <div class="language-option" data-lang="አማ">አማርኛ</div>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="ethiotelecom">
+        <div class="ethiotelecom-container">
+          <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+        </div>
+      </div>
+    </div>
+
+    <div class="strength-training aleo-text">
+      <div class="strength-training-header">
+        <h1 data-text-key="hiit-guide-title">HIIT Workouts</h1>
+        <p data-text-key="hiit-guide-description">Improve your cardiovascular health, burn calories quickly, and boost overall fitness through High-Intensity Interval Training (HIIT).</p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="hiit-intro-title">1. Introduction to HIIT</h2>
+        <p data-text-key="hiit-intro-content">HIIT involves alternating short bursts of intense exercise with periods of low-intensity recovery or rest. This training method efficiently increases heart rate, burns a high number of calories in a short period, and improves both aerobic and anaerobic fitness. HIIT is adaptable to various exercises, making it a versatile addition to your fitness routine.</p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="hiit-benefits-title">2. Benefits of HIIT Workouts</h2>
+        <ul>
+          <li><p data-text-key="hiit-benefit-time"><b>Time Efficiency:</b> Workouts can be completed in 15-30 minutes, making HIIT ideal for busy schedules.</p></li>
+          <li><p data-text-key="hiit-benefit-calories"><b>Calorie Burn:</b> Rapid bursts of intense activity boost calorie burn during and after the workout.</p></li>
+          <li><p data-text-key="hiit-benefit-cardio"><b>Improved Cardiovascular Health:</b> Enhances both aerobic and anaerobic endurance.</p></li>
+          <li><p data-text-key="hiit-benefit-metabolism"><b>Metabolic Boost:</b> Increases metabolism through the afterburn effect (EPOC - Excess Post-exercise Oxygen Consumption).</p></li>
+          <li><p data-text-key="hiit-benefit-muscle"><b>Muscle Tone:</b> Helps build and maintain lean muscle mass.</p></li>
+          <li><p data-text-key="hiit-benefit-versatility"><b>Versatility:</b> Can be performed with or without equipment and adapted to various fitness levels.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="hiit-intensity-title">3. Understanding HIIT Intensity and Work-to-Rest Ratios</h2>
+        <ul>
+          <li><p data-text-key="hiit-intensity-high"><b>High-Intensity Intervals:</b> Typically performed at 80-95% of maximum effort.</p></li>
+          <li><p data-text-key="hiit-intensity-recovery"><b>Recovery Intervals:</b> Lower intensity or complete rest, usually lasting from 10 to 30 seconds.</p></li>
+          <li><p data-text-key="hiit-intensity-ratio"><b>Work-to-Rest Ratio:</b> Commonly set at 1:1 or 1:2 (e.g., 30 seconds of high-intensity work followed by 30-60 seconds of rest).</p></li>
+          <li><p data-text-key="hiit-intensity-duration"><b>Total Duration:</b> Effective HIIT sessions generally last between 15 and 30 minutes, including warm-up and cooldown.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="hiit-types-title">4. Types of HIIT Exercises</h2>
+        
+        <h3 data-text-key="hiit-sprint-title">A. Sprint Intervals</h3>
+        <ul>
+          <li><p data-text-key="hiit-sprint-examples"><b>Examples:</b> Running sprints, cycling sprints, or using a rowing machine.</p></li>
+          <li><p data-text-key="hiit-sprint-benefits"><b>Benefits:</b> Rapid calorie burn and improved speed and endurance.</p></li>
+        </ul>
+
+        <h3 data-text-key="hiit-bodyweight-title">B. Bodyweight Circuit HIIT</h3>
+        <ul>
+          <li><p data-text-key="hiit-bodyweight-examples"><b>Examples:</b> Burpees, mountain climbers, jumping jacks, and squat jumps.</p></li>
+          <li><p data-text-key="hiit-bodyweight-benefits"><b>Benefits:</b> No equipment needed; improves overall strength and cardiovascular fitness simultaneously.</p></li>
+        </ul>
+
+        <h3 data-text-key="hiit-machine-title">C. Cardio Machine HIIT</h3>
+        <ul>
+          <li><p data-text-key="hiit-machine-examples"><b>Examples:</b> Treadmills, stationary bikes, elliptical machines, or stair climbers with high-intensity intervals.</p></li>
+          <li><p data-text-key="hiit-machine-benefits"><b>Benefits:</b> Controlled environment for adjusting intensity and tracking progress.</p></li>
+        </ul>
+
+        <h3 data-text-key="hiit-plyometric-title">D. Plyometric HIIT</h3>
+        <ul>
+          <li><p data-text-key="hiit-plyometric-examples"><b>Examples:</b> Box jumps, jump squats, and lateral bounds.</p></li>
+          <li><p data-text-key="hiit-plyometric-benefits"><b>Benefits:</b> Enhances explosive power, coordination, and agility.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="hiit-guidelines-title">5. Guidelines for Beginners</h2>
+        <ul>
+          <li><p data-text-key="hiit-guidelines-medical"><b>Medical Clearance:</b> Consult a healthcare professional if you have any underlying health conditions.</p></li>
+          <li><p data-text-key="hiit-guidelines-warmup"><b>Warm-Up:</b> Perform a 5-10 minute warm-up before starting HIIT (e.g., light jogging, dynamic stretches).</p></li>
+          <li><p data-text-key="hiit-guidelines-start"><b>Start Slowly:</b> Begin with shorter intervals and longer rest periods; gradually shorten rest time as fitness improves.</p></li>
+          <li><p data-text-key="hiit-guidelines-form"><b>Focus on Form:</b> Maintain proper technique to prevent injuries, even during intense intervals.</p></li>
+          <li><p data-text-key="hiit-guidelines-cooldown"><b>Cool Down:</b> End each session with a 5-10 minute cooldown to gradually lower your heart rate and stretch muscles.</p></li>
+          <li><p data-text-key="hiit-guidelines-hydration"><b>Hydrate:</b> Drink water before, during, and after HIIT sessions.</p></li>
+          <li><p data-text-key="hiit-guidelines-listen"><b>Listen to Your Body:</b> If you feel excessively fatigued or unwell, reduce the intensity or rest more between intervals.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="hiit-schedules-title">6. Sample HIIT Workout Schedules</h2>
+        
+        <h3 data-text-key="hiit-3day-title">A. 3-Day per Week Program</h3>
+        <ul>
+          <li><p data-text-key="hiit-3day-info">Days: Monday, Wednesday, Friday</p></li>
+          <li><p data-text-key="hiit-3day-focus">Focus: Build cardiovascular fitness and burn calories with a full-body HIIT approach.</p></li>
+        </ul>
+        
+        <h4 data-text-key="hiit-3day-week12-title">Weeks 1-2:</h4>
+        <ul>
+          <li><p data-text-key="hiit-3day-week12-duration">Session Duration: 15 minutes (excluding warm-up and cooldown)</p></li>
+          <li><p data-text-key="hiit-3day-week12-structure">Structure:</p></li>
+          <ul>
+            <li><p data-text-key="hiit-3day-week12-high">30 seconds high-intensity exercise (e.g., sprinting in place or jump squats)</p></li>
+            <li><p data-text-key="hiit-3day-week12-low">60 seconds low-intensity recovery (e.g., brisk walk or standing rest)</p></li>
+            <li><p data-text-key="hiit-3day-week12-rounds">Repeat for 10 rounds</p></li>
+          </ul>
+        </ul>
+
+        <h4 data-text-key="hiit-3day-week34-title">Weeks 3-4:</h4>
+        <ul>
+          <li><p data-text-key="hiit-3day-week34-increase">Increase high-intensity phase to 40 seconds</p></li>
+          <li><p data-text-key="hiit-3day-week34-reduce">Reduce recovery to 50 seconds</p></li>
+          <li><p data-text-key="hiit-3day-week34-rounds">Repeat for 10 rounds</p></li>
+        </ul>
+
+        <h4 data-text-key="hiit-3day-week58-title">Weeks 5-8:</h4>
+        <ul>
+          <li><p data-text-key="hiit-3day-week58-duration">Increase total workout duration to 20 minutes</p></li>
+          <li><p data-text-key="hiit-3day-week58-ratio">Use a work-to-rest ratio of 1:1 (e.g., 40 seconds high intensity, 40 seconds recovery)</p></li>
+          <li><p data-text-key="hiit-3day-week58-rounds">Aim for 12-15 rounds</p></li>
+        </ul>
+
+        <h3 data-text-key="hiit-4day-title">B. 4-Day per Week Program</h3>
+        <ul>
+          <li><p data-text-key="hiit-4day-info">Days: Monday, Tuesday, Thursday, Friday</p></li>
+          <li><p data-text-key="hiit-4day-focus">Focus: Introduce variety by combining different HIIT modalities.</p></li>
+        </ul>
+
+        <h4 data-text-key="hiit-4day-week12-title">Weeks 1-2:</h4>
+        <ul>
+          <li><p data-text-key="hiit-4day-week12-duration">Session Duration: 15 minutes</p></li>
+          <li><p data-text-key="hiit-4day-week12-structure">Structure:</p></li>
+          <ul>
+            <li><p data-text-key="hiit-4day-week12-exercises1">30 seconds jumping jacks</p></li>
+            <li><p data-text-key="hiit-4day-week12-exercises2">30 seconds high knees</p></li>
+            <li><p data-text-key="hiit-4day-week12-exercises3">30 seconds burpees</p></li>
+            <li><p data-text-key="hiit-4day-week12-exercises4">30 seconds rest</p></li>
+            <li><p data-text-key="hiit-4day-week12-cycle">Cycle through these exercises for 15 minutes</p></li>
+          </ul>
+        </ul>
+
+        <h4 data-text-key="hiit-4day-week34-title">Weeks 3-4:</h4>
+        <ul>
+          <li><p data-text-key="hiit-4day-week34-increase">Increase session to 18 minutes</p></li>
+          <li><p data-text-key="hiit-4day-week34-ratio">Maintain 1:1 work-to-rest ratio</p></li>
+          <li><p data-text-key="hiit-4day-week34-alternate">Introduce alternating exercises (e.g., sprint intervals on Monday, bodyweight circuits on Tuesday)</p></li>
+        </ul>
+
+        <h4 data-text-key="hiit-4day-week58-title">Weeks 5-8:</h4>
+        <ul>
+          <li><p data-text-key="hiit-4day-week58-duration">Extend session duration to 20 minutes</p></li>
+          <li><p data-text-key="hiit-4day-week58-circuits">Incorporate two different circuits on alternating days (one focused on plyometric movements, the other on cardio machine intervals)</p></li>
+          <li><p data-text-key="hiit-4day-week58-intensity">Increase intensity gradually as fitness improves</p></li>
+        </ul>
+
+        <h3 data-text-key="hiit-5day-title">C. 5-Day per Week Program</h3>
+        <ul>
+          <li><p data-text-key="hiit-5day-info">Days: Monday to Friday</p></li>
+          <li><p data-text-key="hiit-5day-focus">Focus: More frequent HIIT sessions for advanced adaptation and higher calorie burn.</p></li>
+        </ul>
+
+        <h4 data-text-key="hiit-5day-week12-title">Weeks 1-2:</h4>
+        <ul>
+          <li><p data-text-key="hiit-5day-week12-duration">Session Duration: 15 minutes each day</p></li>
+          <li><p data-text-key="hiit-5day-week12-structure">Structure:</p></li>
+          <ul>
+            <li><p data-text-key="hiit-5day-week12-monday">Monday: Sprint intervals on treadmill (30 sec sprint, 60 sec walk)</p></li>
+            <li><p data-text-key="hiit-5day-week12-tuesday">Tuesday: Bodyweight HIIT (burpees, mountain climbers, squat jumps)</p></li>
+            <li><p data-text-key="hiit-5day-week12-wednesday">Wednesday: Low-impact HIIT on stationary bike (30 sec high resistance, 60 sec low resistance)</p></li>
+            <li><p data-text-key="hiit-5day-week12-thursday">Thursday: Mixed modalities (combination of jump rope and jumping jacks)</p></li>
+            <li><p data-text-key="hiit-5day-week12-friday">Friday: Core-focused HIIT (plank jacks, bicycle crunches)</p></li>
+          </ul>
+          <li><p data-text-key="hiit-5day-week12-rounds">Aim for 10 rounds per session</p></li>
+        </ul>
+
+        <h4 data-text-key="hiit-5day-week34-title">Weeks 3-4:</h4>
+        <ul>
+          <li><p data-text-key="hiit-5day-week34-duration">Increase session duration to 18 minutes</p></li>
+          <li><p data-text-key="hiit-5day-week34-ratio">Adjust work-to-rest ratio to 40 sec:40 sec</p></li>
+          <li><p data-text-key="hiit-5day-week34-variations">Introduce variations in exercises for each day</p></li>
+        </ul>
+
+        <h4 data-text-key="hiit-5day-week58-title">Weeks 5-8:</h4>
+        <ul>
+          <li><p data-text-key="hiit-5day-week58-duration">Increase session duration to 20 minutes</p></li>
+          <li><p data-text-key="hiit-5day-week58-exercises">Incorporate high-intensity exercises like box jumps or battle ropes (if available)</p></li>
+          <li><p data-text-key="hiit-5day-week58-alternate">Alternate between different exercise circuits to maintain engagement and challenge the body</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="hiit-tips-title">7. Tips for Maximizing HIIT Benefits</h2>
+        <ul>
+          <li><p data-text-key="hiit-tips-consistency"><b>Consistency:</b> Stick to your schedule for better progress.</p></li>
+          <li><p data-text-key="hiit-tips-variety"><b>Variety:</b> Change exercises regularly to avoid plateaus.</p></li>
+          <li><p data-text-key="hiit-tips-tracking"><b>Track Progress:</b> Monitor your heart rate, rounds completed, and perceived exertion.</p></li>
+          <li><p data-text-key="hiit-tips-rest"><b>Rest Adequately:</b> Ensure proper recovery between HIIT sessions to prevent overtraining.</p></li>
+          <li><p data-text-key="hiit-tips-fuel"><b>Fuel Appropriately:</b> Eat a balanced meal a couple of hours before and after your workout for optimal energy.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="hiit-concerns-title">8. Common Concerns and Modifications</h2>
+        <ul>
+          <li><p data-text-key="hiit-concerns-joint"><b>Joint Pain:</b> Choose low-impact exercises like cycling or swimming instead of running if needed.</p></li>
+          <li><p data-text-key="hiit-concerns-breathing"><b>Breathing Issues:</b> Slow down the pace of high-intensity intervals or extend recovery periods.</p></li>
+          <li><p data-text-key="hiit-concerns-time"><b>Time Constraints:</b> Shorter sessions of 15 minutes can still be highly effective with high intensity.</p></li>
+          <li><p data-text-key="hiit-concerns-plateaus"><b>Plateaus:</b> Switch up the exercises or adjust the work-to-rest ratio to continue challenging your body.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="hiit-professional-help-title">9. When to Seek Professional Help</h2>
+        <ul>
+          <li><p data-text-key="hiit-professional-fatigue"><b>Excessive Fatigue or Dizziness:</b> If you experience severe fatigue, dizziness, or pain during HIIT, consult a healthcare professional.</p></li>
+          <li><p data-text-key="hiit-professional-conditions"><b>Chronic Health Conditions:</b> Conditions such as heart disease, asthma, or joint problems may require personalized modifications.</p></li>
+          <li><p data-text-key="hiit-professional-discomfort"><b>Persistent Discomfort:</b> If any part of the workout consistently causes discomfort or pain, consider working with a certified trainer for adjustments.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="hiit-conclusion-title">10. Conclusion</h2>
+        <p data-text-key="hiit-conclusion-content">HIIT workouts offer an efficient, versatile, and effective way to improve cardiovascular health, increase calorie burn, and build endurance. Whether you choose a 3-day, 4-day, or 5-day per week program, consistency and gradual progression are key. By tailoring the intensity and duration to your fitness level and incorporating variety into your workouts, you can make HIIT a sustainable part of your fitness journey.</p>
+        
+        <p data-text-key="disclaimer" class="disclaimer"><i>Disclaimer: This guide is for informational purposes only. Always consult with a healthcare professional before starting a new exercise program, particularly if you have any pre-existing health conditions or concerns.</i></p>
+      </div>
+
+    </div>
+
+    <div class="footer aleo-text">
+      <div class="footer-content">
+        <div class="footer-sections">
+          <div class="footer-section">
+            <h3 data-text-key="footer-quick-links">Quick Links</h3>
+            <ul>
+              <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
+              <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
+              <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
+              <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-information">Information</h3>
+            <ul>
+              <li><a href="/about" data-text-key="about-menu-item">About</a></li>
+              <li><a href="#" data-text-key="faq">FAQ</a></li>
+              <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
+              <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-contact">Contact</h3>
+            <ul>
+              <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+              <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+              <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+              <li><a href="#" data-text-key="support">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-section footer-logo">
+            <img src="/assets/logo.svg" alt="TenaPrime">
+            <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+            <div class="footer-social">
+              <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
+              <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
+              <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 TenaPrime. All rights reserved.</p>
+          <div class="footer-ethiotelecom">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-overlay"></div>
+  <div class="sidebar aleo-text" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <button class="sidebar-close">&times;</button>
+    </div>
+
+    <div class="sidebar-language-selector">
+      <div class="language-options-container">
+        <div class="sidebar-language-option" data-lang="en">
+          <span class="language-text">English</span>
+        </div>
+        <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+          <span class="language-text">አማርኛ</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-navigation">
+      <a href="/dashboard" class="sidebar-item">
+        <div data-text-key="home-menu-item">Home</div>
+      </a>
+      <a href="/exercises" class="sidebar-item">
+        <div data-text-key="exercises-menu-item">Exercises</div>
+      </a>
+      <a href="/nutrition" class="sidebar-item">
+        <div data-text-key="nutrition-menu-item">Nutrition</div>
+      </a>
+      <a href="/prizes" class="sidebar-item">
+        <div data-text-key="prizes-menu-item">Prizes</div>
+      </a>
+      <a href="/about" class="sidebar-item">
+        <div data-text-key="about-menu-item">About</div>
+      </a>
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="#" class="sidebar-item">
+        <div data-text-key="tandc">Terms & Conditions</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="faq">FAQ</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="privacy-policy">Privacy Policy</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="contact-us">Contact Us</div>
+      </a>
+    </div>
+  </div>
+
+  <script src="/scripts/config.js"></script>
+  <script src="/scripts/auth-service.js"></script>
+  <script src="/scripts/strings-loader.js"></script>
+  <script src="/scripts/language-selector.js"></script>
+  <script src="/scripts/user-stats-popup.js"></script>
+  <script src="/scripts/sidebar-overlay.js"></script>
+
+</body>
+
+</html>

@@ -33,7 +33,7 @@
     },
     {
         "id": "arms-anatomy-caption",
-        "am": "ክንድ አናቶሚ"
+        "am": "<b>የክንድ አናቶሚ</b>"
     },
     {
         "id": "arms-safety-title",
@@ -45,7 +45,7 @@
     },
     {
         "id": "arms-sample-workout-steps",
-        "am": "Dumbbell Bicep Curl: 2 set x 10 reps\\nTricep Dips: 2 sets x 10 reps\\nHammer Curl: 2 sets x 10 reps : 2 ስብስቦች x 12 reps\\nየአርሶ አደር የእግር ጉዞ፡ 2 ስብስቦች x 30 ሰከንድ\\nዳይመንድ ፑሽ-አፕስ፡ 2 ስብስቦች x 8 ድግግሞሾች (እንደአስፈላጊነቱ ቀይር)"
+        "am": "<b>Dumbbell Bicep Curl:</b> 2 ስብስቦች x 10 ድግግሞሾች\\n<b>Tricep Dips:</b> 2 ስብስቦች x 10 ድግግሞሾች\\n<b>መዶሻ ከርል:</b> 2 ስብስቦች x 10 ድግግሞሽ \\n<b>ከላይ ትሪሴፕ ቅጥያ፡</b> 2 ስብስቦች x 10 ድግግሞሽ\\n<b>የእጅ አንጓ፡</b> 2 ስብስቦች x 12 reps\\n<b>የተገላቢጦሽ የእጅ አንጓ፡</b> 2 ስብስቦች x 12 ድግግሞሾች\\n<b>የገበሬው የእግር ጉዞ፡</b> 2 ስብስቦች x 30 ሰከንድ\\n<b>አልማዝ ፑሽ አፕስ፡</b> b> 2 ስብስቦች x 8 ድግግሞሽ (እንደ አስፈላጊነቱ ይቀይሩ)"
     },
     {
         "id": "arms-conclusion",

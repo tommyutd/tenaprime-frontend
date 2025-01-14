@@ -242,6 +242,8 @@ async function loadStrengthContent() {
                     <div class="strength-section">
                         <h2 data-text-key="strength-conclusion"></h2>
                         <p data-text-key="${muscleGroup}-conclusion"></p>
+
+                        <p data-text-key="disclaimer" class="disclaimer"></p>
                     </div>
                 </div>
             </div>

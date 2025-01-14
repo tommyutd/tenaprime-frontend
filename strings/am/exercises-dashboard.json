@@ -240,83 +240,55 @@
         "am": "HIIT"
     },
     {
-        "id": "flexibility-text",
-        "am": "ተለዋዋጭነት እና ተንቀሳቃሽነት"
-    },
-    {
-        "id": "stretching-training-title",
-        "am": "የመለጠጥ መልመጃዎች"
-    },
-    {
-        "id": "stretching-training-description",
-        "am": "በተለዋዋጭ የመለጠጥ ልምምዶች የመተጣጠፍ እና የእንቅስቃሴ ክልልን ያሻሽሉ።"
-    },
-    {
-        "id": "stretching",
-        "am": "የመለጠጥ መልመጃዎች"
-    },
-    {
-        "id": "yoga-training-title",
-        "am": "ዮጋ አቀማመጥ"
-    },
-    {
-        "id": "yoga-training-description",
-        "am": "አእምሮን፣ አካልን እና መንፈስን በዮጋ ማመጣጠን።"
-    },
-    {
-        "id": "yoga",
-        "am": "ዮጋ አቀማመጥ"
-    },
-    {
-        "id": "balance-training-title",
-        "am": "ሚዛን እና መረጋጋት"
-    },
-    {
-        "id": "balance-training-description",
-        "am": "በእነዚህ መልመጃዎች ሚዛን እና መረጋጋትን ያሻሽሉ።"
-    },
-    {
-        "id": "balance",
-        "am": "ሚዛን እና መረጋጋት"
-    },
-    {
         "id": "mind-body-text",
         "am": "የአእምሮ-አካል አስፈላጊ ነገሮች"
     },
     {
-        "id": "breathwork-training-title",
-        "am": "የመተንፈስ ስራ"
+        "id": "yoga-title",
+        "am": "ዮጋ አቀማመጥ"
     },
     {
-        "id": "breathwork-training-description",
-        "am": "በአተነፋፈስ የአካል ብቃት እንቅስቃሴዎች የትንፋሽ ቁጥጥርን እና መዝናናትን ያሻሽሉ።"
+        "id": "yoga-description",
+        "am": "አእምሮን፣ አካልን እና መንፈስን በዮጋ ማመጣጠን።"
     },
     {
-        "id": "breathwork",
-        "am": "የመተንፈስ ስራ"
-    },
-    {
-        "id": "sleep-training-title",
+        "id": "sleep-title",
         "am": "ጤናማ እንቅልፍ"
     },
     {
-        "id": "sleep-training-description",
+        "id": "sleep-description",
         "am": "በእነዚህ ምክሮች የእንቅልፍ ጥራትን ያሻሽሉ."
     },
     {
-        "id": "sleep",
-        "am": "ጤናማ እንቅልፍ"
-    },
-    {
-        "id": "stress-training-title",
+        "id": "stress-regulation-title",
         "am": "የጭንቀት ደንብ"
     },
     {
-        "id": "stress-training-description",
+        "id": "stress-regulation-description",
         "am": "በእነዚህ ዘዴዎች ጭንቀትን እና ጭንቀትን ይቆጣጠሩ."
     },
     {
-        "id": "meditation",
-        "am": "ማሰላሰል"
+        "id": "cardio-guide",
+        "am": "የካርዲዮ መመሪያ"
+    },
+    {
+        "id": "cardio-workout",
+        "am": "የካርዲዮ የአካል ብቃት እንቅስቃሴ"
+    },
+    {
+        "id": "aerobics-guide",
+        "am": "የኤሮቢክስ መመሪያ"
+    },
+    {
+        "id": "aerobics-workout",
+        "am": "ኤሮቢክስ የአካል ብቃት እንቅስቃሴ"
+    },
+    {
+        "id": "hiit-guide",
+        "am": "የ HIIT መመሪያ"
+    },
+    {
+        "id": "hiit-workout",
+        "am": "HIIT የአካል ብቃት እንቅስቃሴ"
     }
 ]

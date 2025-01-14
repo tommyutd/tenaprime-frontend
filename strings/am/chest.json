@@ -33,7 +33,7 @@
     },
     {
         "id": "chest-anatomy-caption",
-        "am": "የደረት አናቶሚ"
+        "am": "<b>የደረት አናቶሚ</b>"
     },
     {
         "id": "chest-safety-title",
@@ -45,7 +45,7 @@
     },
     {
         "id": "chest-sample-workout-steps",
-        "am": "መደበኛ ፑሽ አፕ፡ 2 ስብስቦች x 8-12 ድግግሞሾች\\nአዘንበል ዱምብቤል ቤንች ማተሚያ፡ 3 ስብስቦች x 10 ድግግሞሾች\\nDumbbell Fly፡ 2 sets x 12 reps ለ 30 ሰከንድ x 2"
+        "am": "<b>መደበኛ ግፊቶች፡</b> 2 ስብስቦች x 8-12 ድግግሞሾች\\n<b>ደንብቤል ቤንች ማተሚያ ማዘንበል፡</b> 3 ስብስቦች x 10 reps\\n<b>Dumbbell Fly፡</b> 2 ስብስቦች x 12 ድግግሞሽ\\n<b>የደረት ማተሚያ ማሽን፡</b> 2 ስብስቦች x 10 ድግግሞሾች\\n<b>ፕላንክ (ኮር) መልመጃ):</b>ለ 30 ሰከንድ x 2 ይያዙ"
     },
     {
         "id": "chest-conclusion",

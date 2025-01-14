@@ -1,0 +1,870 @@
+[
+    {
+        "id": "cardio-guide-title",
+        "am": "ከ Cardio መልመጃዎች ጋር ክብደትን ለመቀነስ አጠቃላይ መመሪያ"
+    },
+    {
+        "id": "cardio-guide-description",
+        "am": "ውጤታማ የካርዲዮቫስኩላር ስፖርታዊ እንቅስቃሴዎችን እና በመረጃ የተደገፈ የአኗኗር ዘይቤን በመጠቀም የክብደት መቀነስ ግቦችዎን ያሳኩ።"
+    },
+    {
+        "id": "cardio-intro-title",
+        "am": "1. የክብደት መቀነስ እና የካርዲዮ መግቢያ"
+    },
+    {
+        "id": "cardio-intro-content",
+        "am": "ክብደት መቀነስ ጤንነታቸውን እና ደህንነታቸውን ለማሻሻል ለሚፈልጉ ብዙ ግለሰቦች የጋራ ግብ ነው። የካርዲዮቫስኩላር ልምምድ ወይም ካርዲዮ, ክብደትን ለመቀነስ አስፈላጊ የሆነውን የካሎሪ እጥረት በመፍጠር ረገድ ትልቅ ሚና ይጫወታል. ይህ መመሪያ የካርዲዮ ስፖርታዊ እንቅስቃሴን እንደ አጠቃላይ የክብደት መቀነስ ስትራቴጂ አካል እንዴት መጠቀም እንደሚቻል ዝርዝር መረጃ ይሰጣል።"
+    },
+    {
+        "id": "cardio-mechanisms-title",
+        "am": "2. የክብደት መቀነሻ ዘዴዎችን መረዳት"
+    },
+    {
+        "id": "cardio-calorie-balance-title",
+        "am": "የካሎሪ ሚዛን"
+    },
+    {
+        "id": "cardio-caloric-deficit",
+        "am": "<b>የካሎሪክ እጥረት፡</b> ክብደትን ለመቀነስ ከምትጠቀሙት በላይ ካሎሪዎችን ማቃጠል አለቦት።"
+    },
+    {
+        "id": "cardio-bmr",
+        "am": "<b>Basal Metabolic Rate (BMR):</b> በእረፍት ጊዜ ሰውነትዎ የሚፈልገው የካሎሪዎች ብዛት።"
+    },
+    {
+        "id": "cardio-tdee",
+        "am": "<b>ጠቅላላ ዕለታዊ የኢነርጂ ወጪ (TDEE):</b> በአንድ ቀን ውስጥ የሚያቃጥሏቸው ጠቅላላ የካሎሪዎች ብዛት፣ ሁሉንም እንቅስቃሴዎች ጨምሮ።"
+    },
+    {
+        "id": "cardio-role-title",
+        "am": "በክብደት መቀነስ ውስጥ የካርዲዮ ሚና"
+    },
+    {
+        "id": "cardio-calorie-burn",
+        "am": "<b>የካሎሪ ማቃጠል መጨመር፡</b> የካርዲዮ ልምምዶች የልብ ምትን ይጨምራሉ፣ ይህም ከፍተኛ የካሎሪ ወጪን ያስከትላል።"
+    },
+    {
+        "id": "cardio-metabolic-rate",
+        "am": "<b>የተሻሻለ የሜታቦሊክ ፍጥነት፡</b> መደበኛ ካርዲዮ የእርስዎን ሜታቦሊዝም ከፍ ያደርገዋል፣ ይህም ክብደትን ለመቀነስ ይረዳል።"
+    },
+    {
+        "id": "cardio-fat-oxidation",
+        "am": "<b>Fat Oxidation፡</b> Cardio የተከማቸ ስብን እንደ ሃይል ምንጭ መጠቀምን ያበረታታል።"
+    },
+    {
+        "id": "cardio-benefits-title",
+        "am": "3. የካርዲዮቫስኩላር ልምምድ ጥቅሞች"
+    },
+    {
+        "id": "cardio-benefit-heart",
+        "am": "<b>የልብ ጤና፡</b> የልብና የደም ሥር (cardiovascular) ሥርዓትን ያጠናክራል።"
+    },
+    {
+        "id": "cardio-benefit-endurance",
+        "am": "<b>የተሻሻለ ጽናት፡</b> ለዕለት ተዕለት እንቅስቃሴ ብርታትን ይጨምራል።"
+    },
+    {
+        "id": "cardio-benefit-stress",
+        "am": "<b>የጭንቀት ቅነሳ፡</b> ስሜትን የሚያሻሽል ኢንዶርፊን ያወጣል።"
+    },
+    {
+        "id": "cardio-benefit-blood-sugar",
+        "am": "<b>የደም ስኳር ደንብ፡</b> የኢንሱሊን ስሜትን ለመቆጣጠር ይረዳል።"
+    },
+    {
+        "id": "cardio-benefit-sleep",
+        "am": "<b>የእንቅልፍ ጥራት፡</b> የተሻሉ የእንቅልፍ ሁኔታዎችን ያበረታታል።"
+    },
+    {
+        "id": "cardio-safety-title",
+        "am": "4. ለ Cardio Workouts የደህንነት ጥንቃቄዎች"
+    },
+    {
+        "id": "cardio-safety-medical",
+        "am": "<b>የህክምና ክሊራንስ፡</b> አዲስ የአካል ብቃት እንቅስቃሴ ስርዓት ከመጀመርዎ በፊት የጤና እንክብካቤ ባለሙያን ያማክሩ፣ በተለይም ያሉ የጤና ችግሮች ካሉዎት።"
+    },
+    {
+        "id": "cardio-safety-warmup",
+        "am": "<b>ትክክለኛው ሙቀት መጨመር፡</b> ጡንቻዎችን እና መገጣጠሚያዎችን ለማዘጋጀት ከ5-10 ደቂቃ የብርሃን እንቅስቃሴ ውስጥ ይሳተፉ።"
+    },
+    {
+        "id": "cardio-safety-hydration",
+        "am": "<b>ሃይድሬሽን፡</b> ከስፖርታዊ እንቅስቃሴዎ በፊት፣በጊዜ እና በኋላ ውሃ ይጠጡ።"
+    },
+    {
+        "id": "cardio-safety-attire",
+        "am": "<b>ተገቢ አለባበስ፡</b> ለምቾት እና ጉዳትን ለመከላከል ተስማሚ ጫማዎችን እና ልብሶችን ይልበሱ።"
+    },
+    {
+        "id": "cardio-safety-listen",
+        "am": "<b>ሰውነትዎን ያዳምጡ፡</b> ማዞር ከተሰማዎት፣ የደረት ህመም ካጋጠመዎት ወይም የመተንፈስ ችግር ካጋጠመዎት የአካል ብቃት እንቅስቃሴ ማድረግዎን ያቁሙ።"
+    },
+    {
+        "id": "cardio-safety-progress",
+        "am": "<b>እድገት ቀስ በቀስ፡</b> ከመጠን በላይ ስልጠናን ለማስቀረት በጊዜ ሂደት ጥንካሬን እና የቆይታ ጊዜን ይጨምሩ።"
+    },
+    {
+        "id": "cardio-safety-cooldown",
+        "am": "<b>ቀዝቀዝ፡</b> ቀስ በቀስ የልብ ምትን ለመቀነስ ከአካል ብቃት እንቅስቃሴ በኋላ ከ5-10 ደቂቃዎችን ያሳልፉ።"
+    },
+    {
+        "id": "cardio-types-title",
+        "am": "5. የካርዲዮ ልምምድ ዓይነቶች"
+    },
+    {
+        "id": "cardio-low-impact-title",
+        "am": "ዝቅተኛ-ተፅዕኖ Cardio"
+    },
+    {
+        "id": "cardio-type-walking",
+        "am": "መራመድ"
+    },
+    {
+        "id": "cardio-type-swimming",
+        "am": "መዋኘት"
+    },
+    {
+        "id": "cardio-type-cycling",
+        "am": "ብስክሌት መንዳት"
+    },
+    {
+        "id": "cardio-high-impact-title",
+        "am": "ከፍተኛ ተጽዕኖ ያለው ካርዲዮ"
+    },
+    {
+        "id": "cardio-type-running",
+        "am": "መሮጥ"
+    },
+    {
+        "id": "cardio-type-jump-rope",
+        "am": "ገመድ ዝለል"
+    },
+    {
+        "id": "cardio-type-aerobic",
+        "am": "ኤሮቢክ ክፍሎች"
+    },
+    {
+        "id": "cardio-hiit-title",
+        "am": "የከፍተኛ-ጥንካሬ ክፍተት ስልጠና (HIIT)"
+    },
+    {
+        "id": "cardio-type-tabata",
+        "am": "የታባታ ስልጠና"
+    },
+    {
+        "id": "cardio-type-circuit",
+        "am": "የወረዳ ስልጠና"
+    },
+    {
+        "id": "cardio-type-sprint",
+        "am": "የSprint ክፍተቶች"
+    },
+    {
+        "id": "cardio-plans-title",
+        "am": "6. ዝርዝር የካርዲዮ ስፖርታዊ እንቅስቃሴ እቅዶች"
+    },
+    {
+        "id": "cardio-beginner-title",
+        "am": "ሀ. ጀማሪ ደረጃ (1-4 ሳምንታት)"
+    },
+    {
+        "id": "cardio-beginner-objective",
+        "am": "ዓላማ፡ መደበኛ ሁኔታን ማቋቋም፣ የልብና የደም ሥር (cardiovascular) ጽናትን ማሻሻል እና የእንቅስቃሴ ደረጃዎችን ቀስ በቀስ መጨመር።"
+    },
+    {
+        "id": "cardio-week1-title",
+        "am": "1ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-monday-title",
+        "am": "ሰኞ፥"
+    },
+    {
+        "id": "cardio-activity-walking",
+        "am": "<b>እንቅስቃሴ፡</b> ፈጣን የእግር ጉዞ"
+    },
+    {
+        "id": "cardio-duration-30",
+        "am": "<b>የቆይታ ጊዜ፡</b> 30 ደቂቃ"
+    },
+    {
+        "id": "cardio-intensity-moderate",
+        "am": "<b>ጥንካሬ፡</b> መጠነኛ ፍጥነት (ከከፍተኛው የልብ ምት 60-65%)"
+    },
+    {
+        "id": "cardio-instructions-title",
+        "am": "<b>መመሪያ፡</b>"
+    },
+    {
+        "id": "cardio-warmup-walk",
+        "am": "ማሞቂያ፡ 5 ደቂቃ የዘገየ የእግር ጉዞ።"
+    },
+    {
+        "id": "cardio-main-walk",
+        "am": "ዋና ክፍለ ጊዜ፡ የ20 ደቂቃ ፈጣን የእግር ጉዞ።"
+    },
+    {
+        "id": "cardio-cooldown-walk",
+        "am": "ማቀዝቀዝ፡ ለ 5 ደቂቃዎች በቀስታ መራመድ እና መወጠር።"
+    },
+    {
+        "id": "cardio-wednesday-title",
+        "am": "እሮብ፥"
+    },
+    {
+        "id": "cardio-activity-cycling",
+        "am": "<b>እንቅስቃሴ፡</b> የማይንቀሳቀስ ብስክሌት"
+    },
+    {
+        "id": "cardio-duration-25",
+        "am": "<b>የቆይታ ጊዜ፡</b> 25 ደቂቃ"
+    },
+    {
+        "id": "cardio-intensity-low",
+        "am": "<b>ጥንካሬ፡</b> ዝቅተኛ የመቋቋም ችሎታ"
+    },
+    {
+        "id": "cardio-warmup-cycling",
+        "am": "ማሞቂያ: 5 ደቂቃዎች በዝቅተኛ ፍጥነት."
+    },
+    {
+        "id": "cardio-main-cycling",
+        "am": "ዋና ክፍለ ጊዜ፡ 15 ደቂቃ በተረጋጋ ፍጥነት።"
+    },
+    {
+        "id": "cardio-cooldown-cycling",
+        "am": "ማቀዝቀዝ፡ 5 ደቂቃ ቀላል ፔዳል እና መወጠር።"
+    },
+    {
+        "id": "cardio-friday-title",
+        "am": "አርብ፥"
+    },
+    {
+        "id": "cardio-activity-swimming",
+        "am": "<b>እንቅስቃሴ፡</b> ዋና"
+    },
+    {
+        "id": "cardio-intensity-comfortable",
+        "am": "<b>ጥንካሬ፡</b> ምቹ ፍጥነት"
+    },
+    {
+        "id": "cardio-warmup-swimming",
+        "am": "ማሞቂያ፡ 5 ደቂቃ ቀላል የመዋኛ ወይም የውሃ መራመድ።"
+    },
+    {
+        "id": "cardio-main-swimming",
+        "am": "ዋና ክፍለ ጊዜ፡ 20 ደቂቃ የመዋኛ ዙር (እንደ አስፈላጊነቱ እረፍቶች)።"
+    },
+    {
+        "id": "cardio-cooldown-swimming",
+        "am": "ማቀዝቀዝ፡ 5 ደቂቃ የዘገየ መዋኘት እና መወጠር።"
+    },
+    {
+        "id": "cardio-week2-title",
+        "am": "2ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-week2-monday",
+        "am": "ሰኞ፡ የእግር ጉዞ ጊዜን ወደ 35 ደቂቃዎች ጨምር።"
+    },
+    {
+        "id": "cardio-week2-wednesday",
+        "am": "እሮብ፡ የብስክሌት ጉዞ ጊዜን ወደ 30 ደቂቃዎች ይጨምሩ።"
+    },
+    {
+        "id": "cardio-week2-friday",
+        "am": "አርብ: በ 30 ደቂቃዎች ውስጥ በመዋኘት ይቀጥሉ, የስትሮክ ቴክኒኮችን በማሻሻል ላይ ያተኩሩ."
+    },
+    {
+        "id": "cardio-week3-title",
+        "am": "3ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-week3-monday",
+        "am": "ሰኞ፡ ቀላል ሩጫ ክፍተቶችን አስተዋውቅ።"
+    },
+    {
+        "id": "cardio-week3-monday-instructions",
+        "am": "መመሪያ፡ ተለዋጭ 2 ደቂቃ ፈጣን የእግር ጉዞ በ1 ደቂቃ ቀላል ሩጫ ለ30 ደቂቃዎች።"
+    },
+    {
+        "id": "cardio-week3-wednesday",
+        "am": "ረቡዕ፡- ለ30 ደቂቃዎች መጠነኛ የመቋቋም አቅም ያለው የማይንቀሳቀስ ብስክሌት።"
+    },
+    {
+        "id": "cardio-week3-friday",
+        "am": "አርብ: ለ 35 ደቂቃዎች መዋኘት, የተለያዩ ጭረቶችን በማካተት."
+    },
+    {
+        "id": "cardio-week4-title",
+        "am": "4ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-week4-monday",
+        "am": "ሰኞ፡ የሩጫ ክፍተቶችን ይጨምሩ።"
+    },
+    {
+        "id": "cardio-week4-monday-instructions",
+        "am": "መመሪያ፡ ተለዋጭ የ1.5 ደቂቃ የእግር ጉዞ በ1.5 ደቂቃ ሩጫ ለ30 ደቂቃ።"
+    },
+    {
+        "id": "cardio-week4-wednesday",
+        "am": "እሮብ: ለ 35 ደቂቃዎች ብስክሌት መንዳት, 5 ደቂቃዎች ከፍተኛ የመቋቋም ችሎታን ያካትታል."
+    },
+    {
+        "id": "cardio-week4-friday",
+        "am": "አርብ: ለ 35 ደቂቃዎች መዋኘት ፣ ለጥቂት እረፍቶች ዓላማ ያድርጉ።"
+    },
+    {
+        "id": "cardio-intermediate-title",
+        "am": "ለ. መካከለኛ ደረጃ (5-8 ሳምንታት)"
+    },
+    {
+        "id": "cardio-intermediate-objective",
+        "am": "ዓላማ፡ ጽናትን ያሳድጉ፣ የካሎሪ ማቃጠልን ይጨምሩ እና ከፍተኛ ጥንካሬ ያላቸውን ስፖርታዊ እንቅስቃሴዎችን ያስተዋውቁ።"
+    },
+    {
+        "id": "cardio-week5-title",
+        "am": "5ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-monday-intermediate-title",
+        "am": "ሰኞ፥"
+    },
+    {
+        "id": "cardio-activity-jogging",
+        "am": "<b>እንቅስቃሴ፡</b> መሮጥ"
+    },
+    {
+        "id": "cardio-warmup-brisk",
+        "am": "ማሞቂያ፡ 5 ደቂቃ ፈጣን የእግር ጉዞ።"
+    },
+    {
+        "id": "cardio-main-jogging",
+        "am": "ዋና ክፍለ ጊዜ፡ 20 ደቂቃ የማያቋርጥ ሩጫ።"
+    },
+    {
+        "id": "cardio-cooldown-walking",
+        "am": "ማቀዝቀዝ፡ የ5 ደቂቃ የእግር ጉዞ እና የመለጠጥ።"
+    },
+    {
+        "id": "cardio-tuesday-title",
+        "am": "ማክሰኞ፥"
+    },
+    {
+        "id": "cardio-activity-stationary",
+        "am": "<b>እንቅስቃሴ፡</b> የማይንቀሳቀስ ብስክሌት"
+    },
+    {
+        "id": "cardio-duration-40",
+        "am": "<b>የቆይታ ጊዜ፡</b> 40 ደቂቃ"
+    },
+    {
+        "id": "cardio-intensity-moderate-resistance",
+        "am": "<b>ጥንካሬ፡</b> መጠነኛ ተቃውሞ"
+    },
+    {
+        "id": "cardio-cycling-intervals",
+        "am": "ክፍተቶችን ያካትቱ፡ 5 ደቂቃ ቀላል ፍጥነት፣ 5 ደቂቃ መጠነኛ ፍጥነት፣ ይድገሙት።"
+    },
+    {
+        "id": "cardio-thursday-title",
+        "am": "ሐሙስ፥"
+    },
+    {
+        "id": "cardio-activity-aerobic",
+        "am": "<b>እንቅስቃሴ፡</b> ኤሮቢክ ክፍል (ለምሳሌ፡ ዙምባ፣ ስቴፕ ኤሮቢክስ)"
+    },
+    {
+        "id": "cardio-duration-45",
+        "am": "<b>የቆይታ ጊዜ፡</b> 45 ደቂቃ"
+    },
+    {
+        "id": "cardio-aerobic-follow",
+        "am": "በአስተማሪ የሚመራውን የዕለት ተዕለት ተግባር ይከተሉ።"
+    },
+    {
+        "id": "cardio-aerobic-intensity",
+        "am": "በክፍል ውስጥ በሙሉ ጥንካሬን በመጠበቅ ላይ ያተኩሩ."
+    },
+    {
+        "id": "cardio-saturday-title",
+        "am": "ቅዳሜ፥"
+    },
+    {
+        "id": "cardio-activity-hiit-beginner",
+        "am": "<b>እንቅስቃሴ፡</b> የHIIT ክፍለ ጊዜ (የጀማሪ ደረጃ)"
+    },
+    {
+        "id": "cardio-duration-20",
+        "am": "<b>የቆይታ ጊዜ፡</b> 20 ደቂቃ"
+    },
+    {
+        "id": "cardio-structure-title",
+        "am": "<b>መዋቅር፡</b>"
+    },
+    {
+        "id": "cardio-warmup-dynamic",
+        "am": "ማሞቂያ፡ 5 ደቂቃ ተለዋዋጭ የመለጠጥ።"
+    },
+    {
+        "id": "cardio-main-session",
+        "am": "ዋና ክፍለ ጊዜ፡-"
+    },
+    {
+        "id": "cardio-hiit-high",
+        "am": "30 ሰከንድ ከፍተኛ-ጥንካሬ የአካል ብቃት እንቅስቃሴ (ለምሳሌ፣ መዝለያ ጃክ)"
+    },
+    {
+        "id": "cardio-hiit-rest",
+        "am": "30 ሰከንድ እረፍት"
+    },
+    {
+        "id": "cardio-hiit-rounds",
+        "am": "በተለያዩ መልመጃዎች ለ 10 ዙሮች ይድገሙ (ለምሳሌ ፣ ቡርፒዎች ፣ ተራራ ወጣሪዎች)።"
+    },
+    {
+        "id": "cardio-cooldown-stretch",
+        "am": "ማቀዝቀዝ: 5 ደቂቃዎች መወጠር."
+    },
+    {
+        "id": "cardio-week6-title",
+        "am": "6ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-week6-monday",
+        "am": "ሰኞ፡ የሩጫ ሩጫ ቆይታን ወደ 35 ደቂቃዎች ጨምር።"
+    },
+    {
+        "id": "cardio-week6-tuesday",
+        "am": "ማክሰኞ፡ ለ 45 ደቂቃዎች ከጨመረ የመቋቋም ችሎታ ጋር ብስክሌት መንዳት።"
+    },
+    {
+        "id": "cardio-week6-thursday",
+        "am": "ሐሙስ፡ የዕለት ተዕለት እንቅስቃሴን ለመለወጥ በተለየ የኤሮቢክ ክፍል ይሳተፉ።"
+    },
+    {
+        "id": "cardio-week6-saturday",
+        "am": "ቅዳሜ፡ የHIIT ክፍለ ጊዜ ከዙሮች (12 ዙሮች) ጋር።"
+    },
+    {
+        "id": "cardio-week7-title",
+        "am": "7ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-week7-monday",
+        "am": "ሰኞ፡- በሩጫ ወቅት fartlek ስልጠናን ያስተዋውቁ።"
+    },
+    {
+        "id": "cardio-week7-monday-instructions",
+        "am": "መመሪያ፡ በሩጫዎ ወቅት ለ1 ደቂቃ የዘፈቀደ የፍጥነት ፍንዳታዎችን ያካትቱ።"
+    },
+    {
+        "id": "cardio-week7-tuesday",
+        "am": "ማክሰኞ፡ የውጪ ብስክሌት ለ45 ደቂቃዎች፣ ከተቻለ ኮረብታ መውጣትን ያካትቱ።"
+    },
+    {
+        "id": "cardio-week7-thursday",
+        "am": "ሐሙስ: ከፍተኛ-ኃይል ኤሮቢክ ክፍል, ውስብስብ እንቅስቃሴዎች ላይ ያተኩሩ."
+    },
+    {
+        "id": "cardio-week7-saturday",
+        "am": "ቅዳሜ፡ የHIIT ክፍለ ጊዜ በሰውነት ክብደት ልምምዶች (ሳንባዎች፣ ስኩዊቶች፣ ፑሽ አፕ) ላይ ያተኩራል።"
+    },
+    {
+        "id": "cardio-week8-title",
+        "am": "8ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-week8-monday",
+        "am": "ሰኞ፡ ለ 40 ደቂቃዎች በተከታታይ መሮጥ በተረጋጋ ፍጥነት።"
+    },
+    {
+        "id": "cardio-week8-tuesday",
+        "am": "ማክሰኞ፡- ለ 50 ደቂቃዎች በብስክሌት መንዳት በየእረፍተ-ጊዜ sprints።"
+    },
+    {
+        "id": "cardio-week8-thursday",
+        "am": "ሐሙስ፡ የኤሮቢክ ክፍል በጥንካሬ አካላት ላይ አፅንዖት ይሰጣል።"
+    },
+    {
+        "id": "cardio-week8-saturday",
+        "am": "ቅዳሜ፡ የHIIT ክፍለ ጊዜ ከ15 ዙሮች ጋር፣ የፕሊዮሜትሪክ ልምምዶችን ያካትቱ (ዝላይ ስኩዌትስ፣ የሳጥን መዝለል)።"
+    },
+    {
+        "id": "cardio-advanced-title",
+        "am": "ሐ. የላቀ ደረጃ (9-12 ሳምንታት)"
+    },
+    {
+        "id": "cardio-advanced-objective",
+        "am": "ዓላማ፡ የካሎሪ ወጪን ከፍ ማድረግ፣ የልብና የደም ዝውውር ቅልጥፍናን ማሻሻል እና አፈፃፀሙን ማሻሻል።"
+    },
+    {
+        "id": "cardio-week9-title",
+        "am": "9ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-monday-advanced-title",
+        "am": "ሰኞ፥"
+    },
+    {
+        "id": "cardio-activity-running-sprints",
+        "am": "<b>እንቅስቃሴ፡</b> በSprints መሮጥ"
+    },
+    {
+        "id": "cardio-warmup-jogging",
+        "am": "ማሞቂያ፡ 10 ደቂቃ የቀላል ሩጫ።"
+    },
+    {
+        "id": "cardio-run-moderate",
+        "am": "ለ 5 ደቂቃዎች በመጠኑ ፍጥነት ያሂዱ."
+    },
+    {
+        "id": "cardio-run-sprint",
+        "am": "ለ 1 ደቂቃ ያህል ይራመዱ."
+    },
+    {
+        "id": "cardio-run-repeat",
+        "am": "ዑደቱን ለ 30 ደቂቃዎች መድገም."
+    },
+    {
+        "id": "cardio-wednesday-advanced-title",
+        "am": "እሮብ፥"
+    },
+    {
+        "id": "cardio-activity-hiit-cycling",
+        "am": "<b>እንቅስቃሴ፡</b> ከፍተኛ-ጥንካሬ ብስክሌት መንዳት"
+    },
+    {
+        "id": "cardio-duration-60",
+        "am": "<b>የቆይታ ጊዜ፡</b> 60 ደቂቃ"
+    },
+    {
+        "id": "cardio-cycling-hills",
+        "am": "ኮረብታ መውጣትን እና ከፍተኛ የመቋቋም ክፍተቶችን ያካትቱ።"
+    },
+    {
+        "id": "cardio-cycling-cadence",
+        "am": "በጠፍጣፋ ክፍሎች ጊዜ ከፍተኛ ጥንካሬን ይያዙ።"
+    },
+    {
+        "id": "cardio-friday-advanced-title",
+        "am": "አርብ፥"
+    },
+    {
+        "id": "cardio-activity-hiit",
+        "am": "<b>እንቅስቃሴ፡</b> HIIT የወረዳ"
+    },
+    {
+        "id": "cardio-hiit-timing",
+        "am": "እያንዳንዱን ልምምድ ለ 45 ሰከንድ በ 15 ሰከንድ እረፍት ያድርጉ።"
+    },
+    {
+        "id": "cardio-exercises-title",
+        "am": "መልመጃዎች"
+    },
+    {
+        "id": "cardio-exercise-burpees",
+        "am": "ቡርፒስ"
+    },
+    {
+        "id": "cardio-exercise-kettlebell",
+        "am": "Kettlebell Swings"
+    },
+    {
+        "id": "cardio-exercise-knees",
+        "am": "ከፍተኛ ጉልበቶች"
+    },
+    {
+        "id": "cardio-exercise-box",
+        "am": "ሳጥን መዝለሎች"
+    },
+    {
+        "id": "cardio-exercise-plank",
+        "am": "ፕላንክ ጃክሶች"
+    },
+    {
+        "id": "cardio-circuit-repeat",
+        "am": "ወረዳውን 3 ጊዜ መድገም."
+    },
+    {
+        "id": "cardio-nutrition-title",
+        "am": "7. ለክብደት መቀነስ የአመጋገብ ግምት"
+    },
+    {
+        "id": "cardio-nutrition-balanced",
+        "am": "<b>ሚዛናዊ አመጋገብ፡</b> የካርቦሃይድሬትስ፣ ፕሮቲኖች እና ጤናማ ቅባቶች ድብልቅን ያካትቱ።"
+    },
+    {
+        "id": "cardio-nutrition-carbs",
+        "am": "<b>ካርቦሃይድሬትስ፡</b> እንደ ሙሉ እህሎች፣ ጥራጥሬዎች እና አትክልቶች ያሉ ውስብስብ ካርቦሃይድሬትን ይምረጡ።"
+    },
+    {
+        "id": "cardio-nutrition-proteins",
+        "am": "<b>ፕሮቲኖች፡</b> ስስ ስጋ፣ አሳ፣ እንቁላል እና ከዕፅዋት የተቀመሙ ፕሮቲኖችን ያካትቱ።"
+    },
+    {
+        "id": "cardio-nutrition-fats",
+        "am": "<b>ስብ፡</b> ከአቮካዶ፣ ከለውዝ፣ ከዘር እና ከወይራ ዘይት ጤናማ ቅባቶችን ይምረጡ።"
+    },
+    {
+        "id": "cardio-nutrition-calories",
+        "am": "<b>የካሎሪ ቅበላ፡</b> የእርስዎን TDEE ያሰሉ እና ለዘለቄታው ክብደት መቀነስ በቀን 500-ካሎሪ ጉድለትን ይፈልጉ።"
+    },
+    {
+        "id": "cardio-nutrition-timing",
+        "am": "<b>የምግብ ጊዜ፡</b> የኃይል ደረጃን ለመጠበቅ ቀኑን ሙሉ ምግቦችን በእኩል መጠን ያሰራጩ።"
+    },
+    {
+        "id": "cardio-nutrition-portions",
+        "am": "<b>የክፍሎች ቁጥጥር፡</b> ትናንሽ ሳህኖችን ይጠቀሙ እና የመጠን መጠንን ያስታውሱ።"
+    },
+    {
+        "id": "cardio-nutrition-hydration",
+        "am": "<b>ሃይድሬሽን፡</b> በየቀኑ ቢያንስ 8 ብርጭቆ ውሃ ይጠጡ። ከፍተኛ የአካል ብቃት እንቅስቃሴ ካደረጉ።"
+    },
+    {
+        "id": "cardio-nutrition-sugar",
+        "am": "<b>ስኳሮችን እና የተቀነባበሩ ምግቦችን ይገድቡ፡</b> የስኳር ይዘት ያላቸውን መጠጦች፣ መክሰስ እና ፈጣን ምግቦችን መመገብን ይቀንሱ።"
+    },
+    {
+        "id": "cardio-nutrition-mindful",
+        "am": "<b>አስተሳሰብ መመገብ፡</b> የሙሉነት ምልክቶችን ለማወቅ ቀስ ብሎ እና ትኩረትን የሚከፋፍል ነገር ሳይኖር ይመገቡ።"
+    },
+    {
+        "id": "cardio-strength-combo-title",
+        "am": "8. Cardioን ከጥንካሬ ስልጠና ጋር በማጣመር"
+    },
+    {
+        "id": "cardio-strength-benefits-title",
+        "am": "ጥቅሞች፡-"
+    },
+    {
+        "id": "cardio-strength-benefit-muscle",
+        "am": "<b>የጡንቻ ብዛት መጨመር፡</b> ሜታቦሊዝምን ያበረታታል እና ክብደት መቀነስን ይደግፋል።"
+    },
+    {
+        "id": "cardio-strength-benefit-fitness",
+        "am": "<b>የተሻሻለ ጥንካሬ እና ጽናት፡</b> አጠቃላይ ብቃትን ያሻሽላል።"
+    },
+    {
+        "id": "cardio-strength-benefit-injury",
+        "am": "<b>የጉዳት መከላከል፡</b> ጡንቻዎችን እና መገጣጠሚያዎችን ያጠናክራል።"
+    },
+    {
+        "id": "cardio-strength-schedule-title",
+        "am": "የካርዲዮ እና የጥንካሬ ስልጠናን በማጣመር ሳምንታዊ መርሃ ግብር ናሙና፡"
+    },
+    {
+        "id": "cardio-strength-monday",
+        "am": "ሰኞ፡ Cardio (ከSprints ጋር መሮጥ)"
+    },
+    {
+        "id": "cardio-strength-tuesday",
+        "am": "ማክሰኞ፡ የጥንካሬ ስልጠና (የላይኛው የሰውነት ትኩረት)"
+    },
+    {
+        "id": "cardio-strength-wednesday",
+        "am": "ረቡዕ፡ Cardio (ሳይክል)"
+    },
+    {
+        "id": "cardio-strength-thursday",
+        "am": "ሐሙስ፡ የጥንካሬ ስልጠና (የታችኛው የሰውነት ትኩረት)"
+    },
+    {
+        "id": "cardio-strength-friday",
+        "am": "አርብ፡ HIIT ሰርክ (የሙሉ ሰውነት ስፖርታዊ እንቅስቃሴ)"
+    },
+    {
+        "id": "cardio-strength-saturday",
+        "am": "ቅዳሜ፡ ንቁ ማገገም (ዮጋ ወይም ቀላል ዋና)"
+    },
+    {
+        "id": "cardio-strength-sunday",
+        "am": "እሁድ: የእረፍት ቀን"
+    },
+    {
+        "id": "cardio-strength-tips-title",
+        "am": "የጥንካሬ ስልጠና ምክሮች:"
+    },
+    {
+        "id": "cardio-strength-tip-compound",
+        "am": "<b>ውህድ መልመጃዎች፡</b> እንደ ስኩዌትስ፣ ሙት ሊፍት፣ የቤንች መጭመቂያዎች እና ረድፎች ባሉ እንቅስቃሴዎች ላይ ያተኩሩ።"
+    },
+    {
+        "id": "cardio-strength-tip-reps",
+        "am": "<b>ድግግሞሾች እና ስብስቦች፡</b> ለእያንዳንዱ መልመጃ 3 ስብስቦችን ከ8-12 ድግግሞሾችን ያቅዱ።"
+    },
+    {
+        "id": "cardio-strength-tip-rest",
+        "am": "<b>በስብስብ መካከል እረፍት ያድርጉ፡</b> ለማገገም ከ60-90 ሰከንድ ፍቀድ።"
+    },
+    {
+        "id": "cardio-strength-tip-progressive",
+        "am": "<b>እድገታዊ ከመጠን በላይ መጫን፡</b> ቀስ በቀስ ክብደትን ይጨምሩ ወይም ፈታኝ ጡንቻዎችን ለመቀጠል መቋቋም።"
+    },
+    {
+        "id": "cardio-strength-tip-form",
+        "am": "<b>ትክክለኛ ቅፅ፡</b> ጉዳቶችን ለመከላከል ቴክኒኮችን ከከባድ ክብደት ቅድሚያ ይስጡ።"
+    },
+    {
+        "id": "cardio-progress-title",
+        "am": "9. ግስጋሴን መከታተል እና መነሳሳት"
+    },
+    {
+        "id": "cardio-goals-title",
+        "am": "ተጨባጭ ግቦችን አውጣ፡-"
+    },
+    {
+        "id": "cardio-goals-short",
+        "am": "<b>የአጭር ጊዜ ግቦች፡</b> ሳምንታዊ ወይም ወርሃዊ ኢላማዎች (ለምሳሌ፡ በሳምንት 1 ፓውንድ ማጣት)።"
+    },
+    {
+        "id": "cardio-goals-long",
+        "am": "<b>የረጅም ጊዜ ግቦች፡</b> አጠቃላይ የክብደት መቀነስ ዓላማ (ለምሳሌ፡ በ5 ወራት ውስጥ 20 ኪሎ ግራም መቀነስ)።"
+    },
+    {
+        "id": "cardio-metrics-title",
+        "am": "የክትትል መለኪያዎች"
+    },
+    {
+        "id": "cardio-metrics-weight",
+        "am": "<b>ክብደት፡</b> በተመሳሳዩ ሁኔታዎች ውስጥ እራስዎን በሳምንት አንድ ጊዜ ይመዝኑ።"
+    },
+    {
+        "id": "cardio-metrics-measurements",
+        "am": "<b>የሰውነት መለኪያዎች፡</b> ወገብ፣ ዳሌ፣ ጭን እና ክንዶች ይከታተሉ።"
+    },
+    {
+        "id": "cardio-metrics-fitness",
+        "am": "<b>የአካል ብቃት ደረጃዎች፡</b> በአካል ብቃት እንቅስቃሴ ቆይታ፣ ጥንካሬ እና በማገገም ላይ ማሻሻያዎችን አስተውል።"
+    },
+    {
+        "id": "cardio-metrics-photos",
+        "am": "<b>Visual Records፡</b> በየወሩ የሂደት ፎቶዎችን ያንሱ።"
+    },
+    {
+        "id": "cardio-tech-title",
+        "am": "ቴክኖሎጂን ተጠቀም፡"
+    },
+    {
+        "id": "cardio-tech-apps",
+        "am": "<b>የአካል ብቃት መተግበሪያዎች፡</b> MyFitnessPal ለካሎሪ ክትትል፣ Strava ለእንቅስቃሴ ምዝግብ ማስታወሻ።"
+    },
+    {
+        "id": "cardio-tech-wearables",
+        "am": "<b>ተለባሽ መሳሪያዎች፡</b> የልብ ምትን እና ደረጃዎችን ለመቆጣጠር Fitbits ወይም smartwatches።"
+    },
+    {
+        "id": "cardio-motivation-title",
+        "am": "ተነሳሽነት ይኑርዎት፡"
+    },
+    {
+        "id": "cardio-motivation-buddy",
+        "am": "<b>የአካል ብቃት እንቅስቃሴ ጓደኛ፡</b> ከጓደኛዎ ጋር ለተጠያቂነት ልምምድ ያድርጉ።"
+    },
+    {
+        "id": "cardio-motivation-community",
+        "am": "<b>ማህበረሰቦችን ይቀላቀሉ፡</b> በመስመር ላይ መድረኮች ወይም የአካባቢ የአካል ብቃት ቡድኖች ውስጥ ይሳተፉ።"
+    },
+    {
+        "id": "cardio-motivation-variety",
+        "am": "<b>የተለያዩ የአካል ብቃት እንቅስቃሴዎች፡</b> ነገሮችን ሳቢ ለማድረግ አዳዲስ ክፍሎችን ወይም እንቅስቃሴዎችን ይሞክሩ።"
+    },
+    {
+        "id": "cardio-motivation-rewards",
+        "am": "<b>የሽልማት ስርዓት፡</b> ከፍተኛ ደረጃ ላይ ከደረሱ በኋላ እራስዎን በአዲስ የአካል ብቃት እንቅስቃሴ ማርሽ ወይም በማሻሸት ይያዙ።"
+    },
+    {
+        "id": "cardio-conclusion-title",
+        "am": "10. መደምደሚያ"
+    },
+    {
+        "id": "cardio-conclusion-content",
+        "am": "በ cardio የአካል ብቃት እንቅስቃሴ ክብደት መቀነስ ከተገቢው አመጋገብ እና የአኗኗር ዘይቤ ጋር ሲጣመር ውጤታማ እና ዘላቂ አካሄድ ነው። ከአካል ብቃት ደረጃዎ ጋር የተጣጣሙ ዝርዝር ስፖርታዊ እንቅስቃሴዎችን እቅዶችን በመከተል እና ቀስ በቀስ ጥንካሬን በመጨመር ክብደት መቀነስ ግቦችዎን ማሳካት ይችላሉ። ሰውነትዎን ለማዳመጥ ፣ ወጥነት ባለው መልኩ ይቆዩ እና ወደ ጤናማ እርስዎ በሚያደርጉት ጉዞ ይደሰቱ።"
+    },
+    {
+        "id": "cardio-sunday-title",
+        "am": "እሁድ፥"
+    },
+    {
+        "id": "cardio-activity-endurance",
+        "am": "<b>እንቅስቃሴ፡</b> ጽናት ይዋኙ"
+    },
+    {
+        "id": "cardio-swim-pace",
+        "am": "በተረጋጋ ፍጥነት ያለማቋረጥ ይዋኙ።"
+    },
+    {
+        "id": "cardio-swim-technique",
+        "am": "ውጤታማ በሆነ የጭረት ዘዴ ላይ ያተኩሩ።"
+    },
+    {
+        "id": "cardio-week10-title",
+        "am": "10ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-week10-monday",
+        "am": "ሰኞ፡ የስፕሪንት ቆይታን ወደ 1.5 ደቂቃ ይጨምሩ።"
+    },
+    {
+        "id": "cardio-week10-wednesday",
+        "am": "ረቡዕ፡- ረጅም ኮረብታ መውጣት እና የእረፍት ጊዜ መቀነስ ያለው ብስክሌት መንዳት።"
+    },
+    {
+        "id": "cardio-week10-friday",
+        "am": "አርብ፡ የ HIIT ወረዳ ከተጨመሩ ልምምዶች ጋር (ለምሳሌ፡ የውጊያ ገመዶች፣ ተንሸራታች ግፊቶች)።"
+    },
+    {
+        "id": "cardio-week10-sunday",
+        "am": "እሑድ፡ በየ 10 ደቂቃው ከተካተቱ ክፍተቶች ጋር ይዋኙ።"
+    },
+    {
+        "id": "cardio-week11-title",
+        "am": "11ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-week11-monday",
+        "am": "ሰኞ፡ ከ50 ደቂቃ በላይ ለተለያዩ ቦታዎች የሚሮጥ መንገድ።"
+    },
+    {
+        "id": "cardio-week11-wednesday",
+        "am": " እሮብ፡ ለከፍተኛ የብስክሌት ብስክሌት በሽክርክሪት ክፍል ውስጥ ይሳተፉ።"
+    },
+    {
+        "id": "cardio-week11-friday",
+        "am": "አርብ፡ የHIIT ክፍለ ጊዜ በተግባራዊ እንቅስቃሴዎች ላይ የሚያተኩር (ለምሳሌ፣ የጎማ መገልበጥ፣ የገመድ መጨፍጨፍ)።"
+    },
+    {
+        "id": "cardio-week11-sunday",
+        "am": "እሑድ፡ ክፍት የውሃ ዋና ከሆነ ተደራሽ ከሆነ በጽናት ላይ አተኩር።"
+    },
+    {
+        "id": "cardio-week12-title",
+        "am": "12ኛ ሳምንት፡"
+    },
+    {
+        "id": "cardio-week12-monday",
+        "am": "ሰኞ፡ የርቀት ሩጫ ለ60 ደቂቃ በተረጋጋ ፍጥነት።"
+    },
+    {
+        "id": "cardio-week12-wednesday",
+        "am": "ረቡዕ: ለ 70 ደቂቃዎች ብስክሌት መንዳት, የጊዜ ሙከራዎችን ያካትታል."
+    },
+    {
+        "id": "cardio-week12-friday",
+        "am": "አርብ፡ የላቀ HIIT ወረዳ በትንሹ እረፍት (10 ሰከንድ)።"
+    },
+    {
+        "id": "cardio-week12-sunday",
+        "am": "እሑድ፡ ትሪያትሎን ማስመሰል (የዋና፣ የብስክሌት እና የሩጫ አጭር ርቀቶች)።"
+    },
+    {
+        "id": "cardio-workout-title",
+        "am": "አጠቃላይ የሰውነት ካርዲዮ ዑደት የአካል ብቃት እንቅስቃሴ"
+    },
+    {
+        "id": "cardio-workout-description",
+        "am": "ሞቅ ያለ፣ ከፍተኛ ሃይል ያለው ካርዲዮ እና የጥንካሬ ልምምዶችን የሚያሳይ የተሟላ የአካል ብቃት እንቅስቃሴ፣ በመቀጠልም ተለዋዋጭነትን እና ማገገምን ለማጎልበት ቀዝቀዝ።"
+    }
+]

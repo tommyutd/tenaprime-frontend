@@ -39,6 +39,9 @@ function getPageTags(path) {
         '/exercises/workout': ['workout', 'body', 'exercise', 'user'],
         '/exercises/strength': ['strength', 'exercise', 'user'],
         '/exercises/fitness': ['fitness', 'exercise', 'user'],
+        '/exercises/cardio': ['cardio', 'exercise', 'user'],
+        '/exercises/aerobics': ['aerobics', 'exercise', 'user'],
+        '/exercises/hiit': ['hiit', 'exercise', 'user'],
         '/nutrition': ['nutrition-index', 'guest'],
         '/nutrition/dashboard': ['nutrition-dashboard', 'user'],
         '/prizes': ['prizes-index', 'guest'],
@@ -56,7 +59,7 @@ function getPageTags(path) {
     // Add parameter-specific tags
     if (path === '/exercises/workout' && params.has('plan')) {
         const plan = params.get('plan');
-        const matches = plan.match(/(three-day|four-day|five-day|at-home)/);
+        const matches = plan.match(/(three-day|four-day|five-day|at-home|cardio|aerobics)/);
         if (matches) {
             tags.push(`${matches[1]}`);
         }
@@ -117,6 +120,9 @@ async function loadStringFiles() {
 
 async function updatePageStrings() {
     const strings = window.currentLang === 'en' ? window.englishStrings : window.amharicStrings;
+    const languageText = document.querySelector('.language-selector p');
+    const unnormalizedLang = window.currentLang === 'en' ? 'EN' : 'አማ';
+    languageText.textContent = unnormalizedLang.toUpperCase();
 
     const fontElements = document.querySelectorAll('.aleo-text, .ethiopic-text');
     

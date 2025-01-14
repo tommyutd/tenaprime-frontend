@@ -26,5 +26,9 @@
     {
         "id": "points",
         "en": "points"
+    },
+    {
+        "id": "disclaimer",
+        "en": "<i>Disclaimer: This guide is for informational purposes only. Always consult with a healthcare professional before starting a new exercise program, particularly if you have any pre-existing health conditions or concerns.</i>"
     }
 ]

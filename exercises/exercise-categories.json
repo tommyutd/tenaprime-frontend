@@ -97,7 +97,8 @@
         "descriptionKey": "cardio-training-description",
         "imagePath": "/exercises/assets/cardio.png",
         "buttons": [
-            {"textKey": "cardio", "page": "cardio"}
+            {"textKey": "cardio-guide", "page": "cardio"},
+            {"textKey": "cardio-workout", "page": "workout?plan=cardio"}
         ]
     },
     "weight-loss-aerobics": {
@@ -105,7 +106,8 @@
         "descriptionKey": "aerobics-training-description",
         "imagePath": "/exercises/assets/aerobics.png",
         "buttons": [
-            {"textKey": "aerobics", "page": "aerobics"}
+            {"textKey": "aerobics-guide", "page": "aerobics"},
+            {"textKey": "aerobics-workout", "page": "workout?plan=aerobics"}
         ]
     },
     "weight-loss-hiit": {
@@ -113,55 +115,32 @@
         "descriptionKey": "hiit-training-description",
         "imagePath": "/exercises/assets/hiit.png",
         "buttons": [
-            {"textKey": "hiit", "page": "hiit"}
+            {"textKey": "hiit-guide", "page": "hiit"},
+            {"textKey": "hiit-workout", "page": "workout?plan=hiit"}
         ]
     },
-    "flexibility-stretching": {
-        "titleKey": "stretching-training-title",
-        "descriptionKey": "stretching-training-description",
-        "imagePath": "/exercises/assets/stretching.png",
-        "buttons": [
-            {"textKey": "stretching", "page": "stretching"}
-        ]
-    },
-    "flexibility-yoga": {
-        "titleKey": "yoga-training-title",
-        "descriptionKey": "yoga-training-description",
+    "mind-body-yoga": {
+        "titleKey": "yoga-title",
+        "descriptionKey": "yoga-description",
         "imagePath": "/exercises/assets/yoga.png",
         "buttons": [
-            {"textKey": "yoga", "page": "yoga"}
-        ]
-    },
-    "flexibility-balance": {
-        "titleKey": "balance-training-title",
-        "descriptionKey": "balance-training-description",
-        "imagePath": "/exercises/assets/balance.png",
-        "buttons": [
-            {"textKey": "balance", "page": "balance"}
-        ]
-    },
-    "mind-body-breathwork": {
-        "titleKey": "breathwork-training-title",
-        "descriptionKey": "breathwork-training-description",
-        "imagePath": "/exercises/assets/breathwork.png",
-        "buttons": [
-            {"textKey": "breathwork", "page": "breathwork"}
+            {"textKey": "yoga-title", "page": "yoga-poses"}
         ]
     },
     "mind-body-sleep": {
-        "titleKey": "sleep-training-title",
-        "descriptionKey": "sleep-training-description",
+        "titleKey": "sleep-title",
+        "descriptionKey": "sleep-description",
         "imagePath": "/exercises/assets/sleep.png",
         "buttons": [
-            {"textKey": "sleep", "page": "sleep"}
+            {"textKey": "sleep-title", "page": "healthy-sleeping"}
         ]
     },
     "mind-body-stress": {
-        "titleKey": "stress-training-title",
-        "descriptionKey": "stress-training-description",
-        "imagePath": "/exercises/assets/stress.png",
+        "titleKey": "stress-regulation-title",
+        "descriptionKey": "stress-regulation-description",
+        "imagePath": "/exercises/assets/stress-regulation.png",
         "buttons": [
-            {"textKey": "meditation", "page": "meditation"}
+            {"textKey": "stress-regulation-title", "page": "stress-regulation"}
         ]
     }
 }

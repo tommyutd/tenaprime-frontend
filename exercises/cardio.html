@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/exercises/exercises.css">
+  <link rel="icon" href="/assets/logo-mini.svg">
+  <script src="/scripts/route-guard.js"></script>
+</head>
+
+<body>
+  <div class="homepage">
+    <div class="header">
+      <div class="logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <div class="navigation aleo-text">
+        <div class="navigation-home">
+          <a href="/dashboard">
+            <div class="home-text" data-text-key="home-menu-item">Home</div>
+          </a>
+        </div>
+
+        <div class="navigation-exercises">
+          <a href="/exercises">
+            <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+          </a>
+        </div>
+
+        <div class="navigation-nutrition">
+          <a href="/nutrition">
+            <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+          </a>
+        </div>
+
+        <div class="navigation-prizes">
+          <a href="/prizes">
+            <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
+          </a>
+        </div>
+
+        <div class="navigation-about">
+          <a href="/about">
+            <div class="about-text" data-text-key="about-menu-item">About</div>
+          </a>
+        </div>
+      </div>
+      <div class="extra-navigation">
+        <div class="avatar">
+          <img src="/assets/avatar.svg" alt="Account">
+          <div class="stats-popup aleo-text" id="statsPopup">
+            <div class="stats-container">
+              <div class="stats-header">
+                <h2 data-text-key="stats-title">Your Stats</h2>
+                <button class="close-button" id="closeStats">&times;</button>
+              </div>
+              <div class="stats-content">
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                  <span class="stats-value">5 <span data-text-key="days">days</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="points-earned">Points Earned</span>
+                  <span class="stats-value">250 <span data-text-key="points">points</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                  <span class="stats-value">12</span>
+                </div>
+              </div>
+              <div class="stats-footer">
+                <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="language-selector aleo-text">
+          <p>EN</p>
+          <div class="language-dropdown">
+            <div class="language-option" data-lang="en">English</div>
+            <div class="language-option" data-lang="አማ">አማርኛ</div>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="ethiotelecom">
+        <div class="ethiotelecom-container">
+          <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+        </div>
+      </div>
+    </div>
+
+    <div class="strength-training aleo-text">
+      <div class="strength-training-header">
+        <h1 data-text-key="cardio-guide-title">Comprehensive Guide to Losing Weight with Cardio Exercises</h1>
+        <p data-text-key="cardio-guide-description">Achieve your weight loss goals through effective cardiovascular workouts and informed lifestyle choices.</p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="cardio-intro-title">1. Introduction to Weight Loss and Cardio</h2>
+        <p data-text-key="cardio-intro-content">Weight loss is a common goal for many individuals seeking to improve their health and well-being. Cardiovascular exercise, or cardio, plays a significant role in creating a calorie deficit, which is essential for losing weight. This guide provides detailed information on how to effectively use cardio workouts as part of a comprehensive weight loss strategy.</p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="cardio-mechanisms-title">2. Understanding Weight Loss Mechanisms</h2>
+        <h3 data-text-key="cardio-calorie-balance-title">Calorie Balance</h3>
+        <ul>
+          <li><p data-text-key="cardio-caloric-deficit"><b>Caloric Deficit:</b> To lose weight, you must burn more calories than you consume.</p></li>
+          <li><p data-text-key="cardio-bmr"><b>Basal Metabolic Rate (BMR):</b> The number of calories your body needs at rest.</p></li>
+          <li><p data-text-key="cardio-tdee"><b>Total Daily Energy Expenditure (TDEE):</b> The total number of calories you burn in a day, including all activities.</p></li>
+        </ul>
+
+        <h3 data-text-key="cardio-role-title">Role of Cardio in Weight Loss</h3>
+        <ul>
+          <li><p data-text-key="cardio-calorie-burn"><b>Increased Calorie Burn:</b> Cardio exercises elevate heart rate, leading to higher calorie expenditure.</p></li>
+          <li><p data-text-key="cardio-metabolic-rate"><b>Improved Metabolic Rate:</b> Regular cardio can boost your metabolism, aiding in weight loss.</p></li>
+          <li><p data-text-key="cardio-fat-oxidation"><b>Fat Oxidation:</b> Cardio promotes the use of stored fat as an energy source.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="cardio-benefits-title">3. Benefits of Cardiovascular Exercise</h2>
+        <ul>
+          <li><p data-text-key="cardio-benefit-heart"><b>Heart Health:</b> Strengthens the cardiovascular system.</p></li>
+          <li><p data-text-key="cardio-benefit-endurance"><b>Improved Endurance:</b> Enhances stamina for daily activities.</p></li>
+          <li><p data-text-key="cardio-benefit-stress"><b>Stress Reduction:</b> Releases endorphins that improve mood.</p></li>
+          <li><p data-text-key="cardio-benefit-blood-sugar"><b>Blood Sugar Regulation:</b> Helps in managing insulin sensitivity.</p></li>
+          <li><p data-text-key="cardio-benefit-sleep"><b>Sleep Quality:</b> Promotes better sleep patterns.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="cardio-safety-title">4. Safety Precautions for Cardio Workouts</h2>
+        <ul>
+          <li><p data-text-key="cardio-safety-medical"><b>Medical Clearance:</b> Consult a healthcare professional before starting a new exercise regimen, especially if you have existing health conditions.</p></li>
+          <li><p data-text-key="cardio-safety-warmup"><b>Proper Warm-Up:</b> Engage in 5-10 minutes of light activity to prepare muscles and joints.</p></li>
+          <li><p data-text-key="cardio-safety-hydration"><b>Hydration:</b> Drink water before, during, and after workouts.</p></li>
+          <li><p data-text-key="cardio-safety-attire"><b>Appropriate Attire:</b> Wear suitable footwear and clothing for comfort and injury prevention.</p></li>
+          <li><p data-text-key="cardio-safety-listen"><b>Listen to Your Body:</b> Stop exercising if you feel dizzy, experience chest pain, or have difficulty breathing.</p></li>
+          <li><p data-text-key="cardio-safety-progress"><b>Progress Gradually:</b> Increase intensity and duration over time to avoid overtraining.</p></li>
+          <li><p data-text-key="cardio-safety-cooldown"><b>Cool Down:</b> Spend 5-10 minutes after workouts to gradually lower heart rate.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="cardio-types-title">5. Types of Cardio Exercises</h2>
+        
+        <h3 data-text-key="cardio-low-impact-title">Low-Impact Cardio</h3>
+        <ul>
+          <li><p data-text-key="cardio-type-walking">Walking</p></li>
+          <li><p data-text-key="cardio-type-swimming">Swimming</p></li>
+          <li><p data-text-key="cardio-type-cycling">Cycling</p></li>
+        </ul>
+
+        <h3 data-text-key="cardio-high-impact-title">High-Impact Cardio</h3>
+        <ul>
+          <li><p data-text-key="cardio-type-running">Running</p></li>
+          <li><p data-text-key="cardio-type-jump-rope">Jump Rope</p></li>
+          <li><p data-text-key="cardio-type-aerobic">Aerobic Classes</p></li>
+        </ul>
+
+        <h3 data-text-key="cardio-hiit-title">High-Intensity Interval Training (HIIT)</h3>
+        <ul>
+          <li><p data-text-key="cardio-type-tabata">Tabata Training</p></li>
+          <li><p data-text-key="cardio-type-circuit">Circuit Training</p></li>
+          <li><p data-text-key="cardio-type-sprint">Sprint Intervals</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="cardio-plans-title">6. Detailed Cardio Workout Plans</h2>
+        
+        <h3 data-text-key="cardio-beginner-title">A. Beginner Level (Weeks 1-4)</h3>
+        <p data-text-key="cardio-beginner-objective">Objective: Establish a routine, improve cardiovascular endurance, and gradually increase activity levels.</p>
+        
+        <h4 data-text-key="cardio-week1-title">Week 1:</h4>
+        <div class="workout-day">
+          <h5 data-text-key="cardio-monday-title">Monday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-walking"><b>Activity:</b> Brisk Walking</p></li>
+            <li><p data-text-key="cardio-duration-30"><b>Duration:</b> 30 minutes</p></li>
+            <li><p data-text-key="cardio-intensity-moderate"><b>Intensity:</b> Moderate pace (60-65% of maximum heart rate)</p></li>
+            <li><p data-text-key="cardio-instructions-title"><b>Instructions:</b></p></li>
+            <ul>
+                <li><p data-text-key="cardio-warmup-walk">Warm-up: 5 minutes of slow walking.</p></li>
+                <li><p data-text-key="cardio-main-walk">Main Session: 20 minutes of brisk walking.</p></li>
+                <li><p data-text-key="cardio-cooldown-walk">Cool Down: 5 minutes of slow walking and stretching.</p></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="workout-day">
+          <h5 data-text-key="cardio-wednesday-title">Wednesday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-cycling"><b>Activity:</b> Stationary Cycling</p></li>
+            <li><p data-text-key="cardio-duration-25"><b>Duration:</b> 25 minutes</p></li>
+            <li><p data-text-key="cardio-intensity-low"><b>Intensity:</b> Low resistance</p></li>
+            <li><p data-text-key="cardio-instructions-title"><b>Instructions:</b></p></li>
+            <ul>
+              <li><p data-text-key="cardio-warmup-cycling">Warm-up: 5 minutes at low speed.</p></li>
+              <li><p data-text-key="cardio-main-cycling">Main Session: 15 minutes at a steady pace.</p></li>
+              <li><p data-text-key="cardio-cooldown-cycling">Cool Down: 5 minutes of easy pedaling and stretching.</p></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="workout-day">
+          <h5 data-text-key="cardio-friday-title">Friday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-swimming"><b>Activity:</b> Swimming</p></li>
+            <li><p data-text-key="cardio-duration-30"><b>Duration:</b> 30 minutes</p></li>
+            <li><p data-text-key="cardio-intensity-comfortable"><b>Intensity:</b> Comfortable pace</p></li>
+            <li><p data-text-key="cardio-instructions-title"><b>Instructions:</b></p></li>
+            <ul>
+              <li><p data-text-key="cardio-warmup-swimming">Warm-up: 5 minutes of light swimming or water walking.</p></li>
+              <li><p data-text-key="cardio-main-swimming">Main Session: 20 minutes of swimming laps (breaks as needed).</p></li>
+              <li><p data-text-key="cardio-cooldown-swimming">Cool Down: 5 minutes of slow swimming and stretching.</p></li>
+            </ul>
+          </ul>
+        </div>
+
+        <h4 data-text-key="cardio-week2-title">Week 2:</h4>
+        <ul>
+          <li><p data-text-key="cardio-week2-monday">Monday: Increase walking duration to 35 minutes.</p></li>
+          <li><p data-text-key="cardio-week2-wednesday">Wednesday: Increase cycling duration to 30 minutes.</p></li>
+          <li><p data-text-key="cardio-week2-friday">Friday: Continue with 30 minutes of swimming, focus on improving stroke technique.</p></li>
+        </ul>
+
+        <h4 data-text-key="cardio-week3-title">Week 3:</h4>
+        <ul>
+          <li><p data-text-key="cardio-week3-monday">Monday: Introduce light jogging intervals.</p>
+            <ul>
+              <li><p data-text-key="cardio-week3-monday-instructions">Instructions: Alternate 2 minutes of brisk walking with 1 minute of light jogging for 30 minutes.</p></li>
+            </ul>
+          </li>
+          <li><p data-text-key="cardio-week3-wednesday">Wednesday: Stationary cycling with moderate resistance for 30 minutes.</p></li>
+          <li><p data-text-key="cardio-week3-friday">Friday: Swimming for 35 minutes, incorporating different strokes.</p></li>
+        </ul>
+
+        <h4 data-text-key="cardio-week4-title">Week 4:</h4>
+        <ul>
+          <li><p data-text-key="cardio-week4-monday">Monday: Increase jogging intervals.</p>
+            <ul>
+              <li><p data-text-key="cardio-week4-monday-instructions">Instructions: Alternate 1.5 minutes of walking with 1.5 minutes of jogging for 30 minutes.</p></li>
+            </ul>
+          </li>
+          <li><p data-text-key="cardio-week4-wednesday">Wednesday: Cycling for 35 minutes, include 5 minutes of higher resistance.</p></li>
+          <li><p data-text-key="cardio-week4-friday">Friday: Swimming for 35 minutes, aim for fewer breaks.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h3 data-text-key="cardio-intermediate-title">B. Intermediate Level (Weeks 5-8)</h3>
+        <p data-text-key="cardio-intermediate-objective">Objective: Enhance endurance, increase calorie burn, and introduce higher-intensity workouts.</p>
+        
+        <h4 data-text-key="cardio-week5-title">Week 5:</h4>
+        <div class="workout-day">
+          <h5 data-text-key="cardio-monday-intermediate-title">Monday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-jogging"><b>Activity:</b> Jogging</p></li>
+            <li><p data-text-key="cardio-duration-30"><b>Duration:</b> 30 minutes</p></li>
+            <li><p data-text-key="cardio-intensity-moderate"><b>Intensity:</b> Moderate pace</p></li>
+            <li><p data-text-key="cardio-instructions-title"><b>Instructions:</b></p></li>
+            <ul>
+              <li><p data-text-key="cardio-warmup-brisk">Warm-up: 5 minutes of brisk walking.</p></li>
+              <li><p data-text-key="cardio-main-jogging">Main Session: 20 minutes of continuous jogging.</p></li>
+              <li><p data-text-key="cardio-cooldown-walking">Cool Down: 5 minutes of walking and stretching.</p></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="workout-day">
+          <h5 data-text-key="cardio-tuesday-title">Tuesday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-stationary"><b>Activity:</b> Stationary Cycling</p></li>
+            <li><p data-text-key="cardio-duration-40"><b>Duration:</b> 40 minutes</p></li>
+            <li><p data-text-key="cardio-intensity-moderate-resistance"><b>Intensity:</b> Moderate resistance</p></li>
+            <li><p data-text-key="cardio-cycling-intervals">Include intervals: 5 minutes easy pace, 5 minutes moderate pace, repeat.</p></li>
+          </ul>
+        </div>
+
+        <div class="workout-day">
+          <h5 data-text-key="cardio-thursday-title">Thursday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-aerobic"><b>Activity:</b> Aerobic Class (e.g., Zumba, Step Aerobics)</p></li>
+            <li><p data-text-key="cardio-duration-45"><b>Duration:</b> 45 minutes</p></li>
+            <li><p data-text-key="cardio-instructions-title"><b>Instructions:</b></p></li>
+            <ul>
+              <li><p data-text-key="cardio-aerobic-follow">Follow instructor-led routines.</p></li>
+              <li><p data-text-key="cardio-aerobic-intensity">Focus on maintaining intensity throughout the class.</p></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="workout-day">
+          <h5 data-text-key="cardio-saturday-title">Saturday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-hiit-beginner"><b>Activity:</b> HIIT Session (Beginner Level)</p></li>
+            <li><p data-text-key="cardio-duration-20"><b>Duration:</b> 20 minutes</p></li>
+            <li><p data-text-key="cardio-structure-title"><b>Structure:</b></p></li>
+            <ul>
+              <li><p data-text-key="cardio-warmup-dynamic">Warm-up: 5 minutes of dynamic stretching.</p></li>
+              <li><p data-text-key="cardio-main-session">Main Session:</p>
+                <ul>
+                  <li><p data-text-key="cardio-hiit-high">30 seconds of high-intensity exercise (e.g., jumping jacks)</p></li>
+                  <li><p data-text-key="cardio-hiit-rest">30 seconds of rest</p></li>
+                  <li><p data-text-key="cardio-hiit-rounds">Repeat for 10 rounds with different exercises (e.g., burpees, mountain climbers).</p></li>
+                </ul>
+              </li>
+              <li><p data-text-key="cardio-cooldown-stretch">Cool Down: 5 minutes of stretching.</p></li>
+            </ul>
+          </ul>
+        </div>
+
+        <h4 data-text-key="cardio-week6-title">Week 6:</h4>
+        <ul>
+          <li><p data-text-key="cardio-week6-monday">Monday: Increase jogging duration to 35 minutes.</p></li>
+          <li><p data-text-key="cardio-week6-tuesday">Tuesday: Cycling with increased resistance for 45 minutes.</p></li>
+          <li><p data-text-key="cardio-week6-thursday">Thursday: Attend a different aerobic class to vary routine.</p></li>
+          <li><p data-text-key="cardio-week6-saturday">Saturday: HIIT session with increased rounds (12 rounds).</p></li>
+        </ul>
+
+        <h4 data-text-key="cardio-week7-title">Week 7:</h4>
+        <ul>
+          <li><p data-text-key="cardio-week7-monday">Monday: Introduce fartlek training during jogging.</p>
+            <ul>
+              <li><p data-text-key="cardio-week7-monday-instructions">Instructions: Incorporate random bursts of speed for 1 minute during your run.</p></li>
+            </ul>
+          </li>
+          <li><p data-text-key="cardio-week7-tuesday">Tuesday: Outdoor cycling for 45 minutes, include hill climbs if possible.</p></li>
+          <li><p data-text-key="cardio-week7-thursday">Thursday: High-energy aerobic class, focus on complex movements.</p></li>
+          <li><p data-text-key="cardio-week7-saturday">Saturday: HIIT session focusing on bodyweight exercises (lunges, squats, push-ups).</p></li>
+        </ul>
+
+        <h4 data-text-key="cardio-week8-title">Week 8:</h4>
+        <ul>
+          <li><p data-text-key="cardio-week8-monday">Monday: Continuous jogging for 40 minutes at a steady pace.</p></li>
+          <li><p data-text-key="cardio-week8-tuesday">Tuesday: Cycling for 50 minutes with interval sprints.</p></li>
+          <li><p data-text-key="cardio-week8-thursday">Thursday: Aerobic class with an emphasis on strength elements.</p></li>
+          <li><p data-text-key="cardio-week8-saturday">Saturday: HIIT session with 15 rounds, include plyometric exercises (jump squats, box jumps).</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h3 data-text-key="cardio-advanced-title">C. Advanced Level (Weeks 9-12)</h3>
+        <p data-text-key="cardio-advanced-objective">Objective: Maximize calorie expenditure, improve cardiovascular efficiency, and enhance performance.</p>
+        
+        <h4 data-text-key="cardio-week9-title">Week 9:</h4>
+        <div class="workout-day">
+          <h5 data-text-key="cardio-monday-advanced-title">Monday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-running-sprints"><b>Activity:</b> Running with Sprints</p></li>
+            <li><p data-text-key="cardio-duration-45"><b>Duration:</b> 45 minutes</p></li>
+            <li><p data-text-key="cardio-instructions-title"><b>Instructions:</b></p></li>
+            <ul>
+              <li><p data-text-key="cardio-warmup-jogging">Warm-up: 10 minutes of light jogging.</p></li>
+              <li><p data-text-key="cardio-main-session">Main Session:</p>
+                <ul>
+                  <li><p data-text-key="cardio-run-moderate">Run at a moderate pace for 5 minutes.</p></li>
+                  <li><p data-text-key="cardio-run-sprint">Sprint for 1 minute.</p></li>
+                  <li><p data-text-key="cardio-run-repeat">Repeat cycle for 30 minutes.</p></li>
+                </ul>
+              </li>
+              <li><p data-text-key="cardio-cooldown-walking">Cool Down: 5 minutes of walking and stretching.</p></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="workout-day">
+          <h5 data-text-key="cardio-wednesday-advanced-title">Wednesday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-hiit-cycling"><b>Activity:</b> High-Intensity Cycling</p></li>
+            <li><p data-text-key="cardio-duration-60"><b>Duration:</b> 60 minutes</p></li>
+            <li><p data-text-key="cardio-instructions-title"><b>Instructions:</b></p></li>
+            <ul>
+              <li><p data-text-key="cardio-cycling-hills">Include hill climbs and high-resistance intervals.</p></li>
+              <li><p data-text-key="cardio-cycling-cadence">Maintain a high cadence during flat segments.</p></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="workout-day">
+          <h5 data-text-key="cardio-friday-advanced-title">Friday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-hiit"><b>Activity:</b> HIIT Circuit</p></li>
+            <li><p data-text-key="cardio-duration-30"><b>Duration:</b> 30 minutes</p></li>
+            <li><p data-text-key="cardio-structure-title"><b>Structure:</b></p></li>
+            <ul>
+              <li><p data-text-key="cardio-hiit-timing">Perform each exercise for 45 seconds with 15 seconds rest.</p></li>
+              <li><p data-text-key="cardio-exercises-title">Exercises:</p>
+                <ul>
+                  <li><p data-text-key="cardio-exercise-burpees">Burpees</p></li>
+                  <li><p data-text-key="cardio-exercise-kettlebell">Kettlebell Swings</p></li>
+                  <li><p data-text-key="cardio-exercise-knees">High Knees</p></li>
+                  <li><p data-text-key="cardio-exercise-box">Box Jumps</p></li>
+                  <li><p data-text-key="cardio-exercise-plank">Plank Jacks</p></li>
+                </ul>
+              </li>
+              <li><p data-text-key="cardio-circuit-repeat">Repeat circuit 3 times.</p></li>
+              <li><p data-text-key="cardio-cooldown-stretch">Cool Down: 10 minutes of stretching.</p></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="workout-day">
+          <h5 data-text-key="cardio-sunday-title">Sunday:</h5>
+          <ul>
+            <li><p data-text-key="cardio-activity-endurance"><b>Activity:</b> Endurance Swim</p></li>
+            <li><p data-text-key="cardio-duration-60"><b>Duration:</b> 60 minutes</p></li>
+            <li><p data-text-key="cardio-instructions-title"><b>Instructions:</b></p></li>
+            <ul>
+              <li><p data-text-key="cardio-swim-pace">Swim continuously at a steady pace.</p></li>
+              <li><p data-text-key="cardio-swim-technique">Focus on efficient stroke technique.</p></li>
+            </ul>
+          </ul>
+        </div>
+
+        <h4 data-text-key="cardio-week10-title">Week 10:</h4>
+        <ul>
+          <li><p data-text-key="cardio-week10-monday">Monday: Increase sprint duration to 1.5 minutes.</p></li>
+          <li><p data-text-key="cardio-week10-wednesday">Wednesday: Cycling with longer hill climbs and reduced rest periods.</p></li>
+          <li><p data-text-key="cardio-week10-friday">Friday: HIIT circuit with added exercises (e.g., battle ropes, sled pushes).</p></li>
+          <li><p data-text-key="cardio-week10-sunday">Sunday: Swim with interval sprints incorporated every 10 minutes.</p></li>
+        </ul>
+
+        <h4 data-text-key="cardio-week11-title">Week 11:</h4>
+        <ul>
+          <li><p data-text-key="cardio-week11-monday">Monday: Trail running for varied terrain over 50 minutes.</p></li>
+          <li><p data-text-key="cardio-week11-wednesday">Wednesday: Participate in a spin class for high-intensity cycling.</p></li>
+          <li><p data-text-key="cardio-week11-friday">Friday: HIIT session focusing on functional movements (e.g., tire flips, rope slams).</p></li>
+          <li><p data-text-key="cardio-week11-sunday">Sunday: Open water swimming if accessible, focus on endurance.</p></li>
+        </ul>
+
+        <h4 data-text-key="cardio-week12-title">Week 12:</h4>
+        <ul>
+          <li><p data-text-key="cardio-week12-monday">Monday: Long-distance run for 60 minutes at a steady pace.</p></li>
+          <li><p data-text-key="cardio-week12-wednesday">Wednesday: Cycling for 70 minutes, include time trials.</p></li>
+          <li><p data-text-key="cardio-week12-friday">Friday: Advanced HIIT circuit with minimal rest (10 seconds).</p></li>
+          <li><p data-text-key="cardio-week12-sunday">Sunday: Triathlon simulation (short distances of swimming, cycling, and running).</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="cardio-nutrition-title">7. Nutritional Considerations for Weight Loss</h2>
+        <ul>
+          <li><p data-text-key="cardio-nutrition-balanced"><b>Balanced Diet:</b> Incorporate a mix of carbohydrates, proteins, and healthy fats.</p></li>
+          <ul>
+            <li><p data-text-key="cardio-nutrition-carbs"><b>Carbohydrates:</b> Opt for complex carbs like whole grains, legumes, and vegetables.</p></li>
+            <li><p data-text-key="cardio-nutrition-proteins"><b>Proteins:</b> Include lean meats, fish, eggs, and plant-based proteins.</p></li>
+            <li><p data-text-key="cardio-nutrition-fats"><b>Fats:</b> Choose healthy fats from avocados, nuts, seeds, and olive oil.</p></li>
+          </ul>
+          <li><p data-text-key="cardio-nutrition-calories"><b>Calorie Intake:</b> Calculate your TDEE and aim for a 500-calorie deficit per day for sustainable weight loss.</p></li>
+          <li><p data-text-key="cardio-nutrition-timing"><b>Meal Timing:</b> Distribute meals evenly throughout the day to maintain energy levels.</p></li>
+          <li><p data-text-key="cardio-nutrition-portions"><b>Portion Control:</b> Use smaller plates and be mindful of serving sizes.</p></li>
+          <li><p data-text-key="cardio-nutrition-hydration"><b>Hydration:</b> Drink at least 8 glasses of water daily; more if exercising intensely.</p></li>
+          <li><p data-text-key="cardio-nutrition-sugar"><b>Limit Sugars and Processed Foods:</b> Reduce intake of sugary drinks, snacks, and fast food.</p></li>
+          <li><p data-text-key="cardio-nutrition-mindful"><b>Mindful Eating:</b> Eat slowly and without distractions to recognize fullness cues.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="cardio-strength-combo-title">8. Combining Cardio with Strength Training</h2>
+        <h3 data-text-key="cardio-strength-benefits-title">Benefits:</h3>
+        <ul>
+          <li><p data-text-key="cardio-strength-benefit-muscle"><b>Increased Muscle Mass:</b> Boosts metabolism and supports weight loss.</p></li>
+          <li><p data-text-key="cardio-strength-benefit-fitness"><b>Improved Strength and Endurance:</b> Enhances overall fitness.</p></li>
+          <li><p data-text-key="cardio-strength-benefit-injury"><b>Injury Prevention:</b> Strengthens muscles and joints.</p></li>
+        </ul>
+
+        <h3 data-text-key="cardio-strength-schedule-title">Sample Weekly Schedule Combining Cardio and Strength Training:</h3>
+        <ul>
+          <li><p data-text-key="cardio-strength-monday">Monday: Cardio (Running with Sprints)</p></li>
+          <li><p data-text-key="cardio-strength-tuesday">Tuesday: Strength Training (Upper Body Focus)</p></li>
+          <li><p data-text-key="cardio-strength-wednesday">Wednesday: Cardio (Cycling)</p></li>
+          <li><p data-text-key="cardio-strength-thursday">Thursday: Strength Training (Lower Body Focus)</p></li>
+          <li><p data-text-key="cardio-strength-friday">Friday: HIIT Circuit (Full-Body Workout)</p></li>
+          <li><p data-text-key="cardio-strength-saturday">Saturday: Active Recovery (Yoga or Light Swim)</p></li>
+          <li><p data-text-key="cardio-strength-sunday">Sunday: Rest Day</p></li>
+        </ul>
+
+        <h3 data-text-key="cardio-strength-tips-title">Strength Training Tips:</h3>
+        <ul>
+          <li><p data-text-key="cardio-strength-tip-compound"><b>Compound Exercises:</b> Focus on movements like squats, deadlifts, bench presses, and rows.</p></li>
+          <li><p data-text-key="cardio-strength-tip-reps"><b>Repetitions and Sets:</b> Aim for 3 sets of 8-12 reps for each exercise.</p></li>
+          <li><p data-text-key="cardio-strength-tip-rest"><b>Rest Between Sets:</b> Allow 60-90 seconds for recovery.</p></li>
+          <li><p data-text-key="cardio-strength-tip-progressive"><b>Progressive Overload:</b> Gradually increase weight or resistance to continue challenging muscles.</p></li>
+          <li><p data-text-key="cardio-strength-tip-form"><b>Proper Form:</b> Prioritize technique over heavy weights to prevent injuries.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="cardio-progress-title">9. Tracking Progress and Staying Motivated</h2>
+        
+        <h3 data-text-key="cardio-goals-title">Set Realistic Goals:</h3>
+        <ul>
+          <li><p data-text-key="cardio-goals-short"><b>Short-Term Goals:</b> Weekly or monthly targets (e.g., lose 1 pound per week).</p></li>
+          <li><p data-text-key="cardio-goals-long"><b>Long-Term Goals:</b> Overall weight loss aim (e.g., lose 20 pounds in 5 months).</p></li>
+        </ul>
+
+        <h3 data-text-key="cardio-metrics-title">Monitor Metrics:</h3>
+        <ul>
+          <li><p data-text-key="cardio-metrics-weight"><b>Weight:</b> Weigh yourself once a week under the same conditions.</p></li>
+          <li><p data-text-key="cardio-metrics-measurements"><b>Body Measurements:</b> Track waist, hips, thighs, and arms.</p></li>
+          <li><p data-text-key="cardio-metrics-fitness"><b>Fitness Levels:</b> Note improvements in exercise duration, intensity, and recovery.</p></li>
+          <li><p data-text-key="cardio-metrics-photos"><b>Visual Records:</b> Take progress photos monthly.</p></li>
+        </ul>
+
+        <h3 data-text-key="cardio-tech-title">Use Technology:</h3>
+        <ul>
+          <li><p data-text-key="cardio-tech-apps"><b>Fitness Apps:</b> MyFitnessPal for calorie tracking, Strava for activity logging.</p></li>
+          <li><p data-text-key="cardio-tech-wearables"><b>Wearable Devices:</b> Fitbits or smartwatches to monitor heart rate and steps.</p></li>
+        </ul>
+
+        <h3 data-text-key="cardio-motivation-title">Stay Motivated:</h3>
+        <ul>
+          <li><p data-text-key="cardio-motivation-buddy"><b>Workout Buddy:</b> Exercise with a friend for accountability.</p></li>
+          <li><p data-text-key="cardio-motivation-community"><b>Join Communities:</b> Participate in online forums or local fitness groups.</p></li>
+          <li><p data-text-key="cardio-motivation-variety"><b>Variety in Workouts:</b> Try new classes or activities to keep things interesting.</p></li>
+          <li><p data-text-key="cardio-motivation-rewards"><b>Reward System:</b> Treat yourself to new workout gear or a massage after reaching milestones.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="cardio-conclusion-title">10. Conclusion</h2>
+        <p data-text-key="cardio-conclusion-content">Losing weight through cardio exercise is an effective and sustainable approach when combined with proper nutrition and lifestyle habits. By following detailed workout plans tailored to your fitness level and gradually increasing intensity, you can achieve your weight loss goals. Remember to listen to your body, stay consistent, and enjoy the journey toward a healthier you.</p>
+
+        <p data-text-key="disclaimer" class="disclaimer"><i>Disclaimer: This guide is for informational purposes only. Always consult with a healthcare professional before starting a new exercise program, particularly if you have any pre-existing health conditions or concerns.</i></p>
+      </div>
+
+    </div>
+
+    <div class="footer aleo-text">
+      <div class="footer-content">
+        <div class="footer-sections">
+          <div class="footer-section">
+            <h3 data-text-key="footer-quick-links">Quick Links</h3>
+            <ul>
+              <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
+              <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
+              <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
+              <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-information">Information</h3>
+            <ul>
+              <li><a href="/about" data-text-key="about-menu-item">About</a></li>
+              <li><a href="#" data-text-key="faq">FAQ</a></li>
+              <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
+              <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-contact">Contact</h3>
+            <ul>
+              <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+              <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+              <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+              <li><a href="#" data-text-key="support">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-section footer-logo">
+            <img src="/assets/logo.svg" alt="TenaPrime">
+            <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+            <div class="footer-social">
+              <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
+              <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
+              <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 TenaPrime. All rights reserved.</p>
+          <div class="footer-ethiotelecom">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-overlay"></div>
+  <div class="sidebar aleo-text" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <button class="sidebar-close">&times;</button>
+    </div>
+
+    <div class="sidebar-language-selector">
+      <div class="language-options-container">
+        <div class="sidebar-language-option" data-lang="en">
+          <span class="language-text">English</span>
+        </div>
+        <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+          <span class="language-text">አማርኛ</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-navigation">
+      <a href="/dashboard" class="sidebar-item">
+        <div data-text-key="home-menu-item">Home</div>
+      </a>
+      <a href="/exercises" class="sidebar-item">
+        <div data-text-key="exercises-menu-item">Exercises</div>
+      </a>
+      <a href="/nutrition" class="sidebar-item">
+        <div data-text-key="nutrition-menu-item">Nutrition</div>
+      </a>
+      <a href="/prizes" class="sidebar-item">
+        <div data-text-key="prizes-menu-item">Prizes</div>
+      </a>
+      <a href="/about" class="sidebar-item">
+        <div data-text-key="about-menu-item">About</div>
+      </a>
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="#" class="sidebar-item">
+        <div data-text-key="tandc">Terms & Conditions</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="faq">FAQ</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="privacy-policy">Privacy Policy</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="contact-us">Contact Us</div>
+      </a>
+    </div>
+  </div>
+
+  <script src="/scripts/config.js"></script>
+  <script src="/scripts/auth-service.js"></script>
+  <script src="/scripts/strings-loader.js"></script>
+  <script src="/scripts/language-selector.js"></script>
+  <script src="/scripts/user-stats-popup.js"></script>
+  <script src="/scripts/sidebar-overlay.js"></script>
+
+</body>
+
+</html>

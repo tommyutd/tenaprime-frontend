@@ -43,6 +43,9 @@ async function updateLanguage(lang) {
             window.location.reload();
         }
     }
+    const languageText = document.querySelector('.language-selector p');
+    const unnormalizedLang = normalizedLang === 'en' ? 'EN' : 'አማ';
+    languageText.textContent = unnormalizedLang.toUpperCase();
 }
 
 async function updateUserLanguagePreference(lang) {

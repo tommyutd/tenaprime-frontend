@@ -104,7 +104,6 @@
 .exercises-user-at-home,
 .exercises-user-strength,
 .exercises-user-weight-loss,
-.exercises-user-flexibility,
 .exercises-user-mind-body {
     padding: 2rem;
     color: white;
@@ -114,7 +113,6 @@
 .exercises-user-at-home h1,
 .exercises-user-strength h1,
 .exercises-user-weight-loss h1,
-.exercises-user-flexibility h1,
 .exercises-user-mind-body h1 {
     color: rgba(186, 156, 98, 1);
     margin-bottom: 1.5rem;
@@ -125,7 +123,6 @@
 .exercises-user-at-home b,
 .exercises-user-strength b,
 .exercises-user-weight-loss b,
-.exercises-user-flexibility b,
 .exercises-user-mind-body b {
     color: rgba(186, 156, 98, 1);
 }
@@ -149,10 +146,7 @@
 #weight-loss-cardio,
 #weight-loss-aerobics,
 #weight-loss-hiit,
-#flexibility-stretching,
-#flexibility-yoga,
-#flexibility-balance,
-#mind-body-breathwork,
+#mind-body-yoga,
 #mind-body-sleep,
 #mind-body-stress {
     background: rgba(186, 156, 98, 0.1);
@@ -180,10 +174,7 @@
 #weight-loss-cardio:hover,
 #weight-loss-aerobics:hover,
 #weight-loss-hiit:hover,
-#flexibility-stretching:hover,
-#flexibility-yoga:hover,
-#flexibility-balance:hover,
-#mind-body-breathwork:hover,
+#mind-body-yoga:hover,
 #mind-body-sleep:hover,
 #mind-body-stress:hover {
     transform: translateY(-5px);
@@ -203,10 +194,7 @@
 #weight-loss-cardio::before,
 #weight-loss-aerobics::before,
 #weight-loss-hiit::before,
-#flexibility-stretching::before,
-#flexibility-yoga::before,
-#flexibility-balance::before,
-#mind-body-breathwork::before,
+#mind-body-yoga::before,
 #mind-body-sleep::before,
 #mind-body-stress::before {
     content: '';
@@ -271,20 +259,8 @@
     background-image: url('/exercises/assets/hiit.png');
 }
 
-#flexibility-stretching::before {
-    background-image: url('/exercises/assets/stretching.png');
-}
-
-#flexibility-yoga::before {
+#mind-body-yoga::before {
     background-image: url('/exercises/assets/yoga.png');
-}
-
-#flexibility-balance::before {
-    background-image: url('/exercises/assets/balance.png');
-}
-
-#mind-body-breathwork::before {
-    background-image: url('/exercises/assets/breathwork.png');
 }
 
 #mind-body-sleep::before {
@@ -292,7 +268,7 @@
 }
 
 #mind-body-stress::before {
-    background-image: url('/exercises/assets/stress.png');
+    background-image: url('/exercises/assets/stress-regulation.png');
 }
 
 .card-title {
@@ -533,6 +509,7 @@
     text-align: center;
     margin-bottom: 3rem;
     color: #BA9C62;
+    margin-top: 0px;
 }
 
 .workout-header h1 {
@@ -718,11 +695,13 @@
   margin-bottom: 5%;
 }
 
-.strength-training-header {
+.strength-training-header,
+#workout-commitment {
   text-align: center;
 }
 
 .strength-training-header h1,
+.strength-training-content h1,
 .strength-training-content h2,
 .strength-training-content h3,
 .strength-training-content h4,
@@ -806,4 +785,18 @@
     border-radius: 15px;
     padding: 2rem;
     margin-bottom: 2rem;
+}
+
+#workout-guide-button {
+  font-size: 1.25rem;
+  padding: 3rem;
+  margin-bottom: 0px;
+}
+
+#workout-guide-indicator-container {
+  margin-bottom: 0px;
+}
+
+.disclaimer i {
+  color: #BA9C62;
 }

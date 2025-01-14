@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/exercises/exercises.css">
+  <link rel="icon" href="/assets/logo-mini.svg">
+  <script src="/scripts/route-guard.js"></script>
+</head>
+
+<body>
+  <div class="homepage">
+    <div class="header">
+      <div class="logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <div class="navigation aleo-text">
+        <div class="navigation-home">
+          <a href="/dashboard">
+            <div class="home-text" data-text-key="home-menu-item">Home</div>
+          </a>
+        </div>
+
+        <div class="navigation-exercises">
+          <a href="/exercises">
+            <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+          </a>
+        </div>
+
+        <div class="navigation-nutrition">
+          <a href="/nutrition">
+            <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+          </a>
+        </div>
+
+        <div class="navigation-prizes">
+          <a href="/prizes">
+            <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
+          </a>
+        </div>
+
+        <div class="navigation-about">
+          <a href="/about">
+            <div class="about-text" data-text-key="about-menu-item">About</div>
+          </a>
+        </div>
+      </div>
+      <div class="extra-navigation">
+        <div class="avatar">
+          <img src="/assets/avatar.svg" alt="Account">
+          <div class="stats-popup aleo-text" id="statsPopup">
+            <div class="stats-container">
+              <div class="stats-header">
+                <h2 data-text-key="stats-title">Your Stats</h2>
+                <button class="close-button" id="closeStats">&times;</button>
+              </div>
+              <div class="stats-content">
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                  <span class="stats-value">5 <span data-text-key="days">days</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="points-earned">Points Earned</span>
+                  <span class="stats-value">250 <span data-text-key="points">points</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                  <span class="stats-value">12</span>
+                </div>
+              </div>
+              <div class="stats-footer">
+                <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="language-selector aleo-text">
+          <p>EN</p>
+          <div class="language-dropdown">
+            <div class="language-option" data-lang="en">English</div>
+            <div class="language-option" data-lang="አማ">አማርኛ</div>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="ethiotelecom">
+        <div class="ethiotelecom-container">
+          <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+        </div>
+      </div>
+    </div>
+
+    <div class="strength-training aleo-text">
+      <div class="strength-training-header">
+        <h1 data-text-key="aerobics-guide-title">Aerobic Workouts</h1>
+        <p data-text-key="aerobics-guide-description">Improve your cardiovascular health, boost energy, and support overall well-being through regular aerobic exercise.</p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="aerobics-intro-title">1. Introduction to Aerobic Exercise</h2>
+        <p data-text-key="aerobics-intro-content">Aerobic exercise involves activities that increase heart rate, breathing rate, and blood circulation for a sustained period. It improves cardiovascular health, lung capacity, and overall endurance. This guide provides detailed information on various aerobic exercises, helping you select activities, schedule workouts, and enhance your fitness journey.</p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="aerobics-benefits-title">2. Benefits of Aerobic Workouts</h2>
+        <ul>
+          <li><p data-text-key="aerobics-benefit-heart"><b>Cardiovascular Health:</b> Strengthens the heart and reduces the risk of heart disease.</p></li>
+          <li><p data-text-key="aerobics-benefit-stamina"><b>Improved Stamina:</b> Increases endurance for daily activities.</p></li>
+          <li><p data-text-key="aerobics-benefit-weight"><b>Weight Management:</b> Burns calories to support weight loss or maintenance goals.</p></li>
+          <li><p data-text-key="aerobics-benefit-mood"><b>Mood Enhancement:</b> Releases endorphins, reducing stress and improving emotional well-being.</p></li>
+          <li><p data-text-key="aerobics-benefit-metabolism"><b>Metabolic Boost:</b> Increases overall energy expenditure, aiding in long-term health.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="aerobics-intensity-title">3. Understanding Aerobic Intensity and Heart Rate Zones</h2>
+        <ul>
+          <li><p data-text-key="aerobics-intensity-low"><b>Low to Moderate Intensity:</b> 50–70% of your maximum heart rate, suitable for beginners.</p></li>
+          <li><p data-text-key="aerobics-intensity-high"><b>Moderate to Vigorous Intensity:</b> 70–85% of your maximum heart rate, for improved fitness and weight management.</p></li>
+          <li><p data-text-key="aerobics-intensity-tracking"><b>Tracking Heart Rate:</b> Use a heart rate monitor or perceived exertion (ability to talk comfortably) as a guide.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="aerobics-types-title">4. Types of Aerobic Exercises</h2>
+        
+        <h3 data-text-key="aerobics-low-impact-title">A. Low-Impact Aerobics</h3>
+        <ul>
+          <li><p data-text-key="aerobics-low-impact-examples"><b>Examples:</b> Walking, elliptical machine, stationary cycling.</p></li>
+          <li><p data-text-key="aerobics-low-impact-benefits"><b>Benefits:</b> Gentle on joints, ideal for beginners or those with joint issues.</p></li>
+        </ul>
+
+        <h3 data-text-key="aerobics-high-impact-title">B. High-Impact Aerobics</h3>
+        <ul>
+          <li><p data-text-key="aerobics-high-impact-examples"><b>Examples:</b> Running, jumping rope, high-intensity dance classes.</p></li>
+          <li><p data-text-key="aerobics-high-impact-benefits"><b>Benefits:</b> Burns more calories in less time, improves bone density.</p></li>
+        </ul>
+
+        <h3 data-text-key="aerobics-dance-title">C. Dance-Based Aerobics</h3>
+        <ul>
+          <li><p data-text-key="aerobics-dance-examples"><b>Examples:</b> Zumba, aerobic dance classes.</p></li>
+          <li><p data-text-key="aerobics-dance-benefits"><b>Benefits:</b> Fun, social, improves coordination, makes workouts enjoyable.</p></li>
+        </ul>
+
+        <h3 data-text-key="aerobics-water-title">D. Water Aerobics</h3>
+        <ul>
+          <li><p data-text-key="aerobics-water-examples"><b>Examples:</b> Aqua jogging, water aerobics classes.</p></li>
+          <li><p data-text-key="aerobics-water-benefits"><b>Benefits:</b> Low impact, suitable for those with mobility challenges or injuries.</p></li>
+        </ul>
+
+        <h3 data-text-key="aerobics-equipment-title">E. Equipment-Based Aerobics</h3>
+        <ul>
+          <li><p data-text-key="aerobics-equipment-examples"><b>Examples:</b> Treadmills, rowing machines, stair climbers.</p></li>
+          <li><p data-text-key="aerobics-equipment-benefits"><b>Benefits:</b> Indoor options for consistent training, easy intensity adjustments.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="aerobics-guidelines-title">5. Guidelines for Beginners</h2>
+        <ul>
+          <li><p data-text-key="aerobics-guidelines-medical"><b>Medical Clearance:</b> Consult a healthcare professional before starting if you have underlying health conditions.</p></li>
+          <li><p data-text-key="aerobics-guidelines-start"><b>Start Slowly:</b> Begin with shorter sessions (15–20 minutes) at moderate intensity.</p></li>
+          <li><p data-text-key="aerobics-guidelines-progress"><b>Progress Gradually:</b> Increase session length, intensity, or frequency as you adapt.</p></li>
+          <li><p data-text-key="aerobics-guidelines-warmup"><b>Warm-Up and Cool Down:</b> Include 5–10 minutes of light activity and stretching before and after workouts.</p></li>
+          <li><p data-text-key="aerobics-guidelines-hydration"><b>Hydration and Nutrition:</b> Drink water before, during, and after exercise and maintain a balanced diet.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="aerobics-schedules-title">6. Sample Aerobic Workout Schedules</h2>
+        <h3 data-text-key="aerobics-3day-title">A. 3-Day per Week Program</h3>
+        <ul>
+          <li><p data-text-key="aerobics-3day-info">Days: Monday, Wednesday, Friday</p></li>
+          <li><p data-text-key="aerobics-3day-focus">Focus: Build cardiovascular base, improve endurance</p></li>
+        </ul>
+        <h4 data-text-key="aerobics-3day-week12-title">Week 1–2:</h4>
+        <ul>
+          <li><p data-text-key="aerobics-3day-monday"><b>Monday:</b> 20-minute brisk walk or light cycling</p></li>
+          <li><p data-text-key="aerobics-3day-wednesday"><b>Wednesday:</b> 25-minute dance-based class or moderate stationary cycling</p></li>
+          <li><p data-text-key="aerobics-3day-friday"><b>Friday:</b> 20-minute elliptical at a comfortable pace</p></li>
+        </ul>
+
+        <h4 data-text-key="aerobics-3day-week34-title">Week 3–4:</h4>
+        <ul>
+          <li><p data-text-key="aerobics-3day-week34-increase">Increase each session by 5 minutes</p></li>
+          <li><p data-text-key="aerobics-3day-week34-intervals">Introduce intervals (e.g., walk 2 minutes fast, 1 minute slow) once per session</p></li>
+        </ul>
+
+        <h4 data-text-key="aerobics-3day-week58-title">Week 5–8:</h4>
+        <ul>
+          <li><p data-text-key="aerobics-3day-week58-duration">Increase sessions to 30–35 minutes</p></li>
+          <li><p data-text-key="aerobics-3day-week58-intensity">Add slightly higher intensity (e.g., short jogging intervals)</p></li>
+        </ul>
+
+        <h3 data-text-key="aerobics-4day-title">B. 4-Day per Week Program</h3>
+        <ul>
+          <li><p data-text-key="aerobics-4day-info">Days: Monday, Tuesday, Thursday, Friday</p></li>
+          <li><p data-text-key="aerobics-4day-focus">Focus: Moderate progression, incorporate variety</p></li>
+        </ul>
+        <h4 data-text-key="aerobics-4day-week12-title">Week 1–2:</h4>
+        <ul>
+          <li><p data-text-key="aerobics-4day-monday"><b>Monday:</b> 20-minute low-impact aerobics (elliptical)</p></li>
+          <li><p data-text-key="aerobics-4day-tuesday"><b>Tuesday:</b> 25-minute stationary cycling</p></li>
+          <li><p data-text-key="aerobics-4day-thursday"><b>Thursday:</b> 20-minute brisk walk + 10 minutes light jogging intervals</p></li>
+          <li><p data-text-key="aerobics-4day-friday"><b>Friday:</b> 25-minute dance-based class</p></li>
+        </ul>
+
+        <h4 data-text-key="aerobics-4day-week34-title">Week 3–4:</h4>
+        <ul>
+          <li><p data-text-key="aerobics-4day-week34-increase">Increase each session by 5 minutes</p></li>
+          <li><p data-text-key="aerobics-4day-week34-intervals">Add more intervals (e.g., 1-minute high-intensity, 1-minute low-intensity cycling)</p></li>
+        </ul>
+
+        <h4 data-text-key="aerobics-4day-week58-title">Week 5–8:</h4>
+        <ul>
+          <li><p data-text-key="aerobics-4day-week58-duration">Aim for 30–40 minutes per session</p></li>
+          <li><p data-text-key="aerobics-4day-week58-intensity">Include a high-impact session (e.g., short run) once a week</p></li>
+        </ul>
+
+        <h3 data-text-key="aerobics-5day-title">C. 5-Day per Week Program</h3>
+        <ul>
+          <li><p data-text-key="aerobics-5day-info">Days: Monday to Friday</p></li>
+          <li><p data-text-key="aerobics-5day-focus">Focus: More frequent sessions for advanced adaptation</p></li>
+        </ul>
+
+        <h4 data-text-key="aerobics-5day-week12-title">Week 1–2:</h4>
+        <ul>
+          <li><p data-text-key="aerobics-5day-monday"><b>Monday:</b> 20-minute treadmill walk</p></li>
+          <li><p data-text-key="aerobics-5day-tuesday"><b>Tuesday:</b> 20-minute aerobic dance class</p></li>
+          <li><p data-text-key="aerobics-5day-wednesday"><b>Wednesday:</b> 20-minute rowing machine</p></li>
+          <li><p data-text-key="aerobics-5day-thursday"><b>Thursday:</b> 25-minute brisk walk with short jogging intervals</p></li>
+          <li><p data-text-key="aerobics-5day-friday"><b>Friday:</b> 20-minute cycling</p></li>
+        </ul>
+
+        <h4 data-text-key="aerobics-5day-week34-title">Week 3–4:</h4>
+        <ul>
+          <li><p data-text-key="aerobics-5day-week34-duration">Increase each session to 25–30 minutes</p></li>
+          <li><p data-text-key="aerobics-5day-week34-intervals">Add moderate-intensity intervals (e.g., run for 1 minute, walk for 2 minutes)</p></li>
+        </ul>
+
+        <h4 data-text-key="aerobics-5day-week58-title">Week 5–8:</h4>
+        <ul>
+          <li><p data-text-key="aerobics-5day-week58-duration">Progress to 30–40 minutes per session</p></li>
+          <li><p data-text-key="aerobics-5day-week58-intensity">Include at least one higher-intensity workout (faster run or challenging dance class) per week</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="aerobics-tips-title">7. Tips for Improving Aerobic Fitness</h2>
+        <ul>
+          <li><p data-text-key="aerobics-tips-consistency"><b>Consistency is Key:</b> Stick to your schedule, even if it's short sessions.</p></li>
+          <li><p data-text-key="aerobics-tips-variety"><b>Variety Matters:</b> Alternate between different types of aerobic exercises to prevent boredom.</p></li>
+          <li><p data-text-key="aerobics-tips-tracking"><b>Track Progress:</b> Use a fitness app, log your workouts, or monitor heart rate for motivation.</p></li>
+          <li><p data-text-key="aerobics-tips-goals"><b>Set Realistic Goals:</b> Start with achievable targets (e.g., run 2 miles without stopping) and celebrate milestones.</p></li>
+          <li><p data-text-key="aerobics-tips-fun"><b>Incorporate Fun:</b> Listen to music, watch TV, or exercise with friends.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="aerobics-concerns-title">8. Common Concerns and Modifications</h2>
+        <ul>
+          <li><p data-text-key="aerobics-concerns-joint"><b>Joint Pain or Mobility Issues:</b> Opt for low-impact options like stationary cycling, elliptical, or water aerobics.</p></li>
+          <li><p data-text-key="aerobics-concerns-time"><b>Limited Time:</b> Focus on shorter, more intense sessions (e.g., HIIT workouts).</p></li>
+          <li><p data-text-key="aerobics-concerns-plateaus"><b>Plateaus:</b> Change intensity, try new exercises, or add intervals to challenge the body.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="aerobics-professional-help-title">9. When to Seek Professional Help</h2>
+        <ul>
+          <li><p data-text-key="aerobics-professional-pain"><b>Persistent Pain or Discomfort:</b> If exercise causes ongoing pain, consult a healthcare professional.</p></li>
+          <li><p data-text-key="aerobics-professional-breathing"><b>Breathing Difficulties:</b> If experiencing severe shortness of breath or dizziness, get medical guidance.</p></li>
+          <li><p data-text-key="aerobics-professional-conditions"><b>Existing Medical Conditions:</b> Conditions like heart problems or asthma may require personalized programs.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="aerobics-conclusion-title">10. Conclusion</h2>
+        <p data-text-key="aerobics-conclusion-content">Aerobic workouts are an essential component of a balanced fitness routine, offering benefits for the heart, lungs, and overall energy levels. By choosing exercises that suit your preferences and gradually increasing intensity, you can improve cardiovascular health, manage weight, and enhance your quality of life. Remember to stay consistent, prioritize safety, and enjoy the journey toward better aerobic fitness.</p>
+
+        <p data-text-key="disclaimer" class="disclaimer"><i>Disclaimer: This guide is for informational purposes only. Always consult with a healthcare professional before starting a new exercise program, particularly if you have any pre-existing health conditions or concerns.</i></p>
+      </div>
+
+    </div>
+
+    <div class="footer aleo-text">
+      <div class="footer-content">
+        <div class="footer-sections">
+          <div class="footer-section">
+            <h3 data-text-key="footer-quick-links">Quick Links</h3>
+            <ul>
+              <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
+              <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
+              <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
+              <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-information">Information</h3>
+            <ul>
+              <li><a href="/about" data-text-key="about-menu-item">About</a></li>
+              <li><a href="#" data-text-key="faq">FAQ</a></li>
+              <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
+              <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-contact">Contact</h3>
+            <ul>
+              <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+              <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+              <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+              <li><a href="#" data-text-key="support">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-section footer-logo">
+            <img src="/assets/logo.svg" alt="TenaPrime">
+            <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+            <div class="footer-social">
+              <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
+              <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
+              <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 TenaPrime. All rights reserved.</p>
+          <div class="footer-ethiotelecom">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-overlay"></div>
+  <div class="sidebar aleo-text" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <button class="sidebar-close">&times;</button>
+    </div>
+
+    <div class="sidebar-language-selector">
+      <div class="language-options-container">
+        <div class="sidebar-language-option" data-lang="en">
+          <span class="language-text">English</span>
+        </div>
+        <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+          <span class="language-text">አማርኛ</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-navigation">
+      <a href="/dashboard" class="sidebar-item">
+        <div data-text-key="home-menu-item">Home</div>
+      </a>
+      <a href="/exercises" class="sidebar-item">
+        <div data-text-key="exercises-menu-item">Exercises</div>
+      </a>
+      <a href="/nutrition" class="sidebar-item">
+        <div data-text-key="nutrition-menu-item">Nutrition</div>
+      </a>
+      <a href="/prizes" class="sidebar-item">
+        <div data-text-key="prizes-menu-item">Prizes</div>
+      </a>
+      <a href="/about" class="sidebar-item">
+        <div data-text-key="about-menu-item">About</div>
+      </a>
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="#" class="sidebar-item">
+        <div data-text-key="tandc">Terms & Conditions</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="faq">FAQ</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="privacy-policy">Privacy Policy</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="contact-us">Contact Us</div>
+      </a>
+    </div>
+  </div>
+
+  <script src="/scripts/config.js"></script>
+  <script src="/scripts/auth-service.js"></script>
+  <script src="/scripts/strings-loader.js"></script>
+  <script src="/scripts/language-selector.js"></script>
+  <script src="/scripts/user-stats-popup.js"></script>
+  <script src="/scripts/sidebar-overlay.js"></script>
+
+</body>
+
+</html>
