@@ -122,9 +122,9 @@ async function loadWorkoutContent() {
                             `).join('')}
                         </div>
                     </div>
-                    ${exerciseData.image ? `
+                    ${exerciseData.name !== 'rest-period' ? `
                         <div class="exercise-visual">
-                            <img src="${exerciseData.image}" alt="${exerciseData.name}">
+                            <img src="/exercises/assets/gifs/${exerciseData.name}.gif" alt="${exerciseData.name}">
                         </div>
                     ` : ''}
                 </div>
