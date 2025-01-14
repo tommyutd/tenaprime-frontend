@@ -124,7 +124,7 @@
         "descriptionKey": "yoga-description",
         "imagePath": "/exercises/assets/yoga.png",
         "buttons": [
-            {"textKey": "yoga-title", "page": "yoga-poses"}
+            {"textKey": "yoga-title", "page": "yoga"}
         ]
     },
     "mind-body-sleep": {

@@ -1019,7 +1019,7 @@
         "name": "pistol-squat",
         "description": "pistol-squat-description",
         "primaryTargets": ["quadriceps", "glutes"],
-        "secondaryTargets": ["hamstrings", "rectus-abdominis", "transverse-abdominis", "balance"],
+        "secondaryTargets": ["hamstrings", "rectus-abdominis", "transverse-abdominis"],
         "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/09/pistol-squat-muscles.gif",
         "equipment": false
     },
@@ -1067,7 +1067,7 @@
         "name": "single-leg-plank",
         "description": "single-leg-plank-description",
         "primaryTargets": ["rectus-abdominis", "transverse-abdominis"],
-        "secondaryTargets": ["anterior-deltoid", "balance"],
+        "secondaryTargets": ["anterior-deltoid"],
         "image": "https://i.pinimg.com/736x/22/6a/35/226a359ca3c8d7d636fa6ca77549c236.jpg",
         "equipment": false
     },
@@ -1254,6 +1254,62 @@
         "secondaryTargets": [],
         "image": "https://i.pinimg.com/originals/c7/89/ae/c789aeb6aeca39524cd34e46fed382a5.gif",
         "equipment": true
+    },
+    "squat-tuck-jump": {
+        "name": "squat-tuck-jump",
+        "description": "squat-tuck-jump-description",
+        "primaryTargets": ["quadriceps", "glutes", "hip-flexors"],
+        "secondaryTargets": ["gastrocnemius", "soleus", "rectus-abdominis", "transverse-abdominis", "cardiovascular-system"],
+        "image": "https://fitnessprogramer.com/wp-content/uploads/2022/02/Squat-Tuck-Jump.gif",
+        "equipment": false
+    },
+    "star-jumps": {
+        "name": "star-jumps",
+        "description": "star-jumps-description",
+        "primaryTargets": ["cardiovascular-system"],
+        "secondaryTargets": ["quadriceps", "glutes", "hip-flexors", "anterior-deltoid", "lateral-deltoid", "gastrocnemius", "soleus"],
+        "image": "https://framerusercontent.com/images/vTKhsgaMk5Y3W8liugBqlJOY2U.gif",
+        "equipment": false
+    },
+    "cross-body-mountain-climbers": {
+        "name": "cross-body-mountain-climbers",
+        "description": "cross-body-mountain-climbers-description",
+        "primaryTargets": ["rectus-abdominis", "external-obliques", "internal-obliques"],
+        "secondaryTargets": ["hip-flexors", "anterior-deltoid", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/18/9f/d2/189fd2a368d038c31051dfe1060e9b1a.gif",
+        "equipment": false
+    },
+    "single-leg-broad-jumps": {
+        "name": "single-leg-broad-jumps",
+        "description": "single-leg-broad-jumps-description",
+        "primaryTargets": ["quadriceps", "glutes", "gastrocnemius", "soleus"],
+        "secondaryTargets": ["hip-flexors", "hamstrings", "cardiovascular-system"],
+        "image": "https://i.pinimg.com/originals/75/6e/d7/756ed7ac92e1c1b4aeda571a1b69be04.gif",
+        "equipment": false
+    },
+    "sphinx": {
+        "name": "sphinx",
+        "description": "sphinx-description",
+        "primaryTargets": ["erector-spinae"],
+        "secondaryTargets": ["multifidus", "trapezius", "rhomboids"],
+        "image": "https://ccuuubmtdurkmbeufybi.supabase.co/storage/v1/object/public/animations/1362.gif",
+        "equipment": false
+    },
+    "split-jump-squat": {
+        "name": "split-jump-squat",
+        "description": "split-jump-squat-description",
+        "primaryTargets": ["quadriceps", "glutes", "gastrocnemius"],
+        "secondaryTargets": ["hip-flexors", "hamstrings", "soleus", "cardiovascular-system"],
+        "image": "https://fitnessprogramer.com/wp-content/uploads/2021/05/Split-Squat.gif",
+        "equipment": false
+    },
+    "flutter-kicks": {
+        "name": "flutter-kicks",
+        "description": "flutter-kicks-description",
+        "primaryTargets": ["rectus-abdominis", "transverse-abdominis"],
+        "secondaryTargets": ["hip-flexors", "cardiovascular-system"],
+        "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Flutter-Kicks.gif",
+        "equipment": false
     },
     "rest-period": {
         "name": "rest-period",

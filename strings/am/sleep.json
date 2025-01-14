@@ -1,0 +1,578 @@
+[
+    {
+        "id": "sleep-guide-title",
+        "am": "ለጤናማ እንቅልፍ አጠቃላይ መመሪያ"
+    },
+    {
+        "id": "sleep-guide-description",
+        "am": "<i>የመተኛትን አስፈላጊነት በመረዳት እና ለተሻለ እረፍት ውጤታማ ስልቶችን በመተግበር አጠቃላይ ደህንነትዎን ያሻሽሉ።</i>"
+    },
+    {
+        "id": "sleep-intro-title",
+        "am": "ጤናማ እንቅልፍ መግቢያ"
+    },
+    {
+        "id": "sleep-intro-content",
+        "am": "እንቅልፍ ለአካላዊ ጤንነት፣ ለአእምሮ ግልጽነት እና ለስሜታዊ ደህንነት አስፈላጊ የሆነ መሰረታዊ ባዮሎጂያዊ ሂደት ነው። ምንም እንኳን አስፈላጊነቱ ቢኖርም ፣ ብዙ ሰዎች እንደ የአኗኗር ዘይቤ ምርጫዎች ፣ የአካባቢ ሁኔታዎች እና የጤና ችግሮች ባሉ የተለያዩ ምክንያቶች ከእንቅልፍ-ነክ ጉዳዮች ጋር ይታገላሉ ። ይህ መመሪያ እረፍት የሚሰጥ እና የሚያድስ እንቅልፍ እንዲያገኙ ለማገዝ ስለ ጤናማ የእንቅልፍ ልምዶች ዝርዝር መረጃ ለመስጠት ያለመ ነው።"
+    },
+    {
+        "id": "sleep-benefits-title",
+        "am": "የእንቅልፍ አስፈላጊነት"
+    },
+    {
+        "id": "sleep-physical-title",
+        "am": "አካላዊ ጤንነት"
+    },
+    {
+        "id": "sleep-benefit-immune",
+        "am": "የበሽታ መከላከያ ተግባር</b> እንቅልፍ በሽታ የመከላከል ስርዓትን ያጠናክራል, ኢንፌክሽኖችን እና በሽታዎችን ለመዋጋት ይረዳል."
+    },
+    {
+        "id": "sleep-benefit-repair",
+        "am": "የ<b>ሴሉላር ጥገና፡</b> በእንቅልፍ ወቅት ሰውነት ጡንቻዎችን፣ ሕብረ ሕዋሳትን እና የአካል ክፍሎችን ይጠግናል።"
+    },
+    {
+        "id": "sleep-benefit-hormones",
+        "am": "<b>የሆርሞን ሚዛን፡</b> እንቅልፍ ለምግብ ፍላጎት፣ ለእድገት እና ለጭንቀት አስተዳደር ተጠያቂ የሆኑትን ሆርሞኖችን ይቆጣጠራል።"
+    },
+    {
+        "id": "sleep-benefit-heart",
+        "am": "<b>የልብና የደም ቧንቧ ጤንነት፡</b> በቂ እንቅልፍ መተኛት የልብ ህመም እና የደም መፍሰስ ችግርን ይቀንሳል።"
+    },
+    {
+        "id": "sleep-mental-title",
+        "am": "የአእምሮ ጤና"
+    },
+    {
+        "id": "sleep-benefit-cognitive",
+        "am": "<b>የእውቀት (ኮግኒቲቭ) ተግባር፡</b> እንቅልፍ የማስታወስ ማጠናከሪያን፣ መማርን እና ችግርን የመፍታት ችሎታን ያሻሽላል።"
+    },
+    {
+        "id": "sleep-benefit-emotional",
+        "am": "<b>የስሜታዊ ደንብ፡</b> እረፍት ያለው እንቅልፍ ለስሜታዊ መረጋጋት እና መረጋጋት አስተዋፅኦ ያደርጋል።"
+    },
+    {
+        "id": "sleep-benefit-clarity",
+        "am": "<b>የአእምሮ ግልጽነት፡</b> በቂ እንቅልፍ ትኩረትን፣ ትኩረትን እና የውሳኔ አሰጣጥ ችሎታዎችን ያሻሽላል።"
+    },
+    {
+        "id": "sleep-cycles-title",
+        "am": "የእንቅልፍ ዑደቶችን መረዳት"
+    },
+    {
+        "id": "sleep-cycles-intro",
+        "am": "እንቅልፍ በሁለት ዋና ዋና ዓይነቶች ይከፈላል."
+    },
+    {
+        "id": "sleep-cycles-nonrem",
+        "am": "<b>REM ያልሆነ (ፈጣን የአይን እንቅስቃሴ) እንቅልፍ፡</b> ከ 1 እስከ 3 ያሉ ደረጃዎችን ያጠቃልላል፣ ከብርሃን እስከ ጥልቅ እንቅልፍ።"
+    },
+    {
+        "id": "sleep-cycles-rem",
+        "am": "<b>REM እንቅልፍ፡</b> ከህልም እና የማስታወስ ማጠናከሪያ ጋር የተቆራኘ።"
+    },
+    {
+        "id": "sleep-stages-title",
+        "am": "የእንቅልፍ ደረጃዎች"
+    },
+    {
+        "id": "sleep-stage1-title",
+        "am": "<b>ደረጃ 1 (ቀላል እንቅልፍ):</b>"
+    },
+    {
+        "id": "sleep-stage1-transition",
+        "am": "በእንቅልፍ እና በእንቅልፍ መካከል የሚደረግ ሽግግር።"
+    },
+    {
+        "id": "sleep-stage1-muscles",
+        "am": "ጡንቻዎች ዘና ይላሉ, እና የአንጎል እንቅስቃሴ ይቀንሳል."
+    },
+    {
+        "id": "sleep-stage2-title",
+        "am": "<b>ደረጃ 2 (መካከለኛ እንቅልፍ):</b>"
+    },
+    {
+        "id": "sleep-stage2-heart",
+        "am": "የልብ ምት እና መተንፈስ መደበኛ ይሆናል።"
+    },
+    {
+        "id": "sleep-stage2-temp",
+        "am": "የሰውነት ሙቀት መጠን ይቀንሳል."
+    },
+    {
+        "id": "sleep-stage3-title",
+        "am": "<b>ደረጃ 3 (ጥልቅ እንቅልፍ)፡</b>"
+    },
+    {
+        "id": "sleep-stage3-restoration",
+        "am": "ለአካላዊ ተሃድሶ አስፈላጊ."
+    },
+    {
+        "id": "sleep-stage3-awakening",
+        "am": "ለመነቃቃት አስቸጋሪ; ከእንቅልፉ ሲነቃ ብስጭት ሊሰማው ይችላል።"
+    },
+    {
+        "id": "sleep-rem-title",
+        "am": "<b>REM እንቅልፍ፡</b>"
+    },
+    {
+        "id": "sleep-rem-brain",
+        "am": "የአንጎል እንቅስቃሴ ይጨምራል, ከእንቅልፍ ጋር ይመሳሰላል."
+    },
+    {
+        "id": "sleep-rem-dreams",
+        "am": "በዚህ ደረጃ ላይ ህልሞች ይከሰታሉ."
+    },
+    {
+        "id": "sleep-rem-cognitive",
+        "am": "ለግንዛቤ ተግባራት እና ለስሜታዊ ጤንነት አስፈላጊ ነው."
+    },
+    {
+        "id": "sleep-pattern-title",
+        "am": "የእንቅልፍ ዑደት ንድፍ"
+    },
+    {
+        "id": "sleep-pattern-duration",
+        "am": "የተለመደው የእንቅልፍ ዑደት 90 ደቂቃ ያህል ይቆያል."
+    },
+    {
+        "id": "sleep-pattern-cycles",
+        "am": "አንድ ጎልማሳ በአዳር 4-6 የእንቅልፍ ዑደቶች ውስጥ ያልፋል።"
+    },
+    {
+        "id": "sleep-pattern-quality",
+        "am": "ጥራት ያለው እንቅልፍ በእነዚህ ደረጃዎች ውስጥ ያለችግር መሻሻልን ያካትታል።"
+    },
+    {
+        "id": "sleep-factors-title",
+        "am": "በእንቅልፍ ጥራት ላይ ተጽዕኖ የሚያሳድሩ ምክንያቶች"
+    },
+    {
+        "id": "sleep-lifestyle-factors-title",
+        "am": "የአኗኗር ዘይቤ ምክንያቶች"
+    },
+    {
+        "id": "sleep-factors-caffeine",
+        "am": "<b>ካፌይን እና አልኮሆል ፍጆታ፡</b> አነቃቂዎች እና ድብርት መድሃኒቶች የእንቅልፍ ሁኔታን ያበላሻሉ።"
+    },
+    {
+        "id": "sleep-factors-diet",
+        "am": "<b>አመጋገብ፡</b> ከመተኛቱ በፊት ከበድ ያሉ ምግቦች ምቾትን ሊያስከትሉ ይችላሉ።"
+    },
+    {
+        "id": "sleep-factors-exercise",
+        "am": "<b>አካላዊ እንቅስቃሴ፡</b> አዘውትሮ የአካል ብቃት እንቅስቃሴ የተሻለ እንቅልፍ እንዲኖር ያደርጋል ነገርግን በጊዜ መመደብ አለበት።"
+    },
+    {
+        "id": "sleep-environmental-factors-title",
+        "am": "የአካባቢ ሁኔታዎች"
+    },
+    {
+        "id": "sleep-factors-noise",
+        "am": "<b>ጫጫታ፡</b> ከልክ ያለፈ ጫጫታ እንቅልፍ መተኛትን ይከላከላል ወይም መነቃቃትን ያስከትላል።"
+    },
+    {
+        "id": "sleep-factors-light",
+        "am": "<b>የብርሃን መጋለጥ፡</b> ብሩህ መብራቶች እና ስክሪኖች ሜላቶኒንን ማምረት ይከለክላሉ።"
+    },
+    {
+        "id": "sleep-factors-temperature",
+        "am": "<b>የሙቀት መጠን፡</b> ከፍተኛ ሙቀት በምቾት ለመተኛት አስቸጋሪ ያደርገዋል።"
+    },
+    {
+        "id": "sleep-factors-comfort",
+        "am": "<b>ማጽናኛ፡</b> የማይመች ፍራሽ ወይም ትራስ በእንቅልፍ ጥራት ላይ ተጽዕኖ ያሳድራል።"
+    },
+    {
+        "id": "sleep-psychological-factors-title",
+        "am": "ሳይኮሎጂካል ምክንያቶች"
+    },
+    {
+        "id": "sleep-factors-stress",
+        "am": "<b>ውጥረት እና ጭንቀት፡</b> ጭንቀቶች አእምሮን በንቃት እንዲጠብቁ በማድረግ የእንቅልፍ መጀመርን እንቅፋት ይሆናል።"
+    },
+    {
+        "id": "sleep-factors-depression",
+        "am": "<b>የመንፈስ ጭንቀት፡</b> ወደ እንቅልፍ ማጣት ወይም እንቅልፍ ማጣት ሊያመራ ይችላል።"
+    },
+    {
+        "id": "sleep-medical-factors-title",
+        "am": "የሕክምና ሁኔታዎች"
+    },
+    {
+        "id": "sleep-factors-pain",
+        "am": "<b>የረጅም ጊዜ ህመም፡</b> አለመመቸት የመውደቅ እና የመኝታ ችሎታ ላይ ጣልቃ ይገባል።"
+    },
+    {
+        "id": "sleep-factors-medications",
+        "am": "<b>መድሃኒቶች፡</b> አንዳንድ መድሃኒቶች በእንቅልፍ ላይ ተጽእኖ የሚያሳድሩ የጎንዮሽ ጉዳቶች አሏቸው።"
+    },
+    {
+        "id": "sleep-hygiene-title",
+        "am": "የእንቅልፍ ንጽህና ተግባራት"
+    },
+    {
+        "id": "sleep-schedule-title",
+        "am": "ሀ. የእንቅልፍ መርሃ ግብር ማቋቋም"
+    },
+    {
+        "id": "sleep-schedule-bedtime",
+        "am": "<b>ተለዋዋጭ የመኝታ ጊዜዎች፡</b> ወደ መኝታ ይሂዱ እና ቅዳሜና እሁድን ጨምሮ በየቀኑ በተመሳሳይ ሰዓት ይንቁ።"
+    },
+    {
+        "id": "sleep-schedule-duration",
+        "am": "<b>የእንቅልፍ ቆይታ፡</b> ለአዋቂዎች 7-በአዳር ለ9 ሰአታት እንቅልፍ ይተግብሩ።"
+    },
+    {
+        "id": "sleep-schedule-napping",
+        "am": "<b>መተኛትን ያስወግዱ፡</b> የቀን እንቅልፍን እስከ 20-30 ደቂቃዎች ይገድቡ ወይም የሌሊት እንቅልፍን የሚያበላሹ ከሆነ ያስወግዱት።"
+    },
+    {
+        "id": "sleep-environment-title",
+        "am": "ለ. ለመተኛት ምቹ አካባቢ መፍጠር"
+    },
+    {
+        "id": "sleep-environment-bedding",
+        "am": "<b>ምቹ አልጋ ልብስ፡</b> ጥራት ባለው ፍራሽ እና ትራሶች ላይ ኢንቨስት ያድርጉ።"
+    },
+    {
+        "id": "sleep-environment-darkness",
+        "am": "<b>ጨለማ፡</b> ብርሃንን ለማገድ ጥቁር መጋረጃዎችን ወይም የአይን ማስክን ይጠቀሙ።"
+    },
+    {
+        "id": "sleep-environment-quiet",
+        "am": "<b>ጸጥታ፡</b> የሚረብሹ ድምፆችን ለማጥፋት የጆሮ መሰኪያዎችን ወይም ነጭ የድምጽ ማሽኖችን ይጠቀሙ።"
+    },
+    {
+        "id": "sleep-environment-temp",
+        "am": "<b>የሙቀት መጠን፡</b> መኝታ ቤቱን ቀዝቀዝ ያድርጉት፣ ወደ 60-67°F (15-19°C) አካባቢ።"
+    },
+    {
+        "id": "sleep-environment-devices",
+        "am": "<b>ኤሌክትሮኒካዊ መሳሪያዎች፡</b> ቴሌቪዥኖችን፣ ኮምፒውተሮችን እና ስማርት ስልኮችን ከመኝታ ክፍሉ ያስወግዱ።"
+    },
+    {
+        "id": "sleep-lifestyle-title",
+        "am": "ሐ. ለተሻለ እንቅልፍ የአኗኗር ዘይቤዎች"
+    },
+    {
+        "id": "sleep-lifestyle-stimulants",
+        "am": "<b>አበረታች ንጥረ ነገሮችን ይገድቡ፡</b> በተለይ ከሰዓት በኋላ እና ምሽት ላይ ካፌይን እና ኒኮቲንን ያስወግዱ።"
+    },
+    {
+        "id": "sleep-lifestyle-alcohol",
+        "am": "<b>መጠነኛ አልኮሆል፡</b> የአልኮሆል መጠጣት የእንቅልፍ ዑደቶችን ስለሚረብሽ ይገድቡ።"
+    },
+    {
+        "id": "sleep-lifestyle-exercise",
+        "am": "<b>መደበኛ የአካል ብቃት እንቅስቃሴ፡</b> በቀን ውስጥ በአካል ብቃት እንቅስቃሴ ይሳተፉ ነገር ግን ከመተኛቱ በፊት ከሚደረጉ ጠንከር ያሉ ስፖርታዊ እንቅስቃሴዎችን ያስወግዱ።"
+    },
+    {
+        "id": "sleep-lifestyle-light",
+        "am": "<b>የብርሃን መጋለጥ፡</b> የሰርከዲያን ሪትሞችን ለመቆጣጠር በቀን ለተፈጥሮ ብርሃን መጋለጥን ጨምር።"
+    },
+    {
+        "id": "sleep-tips-title",
+        "am": "የእንቅልፍ ጥራትን ለማሻሻል ጠቃሚ ምክሮች"
+    },
+    {
+        "id": "sleep-routine-title",
+        "am": "የመኝታ ጊዜ የዕለት ተዕለት ተግባር"
+    },
+    {
+        "id": "sleep-routine-desc",
+        "am": "ዘና የሚያደርግ የቅድመ-እንቅልፍ አሠራር (ለምሳሌ ማንበብ፣ ሙቅ መታጠብ፣ ማሰላሰል) ያዘጋጁ።"
+    },
+    {
+        "id": "sleep-mindfulness-title",
+        "am": "የማሰብ እና የመዝናናት ዘዴዎች"
+    },
+    {
+        "id": "sleep-mindfulness-breathing",
+        "am": "<b>ጥልቅ የመተንፈስ መልመጃዎች፡</b> ጭንቀትን ለመቀነስ ዲያፍራምማቲክ መተንፈስን ተለማመዱ።"
+    },
+    {
+        "id": "sleep-mindfulness-muscle",
+        "am": "<b>የእድገታዊ ጡንቻ መዝናናት፡</b> የጡንቻ ቡድኖችን በቅደም ተከተል ውጥረት እና ዘና ይበሉ።"
+    },
+    {
+        "id": "sleep-mindfulness-meditation",
+        "am": "<b>ማሰላሰል፡</b> አእምሮን ለማረጋጋት የተመሩ ማሰላሰሎችን ይጠቀሙ።"
+    },
+    {
+        "id": "sleep-screen-title",
+        "am": "የስክሪን ጊዜ አስተዳደር"
+    },
+    {
+        "id": "sleep-screen-limit",
+        "am": "ከመተኛቱ በፊት ቢያንስ አንድ ሰዓት በፊት የኤሌክትሮኒክስ መሳሪያዎችን ያስወግዱ."
+    },
+    {
+        "id": "sleep-screen-filter",
+        "am": "መሳሪያውን መጠቀም አስፈላጊ ከሆነ ሰማያዊ ብርሃን ማጣሪያዎችን ይጠቀሙ."
+    },
+    {
+        "id": "sleep-diet-title",
+        "am": "የአመጋገብ ግምት"
+    },
+    {
+        "id": "sleep-diet-meals",
+        "am": "ከመኝታ ሰዓት በፊት ከባድ ወይም ቅመም የበዛባቸው ምግቦችን ያስወግዱ።"
+    },
+    {
+        "id": "sleep-diet-foods",
+        "am": "እንደ የአልሞንድ፣ የካሞሜል ሻይ ወይም የታርት ቼሪ ጭማቂ ያሉ እንቅልፍን የሚያበረታቱ ምግቦችን ያስቡ።"
+    },
+    {
+        "id": "sleep-hydration-title",
+        "am": "የሃይድሪሽን ሚዛን"
+    },
+    {
+        "id": "sleep-hydration-desc",
+        "am": "በቀን ውስጥ በቂ ውሃ ይጠጡ ነገር ግን የሌሊት መነቃቃትን ለመቀነስ ከመተኛቱ በፊት መጠጣትን ይገድቡ።"
+    },
+    {
+        "id": "sleep-worries-title",
+        "am": "ጭንቀቶችን መቆጣጠር"
+    },
+    {
+        "id": "sleep-worries-journal",
+        "am": "ለቀጣዩ ቀን ሀሳቦችን እና ተግባሮችን ለመፃፍ ማስታወሻ ደብተር ያስቀምጡ።"
+    },
+    {
+        "id": "sleep-worries-time",
+        "am": "ስጋቶችን ለማስኬድ ቀደም ብሎ ምሽት ላይ \"የጭንቀት ጊዜ\" ይመድቡ።"
+    },
+    {
+        "id": "sleep-clock-title",
+        "am": "የሰዓት አስተዳደር"
+    },
+    {
+        "id": "sleep-clock-desc",
+        "am": "ስለ ሰዓቱ ጭንቀትን ለማስወገድ ሰዓቱን ያዙሩት."
+    },
+    {
+        "id": "sleep-disorders-title",
+        "am": "የተለመዱ የእንቅልፍ ችግሮች"
+    },
+    {
+        "id": "sleep-insomnia-title",
+        "am": "ሀ. እንቅልፍ ማጣት"
+    },
+    {
+        "id": "sleep-insomnia-desc",
+        "am": "<b>መግለጫ፡</b> የመውደቅ ወይም የመተኛት ችግር።"
+    },
+    {
+        "id": "sleep-insomnia-symptoms",
+        "am": "<b>ምልክቶች፡</b>"
+    },
+    {
+        "id": "sleep-insomnia-symptom1",
+        "am": "እንቅልፍን ለመጀመር ችግር."
+    },
+    {
+        "id": "sleep-insomnia-symptom2",
+        "am": "በሌሊት ውስጥ ተደጋጋሚ መነቃቃት."
+    },
+    {
+        "id": "sleep-insomnia-symptom3",
+        "am": "በጣም ቀደም ብሎ መነሳት።"
+    },
+    {
+        "id": "sleep-insomnia-symptom4",
+        "am": "የቀን ድካም እና ብስጭት."
+    },
+    {
+        "id": "sleep-insomnia-management",
+        "am": "<b>አስተዳደር፡</b>"
+    },
+    {
+        "id": "sleep-insomnia-manage1",
+        "am": "የእንቅልፍ ንጽህናን በመተግበር ላይ."
+    },
+    {
+        "id": "sleep-insomnia-manage2",
+        "am": "የእውቀት (ኮግኒቲቭ) የባህሪ ህክምና ለእንቅልፍ ማጣት (CBT-I)።"
+    },
+    {
+        "id": "sleep-insomnia-manage3",
+        "am": "ለቋሚ ጉዳዮች የጤና እንክብካቤ ባለሙያ ማማከር."
+    },
+    {
+        "id": "sleep-apnea-title",
+        "am": "ለ. የእንቅልፍ አፕኒያ"
+    },
+    {
+        "id": "sleep-apnea-desc",
+        "am": "<b>መግለጫ፡</b> መተንፈስ በተደጋጋሚ ይቆማል እና በእንቅልፍ ጊዜ ይጀምራል።"
+    },
+    {
+        "id": "sleep-apnea-symptoms",
+        "am": "<b>ምልክቶች፡</b>"
+    },
+    {
+        "id": "sleep-apnea-symptom1",
+        "am": "ጮክ ብሎ ማንኮራፋት።"
+    },
+    {
+        "id": "sleep-apnea-symptom2",
+        "am": "በሌሎች የተመሰከረላቸው የትንፋሽ ማቆም ክፍሎች።"
+    },
+    {
+        "id": "sleep-apnea-symptom3",
+        "am": "በእንቅልፍ ጊዜ አየር መሳብ."
+    },
+    {
+        "id": "sleep-apnea-symptom4",
+        "am": "ከመጠን በላይ የቀን እንቅልፍ."
+    },
+    {
+        "id": "sleep-apnea-management",
+        "am": "<b>አስተዳደር፡</b>"
+    },
+    {
+        "id": "sleep-apnea-manage1",
+        "am": "የአኗኗር ዘይቤ ለውጦች (ለምሳሌ, ክብደት መቀነስ, አልኮልን ማስወገድ)."
+    },
+    {
+        "id": "sleep-apnea-manage2",
+        "am": "ቀጣይነት ያለው አዎንታዊ የአየር መንገድ ግፊት (ሲፒኤፒ) ሕክምና።"
+    },
+    {
+        "id": "sleep-apnea-manage3",
+        "am": "የሕክምና ግምገማ እና ሕክምና."
+    },
+    {
+        "id": "sleep-rls-title",
+        "am": "ሐ. እረፍት የሌላቸው እግሮች ሲንድሮም (አርኤልኤስ)"
+    },
+    {
+        "id": "sleep-rls-desc",
+        "am": "<b>መግለጫ፡</b> በእግሮቹ ላይ የማይመቹ ስሜቶች እነሱን ለማንቀሳቀስ ፍላጎት አላቸው።"
+    },
+    {
+        "id": "sleep-rls-symptoms",
+        "am": "<b>ምልክቶች፡</b>"
+    },
+    {
+        "id": "sleep-rls-symptom1",
+        "am": "መቆንጠጥ፣ መጎተት ወይም የሚያሰቃዩ ስሜቶች።"
+    },
+    {
+        "id": "sleep-rls-symptom2",
+        "am": "በእንቅስቃሴ-አልባነት ጊዜ ምልክቶች እየባሱ ይሄዳሉ."
+    },
+    {
+        "id": "sleep-rls-symptom3",
+        "am": "በእንቅስቃሴ እፎይታ."
+    },
+    {
+        "id": "sleep-rls-management",
+        "am": "<b>አስተዳደር፡</b>"
+    },
+    {
+        "id": "sleep-rls-manage1",
+        "am": "መደበኛ የአካል ብቃት እንቅስቃሴ።"
+    },
+    {
+        "id": "sleep-rls-manage2",
+        "am": "መዘርጋት እና ማሸት."
+    },
+    {
+        "id": "sleep-rls-manage3",
+        "am": "ለመድኃኒት አማራጮች ከጤና እንክብካቤ አቅራቢ ጋር ምክክር።"
+    },
+    {
+        "id": "sleep-narcolepsy-title",
+        "am": "ዲ ናርኮሌፕሲ"
+    },
+    {
+        "id": "sleep-narcolepsy-desc",
+        "am": "<b>መግለጫ፡</b> በቀን ውስጥ በሚበዛ እንቅልፍ የሚታወቅ ሥር የሰደደ የእንቅልፍ ችግር።"
+    },
+    {
+        "id": "sleep-narcolepsy-symptoms",
+        "am": "<b>ምልክቶች፡</b>"
+    },
+    {
+        "id": "sleep-narcolepsy-symptom1",
+        "am": "ድንገተኛ የእንቅልፍ ጥቃቶች."
+    },
+    {
+        "id": "sleep-narcolepsy-symptom2",
+        "am": "የጡንቻ ድምጽ ማጣት (cataplexy)."
+    },
+    {
+        "id": "sleep-narcolepsy-symptom3",
+        "am": "የእንቅልፍ ሽባ."
+    },
+    {
+        "id": "sleep-narcolepsy-management",
+        "am": "<b>አስተዳደር፡</b>"
+    },
+    {
+        "id": "sleep-narcolepsy-manage1",
+        "am": "መድሃኒት."
+    },
+    {
+        "id": "sleep-narcolepsy-manage2",
+        "am": "የታቀደ እንቅልፍ።"
+    },
+    {
+        "id": "sleep-narcolepsy-manage3",
+        "am": "የሕክምና ክትትል."
+    },
+    {
+        "id": "sleep-professional-help-title",
+        "am": "የባለሙያ እርዳታ መቼ እንደሚፈለግ"
+    },
+    {
+        "id": "sleep-help-persistent",
+        "am": "<b>የማያቋርጥ የእንቅልፍ ጉዳዮች፡</b> በራስ አገዝ ጥረት ቢደረግም የእንቅልፍ ችግሮች ከጥቂት ሳምንታት በላይ የሚቆዩ ከሆነ።"
+    },
+    {
+        "id": "sleep-help-daytime",
+        "am": "<b>የቀን ጊዜ እክል፡</b> ከመጠን ያለፈ እንቅልፍ የዕለት ተዕለት እንቅስቃሴን የሚጎዳ።"
+    },
+    {
+        "id": "sleep-help-safety",
+        "am": "<b>የደህንነት ስጋቶች፡</b> ማሽንን በሚያሽከረክሩበት ወይም በሚሰሩበት ጊዜ መተኛት።"
+    },
+    {
+        "id": "sleep-help-disorders",
+        "am": "<b>የእንቅልፍ መታወክ ምልክቶች፡</b> እንደ እንቅልፍ አፕኒያ ወይም ናርኮሌፕሲ ያሉ ሁኔታዎችን የሚያመለክቱ ምልክቶች።"
+    },
+    {
+        "id": "sleep-consultation-title",
+        "am": "የምክክር አማራጮች"
+    },
+    {
+        "id": "sleep-consult-primary",
+        "am": "<b>የመጀመሪያ ደረጃ ሐኪም፡</b> የመጀመሪያ ደረጃ ግምገማ እና መመሪያ።"
+    },
+    {
+        "id": "sleep-consult-specialist",
+        "am": "<b>የእንቅልፍ ስፔሻሊስት፡</b> ለልዩ ምርመራ እና ህክምና።"
+    },
+    {
+        "id": "sleep-consult-mental",
+        "am": "<b>የአእምሮ ጤና ባለሙያ፡</b> የእንቅልፍ ጉዳዮች ከውጥረት፣ ከጭንቀት ወይም ከዲፕሬሽን ጋር የተያያዙ ከሆኑ።"
+    },
+    {
+        "id": "sleep-conclusion-title",
+        "am": "ማጠቃለያ"
+    },
+    {
+        "id": "sleep-conclusion-content",
+        "am": "ጤናማ እንቅልፍ ማግኘት ለአጠቃላይ ጤና እና የህይወት ጥራት ወሳኝ ነው። በእንቅልፍ ላይ ተጽእኖ የሚያሳድሩትን ነገሮች በመረዳት እና ተግባራዊ ስልቶችን በመተግበር የእንቅልፍ ጊዜዎን ማሻሻል እና የተሃድሶ እረፍት ብዙ ጥቅሞችን ማግኘት ይችላሉ. ቋሚነት ቁልፍ መሆኑን አስታውሱ፣ እና በእንቅልፍዎ ላይ ማስተካከያ ሲያደርጉ መታገስ አስፈላጊ ነው።"
+    },
+    {
+        "id": "sleep-final-message-title",
+        "am": "ለጤናማ ህይወት የተሻለ እንቅልፍን ይቀበሉ"
+    },
+    {
+        "id": "sleep-final-message",
+        "am": "ለእንቅልፍ ቅድሚያ መስጠት በጤናዎ, በምርታማነትዎ እና በደስታዎ ላይ መዋዕለ ንዋይ ማፍሰስ ነው. ጥራት ያለው እንቅልፍ የመለወጥ ኃይልን ለመለማመድ እነዚህን ስልቶች ዛሬ መተግበር ይጀምሩ።"
+    }
+]

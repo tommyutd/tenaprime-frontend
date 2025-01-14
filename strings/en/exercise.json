@@ -662,5 +662,33 @@
     {
         "id": "hip-thrusts",
         "en": "Hip Thrusts"
+    },
+    {
+        "id": "squat-tuck-jump",
+        "en": "Squat Tuck Jump"
+    },
+    {
+        "id": "star-jumps",
+        "en": "Star Jumps"
+    },
+    {
+        "id": "cross-body-mountain-climbers",
+        "en": "Cross-Body Mountain Climbers"
+    },
+    {
+        "id": "single-leg-broad-jumps",
+        "en": "Single Leg Broad Jumps"
+    },
+    {
+        "id": "sphinx",
+        "en": "Sphinx"
+    },
+    {
+        "id": "split-jump-squat",
+        "en": "Split Jump Squat"
+    },
+    {
+        "id": "flutter-kicks",
+        "en": "Flutter Kicks"
     }
 ]

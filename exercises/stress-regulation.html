@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/exercises/exercises.css">
+  <link rel="icon" href="/assets/logo-mini.svg">
+  <script src="/scripts/route-guard.js"></script>
+</head>
+
+<body>
+  <div class="homepage">
+    <div class="header">
+      <div class="logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <div class="navigation aleo-text">
+        <div class="navigation-home">
+          <a href="/dashboard">
+            <div class="home-text" data-text-key="home-menu-item">Home</div>
+          </a>
+        </div>
+
+        <div class="navigation-exercises">
+          <a href="/exercises">
+            <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+          </a>
+        </div>
+
+        <div class="navigation-nutrition">
+          <a href="/nutrition">
+            <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+          </a>
+        </div>
+
+        <div class="navigation-prizes">
+          <a href="/prizes">
+            <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
+          </a>
+        </div>
+
+        <div class="navigation-about">
+          <a href="/about">
+            <div class="about-text" data-text-key="about-menu-item">About</div>
+          </a>
+        </div>
+      </div>
+      <div class="extra-navigation">
+        <div class="avatar">
+          <img src="/assets/avatar.svg" alt="Account">
+          <div class="stats-popup aleo-text" id="statsPopup">
+            <div class="stats-container">
+              <div class="stats-header">
+                <h2 data-text-key="stats-title">Your Stats</h2>
+                <button class="close-button" id="closeStats">&times;</button>
+              </div>
+              <div class="stats-content">
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                  <span class="stats-value">5 <span data-text-key="days">days</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="points-earned">Points Earned</span>
+                  <span class="stats-value">250 <span data-text-key="points">points</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                  <span class="stats-value">12</span>
+                </div>
+              </div>
+              <div class="stats-footer">
+                <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="language-selector aleo-text">
+          <p>EN</p>
+          <div class="language-dropdown">
+            <div class="language-option" data-lang="en">English</div>
+            <div class="language-option" data-lang="አማ">አማርኛ</div>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="ethiotelecom">
+        <div class="ethiotelecom-container">
+          <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+        </div>
+      </div>
+    </div>
+
+    <div class="strength-training aleo-text">
+      <div class="strength-training-header">
+        <h1 data-text-key="stress-guide-title">Handbook of Stress-Relief Exercises</h1>
+        <p data-text-key="stress-guide-description"><i>Improve your mental health and overall well-being by understanding the importance of stress regulation and implementing effective exercises to reduce tension and anxiety.</i></p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="stress-intro-title">Introduction to Stress Regulation</h2>
+        <p data-text-key="stress-intro-content">Stress is a natural response to challenging situations, but chronic or excessive stress can negatively impact both mental and physical health. Learning to regulate stress through targeted exercises and strategies is essential for maintaining emotional balance, improving resilience, and enhancing overall well-being.</p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="stress-understanding-title">Understanding Stress and Its Impact</h2>
+        <p data-text-key="stress-understanding-content">Stress triggers the body's "fight-or-flight" response, releasing hormones like cortisol and adrenaline. While short-term stress can be helpful for motivation or response to immediate challenges, prolonged stress can lead to:</p>
+        <ul>
+          <li><p data-text-key="stress-impact-physical"><b>Physical symptoms:</b> Headaches, muscle tension, fatigue</p></li>
+          <li><p data-text-key="stress-impact-emotional"><b>Emotional issues:</b> Irritability, anxiety, mood swings</p></li>
+          <li><p data-text-key="stress-impact-cognitive"><b>Cognitive difficulties:</b> Trouble concentrating, memory problems</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="stress-importance-title">Importance of Stress Regulation</h2>
+        <ul>
+          <li><p data-text-key="stress-importance-mental"><b>Supports Mental Health:</b> Reduces feelings of overwhelm and frustration</p></li>
+          <li><p data-text-key="stress-importance-physical"><b>Improves Physical Health:</b> Lowers blood pressure, eases tension, and strengthens the immune system</p></li>
+          <li><p data-text-key="stress-importance-quality"><b>Enhances Quality of Life:</b> Promotes better relationships, productivity, and a more positive outlook</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="stress-factors-title">Factors Affecting Stress Levels</h2>
+        <ul>
+          <li><p data-text-key="stress-factors-lifestyle"><b>Lifestyle Choices:</b> Poor time management, excessive responsibilities, and lack of relaxation time increase stress.</p></li>
+          <li><p data-text-key="stress-factors-environment"><b>Environmental Conditions:</b> Noisy workplaces, cluttered homes, and lack of personal space contribute to tension.</p></li>
+          <li><p data-text-key="stress-factors-psychological"><b>Psychological Factors:</b> Negative thinking patterns, perfectionism, and past traumas can elevate stress.</p></li>
+          <li><p data-text-key="stress-factors-medical"><b>Medical Conditions and Medications:</b> Certain health issues and medications may influence stress levels.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="stress-techniques-title">Stress Regulation Techniques</h2>
+
+        <!-- A. Breathing Exercises for Stress Relief -->
+        <h3 data-text-key="stress-breathing-stress-relief-title">A. Breathing Exercises for Stress Relief</h3>
+        
+        <h4 data-text-key="stress-box-breathing-title">1. Box Breathing</h4>
+        <p data-text-key="stress-box-breathing-howto"><b>How to Do It:</b></p>
+        <ul>
+          <li><p data-text-key="stress-box-breathing-step1">Sit upright in a comfortable position.</p></li>
+          <li><p data-text-key="stress-box-breathing-step2">Inhale through your nose for a count of 4.</p></li>
+          <li><p data-text-key="stress-box-breathing-step3">Hold your breath for a count of 4.</p></li>
+          <li><p data-text-key="stress-box-breathing-step4">Exhale through your mouth for a count of 4.</p></li>
+          <li><p data-text-key="stress-box-breathing-step5">Hold your breath again for a count of 4.</p></li>
+          <li><p data-text-key="stress-box-breathing-step6">Repeat for several cycles.</p></li>
+        </ul>
+
+        <h4 data-text-key="stress-four-seven-eight-title">2. 4-7-8 Breathing</h4>
+        <p data-text-key="stress-four-seven-eight-howto"><b>How to Do It:</b></p>
+        <ul>
+          <li><p data-text-key="stress-four-seven-eight-step1">Sit comfortably with a straight back.</p></li>
+          <li><p data-text-key="stress-four-seven-eight-step2">Inhale quietly through your nose for a count of 4.</p></li>
+          <li><p data-text-key="stress-four-seven-eight-step3">Hold your breath for a count of 7.</p></li>
+          <li><p data-text-key="stress-four-seven-eight-step4">Exhale forcefully through your mouth for a count of 8.</p></li>
+          <li><p data-text-key="stress-four-seven-eight-step5">Repeat the cycle 4 times.</p></li>
+        </ul>
+
+        <h4 data-text-key="stress-diaphragmatic-breathing-title">3. Diaphragmatic Breathing</h4>
+        <p data-text-key="stress-diaphragmatic-breathing-howto"><b>How to Do It:</b></p>
+        <ul>
+          <li><p data-text-key="stress-diaphragmatic-breathing-step1">Sit or lie down comfortably.</p></li>
+          <li><p data-text-key="stress-diaphragmatic-breathing-step2">Place one hand on your chest and one on your abdomen.</p></li>
+          <li><p data-text-key="stress-diaphragmatic-breathing-step3">Inhale slowly through your nose, allowing your abdomen to rise.</p></li>
+          <li><p data-text-key="stress-diaphragmatic-breathing-step4">Exhale through your mouth or nose, letting your abdomen fall.</p></li>
+          <li><p data-text-key="stress-diaphragmatic-breathing-step5">Repeat for several minutes.</p></li>
+        </ul>
+
+        <!-- B. Breathing Exercises for Energy and Vitality -->
+        <h3 data-text-key="stress-breathing-energy-title">B. Breathing Exercises for Energy and Vitality</h3>
+
+        <h4 data-text-key="stress-skull-breathing-title">a. Skull Shining Breath</h4>
+        <p data-text-key="stress-skull-breathing-steps-title"><b>Steps:</b></p>
+        <ol>
+          <li><p data-text-key="stress-skull-breathing-step1">Sit comfortably with a straight spine.</p></li>
+          <li><p data-text-key="stress-skull-breathing-step2">Take a deep inhale through your nose.</p></li>
+          <li><p data-text-key="stress-skull-breathing-step3">Exhale sharply through your nose while pulling your abdomen in.</p></li>
+          <li><p data-text-key="stress-skull-breathing-step4">Allow passive inhalation between exhales.</p></li>
+          <li><p data-text-key="stress-skull-breathing-step5">Continue the cycle rapidly for about 30 seconds.</p></li>
+          <li><p data-text-key="stress-skull-breathing-step6">Rest and breathe normally.</p></li>
+        </ol>
+        <p data-text-key="stress-skull-breathing-warning" class="warning"><i>Note: Avoid if you have high blood pressure or heart conditions.</i></p>
+
+        <h4 data-text-key="stress-bellows-breath-title">b. Bellows Breath</h4>
+        <p data-text-key="stress-bellows-breath-steps-title"><b>Steps:</b></p>
+        <ol>
+          <li><p data-text-key="stress-bellows-breath-step1">Sit upright.</p></li>
+          <li><p data-text-key="stress-bellows-breath-step2">Inhale deeply through your nose, expanding your abdomen.</p></li>
+          <li><p data-text-key="stress-bellows-breath-step3">Exhale forcefully through your nose, contracting your abdomen.</p></li>
+          <li><p data-text-key="stress-bellows-breath-step4">Continue inhaling and exhaling forcefully for 10 breaths.</p></li>
+          <li><p data-text-key="stress-bellows-breath-step5">Rest and breathe normally.</p></li>
+        </ol>
+
+        <h4 data-text-key="stress-stimulating-breath-title">c. Stimulating Breath (Breath of Fire)</h4>
+        <p data-text-key="stress-stimulating-breath-steps-title"><b>Steps:</b></p>
+        <ol>
+          <li><p data-text-key="stress-stimulating-breath-step1">Sit comfortably.</p></li>
+          <li><p data-text-key="stress-stimulating-breath-step2">Inhale and exhale rapidly through your nose, keeping breaths equal.</p></li>
+          <li><p data-text-key="stress-stimulating-breath-step3">Aim for 2-3 breaths per second.</p></li>
+          <li><p data-text-key="stress-stimulating-breath-step4">Continue for 15-30 seconds to start.</p></li>
+        </ol>
+
+        <!-- C. Breathing Exercises for Balance and Harmony -->
+        <h3 data-text-key="stress-breathing-balance-title">C. Breathing Exercises for Balance and Harmony</h3>
+
+        <h4 data-text-key="stress-alternate-nostril-title">a. Alternate Nostril Breathing</h4>
+        <p data-text-key="stress-alternate-nostril-steps-title"><b>Steps:</b></p>
+        <ol>
+          <li><p data-text-key="stress-alternate-nostril-step1">Sit comfortably.</p></li>
+          <li><p data-text-key="stress-alternate-nostril-step2">Use your right hand: thumb on right nostril, ring finger on left.</p></li>
+          <li><p data-text-key="stress-alternate-nostril-step3">Close the right nostril with thumb; inhale through left nostril.</p></li>
+          <li><p data-text-key="stress-alternate-nostril-step4">Close left nostril with ring finger; exhale through right nostril.</p></li>
+          <li><p data-text-key="stress-alternate-nostril-step5">Inhale through right nostril.</p></li>
+          <li><p data-text-key="stress-alternate-nostril-step6">Close right nostril; exhale through left nostril.</p></li>
+          <li><p data-text-key="stress-alternate-nostril-step7">Repeat the cycle.</p></li>
+        </ol>
+
+        <h4 data-text-key="stress-equal-breathing-title">b. Equal Breathing (Sama Vritti)</h4>
+        <p data-text-key="stress-equal-breathing-steps-title"><b>Steps:</b></p>
+        <ol>
+          <li><p data-text-key="stress-equal-breathing-step1">Sit or lie down comfortably.</p></li>
+          <li><p data-text-key="stress-equal-breathing-step2">Inhale through your nose for a count of 4.</p></li>
+          <li><p data-text-key="stress-equal-breathing-step3">Exhale through your nose for a count of 4.</p></li>
+          <li><p data-text-key="stress-equal-breathing-step4">Continue, keeping inhales and exhales equal in length.</p></li>
+        </ol>
+
+        <h4 data-text-key="stress-coherent-breathing-title">c. Coherent Breathing</h4>
+        <p data-text-key="stress-coherent-breathing-steps-title"><b>Steps:</b></p>
+        <ol>
+          <li><p data-text-key="stress-coherent-breathing-step1">Sit comfortably.</p></li>
+          <li><p data-text-key="stress-coherent-breathing-step2">Inhale slowly through your nose for 5 counts.</p></li>
+          <li><p data-text-key="stress-coherent-breathing-step3">Exhale slowly through your nose for 5 counts.</p></li>
+          <li><p data-text-key="stress-coherent-breathing-step4">Aim for 5 breaths per minute.</p></li>
+        </ol>
+
+        <!-- D. Breathing Exercises for Mindfulness -->
+        <h3 data-text-key="stress-breathing-mindfulness-title">D. Breathing Exercises for Mindfulness</h3>
+
+        <h4 data-text-key="stress-mindful-breathing-title">a. Mindful Breathing</h4>
+        <p data-text-key="stress-mindful-breathing-steps-title"><b>Steps:</b></p>
+        <ol>
+          <li><p data-text-key="stress-mindful-breathing-step1">Sit or lie down comfortably.</p></li>
+          <li><p data-text-key="stress-mindful-breathing-step2">Close your eyes.</p></li>
+          <li><p data-text-key="stress-mindful-breathing-step3">Focus your attention on your natural breath.</p></li>
+          <li><p data-text-key="stress-mindful-breathing-step4">Observe each inhale and exhale without judgment.</p></li>
+        </ol>
+
+        <h4 data-text-key="stress-resonant-breathing-title">b. Resonant Breathing</h4>
+        <p data-text-key="stress-resonant-breathing-steps-title"><b>Steps:</b></p>
+        <ol>
+          <li><p data-text-key="stress-resonant-breathing-step1">Sit comfortably.</p></li>
+          <li><p data-text-key="stress-resonant-breathing-step2">Inhale slowly through your nose for 6 counts.</p></li>
+          <li><p data-text-key="stress-resonant-breathing-step3">Exhale slowly through your nose for 6 counts.</p></li>
+          <li><p data-text-key="stress-resonant-breathing-step4">Maintain this slow, steady rhythm.</p></li>
+        </ol>
+
+        <h4 data-text-key="stress-loving-kindness-breath-title">c. Loving-Kindness Breath</h4>
+        <p data-text-key="stress-loving-kindness-breath-steps-title"><b>Steps:</b></p>
+        <ol>
+          <li><p data-text-key="stress-loving-kindness-breath-step1">Sit comfortably with eyes closed.</p></li>
+          <li><p data-text-key="stress-loving-kindness-breath-step2">Inhale and silently say, "May I be happy."</p></li>
+          <li><p data-text-key="stress-loving-kindness-breath-step3">Exhale and silently say, "May others be happy."</p></li>
+          <li><p data-text-key="stress-loving-kindness-breath-step4">Repeat, cultivating feelings of kindness.</p></li>
+        </ol>
+
+        <!-- E. Progressive Muscle Relaxation -->
+        <h3 data-text-key="stress-pmr-title">E. Progressive Muscle Relaxation (PMR)</h3>
+        <p data-text-key="stress-pmr-howto"><b>How to Do It:</b></p>
+        <ul>
+          <li><p data-text-key="stress-pmr-step1">Sit or lie down comfortably.</p></li>
+          <li><p data-text-key="stress-pmr-step2">Tense and hold each muscle group (e.g., toes, calves, thighs) for 5-10 seconds, then release.</p></li>
+          <li><p data-text-key="stress-pmr-step3">Move sequentially through the body (legs, abdomen, arms, shoulders, neck, face).</p></li>
+          <li><p data-text-key="stress-pmr-step4">Focus on the contrast between tension and relaxation.</p></li>
+        </ul>
+
+        <!-- F. Meditation -->
+        <h3 data-text-key="stress-meditation-title">F. Meditation</h3>
+
+        <h4 data-text-key="stress-mindfulness-meditation-title">1. Mindfulness Meditation</h4>
+        <p data-text-key="stress-mindfulness-meditation-howto"><b>How to Do It:</b></p>
+        <ul>
+          <li><p data-text-key="stress-mindfulness-meditation-step1">Sit quietly and focus on your breath.</p></li>
+          <li><p data-text-key="stress-mindfulness-meditation-step2">Acknowledge distracting thoughts without judgment and gently return to your breath.</p></li>
+          <li><p data-text-key="stress-mindfulness-meditation-step3">Start with 5-10 minutes and gradually increase time.</p></li>
+        </ul>
+
+        <h4 data-text-key="stress-body-scan-title">2. Body Scan</h4>
+        <p data-text-key="stress-body-scan-howto"><b>How to Do It:</b></p>
+        <ul>
+          <li><p data-text-key="stress-body-scan-step1">Close your eyes and mentally scan your body from head to toe.</p></li>
+          <li><p data-text-key="stress-body-scan-step2">Notice areas of tension and relax them with each exhale.</p></li>
+        </ul>
+
+        <h4 data-text-key="stress-guided-imagery-title">3. Guided Imagery</h4>
+        <p data-text-key="stress-guided-imagery-howto"><b>How to Do It:</b></p>
+        <ul>
+          <li><p data-text-key="stress-guided-imagery-step1">Visualize a peaceful scene or memory.</p></li>
+          <li><p data-text-key="stress-guided-imagery-step2">Engage your senses by imagining the sights, sounds, and scents of this place.</p></li>
+        </ul>
+
+        <h3 data-text-key="stress-grounding-techniques-title">G. Grounding Techniques</h3>
+
+        <h4 data-text-key="stress-five-four-three-title">1. 5-4-3-2-1 Method</h4>
+        <p data-text-key="stress-five-four-three-howto"><b>How to Do It:</b></p>
+        <ul>
+          <li><p data-text-key="stress-five-four-three-step1">Identify 5 things you see.</p></li>
+          <li><p data-text-key="stress-five-four-three-step2">Identify 4 things you can touch.</p></li>
+          <li><p data-text-key="stress-five-four-three-step3">Identify 3 things you can hear.</p></li>
+          <li><p data-text-key="stress-five-four-three-step4">Identify 2 things you can smell.</p></li>
+          <li><p data-text-key="stress-five-four-three-step5">Identify 1 thing you can taste.</p></li>
+          <li><p data-text-key="stress-five-four-three-note">This helps bring your focus back to the present moment.</p></li>
+        </ul>
+
+        <h4 data-text-key="stress-emotion-acknowledge-title">2. Name and Acknowledge Emotions</h4>
+        <p data-text-key="stress-emotion-acknowledge-howto"><b>How to Do It:</b></p>
+        <ul>
+          <li><p data-text-key="stress-emotion-acknowledge-step1">Notice a stressful thought or feeling.</p></li>
+          <li><p data-text-key="stress-emotion-acknowledge-step2">Label it ("This is anxiety" or "This is worry").</p></li>
+          <li><p data-text-key="stress-emotion-acknowledge-step3">Acknowledge it and then refocus on your present environment.</p></li>
+        </ul>
+
+        <h3 data-text-key="stress-physical-activities-title">H. Physical Activities for Stress Relief</h3>
+
+        <h4 data-text-key="stress-cardio-title">1. Light Cardio (e.g., Walking, Cycling)</h4>
+        <p data-text-key="stress-cardio-benefits">Releases endorphins, improves mood, and reduces tension.</p>
+
+        <h4 data-text-key="stress-yoga-title">2. Yoga</h4>
+        <p data-text-key="stress-yoga-benefits">Combines physical poses with breathing and mindfulness, promoting relaxation.</p>
+
+        <h4 data-text-key="stress-stretching-title">3. Stretching</h4>
+        <p data-text-key="stress-stretching-benefits">Releases muscle tension and encourages relaxation.</p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="stress-management-tips-title">Tips for Improving Stress Management</h2>
+        <ul>
+          <li><p data-text-key="stress-tip-time"><b>Time Management:</b> Set priorities and create to-do lists to avoid feeling overwhelmed.</p></li>
+          <li><p data-text-key="stress-tip-boundaries"><b>Healthy Boundaries:</b> Learn to say no to commitments that exceed your capacity.</p></li>
+          <li><p data-text-key="stress-tip-support"><b>Social Support:</b> Talk to friends, family, or support groups about stressors.</p></li>
+          <li><p data-text-key="stress-tip-humor"><b>Humor and Play:</b> Engage in activities that bring joy and laughter.</p></li>
+          <li><p data-text-key="stress-tip-relaxation"><b>Relaxation Rituals:</b> Incorporate enjoyable, calming activities like reading, taking a warm bath, or listening to soothing music.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="stress-mental-health-concerns-title">Common Mental Health Concerns Related to Stress</h2>
+
+        <h3 data-text-key="stress-anxiety-title">A. Anxiety</h3>
+        <ul>
+          <li><p data-text-key="stress-anxiety-symptoms">Excessive worry, restlessness, difficulty concentrating.</p></li>
+          <li><p data-text-key="stress-anxiety-management">Stress regulation techniques can help alleviate symptoms.</p></li>
+        </ul>
+
+        <h3 data-text-key="stress-depression-title">B. Depression</h3>
+        <ul>
+          <li><p data-text-key="stress-depression-symptoms">Persistent sadness, loss of interest, low energy.</p></li>
+          <li><p data-text-key="stress-depression-management">Addressing stress can improve mood and coping skills.</p></li>
+        </ul>
+
+        <h3 data-text-key="stress-burnout-title">C. Burnout</h3>
+        <ul>
+          <li><p data-text-key="stress-burnout-symptoms">Physical and emotional exhaustion from prolonged stress.</p></li>
+          <li><p data-text-key="stress-burnout-management">Regular breaks and self-care practices are crucial.</p></li>
+        </ul>
+
+        <h3 data-text-key="stress-adjustment-title">D. Adjustment Disorders</h3>
+        <ul>
+          <li><p data-text-key="stress-adjustment-symptoms">Difficulty coping with life changes.</p></li>
+          <li><p data-text-key="stress-adjustment-management">Stress management aids in adapting to new circumstances.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="stress-professional-help-title">When to Seek Professional Help</h2>
+        <ul>
+          <li><p data-text-key="stress-professional-help-persistent"><b>Persistent Stress:</b> Lasting more than a few weeks despite self-help efforts.</p></li>
+          <li><p data-text-key="stress-professional-help-impact"><b>Impact on Daily Life:</b> Difficulty performing everyday tasks or maintaining relationships.</p></li>
+          <li><p data-text-key="stress-professional-help-physical"><b>Physical Symptoms:</b> Frequent headaches, stomach problems, or insomnia.</p></li>
+          <li><p data-text-key="stress-professional-help-mental"><b>Signs of Mental Health Issues:</b> Severe anxiety, depression, panic attacks.</p></li>
+        </ul>
+
+        <h3 data-text-key="stress-consultation-options-title">Consultation Options:</h3>
+        <ul>
+          <li><p data-text-key="stress-consultation-physician"><b>Primary Care Physician:</b> Initial evaluation and guidance.</p></li>
+          <li><p data-text-key="stress-consultation-therapist"><b>Mental Health Professional (Therapist, Counselor):</b> Provides coping strategies and therapy.</p></li>
+          <li><p data-text-key="stress-consultation-psychiatrist"><b>Psychiatrist:</b> For medication and specialized treatment plans.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="stress-additional-resources-title">Additional Resources</h2>
+        
+        <h3 data-text-key="stress-resources-books-title">Books:</h3>
+        <ul>
+          <li><p data-text-key="stress-resources-book1">The Relaxation & Stress Reduction Workbook by Martha Davis, Elizabeth Robbins Eshelman, and Matthew McKay.</p></li>
+          <li><p data-text-key="stress-resources-book2">Full Catastrophe Living by Jon Kabat-Zinn.</p></li>
+        </ul>
+
+        <h3 data-text-key="stress-resources-apps-title">Apps:</h3>
+        <ul>
+          <li><p data-text-key="stress-resources-app1"><b>Headspace:</b> Guided meditations and stress relief exercises.</p></li>
+          <li><p data-text-key="stress-resources-app2"><b>Calm:</b> Breathing exercises, relaxing sounds, and sleep stories.</p></li>
+          <li><p data-text-key="stress-resources-app3"><b>Sanvello:</b> Cognitive Behavioral Therapy-based tools for stress and anxiety management.</p></li>
+        </ul>
+      </div>
+      
+      <div class="strength-training-content">
+        <h2 data-text-key="stress-conclusion-title">Conclusion</h2>
+        <p data-text-key="stress-conclusion-content">Implementing stress regulation exercises and techniques can significantly improve mental health, emotional resilience, and overall quality of life. By practicing mindful breathing, progressive muscle relaxation, grounding methods, and incorporating physical activity, you can create a more balanced and stress-resilient lifestyle. Remember to be patient with yourself, start with small steps, and consider seeking professional help if stress becomes unmanageable.</p>
+        
+        <p data-text-key="disclaimer" class="disclaimer"><i>Disclaimer: This guide is for informational purposes only and should not replace professional medical advice. If you have concerns about your mental health or stress levels, consult a healthcare professional.</i></p>
+      </div>
+    </div>
+
+    <div class="footer aleo-text">
+      <div class="footer-content">
+        <div class="footer-sections">
+          <div class="footer-section">
+            <h3 data-text-key="footer-quick-links">Quick Links</h3>
+            <ul>
+              <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
+              <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
+              <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
+              <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-information">Information</h3>
+            <ul>
+              <li><a href="/about" data-text-key="about-menu-item">About</a></li>
+              <li><a href="#" data-text-key="faq">FAQ</a></li>
+              <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
+              <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-contact">Contact</h3>
+            <ul>
+              <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+              <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+              <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+              <li><a href="#" data-text-key="support">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-section footer-logo">
+            <img src="/assets/logo.svg" alt="TenaPrime">
+            <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+            <div class="footer-social">
+              <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
+              <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
+              <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 TenaPrime. All rights reserved.</p>
+          <div class="footer-ethiotelecom">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-overlay"></div>
+  <div class="sidebar aleo-text" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <button class="sidebar-close">&times;</button>
+    </div>
+
+    <div class="sidebar-language-selector">
+      <div class="language-options-container">
+        <div class="sidebar-language-option" data-lang="en">
+          <span class="language-text">English</span>
+        </div>
+        <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+          <span class="language-text">አማርኛ</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-navigation">
+      <a href="/dashboard" class="sidebar-item">
+        <div data-text-key="home-menu-item">Home</div>
+      </a>
+      <a href="/exercises" class="sidebar-item">
+        <div data-text-key="exercises-menu-item">Exercises</div>
+      </a>
+      <a href="/nutrition" class="sidebar-item">
+        <div data-text-key="nutrition-menu-item">Nutrition</div>
+      </a>
+      <a href="/prizes" class="sidebar-item">
+        <div data-text-key="prizes-menu-item">Prizes</div>
+      </a>
+      <a href="/about" class="sidebar-item">
+        <div data-text-key="about-menu-item">About</div>
+      </a>
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="#" class="sidebar-item">
+        <div data-text-key="tandc">Terms & Conditions</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="faq">FAQ</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="privacy-policy">Privacy Policy</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="contact-us">Contact Us</div>
+      </a>
+    </div>
+  </div>
+
+  <script src="/scripts/config.js"></script>
+  <script src="/scripts/auth-service.js"></script>
+  <script src="/scripts/strings-loader.js"></script>
+  <script src="/scripts/language-selector.js"></script>
+  <script src="/scripts/user-stats-popup.js"></script>
+  <script src="/scripts/sidebar-overlay.js"></script>
+
+</body>
+
+</html>

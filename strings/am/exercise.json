@@ -662,5 +662,33 @@
     {
         "id": "hip-thrusts",
         "am": "የሂፕ ግፊቶች"
+    },
+    {
+        "id": "squat-tuck-jump",
+        "am": "ስኳት ታክ ዝለል"
+    },
+    {
+        "id": "star-jumps",
+        "am": "ኮከብ ዘለላዎች"
+    },
+    {
+        "id": "cross-body-mountain-climbers",
+        "am": "ተሻጋሪ-የሰውነት ተራራ ወጣ ገባዎች"
+    },
+    {
+        "id": "single-leg-broad-jumps",
+        "am": "ነጠላ እግር ሰፋ ያለ ዝላይ"
+    },
+    {
+        "id": "sphinx",
+        "am": "ሰፊኒክስ"
+    },
+    {
+        "id": "split-jump-squat",
+        "am": "የተከፈለ ዝለል ስኩዌት"
+    },
+    {
+        "id": "flutter-kicks",
+        "am": "ፍሉተር ኪክስ"
     }
 ]

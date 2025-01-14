@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/exercises/exercises.css">
+  <link rel="icon" href="/assets/logo-mini.svg">
+  <script src="/scripts/route-guard.js"></script>
+</head>
+
+<body>
+  <div class="homepage">
+    <div class="header">
+      <div class="logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <div class="navigation aleo-text">
+        <div class="navigation-home">
+          <a href="/dashboard">
+            <div class="home-text" data-text-key="home-menu-item">Home</div>
+          </a>
+        </div>
+
+        <div class="navigation-exercises">
+          <a href="/exercises">
+            <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+          </a>
+        </div>
+
+        <div class="navigation-nutrition">
+          <a href="/nutrition">
+            <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+          </a>
+        </div>
+
+        <div class="navigation-prizes">
+          <a href="/prizes">
+            <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
+          </a>
+        </div>
+
+        <div class="navigation-about">
+          <a href="/about">
+            <div class="about-text" data-text-key="about-menu-item">About</div>
+          </a>
+        </div>
+      </div>
+      <div class="extra-navigation">
+        <div class="avatar">
+          <img src="/assets/avatar.svg" alt="Account">
+          <div class="stats-popup aleo-text" id="statsPopup">
+            <div class="stats-container">
+              <div class="stats-header">
+                <h2 data-text-key="stats-title">Your Stats</h2>
+                <button class="close-button" id="closeStats">&times;</button>
+              </div>
+              <div class="stats-content">
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                  <span class="stats-value">5 <span data-text-key="days">days</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="points-earned">Points Earned</span>
+                  <span class="stats-value">250 <span data-text-key="points">points</span></span>
+                </div>
+                <div class="stats-item">
+                  <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                  <span class="stats-value">12</span>
+                </div>
+              </div>
+              <div class="stats-footer">
+                <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="language-selector aleo-text">
+          <p>EN</p>
+          <div class="language-dropdown">
+            <div class="language-option" data-lang="en">English</div>
+            <div class="language-option" data-lang="አማ">አማርኛ</div>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="ethiotelecom">
+        <div class="ethiotelecom-container">
+          <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+        </div>
+      </div>
+    </div>
+
+    <div class="strength-training aleo-text">
+      <div class="strength-training-header">
+        <h1 data-text-key="yoga-guide-title">Yoga: A Beginner's Guide</h1>
+        <p data-text-key="yoga-guide-description"><i>Explore the basics of yoga and how it can enhance your overall well-being.</i></p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="yoga-intro-title">What is Yoga?</h2>
+        <p data-text-key="yoga-intro-content">Yoga is an ancient practice that originated in India over 5,000 years ago. It combines physical postures (asanas), breathing techniques (pranayama), and meditation to promote harmony between the body and mind. Yoga aims to improve flexibility, strength, balance, and mental clarity.</p>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="yoga-benefits-title">Benefits of Yoga</h2>
+        
+        <h3 data-text-key="yoga-physical-title">Physical Health</h3>
+        <ul>
+          <li><p data-text-key="yoga-benefit-flexibility"><b>Improves Flexibility:</b> Regular practice stretches muscles and increases range of motion.</p></li>
+          <li><p data-text-key="yoga-benefit-strength"><b>Builds Strength:</b> Enhances muscle tone and endurance throughout the body.</p></li>
+          <li><p data-text-key="yoga-benefit-balance"><b>Enhances Balance and Posture:</b> Promotes better alignment and stability.</p></li>
+          <li><p data-text-key="yoga-benefit-energy"><b>Boosts Energy Levels:</b> Increases vitality and reduces feelings of fatigue.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-mental-title">Mental Well-being</h3>
+        <ul>
+          <li><p data-text-key="yoga-benefit-stress"><b>Reduces Stress:</b> Lowers cortisol levels and promotes relaxation.</p></li>
+          <li><p data-text-key="yoga-benefit-focus"><b>Enhances Focus:</b> Improves concentration and mental clarity.</p></li>
+          <li><p data-text-key="yoga-benefit-emotional"><b>Promotes Emotional Health:</b> Encourages mindfulness and self-awareness.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="yoga-styles-title">Basic Yoga Styles</h2>
+        
+        <h3 data-text-key="yoga-hatha-title">Hatha Yoga</h3>
+        <ul>
+          <li><p data-text-key="yoga-hatha-overview"><b>Overview:</b> Focuses on basic postures at a gentle pace.</p></li>
+          <li><p data-text-key="yoga-hatha-ideal"><b>Ideal For:</b> Beginners seeking foundational practice.</p></li>
+          <li><p data-text-key="yoga-hatha-benefits"><b>Benefits:</b> Builds flexibility and introduces fundamental poses.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-vinyasa-title">Vinyasa Yoga</h3>
+        <ul>
+          <li><p data-text-key="yoga-vinyasa-overview"><b>Overview:</b> Involves fluid movement linked with breath.</p></li>
+          <li><p data-text-key="yoga-vinyasa-ideal"><b>Ideal For:</b> Those who enjoy dynamic and varied routines.</p></li>
+          <li><p data-text-key="yoga-vinyasa-benefits"><b>Benefits:</b> Enhances cardiovascular health and coordination.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-restorative-title">Restorative Yoga</h3>
+        <ul>
+          <li><p data-text-key="yoga-restorative-overview"><b>Overview:</b> Uses props to support passive poses for deep relaxation.</p></li>
+          <li><p data-text-key="yoga-restorative-ideal"><b>Ideal For:</b> Stress relief and recovery.</p></li>
+          <li><p data-text-key="yoga-restorative-benefits"><b>Benefits:</b> Promotes healing and reduces tension.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="yoga-poses-title">Essential Yoga Poses</h2>
+
+        <h3 data-text-key="yoga-mountain-title">1. Mountain Pose (Tadasana)</h3>
+        <p data-text-key="yoga-mountain-purpose"><b>Purpose:</b> Establishes a solid foundation and improves posture.</p>
+        <p data-text-key="yoga-mountain-howto"><b>How to Practice:</b></p>
+        <ul>
+          <li><p data-text-key="yoga-mountain-step1">Stand with feet hip-width apart.</p></li>
+          <li><p data-text-key="yoga-mountain-step2">Distribute weight evenly across both feet.</p></li>
+          <li><p data-text-key="yoga-mountain-step3">Lengthen spine and relax shoulders.</p></li>
+          <li><p data-text-key="yoga-mountain-step4">Arms by sides, palms facing forward.</p></li>
+          <li><p data-text-key="yoga-mountain-step5">Hold for several breaths, focusing on alignment.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-downdog-title">2. Downward-Facing Dog (Adho Mukha Svanasana)</h3>
+        <p data-text-key="yoga-downdog-purpose"><b>Purpose:</b> Stretches the entire body and builds strength.</p>
+        <p data-text-key="yoga-downdog-howto"><b>How to Practice:</b></p>
+        <ul>
+          <li><p data-text-key="yoga-downdog-step1">Start on hands and knees.</p></li>
+          <li><p data-text-key="yoga-downdog-step2">Lift hips upward, forming an inverted "V" shape.</p></li>
+          <li><p data-text-key="yoga-downdog-step3">Press heels toward the floor (they may not touch).</p></li>
+          <li><p data-text-key="yoga-downdog-step4">Spread fingers wide, press into hands.</p></li>
+          <li><p data-text-key="yoga-downdog-step5">Hold for 5–7 breaths.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-warrior-title">3. Warrior II (Virabhadrasana II)</h3>
+        <p data-text-key="yoga-warrior-purpose"><b>Purpose:</b> Strengthens legs and improves stamina.</p>
+        <p data-text-key="yoga-warrior-howto"><b>How to Practice:</b></p>
+        <ul>
+          <li><p data-text-key="yoga-warrior-step1">Step one foot back, turning it out slightly.</p></li>
+          <li><p data-text-key="yoga-warrior-step2">Bend front knee over ankle.</p></li>
+          <li><p data-text-key="yoga-warrior-step3">Extend arms out to sides at shoulder height.</p></li>
+          <li><p data-text-key="yoga-warrior-step4">Gaze over front hand.</p></li>
+          <li><p data-text-key="yoga-warrior-step5">Hold for several breaths, then switch sides.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-child-title">4. Child's Pose (Balasana)</h3>
+        <p data-text-key="yoga-child-purpose"><b>Purpose:</b> Provides rest and gentle stretching for the back and hips.</p>
+        <p data-text-key="yoga-child-howto"><b>How to Practice:</b></p>
+        <ul>
+          <li><p data-text-key="yoga-child-step1">Kneel on the floor, big toes touching, knees apart.</p></li>
+          <li><p data-text-key="yoga-child-step2">Sit back on heels.</p></li>
+          <li><p data-text-key="yoga-child-step3">Fold forward, extending arms in front.</p></li>
+          <li><p data-text-key="yoga-child-step4">Rest forehead on the mat.</p></li>
+          <li><p data-text-key="yoga-child-step5">Breathe deeply, holding for as long as comfortable.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="yoga-getting-started-title">Getting Started with Yoga</h2>
+
+        <h3 data-text-key="yoga-instruction-title">Find Instruction</h3>
+        <ul>
+          <li><p data-text-key="yoga-instruction-classes"><b>Classes:</b> Attend a local beginner's class for guided instruction.</p></li>
+          <li><p data-text-key="yoga-instruction-online"><b>Online Resources:</b> Use reputable websites or apps offering beginner tutorials.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-space-title">Prepare Your Space</h3>
+        <ul>
+          <li><p data-text-key="yoga-space-mat"><b>Yoga Mat:</b> Provides cushioning and stability.</p></li>
+          <li><p data-text-key="yoga-space-area"><b>Quiet Area:</b> Choose a space free from distractions.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-clothing-title">Dress Comfortably</h3>
+        <ul>
+          <li><p data-text-key="yoga-clothing-attire"><b>Clothing:</b> Wear attire that allows free movement, such as leggings and a fitted top.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-body-title">Listen to Your Body</h3>
+        <ul>
+          <li><p data-text-key="yoga-body-modify"><b>Modify Poses:</b> Use props or adjust positions to suit your comfort level.</p></li>
+          <li><p data-text-key="yoga-body-pain"><b>Avoid Pain:</b> Discomfort is okay, but sharp pain is a signal to stop.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="yoga-tips-title">Tips for a Successful Practice</h2>
+
+        <h3 data-text-key="yoga-start-slow-title">Start Slow</h3>
+        <ul>
+          <li><p data-text-key="yoga-tips-session"><b>Session Length:</b> Begin with 15–20 minutes and gradually increase.</p></li>
+          <li><p data-text-key="yoga-tips-frequency"><b>Frequency:</b> Aim for 2–3 times per week initially.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-consistency-title">Be Consistent</h3>
+        <ul>
+          <li><p data-text-key="yoga-tips-routine"><b>Routine:</b> Practice at the same time each day to build habit.</p></li>
+          <li><p data-text-key="yoga-tips-patience"><b>Patience:</b> Progress takes time; focus on the journey.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-combine-title">Combine with Other Activities</h3>
+        <ul>
+          <li><p data-text-key="yoga-tips-complementary"><b>Complementary Exercise:</b> Yoga pairs well with cardio and strength training.</p></li>
+          <li><p data-text-key="yoga-tips-flexibility"><b>Flexibility and Recovery:</b> Use yoga to enhance flexibility and aid muscle recovery.</p></li>
+        </ul>
+
+        <h3 data-text-key="yoga-hydration-title">Stay Hydrated</h3>
+        <ul>
+          <li><p data-text-key="yoga-tips-hydration"><b>Before and After:</b> Drink water to keep muscles functioning optimally.</p></li>
+        </ul>
+      </div>
+
+      <div class="strength-training-content">
+        <h2 data-text-key="yoga-conclusion-title">Conclusion</h2>
+        <p data-text-key="yoga-conclusion-content">Incorporating yoga into your routine can offer numerous benefits, even if it's not your primary focus. It enhances physical fitness, reduces stress, and promotes mental clarity. Starting with basic poses and practices can help you experience these benefits without overwhelming detail.</p>
+        
+        <p data-text-key="disclaimer" class="disclaimer"><i>Disclaimer: This guide is for informational purposes only. Always consult with a healthcare professional before starting a new exercise program, particularly if you have any pre-existing health conditions or concerns.</i></p>
+      </div>
+    </div>
+
+    <div class="footer aleo-text">
+      <div class="footer-content">
+        <div class="footer-sections">
+          <div class="footer-section">
+            <h3 data-text-key="footer-quick-links">Quick Links</h3>
+            <ul>
+              <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
+              <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
+              <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
+              <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-information">Information</h3>
+            <ul>
+              <li><a href="/about" data-text-key="about-menu-item">About</a></li>
+              <li><a href="#" data-text-key="faq">FAQ</a></li>
+              <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
+              <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3 data-text-key="footer-contact">Contact</h3>
+            <ul>
+              <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+              <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+              <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+              <li><a href="#" data-text-key="support">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-section footer-logo">
+            <img src="/assets/logo.svg" alt="TenaPrime">
+            <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+            <div class="footer-social">
+              <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
+              <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
+              <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 TenaPrime. All rights reserved.</p>
+          <div class="footer-ethiotelecom">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-overlay"></div>
+  <div class="sidebar aleo-text" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <img src="/assets/logo.svg" alt="TenaPrime">
+      </div>
+      <button class="sidebar-close">&times;</button>
+    </div>
+
+    <div class="sidebar-language-selector">
+      <div class="language-options-container">
+        <div class="sidebar-language-option" data-lang="en">
+          <span class="language-text">English</span>
+        </div>
+        <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+          <span class="language-text">አማርኛ</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-navigation">
+      <a href="/dashboard" class="sidebar-item">
+        <div data-text-key="home-menu-item">Home</div>
+      </a>
+      <a href="/exercises" class="sidebar-item">
+        <div data-text-key="exercises-menu-item">Exercises</div>
+      </a>
+      <a href="/nutrition" class="sidebar-item">
+        <div data-text-key="nutrition-menu-item">Nutrition</div>
+      </a>
+      <a href="/prizes" class="sidebar-item">
+        <div data-text-key="prizes-menu-item">Prizes</div>
+      </a>
+      <a href="/about" class="sidebar-item">
+        <div data-text-key="about-menu-item">About</div>
+      </a>
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="#" class="sidebar-item">
+        <div data-text-key="tandc">Terms & Conditions</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="faq">FAQ</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="privacy-policy">Privacy Policy</div>
+      </a>
+      <a href="#" class="sidebar-item">
+        <div data-text-key="contact-us">Contact Us</div>
+      </a>
+    </div>
+  </div>
+
+  <script src="/scripts/config.js"></script>
+  <script src="/scripts/auth-service.js"></script>
+  <script src="/scripts/strings-loader.js"></script>
+  <script src="/scripts/language-selector.js"></script>
+  <script src="/scripts/user-stats-popup.js"></script>
+  <script src="/scripts/sidebar-overlay.js"></script>
+
+</body>
+
+</html>

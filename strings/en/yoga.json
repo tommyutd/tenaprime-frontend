@@ -1,0 +1,346 @@
+[
+    {
+        "id": "yoga-guide-title",
+        "en": "Yoga: A Beginner's Guide"
+    },
+    {
+        "id": "yoga-guide-description",
+        "en": "<i>Explore the basics of yoga and how it can enhance your overall well-being.</i>"
+    },
+    {
+        "id": "yoga-intro-title",
+        "en": "What is Yoga?"
+    },
+    {
+        "id": "yoga-intro-content",
+        "en": "Yoga is an ancient practice that originated in India over 5,000 years ago. It combines physical postures (asanas), breathing techniques (pranayama), and meditation to promote harmony between the body and mind. Yoga aims to improve flexibility, strength, balance, and mental clarity."
+    },
+    {
+        "id": "yoga-benefits-title",
+        "en": "Benefits of Yoga"
+    },
+    {
+        "id": "yoga-physical-title",
+        "en": "Physical Health"
+    },
+    {
+        "id": "yoga-benefit-flexibility",
+        "en": "<b>Improves Flexibility:</b> Regular practice stretches muscles and increases range of motion."
+    },
+    {
+        "id": "yoga-benefit-strength",
+        "en": "<b>Builds Strength:</b> Enhances muscle tone and endurance throughout the body."
+    },
+    {
+        "id": "yoga-benefit-balance",
+        "en": "<b>Enhances Balance and Posture:</b> Promotes better alignment and stability."
+    },
+    {
+        "id": "yoga-benefit-energy",
+        "en": "<b>Boosts Energy Levels:</b> Increases vitality and reduces feelings of fatigue."
+    },
+    {
+        "id": "yoga-mental-title",
+        "en": "Mental Well-being"
+    },
+    {
+        "id": "yoga-benefit-stress",
+        "en": "<b>Reduces Stress:</b> Lowers cortisol levels and promotes relaxation."
+    },
+    {
+        "id": "yoga-benefit-focus",
+        "en": "<b>Enhances Focus:</b> Improves concentration and mental clarity."
+    },
+    {
+        "id": "yoga-benefit-emotional",
+        "en": "<b>Promotes Emotional Health:</b> Encourages mindfulness and self-awareness."
+    },
+    {
+        "id": "yoga-styles-title",
+        "en": "Basic Yoga Styles"
+    },
+    {
+        "id": "yoga-hatha-title",
+        "en": "Hatha Yoga"
+    },
+    {
+        "id": "yoga-hatha-overview",
+        "en": "<b>Overview:</b> Focuses on basic postures at a gentle pace."
+    },
+    {
+        "id": "yoga-hatha-ideal",
+        "en": "<b>Ideal For:</b> Beginners seeking foundational practice."
+    },
+    {
+        "id": "yoga-hatha-benefits",
+        "en": "<b>Benefits:</b> Builds flexibility and introduces fundamental poses."
+    },
+    {
+        "id": "yoga-vinyasa-title",
+        "en": "Vinyasa Yoga"
+    },
+    {
+        "id": "yoga-vinyasa-overview",
+        "en": "<b>Overview:</b> Involves fluid movement linked with breath."
+    },
+    {
+        "id": "yoga-vinyasa-ideal",
+        "en": "<b>Ideal For:</b> Those who enjoy dynamic and varied routines."
+    },
+    {
+        "id": "yoga-vinyasa-benefits",
+        "en": "<b>Benefits:</b> Enhances cardiovascular health and coordination."
+    },
+    {
+        "id": "yoga-restorative-title",
+        "en": "Restorative Yoga"
+    },
+    {
+        "id": "yoga-restorative-overview",
+        "en": "<b>Overview:</b> Uses props to support passive poses for deep relaxation."
+    },
+    {
+        "id": "yoga-restorative-ideal",
+        "en": "<b>Ideal For:</b> Stress relief and recovery."
+    },
+    {
+        "id": "yoga-restorative-benefits",
+        "en": "<b>Benefits:</b> Promotes healing and reduces tension."
+    },
+    {
+        "id": "yoga-poses-title",
+        "en": "Essential Yoga Poses"
+    },
+    {
+        "id": "yoga-mountain-title",
+        "en": "1. Mountain Pose (Tadasana)"
+    },
+    {
+        "id": "yoga-mountain-purpose",
+        "en": "<b>Purpose:</b> Establishes a solid foundation and improves posture."
+    },
+    {
+        "id": "yoga-mountain-howto",
+        "en": "<b>How to Practice:</b>"
+    },
+    {
+        "id": "yoga-mountain-step1",
+        "en": "Stand with feet hip-width apart."
+    },
+    {
+        "id": "yoga-mountain-step2",
+        "en": "Distribute weight evenly across both feet."
+    },
+    {
+        "id": "yoga-mountain-step3",
+        "en": "Lengthen spine and relax shoulders."
+    },
+    {
+        "id": "yoga-mountain-step4",
+        "en": "Arms by sides, palms facing forward."
+    },
+    {
+        "id": "yoga-mountain-step5",
+        "en": "Hold for several breaths, focusing on alignment."
+    },
+    {
+        "id": "yoga-downdog-title",
+        "en": "2. Downward-Facing Dog (Adho Mukha Svanasana)"
+    },
+    {
+        "id": "yoga-downdog-purpose",
+        "en": "<b>Purpose:</b> Stretches the entire body and builds strength."
+    },
+    {
+        "id": "yoga-downdog-howto",
+        "en": "<b>How to Practice:</b>"
+    },
+    {
+        "id": "yoga-downdog-step1",
+        "en": "Start on hands and knees."
+    },
+    {
+        "id": "yoga-downdog-step2",
+        "en": "Lift hips upward, forming an inverted \"V\" shape."
+    },
+    {
+        "id": "yoga-downdog-step3",
+        "en": "Press heels toward the floor (they may not touch)."
+    },
+    {
+        "id": "yoga-downdog-step4",
+        "en": "Spread fingers wide, press into hands."
+    },
+    {
+        "id": "yoga-downdog-step5",
+        "en": "Hold for 5-7 breaths."
+    },
+    {
+        "id": "yoga-warrior-title",
+        "en": "3. Warrior II (Virabhadrasana II)"
+    },
+    {
+        "id": "yoga-warrior-purpose",
+        "en": "<b>Purpose:</b> Strengthens legs and improves stamina."
+    },
+    {
+        "id": "yoga-warrior-howto",
+        "en": "<b>How to Practice:</b>"
+    },
+    {
+        "id": "yoga-warrior-step1",
+        "en": "Step one foot back, turning it out slightly."
+    },
+    {
+        "id": "yoga-warrior-step2",
+        "en": "Bend front knee over ankle."
+    },
+    {
+        "id": "yoga-warrior-step3",
+        "en": "Extend arms out to sides at shoulder height."
+    },
+    {
+        "id": "yoga-warrior-step4",
+        "en": "Gaze over front hand."
+    },
+    {
+        "id": "yoga-warrior-step5",
+        "en": "Hold for several breaths, then switch sides."
+    },
+    {
+        "id": "yoga-child-title",
+        "en": "4. Child's Pose (Balasana)"
+    },
+    {
+        "id": "yoga-child-purpose",
+        "en": "<b>Purpose:</b> Provides rest and gentle stretching for the back and hips."
+    },
+    {
+        "id": "yoga-child-howto",
+        "en": "<b>How to Practice:</b>"
+    },
+    {
+        "id": "yoga-child-step1",
+        "en": "Kneel on the floor, big toes touching, knees apart."
+    },
+    {
+        "id": "yoga-child-step2",
+        "en": "Sit back on heels."
+    },
+    {
+        "id": "yoga-child-step3",
+        "en": "Fold forward, extending arms in front."
+    },
+    {
+        "id": "yoga-child-step4",
+        "en": "Rest forehead on the mat."
+    },
+    {
+        "id": "yoga-child-step5",
+        "en": "Breathe deeply, holding for as long as comfortable."
+    },
+    {
+        "id": "yoga-getting-started-title",
+        "en": "Getting Started with Yoga"
+    },
+    {
+        "id": "yoga-instruction-title",
+        "en": "Find Instruction"
+    },
+    {
+        "id": "yoga-instruction-classes",
+        "en": "<b>Classes:</b> Attend a local beginner's class for guided instruction."
+    },
+    {
+        "id": "yoga-instruction-online",
+        "en": "<b>Online Resources:</b> Use reputable websites or apps offering beginner tutorials."
+    },
+    {
+        "id": "yoga-space-title",
+        "en": "Prepare Your Space"
+    },
+    {
+        "id": "yoga-space-mat",
+        "en": "<b>Yoga Mat:</b> Provides cushioning and stability."
+    },
+    {
+        "id": "yoga-space-area",
+        "en": "<b>Quiet Area:</b> Choose a space free from distractions."
+    },
+    {
+        "id": "yoga-clothing-title",
+        "en": "Dress Comfortably"
+    },
+    {
+        "id": "yoga-clothing-attire",
+        "en": "<b>Clothing:</b> Wear attire that allows free movement, such as leggings and a fitted top."
+    },
+    {
+        "id": "yoga-body-title",
+        "en": "Listen to Your Body"
+    },
+    {
+        "id": "yoga-body-modify",
+        "en": "<b>Modify Poses:</b> Use props or adjust positions to suit your comfort level."
+    },
+    {
+        "id": "yoga-body-pain",
+        "en": "<b>Avoid Pain:</b> Discomfort is okay, but sharp pain is a signal to stop."
+    },
+    {
+        "id": "yoga-tips-title",
+        "en": "Tips for a Successful Practice"
+    },
+    {
+        "id": "yoga-start-slow-title",
+        "en": "Start Slow"
+    },
+    {
+        "id": "yoga-tips-session",
+        "en": "<b>Session Length:</b> Begin with 15-20 minutes and gradually increase."
+    },
+    {
+        "id": "yoga-tips-frequency",
+        "en": "<b>Frequency:</b> Aim for 2-3 times per week initially."
+    },
+    {
+        "id": "yoga-consistency-title",
+        "en": "Be Consistent"
+    },
+    {
+        "id": "yoga-tips-routine",
+        "en": "<b>Routine:</b> Practice at the same time each day to build habit."
+    },
+    {
+        "id": "yoga-tips-patience",
+        "en": "<b>Patience:</b> Progress takes time; focus on the journey."
+    },
+    {
+        "id": "yoga-combine-title",
+        "en": "Combine with Other Activities"
+    },
+    {
+        "id": "yoga-tips-complementary",
+        "en": "<b>Complementary Exercise:</b> Yoga pairs well with cardio and strength training."
+    },
+    {
+        "id": "yoga-tips-flexibility",
+        "en": "<b>Flexibility and Recovery:</b> Use yoga to enhance flexibility and aid muscle recovery."
+    },
+    {
+        "id": "yoga-hydration-title",
+        "en": "Stay Hydrated"
+    },
+    {
+        "id": "yoga-tips-hydration",
+        "en": "<b>Before and After:</b> Drink water to keep muscles functioning optimally."
+    },
+    {
+        "id": "yoga-conclusion-title",
+        "en": "Conclusion"
+    },
+    {
+        "id": "yoga-conclusion-content",
+        "en": "Incorporating yoga into your routine can offer numerous benefits, even if it's not your primary focus. It enhances physical fitness, reduces stress, and promotes mental clarity. Starting with basic poses and practices can help you experience these benefits without overwhelming detail."
+    }
+]

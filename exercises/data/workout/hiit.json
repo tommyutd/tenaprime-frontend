@@ -32,7 +32,7 @@
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "push-up-burpees",
+                "id": "squat-tuck-jump",
                 "duration": "duration-30-seconds"
             },
             {
@@ -40,51 +40,47 @@
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "heel-touches",
+                "id": "crab-twist-toe-touch",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "jumping-jacks",
+                "id": "star-jumps",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "high-knees-against-wall",
+                "id": "high-knees-lift-run",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "mountain-climbers",
+                "id": "cross-body-mountain-climbers",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "burpees",
+                "id": "push-up-burpees",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "side-crunches",
+                "id": "bicycle-crunches",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "rest-period",
+                "id": "single-leg-broad-jumps",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "bird-dog",
+                "id": "sphinx",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "floor-hyperextension",
+                "id": "v-ups",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "elevated-crunches",
+                "id": "flutter-kicks",
                 "duration": "duration-30-seconds"
             },
             {
-                "id": "leg-lifts",
-                "duration": "duration-30-seconds"
-            },
-            {
-                "id": "rear-lunges",
+                "id": "split-jump-squat",
                 "duration": "duration-30-seconds"
             }
         ]

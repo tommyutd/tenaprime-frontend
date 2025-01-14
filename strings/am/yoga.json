@@ -1,0 +1,346 @@
+[
+    {
+        "id": "yoga-guide-title",
+        "am": "ዮጋ፡ የጀማሪ መመሪያ"
+    },
+    {
+        "id": "yoga-guide-description",
+        "am": "<i>የዮጋ መሰረታዊ ነገሮችን እና አጠቃላይ ደህንነትዎን እንዴት እንደሚያሻሽል ይወቁ።</i>"
+    },
+    {
+        "id": "yoga-intro-title",
+        "am": "ዮጋ ምንድን ነው?"
+    },
+    {
+        "id": "yoga-intro-content",
+        "am": "ዮጋ ከ 5,000 ዓመታት በፊት በህንድ ውስጥ የተፈጠረ ጥንታዊ ልምምድ ነው. በሰውነት እና በአእምሮ መካከል ስምምነትን ለማራመድ አካላዊ አቀማመጦችን (አሳናስ)፣ የአተነፋፈስ ቴክኒኮችን (ፕራናማ) እና ማሰላሰልን ያጣምራል። ዮጋ የመተጣጠፍ፣ጥንካሬ፣ሚዛን እና የአዕምሮ ግልጽነትን ለማሻሻል ያለመ ነው።"
+    },
+    {
+        "id": "yoga-benefits-title",
+        "am": "የዮጋ ጥቅሞች"
+    },
+    {
+        "id": "yoga-physical-title",
+        "am": "አካላዊ ጤንነት"
+    },
+    {
+        "id": "yoga-benefit-flexibility",
+        "am": "<b>ተለዋዋጭነትን ያሻሽላል፡</b> መደበኛ ልምምድ ጡንቻዎችን ይዘረጋል እና የእንቅስቃሴ መጠን ይጨምራል።"
+    },
+    {
+        "id": "yoga-benefit-strength",
+        "am": "<b>ጥንካሬ ይገነባል፡</b> በመላው ሰውነት ላይ የጡንቻ ቃና እና ጽናትን ያሳድጋል።"
+    },
+    {
+        "id": "yoga-benefit-balance",
+        "am": "<b>ሚዛን እና አቀማመጥን ያሻሽላል፡</b> የተሻለ አሰላለፍ እና መረጋጋትን ያበረታታል።"
+    },
+    {
+        "id": "yoga-benefit-energy",
+        "am": "<b>የኢነርጂ ደረጃዎችን ያሳድጋል፡</b> ህያውነትን ይጨምራል እና የድካም ስሜትን ይቀንሳል።"
+    },
+    {
+        "id": "yoga-mental-title",
+        "am": "የአእምሮ ደህንነት"
+    },
+    {
+        "id": "yoga-benefit-stress",
+        "am": "<b>ጭንቀትን ይቀንሳል፡</b> የኮርቲሶል መጠንን ይቀንሳል እና መዝናናትን ያበረታታል።"
+    },
+    {
+        "id": "yoga-benefit-focus",
+        "am": "<b>ትኩረትን ያሳድጋል፡</b> ትኩረትን እና የአዕምሮ ግልጽነትን ያሻሽላል።"
+    },
+    {
+        "id": "yoga-benefit-emotional",
+        "am": "<b>የስሜት ጤንነትን ያበረታታል፡</b> ጥንቃቄን እና እራስን ማወቅን ያበረታታል።"
+    },
+    {
+        "id": "yoga-styles-title",
+        "am": "መሰረታዊ የዮጋ ቅጦች"
+    },
+    {
+        "id": "yoga-hatha-title",
+        "am": "ሃታ ዮጋ"
+    },
+    {
+        "id": "yoga-hatha-overview",
+        "am": "<b>አጠቃላይ እይታ፡</b> በቀስታ ፍጥነት በመሠረታዊ አቀማመጦች ላይ ያተኩራል።"
+    },
+    {
+        "id": "yoga-hatha-ideal",
+        "am": "ለመሠረታዊ ልምምድ ለሚፈልጉ ጀማሪዎች <b>ለ፡ ተስማሚ።"
+    },
+    {
+        "id": "yoga-hatha-benefits",
+        "am": "<b>ጥቅሞች፡</b> ተለዋዋጭነትን ይገነባል እና መሰረታዊ አቀማመጦችን ያስተዋውቃል።"
+    },
+    {
+        "id": "yoga-vinyasa-title",
+        "am": "ቪኒያሳ ዮጋ"
+    },
+    {
+        "id": "yoga-vinyasa-overview",
+        "am": "<b>አጠቃላይ እይታ፡</b> ከትንፋሽ ጋር የተያያዘ ፈሳሽ እንቅስቃሴን ያካትታል።"
+    },
+    {
+        "id": "yoga-vinyasa-ideal",
+        "am": "በተለዋዋጭ እና በተለያዩ የዕለት ተዕለት ተግባራት ለሚደሰቱት <b>ለ፡ ተስማሚ።"
+    },
+    {
+        "id": "yoga-vinyasa-benefits",
+        "am": "<b>ጥቅሞች፡</b> የልብና የደም ሥር (cardiovascular) ጤናን እና ቅንጅትን ይጨምራል።"
+    },
+    {
+        "id": "yoga-restorative-title",
+        "am": "የተሃድሶ ዮጋ"
+    },
+    {
+        "id": "yoga-restorative-overview",
+        "am": "<b>አጠቃላይ እይታ፡</b> ጥልቅ ዘና ለማለት ተገብሮ አቀማመጦችን ለመደገፍ ፕሮፖኖችን ይጠቀማል።"
+    },
+    {
+        "id": "yoga-restorative-ideal",
+        "am": "<b>ለ፡</b> የጭንቀት እፎይታ እና ማገገም ተስማሚ ነው።"
+    },
+    {
+        "id": "yoga-restorative-benefits",
+        "am": "<b>ጥቅሞች፡</b> ፈውስ ያበረታታል እና ውጥረትን ይቀንሳል።"
+    },
+    {
+        "id": "yoga-poses-title",
+        "am": "አስፈላጊ የዮጋ አቀማመጥ"
+    },
+    {
+        "id": "yoga-mountain-title",
+        "am": "1. ማውንቴን ፖዝ (ታዳሳና)"
+    },
+    {
+        "id": "yoga-mountain-purpose",
+        "am": "<b>ዓላማ፡</b> ጠንካራ መሠረት ይመሰርታል እና አቀማመጥን ያሻሽላል።"
+    },
+    {
+        "id": "yoga-mountain-howto",
+        "am": "<b>እንዴት እንደሚለማመዱ፡</b>"
+    },
+    {
+        "id": "yoga-mountain-step1",
+        "am": "በእግሮች ዳሌ-ስፋት ተለያይተው ይቁሙ።"
+    },
+    {
+        "id": "yoga-mountain-step2",
+        "am": "በሁለቱም እግሮች ላይ ክብደትን በእኩል መጠን ያሰራጩ።"
+    },
+    {
+        "id": "yoga-mountain-step3",
+        "am": "አከርካሪውን ያራዝሙ እና ትከሻዎችን ያዝናኑ."
+    },
+    {
+        "id": "yoga-mountain-step4",
+        "am": "ክንዶች በጎን ፣ መዳፎች ወደ ፊት ይመለከታሉ።"
+    },
+    {
+        "id": "yoga-mountain-step5",
+        "am": "በአሰላለፍ ላይ በማተኮር ለብዙ ትንፋሽዎች ይያዙ።"
+    },
+    {
+        "id": "yoga-downdog-title",
+        "am": "2. ወደ ታች የሚመለከት ውሻ (Adho Mukha Svanasana)"
+    },
+    {
+        "id": "yoga-downdog-purpose",
+        "am": "<b>ዓላማ፡</b> መላውን ሰውነት ዘርግቶ ጥንካሬን ይፈጥራል።"
+    },
+    {
+        "id": "yoga-downdog-howto",
+        "am": "<b>እንዴት እንደሚለማመዱ፡</b>"
+    },
+    {
+        "id": "yoga-downdog-step1",
+        "am": "በእጆች እና በጉልበቶች ይጀምሩ."
+    },
+    {
+        "id": "yoga-downdog-step2",
+        "am": "የተገለበጠ \"V\" ቅርጽ በመፍጠር ዳሌውን ወደ ላይ ያንሱ።"
+    },
+    {
+        "id": "yoga-downdog-step3",
+        "am": "ወደ ወለሉ ተረከዙን ይጫኑ (ላይነኩ ይችላሉ)።"
+    },
+    {
+        "id": "yoga-downdog-step4",
+        "am": "ጣቶችን በስፋት ያሰራጩ, ወደ እጆች ይጫኑ."
+    },
+    {
+        "id": "yoga-downdog-step5",
+        "am": "ለ 5-7 እስትንፋስ ይያዙ።"
+    },
+    {
+        "id": "yoga-warrior-title",
+        "am": "3. ተዋጊ II (Virabhadrasana II)"
+    },
+    {
+        "id": "yoga-warrior-purpose",
+        "am": "<b>ዓላማ፡</b> እግሮችን ያጠናክራል እናም ጥንካሬን ያሻሽላል።"
+    },
+    {
+        "id": "yoga-warrior-howto",
+        "am": "<b>እንዴት እንደሚለማመዱ፡</b>"
+    },
+    {
+        "id": "yoga-warrior-step1",
+        "am": "አንድ እግሩን ወደ ኋላ ይድገሙት ፣ ትንሽ ወደ ውጭ ያዙሩት።"
+    },
+    {
+        "id": "yoga-warrior-step2",
+        "am": "የፊት ጉልበቱን በቁርጭምጭሚት ላይ ማጠፍ."
+    },
+    {
+        "id": "yoga-warrior-step3",
+        "am": "በትከሻው ከፍታ ላይ እጆቹን ወደ ጎን ዘርጋ።"
+    },
+    {
+        "id": "yoga-warrior-step4",
+        "am": "የፊት እጁን ይመልከቱ።"
+    },
+    {
+        "id": "yoga-warrior-step5",
+        "am": "ለብዙ ትንፋሽዎች ይያዙ እና ከዚያ ወደ ጎን ይቀይሩ።"
+    },
+    {
+        "id": "yoga-child-title",
+        "am": "4. የልጅ አቀማመጥ (ባላሳና)"
+    },
+    {
+        "id": "yoga-child-purpose",
+        "am": "<b>ዓላማ፡</b> ለኋላ እና ዳሌ ዕረፍት እና ለስላሳ መወጠርን ይሰጣል።"
+    },
+    {
+        "id": "yoga-child-howto",
+        "am": "<b>እንዴት እንደሚለማመዱ፡</b>"
+    },
+    {
+        "id": "yoga-child-step1",
+        "am": "መሬት ላይ ተንበርከክ፣ ትላልቅ ጣቶች ተነካ፣ ጉልበቶች ተለያይተዋል።"
+    },
+    {
+        "id": "yoga-child-step2",
+        "am": "ተረከዝ ላይ ተቀመጥ።"
+    },
+    {
+        "id": "yoga-child-step3",
+        "am": "ወደ ፊት እጠፍ, እጆችን ከፊት ለፊት ዘርጋ."
+    },
+    {
+        "id": "yoga-child-step4",
+        "am": "ግንባሩ ላይ ያርፉ።"
+    },
+    {
+        "id": "yoga-child-step5",
+        "am": "በጥልቅ ይተንፍሱ ፣ እስከ ምቹ ድረስ ይቆዩ።"
+    },
+    {
+        "id": "yoga-getting-started-title",
+        "am": "በዮጋ መጀመር"
+    },
+    {
+        "id": "yoga-instruction-title",
+        "am": "መመሪያ ያግኙ"
+    },
+    {
+        "id": "yoga-instruction-classes",
+        "am": "<b>ክፍሎች፡</b> ለሚመራ መመሪያ በአከባቢ ጀማሪ ክፍል ተገኝ።"
+    },
+    {
+        "id": "yoga-instruction-online",
+        "am": "<b>የመስመር ላይ መርጃዎች፡</b> ጀማሪ መማሪያዎችን የሚያቀርቡ ታዋቂ ድር ጣቢያዎችን ወይም መተግበሪያዎችን ተጠቀም።"
+    },
+    {
+        "id": "yoga-space-title",
+        "am": "ቦታዎን ያዘጋጁ"
+    },
+    {
+        "id": "yoga-space-mat",
+        "am": "<b>ዮጋ ማት፡</b> ትራስን እና መረጋጋትን ይሰጣል።"
+    },
+    {
+        "id": "yoga-space-area",
+        "am": "<b>ጸጥ ያለ ቦታ፡</b> ከሚያዘናጉ ነገሮች የጸዳ ቦታ ይምረጡ።"
+    },
+    {
+        "id": "yoga-clothing-title",
+        "am": "በምቾት ይልበሱ"
+    },
+    {
+        "id": "yoga-clothing-attire",
+        "am": "<b>አልባሳት፡</b> ነጻ እንቅስቃሴን የሚፈቅዱ ልብሶችን ይልበሱ፣ እንደ እግር ጫማ እና የተገጠመ ከላይ።"
+    },
+    {
+        "id": "yoga-body-title",
+        "am": "ሰውነትዎን ያዳምጡ"
+    },
+    {
+        "id": "yoga-body-modify",
+        "am": "<b>አቀማመጦችን አስተካክል፡</b> የምቾት ደረጃዎን ለማስማማት መደገፊያዎችን ይጠቀሙ ወይም ቦታዎችን ያስተካክሉ።"
+    },
+    {
+        "id": "yoga-body-pain",
+        "am": "<b>ህመምን ያስወግዱ፡</b> አለመመቸት ደህና ነው፣ ነገር ግን ስለታም ህመም ለማቆም ምልክት ነው።"
+    },
+    {
+        "id": "yoga-tips-title",
+        "am": "ጠቃሚ ምክሮች ለስኬታማ ልምምድ"
+    },
+    {
+        "id": "yoga-start-slow-title",
+        "am": "በቀስታ ይጀምሩ"
+    },
+    {
+        "id": "yoga-tips-session",
+        "am": "<b>የክፍለ ጊዜው ርዝመት፡</b> በ15-20 ደቂቃ ይጀምሩ እና ቀስ በቀስ ይጨምሩ።"
+    },
+    {
+        "id": "yoga-tips-frequency",
+        "am": "<b>ድግግሞሹ፡</b> በመጀመሪያ በሳምንት 2-3 ጊዜ ይምቱ።"
+    },
+    {
+        "id": "yoga-consistency-title",
+        "am": "ወጥነት ያለው ሁን"
+    },
+    {
+        "id": "yoga-tips-routine",
+        "am": "<b>የዕለት ተዕለት ተግባር፡</b> ልማድ ለመገንባት በየቀኑ በተመሳሳይ ጊዜ ይለማመዱ።"
+    },
+    {
+        "id": "yoga-tips-patience",
+        "am": "<b>ትዕግስት፡</b> እድገት ጊዜ ይወስዳል። በጉዞው ላይ ማተኮር."
+    },
+    {
+        "id": "yoga-combine-title",
+        "am": "ከሌሎች ተግባራት ጋር ይጣመሩ"
+    },
+    {
+        "id": "yoga-tips-complementary",
+        "am": "<b>ተጨማሪ የአካል ብቃት እንቅስቃሴ፡</b> ዮጋ ከካርዲዮ እና ከጥንካሬ ስልጠና ጋር በደንብ ይጣመራል።"
+    },
+    {
+        "id": "yoga-tips-flexibility",
+        "am": "<b>ተለዋዋጭነት እና ማገገም፡</b> ተለዋዋጭነትን ለማጎልበት እና ጡንቻን ለማገገም ለማገዝ ዮጋን ይጠቀሙ።"
+    },
+    {
+        "id": "yoga-hydration-title",
+        "am": "እርጥበት ይኑርዎት"
+    },
+    {
+        "id": "yoga-tips-hydration",
+        "am": "ከ<b>በፊት እና በኋላ፡</b> ጡንቻዎች በአግባቡ እንዲሰሩ ለማድረግ ውሃ ይጠጡ።"
+    },
+    {
+        "id": "yoga-conclusion-title",
+        "am": "ማጠቃለያ"
+    },
+    {
+        "id": "yoga-conclusion-content",
+        "am": "ዮጋን በመደበኛነትዎ ውስጥ ማካተት ዋና ትኩረትዎ ባይሆንም እንኳ ብዙ ጥቅሞችን ይሰጣል። የአካል ብቃት እንቅስቃሴን ያጠናክራል, ጭንቀትን ይቀንሳል እና የአዕምሮ ግልጽነትን ያበረታታል. ከመሠረታዊ አቀማመጦች እና ልምዶች ጀምሮ እነዚህን ጥቅማጥቅሞች ያለአንዳች ዝርዝር ሁኔታ እንዲለማመዱ ይረዳዎታል።"
+    }
+]
