@@ -1,0 +1,94 @@
+[
+    {
+        "id": "nutrition-vitamin-functions",
+        "en": "Vitamins help your body function properly, support immune health, promote energy production, and assist in muscle recovery"
+    },
+    {
+        "id": "nutrition-vitamin-categories",
+        "en": "They are divided into two categories: fat-soluble and water-soluble"
+    },
+    {
+        "id": "nutrition-fat-soluble-vitamins",
+        "en": "Fat-Soluble Vitamins (A, D, E, K)"
+    },
+    {
+        "id": "nutrition-vitamin-a",
+        "en": "<b>Vitamin A:</b> Supports vision, skin health, and immune function. Found in carrots, sweet potatoes, and leafy greens"
+    },
+    {
+        "id": "nutrition-vitamin-d",
+        "en": "<b>Vitamin D:</b> Essential for bone health, immune support, and muscle function. Get it from sunlight, fatty fish, and fortified dairy products"
+    },
+    {
+        "id": "nutrition-vitamin-e",
+        "en": "<b>Vitamin E:</b> A powerful antioxidant that helps protect cells from damage. Found in nuts, seeds, and leafy greens"
+    },
+    {
+        "id": "nutrition-vitamin-k",
+        "en": "<b>Vitamin K:</b> Important for blood clotting and bone health. Found in leafy greens, broccoli, and cabbage"
+    },
+    {
+        "id": "nutrition-water-soluble-vitamins",
+        "en": "Water-Soluble Vitamins"
+    },
+    {
+        "id": "nutrition-vitamin-c",
+        "en": "<b>Vitamin C:</b> Boosts the immune system, supports skin health, and aids in wound healing. Found in citrus fruits, bell peppers, and strawberries"
+    },
+    {
+        "id": "nutrition-b-vitamins",
+        "en": "<b>B Vitamins:</b> Vital for energy production, brain function, and red blood cell formation"
+    },
+    {
+        "id": "nutrition-b1-thiamine",
+        "en": "<b>B1 (Thiamine):</b> Helps convert food into energy"
+    },
+    {
+        "id": "nutrition-b2-riboflavin",
+        "en": "<b>B2 (Riboflavin):</b> Important for growth and red blood cell production"
+    },
+    {
+        "id": "nutrition-b3-niacin",
+        "en": "<b>B3 (Niacin):</b> Supports metabolism and skin health"
+    },
+    {
+        "id": "nutrition-b6-pyridoxine",
+        "en": "<b>B6 (Pyridoxine):</b> Crucial for brain health and immune function"
+    },
+    {
+        "id": "nutrition-b12",
+        "en": "<b>B12:</b> Key for nerve function and red blood cell formation, found mainly in animal products"
+    },
+    {
+        "id": "nutrition-small-amounts",
+        "en": "Vitamins are typically consumed in small amounts"
+    },
+    {
+        "id": "nutrition-balanced-diet-eat",
+        "en": "Eat a balanced diet rich in fruits, vegetables, and whole grains to meet your needs"
+    },
+    {
+        "id": "nutrition-health-conditions",
+        "en": "Those with specific health conditions or dietary restrictions may need extra attention to certain vitamins"
+    },
+    {
+        "id": "nutrition-common-deficiencies",
+        "en": "Common Vitamin Deficiencies"
+    },
+    {
+        "id": "nutrition-vitamin-d-deficiency",
+        "en": "<b>Vitamin D:</b> Can lead to weak bones and muscle weakness. Essential for immunity and mood regulation"
+    },
+    {
+        "id": "nutrition-vitamin-c-deficiency",
+        "en": "<b>Vitamin C:</b> Can cause weakened immunity, slow wound healing, and skin problems"
+    },
+    {
+        "id": "nutrition-vitamin-b12-deficiency",
+        "en": "<b>Vitamin B12:</b> Can result in fatigue, weakness, and neurological issues"
+    },
+    {
+        "id": "nutrition-vitamin-a-deficiency",
+        "en": "<b>Vitamin A:</b> May cause night blindness and weakened immune system"
+    }
+]

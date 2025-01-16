@@ -1,0 +1,58 @@
+[
+    {
+        "id": "nutrition-repair-muscle",
+        "am": "የጡንቻ ሕብረ ሕዋሳትን ለመጠገን እና ለመገንባት ፕሮቲን አስፈላጊ ነው"
+    },
+    {
+        "id": "nutrition-post-workout-protein",
+        "am": "ከአካል ብቃት እንቅስቃሴ በኋላ ጡንቻዎችዎ ለማገገም እና ለማደግ ፕሮቲን ያስፈልጋቸዋል"
+    },
+    {
+        "id": "nutrition-immune-support",
+        "am": "ፕሮቲን በተጨማሪም የሰውነትን በሽታ የመከላከል ስርዓትን እና ኢንዛይሞችን እና ሆርሞኖችን ማምረት ይደግፋል"
+    },
+    {
+        "id": "nutrition-protein-general-health",
+        "am": "<b>ለአጠቃላይ ጤና፡</b> ከፕሮቲን ዕለታዊ ካሎሪዎ ውስጥ ከ10-35% ያቅዱ"
+    },
+    {
+        "id": "nutrition-protein-muscle-gain",
+        "am": "<b>ለጡንቻ መጨመር ወይም ጥንካሬ ስልጠና፡</b> በኪሎ ግራም የሰውነት ክብደት ከ1.2 እስከ 2.2 ግራም ፕሮቲን ይጠቀሙ።"
+    },
+    {
+        "id": "nutrition-protein-fat-loss",
+        "am": "<b>ለስብ መጥፋት፡</b> ከፍ ያለ የፕሮቲን አወሳሰድ (1.6-2.2 ግ/ኪግ) ስብ በሚጠፋበት ጊዜ የጡንቻን ብዛት ለመጠበቅ ይረዳል።"
+    },
+    {
+        "id": "nutrition-lean-meats",
+        "am": "ወፍራም ስጋ (ዶሮ ፣ ቱርክ ፣ ዓሳ)"
+    },
+    {
+        "id": "nutrition-eggs-dairy",
+        "am": "እንቁላል እና የወተት ተዋጽኦዎች"
+    },
+    {
+        "id": "nutrition-plant-based",
+        "am": "ከዕፅዋት የተቀመሙ አማራጮች (ቶፉ ፣ ጥራጥሬዎች)"
+    },
+    {
+        "id": "nutrition-protein-grains",
+        "am": "እንደ quinoa ያሉ በፕሮቲን የበለጸጉ እህሎች"
+    },
+    {
+        "id": "nutrition-timing-protein",
+        "am": "የፕሮቲን መጠንዎን በጊዜ መወሰን"
+    },
+    {
+        "id": "nutrition-spread-protein",
+        "am": "ለተመቻቸ ለመምጥ ቀኑን ሙሉ የፕሮቲን ምግቦችን ያሰራጩ"
+    },
+    {
+        "id": "nutrition-post-exercise-protein",
+        "am": "ለተሻለ ማገገም የአካል ብቃት እንቅስቃሴ ከተደረገ በኋላ በ 2 ሰዓታት ውስጥ ፕሮቲን ይጠቀሙ"
+    },
+    {
+        "id": "nutrition-protein-each-meal",
+        "am": "የጡንቻን ብዛት ለመጠበቅ ከእያንዳንዱ ምግብ ጋር የፕሮቲን ምንጭን ያካትቱ"
+    }
+]

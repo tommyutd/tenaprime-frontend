@@ -94,3 +94,247 @@
   font-size: clamp(1rem, 3vw, 1.5rem);
   line-height: 1.4;
 }
+
+/* Nutrition Dashboard */
+.nutrition-user {
+  padding: 2rem;
+  color: white;
+  background: #121518; /* Dark background like exercises page */
+}
+
+.nutrition-user h1 {
+  color: rgba(186, 156, 98, 1);
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.nutrition-user-meal-plans,
+.nutrition-user-dietary,
+.nutrition-user-recipes,
+.nutrition-user-supplements,
+.nutrition-user-education, 
+.nutrition-user-macronutrients,
+.nutrition-user-micronutrients {
+  padding: 2rem;
+  color: white;
+}
+
+.nutrition-user-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  background: rgba(186, 156, 98, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #BA9C62 0%, #62BA70 150%);
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: rgba(186, 156, 98, 0.2);
+  cursor: pointer;
+}
+
+.card-title {
+  color: rgba(186, 156, 98, 1);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-description {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.nutrition-learn-wrapper {
+  display: flex;
+  padding: 2vh 5vw;
+  gap: 3vw;
+  position: relative;
+  overflow: visible;
+}
+
+.learning-navigation-container {
+  flex: 0 0 20vw;
+  height: 70vh;
+  background: #1E2126;
+  border-radius: 1.5rem;
+  padding: 4vh;
+  position: sticky;
+  top: 120px;
+  border: 1px solid rgba(186, 156, 98, 0.2);
+  align-self: flex-start;
+  overflow: hidden; /* Contains the scrolling navigation */
+}
+
+.learning-navigation {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  padding-right: 10px; /* Compensate for scrollbar */
+  box-sizing: border-box;
+}
+
+.learning-navigation::-webkit-scrollbar {
+  width: 8px;
+}
+
+.learning-navigation::-webkit-scrollbar-track {
+  background: rgba(186, 156, 98, 0.1);
+  border-radius: 4px;
+}
+
+.learning-navigation::-webkit-scrollbar-thumb {
+  background: rgba(186, 156, 98, 0.3);
+  border-radius: 4px;
+}
+
+.learning-navigation::-webkit-scrollbar-thumb:hover {
+  background: rgba(186, 156, 98, 0.5);
+}
+
+.nav-section {
+  line-height: 1.5;
+}
+
+.nav-section h3 {
+  color: rgba(186, 156, 98, 1);
+  font-size: 1.1rem;
+}
+
+.nav-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 8px 15px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.nav-link:hover {
+  background: rgba(186, 156, 98, 0.1);
+  color: rgba(186, 156, 98, 1);
+}
+
+.nav-link.active {
+  background: rgba(186, 156, 98, 0.2);
+  color: rgba(186, 156, 98, 1);
+  font-weight: 500;
+}
+
+.nutrition-navigation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.toggle-icon {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(186, 156, 98, 1);
+}
+
+.nutrition-navigation-items {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.nutrition-navigation-items.expanded {
+    max-height: 500px; /* Adjust this value based on your content */
+}
+
+/* Nutrition Learn Content */
+.learning-content {
+  gap: 2rem;
+  color: white;
+}
+
+.nutrition-detail-section,
+.nutrition-detail-header {
+  margin-bottom: 3rem;
+}
+
+.nutrition-detail-header h1 {
+  color: rgba(186, 156, 98, 1);
+}
+
+.nutrition-detail-section h2 {
+  color: rgba(186, 156, 98, 1);
+}
+
+.nutrition-detail-section p {
+  padding-left: 1rem;
+  line-height: 1.5;
+}
+
+.macro-breakdown {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.macro-item {
+  flex: 1;
+  background: rgba(186, 156, 98, 0.1);
+  border: 1px solid rgba(186, 156, 98, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.macro-percentage {
+  font-size: 1.2rem;
+  color: rgba(186, 156, 98, 1);
+  font-weight: bold;
+}
+
+.macro-label {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.nav-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}

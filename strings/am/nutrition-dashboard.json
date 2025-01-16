@@ -1,0 +1,298 @@
+[
+    {
+        "id": "nutrition-education-text",
+        "am": "የአመጋገብ ትምህርት"
+    },
+    {
+        "id": "nutrition-basics-title",
+        "am": "የአመጋገብ መሰረታዊ ነገሮች"
+    },
+    {
+        "id": "nutrition-basics-description",
+        "am": "ለጤናማ የአኗኗር ዘይቤ የአመጋገብ መሰረታዊ መርሆችን ይማሩ።"
+    },
+    {
+        "id": "macro-tracking-title",
+        "am": "ማክሮ መከታተል"
+    },
+    {
+        "id": "macro-tracking-description",
+        "am": "ለተሻለ ውጤት የእርስዎን ማክሮ ኤለመንቶችን እና ካሎሪዎችን ይከታተሉ"
+    },
+    {
+        "id": "meal-prep-title",
+        "am": "የምግብ ዝግጅት"
+    },
+    {
+        "id": "meal-prep-description",
+        "am": "ጠቃሚ ምክሮች እና ስልቶች ውጤታማ የምግብ እቅድ እና ዝግጅት።"
+    },
+    {
+        "id": "macronutrients-text",
+        "am": "ማክሮን ንጥረ ነገሮች"
+    },
+    {
+        "id": "carbs-title",
+        "am": "ካርቦሃይድሬትስ"
+    },
+    {
+        "id": "carbs-description",
+        "am": "የሰውነትዎ ዋና ነዳጅ"
+    },
+    {
+        "id": "protein-title",
+        "am": "ፕሮቲኖች"
+    },
+    {
+        "id": "protein-description",
+        "am": "የጡንቻዎች ግንባታ ብሎኮች"
+    },
+    {
+        "id": "fats-title",
+        "am": "ስብ"
+    },
+    {
+        "id": "fats-description",
+        "am": "ለሆርሞን እና ለኢነርጂ አስፈላጊ"
+    },
+    {
+        "id": "micronutrients-text",
+        "am": "ማይክሮ ኤለመንቶች እና እርጥበት"
+    },
+    {
+        "id": "vitamins-title",
+        "am": "ቫይታሚኖች"
+    },
+    {
+        "id": "vitamins-description",
+        "am": "የሰውነትዎ ጠባቂዎች"
+    },
+    {
+        "id": "minerals-title",
+        "am": "ማዕድናት"
+    },
+    {
+        "id": "minerals-description",
+        "am": "ቁልፍ ተግባራትን መደገፍ"
+    },
+    {
+        "id": "micro-hydration-title",
+        "am": "እርጥበት"
+    },
+    {
+        "id": "micro-hydration-description",
+        "am": "ለአፈፃፀም እና ለማገገም አስፈላጊ"
+    },
+    {
+        "id": "meal-plans-text",
+        "am": "የምግብ ዕቅዶች"
+    },
+    {
+        "id": "weight-loss-meal-plan-title",
+        "am": "የክብደት መቀነስ የምግብ እቅድ"
+    },
+    {
+        "id": "weight-loss-meal-plan-description",
+        "am": "ለጤናማ እና ዘላቂ ክብደት መቀነስ የተነደፉ ብጁ የምግብ ዕቅዶች።"
+    },
+    {
+        "id": "muscle-gain-meal-plan-title",
+        "am": "የጡንቻ መጨመር የምግብ እቅድ"
+    },
+    {
+        "id": "muscle-gain-meal-plan-description",
+        "am": "በንጥረ-ምግብ የበለፀገ ምግብ የጡንቻን እድገትን እና ማገገምን ለመደገፍ እቅድ አለው."
+    },
+    {
+        "id": "maintenance-meal-plan-title",
+        "am": "የጥገና ምግብ እቅድ"
+    },
+    {
+        "id": "maintenance-meal-plan-description",
+        "am": "የአሁኑን ክብደትዎን እና ጤናዎን ለመጠበቅ የተመጣጠነ ምግብ እቅድ።"
+    },
+    {
+        "id": "endurance-meal-plan-title",
+        "am": "ጽናት እና የአፈጻጸም ማሻሻያ"
+    },
+    {
+        "id": "endurance-meal-plan-description",
+        "am": "ለጽናት አትሌቶች የተመቻቸ አመጋገብ እና የአፈፃፀም ማሻሻያ።"
+    },
+    {
+        "id": "recomp-meal-plan-title",
+        "am": "የሰውነት መልሶ ማቋቋም"
+    },
+    {
+        "id": "recomp-meal-plan-description",
+        "am": "ስልታዊ አመጋገብ በአንድ ጊዜ የስብ መጥፋት እና የጡንቻ መጨመር።"
+    },
+    {
+        "id": "dietary-preferences-text",
+        "am": "ልዩ ምግቦች እና የአመጋገብ ምርጫዎች"
+    },
+    {
+        "id": "plant-based-diet-title",
+        "am": "ከዕፅዋት የተቀመሙ ምግቦች"
+    },
+    {
+        "id": "plant-based-diet-description",
+        "am": "በፕሮቲን እና ጠቃሚ ንጥረ ነገሮች የበለፀጉ የተመጣጠነ ተክል-ተኮር ምግቦች."
+    },
+    {
+        "id": "low-carb-diet-title",
+        "am": "ዝቅተኛ-ካርቦሃይድሬት አመጋገብ"
+    },
+    {
+        "id": "low-carb-diet-description",
+        "am": "ለክብደት አስተዳደር እና ለሜታቦሊክ ጤና የተቀነሰ የካርቦሃይድሬት ምግቦች።"
+    },
+    {
+        "id": "mediterranean-diet-title",
+        "am": "የሜዲትራኒያን አመጋገብ"
+    },
+    {
+        "id": "mediterranean-diet-description",
+        "am": "በሜዲትራኒያን ምግብ ተመስጦ የልብ-ጤናማ የአመጋገብ ስርዓት።"
+    },
+    {
+        "id": "gluten-free-diet-title",
+        "am": "ከግሉተን-ነጻ አመጋገብ"
+    },
+    {
+        "id": "gluten-free-diet-description",
+        "am": "ከግሉተን-ያካተቱ ንጥረ ነገሮች ያለ ጣፋጭ ምግቦች።"
+    },
+    {
+        "id": "if-diet-title",
+        "am": "ጊዜያዊ ጾም (ከሆነ)"
+    },
+    {
+        "id": "if-diet-description",
+        "am": "ለሜታቦሊክ ጤና እና ክብደት አስተዳደር ስልታዊ የአመጋገብ ዘይቤዎች።"
+    },
+    {
+        "id": "dairy-free-diet-title",
+        "am": "የወተት-ነጻ አመጋገብ"
+    },
+    {
+        "id": "dairy-free-diet-description",
+        "am": "ያለ የወተት ተዋጽኦዎች የተመጣጠነ ምግብ."
+    },
+    {
+        "id": "high-protein-diet-title",
+        "am": "ከፍተኛ-ፕሮቲን አመጋገብ"
+    },
+    {
+        "id": "high-protein-diet-description",
+        "am": "በፕሮቲን የበለፀገ የምግብ እቅድ ለጡንቻ እድገት እና ለማገገም።"
+    },
+    {
+        "id": "healthy-recipes-text",
+        "am": "ጤናማ የምግብ አዘገጃጀት"
+    },
+    {
+        "id": "breakfast-recipes-title",
+        "am": "ቁርስ የምግብ አዘገጃጀት"
+    },
+    {
+        "id": "breakfast-recipes-description",
+        "am": "ቀንዎን በተመጣጠነ እና ጉልበት በሚሰጡ የቁርስ አማራጮች ይጀምሩ።"
+    },
+    {
+        "id": "lunch-recipes-title",
+        "am": "የምሳ የምግብ አዘገጃጀት"
+    },
+    {
+        "id": "lunch-recipes-description",
+        "am": "ቀንዎን ለማሞቅ ፈጣን እና ጤናማ የምሳ ሀሳቦች።"
+    },
+    {
+        "id": "dinner-recipes-title",
+        "am": "እራት የምግብ አዘገጃጀት"
+    },
+    {
+        "id": "dinner-recipes-description",
+        "am": "ለመላው ቤተሰብ የሚያረካ እና ገንቢ እራት የምግብ አዘገጃጀት መመሪያ።"
+    },
+    {
+        "id": "supplements-text",
+        "am": "ተጨማሪዎች መመሪያ"
+    },
+    {
+        "id": "supplements-understanding-title",
+        "am": "ተጨማሪዎችን መረዳት"
+    },
+    {
+        "id": "supplements-understanding-description",
+        "am": "ስለ የተለያዩ አይነት ማሟያዎች እና ለአካል ብቃት ጉዞዎ ያላቸውን ጥቅሞች ይወቁ።"
+    },
+    {
+        "id": "supplements-safety-title",
+        "am": "ተጨማሪ ደህንነት"
+    },
+    {
+        "id": "supplements-safety-description",
+        "am": "ውጤታማ አጠቃቀም መመሪያዎች፣ ሊከሰቱ የሚችሉ ስጋቶች እና የደህንነት ጉዳዮች።"
+    },
+    {
+        "id": "supplements-shop-title",
+        "am": "የሱቅ ማሟያዎች"
+    },
+    {
+        "id": "supplements-shop-description",
+        "am": "ከፍተኛ ጥራት ያላቸውን የተረጋገጡ ማሟያዎችን ያስሱ እና ይግዙ።"
+    },
+    {
+        "id": "nutrition-function",
+        "am": "ተግባር"
+    },
+    {
+        "id": "nutrition-how-much-to-consume",
+        "am": "ምን ያህል እንደሚበላ"
+    },
+    {
+        "id": "nutrition-best-sources",
+        "am": "ምርጥ ምንጮች"
+    },
+    {
+        "id": "nutrition-overview",
+        "am": "አጠቃላይ እይታ"
+    },
+    {
+        "id": "nutrition-importance-of-protein",
+        "am": "የፕሮቲን ጠቀሜታ"
+    },
+    {
+        "id": "nutrition-protein-percentage-30-40",
+        "am": "30-40%"
+    },
+    {
+        "id": "nutrition-protein-label",
+        "am": "ፕሮቲን"
+    },
+    {
+        "id": "nutrition-carbs-percentage-30-40",
+        "am": "30-40%"
+    },
+    {
+        "id": "nutrition-carbs-label",
+        "am": "ካርቦሃይድሬትስ"
+    },
+    {
+        "id": "nutrition-fats-percentage-20-30",
+        "am": "20-30%"
+    },
+    {
+        "id": "nutrition-fats-label",
+        "am": "ስብ"
+    },
+    {
+        "id": "nutrition-benefits",
+        "am": "ጥቅሞች"
+    },
+    {
+        "id": "nutrition-key-considerations",
+        "am": "ቁልፍ ጉዳዮች"
+    }
+]

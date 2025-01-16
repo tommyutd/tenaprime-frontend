@@ -1,0 +1,42 @@
+[
+    {
+        "id": "nutrition-calorie-surplus",
+        "en": "Creating a Calorie Surplus"
+    },
+    {
+        "id": "nutrition-calorie-surplus-intake",
+        "en": "Consume 200-500 kcal above TDEE to fuel muscle growth"
+    },
+    {
+        "id": "nutrition-protein-muscle-repair",
+        "en": "Protein supports muscle repair and synthesis"
+    },
+    {
+        "id": "nutrition-protein-intake-muscle-gain",
+        "en": "Aim for 1.8-2.5 grams of protein per kg of body weight"
+    },
+    {
+        "id": "nutrition-macronutrient-split",
+        "en": "Macronutrient Split"
+    },
+    {
+        "id": "nutrition-protein-percentage-25-30",
+        "en": "25-30%"
+    },
+    {
+        "id": "nutrition-carbs-percentage-40-50",
+        "en": "40-50%"
+    },
+    {
+        "id": "nutrition-pre-post-workout-nutrition",
+        "en": "Pre and Post-Workout Nutrition"
+    },
+    {
+        "id": "nutrition-pre-workout",
+        "en": "<b>Pre-workout:</b> Carbs and protein for energy (e.g., a banana and whey protein)"
+    },
+    {
+        "id": "nutrition-post-workout",
+        "en": "<b>Post-workout:</b> Protein-rich meal within 1-2 hours for recovery (e.g., chicken and rice)"
+    }
+]

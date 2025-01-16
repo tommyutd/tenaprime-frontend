@@ -1,0 +1,42 @@
+[
+    {
+        "id": "nutrition-calorie-surplus",
+        "am": "የካሎሪ ትርፍ መፍጠር"
+    },
+    {
+        "id": "nutrition-calorie-surplus-intake",
+        "am": "የጡንቻን እድገት ለማቃለል ከ TDEE በላይ 200-500 kcal ይጠቀሙ"
+    },
+    {
+        "id": "nutrition-protein-muscle-repair",
+        "am": "ፕሮቲን የጡንቻ ጥገና እና ውህደትን ይደግፋል"
+    },
+    {
+        "id": "nutrition-protein-intake-muscle-gain",
+        "am": "ለአንድ ኪሎ ግራም የሰውነት ክብደት 1.8-2.5 ግራም ፕሮቲን ይኑሩ"
+    },
+    {
+        "id": "nutrition-macronutrient-split",
+        "am": "የማክሮን ንጥረ ነገር ክፍፍል"
+    },
+    {
+        "id": "nutrition-protein-percentage-25-30",
+        "am": "25-30%"
+    },
+    {
+        "id": "nutrition-carbs-percentage-40-50",
+        "am": "40-50%"
+    },
+    {
+        "id": "nutrition-pre-post-workout-nutrition",
+        "am": "ከስልጠና በፊት እና በኋላ የተመጣጠነ ምግብ"
+    },
+    {
+        "id": "nutrition-pre-workout",
+        "am": "<b>ቅድመ-ስፖርታዊ እንቅስቃሴ፡</b> ካርቦሃይድሬትና ፕሮቲን ለሃይል (ለምሳሌ፡ ሙዝ እና ዋይ ፕሮቲን)"
+    },
+    {
+        "id": "nutrition-post-workout",
+        "am": "<b>ከስልጠና በኋላ፡</b> ለማገገም በ1-2 ሰአታት ውስጥ በፕሮቲን የበለጸገ ምግብ (ለምሳሌ ዶሮ እና ሩዝ)"
+    }
+]

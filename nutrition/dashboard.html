@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TenaPrime - Nutrition Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/nutrition/nutrition.css">
+    <link rel="icon" href="/assets/logo-mini.svg">
+    <script src="/scripts/config.js"></script>
+    <script src="/scripts/route-guard.js"></script>
+</head>
+<body>
+<div class="homepage">
+  <div class="header">
+    <div class="logo">
+      <img src="/assets/logo.svg" alt="TenaPrime">
+    </div>
+    <div class="navigation aleo-text">
+      <div class="navigation-home">
+        <a href="/dashboard">
+          <div class="home-text" data-text-key="home-menu-item">Home</div>
+        </a>
+      </div>
+      
+      <div class="navigation-exercises">
+        <a href="/exercises">
+          <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+        </a>
+      </div>
+        
+      <div class="navigation-nutrition">
+        <a href="/nutrition">
+          <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+        </a>
+      </div>
+      
+      <div class="navigation-prizes">
+        <a href="/prizes">
+          <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
+        </a>
+      </div>
+
+      <div class="navigation-about">
+        <a href="/about">
+          <div class="about-text" data-text-key="about-menu-item">About</div>
+        </a>
+      </div>
+    </div>
+    <div class="extra-navigation">
+      <div class="avatar">
+        <img src="/assets/avatar.svg" alt="Account">
+        <div class="stats-popup aleo-text" id="statsPopup">
+            <div class="stats-container">
+                <div class="stats-header">
+                    <h2 data-text-key="stats-title">Your Stats</h2>
+                    <button class="close-button" id="closeStats">&times;</button>
+                </div>
+                <div class="stats-content">
+                    <div class="stats-item">
+                        <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                        <span class="stats-value">5 <span data-text-key="days">days</span></span>
+                    </div>
+                    <div class="stats-item">
+                        <span class="stats-label" data-text-key="points-earned">Points Earned</span>
+                        <span class="stats-value">250 <span data-text-key="points">points</span></span>
+                    </div>
+                    <div class="stats-item">
+                        <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                        <span class="stats-value">12</span>
+                    </div>
+                </div>
+                <div class="stats-footer">
+                    <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="language-selector aleo-text">
+        <p>EN</p>
+        <div class="language-dropdown">
+          <div class="language-option" data-lang="en">English</div>
+          <div class="language-option" data-lang="አማ">አማርኛ</div>
+        </div>
+      </div>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <div class="ethiotelecom">
+      <div class="ethiotelecom-container">
+        <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+      </div>
+    </div>
+  </div>
+
+  <div class="nutrition-user aleo-text">
+    <div class="nutrition-user-education">
+      <h1 data-text-key="nutrition-education-text">Nutrition Education</h1>
+      <div class="nutrition-user-cards">
+          <a href="/nutrition/learn?topic=basics" id="education-basics" class="card">
+              <h2 class="card-title" data-text-key="nutrition-basics-title">Nutrition Basics</h2>
+              <p class="card-description" data-text-key="nutrition-basics-description">Learn the fundamentals of nutrition for a healthier lifestyle.</p>
+          </a>
+          <a href="/nutrition/learn?topic=macros" id="education-macros" class="card">
+              <h2 class="card-title" data-text-key="macro-tracking-title">Macro Tracking</h2>
+              <p class="card-description" data-text-key="macro-tracking-description">Track your macronutrients and calories for optimal results</p>
+          </a>
+          <a href="/nutrition/learn?topic=meal-prep" id="education-meal-prep" class="card">
+              <h2 class="card-title" data-text-key="meal-prep-title">Meal Preparation</h2>
+              <p class="card-description" data-text-key="meal-prep-description">Tips and strategies for efficient meal planning and prep.</p>
+          </a>
+      </div>
+    </div>
+    <div class="nutrition-user-macronutrients">
+      <h1 data-text-key="macronutrients-text">Macronutrients</h1>
+      <div class="nutrition-user-cards">
+          <a href="/nutrition/learn?topic=carbs" id="macro-carbs" class="card">
+              <h2 class="card-title" data-text-key="carbs-title">Carbohydrates</h2>
+              <p class="card-description" data-text-key="carbs-description">Your Body's Primary Fuel</p>
+          </a>
+          <a href="/nutrition/learn?topic=protein" id="macro-protein" class="card">
+              <h2 class="card-title" data-text-key="protein-title">Proteins</h2>
+              <p class="card-description" data-text-key="protein-description">The Building Blocks of Muscle</p>
+          </a>
+          <a href="/nutrition/learn?topic=fats" id="macro-fats" class="card">
+              <h2 class="card-title" data-text-key="fats-title">Fats</h2>
+              <p class="card-description" data-text-key="fats-description">Essential for Hormones and Energy</p>
+          </a>
+      </div>
+    </div>
+    <div class="nutrition-user-micronutrients">
+        <h1 data-text-key="micronutrients-text">Micronutrients & Hydration</h1>
+        <div class="nutrition-user-cards">
+            <a href="/nutrition/learn?topic=vitamins" id="micro-vitamins" class="card">
+                <h2 class="card-title" data-text-key="vitamins-title">Vitamins</h2>
+                <p class="card-description" data-text-key="vitamins-description">Your Body's Guardians</p>
+            </a>
+            <a href="/nutrition/learn?topic=minerals" id="micro-minerals" class="card">
+                <h2 class="card-title" data-text-key="minerals-title">Minerals</h2>
+                <p class="card-description" data-text-key="minerals-description">Supporting Key Functions</p>
+            </a>
+            <a href="/nutrition/learn?topic=hydration" id="micro-hydration" class="card">
+                <h2 class="card-title" data-text-key="micro-hydration-title">Hydration</h2>
+                <p class="card-description" data-text-key="micro-hydration-description">Vital for Performance and Recovery</p>
+            </a>
+        </div>
+    </div>
+    <div class="nutrition-user-meal-plans">
+      <h1 data-text-key="meal-plans-text">Meal Plans</h1>
+      <div class="nutrition-user-cards">
+          <a href="/nutrition/learn?topic=weight-loss" id="meal-plan-weight-loss" class="card">
+              <h2 class="card-title" data-text-key="weight-loss-meal-plan-title">Weight Loss Meal Plan</h2>
+              <p class="card-description" data-text-key="weight-loss-meal-plan-description">Customized meal plans designed for healthy and sustainable weight loss.</p>
+          </a>
+          <a href="/nutrition/learn?topic=muscle-gain" id="meal-plan-muscle-gain" class="card">
+              <h2 class="card-title" data-text-key="muscle-gain-meal-plan-title">Muscle Gain Meal Plan</h2>
+              <p class="card-description" data-text-key="muscle-gain-meal-plan-description">Nutrient-rich meal plans to support muscle growth and recovery.</p>
+          </a>
+          <a href="/nutrition/learn?topic=maintenance" id="meal-plan-maintenance" class="card">
+              <h2 class="card-title" data-text-key="maintenance-meal-plan-title">Maintenance Meal Plan</h2>
+              <p class="card-description" data-text-key="maintenance-meal-plan-description">Balanced meal plans to maintain your current weight and health.</p>
+          </a>
+          <a href="/nutrition/learn?topic=endurance" id="meal-plan-endurance" class="card">
+              <h2 class="card-title" data-text-key="endurance-meal-plan-title">Endurance & Performance Enhancement</h2>
+              <p class="card-description" data-text-key="endurance-meal-plan-description">Optimized nutrition for endurance athletes and performance enhancement.</p>
+          </a>
+          <a href="/nutrition/learn?topic=recomp" id="meal-plan-recomp" class="card">
+              <h2 class="card-title" data-text-key="recomp-meal-plan-title">Body Recomposition</h2>
+              <p class="card-description" data-text-key="recomp-meal-plan-description">Strategic nutrition for simultaneous fat loss and muscle gain.</p>
+          </a>
+      </div>
+    </div>
+    <div class="nutrition-user-dietary">
+        <h1 data-text-key="dietary-preferences-text">Special Diets and Nutritional Preferences</h1>
+        <div class="nutrition-user-cards">
+            <a href="/nutrition/learn?topic=plant-based" id="dietary-plant-based" class="card">
+                <h2 class="card-title" data-text-key="plant-based-diet-title">Plant-Based Diets</h2>
+                <p class="card-description" data-text-key="plant-based-diet-description">Nutritious plant-focused meals rich in proteins and essential nutrients.</p>
+            </a>
+            <a href="/nutrition/learn?topic=low-carb" id="dietary-low-carb" class="card">
+                <h2 class="card-title" data-text-key="low-carb-diet-title">Low-Carb Diets</h2>
+                <p class="card-description" data-text-key="low-carb-diet-description">Reduced carbohydrate meals for weight management and metabolic health.</p>
+            </a>
+            <a href="/nutrition/learn?topic=mediterranean" id="dietary-mediterranean" class="card">
+                <h2 class="card-title" data-text-key="mediterranean-diet-title">Mediterranean Diet</h2>
+                <p class="card-description" data-text-key="mediterranean-diet-description">Heart-healthy eating pattern inspired by Mediterranean cuisine.</p>
+            </a>
+            <a href="/nutrition/learn?topic=gluten-free" id="dietary-gluten-free" class="card">
+                <h2 class="card-title" data-text-key="gluten-free-diet-title">Gluten-Free Diet</h2>
+                <p class="card-description" data-text-key="gluten-free-diet-description">Delicious meals without gluten-containing ingredients.</p>
+            </a>
+            <a href="/nutrition/learn?topic=intermittent-fasting" id="dietary-if" class="card">
+                <h2 class="card-title" data-text-key="if-diet-title">Intermittent Fasting (IF)</h2>
+                <p class="card-description" data-text-key="if-diet-description">Strategic eating patterns for metabolic health and weight management.</p>
+            </a>
+            <a href="/nutrition/learn?topic=dairy-free" id="dietary-dairy-free" class="card">
+                <h2 class="card-title" data-text-key="dairy-free-diet-title">Dairy-Free Diet</h2>
+                <p class="card-description" data-text-key="dairy-free-diet-description">Nutritious meals without dairy products.</p>
+            </a>
+            <a href="/nutrition/learn?topic=high-protein" id="dietary-high-protein" class="card">
+                <h2 class="card-title" data-text-key="high-protein-diet-title">High-Protein Diet</h2>
+                <p class="card-description" data-text-key="high-protein-diet-description">Protein-rich meal plans for muscle growth and recovery.</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="nutrition-user-recipes">
+        <h1 data-text-key="healthy-recipes-text">Healthy Recipes</h1>
+        <div class="nutrition-user-cards">
+            <a href="/nutrition/learn?topic=breakfast-recipes" id="recipes-breakfast" class="card">
+                <h2 class="card-title" data-text-key="breakfast-recipes-title">Breakfast Recipes</h2>
+                <p class="card-description" data-text-key="breakfast-recipes-description">Start your day with nutritious and energizing breakfast options.</p>
+            </a>
+            <a href="/nutrition/learn?topic=lunch-recipes" id="recipes-lunch" class="card">
+                <h2 class="card-title" data-text-key="lunch-recipes-title">Lunch Recipes</h2>
+                <p class="card-description" data-text-key="lunch-recipes-description">Quick and healthy lunch ideas to fuel your day.</p>
+            </a>
+            <a href="/nutrition/learn?topic=dinner-recipes" id="recipes-dinner" class="card">
+                <h2 class="card-title" data-text-key="dinner-recipes-title">Dinner Recipes</h2>
+                <p class="card-description" data-text-key="dinner-recipes-description">Satisfying and nutritious dinner recipes for the whole family.</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="nutrition-user-supplements">
+        <h1 data-text-key="supplements-text">Supplements Guide</h1>
+        <div class="nutrition-user-cards">
+            <a href="/nutrition/learn?topic=supplements-understanding" id="supplements-understanding" class="card">
+                <h2 class="card-title" data-text-key="supplements-understanding-title">Understanding Supplements</h2>
+                <p class="card-description" data-text-key="supplements-understanding-description">Learn about different types of supplements and their benefits for your fitness journey.</p>
+            </a>
+            <a href="/nutrition/learn?topic=supplements-safety" id="supplements-safety" class="card">
+                <h2 class="card-title" data-text-key="supplements-safety-title">Supplement Safety</h2>
+                <p class="card-description" data-text-key="supplements-safety-description">Guidelines for effective use, potential risks, and safety considerations.</p>
+            </a>
+            <a href="/nutrition/learn?topic=supplements-shop" id="supplements-shop" class="card">
+                <h2 class="card-title" data-text-key="supplements-shop-title">Shop Supplements</h2>
+                <p class="card-description" data-text-key="supplements-shop-description">Browse and purchase high-quality, verified supplements.</p>
+            </a>
+        </div>
+    </div>
+  </div>
+
+  <div class="footer aleo-text">
+    <div class="footer-content">
+      <div class="footer-sections">
+        <div class="footer-section">
+          <h3 data-text-key="footer-quick-links">Quick Links</h3>
+          <ul>
+            <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
+            <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
+            <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
+            <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3 data-text-key="footer-information">Information</h3>
+          <ul>
+            <li><a href="/about" data-text-key="about-menu-item">About</a></li>
+            <li><a href="#" data-text-key="faq">FAQ</a></li>
+            <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
+            <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3 data-text-key="footer-contact">Contact</h3>
+          <ul>
+            <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+            <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+            <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+            <li><a href="#" data-text-key="support">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-section footer-logo">
+          <img src="/assets/logo.svg" alt="TenaPrime">
+          <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+          <div class="footer-social">
+            <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
+            <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 TenaPrime. All rights reserved.</p>
+        <div class="footer-ethiotelecom">
+          <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sidebar-overlay"></div>
+<div class="sidebar aleo-text" id="sidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-logo">
+      <img src="/assets/logo.svg" alt="TenaPrime">
+    </div>
+    <button class="sidebar-close">&times;</button>
+  </div>
+  
+  <div class="sidebar-language-selector">
+    <div class="language-options-container">
+      <div class="sidebar-language-option" data-lang="en">
+        <span class="language-text">English</span>
+      </div>
+      <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+        <span class="language-text">አማርኛ</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-navigation">
+    <a href="/dashboard" class="sidebar-item">
+      <div data-text-key="home-menu-item">Home</div>
+    </a>
+    <a href="/exercises" class="sidebar-item">
+      <div data-text-key="exercises-menu-item">Exercises</div>
+    </a>
+    <a href="/nutrition" class="sidebar-item">
+      <div data-text-key="nutrition-menu-item">Nutrition</div>
+    </a>
+    <a href="/prizes" class="sidebar-item">
+      <div data-text-key="prizes-menu-item">Prizes</div>
+    </a>
+    <a href="/about" class="sidebar-item">
+      <div data-text-key="about-menu-item">About</div>
+    </a>
+  </div>
+
+  <div class="sidebar-footer">
+    <a href="#" class="sidebar-item">
+      <div data-text-key="tandc">Terms & Conditions</div>
+    </a>
+    <a href="#" class="sidebar-item">
+      <div data-text-key="faq">FAQ</div>
+    </a>
+    <a href="#" class="sidebar-item">
+      <div data-text-key="privacy-policy">Privacy Policy</div>
+    </a>
+    <a href="#" class="sidebar-item">
+      <div data-text-key="contact-us">Contact Us</div>
+    </a>
+  </div>
+</div>
+
+<script src="/scripts/auth-service.js"></script>
+<script src="/scripts/strings-loader.js"></script>
+<script src="/scripts/language-selector.js"></script>
+<script src="/scripts/user-stats-popup.js"></script>
+<script src="/scripts/sidebar-overlay.js"></script>
+
+</body>
+</html> 

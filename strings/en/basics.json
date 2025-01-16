@@ -1,0 +1,146 @@
+[
+    {
+        "id": "nutrition-basics-intro-title",
+        "en": "Introduction to Nutrition"
+    },
+    {
+        "id": "nutrition-basics-intro-item-1",
+        "en": "Nutrition is essential for reaching your fitness goals, whether you're aiming for fat loss, muscle gain, or overall health"
+    },
+    {
+        "id": "nutrition-basics-intro-item-2",
+        "en": "Good nutrition fuels your body, supports muscle repair, boosts exercise performance, and enhances recovery"
+    },
+    {
+        "id": "nutrition-basics-intro-item-3",
+        "en": "Without the right nutrients, your workouts will be less effective, and progress will slow down"
+    },
+    {
+        "id": "nutrition-energy-balance-title",
+        "en": "Energy Balance"
+    },
+    {
+        "id": "nutrition-energy-balance-item-1",
+        "en": "Energy balance is keyâ€”eating more calories than you burn leads to weight gain"
+    },
+    {
+        "id": "nutrition-energy-balance-item-2",
+        "en": "Eating fewer calories creates a caloric deficit for fat loss"
+    },
+    {
+        "id": "nutrition-energy-balance-item-3",
+        "en": "Understanding your caloric needs is crucial for achieving your goals"
+    },
+    {
+        "id": "nutrition-macronutrients-title",
+        "en": "Macronutrients: The Big Three"
+    },
+    {
+        "id": "nutrition-macro-percentage-carbs",
+        "en": "45-65%"
+    },
+    {
+        "id": "nutrition-macro-label-carbs",
+        "en": "Carbs"
+    },
+    {
+        "id": "nutrition-macro-percentage-protein",
+        "en": "20-35%"
+    },
+    {
+        "id": "nutrition-macro-label-protein",
+        "en": "Protein"
+    },
+    {
+        "id": "nutrition-macro-percentage-fats",
+        "en": "20-35%"
+    },
+    {
+        "id": "nutrition-macro-label-fats",
+        "en": "Fats"
+    },
+    {
+        "id": "nutrition-macronutrients-item-1",
+        "en": "<b>Carbohydrates:</b> Primary energy source, especially during exercise. Complex carbs provide sustained energy"
+    },
+    {
+        "id": "nutrition-macronutrients-item-2",
+        "en": "<b>Protein:</b> Essential for muscle repair, recovery, and growth. Helps preserve muscle mass during weight loss"
+    },
+    {
+        "id": "nutrition-macronutrients-item-3",
+        "en": "<b>Fats:</b> Important for hormone regulation, brain function, and vitamin absorption"
+    },
+    {
+        "id": "nutrition-micronutrients-title",
+        "en": "Micronutrients &amp; Hydration"
+    },
+    {
+        "id": "nutrition-micronutrients-item-1",
+        "en": "Vitamins and minerals are vital for energy production, immune function, and overall health"
+    },
+    {
+        "id": "nutrition-micronutrients-item-2",
+        "en": "Proper hydration is essential for digestion, nutrient absorption, and muscle function"
+    },
+    {
+        "id": "nutrition-micronutrients-item-3",
+        "en": "Electrolytes maintain fluid balance during exercise"
+    },
+    {
+        "id": "nutrition-fiber-title",
+        "en": "Fiber and Digestive Health"
+    },
+    {
+        "id": "nutrition-fiber-item-1",
+        "en": "Fiber aids in digestion, keeps you full longer, and supports heart health"
+    },
+    {
+        "id": "nutrition-fiber-item-2",
+        "en": "Soluble fiber (in oats and beans) helps lower cholesterol"
+    },
+    {
+        "id": "nutrition-fiber-item-3",
+        "en": "Insoluble fiber (in whole grains and vegetables) aids digestion"
+    },
+    {
+        "id": "nutrition-balanced-diet-title",
+        "en": "Building a Balanced Diet"
+    },
+    {
+        "id": "nutrition-balanced-diet-item-1",
+        "en": "Focus on nutrient-dense whole foods including fruits, vegetables, and lean proteins"
+    },
+    {
+        "id": "nutrition-balanced-diet-item-2",
+        "en": "Include adequate fiber for digestive health and satiety"
+    },
+    {
+        "id": "nutrition-balanced-diet-item-3",
+        "en": "Balance portion sizes to support your specific goals"
+    },
+    {
+        "id": "nutrition-balanced-diet-item-4",
+        "en": "Prioritize vegetables, fruits, whole grains, lean proteins, and healthy fats"
+    },
+    {
+        "id": "nutrition-body-effects-title",
+        "en": "How Nutrition Affects Your Body"
+    },
+    {
+        "id": "nutrition-body-effects-item-1",
+        "en": "Supports muscle growth and recovery through protein synthesis"
+    },
+    {
+        "id": "nutrition-body-effects-item-2",
+        "en": "Maintains energy levels through proper carbohydrate intake"
+    },
+    {
+        "id": "nutrition-body-effects-item-3",
+        "en": "Boosts immune function through adequate vitamin and mineral intake"
+    },
+    {
+        "id": "nutrition-body-effects-item-4",
+        "en": "Improves mental clarity and cognitive function"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": "nutrition-whole-foods-focus",
+        "en": "Emphasizes whole foods, healthy fats, lean proteins, and plenty of fruits and vegetables"
+    },
+    {
+        "id": "nutrition-olive-oil",
+        "en": "Olive oil as the primary fat source"
+    },
+    {
+        "id": "nutrition-fish-seafood",
+        "en": "Fish and seafood as the main animal protein"
+    },
+    {
+        "id": "nutrition-plant-based-foods",
+        "en": "Whole grains, legumes, nuts, seeds, and plenty of fresh vegetables"
+    },
+    {
+        "id": "nutrition-heart-health",
+        "en": "Promotes heart health by reducing the risk of cardiovascular diseases"
+    },
+    {
+        "id": "nutrition-antioxidants",
+        "en": "High in antioxidants and anti-inflammatory foods"
+    },
+    {
+        "id": "nutrition-weight-management",
+        "en": "Supports healthy weight management and improves longevity"
+    },
+    {
+        "id": "nutrition-portion-control",
+        "en": "Moderate in calories, so portion control is essential for weight loss"
+    },
+    {
+        "id": "nutrition-diet-limitations",
+        "en": "Great for overall health, but may not suit those with severe low-carb or high-protein goals"
+    }
+]

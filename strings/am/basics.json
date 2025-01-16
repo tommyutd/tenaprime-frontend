@@ -1,0 +1,146 @@
+[
+    {
+        "id": "nutrition-basics-intro-title",
+        "am": "ስለ አመጋገብ መግቢያ"
+    },
+    {
+        "id": "nutrition-basics-intro-item-1",
+        "am": "የአካል ብቃት ግቦችዎን ለማሳካት የተመጣጠነ ምግብ አስፈላጊ ነው፣ ዓላማው ለስብ ማጣት፣ ለጡንቻ መጨመር ወይም አጠቃላይ ጤና ነው።"
+    },
+    {
+        "id": "nutrition-basics-intro-item-2",
+        "am": "ጥሩ አመጋገብ ሰውነትዎን ያሞግታል ፣ የጡንቻን ጥገና ይደግፋል ፣ የአካል ብቃት እንቅስቃሴን ያሻሽላል እና ማገገምን ያሻሽላል"
+    },
+    {
+        "id": "nutrition-basics-intro-item-3",
+        "am": "ትክክለኛዎቹ ንጥረ ነገሮች ከሌሉ የአካል ብቃት እንቅስቃሴዎ ያነሰ ውጤታማ ይሆናል፣ እና እድገት ይቀንሳል"
+    },
+    {
+        "id": "nutrition-energy-balance-title",
+        "am": "የኢነርጂ ሚዛን"
+    },
+    {
+        "id": "nutrition-energy-balance-item-1",
+        "am": "የኃይል ሚዛን ቁልፍ ነው - ካቃጠሉት በላይ ብዙ ካሎሪዎችን መብላት ወደ ክብደት መጨመር ይመራል።"
+    },
+    {
+        "id": "nutrition-energy-balance-item-2",
+        "am": "ጥቂት ካሎሪዎችን መብላት ለስብ ኪሳራ የካሎሪክ እጥረት ይፈጥራል"
+    },
+    {
+        "id": "nutrition-energy-balance-item-3",
+        "am": "ግቦችዎን ለማሳካት የካሎሪክ ፍላጎቶችዎን መረዳት በጣም አስፈላጊ ነው።"
+    },
+    {
+        "id": "nutrition-macronutrients-title",
+        "am": "ማክሮሮኒተሪዎች፡ ትልቁ ሶስት"
+    },
+    {
+        "id": "nutrition-macro-percentage-carbs",
+        "am": "45-65%"
+    },
+    {
+        "id": "nutrition-macro-label-carbs",
+        "am": "ካርቦሃይድሬትስ"
+    },
+    {
+        "id": "nutrition-macro-percentage-protein",
+        "am": "20-35%"
+    },
+    {
+        "id": "nutrition-macro-label-protein",
+        "am": "ፕሮቲን"
+    },
+    {
+        "id": "nutrition-macro-percentage-fats",
+        "am": "20-35%"
+    },
+    {
+        "id": "nutrition-macro-label-fats",
+        "am": "ስብ"
+    },
+    {
+        "id": "nutrition-macronutrients-item-1",
+        "am": "<b>ካርቦሃይድሬትስ፡</b> ዋናው የሃይል ምንጭ በተለይም በአካል ብቃት እንቅስቃሴ ወቅት። ውስብስብ ካርቦሃይድሬቶች ዘላቂ ኃይል ይሰጣሉ"
+    },
+    {
+        "id": "nutrition-macronutrients-item-2",
+        "am": "<b>ፕሮቲን፡</b> ለጡንቻ መጠገኛ፣ ማገገሚያ እና እድገት አስፈላጊ። ክብደት በሚቀንስበት ጊዜ የጡንቻን ብዛት ለመጠበቅ ይረዳል"
+    },
+    {
+        "id": "nutrition-macronutrients-item-3",
+        "am": "<b>ቅባት፡</b> ለሆርሞን ቁጥጥር፣ ለአእምሮ ስራ እና ለቫይታሚን መሳብ ጠቃሚ ነው።"
+    },
+    {
+        "id": "nutrition-micronutrients-title",
+        "am": "ማይክሮ ኤለመንቶች & amp;; እርጥበት"
+    },
+    {
+        "id": "nutrition-micronutrients-item-1",
+        "am": "ቪታሚኖች እና ማዕድናት ለኃይል ማምረት, የበሽታ መከላከያ ተግባራት እና አጠቃላይ ጤና በጣም አስፈላጊ ናቸው"
+    },
+    {
+        "id": "nutrition-micronutrients-item-2",
+        "am": "ትክክለኛው እርጥበት ለምግብ መፈጨት, ለምግብ መሳብ እና ለጡንቻዎች ተግባር አስፈላጊ ነው"
+    },
+    {
+        "id": "nutrition-micronutrients-item-3",
+        "am": "ኤሌክትሮላይቶች በአካል ብቃት እንቅስቃሴ ወቅት ፈሳሽ ሚዛንን ይይዛሉ"
+    },
+    {
+        "id": "nutrition-fiber-title",
+        "am": "ፋይበር እና የምግብ መፈጨት ጤና"
+    },
+    {
+        "id": "nutrition-fiber-item-1",
+        "am": "ፋይበር ለምግብ መፈጨት ይረዳል፣ ረጅም ጊዜ እንዲሞላዎት ያደርጋል እንዲሁም የልብ ጤናን ይደግፋል"
+    },
+    {
+        "id": "nutrition-fiber-item-2",
+        "am": "የሚሟሟ ፋይበር (በአጃ እና ባቄላ) የኮሌስትሮል መጠንን ለመቀነስ ይረዳል"
+    },
+    {
+        "id": "nutrition-fiber-item-3",
+        "am": "የማይሟሟ ፋይበር (በሙሉ እህሎች እና አትክልቶች) የምግብ መፈጨትን ይረዳል"
+    },
+    {
+        "id": "nutrition-balanced-diet-title",
+        "am": "የተመጣጠነ አመጋገብ መገንባት"
+    },
+    {
+        "id": "nutrition-balanced-diet-item-1",
+        "am": "ፍራፍሬ፣ አትክልት እና ስስ ፕሮቲኖችን ጨምሮ በንጥረ-ምግብ-ጥቅጥቅ ያሉ ምግቦች ላይ ያተኩሩ"
+    },
+    {
+        "id": "nutrition-balanced-diet-item-2",
+        "am": "ለምግብ መፈጨት ጤና እና ጥጋብ በቂ ፋይበር ያካትቱ"
+    },
+    {
+        "id": "nutrition-balanced-diet-item-3",
+        "am": "የተወሰኑ ግቦችዎን ለመደገፍ የክፍል መጠኖችን ያመዛዝኑ"
+    },
+    {
+        "id": "nutrition-balanced-diet-item-4",
+        "am": "ለአትክልት፣ ፍራፍሬ፣ ሙሉ እህል፣ ቅባት ፕሮቲኖች እና ጤናማ ቅባቶች ቅድሚያ ይስጡ"
+    },
+    {
+        "id": "nutrition-body-effects-title",
+        "am": "አመጋገብ በሰውነትዎ ላይ እንዴት እንደሚነካ"
+    },
+    {
+        "id": "nutrition-body-effects-item-1",
+        "am": "በፕሮቲን ውህደት አማካኝነት የጡንቻን እድገትን እና ማገገምን ይደግፋል"
+    },
+    {
+        "id": "nutrition-body-effects-item-2",
+        "am": "በተገቢው የካርቦሃይድሬት መጠን አማካኝነት የኃይል ደረጃን ይይዛል"
+    },
+    {
+        "id": "nutrition-body-effects-item-3",
+        "am": "በቂ ቪታሚኖችን እና ማዕድናትን በመውሰድ የሰውነትን በሽታ የመከላከል ስርዓትን ያጠናክራል"
+    },
+    {
+        "id": "nutrition-body-effects-item-4",
+        "am": "የአእምሮን ግልፅነት እና የእውቀት (ኮግኒቲቭ) ተግባርን ያሻሽላል"
+    }
+]

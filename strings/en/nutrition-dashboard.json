@@ -1,0 +1,298 @@
+[
+    {
+        "id": "nutrition-education-text",
+        "en": "Nutrition Education"
+    },
+    {
+        "id": "nutrition-basics-title",
+        "en": "Nutrition Basics"
+    },
+    {
+        "id": "nutrition-basics-description",
+        "en": "Learn the fundamentals of nutrition for a healthier lifestyle."
+    },
+    {
+        "id": "macro-tracking-title",
+        "en": "Macro Tracking"
+    },
+    {
+        "id": "macro-tracking-description",
+        "en": "Track your macronutrients and calories for optimal results"
+    },
+    {
+        "id": "meal-prep-title",
+        "en": "Meal Preparation"
+    },
+    {
+        "id": "meal-prep-description",
+        "en": "Tips and strategies for efficient meal planning and prep."
+    },
+    {
+        "id": "macronutrients-text",
+        "en": "Macronutrients"
+    },
+    {
+        "id": "carbs-title",
+        "en": "Carbohydrates"
+    },
+    {
+        "id": "carbs-description",
+        "en": "Your Body's Primary Fuel"
+    },
+    {
+        "id": "protein-title",
+        "en": "Proteins"
+    },
+    {
+        "id": "protein-description",
+        "en": "The Building Blocks of Muscle"
+    },
+    {
+        "id": "fats-title",
+        "en": "Fats"
+    },
+    {
+        "id": "fats-description",
+        "en": "Essential for Hormones and Energy"
+    },
+    {
+        "id": "micronutrients-text",
+        "en": "Micronutrients & Hydration"
+    },
+    {
+        "id": "vitamins-title",
+        "en": "Vitamins"
+    },
+    {
+        "id": "vitamins-description",
+        "en": "Your Body's Guardians"
+    },
+    {
+        "id": "minerals-title",
+        "en": "Minerals"
+    },
+    {
+        "id": "minerals-description",
+        "en": "Supporting Key Functions"
+    },
+    {
+        "id": "micro-hydration-title",
+        "en": "Hydration"
+    },
+    {
+        "id": "micro-hydration-description",
+        "en": "Vital for Performance and Recovery"
+    },
+    {
+        "id": "meal-plans-text",
+        "en": "Meal Plans"
+    },
+    {
+        "id": "weight-loss-meal-plan-title",
+        "en": "Weight Loss Meal Plan"
+    },
+    {
+        "id": "weight-loss-meal-plan-description",
+        "en": "Customized meal plans designed for healthy and sustainable weight loss."
+    },
+    {
+        "id": "muscle-gain-meal-plan-title",
+        "en": "Muscle Gain Meal Plan"
+    },
+    {
+        "id": "muscle-gain-meal-plan-description",
+        "en": "Nutrient-rich meal plans to support muscle growth and recovery."
+    },
+    {
+        "id": "maintenance-meal-plan-title",
+        "en": "Maintenance Meal Plan"
+    },
+    {
+        "id": "maintenance-meal-plan-description",
+        "en": "Balanced meal plans to maintain your current weight and health."
+    },
+    {
+        "id": "endurance-meal-plan-title",
+        "en": "Endurance & Performance Enhancement"
+    },
+    {
+        "id": "endurance-meal-plan-description",
+        "en": "Optimized nutrition for endurance athletes and performance enhancement."
+    },
+    {
+        "id": "recomp-meal-plan-title",
+        "en": "Body Recomposition"
+    },
+    {
+        "id": "recomp-meal-plan-description",
+        "en": "Strategic nutrition for simultaneous fat loss and muscle gain."
+    },
+    {
+        "id": "dietary-preferences-text",
+        "en": "Special Diets and Nutritional Preferences"
+    },
+    {
+        "id": "plant-based-diet-title",
+        "en": "Plant-Based Diets"
+    },
+    {
+        "id": "plant-based-diet-description",
+        "en": "Nutritious plant-focused meals rich in proteins and essential nutrients."
+    },
+    {
+        "id": "low-carb-diet-title",
+        "en": "Low-Carb Diets"
+    },
+    {
+        "id": "low-carb-diet-description",
+        "en": "Reduced carbohydrate meals for weight management and metabolic health."
+    },
+    {
+        "id": "mediterranean-diet-title",
+        "en": "Mediterranean Diet"
+    },
+    {
+        "id": "mediterranean-diet-description",
+        "en": "Heart-healthy eating pattern inspired by Mediterranean cuisine."
+    },
+    {
+        "id": "gluten-free-diet-title",
+        "en": "Gluten-Free Diet"
+    },
+    {
+        "id": "gluten-free-diet-description",
+        "en": "Delicious meals without gluten-containing ingredients."
+    },
+    {
+        "id": "if-diet-title",
+        "en": "Intermittent Fasting (IF)"
+    },
+    {
+        "id": "if-diet-description",
+        "en": "Strategic eating patterns for metabolic health and weight management."
+    },
+    {
+        "id": "dairy-free-diet-title",
+        "en": "Dairy-Free Diet"
+    },
+    {
+        "id": "dairy-free-diet-description",
+        "en": "Nutritious meals without dairy products."
+    },
+    {
+        "id": "high-protein-diet-title",
+        "en": "High-Protein Diet"
+    },
+    {
+        "id": "high-protein-diet-description",
+        "en": "Protein-rich meal plans for muscle growth and recovery."
+    },
+    {
+        "id": "healthy-recipes-text",
+        "en": "Healthy Recipes"
+    },
+    {
+        "id": "breakfast-recipes-title",
+        "en": "Breakfast Recipes"
+    },
+    {
+        "id": "breakfast-recipes-description",
+        "en": "Start your day with nutritious and energizing breakfast options."
+    },
+    {
+        "id": "lunch-recipes-title",
+        "en": "Lunch Recipes"
+    },
+    {
+        "id": "lunch-recipes-description",
+        "en": "Quick and healthy lunch ideas to fuel your day."
+    },
+    {
+        "id": "dinner-recipes-title",
+        "en": "Dinner Recipes"
+    },
+    {
+        "id": "dinner-recipes-description",
+        "en": "Satisfying and nutritious dinner recipes for the whole family."
+    },
+    {
+        "id": "supplements-text",
+        "en": "Supplements Guide"
+    },
+    {
+        "id": "supplements-understanding-title",
+        "en": "Understanding Supplements"
+    },
+    {
+        "id": "supplements-understanding-description",
+        "en": "Learn about different types of supplements and their benefits for your fitness journey."
+    },
+    {
+        "id": "supplements-safety-title",
+        "en": "Supplement Safety"
+    },
+    {
+        "id": "supplements-safety-description",
+        "en": "Guidelines for effective use, potential risks, and safety considerations."
+    },
+    {
+        "id": "supplements-shop-title",
+        "en": "Shop Supplements"
+    },
+    {
+        "id": "supplements-shop-description",
+        "en": "Browse and purchase high-quality, verified supplements."
+    },
+    {
+        "id": "nutrition-function",
+        "en": "Function"
+    },
+    {
+        "id": "nutrition-how-much-to-consume",
+        "en": "How Much to Consume"
+    },
+    {
+        "id": "nutrition-best-sources",
+        "en": "Best Sources"
+    },
+    {
+        "id": "nutrition-overview",
+        "en": "Overview"
+    },
+    {
+        "id": "nutrition-importance-of-protein",
+        "en": "Importance of Protein"
+    },
+    {
+        "id": "nutrition-protein-percentage-30-40",
+        "en": "30-40%"
+    },
+    {
+        "id": "nutrition-protein-label",
+        "en": "Protein"
+    },
+    {
+        "id": "nutrition-carbs-percentage-30-40",
+        "en": "30-40%"
+    },
+    {
+        "id": "nutrition-carbs-label",
+        "en": "Carbs"
+    },
+    {
+        "id": "nutrition-fats-percentage-20-30",
+        "en": "20-30%"
+    },
+    {
+        "id": "nutrition-fats-label",
+        "en": "Fats"
+    },
+    {
+        "id": "nutrition-benefits",
+        "en": "Benefits"
+    },
+    {
+        "id": "nutrition-key-considerations",
+        "en": "Key Considerations"
+    }
+]

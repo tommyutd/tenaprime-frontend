@@ -1,0 +1,42 @@
+[
+    {
+        "id": "nutrition-fasting-cycles",
+        "am": "በምግብ እና በጾም መካከል ብስክሌት መንዳትን ያካትታል"
+    },
+    {
+        "id": "nutrition-16-8-fasting",
+        "am": "16፡8፡ ለ16 ሰአታት ጾም እና በ8 ሰአታት መስኮት ውስጥ ብላ"
+    },
+    {
+        "id": "nutrition-5-2-fasting",
+        "am": "5፡2፡ በመደበኛነት ለ5 ቀናት ይመገቡ እና ካሎሪዎችን (ከ500-600 አካባቢ) ለ2 ተከታታይ ላልሆኑ ቀናት ይገድቡ።"
+    },
+    {
+        "id": "nutrition-alternate-day-fasting",
+        "am": "የአማራጭ ቀን ጾም፡- በየሁለት ቀኑ መጾም"
+    },
+    {
+        "id": "nutrition-calorie-reduction",
+        "am": "የካሎሪ ቅበላን በመቀነስ ክብደት መቀነስን ሊረዳ ይችላል።"
+    },
+    {
+        "id": "nutrition-metabolic-health",
+        "am": "የሜታቦሊክ ጤናን ፣ የደም ስኳር መጠንን እና የኢንሱሊን ስሜትን ያሻሽላል"
+    },
+    {
+        "id": "nutrition-longevity-benefits",
+        "am": "ረጅም ዕድሜን ሊደግፍ እና ሥር የሰደደ በሽታዎችን አደጋ ሊቀንስ ይችላል"
+    },
+    {
+        "id": "nutrition-not-suitable-for-all",
+        "am": "ለሁሉም ሰው ተስማሚ አይደለም; አንዳንድ የጤና ሁኔታዎች ካሉዎት የጤና እንክብካቤ አቅራቢን ያማክሩ"
+    },
+    {
+        "id": "nutrition-nutrient-dense-meals",
+        "am": "መስኮቶችን በሚመገቡበት ጊዜ በንጥረ-ምግቦች ላይ ያተኩሩ"
+    },
+    {
+        "id": "nutrition-not-for-eating-disorders",
+        "am": "የአመጋገብ ችግር ላለባቸው ሰዎች አይመከርም"
+    }
+]

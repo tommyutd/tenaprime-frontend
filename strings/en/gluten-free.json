@@ -1,0 +1,26 @@
+[
+    {
+        "id": "nutrition-exclude-gluten",
+        "en": "Excludes all foods containing gluten, a protein found in wheat, barley, rye, and oats"
+    },
+    {
+        "id": "nutrition-celiac-disease",
+        "en": "Essential for individuals with celiac disease or a gluten intolerance"
+    },
+    {
+        "id": "nutrition-manage-gluten-sensitivity",
+        "en": "Essential for managing celiac disease or gluten sensitivity"
+    },
+    {
+        "id": "nutrition-digestive-health",
+        "en": "May improve digestive health, energy levels, and reduce inflammation in people with gluten-related disorders"
+    },
+    {
+        "id": "nutrition-gluten-free-not-necessary",
+        "en": "Not necessary for people without gluten sensitivity; gluten-free products can be high in sugar and fat"
+    },
+    {
+        "id": "nutrition-naturally-gluten-free",
+        "en": "Must focus on naturally gluten-free foods like rice, quinoa, potatoes, fruits, vegetables, and lean proteins"
+    }
+]

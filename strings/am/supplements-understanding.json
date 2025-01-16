@@ -1,0 +1,110 @@
+[
+    {
+        "id": "nutrition-fill-gaps",
+        "am": "ማሟያዎች የአመጋገብ ክፍተቶችን በመሙላት፣ የጤና ግቦችን በመደገፍ እና አፈጻጸምን በማጎልበት ጠቃሚ ሊሆኑ ይችላሉ።"
+    },
+    {
+        "id": "nutrition-not-replacement",
+        "am": "እነሱ በደንብ የተጠጋጋ ፣ የተመጣጠነ ምግብን በፍፁም መተካት የለባቸውም"
+    },
+    {
+        "id": "nutrition-what-are-supplements",
+        "am": "ተጨማሪዎች ምንድን ናቸው?"
+    },
+    {
+        "id": "nutrition-supplement-definition",
+        "am": "ማሟያዎች ቪታሚኖችን፣ ማዕድኖችን፣ እፅዋትን፣ አሚኖ አሲዶችን እና ሌሎች አመጋገብዎን ለማሟላት የሚወሰዱ ንጥረ ነገሮችን ያካትታሉ"
+    },
+    {
+        "id": "nutrition-supplement-forms",
+        "am": "በተለያዩ ቅርጾች ይመጣሉ፡- እንክብሎች፣ ዱቄት፣ ፈሳሾች እና ባርዶች"
+    },
+    {
+        "id": "nutrition-supplement-purpose",
+        "am": "ዓላማው አመጋገብ በቂ መጠን ሊሰጥ በማይችልበት ጊዜ በቂ አስፈላጊ ንጥረ ነገሮችን ለማረጋገጥ ነው"
+    },
+    {
+        "id": "nutrition-types-of-supplements",
+        "am": "ተጨማሪዎች ዓይነቶች"
+    },
+    {
+        "id": "nutrition-vitamins-minerals",
+        "am": "<b>ቪታሚኖች እና ማዕድናት፡</b> እንደ ቫይታሚን ዲ፣ ካልሲየም፣ ማግኒዚየም፣ ብረት እና የተለያዩ የሰውነት ተግባራትን የሚደግፉ ቪታሚኖች ያሉ አስፈላጊ ንጥረ ነገሮች"
+    },
+    {
+        "id": "nutrition-protein-supplements",
+        "am": "<b>የፕሮቲን ተጨማሪዎች፡</b> ለጡንቻ እድገት፣ ማገገም እና ክብደት አስተዳደር ዋይ፣ ኬሲን ወይም ተክል ላይ የተመሰረቱ ፕሮቲኖች"
+    },
+    {
+        "id": "nutrition-omega3-fatty-acids",
+        "am": "<b>ኦሜጋ -3 ፋቲ አሲድ፡</b> የዓሳ ዘይት ወይም አልጌ ላይ የተመረኮዙ ተጨማሪዎች እብጠትን ለመቀነስ፣ ለልብ ጤና እና ለአንጎል ተግባር"
+    },
+    {
+        "id": "nutrition-creatine",
+        "am": "<b>Creatine:</b> የጡንቻን ጥንካሬ እና ኃይልን ለመጨመር ታዋቂ, በከፍተኛ ኃይለኛ እንቅስቃሴዎች ወቅት ኤቲፒን ለመሙላት ይረዳል."
+    },
+    {
+        "id": "nutrition-pre-workout-supplements",
+        "am": "<b>የቅድመ-ልምምድ ማሟያዎች፡</b> የካፌይን፣ ቤታ-አላኒን እና ናይትሪክ ኦክሳይድ ማበረታቻዎች ለሃይል፣ ትኩረት እና ፅናት ድብልቅ"
+    },
+    {
+        "id": "nutrition-probiotics",
+        "am": "<b>ፕሮባዮቲክስ፡</b> የአንጀት ጤናን እና የበሽታ መከላከልን ተግባር የሚደግፉ ጠቃሚ ባክቴሪያዎች"
+    },
+    {
+        "id": "nutrition-multivitamins",
+        "am": "<b>Multivitamins:</b> የተለያዩ ቪታሚኖችን እና ማዕድኖችን የያዙ ሰፊ-ስፔክትረም ተጨማሪዎች የተለመዱ የአመጋገብ ክፍተቶችን ለመሸፈን"
+    },
+    {
+        "id": "nutrition-benefits-of-supplements",
+        "am": "ተጨማሪዎች ጥቅሞች"
+    },
+    {
+        "id": "nutrition-correcting-deficiencies",
+        "am": "<b>የተመጣጠነ ምግብ እጥረትን ማስተካከል፡</b> በአመጋገብ እጥረት የቪታሚኖች ወይም ማዕድናት እጥረትን ለመከላከል ይረዳል።"
+    },
+    {
+        "id": "nutrition-improving-performance",
+        "am": "<b>አፈጻጸምን ማሻሻል፡</b> ጥንካሬን፣ ጽናትን እና የጡንቻ ማገገምን ያሳድጉ"
+    },
+    {
+        "id": "nutrition-supporting-health-conditions",
+        "am": "<b>የጤና ሁኔታዎችን መደገፍ፡</b> እንደ ኦስቲዮፖሮሲስ፣ የመገጣጠሚያዎች ጤና እና የልብ ሕመም ያሉ ሁኔታዎችን ለመቆጣጠር ያግዙ።"
+    },
+    {
+        "id": "nutrition-supplement-convenience",
+        "am": "<b>ምቾት:</b> የተመጣጠነ ምግብን ለመጨመር ቀላል መንገድ ያቅርቡ, በተለይም ስራ ለሚበዛባቸው ግለሰቦች ወይም የአመጋገብ ገደቦች ላለባቸው."
+    },
+    {
+        "id": "nutrition-common-uses",
+        "am": "የተለመዱ አጠቃቀሞች"
+    },
+    {
+        "id": "nutrition-vitamins-bone-health",
+        "am": "<b>ቪታሚኖች እና ማዕድናት:</b> የአጥንትን ጤና ይደግፋሉ, የኃይል ደረጃዎችን ያሻሽላሉ, ጉድለቶችን ያስወግዳሉ."
+    },
+    {
+        "id": "nutrition-protein-post-workout",
+        "am": "<b>ፕሮቲን፡</b> ከስፖርታዊ እንቅስቃሴ በኋላ ማገገም፣ ጡንቻን ማዳበር፣ ረሃብን መቆጣጠር"
+    },
+    {
+        "id": "nutrition-omega3-heart-health",
+        "am": "<b>ኦሜጋ-3ስ፡</b> የልብ ጤና፣ እብጠትን ይቀንሳል፣ የእውቀት (ኮግኒቲቭ) ተግባር"
+    },
+    {
+        "id": "nutrition-creatine-muscle-growth",
+        "am": "<b>ክሬቲን፡</b> ጥንካሬ፣ ኃይል እና የጡንቻ እድገት"
+    },
+    {
+        "id": "nutrition-pre-workout-energy",
+        "am": "<b>ቅድመ-ልምምድ፡</b> በጠንካራ የአካል ብቃት እንቅስቃሴ ወቅት ጉልበትን እና አፈፃፀምን ያሳድጉ"
+    },
+    {
+        "id": "nutrition-probiotics-digestive-health",
+        "am": "<b>ፕሮባዮቲክስ፡</b> የምግብ መፈጨት ጤና፣ የአንጀት ሚዛን፣ የበሽታ መከላከል"
+    },
+    {
+        "id": "nutrition-multivitamins-general-health",
+        "am": "<b>Multivitamins:</b> አጠቃላይ የጤና እንክብካቤ፣ የአመጋገብ ክፍተቶችን መሙላት"
+    }
+]

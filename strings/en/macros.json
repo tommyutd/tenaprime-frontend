@@ -1,0 +1,210 @@
+[
+    {
+        "id": "nutrition-what-is-macro-tracking",
+        "en": "What is Macro Tracking?"
+    },
+    {
+        "id": "nutrition-macro-monitoring",
+        "en": "Macro tracking involves monitoring your intake of the three main macronutrients: proteins, carbohydrates, and fats"
+    },
+    {
+        "id": "nutrition-structured-approach",
+        "en": "This method provides a structured approach to nutrition while maintaining flexibility in food choices"
+    },
+    {
+        "id": "nutrition-food-effects",
+        "en": "It helps you understand how different foods affect your body and goals"
+    },
+    {
+        "id": "nutrition-benefits-of-tracking",
+        "en": "Benefits of Tracking Macros"
+    },
+    {
+        "id": "nutrition-personalized-nutrition",
+        "en": "<b>Personalized Nutrition:</b> Customize your diet based on your specific goals and body type"
+    },
+    {
+        "id": "nutrition-flexible-dieting",
+        "en": "<b>Flexible Dieting:</b> Enjoy your favorite foods while staying within your nutritional targets"
+    },
+    {
+        "id": "nutrition-better-results",
+        "en": "<b>Better Results:</b> Optimize body composition by ensuring proper nutrient ratios"
+    },
+    {
+        "id": "nutrition-increased-awareness",
+        "en": "<b>Increased Awareness:</b> Learn about food composition and make informed choices"
+    },
+    {
+        "id": "nutrition-macro-goals",
+        "en": "Macro Goals by Objective"
+    },
+    {
+        "id": "nutrition-fat-loss",
+        "en": "Fat Loss"
+    },
+    {
+        "id": "nutrition-fat-loss-protein",
+        "en": "30-35%"
+    },
+    {
+        "id": "nutrition-fat-loss-protein-label",
+        "en": "Protein"
+    },
+    {
+        "id": "nutrition-fat-loss-carbs",
+        "en": "35-40%"
+    },
+    {
+        "id": "nutrition-fat-loss-carbs-label",
+        "en": "Carbs"
+    },
+    {
+        "id": "nutrition-fat-loss-fats",
+        "en": "25-30%"
+    },
+    {
+        "id": "nutrition-fat-loss-fats-label",
+        "en": "Fats"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-title",
+        "en": "Muscle Gain"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-protein",
+        "en": "25-30%"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-protein-label",
+        "en": "Protein"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-carbs",
+        "en": "45-55%"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-carbs-label",
+        "en": "Carbs"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-fats",
+        "en": "20-25%"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-fats-label",
+        "en": "Fats"
+    },
+    {
+        "id": "nutrition-maintenance",
+        "en": "Maintenance"
+    },
+    {
+        "id": "nutrition-maintenance-protein",
+        "en": "25-30%"
+    },
+    {
+        "id": "nutrition-maintenance-protein-label",
+        "en": "Protein"
+    },
+    {
+        "id": "nutrition-maintenance-carbs",
+        "en": "40-50%"
+    },
+    {
+        "id": "nutrition-maintenance-carbs-label",
+        "en": "Carbs"
+    },
+    {
+        "id": "nutrition-maintenance-fats",
+        "en": "25-30%"
+    },
+    {
+        "id": "nutrition-maintenance-fats-label",
+        "en": "Fats"
+    },
+    {
+        "id": "nutrition-how-to-track",
+        "en": "How to Track Macros"
+    },
+    {
+        "id": "nutrition-calculate-calories",
+        "en": "Calculate your daily calorie needs based on your goal and activity level"
+    },
+    {
+        "id": "nutrition-determine-ratios",
+        "en": "Determine your macro ratios based on your objective (fat loss, muscle gain, or maintenance)"
+    },
+    {
+        "id": "nutrition-food-tracking-app",
+        "en": "Use a food tracking app to log your meals and monitor macro intake"
+    },
+    {
+        "id": "nutrition-weigh-measure",
+        "en": "Weigh and measure portions for accuracy"
+    },
+    {
+        "id": "nutrition-adjust-targets",
+        "en": "Adjust your targets based on progress and results"
+    },
+    {
+        "id": "nutrition-tips-for-success",
+        "en": "Tips for Success"
+    },
+    {
+        "id": "nutrition-plan-meals",
+        "en": "Plan meals in advance to hit your macro targets"
+    },
+    {
+        "id": "nutrition-read-labels",
+        "en": "Learn to read nutrition labels accurately"
+    },
+    {
+        "id": "nutrition-focus-whole-foods",
+        "en": "Focus on whole, nutrient-dense foods"
+    },
+    {
+        "id": "nutrition-be-flexible",
+        "en": "Be consistent but flexible - occasional variations won't derail your progress"
+    },
+    {
+        "id": "nutrition-track-progress",
+        "en": "Track progress through measurements and photos, not just the scale"
+    },
+    {
+        "id": "nutrition-common-tools",
+        "en": "Common Tracking Tools"
+    },
+    {
+        "id": "nutrition-tena-prime",
+        "en": "TenaPrime: Built-in nutrition tracking to monitor your daily intake and progress"
+    },
+    {
+        "id": "nutrition-food-scale",
+        "en": "Digital Food Scale: Essential for accurate portion measurement and macro calculations"
+    },
+    {
+        "id": "nutrition-measuring-cups",
+        "en": "Measuring Cups &amp; Spoons: Helpful for portion control and recipe measurements"
+    },
+    {
+        "id": "nutrition-food-journal",
+        "en": "Food Journal: Track meals, portions, and timing in a notebook or digital format"
+    },
+    {
+        "id": "nutrition-calculator",
+        "en": "Nutrition Calculator: Use online tools to determine your daily macro needs"
+    },
+    {
+        "id": "nutrition-progress-journal",
+        "en": "Progress Journal: Record measurements, photos, and energy levels to track results"
+    },
+    {
+        "id": "nutrition-meal-template",
+        "en": "Meal Planning Template: Plan your meals in advance to hit macro targets"
+    },
+    {
+        "id": "nutrition-database-reference",
+        "en": "Food Database Reference: Keep a list of common foods and their macro content"
+    }
+]

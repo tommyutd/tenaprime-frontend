@@ -1,0 +1,38 @@
+[
+    {
+        "id": "nutrition-caloric-deficit",
+        "am": "የካሎሪክ እጥረት መፍጠር"
+    },
+    {
+        "id": "nutrition-consume-less-calories",
+        "am": "ስብን ለመቀነስ ከሚያቃጥሉት ያነሰ ካሎሪዎችን ይጠቀሙ"
+    },
+    {
+        "id": "nutrition-calculate-tdee",
+        "am": "ጠቅላላ ዕለታዊ የኢነርጂ ወጪዎን (TDEE) ለማስላት መሳሪያዎችን ይጠቀሙ እና ከ500-750 kcal ጉድለትን ያቅዱ።"
+    },
+    {
+        "id": "nutrition-preserve-muscle-mass",
+        "am": "ከፍተኛ ፕሮቲን መውሰድ ስብን በሚያጡበት ጊዜ የጡንቻን ብዛት ለመጠበቅ ይረዳል"
+    },
+    {
+        "id": "nutrition-protein-intake",
+        "am": "ለአንድ ኪሎ ግራም የሰውነት ክብደት 1.6-2.2 ግራም ፕሮቲን ግቡ"
+    },
+    {
+        "id": "nutrition-macronutrient-breakdown",
+        "am": "የሚመከር የማክሮን ንጥረ ነገር መከፋፈል"
+    },
+    {
+        "id": "nutrition-meal-timing-frequency",
+        "am": "የምግብ ጊዜ እና ድግግሞሽ"
+    },
+    {
+        "id": "nutrition-meal-options",
+        "am": "አማራጮች ባህላዊ ምግቦችን (3-5/ቀን) ወይም ጊዜያዊ ጾምን ያካትታሉ (ለምሳሌ፡ 16፡8 መርሐግብር)"
+    },
+    {
+        "id": "nutrition-nutrient-dense-foods",
+        "am": "ረሃብን ለመቆጣጠር በንጥረ-ምግብ-ጥቅጥቅ ባለ-የበለፀጉ ምግቦች ላይ ያተኩሩ"
+    }
+]

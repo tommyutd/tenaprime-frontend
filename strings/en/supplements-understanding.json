@@ -1,0 +1,110 @@
+[
+    {
+        "id": "nutrition-fill-gaps",
+        "en": "Supplements can be useful in filling nutritional gaps, supporting health goals, and enhancing performance"
+    },
+    {
+        "id": "nutrition-not-replacement",
+        "en": "They should never replace a well-rounded, nutrient-dense diet"
+    },
+    {
+        "id": "nutrition-what-are-supplements",
+        "en": "What Are Supplements?"
+    },
+    {
+        "id": "nutrition-supplement-definition",
+        "en": "Supplements include vitamins, minerals, herbs, amino acids, and other substances taken to supplement your diet"
+    },
+    {
+        "id": "nutrition-supplement-forms",
+        "en": "They come in various forms: pills, powders, liquids, and bars"
+    },
+    {
+        "id": "nutrition-supplement-purpose",
+        "en": "The purpose is to help ensure adequate essential nutrients when diet may not provide sufficient quantities"
+    },
+    {
+        "id": "nutrition-types-of-supplements",
+        "en": "Types of Supplements"
+    },
+    {
+        "id": "nutrition-vitamins-minerals",
+        "en": "<b>Vitamins and Minerals:</b> Essential nutrients like vitamin D, calcium, magnesium, iron, and B vitamins that support various bodily functions"
+    },
+    {
+        "id": "nutrition-protein-supplements",
+        "en": "<b>Protein Supplements:</b> Whey, casein, or plant-based proteins for muscle growth, recovery, and weight management"
+    },
+    {
+        "id": "nutrition-omega3-fatty-acids",
+        "en": "<b>Omega-3 Fatty Acids:</b> Fish oil or algae-based supplements for inflammation reduction, heart health, and brain function"
+    },
+    {
+        "id": "nutrition-creatine",
+        "en": "<b>Creatine:</b> Popular for increasing muscle strength and power, helps replenish ATP during high-intensity activities"
+    },
+    {
+        "id": "nutrition-pre-workout-supplements",
+        "en": "<b>Pre-Workout Supplements:</b> Mix of caffeine, beta-alanine, and nitric oxide boosters for energy, focus, and endurance"
+    },
+    {
+        "id": "nutrition-probiotics",
+        "en": "<b>Probiotics:</b> Beneficial bacteria supporting gut health and immune function"
+    },
+    {
+        "id": "nutrition-multivitamins",
+        "en": "<b>Multivitamins:</b> Broad-spectrum supplements containing various vitamins and minerals to cover common nutritional gaps"
+    },
+    {
+        "id": "nutrition-benefits-of-supplements",
+        "en": "Benefits of Supplements"
+    },
+    {
+        "id": "nutrition-correcting-deficiencies",
+        "en": "<b>Correcting Nutrient Deficiencies:</b> Help prevent deficiencies in vitamins or minerals lacking in diet"
+    },
+    {
+        "id": "nutrition-improving-performance",
+        "en": "<b>Improving Performance:</b> Enhance strength, endurance, and muscle recovery"
+    },
+    {
+        "id": "nutrition-supporting-health-conditions",
+        "en": "<b>Supporting Health Conditions:</b> Help manage conditions like osteoporosis, joint health, and heart disease"
+    },
+    {
+        "id": "nutrition-supplement-convenience",
+        "en": "<b>Convenience:</b> Provide an easy way to increase nutrient intake, especially for busy individuals or those with dietary restrictions"
+    },
+    {
+        "id": "nutrition-common-uses",
+        "en": "Common Uses"
+    },
+    {
+        "id": "nutrition-vitamins-bone-health",
+        "en": "<b>Vitamins and Minerals:</b> Support bone health, improve energy levels, address deficiencies"
+    },
+    {
+        "id": "nutrition-protein-post-workout",
+        "en": "<b>Protein:</b> Post-workout recovery, muscle building, managing hunger"
+    },
+    {
+        "id": "nutrition-omega3-heart-health",
+        "en": "<b>Omega-3s:</b> Heart health, reducing inflammation, cognitive function"
+    },
+    {
+        "id": "nutrition-creatine-muscle-growth",
+        "en": "<b>Creatine:</b> Strength, power, and muscle growth"
+    },
+    {
+        "id": "nutrition-pre-workout-energy",
+        "en": "<b>Pre-Workout:</b> Boost energy and performance during intense exercise"
+    },
+    {
+        "id": "nutrition-probiotics-digestive-health",
+        "en": "<b>Probiotics:</b> Digestive health, gut balance, immunity"
+    },
+    {
+        "id": "nutrition-multivitamins-general-health",
+        "en": "<b>Multivitamins:</b> General health maintenance, filling dietary gaps"
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "id": "nutrition-proper-hydration",
+        "am": "ኃይልን ለመጠበቅ፣ የአካል ብቃት እንቅስቃሴን ለመደገፍ እና መልሶ ማገገምን ለማገዝ ትክክለኛ እርጥበት አስፈላጊ ነው።"
+    },
+    {
+        "id": "nutrition-water-functions",
+        "am": "ውሃ ከንጥረ-ምግብ ማጓጓዣ እና የሙቀት ማስተካከያ እስከ የጋራ ቅባት ድረስ በሁሉም የሰውነት ተግባራት ውስጥ ይሳተፋል"
+    },
+    {
+        "id": "nutrition-why-hydration-matters",
+        "am": "ለምንድነው ሃይድሬሽን"
+    },
+    {
+        "id": "nutrition-regulating-temperature",
+        "am": "<b>የሰውነት ሙቀትን መቆጣጠር፡</b> በአካል ብቃት እንቅስቃሴ ወቅት ሰውነትን ለማቀዝቀዝ ይረዳል"
+    },
+    {
+        "id": "nutrition-joint-health",
+        "am": "<b>የጋራ ጤንነት፡</b> የመገጣጠሚያዎች ቅባት እንዲቀባ ያደርጋል እና የጉዳት ስጋትን ይቀንሳል"
+    },
+    {
+        "id": "nutrition-nutrient-absorption",
+        "am": "<b>ንጥረ-ምግብን መሳብ፡</b> የምግብ መፈጨትን እና የንጥረ-ምግብን መጓጓዣን ይደግፋል"
+    },
+    {
+        "id": "nutrition-muscle-function",
+        "am": "<b>የጡንቻ ተግባር፡</b> ቁርጠትን ይከላከላል እና የጡንቻ መኮማተርን ይደግፋል"
+    },
+    {
+        "id": "nutrition-detoxification",
+        "am": "<b>ማጽዳት፡</b> ቆሻሻን በሽንት እና በላብ ለማስወገድ ይረዳል"
+    },
+    {
+        "id": "nutrition-water-intake",
+        "am": "ምን ያህል ውሃ ያስፈልግዎታል?"
+    },
+    {
+        "id": "nutrition-hydration-general-health-intake",
+        "am": "<b>ለአጠቃላይ ጤና፡</b>ሴቶች በቀን 2.7 ሊትር ውሃ ያስፈልጋቸዋል፣ ወንዶች ደግሞ 3.7 ሊትር ውሃ ያስፈልጋቸዋል።"
+    },
+    {
+        "id": "nutrition-hydration-active-individuals-intake",
+        "am": "<b>ንቁ ለሆኑ ግለሰቦች፡</b> በሰአት ተጨማሪ 500-700 ሚሊ ሜትር መጠነኛ የአካል ብቃት እንቅስቃሴ ለመጠጣት አስቡ።"
+    },
+    {
+        "id": "nutrition-hydration-hot-climates-intake",
+        "am": "<b>በሞቃታማ የአየር ጠባይ፡</b> ድርቀትን ለመከላከል በሞቃት ሁኔታዎች ውስጥ ተጨማሪ ፈሳሾች ሊፈልጉ ይችላሉ።"
+    },
+    {
+        "id": "nutrition-signs-of-dehydration",
+        "am": "የሰውነት ድርቀት ምልክቶች"
+    },
+    {
+        "id": "nutrition-dehydration-fatigue",
+        "am": "ድካም፣ መፍዘዝ ወይም የጭንቅላት ማጣት"
+    },
+    {
+        "id": "nutrition-dehydration-dry-mouth",
+        "am": "ደረቅ አፍ እና ጥቁር ቢጫ ሽንት"
+    },
+    {
+        "id": "nutrition-dehydration-muscle-cramps",
+        "am": "የጡንቻ ቁርጠት እና ራስ ምታት"
+    },
+    {
+        "id": "nutrition-dehydration-slow-recovery",
+        "am": "ከልምምድ በኋላ ቀስ ብሎ ማገገም"
+    },
+    {
+        "id": "nutrition-hydrating-during-exercise",
+        "am": "በአካል ብቃት እንቅስቃሴ ወቅት የውሃ ማጠጣት"
+    },
+    {
+        "id": "nutrition-before-exercise",
+        "am": "<b>ከአካል ብቃት እንቅስቃሴ በፊት፡</b> ከአካል ብቃት እንቅስቃሴ ከ1-2 ሰአታት በፊት ከ500-600 ሚሊ ሜትር ውሃ ይጠጡ።"
+    },
+    {
+        "id": "nutrition-during-exercise",
+        "am": "<b>በአካል ብቃት እንቅስቃሴ ወቅት፡</b> መጠነኛ የአካል ብቃት እንቅስቃሴ በሚደረግበት ጊዜ በየ15-20 ደቂቃው ከ200-300 ሚሊ ሊትር ይጠጡ"
+    },
+    {
+        "id": "nutrition-after-exercise",
+        "am": "<b>ከአካል ብቃት እንቅስቃሴ በኋላ፡</b> በአካል ብቃት እንቅስቃሴ ወቅት ለሚጠፋው ለእያንዳንዱ 0.5 ኪሎ ግራም የሰውነት ክብደት ከ500-700 ሚሊር ውሃ ጋር ውሀ ያጠጣው"
+    },
+    {
+        "id": "nutrition-long-workouts",
+        "am": "ለረጅም ወይም ከባድ የአካል ብቃት እንቅስቃሴ (ከ 1 ሰዓት በላይ) የጠፉ ኤሌክትሮላይቶችን ለመተካት የስፖርት መጠጦችን ያስቡ"
+    },
+    {
+        "id": "nutrition-electrolytes-and-hydration",
+        "am": "ኤሌክትሮላይቶች እና እርጥበት"
+    },
+    {
+        "id": "nutrition-electrolyte-functions",
+        "am": "ኤሌክትሮላይቶች ፈሳሽ ሚዛንን እና የጡንቻን ተግባር ለመጠበቅ ይረዳሉ"
+    },
+    {
+        "id": "nutrition-sodium",
+        "am": "<b>ሶዲየም፡</b> በስፖርት መጠጦች፣ ጨዋማ ምግቦች እና በተዘጋጁ ምግቦች ውስጥ ይገኛል።"
+    },
+    {
+        "id": "nutrition-potassium",
+        "am": "<b>ፖታሲየም፡</b> በሙዝ፣ ብርቱካን፣ ድንች እና ስፒናች ውስጥ ይገኛል።"
+    },
+    {
+        "id": "nutrition-magnesium",
+        "am": "<b>ማግኒዥየም፡</b> በለውዝ፣ በዘሮች፣ በቅጠላ ቅጠሎች እና ሙሉ እህሎች ውስጥ ይገኛል"
+    },
+    {
+        "id": "nutrition-electrolyte-drinks",
+        "am": "ለአብዛኛዎቹ ስፖርታዊ እንቅስቃሴዎች ውሃ በቂ ነው፣ ነገር ግን ለረጅም ወይም ለጠንካራ እንቅስቃሴ፣ ኤሌክትሮላይት መጠጦች ወይም ተጨማሪዎች ሊረዱዎት ይችላሉ።"
+    }
+]

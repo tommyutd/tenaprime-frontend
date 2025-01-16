@@ -47,6 +47,7 @@ function getPageTags(path) {
         '/exercises/stress-regulation': ['stress', 'exercise', 'user'],
         '/nutrition': ['nutrition-index', 'guest'],
         '/nutrition/dashboard': ['nutrition-dashboard', 'user'],
+        '/nutrition/learn': ['nutrition-dashboard', 'user'],
         '/prizes': ['prizes-index', 'guest'],
         '/prizes/dashboard': ['prizes-dashboard', 'user'],
         '/about': ['about', 'guest', 'user']
@@ -70,6 +71,14 @@ function getPageTags(path) {
     if (path === '/exercises/strength' && params.has('group')) {
         const group = params.get('group');
         const matches = group.match(/(chest|arms|shoulders|back|core|lower-body|fitness)/);
+        if (matches) {
+            tags.push(`${matches[1]}`);
+        }
+    }
+
+    if (path === '/nutrition/learn' && params.has('topic')) {
+        const topic = params.get('topic');
+        const matches = topic.match(/(basics|macros|meal-prep|carbs|protein|fats|vitamins|minerals|hydration|weight-loss|muscle-gain|maintenance|endurance|recomp|plant-based|low-carb|mediterranean|gluten-free|intermittent-fasting|dairy-free|high-protein|supplements-understanding|supplements-safety|supplements-shop)/);
         if (matches) {
             tags.push(`${matches[1]}`);
         }

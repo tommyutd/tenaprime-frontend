@@ -1,0 +1,42 @@
+[
+    {
+        "id": "nutrition-low-carb-focus",
+        "en": "Low-carb diets focus on reducing carbohydrate intake and increasing protein and fat consumption"
+    },
+    {
+        "id": "nutrition-keto-diet",
+        "en": "<b>Keto:</b> A very low-carb, high-fat, moderate-protein diet that aims to put the body into ketosis"
+    },
+    {
+        "id": "nutrition-atkins-diet",
+        "en": "<b>Atkins:</b> A lower-carb diet that phases out carbs gradually over time"
+    },
+    {
+        "id": "nutrition-paleo-diet",
+        "en": "<b>Paleo:</b> Emphasizes whole, unprocessed foods and excludes grains, legumes, dairy, and processed foods"
+    },
+    {
+        "id": "nutrition-weight-loss-improvement",
+        "en": "Can lead to weight loss, improved insulin sensitivity, and better blood sugar control"
+    },
+    {
+        "id": "nutrition-cholesterol-improvement",
+        "en": "May improve cholesterol levels and reduce the risk of metabolic syndrome"
+    },
+    {
+        "id": "nutrition-keto-benefits",
+        "en": "Keto can enhance fat burning and is sometimes used to improve mental focus and energy"
+    },
+    {
+        "id": "nutrition-keto-side-effects",
+        "en": "May cause initial side effects like fatigue, dizziness, and \"keto flu\""
+    },
+    {
+        "id": "nutrition-sustainability",
+        "en": "Long-term sustainability and nutrient balance should be considered"
+    },
+    {
+        "id": "nutrition-carb-restriction",
+        "en": "Restricting carbs can limit fiber and certain nutrients like potassium and magnesium"
+    }
+]

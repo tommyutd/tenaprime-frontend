@@ -1,0 +1,210 @@
+[
+    {
+        "id": "nutrition-what-is-macro-tracking",
+        "am": "ማክሮ መከታተል ምንድን ነው?"
+    },
+    {
+        "id": "nutrition-macro-monitoring",
+        "am": "የማክሮ ክትትል የሶስቱን ዋና ዋና ማክሮ ኤለመንቶችን ማለትም ፕሮቲኖችን፣ ካርቦሃይድሬትን እና ቅባቶችን መውሰድዎን መከታተልን ያካትታል"
+    },
+    {
+        "id": "nutrition-structured-approach",
+        "am": "ይህ ዘዴ በምግብ ምርጫዎች ላይ ተለዋዋጭነትን በመጠበቅ ለአመጋገብ የተዋቀረ አቀራረብን ያቀርባል"
+    },
+    {
+        "id": "nutrition-food-effects",
+        "am": "የተለያዩ ምግቦች በሰውነትዎ እና ግቦችዎ ላይ ምን ያህል ተጽዕኖ እንደሚያሳድሩ ለመረዳት ይረዳዎታል"
+    },
+    {
+        "id": "nutrition-benefits-of-tracking",
+        "am": "ማክሮዎችን የመከታተል ጥቅሞች"
+    },
+    {
+        "id": "nutrition-personalized-nutrition",
+        "am": "<b>የግል የተመጣጠነ ምግብ፡</b> በልዩ ግቦችዎ እና በሰውነት አይነትዎ ላይ በመመስረት አመጋገብዎን ያብጁ"
+    },
+    {
+        "id": "nutrition-flexible-dieting",
+        "am": "<b>ተለዋዋጭ አመጋገብ፡</b> በአመጋገብ ግቦችዎ ውስጥ ሲቆዩ በሚወዷቸው ምግቦች ይደሰቱ"
+    },
+    {
+        "id": "nutrition-better-results",
+        "am": "<b>የተሻሉ ውጤቶች፡</b> ተገቢ የንጥረ-ምግቦችን ጥምርታ በማረጋገጥ የሰውነት ስብጥርን ያሳድጉ"
+    },
+    {
+        "id": "nutrition-increased-awareness",
+        "am": "<b>የጨመረ ግንዛቤ፡</b> ስለ ምግብ ቅንብር ይወቁ እና በመረጃ ላይ የተመሰረተ ምርጫ ያድርጉ"
+    },
+    {
+        "id": "nutrition-macro-goals",
+        "am": "የማክሮ ግቦች በዓላማ"
+    },
+    {
+        "id": "nutrition-fat-loss",
+        "am": "ወፍራም ኪሳራ"
+    },
+    {
+        "id": "nutrition-fat-loss-protein",
+        "am": "30-35%"
+    },
+    {
+        "id": "nutrition-fat-loss-protein-label",
+        "am": "ፕሮቲን"
+    },
+    {
+        "id": "nutrition-fat-loss-carbs",
+        "am": "35-40%"
+    },
+    {
+        "id": "nutrition-fat-loss-carbs-label",
+        "am": "ካርቦሃይድሬትስ"
+    },
+    {
+        "id": "nutrition-fat-loss-fats",
+        "am": "25-30%"
+    },
+    {
+        "id": "nutrition-fat-loss-fats-label",
+        "am": "ስብ"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-title",
+        "am": "የጡንቻ መጨመር"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-protein",
+        "am": "25-30%"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-protein-label",
+        "am": "ፕሮቲን"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-carbs",
+        "am": "45-55%"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-carbs-label",
+        "am": "ካርቦሃይድሬትስ"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-fats",
+        "am": "20-25%"
+    },
+    {
+        "id": "nutrition-macro-muscle-gain-fats-label",
+        "am": "ስብ"
+    },
+    {
+        "id": "nutrition-maintenance",
+        "am": "ጥገና"
+    },
+    {
+        "id": "nutrition-maintenance-protein",
+        "am": "25-30%"
+    },
+    {
+        "id": "nutrition-maintenance-protein-label",
+        "am": "ፕሮቲን"
+    },
+    {
+        "id": "nutrition-maintenance-carbs",
+        "am": "40-50%"
+    },
+    {
+        "id": "nutrition-maintenance-carbs-label",
+        "am": "ካርቦሃይድሬትስ"
+    },
+    {
+        "id": "nutrition-maintenance-fats",
+        "am": "25-30%"
+    },
+    {
+        "id": "nutrition-maintenance-fats-label",
+        "am": "ስብ"
+    },
+    {
+        "id": "nutrition-how-to-track",
+        "am": "ማክሮዎችን እንዴት መከታተል እንደሚቻል"
+    },
+    {
+        "id": "nutrition-calculate-calories",
+        "am": "በእርስዎ ግብ እና የእንቅስቃሴ ደረጃ ላይ በመመስረት ዕለታዊ የካሎሪ ፍላጎቶችዎን ያሰሉ"
+    },
+    {
+        "id": "nutrition-determine-ratios",
+        "am": "በእርስዎ ዓላማ (የስብ መጥፋት፣ የጡንቻ መጨመር፣ ወይም ጥገና) ላይ በመመስረት የእርስዎን የማክሮ ሬሾን ይወስኑ"
+    },
+    {
+        "id": "nutrition-food-tracking-app",
+        "am": "ምግብዎን ለመመዝገብ እና ማክሮ አወሳሰዱን ለመቆጣጠር የምግብ መከታተያ መተግበሪያን ይጠቀሙ"
+    },
+    {
+        "id": "nutrition-weigh-measure",
+        "am": "ለትክክለኛነት ክፍሎቹን ይመዝኑ እና ይለኩ።"
+    },
+    {
+        "id": "nutrition-adjust-targets",
+        "am": "በሂደት እና በውጤቶች ላይ በመመስረት ግቦችዎን ያስተካክሉ"
+    },
+    {
+        "id": "nutrition-tips-for-success",
+        "am": "ለስኬት ጠቃሚ ምክሮች"
+    },
+    {
+        "id": "nutrition-plan-meals",
+        "am": "የማክሮ ኢላማዎችዎን ለመምታት ምግቦችን አስቀድመው ያቅዱ"
+    },
+    {
+        "id": "nutrition-read-labels",
+        "am": "የአመጋገብ መለያዎችን በትክክል ማንበብ ይማሩ"
+    },
+    {
+        "id": "nutrition-focus-whole-foods",
+        "am": "ሙሉ፣ ገንቢ በሆኑ ምግቦች ላይ ያተኩሩ"
+    },
+    {
+        "id": "nutrition-be-flexible",
+        "am": "ወጥነት ያለው ነገር ግን ተለዋዋጭ ይሁኑ - አልፎ አልፎ የሚደረጉ ልዩነቶች እድገትዎን አያደናቅፉም።"
+    },
+    {
+        "id": "nutrition-track-progress",
+        "am": "ግስጋሴውን በመለኪያዎች እና በፎቶዎች ይከታተሉ፣ ልኬቱን ብቻ ሳይሆን"
+    },
+    {
+        "id": "nutrition-common-tools",
+        "am": "የተለመዱ የመከታተያ መሳሪያዎች"
+    },
+    {
+        "id": "nutrition-tena-prime",
+        "am": "TenaPrime፡ ዕለታዊ አወሳሰድን እና እድገትን ለመከታተል አብሮ የተሰራ የአመጋገብ ክትትል"
+    },
+    {
+        "id": "nutrition-food-scale",
+        "am": "ዲጂታል የምግብ ልኬት፡ ለትክክለኛ ክፍል መለኪያ እና ማክሮ ስሌቶች አስፈላጊ"
+    },
+    {
+        "id": "nutrition-measuring-cups",
+        "am": "የመለኪያ ኩባያዎች & amp;; ማንኪያዎች: ለክፍል ቁጥጥር እና የምግብ አዘገጃጀት መለኪያዎች ጠቃሚ ናቸው"
+    },
+    {
+        "id": "nutrition-food-journal",
+        "am": "የምግብ ጆርናል፡ ምግቦችን፣ ክፍሎችን እና ጊዜን በማስታወሻ ደብተር ወይም በዲጂታል ቅርጸት ይከታተሉ"
+    },
+    {
+        "id": "nutrition-calculator",
+        "am": "የአመጋገብ ማስያ፡ ዕለታዊ የማክሮ ፍላጎቶችዎን ለመወሰን የመስመር ላይ መሳሪያዎችን ይጠቀሙ"
+    },
+    {
+        "id": "nutrition-progress-journal",
+        "am": "ግስጋሴ ጆርናል፡ ውጤቶችን ለመከታተል መለኪያዎችን፣ ፎቶዎችን እና የኃይል ደረጃዎችን ይመዝግቡ"
+    },
+    {
+        "id": "nutrition-meal-template",
+        "am": "የምግብ እቅድ አብነት፡- ማክሮ ኢላማዎችን ለመምታት ምግብዎን አስቀድመው ያቅዱ"
+    },
+    {
+        "id": "nutrition-database-reference",
+        "am": "የምግብ ዳታቤዝ ማጣቀሻ፡ የተለመዱ ምግቦችን እና ማክሮ ይዘታቸውን ዝርዝር ይያዙ"
+    }
+]

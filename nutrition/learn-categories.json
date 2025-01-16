@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "title": "nutrition-education-text",
+    "items": [
+      {
+        "id": "basics",
+        "textKey": "nutrition-basics-title"
+      },
+      {
+        "id": "macros",
+        "textKey": "macro-tracking-title"
+      },
+      {
+        "id": "meal-prep",
+        "textKey": "meal-prep-title"
+      }
+    ]
+  },
+  "macronutrients": {
+    "title": "macronutrients-text",
+    "items": [
+      {
+        "id": "carbs",
+        "textKey": "carbs-title"
+      },
+      {
+        "id": "protein",
+        "textKey": "protein-title"
+      },
+      {
+        "id": "fats",
+        "textKey": "fats-title"
+      }
+    ]
+  },
+  "micronutrients": {
+    "title": "micronutrients-text",
+    "items": [
+      {
+        "id": "vitamins",
+        "textKey": "vitamins-title"
+      },
+      {
+        "id": "minerals",
+        "textKey": "minerals-title"
+      },
+      {
+        "id": "hydration",
+        "textKey": "micro-hydration-title"
+      }
+    ]
+  },
+  "meal-plans": {
+    "title": "meal-plans-text",
+    "items": [
+      {
+        "id": "weight-loss",
+        "textKey": "weight-loss-meal-plan-title"
+      },
+      {
+        "id": "muscle-gain",
+        "textKey": "muscle-gain-meal-plan-title"
+      },
+      {
+        "id": "maintenance",
+        "textKey": "maintenance-meal-plan-title"
+      },
+      {
+        "id": "endurance",
+        "textKey": "endurance-meal-plan-title"
+      },
+      {
+        "id": "recomp",
+        "textKey": "recomp-meal-plan-title"
+      }
+    ]
+  },
+  "dietary": {
+    "title": "dietary-preferences-text",
+    "items": [
+      {
+        "id": "plant-based",
+        "textKey": "plant-based-diet-title"
+      },
+      {
+        "id": "low-carb",
+        "textKey": "low-carb-diet-title"
+      },
+      {
+        "id": "mediterranean",
+        "textKey": "mediterranean-diet-title"
+      },
+      {
+        "id": "gluten-free",
+        "textKey": "gluten-free-diet-title"
+      },
+      {
+        "id": "intermittent-fasting",
+        "textKey": "if-diet-title"
+      },
+      {
+        "id": "dairy-free",
+        "textKey": "dairy-free-diet-title"
+      },
+      {
+        "id": "high-protein",
+        "textKey": "high-protein-diet-title"
+      }
+    ]
+  },
+  "recipes": {
+    "title": "healthy-recipes-text",
+    "items": [
+      {
+        "id": "breakfast-recipes",
+        "textKey": "breakfast-recipes-title"
+      },
+      {
+        "id": "lunch-recipes",
+        "textKey": "lunch-recipes-title"
+      },
+      {
+        "id": "dinner-recipes",
+        "textKey": "dinner-recipes-title"
+      }
+    ]
+  },
+  "supplements": {
+    "title": "supplements-text",
+    "items": [
+      {
+        "id": "supplements-understanding",
+        "textKey": "supplements-understanding-title"
+      },
+      {
+        "id": "supplements-safety",
+        "textKey": "supplements-safety-title"
+      },
+      {
+        "id": "supplements-shop",
+        "textKey": "supplements-shop-title"
+      }
+    ]
+  }
+}

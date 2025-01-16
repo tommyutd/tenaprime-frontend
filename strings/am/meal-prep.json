@@ -1,0 +1,182 @@
+[
+    {
+        "id": "nutrition-what-is-meal-prep",
+        "am": "የምግብ ዝግጅት ምንድን ነው?"
+    },
+    {
+        "id": "nutrition-meal-prep-planning",
+        "am": "የምግብ ዝግጅት አስቀድሞ ማቀድ፣ ምግብ ማብሰል እና ምግብን መከፋፈልን ያካትታል"
+    },
+    {
+        "id": "nutrition-strategic-approach",
+        "am": "አስፈላጊ ሆኖ ሲገኝ ጤናማ እና ሚዛናዊ ምግቦች እንዲኖርዎት ለማረጋገጥ ስልታዊ አካሄድ ነው።"
+    },
+    {
+        "id": "nutrition-consistent-habits",
+        "am": "ወጥ የሆነ የአመጋገብ ልምዶችን ለመጠበቅ እና የአካል ብቃት ግቦችን ይደግፋል"
+    },
+    {
+        "id": "nutrition-key-benefits",
+        "am": "ቁልፍ ጥቅሞች"
+    },
+    {
+        "id": "nutrition-time-efficiency",
+        "am": "<b>የጊዜ ቅልጥፍና፡</b> ባች ምግብ በማብሰል በሳምንቱ ውስጥ ሰዓታትን ይቆጥቡ"
+    },
+    {
+        "id": "nutrition-better-nutrition",
+        "am": "<b>የተሻለ አመጋገብ፡</b> ለተሻለ ውጤት ክፍሎችን እና ንጥረ ነገሮችን ይቆጣጠሩ"
+    },
+    {
+        "id": "nutrition-cost-savings",
+        "am": "<b>ወጪ ቁጠባ፡</b> የምግብ ብክነትን እና ውድ የሆኑ ምግቦችን ይቀንሱ"
+    },
+    {
+        "id": "nutrition-goal-achievement",
+        "am": "<b>የግብ ስኬት፡</b> ከአመጋገብ ግቦችዎ ጋር አብረው ይቆዩ"
+    },
+    {
+        "id": "nutrition-stress-reduction",
+        "am": "<b>የጭንቀት ቅነሳ፡</b> ምን እንደሚበሉ በየቀኑ የሚደረጉ ውሳኔዎችን ያስወግዱ"
+    },
+    {
+        "id": "nutrition-getting-started",
+        "am": "እንደ መጀመር"
+    },
+    {
+        "id": "nutrition-choose-prep-day",
+        "am": "<b>የዝግጅት ቀንዎን ይምረጡ፡</b> ለሳምንታዊ ምግብ ዝግጅት ወጥ የሆነ ቀን ይምረጡ"
+    },
+    {
+        "id": "nutrition-plan-menu",
+        "am": "<b>ምናሌዎን ያቅዱ፡</b> ከግብዎ ጋር የሚስማሙ የምግብ አዘገጃጀት መመሪያዎችን ይምረጡ"
+    },
+    {
+        "id": "nutrition-create-shopping-list",
+        "am": "<b>የግዢ ዝርዝር ፍጠር፡</b> ሲቻል ንጥረ ነገሮችን በጅምላ ይግዙ"
+    },
+    {
+        "id": "nutrition-quality-containers",
+        "am": "<b>በጥራት ኮንቴይነሮች ላይ ኢንቨስት ያድርጉ፡</b> ለመከፋፈል ትክክለኛ የማከማቻ መያዣዎችን ያግኙ"
+    },
+    {
+        "id": "nutrition-start-small",
+        "am": "<b>ትንሽ ጀምር፡</b> ከ2-3 ቀናት ምግብ ይጀምሩ እና ቀስ በቀስ ይጨምሩ"
+    },
+    {
+        "id": "nutrition-essential-equipment",
+        "am": "አስፈላጊ መሣሪያዎች"
+    },
+    {
+        "id": "nutrition-storage-containers",
+        "am": "<b>የማከማቻ ኮንቴይነሮች፡</b> ከቢፒኤ ነጻ የሆኑ መያዣዎች በተለያየ መጠን"
+    },
+    {
+        "id": "nutrition-kitchen-scale",
+        "am": "<b>የወጥ ቤት ልኬት፡</b> ለትክክለኛ ክፍል ቁጥጥር"
+    },
+    {
+        "id": "nutrition-meal-prep-bags",
+        "am": "<b>የምግብ መሰናዶ ቦርሳዎች፡</b> ምግቦችን ለማጓጓዝ"
+    },
+    {
+        "id": "nutrition-large-sheet-pans",
+        "am": "<b>ትልቅ የሉህ መጥበሻዎች፡</b> አትክልቶችን ለማብሰል"
+    },
+    {
+        "id": "nutrition-food-processor",
+        "am": "<b>የምግብ ማቀነባበሪያ፡</b> ለፈጣን የአትክልት ዝግጅት"
+    },
+    {
+        "id": "nutrition-smart-prep-strategies",
+        "am": "ስማርት መሰናዶ ስልቶች"
+    },
+    {
+        "id": "nutrition-batch-cook-proteins",
+        "am": "<b>ባች ኩክ ፕሮቲኖች፡</b> ብዙ የዶሮ፣ አሳ ወይም ጥራጥሬዎችን ያዘጋጁ"
+    },
+    {
+        "id": "nutrition-roast-vegetables",
+        "am": "<b>የተጠበሰ አትክልት፡</b> የተቀላቀሉ አትክልቶችን በጎን በኩል አብስለው"
+    },
+    {
+        "id": "nutrition-prepare-base-carbs",
+        "am": "<b>Base Carbs አዘጋጁ፡</b> ሩዝ፣ ኩዊኖ ወይም ስኳር ድንች በብዛት አብስሉ"
+    },
+    {
+        "id": "nutrition-pre-portion-snacks",
+        "am": "<b>ቅድመ-ክፍል መክሰስ፡</b> ለውዝ፣ ፍራፍሬ እና አትክልት ወደ ተያይዘው-ሂድ ክፍሎች ይከፋፈሉ።"
+    },
+    {
+        "id": "nutrition-make-breakfast-easy",
+        "am": "<b>ቁርስን ቀላል ያድርጉት፡</b> በአንድ ሌሊት አጃ ወይም እንቁላል ሙፊን አስቀድመው ያዘጋጁ"
+    },
+    {
+        "id": "nutrition-food-safety-tips",
+        "am": "የምግብ ደህንነት ምክሮች"
+    },
+    {
+        "id": "nutrition-store-meals-properly",
+        "am": "ምግብን አየር በማይዘጋባቸው መያዣዎች ውስጥ በትክክል ያከማቹ"
+    },
+    {
+        "id": "nutrition-keep-meals-refrigerated",
+        "am": "የበሰለ ምግቦችን በማቀዝቀዣ ውስጥ ያስቀምጡ እና በ 3-4 ቀናት ውስጥ ይጠቀሙ"
+    },
+    {
+        "id": "nutrition-label-containers",
+        "am": "መያዣዎችን ከዝግጅት ቀናት ጋር ምልክት ያድርጉ"
+    },
+    {
+        "id": "nutrition-use-freezer-storage",
+        "am": "ለረጅም ጊዜ የምግብ ማከማቻ ማቀዝቀዣ ማቀዝቀዣ ይጠቀሙ"
+    },
+    {
+        "id": "nutrition-reheat-foods-properly",
+        "am": "ከመጠቀምዎ በፊት ምግቦችን ወደ ትክክለኛው ሙቀት ያሞቁ"
+    },
+    {
+        "id": "nutrition-sample-meal-plan",
+        "am": "ናሙና የምግብ ዝግጅት እቅድ"
+    },
+    {
+        "id": "nutrition-breakfast",
+        "am": "<b>ቁርስ፡</b> በአንድ ሌሊት አጃ ከፕሮቲን ዱቄት እና ከቤሪ ጋር"
+    },
+    {
+        "id": "nutrition-lunch",
+        "am": "<b>ምሳ፡</b> የተጠበሰ ዶሮ፣ ኪኖዋ እና የተጠበሰ አትክልት"
+    },
+    {
+        "id": "nutrition-snacks",
+        "am": "<b>መክሰስ፡</b> የግሪክ እርጎ ፓርፋይት ወይም የፕሮቲን ኢነርጂ ኳሶች"
+    },
+    {
+        "id": "nutrition-dinner",
+        "am": "<b>እራት፡</b> የተጠበሰ ሳልሞን ከድንች ድንች እና የተቀቀለ ብሮኮሊ ጋር"
+    },
+    {
+        "id": "nutrition-final-thoughts",
+        "am": "የመጨረሻ ሀሳቦች"
+    },
+    {
+        "id": "nutrition-invest-in-health",
+        "am": "የምግብ ዝግጅት በጤና እና የአካል ብቃት ጉዞ ላይ የሚደረግ ኢንቨስትመንት ነው።"
+    },
+    {
+        "id": "nutrition-start-small-habits",
+        "am": "ትንሽ ይጀምሩ እና በጊዜ ሂደት የማይለዋወጡ ልማዶችን ይገንቡ"
+    },
+    {
+        "id": "nutrition-progress-over-perfection",
+        "am": "ፍፁምነት ግቡ እንዳልሆነ አስታውስ - አስፈላጊው እድገት ነው።"
+    },
+    {
+        "id": "nutrition-adjust-strategy",
+        "am": "ፍላጎቶችዎ እና የጊዜ ሰሌዳዎ ሲቀየሩ የምግብ ዝግጅት ስትራቴጂዎን ያስተካክሉ"
+    },
+    {
+        "id": "nutrition-time-investment",
+        "am": "ምግብ በማዘጋጀት የሚያሳልፉት ጊዜ የአካል ብቃት ግቦችዎን ለመድረስ ጊዜ ያጠፋል።"
+    }
+]
