@@ -188,8 +188,8 @@
         "en": "Protein-rich meal plans for muscle growth and recovery."
     },
     {
-        "id": "healthy-recipes-text",
-        "en": "Healthy Recipes"
+        "id": "sample-recipes-text",
+        "en": "Sample Recipes"
     },
     {
         "id": "breakfast-recipes-title",
@@ -213,7 +213,7 @@
     },
     {
         "id": "dinner-recipes-description",
-        "en": "Satisfying and nutritious dinner recipes for the whole family."
+        "en": "Satisfying and nutritious dinner recipes to close the day."
     },
     {
         "id": "supplements-text",
@@ -242,57 +242,5 @@
     {
         "id": "supplements-shop-description",
         "en": "Browse and purchase high-quality, verified supplements."
-    },
-    {
-        "id": "nutrition-function",
-        "en": "Function"
-    },
-    {
-        "id": "nutrition-how-much-to-consume",
-        "en": "How Much to Consume"
-    },
-    {
-        "id": "nutrition-best-sources",
-        "en": "Best Sources"
-    },
-    {
-        "id": "nutrition-overview",
-        "en": "Overview"
-    },
-    {
-        "id": "nutrition-importance-of-protein",
-        "en": "Importance of Protein"
-    },
-    {
-        "id": "nutrition-protein-percentage-30-40",
-        "en": "30-40%"
-    },
-    {
-        "id": "nutrition-protein-label",
-        "en": "Protein"
-    },
-    {
-        "id": "nutrition-carbs-percentage-30-40",
-        "en": "30-40%"
-    },
-    {
-        "id": "nutrition-carbs-label",
-        "en": "Carbs"
-    },
-    {
-        "id": "nutrition-fats-percentage-20-30",
-        "en": "20-30%"
-    },
-    {
-        "id": "nutrition-fats-label",
-        "en": "Fats"
-    },
-    {
-        "id": "nutrition-benefits",
-        "en": "Benefits"
-    },
-    {
-        "id": "nutrition-key-considerations",
-        "en": "Key Considerations"
     }
 ]

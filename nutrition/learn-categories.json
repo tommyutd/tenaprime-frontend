@@ -109,7 +109,7 @@
     ]
   },
   "recipes": {
-    "title": "healthy-recipes-text",
+    "title": "sample-recipes-text",
     "items": [
       {
         "id": "breakfast-recipes",

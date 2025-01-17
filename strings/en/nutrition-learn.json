@@ -1,0 +1,74 @@
+[
+    {
+        "id": "nutrition-function",
+        "en": "Function"
+    },
+    {
+        "id": "nutrition-how-much-to-consume",
+        "en": "How Much to Consume"
+    },
+    {
+        "id": "nutrition-best-sources",
+        "en": "Best Sources"
+    },
+    {
+        "id": "nutrition-overview",
+        "en": "Overview"
+    },
+    {
+        "id": "nutrition-importance-of-protein",
+        "en": "Importance of Protein"
+    },
+    {
+        "id": "nutrition-protein-percentage-30-40",
+        "en": "30-40%"
+    },
+    {
+        "id": "nutrition-protein-label",
+        "en": "Protein"
+    },
+    {
+        "id": "nutrition-carbs-percentage-30-40",
+        "en": "30-40%"
+    },
+    {
+        "id": "nutrition-carbs-label",
+        "en": "Carbs"
+    },
+    {
+        "id": "nutrition-fats-percentage-20-30",
+        "en": "20-30%"
+    },
+    {
+        "id": "nutrition-fats-label",
+        "en": "Fats"
+    },
+    {
+        "id": "nutrition-benefits",
+        "en": "Benefits"
+    },
+    {
+        "id": "nutrition-key-considerations",
+        "en": "Key Considerations"
+    },
+    {
+        "id": "nutrition-ingredients",
+        "en": "<b>Ingredients:</b>"
+    },
+    {
+        "id": "nutrition-instructions",
+        "en": "<b>Instructions:</b>"
+    },
+    {
+        "id": "nutrition-olive-oil-1tsp",
+        "en": "1 teaspoon olive oil"
+    },
+    {
+        "id": "nutrition-soy-sauce",
+        "en": "1 tablespoon soy sauce"
+    },
+    {
+        "id": "nutrition-learn-error",
+        "en": "Nutrition guide not found!"
+    }
+]

@@ -47,7 +47,7 @@ function getPageTags(path) {
         '/exercises/stress-regulation': ['stress', 'exercise', 'user'],
         '/nutrition': ['nutrition-index', 'guest'],
         '/nutrition/dashboard': ['nutrition-dashboard', 'user'],
-        '/nutrition/learn': ['nutrition-dashboard', 'user'],
+        '/nutrition/learn': ['nutrition-dashboard', 'nutrition-learn', 'user'],
         '/prizes': ['prizes-index', 'guest'],
         '/prizes/dashboard': ['prizes-dashboard', 'user'],
         '/about': ['about', 'guest', 'user']
@@ -78,7 +78,7 @@ function getPageTags(path) {
 
     if (path === '/nutrition/learn' && params.has('topic')) {
         const topic = params.get('topic');
-        const matches = topic.match(/(basics|macros|meal-prep|carbs|protein|fats|vitamins|minerals|hydration|weight-loss|muscle-gain|maintenance|endurance|recomp|plant-based|low-carb|mediterranean|gluten-free|intermittent-fasting|dairy-free|high-protein|supplements-understanding|supplements-safety|supplements-shop)/);
+        const matches = topic.match(/(basics|macros|meal-prep|carbs|protein|fats|vitamins|minerals|hydration|weight-loss|muscle-gain|maintenance|endurance|recomp|plant-based|low-carb|mediterranean|gluten-free|intermittent-fasting|dairy-free|high-protein|supplements-understanding|supplements-safety|supplements-shop|breakfast-recipes|lunch-recipes|dinner-recipes)/);
         if (matches) {
             tags.push(`${matches[1]}`);
         }

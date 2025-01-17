@@ -159,12 +159,12 @@ async function loadWorkoutContent() {
     }
 }
 
-function showError(message) {
+function showError() {
     const workoutOverview = document.querySelector('.workout-overview');
     if (workoutOverview) {
         workoutOverview.innerHTML = `
             <div class="error-message">
-                <h2 data-text-key="workout-error">${message}</h2>
+                <h2 data-text-key="workout-error"></h2>
             </div>
         `;
     }

@@ -1,0 +1,234 @@
+[
+    {
+        "id": "nutrition-weight-loss-dinner",
+        "am": "የክብደት መቀነስ እራት"
+    },
+    {
+        "id": "nutrition-lemon-chicken",
+        "am": "የተጠበሰ የሎሚ እፅዋት ዶሮ ከተጠበሰ አትክልት ጋር"
+    },
+    {
+        "id": "nutrition-chicken-breast",
+        "am": "1 የዶሮ ጡት (አጥንት ፣ ቆዳ የሌለው)"
+    },
+    {
+        "id": "nutrition-lemon-juice",
+        "am": "የ 1 ሎሚ ጭማቂ"
+    },
+    {
+        "id": "nutrition-oregano",
+        "am": "½ የሻይ ማንኪያ የደረቀ ኦሮጋኖ"
+    },
+    {
+        "id": "nutrition-steamed-veggies",
+        "am": "1 ኩባያ የተቀቀለ ብሮኮሊ እና ካሮት"
+    },
+    {
+        "id": "nutrition-chicken-step1",
+        "am": "ዶሮን በሎሚ ጭማቂ ፣ በወይራ ዘይት እና በኦሮጋኖ ውስጥ ለ 15 ደቂቃዎች ያብስሉት"
+    },
+    {
+        "id": "nutrition-chicken-step2",
+        "am": "ሙሉ በሙሉ እስኪዘጋጅ ድረስ ዶሮውን ይቅቡት"
+    },
+    {
+        "id": "nutrition-chicken-step3",
+        "am": "ከተጠበሰ ብሮኮሊ እና ካሮት ጋር አገልግሉ።"
+    },
+    {
+        "id": "nutrition-chicken-why",
+        "am": "<b>ለምን ይሰራል፡</b> ዝቅተኛ የካሎሪ ይዘት ያለው እና ከፍተኛ ፕሮቲን ያለው፣ በፋይበር የበለፀጉ አትክልቶች እርካታን ለማራመድ"
+    },
+    {
+        "id": "nutrition-muscle-building-dinner",
+        "am": "የጡንቻ ግንባታ እራት"
+    },
+    {
+        "id": "nutrition-beef-quinoa",
+        "am": "የበሬ ሥጋ & amp;; Quinoa ቀስቃሽ ጥብስ"
+    },
+    {
+        "id": "nutrition-beef",
+        "am": "200 ግራም የተቀቀለ የበሬ ሥጋ"
+    },
+    {
+        "id": "nutrition-quinoa",
+        "am": "1 ኩባያ የበሰለ quinoa"
+    },
+    {
+        "id": "nutrition-mixed-veggies",
+        "am": "1 ኩባያ የተቀላቀሉ አትክልቶች (ለምሳሌ ደወል በርበሬ፣ ዛኩኪኒ፣ ሽንኩርት)"
+    },
+    {
+        "id": "nutrition-sesame-oil",
+        "am": "1 የሻይ ማንኪያ ሰሊጥ ዘይት"
+    },
+    {
+        "id": "nutrition-beef-step1",
+        "am": "የተፈጨ የበሬ ሥጋ በምድጃ ውስጥ ቡናማ እስኪሆን ድረስ ያብስሉት"
+    },
+    {
+        "id": "nutrition-beef-step2",
+        "am": "አትክልቶችን ጨምሩ እና እስኪበስል ድረስ ይቅቡት"
+    },
+    {
+        "id": "nutrition-beef-step3",
+        "am": "የበሰለ ኩዊኖ ፣ አኩሪ አተር እና የሰሊጥ ዘይት ይቀላቅሉ። ትኩስ ያቅርቡ"
+    },
+    {
+        "id": "nutrition-beef-why",
+        "am": "ለምን እንደሚሰራ:</b> ከፍተኛ ፕሮቲን እና ውስብስብ ካርቦሃይድሬትስ ለጡንቻ ጥገና እና እድገት"
+    },
+    {
+        "id": "nutrition-energy-boost-dinner",
+        "am": "የኃይል ማበልጸጊያ እራት"
+    },
+    {
+        "id": "nutrition-baked-salmon",
+        "am": "የተጠበሰ ሳልሞን ከድንች ድንች እና ከአስፓራጉስ ጋር"
+    },
+    {
+        "id": "nutrition-salmon",
+        "am": "1 የሳልሞን ቅጠል"
+    },
+    {
+        "id": "nutrition-sweet-potato",
+        "am": "1 መካከለኛ ድንች (የተቆረጠ)"
+    },
+    {
+        "id": "nutrition-asparagus",
+        "am": "1 ኩባያ የአስፓራጉስ ስፒር"
+    },
+    {
+        "id": "nutrition-garlic-powder",
+        "am": "1 የሻይ ማንኪያ ነጭ ሽንኩርት ዱቄት"
+    },
+    {
+        "id": "nutrition-salmon-step1",
+        "am": "ምድጃውን እስከ 200 ° ሴ (400 ዲግሪ ፋራናይት) ድረስ ቀድመው ያድርጉት።"
+    },
+    {
+        "id": "nutrition-salmon-step2",
+        "am": "የሳልሞንን፣ የድንች ድንች ቁርጥራጭ እና አስፓራጉስን በዳቦ መጋገሪያ ወረቀት ላይ ያድርጉ"
+    },
+    {
+        "id": "nutrition-salmon-step3",
+        "am": "በወይራ ዘይት ያፈስሱ, የነጭ ሽንኩርት ዱቄትን ይረጩ እና ለ 20-25 ደቂቃዎች መጋገር"
+    },
+    {
+        "id": "nutrition-salmon-why",
+        "am": "<b>ለምን ይሰራል፡</b> ጤናማ ስብን፣ ፕሮቲን እና ቀስ በቀስ የሚፈጩ ካርቦሃይድሬትን ለዘላቂ ሃይል ያጣምራል።"
+    },
+    {
+        "id": "nutrition-balanced-dinner",
+        "am": "የተመጣጠነ አጠቃላይ የጤና እራት"
+    },
+    {
+        "id": "nutrition-chicken-stir-fry",
+        "am": "ዶሮ & amp;; የአትክልት ማነቃቂያ ከ ቡናማ ሩዝ ጋር"
+    },
+    {
+        "id": "nutrition-chicken-sliced",
+        "am": "1 የዶሮ ጡት (የተቆረጠ)"
+    },
+    {
+        "id": "nutrition-brown-rice",
+        "am": "1 ኩባያ የተቀቀለ ቡናማ ሩዝ"
+    },
+    {
+        "id": "nutrition-mixed-veggies-general",
+        "am": "1 ኩባያ የተደባለቁ አትክልቶች (ለምሳሌ ብሮኮሊ፣ አተር፣ ካሮት)"
+    },
+    {
+        "id": "nutrition-stir-fry-step1",
+        "am": "የወይራ ዘይትን በድስት ውስጥ ይሞቁ እና ቡናማ እስኪሆን ድረስ የዶሮ ቁርጥራጮችን ያብስሉት"
+    },
+    {
+        "id": "nutrition-stir-fry-step2",
+        "am": "አትክልቶችን ጨምሩ እና እስኪበስል ድረስ ይቅቡት"
+    },
+    {
+        "id": "nutrition-stir-fry-step3",
+        "am": "የበሰለ ቡናማ ሩዝ እና አኩሪ አተርን ይቀላቅሉ. ሙቅ ያቅርቡ"
+    },
+    {
+        "id": "nutrition-stir-fry-why",
+        "am": "<b>ለምን ይሰራል፡</b> ሚዛናዊ የሆነ ከሲታ ፕሮቲን፣ ፋይበር እና ጤናማ ካርቦሃይድሬትስ ድብልቅ"
+    },
+    {
+        "id": "nutrition-vegan-dinner",
+        "am": "የቪጋን እራት አማራጭ"
+    },
+    {
+        "id": "nutrition-stuffed-peppers",
+        "am": "የታሸገ ደወል በርበሬ"
+    },
+    {
+        "id": "nutrition-bell-peppers",
+        "am": "2 ትልቅ ደወል በርበሬ (ግማሽ እና የተከተፈ)"
+    },
+    {
+        "id": "nutrition-quinoa-rice",
+        "am": "1 ኩባያ የተቀቀለ ኩዊኖ ወይም ቡናማ ሩዝ"
+    },
+    {
+        "id": "nutrition-black-beans",
+        "am": "½ ኩባያ ጥቁር ባቄላ (የበሰለ ወይም የታሸገ)"
+    },
+    {
+        "id": "nutrition-tomatoes",
+        "am": "½ ኩባያ የተከተፈ ቲማቲም"
+    },
+    {
+        "id": "nutrition-cumin",
+        "am": "1 የሻይ ማንኪያ ኩሚን"
+    },
+    {
+        "id": "nutrition-peppers-step1",
+        "am": "ምድጃውን እስከ 180°ሴ (350°F) ድረስ ቀድመው ያድርጉት።"
+    },
+    {
+        "id": "nutrition-peppers-step2",
+        "am": "ኩዊኖ፣ ጥቁር ባቄላ፣ ቲማቲም እና ክሙን ይቀላቅሉ"
+    },
+    {
+        "id": "nutrition-peppers-step3",
+        "am": "የቡልጋሪያ ቃሪያውን ከድብልቅ ጋር ያሽጉ እና ለ 25 ደቂቃዎች መጋገር"
+    },
+    {
+        "id": "nutrition-peppers-why",
+        "am": "<b>ለምን ይሰራል፡</b> በእጽዋት ላይ የተመሰረተ ፕሮቲን እና ፋይበር ለሚያረካ የቪጋን እራት የታጨቀ"
+    },
+    {
+        "id": "nutrition-low-carb-dinner",
+        "am": "ዝቅተኛ-ካርቦሃይድሬት / keto እራት"
+    },
+    {
+        "id": "nutrition-zoodles",
+        "am": "Pesto ጋር Zucchini ኑድል & amp;; የተጠበሰ ሽሪምፕ"
+    },
+    {
+        "id": "nutrition-zucchini",
+        "am": "1 zucchini (ወደ ኑድል የተከተፈ)"
+    },
+    {
+        "id": "nutrition-shrimp",
+        "am": "100 ግራም የተጠበሰ ሽሪምፕ"
+    },
+    {
+        "id": "nutrition-pesto",
+        "am": "2 የሾርባ ማንኪያ pesto (ዝቅተኛ-ካርቦሃይድሬት)"
+    },
+    {
+        "id": "nutrition-zoodles-step1",
+        "am": "በድስት ውስጥ የወይራ ዘይት ያሞቁ እና ዚቹኪኒ ኑድልን ለ 2-3 ደቂቃዎች ያሽጉ"
+    },
+    {
+        "id": "nutrition-zoodles-step2",
+        "am": "ኑድልን በፔስቶ እና በተጠበሰ ሽሪምፕ ጣሉ። ሙቅ ያቅርቡ"
+    },
+    {
+        "id": "nutrition-zoodles-why",
+        "am": "<b>ለምን ይሰራል፡</b> የካርቦሃይድሬት መጠን ዝቅተኛ፣ ከፍተኛ ፕሮቲን እና ጤናማ ስብ፣ ለ keto ፍጹም።"
+    }
+]

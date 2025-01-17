@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', async function() {
     try {
         const urlParams = new URLSearchParams(window.location.search);
         topicId = urlParams.get('topic');
-        console.log('Topic ID:', topicId);
     } catch (error) {
         console.error('No topic id found:', error);
+        showError();
     }
 
     if (topicId) {
@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             await loadLearningContent(topicId);
         } catch (error) {
             console.error('Error loading learning content:', error);
+            showError();
         }
     }
 
@@ -24,6 +25,17 @@ document.addEventListener('DOMContentLoaded', async function() {
         console.error('Error updating strings:', error);
     });
 });
+
+function showError() {
+    const nutritionLearnWrapper = document.querySelector('.nutrition-learn-wrapper');
+    if (nutritionLearnWrapper) {
+        nutritionLearnWrapper.innerHTML = `
+            <div class="error-message">
+                <h2 data-text-key="nutrition-learn-error"></h2>
+            </div>
+        `;
+    }
+}
 
 async function loadLearningNavigation(activeTopic) {
     // Load navigation data
@@ -1275,5 +1287,383 @@ async function loadLearningContent(topicId) {
                 </ul>
             </div>
         `;
-    }    
+    } else if (topicId === 'breakfast-recipes') {
+        learningContent.innerHTML = `
+            <div class="nutrition-detail-header">
+                <h1 data-text-key="breakfast-recipes-title">Healthy Breakfast Recipes</h1>
+                <p data-text-key="breakfast-recipes-description"><i>Nutritious breakfast recipes tailored to different health and fitness goals.</i></p>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-weight-loss-breakfast">Weight Loss Breakfast</h2>
+                <h3 data-text-key="nutrition-avocado-egg-wrap">Avocado & Egg Breakfast Wrap</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-wrap-tortilla">1 whole-grain tortilla</p></li>
+                            <li><p data-text-key="nutrition-wrap-avocado">½ avocado (mashed)</p></li>
+                            <li><p data-text-key="nutrition-wrap-egg">1 boiled or poached egg</p></li>
+                            <li><p data-text-key="nutrition-wrap-spinach">Handful of spinach leaves</p></li>
+                            <li><p data-text-key="nutrition-wrap-salsa">1 tablespoon salsa (optional)</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-wrap-step1">Spread the mashed avocado on the tortilla</p></li>
+                            <li><p data-text-key="nutrition-wrap-step2">Layer with spinach, egg, and salsa</p></li>
+                            <li><p data-text-key="nutrition-wrap-step3">Roll the tortilla tightly and enjoy!</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-wrap-why"><b>Why it works:</b> High in fiber and healthy fats, this breakfast keeps you full for longer</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-muscle-building-breakfast">Muscle Building Breakfast</h2>
+                <h3 data-text-key="nutrition-protein-oatmeal">Protein-Packed Oatmeal</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-oatmeal-oats">½ cup rolled oats</p></li>
+                            <li><p data-text-key="nutrition-oatmeal-protein">1 scoop whey protein powder (vanilla or chocolate)</p></li>
+                            <li><p data-text-key="nutrition-oatmeal-milk">1 cup almond milk</p></li>
+                            <li><p data-text-key="nutrition-oatmeal-pb">1 tablespoon peanut butter</p></li>
+                            <li><p data-text-key="nutrition-oatmeal-banana">½ banana (sliced)</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-oatmeal-step1">Cook oats with almond milk as per package instructions</p></li>
+                            <li><p data-text-key="nutrition-oatmeal-step2">Once cooked, stir in protein powder and peanut butter</p></li>
+                            <li><p data-text-key="nutrition-oatmeal-step3">Top with banana slices and enjoy!</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-oatmeal-why"><b>Why it works:</b> Combines protein, carbs, and healthy fats to fuel muscle growth</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-energy-boost-breakfast">Energy Boost Breakfast</h2>
+                <h3 data-text-key="nutrition-berry-smoothie">Berry Chia Smoothie</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-smoothie-berries">1 cup mixed berries (frozen or fresh)</p></li>
+                            <li><p data-text-key="nutrition-smoothie-yogurt">1 cup unsweetened Greek yogurt</p></li>
+                            <li><p data-text-key="nutrition-smoothie-chia">1 tablespoon chia seeds</p></li>
+                            <li><p data-text-key="nutrition-smoothie-milk">½ cup almond milk</p></li>
+                            <li><p data-text-key="nutrition-smoothie-honey">1 teaspoon honey (optional)</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-smoothie-step1">Blend all ingredients until smooth</p></li>
+                            <li><p data-text-key="nutrition-smoothie-step2">Serve immediately for a refreshing, energy-packed breakfast</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-smoothie-why"><b>Why it works:</b> Berries provide antioxidants, while chia seeds and yogurt offer sustained energy</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-balanced-breakfast">Balanced General Health Breakfast</h2>
+                <h3 data-text-key="nutrition-veggie-scramble">Veggie Scramble with Toast</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-scramble-eggs">2 large eggs (or 1 egg + 2 egg whites)</p></li>
+                            <li><p data-text-key="nutrition-scramble-veggies">½ cup diced vegetables (e.g., spinach, tomatoes, bell peppers)</p></li>
+                            <li><p data-text-key="nutrition-scramble-bread">1 slice whole-grain bread</p></li>
+                            <li><p data-text-key="nutrition-scramble-oil">1 teaspoon olive oil</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-scramble-step1">Heat olive oil in a pan and sauté vegetables until soft</p></li>
+                            <li><p data-text-key="nutrition-scramble-step2">Add eggs and scramble together</p></li>
+                            <li><p data-text-key="nutrition-scramble-step3">Serve with a slice of toasted whole-grain bread</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-scramble-why"><b>Why it works:</b> Packed with protein, fiber, and nutrients for overall health</p></li>
+                </ul>
+            </div>
+        `;
+    } else if (topicId === 'lunch-recipes') {
+        learningContent.innerHTML = `
+            <div class="nutrition-detail-header">
+                <h1 data-text-key="lunch-recipes-title">Healthy Lunch Recipes</h1>
+                <p data-text-key="lunch-recipes-description"><i>Nutritious lunch recipes tailored to different health and fitness goals.</i></p>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-weight-loss-lunch">Weight Loss Lunch</h2>
+                <h3 data-text-key="nutrition-quinoa-bowl">Quinoa Salad Bowl</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-quinoa-bowl-quinoa">1 cup cooked quinoa</p></li>
+                            <li><p data-text-key="nutrition-quinoa-bowl-chickpeas">½ cup chickpeas (cooked or canned)</p></li>
+                            <li><p data-text-key="nutrition-quinoa-bowl-greens">1 cup mixed greens (spinach, kale, arugula)</p></li>
+                            <li><p data-text-key="nutrition-quinoa-bowl-cucumber">½ cucumber (sliced)</p></li>
+                            <li><p data-text-key="nutrition-quinoa-bowl-avocado">¼ avocado (diced)</p></li>
+                            <li><p data-text-key="nutrition-quinoa-bowl-oil">1 tablespoon olive oil</p></li>
+                            <li><p data-text-key="nutrition-quinoa-bowl-lemon">Juice of ½ lemon</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-quinoa-bowl-step1">Combine quinoa, chickpeas, greens, cucumber, and avocado in a bowl</p></li>
+                            <li><p data-text-key="nutrition-quinoa-bowl-step2">Drizzle olive oil and lemon juice, toss gently, and serve</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-quinoa-bowl-why"><b>Why it works:</b> High in fiber and plant-based protein, low in calories</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-muscle-building-lunch">Muscle Building Lunch</h2>
+                <h3 data-text-key="nutrition-chicken-sweet-potato">Grilled Chicken & Sweet Potato Meal Prep</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-chicken-prep-chicken">1 grilled chicken breast</p></li>
+                            <li><p data-text-key="nutrition-chicken-prep-potato">1 medium sweet potato (baked or roasted)</p></li>
+                            <li><p data-text-key="nutrition-chicken-prep-broccoli">1 cup steamed broccoli</p></li>
+                            <li><p data-text-key="nutrition-chicken-prep-tahini">1 tablespoon tahini or hummus (optional)</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-chicken-prep-step1">Bake or grill the chicken until fully cooked</p></li>
+                            <li><p data-text-key="nutrition-chicken-prep-step2">Serve with roasted sweet potato and steamed broccoli</p></li>
+                            <li><p data-text-key="nutrition-chicken-prep-step3">Add tahini or hummus for a flavourful protein boost</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-chicken-prep-why"><b>Why it works:</b> Combines lean protein, complex carbs, and nutrient-dense veggies</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-energy-boost-lunch">Energy Boost Lunch</h2>
+                <h3 data-text-key="nutrition-mediterranean-wrap">Mediterranean Wrap</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-med-wrap-tortilla">1 whole-grain wrap</p></li>
+                            <li><p data-text-key="nutrition-med-wrap-hummus">2 tablespoons hummus</p></li>
+                            <li><p data-text-key="nutrition-med-wrap-veggies">½ cup grilled vegetables (zucchini, peppers, onions)</p></li>
+                            <li><p data-text-key="nutrition-med-wrap-feta">¼ cup crumbled feta cheese</p></li>
+                            <li><p data-text-key="nutrition-med-wrap-arugula">Handful of arugula</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-med-wrap-step1">Spread hummus on the wrap</p></li>
+                            <li><p data-text-key="nutrition-med-wrap-step2">Add grilled veggies, feta, and arugula</p></li>
+                            <li><p data-text-key="nutrition-med-wrap-step3">Roll tightly and enjoy</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-med-wrap-why"><b>Why it works:</b> Rich in slow-digesting carbs and healthy fats for sustained energy</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-balanced-lunch">Balanced General Health Lunch</h2>
+                <h3 data-text-key="nutrition-turkey-sandwich">Turkey & Avocado Sandwich</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-sandwich-bread">2 slices whole-grain bread</p></li>
+                            <li><p data-text-key="nutrition-sandwich-turkey">3-4 slices lean turkey breast</p></li>
+                            <li><p data-text-key="nutrition-sandwich-avocado">¼ avocado (mashed or sliced)</p></li>
+                            <li><p data-text-key="nutrition-sandwich-tomato">1 slice tomato</p></li>
+                            <li><p data-text-key="nutrition-sandwich-greens">Handful of mixed greens</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-sandwich-step1">Assemble the sandwich with turkey, avocado, tomato, and greens</p></li>
+                            <li><p data-text-key="nutrition-sandwich-step2">Slice in half and enjoy</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-sandwich-why"><b>Why it works:</b> Balanced macronutrients for sustained energy and overall health</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-vegan-lunch">Vegan Lunch Option</h2>
+                <h3 data-text-key="nutrition-lentil-stir-fry">Lentil & Vegetable Stir-Fry</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-stir-fry-lentils">1 cup cooked lentils</p></li>
+                            <li><p data-text-key="nutrition-stir-fry-veggies">1 cup mixed vegetables (e.g., bell peppers, broccoli, carrots)</p></li>
+                            <li><p data-text-key="nutrition-stir-fry-oil">1 tablespoon olive oil</p></li>
+                            <li><p data-text-key="nutrition-stir-fry-soy">1 teaspoon soy sauce or tamari</p></li>
+                            <li><p data-text-key="nutrition-stir-fry-ginger">1 teaspoon ginger (grated)</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-stir-fry-vegan-step1">Heat olive oil in a pan and sauté vegetables until tender</p></li>
+                            <li><p data-text-key="nutrition-stir-fry-vegan-step2">Add cooked lentils, soy sauce, and ginger. Stir for 2-3 minutes</p></li>
+                            <li><p data-text-key="nutrition-stir-fry-vegan-step3">Serve warm as a standalone dish or with brown rice</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-stir-fry-vegan-why"><b>Why it works:</b> High in plant protein, fiber, and essential vitamins</p></li>
+                </ul>
+            </div>
+        `;
+    } else if (topicId === 'dinner-recipes') {
+        learningContent.innerHTML = `
+            <div class="nutrition-detail-header">
+                <h1 data-text-key="dinner-recipes-title">Healthy Dinner Recipes</h1>
+                <p data-text-key="dinner-recipes-description"><i>Nutritious dinner recipes tailored to different health and fitness goals.</i></p>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-weight-loss-dinner">Weight Loss Dinner</h2>
+                <h3 data-text-key="nutrition-lemon-chicken">Grilled Lemon Herb Chicken with Steamed Veggies</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-chicken-breast">1 chicken breast (boneless, skinless)</p></li>
+                            <li><p data-text-key="nutrition-lemon-juice">Juice of 1 lemon</p></li>
+                            <li><p data-text-key="nutrition-olive-oil-1tsp">1 teaspoon olive oil</p></li>
+                            <li><p data-text-key="nutrition-oregano">½ teaspoon dried oregano</p></li>
+                            <li><p data-text-key="nutrition-steamed-veggies">1 cup steamed broccoli and carrots</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-chicken-step1">Marinate chicken in lemon juice, olive oil, and oregano for 15 minutes</p></li>
+                            <li><p data-text-key="nutrition-chicken-step2">Grill the chicken until fully cooked</p></li>
+                            <li><p data-text-key="nutrition-chicken-step3">Serve with steamed broccoli and carrots</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-chicken-why"><b>Why it works:</b> Low in calories and high in protein, with fiber-rich veggies to promote satiety</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-muscle-building-dinner">Muscle Building Dinner</h2>
+                <h3 data-text-key="nutrition-beef-quinoa">Beef & Quinoa Stir-Fry</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-beef">200g lean ground beef</p></li>
+                            <li><p data-text-key="nutrition-quinoa">1 cup cooked quinoa</p></li>
+                            <li><p data-text-key="nutrition-mixed-veggies">1 cup mixed vegetables (e.g., bell peppers, zucchini, onions)</p></li>
+                            <li><p data-text-key="nutrition-soy-sauce">1 tablespoon soy sauce</p></li>
+                            <li><p data-text-key="nutrition-sesame-oil">1 teaspoon sesame oil</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-beef-step1">Cook ground beef in a skillet until browned</p></li>
+                            <li><p data-text-key="nutrition-beef-step2">Add vegetables and stir-fry until tender</p></li>
+                            <li><p data-text-key="nutrition-beef-step3">Mix in cooked quinoa, soy sauce, and sesame oil. Serve hot</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-beef-why"><b>Why it works:</b> High in protein and complex carbs for muscle repair and growth</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-energy-boost-dinner">Energy Boost Dinner</h2>
+                <h3 data-text-key="nutrition-baked-salmon">Baked Salmon with Sweet Potato and Asparagus</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-salmon">1 salmon fillet</p></li>
+                            <li><p data-text-key="nutrition-sweet-potato">1 medium sweet potato (sliced)</p></li>
+                            <li><p data-text-key="nutrition-asparagus">1 cup asparagus spears</p></li>
+                            <li><p data-text-key="nutrition-olive-oil-1tsp">1 teaspoon olive oil</p></li>
+                            <li><p data-text-key="nutrition-garlic-powder">1 teaspoon garlic powder</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-salmon-step1">Preheat the oven to 200°C (400°F)</p></li>
+                            <li><p data-text-key="nutrition-salmon-step2">Place salmon, sweet potato slices, and asparagus on a baking sheet</p></li>
+                            <li><p data-text-key="nutrition-salmon-step3">Drizzle with olive oil, sprinkle garlic powder, and bake for 20-25 minutes</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-salmon-why"><b>Why it works:</b> Combines healthy fats, protein, and slow-digesting carbs for lasting energy</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-balanced-dinner">Balanced General Health Dinner</h2>
+                <h3 data-text-key="nutrition-chicken-stir-fry">Chicken & Vegetable Stir-Fry with Brown Rice</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-chicken-sliced">1 chicken breast (sliced)</p></li>
+                            <li><p data-text-key="nutrition-brown-rice">1 cup cooked brown rice</p></li>
+                            <li><p data-text-key="nutrition-mixed-veggies-general">1 cup mixed vegetables (e.g., broccoli, snap peas, carrots)</p></li>
+                            <li><p data-text-key="nutrition-soy-sauce">1 tablespoon soy sauce</p></li>
+                            <li><p data-text-key="nutrition-olive-oil-1tsp">1 teaspoon olive oil</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-stir-fry-step1">Heat olive oil in a pan and cook chicken slices until browned</p></li>
+                            <li><p data-text-key="nutrition-stir-fry-step2">Add vegetables and stir-fry until tender</p></li>
+                            <li><p data-text-key="nutrition-stir-fry-step3">Mix in cooked brown rice and soy sauce. Serve warm</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-stir-fry-why"><b>Why it works:</b> A balanced mix of lean protein, fiber, and healthy carbs</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-vegan-dinner">Vegan Dinner Option</h2>
+                <h3 data-text-key="nutrition-stuffed-peppers">Stuffed Bell Peppers</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-bell-peppers">2 large bell peppers (halved and deseeded)</p></li>
+                            <li><p data-text-key="nutrition-quinoa-rice">1 cup cooked quinoa or brown rice</p></li>
+                            <li><p data-text-key="nutrition-black-beans">½ cup black beans (cooked or canned)</p></li>
+                            <li><p data-text-key="nutrition-tomatoes">½ cup diced tomatoes</p></li>
+                            <li><p data-text-key="nutrition-cumin">1 teaspoon cumin</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-peppers-step1">Preheat the oven to 180°C (350°F)</p></li>
+                            <li><p data-text-key="nutrition-peppers-step2">Mix quinoa, black beans, tomatoes, and cumin</p></li>
+                            <li><p data-text-key="nutrition-peppers-step3">Stuff the bell peppers with the mixture and bake for 25 minutes</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-peppers-why"><b>Why it works:</b> Packed with plant-based protein and fiber for a satisfying vegan dinner</p></li>
+                </ul>
+            </div>
+
+            <div class="nutrition-detail-section">
+                <h2 data-text-key="nutrition-low-carb-dinner">Low-Carb/Keto Dinner</h2>
+                <h3 data-text-key="nutrition-zoodles">Zucchini Noodles with Pesto & Grilled Shrimp</h3>
+                <ul>
+                    <li><p data-text-key="nutrition-ingredients"><b>Ingredients:</b></p>
+                        <ul>
+                            <li><p data-text-key="nutrition-zucchini">1 zucchini (spiralized into noodles)</p></li>
+                            <li><p data-text-key="nutrition-shrimp">100g grilled shrimp</p></li>
+                            <li><p data-text-key="nutrition-pesto">2 tablespoons pesto (low-carb)</p></li>
+                            <li><p data-text-key="nutrition-olive-oil-1tsp">1 teaspoon olive oil</p></li>
+                        </ul>
+                    </li>
+                    <li><p data-text-key="nutrition-instructions"><b>Instructions:</b></p>
+                        <ol>
+                            <li><p data-text-key="nutrition-zoodles-step1">Heat olive oil in a pan and sauté zucchini noodles for 2-3 minutes</p></li>
+                            <li><p data-text-key="nutrition-zoodles-step2">Toss noodles with pesto and grilled shrimp. Serve warm</p></li>
+                        </ol>
+                    </li>
+                    <li><p data-text-key="nutrition-zoodles-why"><b>Why it works:</b> Low in carbs, high in protein and healthy fats, perfect for keto</p></li>
+                </ul>
+            </div>
+        `;
+    } else {
+        showError();
+    }
 } 

@@ -1,0 +1,170 @@
+[
+    {
+        "id": "nutrition-weight-loss-breakfast",
+        "am": "የክብደት መቀነስ ቁርስ"
+    },
+    {
+        "id": "nutrition-avocado-egg-wrap",
+        "am": "አቮካዶ & amp;; የእንቁላል ቁርስ መጠቅለያ"
+    },
+    {
+        "id": "nutrition-wrap-tortilla",
+        "am": "1 ሙሉ-እህል ቶርቲላ"
+    },
+    {
+        "id": "nutrition-wrap-avocado",
+        "am": "½ አቮካዶ (የተፈጨ)"
+    },
+    {
+        "id": "nutrition-wrap-egg",
+        "am": "1 የተቀቀለ ወይም የተቀቀለ እንቁላል"
+    },
+    {
+        "id": "nutrition-wrap-spinach",
+        "am": "እፍኝ የስፒናች ቅጠሎች"
+    },
+    {
+        "id": "nutrition-wrap-salsa",
+        "am": "1 የሾርባ ማንኪያ ሳልሳ (አማራጭ)"
+    },
+    {
+        "id": "nutrition-wrap-step1",
+        "am": "የተፈጨውን አቮካዶ በቶሪላ ላይ ያሰራጩ"
+    },
+    {
+        "id": "nutrition-wrap-step2",
+        "am": "ከስፒናች፣ ከእንቁላል እና ከሳሊሳ ጋር ንብርብር ያድርጉ"
+    },
+    {
+        "id": "nutrition-wrap-step3",
+        "am": "ቶርቲላውን በደንብ ይንከባለሉ እና ይደሰቱ!"
+    },
+    {
+        "id": "nutrition-wrap-why",
+        "am": "<b>ለምን ይሰራል፡</b> በፋይበር እና ጤናማ ስብ የበለፀገ፣ ይህ ቁርስ ረዘም ላለ ጊዜ እንዲሞላ ያደርግዎታል"
+    },
+    {
+        "id": "nutrition-muscle-building-breakfast",
+        "am": "የጡንቻ ግንባታ ቁርስ"
+    },
+    {
+        "id": "nutrition-protein-oatmeal",
+        "am": "በፕሮቲን የታሸገ ኦትሜል"
+    },
+    {
+        "id": "nutrition-oatmeal-oats",
+        "am": "½ ኩባያ የተጠበሰ አጃ"
+    },
+    {
+        "id": "nutrition-oatmeal-protein",
+        "am": "1 የሻይ ማንኪያ የፕሮቲን ዱቄት (ቫኒላ ወይም ቸኮሌት)"
+    },
+    {
+        "id": "nutrition-oatmeal-milk",
+        "am": "1 ኩባያ የአልሞንድ ወተት"
+    },
+    {
+        "id": "nutrition-oatmeal-pb",
+        "am": "1 የሾርባ ማንኪያ የኦቾሎኒ ቅቤ"
+    },
+    {
+        "id": "nutrition-oatmeal-banana",
+        "am": "½ ሙዝ (የተቆረጠ)"
+    },
+    {
+        "id": "nutrition-oatmeal-step1",
+        "am": "በጥቅል መመሪያው መሰረት አጃዎችን ከአልሞንድ ወተት ጋር አብስሉ"
+    },
+    {
+        "id": "nutrition-oatmeal-step2",
+        "am": "ከተበስል በኋላ የፕሮቲን ዱቄት እና የኦቾሎኒ ቅቤን ይቀላቅሉ"
+    },
+    {
+        "id": "nutrition-oatmeal-step3",
+        "am": "በሙዝ ቁርጥራጭ ከላይ እና ይደሰቱ!"
+    },
+    {
+        "id": "nutrition-oatmeal-why",
+        "am": "<b>ለምን ይሰራል፡</b> ፕሮቲን፣ ካርቦሃይድሬትስ እና ጤናማ ቅባቶችን በማዋሃድ የጡንቻን እድገት ያቀጣጥላል።"
+    },
+    {
+        "id": "nutrition-energy-boost-breakfast",
+        "am": "የኃይል መጨመር ቁርስ"
+    },
+    {
+        "id": "nutrition-berry-smoothie",
+        "am": "Berry Chia Smoothie"
+    },
+    {
+        "id": "nutrition-smoothie-berries",
+        "am": "1 ኩባያ የቤሪ ፍሬዎች (የቀዘቀዘ ወይም ትኩስ)"
+    },
+    {
+        "id": "nutrition-smoothie-yogurt",
+        "am": "1 ኩባያ ጣፋጭ ያልሆነ የግሪክ እርጎ"
+    },
+    {
+        "id": "nutrition-smoothie-chia",
+        "am": "1 የሾርባ ማንኪያ የቺያ ዘሮች"
+    },
+    {
+        "id": "nutrition-smoothie-milk",
+        "am": "½ ኩባያ የአልሞንድ ወተት"
+    },
+    {
+        "id": "nutrition-smoothie-honey",
+        "am": "1 የሻይ ማንኪያ ማር (አማራጭ)"
+    },
+    {
+        "id": "nutrition-smoothie-step1",
+        "am": "ለስላሳ እስኪሆኑ ድረስ ሁሉንም ንጥረ ነገሮች ይቀላቅሉ"
+    },
+    {
+        "id": "nutrition-smoothie-step2",
+        "am": "መንፈስን የሚያድስ፣ ጉልበት ለሞላበት ቁርስ ወዲያውኑ ያቅርቡ"
+    },
+    {
+        "id": "nutrition-smoothie-why",
+        "am": "<b>ለምን ይሰራል፡</b> የቤሪ ፍሬዎች አንቲኦክሲደንትስ ይሰጣሉ፣ ቺያ ዘሮች እና እርጎ ግን ዘላቂ ኃይል ይሰጣሉ"
+    },
+    {
+        "id": "nutrition-balanced-breakfast",
+        "am": "የተመጣጠነ አጠቃላይ የጤና ቁርስ"
+    },
+    {
+        "id": "nutrition-veggie-scramble",
+        "am": "Veggie Scramble ከቶስት ጋር"
+    },
+    {
+        "id": "nutrition-scramble-eggs",
+        "am": "2 ትላልቅ እንቁላል (ወይም 1 እንቁላል + 2 እንቁላል ነጭ)"
+    },
+    {
+        "id": "nutrition-scramble-veggies",
+        "am": "½ ኩባያ የተከተፈ አትክልት (ለምሳሌ፣ ስፒናች፣ ቲማቲም፣ ደወል በርበሬ)"
+    },
+    {
+        "id": "nutrition-scramble-bread",
+        "am": "1 ቁራጭ ሙሉ-እህል ዳቦ"
+    },
+    {
+        "id": "nutrition-scramble-oil",
+        "am": "1 የሻይ ማንኪያ የወይራ ዘይት"
+    },
+    {
+        "id": "nutrition-scramble-step1",
+        "am": "በድስት ውስጥ የወይራ ዘይት ያሞቁ እና አትክልቶቹን ለስላሳ እስኪሆኑ ድረስ ይቅቡት"
+    },
+    {
+        "id": "nutrition-scramble-step2",
+        "am": "እንቁላል ይጨምሩ እና አንድ ላይ ይሰብስቡ"
+    },
+    {
+        "id": "nutrition-scramble-step3",
+        "am": "ከተጠበሰ ሙሉ-እህል ዳቦ ቁራጭ ጋር አገልግሉ።"
+    },
+    {
+        "id": "nutrition-scramble-why",
+        "am": "<b>ለምን ይሰራል፡</b> በፕሮቲን፣ ፋይበር እና በንጥረ ነገሮች የተሞላ ለአጠቃላይ ጤና"
+    }
+]

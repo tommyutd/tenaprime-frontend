@@ -1,0 +1,74 @@
+[
+    {
+        "id": "nutrition-function",
+        "am": "ተግባር"
+    },
+    {
+        "id": "nutrition-how-much-to-consume",
+        "am": "ምን ያህል እንደሚበላ"
+    },
+    {
+        "id": "nutrition-best-sources",
+        "am": "ምርጥ ምንጮች"
+    },
+    {
+        "id": "nutrition-overview",
+        "am": "አጠቃላይ እይታ"
+    },
+    {
+        "id": "nutrition-importance-of-protein",
+        "am": "የፕሮቲን ጠቀሜታ"
+    },
+    {
+        "id": "nutrition-protein-percentage-30-40",
+        "am": "30-40%"
+    },
+    {
+        "id": "nutrition-protein-label",
+        "am": "ፕሮቲን"
+    },
+    {
+        "id": "nutrition-carbs-percentage-30-40",
+        "am": "30-40%"
+    },
+    {
+        "id": "nutrition-carbs-label",
+        "am": "ካርቦሃይድሬትስ"
+    },
+    {
+        "id": "nutrition-fats-percentage-20-30",
+        "am": "20-30%"
+    },
+    {
+        "id": "nutrition-fats-label",
+        "am": "ስብ"
+    },
+    {
+        "id": "nutrition-benefits",
+        "am": "ጥቅሞች"
+    },
+    {
+        "id": "nutrition-key-considerations",
+        "am": "ቁልፍ ጉዳዮች"
+    },
+    {
+        "id": "nutrition-ingredients",
+        "am": "<b>ንጥረ ነገሮች፡</b>"
+    },
+    {
+        "id": "nutrition-instructions",
+        "am": "<b>መመሪያ፡</b>"
+    },
+    {
+        "id": "nutrition-olive-oil-1tsp",
+        "am": "1 የሻይ ማንኪያ የወይራ ዘይት"
+    },
+    {
+        "id": "nutrition-soy-sauce",
+        "am": "1 የሾርባ ማንኪያ አኩሪ አተር"
+    },
+    {
+        "id": "nutrition-learn-error",
+        "am": "የአመጋገብ መመሪያ አልተገኘም!"
+    }
+]

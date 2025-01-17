@@ -1,0 +1,218 @@
+[
+    {
+        "id": "nutrition-weight-loss-lunch",
+        "am": "የክብደት መቀነስ ምሳ"
+    },
+    {
+        "id": "nutrition-quinoa-bowl",
+        "am": "Quinoa ሰላጣ ሳህን"
+    },
+    {
+        "id": "nutrition-quinoa-bowl-quinoa",
+        "am": "1 ኩባያ የበሰለ quinoa"
+    },
+    {
+        "id": "nutrition-quinoa-bowl-chickpeas",
+        "am": "½ ኩባያ ሽንብራ (የበሰለ ወይም የታሸገ)"
+    },
+    {
+        "id": "nutrition-quinoa-bowl-greens",
+        "am": "1 ኩባያ የተቀላቀለ አረንጓዴ (ስፒናች, ጎመን, አሩጉላ)"
+    },
+    {
+        "id": "nutrition-quinoa-bowl-cucumber",
+        "am": "½ ዱባ (የተቆረጠ)"
+    },
+    {
+        "id": "nutrition-quinoa-bowl-avocado",
+        "am": "¼ አቮካዶ (የተከተፈ)"
+    },
+    {
+        "id": "nutrition-quinoa-bowl-oil",
+        "am": "1 የሾርባ ማንኪያ የወይራ ዘይት"
+    },
+    {
+        "id": "nutrition-quinoa-bowl-lemon",
+        "am": "½ የሎሚ ጭማቂ"
+    },
+    {
+        "id": "nutrition-quinoa-bowl-step1",
+        "am": "ኩዊኖ፣ ሽምብራ፣ አረንጓዴ፣ ዱባ እና አቮካዶ በአንድ ሳህን ውስጥ ያዋህዱ"
+    },
+    {
+        "id": "nutrition-quinoa-bowl-step2",
+        "am": "የወይራ ዘይት እና የሎሚ ጭማቂ አፍስሱ ፣ በቀስታ ይምቱ እና ያገልግሉ"
+    },
+    {
+        "id": "nutrition-quinoa-bowl-why",
+        "am": "<b>ለምን ይሰራል፡</b> ከፍተኛ በፋይበር እና በእፅዋት ላይ የተመሰረተ ፕሮቲን፣ አነስተኛ የካሎሪ ይዘት ያለው"
+    },
+    {
+        "id": "nutrition-muscle-building-lunch",
+        "am": "የጡንቻ ግንባታ ምሳ"
+    },
+    {
+        "id": "nutrition-chicken-sweet-potato",
+        "am": "የተጠበሰ ዶሮ & amp;; የድንች ድንች ምግብ ዝግጅት"
+    },
+    {
+        "id": "nutrition-chicken-prep-chicken",
+        "am": "1 የተጠበሰ የዶሮ ጡት"
+    },
+    {
+        "id": "nutrition-chicken-prep-potato",
+        "am": "1 መካከለኛ ድንች (የተጠበሰ ወይም የተጋገረ)"
+    },
+    {
+        "id": "nutrition-chicken-prep-broccoli",
+        "am": "1 ኩባያ የተቀቀለ ብሮኮሊ"
+    },
+    {
+        "id": "nutrition-chicken-prep-tahini",
+        "am": "1 የሾርባ ማንኪያ tahini ወይም hummus (አማራጭ)"
+    },
+    {
+        "id": "nutrition-chicken-prep-step1",
+        "am": "ሙሉ በሙሉ እስኪዘጋጅ ድረስ ዶሮውን ይጋግሩ ወይም ይቅቡት"
+    },
+    {
+        "id": "nutrition-chicken-prep-step2",
+        "am": "ከተጠበሰ ድንች ድንች እና የተቀቀለ ብሮኮሊ ጋር አገልግሉ።"
+    },
+    {
+        "id": "nutrition-chicken-prep-step3",
+        "am": "ጥሩ ጣዕም ያለው ፕሮቲን ለመጨመር ታሂኒ ወይም humus ይጨምሩ"
+    },
+    {
+        "id": "nutrition-chicken-prep-why",
+        "am": "<b>ለምን ይሰራል፡</b> ዘንበል ያለ ፕሮቲን፣ ውስብስብ ካርቦሃይድሬትስ እና አልሚ-ጥቅጥቅ ያሉ አትክልቶችን ያጣምራል።"
+    },
+    {
+        "id": "nutrition-energy-boost-lunch",
+        "am": "የኃይል መጨመር ምሳ"
+    },
+    {
+        "id": "nutrition-mediterranean-wrap",
+        "am": "የሜዲትራኒያን መጠቅለያ"
+    },
+    {
+        "id": "nutrition-med-wrap-tortilla",
+        "am": "1 ሙሉ-እህል ጥቅል"
+    },
+    {
+        "id": "nutrition-med-wrap-hummus",
+        "am": "2 የሾርባ ማንኪያ humus"
+    },
+    {
+        "id": "nutrition-med-wrap-veggies",
+        "am": "½ ኩባያ የተጠበሰ አትክልት (ዚኩኪኒ, ቃሪያ, ሽንኩርት)"
+    },
+    {
+        "id": "nutrition-med-wrap-feta",
+        "am": "¼ ኩባያ የተፈጨ የፌታ አይብ"
+    },
+    {
+        "id": "nutrition-med-wrap-arugula",
+        "am": "የ arugula እፍኝ"
+    },
+    {
+        "id": "nutrition-med-wrap-step1",
+        "am": "በጥቅሉ ላይ humus ያሰራጩ"
+    },
+    {
+        "id": "nutrition-med-wrap-step2",
+        "am": "የተጠበሰ አትክልት፣ ፌታ እና አሩጉላ ይጨምሩ"
+    },
+    {
+        "id": "nutrition-med-wrap-step3",
+        "am": "በደንብ ይንከባለሉ እና ይደሰቱ"
+    },
+    {
+        "id": "nutrition-med-wrap-why",
+        "am": "<b>ለምን ይሰራል፡</b> በዝግታ የሚፈጩ ካርቦሃይድሬት እና ጤናማ ስብ ለዘላቂ ጉልበት የበለፀገ"
+    },
+    {
+        "id": "nutrition-balanced-lunch",
+        "am": "የተመጣጠነ አጠቃላይ የጤና ምሳ"
+    },
+    {
+        "id": "nutrition-turkey-sandwich",
+        "am": "ቱርክ & amp;; አቮካዶ ሳንድዊች"
+    },
+    {
+        "id": "nutrition-sandwich-bread",
+        "am": "2 ቁርጥራጮች ሙሉ-እህል ዳቦ"
+    },
+    {
+        "id": "nutrition-sandwich-turkey",
+        "am": "3-4 ቁርጥራጮች ዘንበል ያለ የቱርክ ጡት"
+    },
+    {
+        "id": "nutrition-sandwich-avocado",
+        "am": "¼ አቮካዶ (የተፈጨ ወይም የተከተፈ)"
+    },
+    {
+        "id": "nutrition-sandwich-tomato",
+        "am": "1 ቁራጭ ቲማቲም"
+    },
+    {
+        "id": "nutrition-sandwich-greens",
+        "am": "የተደባለቀ አረንጓዴ እፍኝ"
+    },
+    {
+        "id": "nutrition-sandwich-step1",
+        "am": "ሳንድዊችውን ከቱርክ፣ አቮካዶ፣ ቲማቲም እና አረንጓዴ ጋር ያሰባስቡ"
+    },
+    {
+        "id": "nutrition-sandwich-step2",
+        "am": "በግማሽ ይቁረጡ እና ይደሰቱ"
+    },
+    {
+        "id": "nutrition-sandwich-why",
+        "am": "<b>ለምን ይሰራል፡</b> ለቀጣይ ሃይል እና አጠቃላይ ጤና የተመጣጠነ ማክሮ ኤለመንቶች"
+    },
+    {
+        "id": "nutrition-vegan-lunch",
+        "am": "የቪጋን ምሳ አማራጭ"
+    },
+    {
+        "id": "nutrition-lentil-stir-fry",
+        "am": "ምስር & amp;; የአትክልት ቅብ ጥብስ"
+    },
+    {
+        "id": "nutrition-stir-fry-lentils",
+        "am": "1 ኩባያ የበሰለ ምስር"
+    },
+    {
+        "id": "nutrition-stir-fry-veggies",
+        "am": "1 ኩባያ የተቀላቀሉ አትክልቶች (ለምሳሌ ደወል በርበሬ፣ ብሮኮሊ፣ ካሮት)"
+    },
+    {
+        "id": "nutrition-stir-fry-oil",
+        "am": "1 የሾርባ ማንኪያ የወይራ ዘይት"
+    },
+    {
+        "id": "nutrition-stir-fry-soy",
+        "am": "1 የሻይ ማንኪያ አኩሪ አተር ወይም ታማሪ"
+    },
+    {
+        "id": "nutrition-stir-fry-ginger",
+        "am": "1 የሻይ ማንኪያ ዝንጅብል (የተፈጨ)"
+    },
+    {
+        "id": "nutrition-stir-fry-vegan-step1",
+        "am": "በድስት ውስጥ የወይራ ዘይት ያሞቁ እና እስኪበስል ድረስ አትክልቶችን ይቅቡት"
+    },
+    {
+        "id": "nutrition-stir-fry-vegan-step2",
+        "am": "የበሰለ ምስር፣ አኩሪ አተር እና ዝንጅብል ይጨምሩ። ለ 2-3 ደቂቃዎች ያነሳሱ"
+    },
+    {
+        "id": "nutrition-stir-fry-vegan-step3",
+        "am": "እንደ ገለልተኛ ምግብ ወይም ቡናማ ሩዝ ሙቅ አድርገው ያቅርቡ"
+    },
+    {
+        "id": "nutrition-stir-fry-vegan-why",
+        "am": "<b>ለምን ይሰራል፡</b> ከፍተኛ የእጽዋት ፕሮቲን፣ ፋይበር እና አስፈላጊ ቫይታሚኖች"
+    }
+]
