@@ -7,11 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     const cardData = [
-        { image: 'assets/winners/img1.png', title: 'Title 1', description: 'Description 1' },
-        { image: 'assets/winners/img2.png', title: 'Title 2', description: 'Description 2' },
-        { image: 'assets/winners/img3.png', title: 'Title 3', description: 'Description 3' },
-        { image: 'assets/winners/img4.png', title: 'Title 4', description: 'Description 4' },
-        { image: 'assets/winners/img5.png', title: 'Title 5', description: 'Description 5' },
+        { image: '/assets/winners/img1.png', title: 'Henok Ayele', description: 'December 2024' },
+        { image: '/assets/winners/img2.png', title: 'Title 2', description: 'Description 2' },
+        { image: '/assets/winners/img3.png', title: 'Title 3', description: 'Description 3' },
+        { image: '/assets/winners/img4.png', title: 'Title 4', description: 'Description 4' },
+        { image: '/assets/winners/img5.png', title: 'Title 5', description: 'Description 5' },
     ];
 
     // Function to create a card element
@@ -19,9 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `
-            <img src="${data.image}" alt="${data.title}">
-            <h3 data-text-key="winners-carousel-title">${data.title}</h3>
-            <p data-text-key="winners-carousel-description">${data.description}</p>
+            <div class="card-image">
+                <img src="${data.image}" alt="${data.title}">
+            </div>
+            <div class="card-text">
+                <h3 data-text-key="winners-carousel-title">${data.title}</h3>
+                <p data-text-key="winners-carousel-description">${data.description}</p>
+            </div>
         `;
         return card;
     }
