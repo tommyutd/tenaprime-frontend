@@ -1,4 +1,33 @@
 document.addEventListener('DOMContentLoaded', async function() {
+    const personalizationPrompt = document.querySelector('.personalization-prompt');
+    const promptTitle = document.querySelector('[data-text-key="personalization-title"]');
+    const promptDescription = document.querySelector('[data-text-key="personalization-description"]');
+    const promptButton = document.querySelector('[data-text-key="personalization-button"]');
+    
+    try {
+        // Wait for auth state to be initialized
+        if (window.authState) {
+            await window.authState.init();
+        }
+
+        if (!window.authState || !window.authState.isTokenPresent) {
+            return;
+        }
+
+        if (window.userData.profile) {
+            // Profile exists - hide the prompt
+            personalizationPrompt.style.display = 'none';
+        } else {
+            // No profile exists - show the prompt with default text
+            promptTitle.textContent = 'Personalize Your Experience';
+            promptDescription.textContent = 'Get customized workout recommendations by completing your fitness profile.';
+            promptButton.textContent = 'Setup Profile';
+            personalizationPrompt.classList.add('show');
+        }
+    } catch (error) {
+        console.error('Error checking profile status:', error);
+    }
+    
     try {
         // Clean up any existing popups first
         const existingPopups = document.querySelectorAll('[id$="-popup"]');

@@ -1,0 +1,94 @@
+.profile-container {
+    width: 60vw;
+    margin: 2rem auto;
+    padding: 2rem;
+    color: white;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.profile-header h1 {
+    color: rgba(186, 156, 98, 1);
+}
+
+.edit-profile-btn .btn-primary {
+    padding: 0.8rem 2rem;
+    background: rgba(186, 156, 98, 1);
+    border: none;
+    border-radius: 0.5rem;
+    color: #121518;
+    font-family: 'Aleo', serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.edit-profile-btn .btn-primary:hover {
+    background: rgba(186, 156, 98, 0.8);
+}
+
+.profile-section {
+    background: rgba(186, 156, 98, 0.1);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.profile-section h2 {
+    color: rgba(186, 156, 98, 1);
+    margin-bottom: 1.5rem;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.info-item label {
+    color: rgba(186, 156, 98, 0.8);
+    font-size: 0.9rem;
+}
+
+.info-item span {
+    font-size: 1.1rem;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    background: rgba(186, 156, 98, 0.2);
+    padding: 0.3rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        width: 90vw;
+        padding: 1rem;
+    }
+
+    .profile-section {
+        padding: 1rem;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

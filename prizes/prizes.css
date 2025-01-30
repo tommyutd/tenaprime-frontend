@@ -338,6 +338,18 @@
   padding: 1rem;
   border-bottom: 1px solid rgba(186, 156, 98, 0.1);
   transition: background-color 0.3s ease;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .scoreboard-entry:hover {
@@ -368,10 +380,6 @@
 .scoreboard-entry:nth-child(3) {
   background-color: rgba(186, 156, 98, 0.05);
 }
-
-
-
-
 
 /* Quiz CSS */
 
@@ -643,6 +651,7 @@
   font-weight: bold;
   animation: bounce 1s infinite;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  line-height: 1.1;
 }
 
 .great-job-text {
@@ -651,6 +660,7 @@
   color: #ba9c62;
   font-weight: bold;
   animation: pulse 1.5s infinite;
+  line-height: 1.1;
 }
 
 @keyframes bounce {
@@ -715,6 +725,71 @@
   100% { transform: scale(1); }
 }
 
-#time-text-highlight {
+.time-text-highlight {
   color: #ba9c62;
 }
+
+.quiz-message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.quiz-message-container h2 {
+  color: #ba9c62;
+  font-size: 1.8rem;
+}
+
+.scoreboard-title-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.week-dropdown {
+  background: rgba(186, 156, 98, 0.1);
+  border: 1px solid rgba(186, 156, 98, 0.3);
+  color: rgba(186, 156, 98, 1);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  min-width: 150px;
+}
+
+.week-dropdown:hover {
+  background: rgba(186, 156, 98, 0.2);
+}
+
+.week-dropdown:focus {
+  outline: none;
+  border-color: rgba(186, 156, 98, 0.5);
+}
+
+.scoreboard-error {
+  color: #ff6b6b;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1rem;
+}
+
+.scoreboard-entry {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

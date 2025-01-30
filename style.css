@@ -469,21 +469,48 @@ body {
 }
 
 .stats-footer {
-  margin-top: 2rem;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.stats-profile-button {
+  background: rgba(186, 156, 98, 1);
+  border: none;
+  color: #121518;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  flex: 1;
+}
+
+.stats-profile-button:hover {
+  background: rgb(226, 196, 138);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
+}
+
+.stats-profile-button:active {
+  transform: translateY(0);
+  box-shadow: none;
 }
 
 .logout-button {
   background-color: #e74c3c;
-  color: white;
-  padding: 0.75rem 2rem;
+  color: #fff;
+  padding: 0.75rem 1rem;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-weight: 600;
   transition: all 0.3s ease;
   font-family: inherit;
+  flex: 1;
 }
 
 .logout-button:hover {
@@ -558,19 +585,6 @@ body {
 .login-header h2 {
   color: rgba(186, 156, 98, 1);
   margin: 0;
-}
-
-.close-button {
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 0.5rem;
-}
-
-.close-button:hover {
-  color: rgba(186, 156, 98, 1);
 }
 
 .login-form {

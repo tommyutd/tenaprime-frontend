@@ -2,13 +2,15 @@
     const protectedRouteMappings = {
         '/dashboard': '/',
         '/exercises/dashboard': '/exercises',
-        '/nutrition/dashboard': '/nutrition'
+        '/nutrition/dashboard': '/nutrition',
+        '/prizes/dashboard': '/prizes'
     };
 
     const guestRouteMappings = {
         '/': '/dashboard',
         '/exercises': '/exercises/dashboard',
-        '/nutrition': '/nutrition/dashboard'
+        '/nutrition': '/nutrition/dashboard',
+        '/prizes': '/prizes/dashboard'
     };
 
     // Execute route check immediately

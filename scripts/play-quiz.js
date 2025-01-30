@@ -8,7 +8,6 @@ class Quiz {
         this.questions = [];
         this.questionIds = [];
         this.selectedAnswers = [];
-        this.startTime = null;
         this.token = localStorage.getItem('login-token');
         
         // DOM Elements
@@ -25,6 +24,10 @@ class Quiz {
         this.timerFill = document.querySelector('.timer-fill');
         this.finalScore = document.getElementById('final-score');
         this.timeDisplay = document.getElementById('time-display');
+        this.messageScreen = document.getElementById('quiz-message-screen');
+        this.messageTextElement = document.getElementById('quiz-message-text');
+        this.messageButton = document.getElementById('quiz-message-button');
+        this.messageScreen = document.getElementById('quiz-message-screen');
 
         // Add new screen references
         this.loadingScreen = document.getElementById('quiz-loading-screen');
@@ -34,9 +37,11 @@ class Quiz {
 
         document.getElementById('quiz-start-btn').addEventListener('click', () => this.startQuiz());
         document.getElementById('quiz-retry-btn').addEventListener('click', () => this.resetQuiz());
+        document.getElementById('quiz-scoreboard-btn').addEventListener('click', () => window.location.href = '/prizes/dashboard#scoreboard');
     }
 
     async loadQuestions() {
+        let responseMessage = null;
         try {
             const response = await fetch(`${window.CONFIG.API_URL}/play`, {
                 headers: {
@@ -44,12 +49,14 @@ class Quiz {
                     'Content-Type': 'application/json'
                 }
             });
+
+            const jsonData = await response.json();
+
+            responseMessage = jsonData.message;
     
             if (!response.ok) {
                 throw new Error('Failed to load questions!');
             }
-
-            const jsonData = await response.json();
 
             this.questionIds = jsonData.questions.map(item => item._id);
 
@@ -61,12 +68,22 @@ class Quiz {
                     const j = Math.floor(Math.random() * (i + 1));
                     [options[i], options[j]] = [options[j], options[i]];
                 }
-
                 return { question, options };
             });
+
+            if (responseMessage) {
+                return responseMessage;
+            }
+            else {
+                throw new Error('Failed to load questions!');
+            }
             
         } catch (error) {
+            if (responseMessage) {
+                return responseMessage;
+            }
             console.error('Error loading questions:', error);
+            return error;
         }
     }
 
@@ -75,10 +92,14 @@ class Quiz {
         this.switchScreen('loading');
 
         try {
-            await this.loadQuestions();
+            const responseMessage = await this.loadQuestions();
             setTimeout(() => {
+                if (!responseMessage || responseMessage !== 'Begin quiz') {
+                    this.showMessage(responseMessage);
+                    return;
+                }
                 this.startCountdown();
-            }, 2000);
+            }, 1000);
         } catch (error) {
             console.error('Failed to load questions:', error);
             this.switchScreen('welcome');
@@ -96,16 +117,18 @@ class Quiz {
                 this.countdownNumber.textContent = count;
             } else {
                 clearInterval(countdownInterval);
-                this.startTime = new Date();
                 this.switchScreen('quiz');
                 this.loadQuestion();
             }
         }, 1000);
     }
 
-    loadQuestion() {
+    async loadQuestion() {
         if (this.currentQuestion >= this.questions.length) {
-            this.showResults();
+            const responseMessage = await this.showResults();
+            if (responseMessage) {
+                this.showMessage(responseMessage);
+            }
             return;
         }
 
@@ -160,56 +183,101 @@ class Quiz {
     }
 
     async showResults() {
-        this.loadingText.textContent = 'Loading Results...';
-        this.switchScreen('loading');
-        const response = await fetch(`${window.CONFIG.API_URL}/play/submit`, {
-            method: "POST",
-            headers: { 'Authorization': `Bearer ${this.token}`, "Content-Type": "application/json" },
-            body: JSON.stringify(this.selectedAnswers),
-        });
-        if (!response.ok) {
-            throw new Error('Failed to submit answers');
-        }
+        let responseMessage = null;
+        try {
+            this.loadingText.textContent = 'Loading Results...';
+            this.switchScreen('loading');
 
-        const resultData = await response.json();
-        this.score = resultData.score;
+            const response = await fetch(`${window.CONFIG.API_URL}/play/submit`, {
+                method: "POST",
+                headers: { 'Authorization': `Bearer ${this.token}`, "Content-Type": "application/json" },
+                body: JSON.stringify(this.selectedAnswers),
+            });
 
-        clearInterval(this.timer);
-        this.switchScreen('results');
-        this.finalScore.textContent = this.score;
-        
-        // Calculate time taken
-        const endTime = new Date();
-        const timeTaken = endTime - this.startTime;
-        const minutes = Math.floor(timeTaken / 60000); // 1 minute = 60,000 ms
-        const seconds = Math.floor((timeTaken % 60000) / 1000); // Remaining ms divided by 1000
-        const milliseconds = timeTaken % 1000;
-        
-        if (this.timeDisplay) {
-            this.timeDisplay.innerHTML = `You took <span id="time-text-highlight">${minutes}:${seconds}.${milliseconds}</span> minutes.`;
-        }
+            const resultData = await response.json();
+            responseMessage = resultData.message;
+            if (!response.ok) {
+                throw new Error('Failed to submit answers');
+            }
 
-        // Add celebration based on score
-        if (this.score === 15) {
-            // Perfect score celebration
-            grandCelebration();
-            const winnerText = document.createElement('div');
-            winnerText.className = 'winner-text';
-            winnerText.textContent = '🏆 Perfect Score! You are Amazing! 🏆';
-            this.resultsScreen.querySelector('.results-container').appendChild(winnerText);
-        } else if (this.score >= 12 && this.score < 15) {
-            // Good score celebration
-            normalCelebration();
-            const greatJobText = document.createElement('div');
-            greatJobText.className = 'great-job-text';
-            greatJobText.textContent = '🌟 Great Job! 🌟';
-            this.resultsScreen.querySelector('.results-container').appendChild(greatJobText);
+            this.score = resultData.score;
+            this.timeTaken = resultData.timeTaken;
+            this.bestScoreText = resultData.isNewBest ? '<span class="time-text-highlight">This is your new Best Score!</span><br>' : '';
+
+            clearInterval(this.timer);
+            setTimeout(() => {
+                this.switchScreen('results');
+            }, 1000);
+            this.finalScore.textContent = this.score;
+            
+            if (this.timeDisplay) {
+                if (this.timeTaken.minutes > 0) {
+                    this.timeDisplay.innerHTML = `${this.bestScoreText}You took <span class="time-text-highlight">${this.timeTaken.minutes.toString().padStart(2, '0')}:${this.timeTaken.seconds.toString().padStart(2, '0')}.${this.timeTaken.milliseconds}</span> minutes.`;
+                }
+                else {
+                    this.timeDisplay.innerHTML = `${this.bestScoreText}You took <span class="time-text-highlight">${this.timeTaken.seconds.toString().padStart(2, '0')}.${this.timeTaken.milliseconds}</span> seconds.`;
+                }
+            }
+            
+            try {
+                setTimeout(() => {
+                    // Add celebration based on score
+                    if (this.score === 15) {
+                        // Perfect score celebration
+                        grandCelebration();
+                        const winnerText = document.createElement('div');
+                        winnerText.className = 'winner-text';
+                        winnerText.textContent = '🏆 Perfect Score! You are Amazing! 🏆';
+                        this.resultsScreen.querySelector('.results-container').appendChild(winnerText);
+                    } else if (this.score >= 12 && this.score < 15) {
+                        // Good score celebration
+                        normalCelebration();
+                        const greatJobText = document.createElement('div');
+                        greatJobText.className = 'great-job-text';
+                        greatJobText.textContent = '🌟 Great Job! 🌟';
+                        this.resultsScreen.querySelector('.results-container').appendChild(greatJobText);
+                    }
+                }, 1000);
+            } catch (error) {
+                console.error('Error adding celebration:', error);
+            }
+        } catch (error) {
+            if (responseMessage) {
+                return responseMessage;
+            }
+            console.error('Error loading questions:', error);
+            return error;
         }
     }
 
     resetQuiz() {
         this.switchScreen('welcome');
         window.location.reload();
+    }
+
+    showMessage(messageText) {
+        let displayText = null;
+        if (messageText === 'Maximum attempts reached') {
+            displayText = 'You have reached the maximum number of attempts for this week. You can try again next week.';
+        }
+        else if (messageText === 'No questions found') {
+            displayText = 'Couldn\'t find any questions. Please try again later.';
+        }
+        else if (messageText === 'Quiz not found') {
+            displayText = 'This quiz was not found or has expired. Please try again.';
+        }
+        else if (messageText === 'Time limit exceeded') {
+            displayText = 'You have exceeded the time limit for this quiz. Please try again.';
+        }
+        else if (messageText === 'Question not found') {
+            displayText = 'Your responses are invalid. Please try again.';
+        }
+        else {
+            displayText = 'An error occurred while loading the quiz. Please try again later.';
+        }
+
+        this.messageTextElement.innerHTML = displayText;
+        this.switchScreen('message');
     }
 
     switchScreen(screen) {
@@ -219,23 +287,23 @@ class Quiz {
         this.countdownScreen.classList.remove('active');
         this.quizScreen.classList.remove('active');
         this.resultsScreen.classList.remove('active');
+        this.messageScreen.classList.remove('active');
+        
         this.quizContainer.setAttribute('style', 'height: 0%;');
 
         setTimeout(() => {
             this.quizContainer.setAttribute('style', 'height: 60%;');
+            this.quizPage.setAttribute('style', 'height: 80vh;');
             switch(screen) {
                 case 'welcome':
-                    this.quizPage.setAttribute('style', 'height: 80vh;');
                     this.quizContainer.setAttribute('style', 'justify-content: center;');
                     this.welcomeScreen.classList.add('active')
                     break;
                 case 'loading':
-                    this.quizPage.setAttribute('style', 'height: 80vh;');
                     this.quizContainer.setAttribute('style', 'justify-content: center;');
                     this.loadingScreen.classList.add('active');
                     break;
                 case 'countdown':
-                    this.quizPage.setAttribute('style', 'height: 80vh;');
                     this.quizContainer.setAttribute('style', 'justify-content: center;');
                     this.countdownScreen.classList.add('active');
                     break;
@@ -245,9 +313,13 @@ class Quiz {
                     this.quizScreen.classList.add('active');
                     break;
                 case 'results':
-                    this.quizPage.setAttribute('style', 'height: 80vh;');
+                    this.quizPage.setAttribute('style', 'height: fit-content;');
                     this.quizContainer.setAttribute('style', 'justify-content: center;');
                     this.resultsScreen.classList.add('active');
+                    break;
+                case 'message':
+                    this.quizContainer.setAttribute('style', 'justify-content: center;');
+                    this.messageScreen.classList.add('active');
                     break;
             }
         }, 400);
@@ -272,4 +344,55 @@ function normalCelebration() {
         shapes: ['star'],
         colors: ['#FFE400', '#FFBD00', '#E89400', '#FFCA6C', '#FDFFB8']
     };
+
+    confetti({
+        ...defaults,
+        particleCount: 50,
+        scalar: 1.2,
+        shapes: ['star']
+    });
+
+    setTimeout(() => {
+        confetti({
+            ...defaults,
+            particleCount: 30,
+            scalar: 0.75,
+            shapes: ['star']
+        });
+    }, 150);
+}
+
+function grandCelebration() {
+    const duration = 3000;
+    const animationEnd = Date.now() + duration;
+    const defaults = {
+        startVelocity: 30,
+        spread: 360,
+        ticks: 60,
+        zIndex: 0,
+        shapes: ['star', 'circle']
+    };
+
+    const interval = setInterval(function() {
+        const timeLeft = animationEnd - Date.now();
+
+        if (timeLeft <= 0) {
+            return clearInterval(interval);
+        }
+
+        const particleCount = 50 * (timeLeft / duration);
+        
+        confetti({
+            ...defaults,
+            particleCount,
+            origin: { x: Math.random(), y: Math.random() - 0.2 },
+            colors: ['#FFE400', '#FFBD00', '#E89400', '#FFCA6C', '#FDFFB8']
+        });
+        confetti({
+            ...defaults,
+            particleCount,
+            origin: { x: Math.random(), y: Math.random() - 0.2 },
+            colors: ['#BA9C62', '#FFD700', '#FFA500', '#FF8C00']
+        });
+    }, 250);
 }

@@ -9,6 +9,7 @@
     <link rel="icon" href="/assets/logo-mini.svg">
     <script src="/scripts/config.js"></script>
     <script src="/scripts/route-guard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </head>
 <body>
 <div class="homepage">
@@ -162,6 +163,16 @@
         <div class="countdown-container">
           <h2 data-text-key="quiz-get-ready">Get Ready!</h2>
           <div class="countdown-number">3</div>
+        </div>
+      </div>
+
+      <div id="quiz-message-screen" class="screen">
+        <div class="quiz-message-container">
+          <h2 id="quiz-message-text"></h2>
+          <div id="quiz-message-button-container" class="quiz-buttons-container">
+            <button id="quiz-rules-btn" class="quiz-btn aleo-text" data-text-key="quiz-rules-button">Rules</button>
+            <button id="quiz-scoreboard-btn" class="quiz-btn aleo-text" data-text-key="quiz-scoreboard-button">Scoreboard</button>
+          </div>
         </div>
       </div>
     </div>

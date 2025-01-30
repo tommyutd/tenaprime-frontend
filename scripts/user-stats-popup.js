@@ -18,11 +18,27 @@ document.addEventListener('DOMContentLoaded', async function() {
         return;
     }
 
+    // Add profile button if profile exists
+    if (window.userData && window.userData.profile) {
+        const statsFooter = statsPopup.querySelector('.stats-footer');
+        const profileButton = document.createElement('button');
+        profileButton.className = 'stats-profile-button aleo-text';
+        profileButton.setAttribute('data-text-key', 'profile');
+        profileButton.textContent = 'Profile';
+        
+        // Insert profile button before logout button
+        statsFooter.insertBefore(profileButton, logoutButton);
+
+        // Add click handler for profile button
+        profileButton.addEventListener('click', function() {
+            window.location.href = '/exercises/profile';
+        });
+    }
+
     // Show popup when clicking avatar
     avatar.addEventListener('click', async function(e) {
         e.stopPropagation();
         
-        // Check if user is authenticated
         statsPopup.style.display = 'block';
         statsPopup.offsetHeight;
         statsPopup.classList.add('show');
@@ -40,10 +56,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     // Handle logout
     logoutButton.addEventListener('click', function() {
-        // Clear the login token
         localStorage.removeItem('login-token');
-        
-        // Redirect to index page
         window.location.href = '/';
     });
 

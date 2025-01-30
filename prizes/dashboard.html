@@ -124,48 +124,24 @@
     <div class="prizes-scoreboard">
       <div class="scoreboard-container">
         <div class="scoreboard-header">
-          <h2 data-text-key="scoreboard-title">Weekly Quiz Leaderboard</h2>
+          <div class="scoreboard-title-container">
+            <h2 data-text-key="scoreboard-title">Weekly Quiz Leaderboard</h2>
+            <select id="weekSelector" class="week-dropdown aleo-text">
+              <!-- Week options will be populated by JavaScript -->
+            </select>
+          </div>
         </div>
         
         <div class="scoreboard-content">
           <div class="scoreboard-table">
-            <div class="scoreboard-table-header">
+            <div class="scoreboard-table-header" id="scoreboard">
               <div class="rank-column" data-text-key="scoreboard-rank">Rank</div>
-              <div class="player-column" data-text-key="scoreboard-player">Player</div>
+              <div class="player-column" data-text-key="scoreboard-player">Phone Number</div>
               <div class="score-column" data-text-key="scoreboard-score">Score</div>
               <div class="time-column" data-text-key="scoreboard-time">Time</div>
             </div>
             <div class="scoreboard-table-body">
-              <div class="scoreboard-entry">
-                <div class="rank-column">1</div>
-                <div class="player-column">Abebe Kebede</div>
-                <div class="score-column">980</div>
-                <div class="time-column">1:45</div>
-              </div>
-              <div class="scoreboard-entry">
-                <div class="rank-column">2</div>
-                <div class="player-column">Sara Mohammed</div>
-                <div class="score-column">945</div>
-                <div class="time-column">2:01</div>
-              </div>
-              <div class="scoreboard-entry">
-                <div class="rank-column">3</div>
-                <div class="player-column">Daniel Tesfaye</div>
-                <div class="score-column">920</div>
-                <div class="time-column">1:58</div>
-              </div>
-              <div class="scoreboard-entry">
-                <div class="rank-column">4</div>
-                <div class="player-column">Hiwot Alemu</div>
-                <div class="score-column">895</div>
-                <div class="time-column">2:15</div>
-              </div>
-              <div class="scoreboard-entry">
-                <div class="rank-column">5</div>
-                <div class="player-column">Yonas Bekele</div>
-                <div class="score-column">870</div>
-                <div class="time-column">2:30</div>
-              </div>
+              <!-- Scoreboard entries will be inserted here by JavaScript -->
             </div>
           </div>
         </div>
@@ -283,6 +259,7 @@
 <script src="/scripts/user-stats-popup.js"></script>
 <script src="/scripts/sidebar-overlay.js"></script>
 <script src="/scripts/winners-carousel.js"></script>
+<script src="/scripts/scoreboard-viewer.js"></script>
 
 </body>
 </html> 

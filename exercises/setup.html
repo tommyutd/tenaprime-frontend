@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TenaPrime - Exercise Profile Setup</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/exercises/exercises.css">
+    <link rel="stylesheet" href="/exercises/setup.css">
+    <link rel="icon" href="/assets/logo-mini.svg">
+    <script src="/scripts/config.js"></script>
+    <script src="/scripts/route-guard.js"></script>
+</head>
+<body>
+<div class="homepage">
+    <div class="header">
+        <div class="logo">
+          <img src="/assets/logo.svg" alt="TenaPrime">
+        </div>
+        <div class="navigation aleo-text">
+          <div class="navigation-home">
+            <a href="/dashboard">
+              <div class="home-text" data-text-key="home-menu-item">Home</div>
+            </a>
+          </div>
+          
+          <div class="navigation-exercises">
+            <a href="/exercises">
+              <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+            </a>
+          </div>
+            
+          <div class="navigation-nutrition">
+            <a href="/nutrition">
+              <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+            </a>
+          </div>
+          
+          <div class="navigation-prizes">
+            <a href="/prizes">
+              <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
+            </a>
+          </div>
+    
+          <div class="navigation-about">
+            <a href="/about">
+              <div class="about-text" data-text-key="about-menu-item">About</div>
+            </a>
+          </div>
+        </div>
+        <div class="extra-navigation">
+          <div class="avatar">
+            <img src="/assets/avatar.svg" alt="Account">
+            <div class="stats-popup aleo-text" id="statsPopup">
+                <div class="stats-container">
+                    <div class="stats-header">
+                        <h2 data-text-key="stats-title">Your Stats</h2>
+                        <button class="close-button" id="closeStats">&times;</button>
+                    </div>
+                    <div class="stats-content">
+                        <div class="stats-item">
+                            <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                            <span class="stats-value">5 <span data-text-key="days">days</span></span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label" data-text-key="points-earned">Points Earned</span>
+                            <span class="stats-value">250 <span data-text-key="points">points</span></span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                            <span class="stats-value">12</span>
+                        </div>
+                    </div>
+                    <div class="stats-footer">
+                        <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="language-selector aleo-text">
+            <p>EN</p>
+            <div class="language-dropdown">
+              <div class="language-option" data-lang="en">English</div>
+              <div class="language-option" data-lang="አማ">አማርኛ</div>
+            </div>
+          </div>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <div class="ethiotelecom">
+          <div class="ethiotelecom-container">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+          </div>
+        </div>
+    </div>
+
+    <div class="profile-setup-container aleo-text">
+        <div class="setup-title">
+            <h1 data-text-key="setup-title">Exercise Profile Setup</h1>
+            <p data-text-key="setup-description">Let's customize your exercise experience</p>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-step active" data-step="1" role="button" tabindex="0">
+                <div class="step-number">1</div>
+                <div class="step-text">Basic Info</div>
+            </div>
+            <div class="progress-step" data-step="2" role="button" tabindex="0">
+                <div class="step-number">2</div>
+                <div class="step-text">Body Metrics</div>
+            </div>
+            <div class="progress-step" data-step="3" role="button" tabindex="0">
+                <div class="step-number">3</div>
+                <div class="step-text">Lifestyle</div>
+            </div>
+            <div class="progress-step" data-step="4" role="button" tabindex="0">
+                <div class="step-number">4</div>
+                <div class="step-text">Goals</div>
+            </div>
+            <div class="progress-step" data-step="5" role="button" tabindex="0">
+                <div class="step-number">5</div>
+                <div class="step-text">Schedule</div>
+            </div>
+            <div class="progress-step" data-step="6" role="button" tabindex="0">
+                <div class="step-number">6</div>
+                <div class="step-text">Preferences</div>
+            </div>
+            <div class="progress-fill"></div>
+        </div>
+
+        <form id="profileSetupForm" class="profile-form">
+            <!-- Step 1: Basic Information -->
+            <div class="form-step" data-step="1">
+                <h2>Basic Information</h2>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" min="13" max="120" required>
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="radio-group">
+                        <label class="radio-label card-style">
+                            <input type="radio" name="gender" value="male" required>
+                            <div class="card-content">
+                                <span class="icon">♂</span>
+                                <span class="text">Male</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="gender" value="female">
+                            <div class="card-content">
+                                <span class="icon">♀</span>
+                                <span class="text">Female</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2: Body Metrics -->
+            <div class="form-step hidden" data-step="2">
+                <h2>Body Metrics</h2>
+                <div class="form-group">
+                    <label for="weight">Weight (kg)</label>
+                    <input type="number" id="weight" name="weight" step="0.1" required>
+                </div>
+                <div class="form-group">
+                    <label for="height">Height (cm)</label>
+                    <input type="number" id="height" name="height" required>
+                </div>
+                <div class="form-group">
+                    <label for="bodyFat">Body Fat % (optional)</label>
+                    <input type="number" id="bodyFat" name="bodyFat" min="3" max="70" step="0.1">
+                </div>
+                <div class="bmi-result">
+                    <span>Your BMI: </span>
+                    <span id="bmiValue">--</span>
+                </div>
+            </div>
+
+            <!-- Step 3: Lifestyle -->
+            <div class="form-step hidden" data-step="3">
+                <h2>Lifestyle & Health</h2>
+                <div class="form-group">
+                    <label>Activity Level (Single Selection)</label>
+                    <div class="radio-group activity-group">
+                        <label class="radio-label card-style">
+                            <input type="radio" name="activityLevel" value="sedentary" required>
+                            <div class="card-content">
+                                <span class="icon">🛋️</span>
+                                <span class="text">Sedentary</span>
+                                <span class="description">Little or no exercise</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="activityLevel" value="light">
+                            <div class="card-content">
+                                <span class="icon">🚶</span>
+                                <span class="text">Light</span>
+                                <span class="description">Exercise 1-3 times/week</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="activityLevel" value="moderate">
+                            <div class="card-content">
+                                <span class="icon">🏃</span>
+                                <span class="text">Moderate</span>
+                                <span class="description">Exercise 3-5 times/week</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="activityLevel" value="active">
+                            <div class="card-content">
+                                <span class="icon">💪</span>
+                                <span class="text">Active</span>
+                                <span class="description">Exercise 6-7 times/week</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="activityLevel" value="very_active">
+                            <div class="card-content">
+                                <span class="icon">🏋️</span>
+                                <span class="text">Very Active</span>
+                                <span class="description">Intense exercise daily</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Dietary Preferences (Multiple Selection)</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="diet" value="vegan">
+                            <div class="card-content">
+                                <span class="icon">🌱</span>
+                                <span class="text">Vegan</span>
+                            </div>
+                        </label>
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="diet" value="vegetarian">
+                            <div class="card-content">
+                                <span class="icon">🥗</span>
+                                <span class="text">Vegetarian</span>
+                            </div>
+                        </label>
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="diet" value="keto">
+                            <div class="card-content">
+                                <span class="icon">🥑</span>
+                                <span class="text">Keto</span>
+                            </div>
+                        </label>
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="diet" value="paleo">
+                            <div class="card-content">
+                                <span class="icon">🍖</span>
+                                <span class="text">Paleo</span>
+                            </div>
+                        </label>
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="diet" value="gluten_free">
+                            <div class="card-content">
+                                <span class="icon">🌾</span>
+                                <span class="text">Gluten-Free</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="allergies">Allergies/Intolerances (Multiple Selection)</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="allergies" value="nuts">
+                            <div class="card-content">
+                                <span class="icon">🥜</span>
+                                <span class="text">Nuts</span>
+                            </div>
+                        </label>
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="allergies" value="dairy">
+                            <div class="card-content">
+                                <span class="icon">🥛</span>
+                                <span class="text">Dairy</span>
+                            </div>
+                        </label>
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="allergies" value="shellfish">
+                            <div class="card-content">
+                                <span class="icon">🦐</span>
+                                <span class="text">Shellfish</span>
+                            </div>
+                        </label>
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="allergies" value="eggs">
+                            <div class="card-content">
+                                <span class="icon">🥚</span>
+                                <span class="text">Eggs</span>
+                            </div>
+                        </label>
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="allergies" value="soy">
+                            <div class="card-content">
+                                <span class="icon">🫘</span>
+                                <span class="text">Soy</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="healthConditions">Health Conditions (Multiple Selection)</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="health" value="diabetes">
+                            <div class="card-content">
+                                <span class="icon">💉</span>
+                                <span class="text">Diabetes</span>
+                            </div>
+                        </label>
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="health" value="hypertension">
+                            <div class="card-content">
+                                <span class="icon">❤️</span>
+                                <span class="text">Hypertension</span>
+                            </div>
+                        </label>
+                        <label class="checkbox-label card-style">
+                            <input type="checkbox" name="health" value="heart_disease">
+                            <div class="card-content">
+                                <span class="icon">💗</span>
+                                <span class="text">Heart Disease</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4: Goals -->
+            <div class="form-step hidden" data-step="4">
+                <h2>Your Goals</h2>
+                <div class="form-group">
+                    <label>Primary Goal</label>
+                    <div class="radio-group goals-group">
+                        <label class="radio-label goal-card">
+                            <input type="radio" name="primary_goal" value="weightLoss" required>
+                            <div class="goal-content">
+                                <div class="goal-icon">
+                                    <span>⚖️</span>
+                                </div>
+                                <div class="goal-info">
+                                    <h3>Weight Loss</h3>
+                                    <p>Reduce body fat while maintaining muscle mass</p>
+                                </div>
+                                <div class="goal-arrow">
+                                    <span>→</span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="radio-label goal-card">
+                            <input type="radio" name="primary_goal" value="muscleGain">
+                            <div class="goal-content">
+                                <div class="goal-icon">
+                                    <span>💪</span>
+                                </div>
+                                <div class="goal-info">
+                                    <h3>Muscle Gain</h3>
+                                    <p>Build strength and increase muscle mass</p>
+                                </div>
+                                <div class="goal-arrow">
+                                    <span>→</span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="radio-label goal-card">
+                            <input type="radio" name="primary_goal" value="maintenance">
+                            <div class="goal-content">
+                                <div class="goal-icon">
+                                    <span>⚡</span>
+                                </div>
+                                <div class="goal-info">
+                                    <h3>Maintenance</h3>
+                                    <p>Maintain current weight and improve body composition</p>
+                                </div>
+                                <div class="goal-arrow">
+                                    <span>→</span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="radio-label goal-card">
+                            <input type="radio" name="primary_goal" value="performance">
+                            <div class="goal-content">
+                                <div class="goal-icon">
+                                    <span>🏃</span>
+                                </div>
+                                <div class="goal-info">
+                                    <h3>Performance</h3>
+                                    <p>Improve athletic performance and endurance</p>
+                                </div>
+                                <div class="goal-arrow">
+                                    <span>→</span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="radio-label goal-card">
+                            <input type="radio" name="primary_goal" value="wellness">
+                            <div class="goal-content">
+                                <div class="goal-icon">
+                                    <span>🌟</span>
+                                </div>
+                                <div class="goal-info">
+                                    <h3>Wellness</h3>
+                                    <p>Focus on overall health and longevity</p>
+                                </div>
+                                <div class="goal-arrow">
+                                    <span>→</span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 5: Exercise Schedule -->
+            <div class="form-step hidden" data-step="5">
+                <h2>Exercise Schedule</h2>
+                
+                <div class="form-group">
+                    <label>How many days per week can you commit to exercising?</label>
+                    <div class="radio-group activity-group">
+                        <label class="radio-label card-style">
+                            <input type="radio" name="exercise_frequency" value="three_day" required>
+                            <div class="card-content">
+                                <span class="icon">3️⃣</span>
+                                <span class="text">3 Days</span>
+                                <span class="description">Perfect for beginners, allows full recovery between sessions</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="exercise_frequency" value="four_day">
+                            <div class="card-content">
+                                <span class="icon">4️⃣</span>
+                                <span class="text">4 Days</span>
+                                <span class="description">Balanced approach, suitable for most fitness levels</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="exercise_frequency" value="five_day">
+                            <div class="card-content">
+                                <span class="icon">5️⃣</span>
+                                <span class="text">5 Days</span>
+                                <span class="description">Intensive program for dedicated fitness enthusiasts</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>What workout intensity level are you comfortable with?</label>
+                    <div class="radio-group activity-group">
+                        <label class="radio-label card-style">
+                            <input type="radio" name="exercise_intensity" value="beginner" required>
+                            <div class="card-content">
+                                <span class="icon">🌱</span>
+                                <span class="text">Beginner</span>
+                                <span class="description">Focus on form and building basic fitness</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="exercise_intensity" value="intermediate">
+                            <div class="card-content">
+                                <span class="icon">⚡</span>
+                                <span class="text">Intermediate</span>
+                                <span class="description">Moderate intensity with challenging exercises</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="exercise_intensity" value="advanced">
+                            <div class="card-content">
+                                <span class="icon">🔥</span>
+                                <span class="text">Advanced</span>
+                                <span class="description">High-intensity workouts for experienced athletes</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 6: Workout Preferences -->
+            <div class="form-step hidden" data-step="6">
+                <h2>Workout Preferences</h2>
+                
+                <!-- Weight Loss Options -->
+                <div class="preference-section form-group" id="weightLossPreferences" style="display: none;">
+                    <label>What type of workouts do you prefer for <b>weight loss</b>?</label>
+                    <div class="radio-group activity-group">
+                        <label class="radio-label card-style">
+                            <input type="radio" name="weight_loss_preference" value="cardio">
+                            <div class="card-content">
+                                <span class="icon">🏃</span>
+                                <span class="text">Cardio</span>
+                                <span class="description">Focus on running, cycling, and endurance training</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="weight_loss_preference" value="hiit">
+                            <div class="card-content">
+                                <span class="icon">⚡</span>
+                                <span class="text">HIIT</span>
+                                <span class="description">High-intensity interval training for maximum calorie burn</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="weight_loss_preference" value="mixed">
+                            <div class="card-content">
+                                <span class="icon">🔄</span>
+                                <span class="text">Mixed</span>
+                                <span class="description">Combination of cardio and strength training</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Muscle Gain Options -->
+                <div class="preference-section form-group" id="muscleGainPreferences" style="display: none;">
+                    <label>What type of strength training do you prefer for <b>muscle gain</b>?</label>
+                    <div class="radio-group activity-group">
+                        <label class="radio-label card-style">
+                            <input type="radio" name="muscle_gain_preference" value="full_body">
+                            <div class="card-content">
+                                <span class="icon">💪</span>
+                                <span class="text">Full Body</span>
+                                <span class="description">Complete body workouts in each session</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="muscle_gain_preference" value="split">
+                            <div class="card-content">
+                                <span class="icon">📋</span>
+                                <span class="text">Split Routine</span>
+                                <span class="description">Different muscle groups on different days</span>
+                            </div>
+                        </label>
+                    </div>
+
+                    <label class="mt-4">Workout Environment</label>
+                    <div class="radio-group activity-group">
+                        <label class="radio-label card-style">
+                            <input type="radio" name="workout_environment" value="gym">
+                            <div class="card-content">
+                                <span class="icon">🏋️</span>
+                                <span class="text">Gym</span>
+                                <span class="description">With equipment access</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="workout_environment" value="home">
+                            <div class="card-content">
+                                <span class="icon">🏠</span>
+                                <span class="text">Home</span>
+                                <span class="description">Minimal equipment needed</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Performance Options -->
+                <div class="preference-section form-group" id="performancePreferences" style="display: none;">
+                    <label>What aspect of <b>performance</b> would you like to focus on?</label>
+                    <div class="radio-group activity-group">
+                        <label class="radio-label card-style">
+                            <input type="radio" name="performance_preference" value="endurance">
+                            <div class="card-content">
+                                <span class="icon">🏃</span>
+                                <span class="text">Endurance</span>
+                                <span class="description">Improve stamina and cardiovascular fitness</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="performance_preference" value="strength">
+                            <div class="card-content">
+                                <span class="icon">🏋️</span>
+                                <span class="text">Strength</span>
+                                <span class="description">Focus on power and muscle strength</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="performance_preference" value="agility">
+                            <div class="card-content">
+                                <span class="icon">⚡</span>
+                                <span class="text">Agility</span>
+                                <span class="description">Improve speed and coordination</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Maintenance Options -->
+                <div class="preference-section form-group" id="maintenancePreferences" style="display: none;">
+                    <label>What type of <b>maintenance</b> routine do you prefer?</label>
+                    <div class="radio-group activity-group">
+                        <label class="radio-label card-style">
+                            <input type="radio" name="maintenance_preference" value="balanced">
+                            <div class="card-content">
+                                <span class="icon">⚖️</span>
+                                <span class="text">Balanced Training</span>
+                                <span class="description">Equal focus on strength and cardio to maintain current fitness</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="maintenance_preference" value="strength_focused">
+                            <div class="card-content">
+                                <span class="icon">💪</span>
+                                <span class="text">Strength Maintenance</span>
+                                <span class="description">Focus on maintaining muscle mass and strength</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="maintenance_preference" value="cardio_focused">
+                            <div class="card-content">
+                                <span class="icon">🏃</span>
+                                <span class="text">Cardio Maintenance</span>
+                                <span class="description">Emphasis on maintaining cardiovascular fitness</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Wellness Options -->
+                <div class="preference-section form-group" id="wellnessPreferences" style="display: none;">
+                    <label>What aspects of <b>wellness</b> would you like to focus on?</label>
+                    <div class="radio-group activity-group">
+                        <label class="radio-label card-style">
+                            <input type="radio" name="wellness_preference" value="mind_body">
+                            <div class="card-content">
+                                <span class="icon">🧘</span>
+                                <span class="text">Mind-Body Balance</span>
+                                <span class="description">Focus on yoga, meditation, and flexibility</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="wellness_preference" value="functional">
+                            <div class="card-content">
+                                <span class="icon">🌟</span>
+                                <span class="text">Functional Fitness</span>
+                                <span class="description">Improve daily movement and overall mobility</span>
+                            </div>
+                        </label>
+                        <label class="radio-label card-style">
+                            <input type="radio" name="wellness_preference" value="low_impact">
+                            <div class="card-content">
+                                <span class="icon">🌊</span>
+                                <span class="text">Low Impact</span>
+                                <span class="description">Gentle exercises focusing on joint health and mobility</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-navigation">
+                <button type="button" class="btn-secondary" id="prevBtn" disabled>Previous</button>
+                <button type="button" class="btn-primary" id="nextBtn">Next</button>
+                <button type="submit" class="btn-primary" id="submitBtn" style="display: none;">Complete Setup</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer aleo-text">
+        <div class="footer-content">
+        <div class="footer-sections">
+            <div class="footer-section">
+            <h3 data-text-key="footer-quick-links">Quick Links</h3>
+            <ul>
+                <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
+                <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
+                <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
+                <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
+            </ul>
+            </div>
+            <div class="footer-section">
+            <h3 data-text-key="footer-information">Information</h3>
+            <ul>
+                <li><a href="/about" data-text-key="about-menu-item">About</a></li>
+                <li><a href="#" data-text-key="faq">FAQ</a></li>
+                <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
+                <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
+            </ul>
+            </div>
+            <div class="footer-section">
+            <h3 data-text-key="footer-contact">Contact</h3>
+            <ul>
+                <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+                <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+                <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+                <li><a href="#" data-text-key="support">Support</a></li>
+            </ul>
+            </div>
+            <div class="footer-section footer-logo">
+            <img src="/assets/logo.svg" alt="TenaPrime">
+            <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+            <div class="footer-social">
+                <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
+                <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
+            </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 TenaPrime. All rights reserved.</p>
+            <div class="footer-ethiotelecom">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="sidebar-overlay"></div>
+<div class="sidebar aleo-text" id="sidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-logo">
+      <img src="/assets/logo.svg" alt="TenaPrime">
+    </div>
+    <button class="sidebar-close">&times;</button>
+  </div>
+  
+  <div class="sidebar-language-selector">
+    <div class="language-options-container">
+      <div class="sidebar-language-option" data-lang="en">
+        <span class="language-text">English</span>
+      </div>
+      <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+        <span class="language-text">አማርኛ</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-navigation">
+    <a href="/dashboard" class="sidebar-item">
+      <div data-text-key="home-menu-item">Home</div>
+    </a>
+    <a href="/exercises" class="sidebar-item">
+      <div data-text-key="exercises-menu-item">Exercises</div>
+    </a>
+    <a href="/nutrition" class="sidebar-item">
+      <div data-text-key="nutrition-menu-item">Nutrition</div>
+    </a>
+    <a href="/prizes" class="sidebar-item">
+      <div data-text-key="prizes-menu-item">Prizes</div>
+    </a>
+    <a href="/about" class="sidebar-item">
+      <div data-text-key="about-menu-item">About</div>
+    </a>
+  </div>
+
+  <div class="sidebar-footer">
+    <a href="#" class="sidebar-item">
+      <div data-text-key="tandc">Terms & Conditions</div>
+    </a>
+    <a href="#" class="sidebar-item">
+      <div data-text-key="faq">FAQ</div>
+    </a>
+    <a href="#" class="sidebar-item">
+      <div data-text-key="privacy-policy">Privacy Policy</div>
+    </a>
+    <a href="#" class="sidebar-item">
+      <div data-text-key="contact-us">Contact Us</div>
+    </a>
+  </div>
+</div>
+
+<script src="/scripts/auth-service.js"></script>
+<script src="/scripts/strings-loader.js"></script>
+<script src="/scripts/language-selector.js"></script>
+<script src="/scripts/user-stats-popup.js"></script>
+<script src="/scripts/sidebar-overlay.js"></script>
+<script src="/scripts/exercise-setup.js"></script>
+
+</body>
+</html> 

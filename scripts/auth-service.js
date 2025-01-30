@@ -1,7 +1,8 @@
 // Global states
 window.userData = {
     user: null,
-    isTokenValid: false
+    isTokenValid: false,
+    profile: null
 };
 
 // Auth state management
@@ -29,31 +30,46 @@ window.authState = {
                 if (!token) {
                     window.userData.isTokenValid = false;
                     window.userData.user = null;
+                    window.userData.profile = null;
                     if (window.location.pathname.includes('/dashboard')) {
                         window.location.href = '/';
                     }
                     return false;
                 }
         
-                const response = await fetch(`${window.CONFIG.API_URL}/subscriber/me`, {
+                const userResponse = await fetch(`${window.CONFIG.API_URL}/subscriber/me`, {
                     headers: {
                         'Authorization': `Bearer ${token}`,
                         'Content-Type': 'application/json'
                     }
                 });
         
-                if (!response.ok) {
+                if (!userResponse.ok) {
                     throw new Error('Token validation failed');
                 }
         
-                const userData = await response.json();
+                const userData = await userResponse.json();
                 window.userData.isTokenValid = true;
                 window.userData.user = userData;
-                
 
-                //if (!window.location.pathname.includes('/dashboard')) {
-                //    window.location.href = '/dashboard';
-                //}
+                // Fetch profile data
+                try {
+                    const profileResponse = await fetch(`${window.CONFIG.API_URL}/profile`, {
+                        headers: {
+                            'Authorization': `Bearer ${token}`
+                        }
+                    });
+
+                    if (profileResponse.ok) {
+                        const { profile } = await profileResponse.json();
+                        window.userData.profile = profile;
+                    } else {
+                        window.userData.profile = null;
+                    }
+                } catch (error) {
+                    console.error('Error fetching profile:', error);
+                    window.userData.profile = null;
+                }
 
                 updateLanguage(window.userData.user.user.lang);
         
@@ -62,6 +78,7 @@ window.authState = {
                 localStorage.removeItem('login-token');
                 window.userData.isTokenValid = false;
                 window.userData.user = null;
+                window.userData.profile = null;
                 
                 if (window.location.pathname.includes('/dashboard')) {
                     window.location.href = '/';
