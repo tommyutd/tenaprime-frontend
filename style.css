@@ -903,6 +903,108 @@ input[type="number"] {
   opacity: 1;
 }
 
+.prompt-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.prompt-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.prompt-content {
+  background: #121518;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+  border: 1px solid rgba(186, 156, 98, 0.3);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.prompt-content.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.prompt-container {
+  width: 100%;
+}
+
+.prompt-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: rgba(186, 156, 98, 1);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.prompt-title {
+  color: rgba(186, 156, 98, 1);
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.prompt-message {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.prompt-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.prompt-buttons button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.prompt-cancel {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.prompt-cancel:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.prompt-confirm {
+  background: rgba(186, 156, 98, 1);
+  border: 1px solid rgba(186, 156, 98, 1);
+  color: #121518;
+}
+
+.prompt-confirm:hover {
+  background: rgb(226, 196, 138);
+  border-color: rgb(226, 196, 138);
+}
+
 .login-submit.loading {
   position: relative;
   color: transparent;

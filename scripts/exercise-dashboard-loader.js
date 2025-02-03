@@ -1,4 +1,9 @@
+// Store shared variables in a higher scope
+let workoutPlanHeading;
+let workoutPlanInterval;
+
 document.addEventListener('DOMContentLoaded', async function() {
+    workoutPlanHeading = document.querySelector('.workout-plan-heading');
     const personalizationPrompt = document.querySelector('.personalization-prompt');
     const promptTitle = document.querySelector('[data-text-key="personalization-title"]');
     const promptDescription = document.querySelector('[data-text-key="personalization-description"]');
@@ -17,12 +22,20 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (window.userData.profile) {
             // Profile exists - hide the prompt
             personalizationPrompt.style.display = 'none';
+            number_of_weeks = 0;
+
+            // Initial check when page loads
+            checkWorkoutPlan();
+
+            // Set up interval to check every minute
+            workoutPlanInterval = setInterval(checkWorkoutPlan, 60000);
         } else {
             // No profile exists - show the prompt with default text
             promptTitle.textContent = 'Personalize Your Experience';
             promptDescription.textContent = 'Get customized workout recommendations by completing your fitness profile.';
             promptButton.textContent = 'Setup Profile';
             personalizationPrompt.classList.add('show');
+            workoutPlanHeading.style.display = 'none';
         }
     } catch (error) {
         console.error('Error checking profile status:', error);
@@ -130,4 +143,63 @@ function hideExercisePopup(popup) {
     setTimeout(() => {
         popup.style.display = 'none';
     }, 300);
+}
+
+async function checkWorkoutPlan() {
+    try {
+        const token = localStorage.getItem('login-token');
+        const response = await fetch(`${window.CONFIG.API_URL}/profile/workout-plan`, {
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }
+        });
+
+        if (response.ok) {
+            const workoutPlan = await response.json();
+            if (!workoutPlan || !workoutPlan.workoutPlan) {
+                // No workout plan exists - hide the workout plan section
+                workoutPlanHeading.style.display = 'none';
+                return;
+            }
+            
+            // Workout plan exists - show the workout plan section
+            workoutPlanHeading.style.display = 'block';
+            
+            const headingText = workoutPlanHeading.querySelector('#workout-plan-heading-title');
+            const descriptionText = workoutPlanHeading.querySelector('#workout-plan-heading-description');
+            const button = workoutPlanHeading.querySelector('.workout-plan-view-button');
+
+            if (workoutPlan.workoutPlan.number_of_weeks_per_phase === 0) {
+                headingText.textContent = 'Generating Your Plan...';
+                descriptionText.textContent = 'Please wait while we create your personalized workout plan.';
+
+                headingText.style.color = '#36454F';
+                descriptionText.style.color = '#36454F';
+                
+                button.disabled = true;
+                button.innerHTML = `
+                    <div class="loading-spinner"></div>
+                    <span>Loading</span>
+                `;
+            } else {
+                headingText.textContent = 'Your Personalized Plan';
+                descriptionText.textContent = 'We\'ve created a customized workout plan based on your fitness profile.';
+
+                headingText.style.color = '#121518';
+                descriptionText.style.color = '#121518';
+                
+                button.disabled = false;
+                button.innerHTML = `
+                    Start<br>Your<br>Workout
+                `;
+                // Clear interval once plan is generated
+                clearInterval(workoutPlanInterval);
+            }
+        } else {
+            workoutPlanHeading.style.display = 'none';
+        }
+    } catch (error) {
+        console.error('Error checking workout plan:', error);
+        workoutPlanHeading.style.display = 'none';
+    }
 }

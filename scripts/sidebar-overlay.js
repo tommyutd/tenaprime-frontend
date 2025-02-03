@@ -74,3 +74,96 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
   });
 });
+
+function showToast(message, error = false) {
+  const errorToast = document.createElement('div');
+  errorToast.className = 'error-toast-overlay aleo-text';
+  
+  const errorToastNotification = document.createElement('div');
+  errorToastNotification.className = 'error-toast-notification';
+  
+  const messageSpan = document.createElement('span');
+  messageSpan.textContent = message;
+  
+  errorToastNotification.appendChild(messageSpan);
+  errorToast.appendChild(errorToastNotification);
+  document.body.appendChild(errorToast);
+
+  if (error) {
+      errorToastNotification.style.backgroundColor = '#ff4444';
+  } else {
+      errorToastNotification.style.backgroundColor = '#BA9C62';
+  }
+
+  // Show toast with animation
+  errorToast.style.display = 'flex';
+  requestAnimationFrame(() => {
+      errorToast.classList.add('show');
+      errorToastNotification.classList.add('show');
+  });
+  
+  // Hide and remove toast after 5 seconds
+  setTimeout(() => {
+      errorToastNotification.classList.remove('show');
+      errorToast.classList.remove('show');
+      setTimeout(() => {
+          try {
+              document.body.removeChild(errorToast);
+          } catch (error) {}
+      }, 300);
+  }, 5000);
+  
+  // Add click event listener to close toast on click
+  errorToast.addEventListener('click', function(e) {
+      if (e.target === errorToast) {
+          errorToastNotification.classList.remove('show');
+          errorToast.classList.remove('show');
+          setTimeout(() => {
+              document.body.removeChild(errorToast);
+          }, 300);
+      }
+  });
+}
+
+function showPrompt(title, message) {
+  return new Promise((resolve) => {
+      const template = document.getElementById('prompt-template');
+      const clone = template.content.cloneNode(true);
+      document.body.appendChild(clone);
+
+      const overlay = document.querySelector('.prompt-overlay');
+      const content = overlay.querySelector('.prompt-content');
+      const closeBtn = overlay.querySelector('.prompt-close');
+      const cancelBtn = overlay.querySelector('.prompt-cancel');
+      const confirmBtn = overlay.querySelector('.prompt-confirm');
+      const titleEl = overlay.querySelector('.prompt-title');
+      const messageEl = overlay.querySelector('.prompt-message');
+
+      titleEl.textContent = title;
+      messageEl.textContent = message;
+
+      setTimeout(() => {
+          overlay.classList.add('show');
+          content.classList.add('show');
+      }, 10);
+
+      function closePrompt(result) {
+          overlay.classList.remove('show');
+          content.classList.remove('show');
+          setTimeout(() => {
+              document.body.removeChild(overlay);
+              resolve(result);
+          }, 300);
+      }
+
+      closeBtn.addEventListener('click', () => closePrompt(false));
+      cancelBtn.addEventListener('click', () => closePrompt(false));
+      confirmBtn.addEventListener('click', () => closePrompt(true));
+      overlay.addEventListener('click', (e) => {
+          if (e.target === overlay) closePrompt(false);
+      });
+  });
+}
+
+window.showToast = showToast;
+window.showPrompt = showPrompt;

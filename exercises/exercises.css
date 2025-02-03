@@ -805,45 +805,6 @@
   color: #BA9C62;
 }
 
-.error-toast-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1001;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    text-align: center;
-}
-
-.error-toast-overlay.show {
-    opacity: 1;
-}
-
-.error-toast-notification {
-    position: fixed;
-    bottom: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ff4444;
-    color: white;
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-    opacity: 0;
-}
-
-.error-toast-notification.show {
-    bottom: 40px;
-    opacity: 1;
-}
-
 .personalization-prompt {
   width: 80vw;
   background: rgba(186, 156, 98, 0.1);
@@ -886,4 +847,141 @@
   white-space: nowrap;
   padding: 1rem 2rem;
   font-size: 1rem;
+}
+
+.workout-plan-heading {
+  display: none;
+}
+
+.workout-plan-heading-container {
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 2.5rem;
+    background: linear-gradient(
+        to right,
+        rgba(186, 156, 98, 1) 0%,
+        rgba(186, 156, 98, 0.5) 60%,
+        rgba(186, 156, 98, 0) 100%
+    );
+    box-sizing: border-box;
+    gap: 5rem;
+    margin-top: 2rem;
+    padding-left: 5rem;
+  }
+  
+  /*
+  .workout-plan-heading-image {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0px;
+  }
+  
+  .workout-plan-heading-image img {
+    height: 100%;
+    width: auto;
+  }
+*/
+  
+  .workout-plan-heading-text-container {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .workout-plan-heading-text h1 {
+    font-size: 2.5rem;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .workout-plan-heading-button-container {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    box-sizing: border-box;
+  }
+
+  .workout-plan-heading-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .workout-plan-heading-button h2 {
+    color: #FFFFFF;
+  }
+  
+  .workout-plan-heading-button button {
+      /*min-width: 160px;*/
+      width: 12rem;
+      height: 12rem;
+      padding: 20px 20px;
+      font-size: 25px;
+      font-weight: 600;
+      border: none;
+      border-radius: 1.5rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      text-align: center;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      background-image: url('/assets/plan-button.jpeg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .workout-plan-heading-button button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+    color: #BA9C62;
+  }
+
+.loading-spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffffff;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.workout-plan-view-button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.workout-plan-view-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar-day.disabled {
+    cursor: not-allowed;
 }

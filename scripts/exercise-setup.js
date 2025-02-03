@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (validateCurrentStep()) {
             navigateToStep(currentStep + 1);
         } else {
-            showToast('Please fill in all required fields', true);
+            window.showToast('Please fill in all required fields', true);
         }
     });
 
@@ -198,9 +198,13 @@ document.addEventListener('DOMContentLoaded', async function() {
     submitBtn.addEventListener('click', async (e) => {
         e.preventDefault();
         if (!validateCurrentStep()) {
-            showToast('Please fill in all required fields', true);
+            window.showToast('Please fill in all required fields', true);
             return;
         }
+
+        // Add loading state and disable button
+        submitBtn.classList.add('loading');
+        submitBtn.disabled = true;
 
         const formData = new FormData(form);
         const profileData = {
@@ -221,65 +225,65 @@ document.addEventListener('DOMContentLoaded', async function() {
                 healthConditions: Array.from(formData.getAll('health'))
             },
             goals: {
-                primaryGoal: formData.get('primary_goal'),
-                frequency: formData.get('exercise_frequency'),
-                intensity: formData.get('exercise_intensity'),
                 preferences: (() => {
                     const goal = formData.get('primary_goal');
                     switch (goal) {
-                        case 'weightLoss':
-                            return {
-                                weightLoss: formData.get('weight_loss_preference'),
-                                muscleGain: null,
-                                performance: null,
-                                maintenance: null,
-                                wellness: null
-                            };
                         case 'muscleGain':
                             return {
-                                weightLoss: null,
                                 muscleGain: {
                                     type: formData.get('muscle_gain_preference'),
                                     environment: formData.get('workout_environment')
                                 },
+                                weightLoss: null,
+                                performance: null,
+                                maintenance: null,
+                                wellness: null
+                            };
+                        case 'weightLoss':
+                            return {
+                                muscleGain: null,
+                                weightLoss: formData.get('weight_loss_preference'),
                                 performance: null,
                                 maintenance: null,
                                 wellness: null
                             };
                         case 'performance':
                             return {
-                                weightLoss: null,
                                 muscleGain: null,
+                                weightLoss: null,
                                 performance: formData.get('performance_preference'),
                                 maintenance: null,
                                 wellness: null
                             };
                         case 'maintenance':
                             return {
-                                weightLoss: null,
                                 muscleGain: null,
+                                weightLoss: null,
                                 performance: null,
                                 maintenance: formData.get('maintenance_preference'),
                                 wellness: null
                             };
                         case 'wellness':
                             return {
-                                weightLoss: null,
                                 muscleGain: null,
+                                weightLoss: null,
                                 performance: null,
                                 maintenance: null,
                                 wellness: formData.get('wellness_preference')
                             };
                         default:
                             return {
-                                weightLoss: null,
                                 muscleGain: null,
+                                weightLoss: null,
                                 performance: null,
                                 maintenance: null,
                                 wellness: null
                             };
                     }
-                })()
+                })(),
+                primaryGoal: formData.get('primary_goal'),
+                frequency: formData.get('exercise_frequency'),
+                intensity: formData.get('exercise_intensity')
             }
         };
 
@@ -295,7 +299,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             });
 
             if (response.ok) {
-                showToast('Profile saved successfully!', false);
+                window.showToast('Profile saved successfully!', false);
                 setTimeout(() => {
                     window.location.href = '/exercises/dashboard';
                 }, 1500);
@@ -303,60 +307,13 @@ document.addEventListener('DOMContentLoaded', async function() {
                 throw new Error('Failed to save profile');
             }
         } catch (error) {
-            showToast('Error saving profile. Please try again.', true);
+            window.showToast('Error saving profile. Please try again.', true);
             console.error('Error:', error);
+            // Remove loading state and re-enable button on error
+            submitBtn.classList.remove('loading');
+            submitBtn.disabled = false;
         }
     });
-
-    function showToast(message, error = false) {
-        const errorToast = document.createElement('div');
-        errorToast.className = 'error-toast-overlay aleo-text';
-        
-        const errorToastNotification = document.createElement('div');
-        errorToastNotification.className = 'error-toast-notification';
-        
-        const messageSpan = document.createElement('span');
-        messageSpan.textContent = message;
-        
-        errorToastNotification.appendChild(messageSpan);
-        errorToast.appendChild(errorToastNotification);
-        document.body.appendChild(errorToast);
-
-        if (error) {
-            errorToastNotification.style.backgroundColor = '#ff4444';
-        } else {
-            errorToastNotification.style.backgroundColor = '#BA9C62';
-        }
-
-        // Show toast with animation
-        errorToast.style.display = 'flex';
-        requestAnimationFrame(() => {
-            errorToast.classList.add('show');
-            errorToastNotification.classList.add('show');
-        });
-        
-        // Hide and remove toast after 5 seconds
-        setTimeout(() => {
-            errorToastNotification.classList.remove('show');
-            errorToast.classList.remove('show');
-            setTimeout(() => {
-                try {
-                    document.body.removeChild(errorToast);
-                } catch (error) {}
-            }, 300);
-        }, 5000);
-        
-        // Add click event listener to close toast on click
-        errorToast.addEventListener('click', function(e) {
-            if (e.target === errorToast) {
-                errorToastNotification.classList.remove('show');
-                errorToast.classList.remove('show');
-                setTimeout(() => {
-                    document.body.removeChild(errorToast);
-                }, 300);
-            }
-        });
-    }
 
     async function loadProfile() {
         try {
@@ -469,7 +426,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             });
         } catch (error) {
             console.error('Error loading profile:', error);
-            showToast('Error loading profile. Please try again.', true);
+            window.showToast('Error loading profile. Please try again.', true);
         }
     }
 
