@@ -11,7 +11,7 @@ class WorkoutCalendar {
     async init() {
         try {
             const token = localStorage.getItem('login-token');
-            const response = await fetch(`${window.CONFIG.API_URL}/profile/workout-plan`, {
+            const response = await fetch(`${window.CONFIG.API_URL}/profile/workout`, {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }
@@ -329,7 +329,7 @@ class WorkoutCalendar {
     async regenerateWorkout() {
         try {
             const token = localStorage.getItem('login-token');
-            const response = await fetch(`${window.CONFIG.API_URL}/profile/regen-workout`, {
+            const response = await fetch(`${window.CONFIG.API_URL}/profile/workout/regenerate`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`
@@ -350,7 +350,7 @@ class WorkoutCalendar {
     async resetWorkoutProgress() {
         try {
             const token = localStorage.getItem('login-token');
-            const response = await fetch(`${window.CONFIG.API_URL}/profile/reset-workout`, {
+            const response = await fetch(`${window.CONFIG.API_URL}/profile/workout/reset`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`

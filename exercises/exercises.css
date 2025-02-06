@@ -806,47 +806,62 @@
 }
 
 .personalization-prompt {
-  width: 80vw;
-  background: rgba(186, 156, 98, 0.1);
-  border-radius: 1rem;
-  margin: 2rem 0;
-  padding: 2rem;
-  box-sizing: border-box;
-  display: none;
+    width: 80vw;
+    background: rgba(186, 156, 98, 0.1);
+    border-radius: 1rem;
+    margin: 2rem 0;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: none;
+    color: white;
 }
 
 .personalization-prompt.show {
-  display: block;
+    display: block;
 }
 
 .prompt-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }
 
 .prompt-text {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 .prompt-text h2 {
-  color: rgba(186, 156, 98, 1);
-  margin: 0 0 0.5rem 0;
-  font-size: 1.5rem;
+    color: rgba(186, 156, 98, 1);
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    opacity: 1;
 }
 
 .prompt-text p {
-  color: white;
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.5;
+    color: white;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    opacity: 1;
 }
 
-.prompt-button .btn-primary {
-  white-space: nowrap;
-  padding: 1rem 2rem;
-  font-size: 1rem;
+.prompt-button .complete-setup-btn {
+    white-space: nowrap;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: rgba(186, 156, 98, 1);
+    color: #121518;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.prompt-button .complete-setup-btn:hover {
+    background-color: rgba(186, 156, 98, 0.8);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
 }
 
 .workout-plan-heading {

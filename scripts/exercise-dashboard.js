@@ -5,9 +5,9 @@ let workoutPlanInterval;
 document.addEventListener('DOMContentLoaded', async function() {
     workoutPlanHeading = document.querySelector('.workout-plan-heading');
     const personalizationPrompt = document.querySelector('.personalization-prompt');
-    const promptTitle = document.querySelector('[data-text-key="personalization-title"]');
-    const promptDescription = document.querySelector('[data-text-key="personalization-description"]');
-    const promptButton = document.querySelector('[data-text-key="personalization-button"]');
+    const promptTitle = document.getElementById('personalization-title');
+    const promptDescription = document.getElementById('personalization-description');
+    const promptButton = document.getElementById('personalization-button');
     
     try {
         // Wait for auth state to be initialized
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
         if (window.userData.profile) {
             // Profile exists - hide the prompt
-            personalizationPrompt.style.display = 'none';
+            personalizationPrompt.classList.remove('show');
             number_of_weeks = 0;
 
             // Initial check when page loads
@@ -31,9 +31,6 @@ document.addEventListener('DOMContentLoaded', async function() {
             workoutPlanInterval = setInterval(checkWorkoutPlan, 60000);
         } else {
             // No profile exists - show the prompt with default text
-            promptTitle.textContent = 'Personalize Your Experience';
-            promptDescription.textContent = 'Get customized workout recommendations by completing your fitness profile.';
-            promptButton.textContent = 'Setup Profile';
             personalizationPrompt.classList.add('show');
             workoutPlanHeading.style.display = 'none';
         }
@@ -148,7 +145,7 @@ function hideExercisePopup(popup) {
 async function checkWorkoutPlan() {
     try {
         const token = localStorage.getItem('login-token');
-        const response = await fetch(`${window.CONFIG.API_URL}/profile/workout-plan`, {
+        const response = await fetch(`${window.CONFIG.API_URL}/profile/workout`, {
             headers: {
                 'Authorization': `Bearer ${token}`
             }

@@ -54,7 +54,7 @@ window.authState = {
 
                 // Fetch profile data
                 try {
-                    const profileResponse = await fetch(`${window.CONFIG.API_URL}/profile`, {
+                    const profileResponse = await fetch(`${window.CONFIG.API_URL}/profile2`, {
                         headers: {
                             'Authorization': `Bearer ${token}`
                         }
