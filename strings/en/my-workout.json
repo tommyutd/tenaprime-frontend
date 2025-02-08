@@ -1,0 +1,50 @@
+[
+    {
+        "id": "toast-workout-regen",
+        "en": "Workout regenerated successfully!"
+    },
+    {
+        "id": "toast-workout-regen-error",
+        "en": "Failed to regenerate workout. Please try again."
+    },
+    {
+        "id": "toast-workout-reset",
+        "en": "Progress reset successfully!"
+    },
+    {
+        "id": "toast-workout-reset-error",
+        "en": "Failed to reset progress. Please try again."
+    },
+    {
+        "id": "prompt-workout-reset-title",
+        "en": "Reset Progress"
+    },
+    {
+        "id": "prompt-workout-reset-message",
+        "en": "Are you sure you want to reset your progress for this workout? This will clear all completed exercises."
+    },
+    {
+        "id": "prompt-workout-regen-title",
+        "en": "Regenerate Workout"
+    },
+    {
+        "id": "prompt-workout-regen-message",
+        "en": "Are you sure you want to regenerate this workout? This will create a new workout plan, but will not affect your progress."
+    },
+    {
+        "id": "prompt-workout-complete-title",
+        "en": "Complete Workout"
+    },
+    {
+        "id": "prompt-workout-complete-message",
+        "en": "Are you sure you want to complete the workout?"
+    },
+    {
+        "id": "prompt-workout-end-title",
+        "en": "End Workout"
+    },
+    {
+        "id": "prompt-workout-end-message",
+        "en": "Are you sure you want to end the workout?"
+    }
+]

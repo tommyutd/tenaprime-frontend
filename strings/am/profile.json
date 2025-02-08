@@ -1,0 +1,162 @@
+[
+    {
+        "id": "profile",
+        "am": "መገለጫ"
+    },
+    {
+        "id": "profile-title",
+        "am": "የእርስዎ መገለጫ"
+    },
+    {
+        "id": "edit-profile",
+        "am": "<b>መገለጫ አርትዕ</b>"
+    },
+    {
+        "id": "basic-info-title",
+        "am": "መሰረታዊ መረጃ"
+    },
+    {
+        "id": "age-label",
+        "am": "ዕድሜ"
+    },
+    {
+        "id": "gender-label",
+        "am": "ጾታ"
+    },
+    {
+        "id": "phone-label",
+        "am": "ስልክ ቁጥር"
+    },
+    {
+        "id": "body-metrics-title",
+        "am": "የሰውነት መለኪያዎች"
+    },
+    {
+        "id": "weight-label",
+        "am": "ክብደት"
+    },
+    {
+        "id": "height-label",
+        "am": "ቁመት"
+    },
+    {
+        "id": "bmi-label",
+        "am": "BMI"
+    },
+    {
+        "id": "body-fat-label",
+        "am": "የሰውነት ስብ"
+    },
+    {
+        "id": "lifestyle-title",
+        "am": "የአኗኗር ዘይቤ እና ጤና"
+    },
+    {
+        "id": "activity-level-label",
+        "am": "የእንቅስቃሴ ደረጃ"
+    },
+    {
+        "id": "diet-preferences-label",
+        "am": "የአመጋገብ ምርጫዎች"
+    },
+    {
+        "id": "allergies-label",
+        "am": "አለርጂዎች"
+    },
+    {
+        "id": "health-conditions-label",
+        "am": "የጤና ሁኔታዎች"
+    },
+    {
+        "id": "goals-title",
+        "am": "ግቦች"
+    },
+    {
+        "id": "primary-goal-label",
+        "am": "ዋና ግብ"
+    },
+    {
+        "id": "workout-preferences-title",
+        "am": "የአካል ብቃት እንቅስቃሴ ምርጫዎች"
+    },
+    {
+        "id": "workout-type-label",
+        "am": "የአካል ብቃት እንቅስቃሴ ዓይነት"
+    },
+    {
+        "id": "workout-environment-label",
+        "am": "አካባቢ"
+    },
+    {
+        "id": "workout-frequency-label",
+        "am": "ቀናት በሳምንት"
+    },
+    {
+        "id": "workout-intensity-label",
+        "am": "የብርቱነት ደረጃ"
+    },
+    {
+        "id": "unit-kg",
+        "am": "ኪግ"
+    },
+    {
+        "id": "unit-cm",
+        "am": "ሳሜ"
+    },
+    {
+        "id": "gender-male",
+        "am": "ወንድ"
+    },
+    {
+        "id": "light-activity",
+        "am": "የብርሃን እንቅስቃሴ"
+    },
+    {
+        "id": "vegetarian",
+        "am": "ቬጀቴሪያን"
+    },
+    {
+        "id": "keto",
+        "am": "ኬቶ"
+    },
+    {
+        "id": "paleo",
+        "am": "ፓሊዮ"
+    },
+    {
+        "id": "none-reported",
+        "am": "ምንም ሪፖርት አልተደረገም።"
+    },
+    {
+        "id": "goal-weight-loss",
+        "am": "ክብደት መቀነስ"
+    },
+    {
+        "id": "hiit-training",
+        "am": "የ HIIT ስልጠና"
+    },
+    {
+        "id": "frequency-five-day",
+        "am": "አምስት ቀን"
+    },
+    {
+        "id": "intensity-advanced",
+        "am": "የላቀ"
+    },
+    {
+        "id": "toast-fill-fields",
+        "am": "እባክዎ ሁሉንም አስፈላጊ መስኮች ይሙሉ"
+    },
+    {
+        "id": "toast-profile-save",
+        "am": "መገለጫ በተሳካ ሁኔታ ተቀምጧል!"
+    },
+    {
+        "id": "toast-profile-save-error",
+        "am": "መገለጫ ማስቀመጥ ላይ ስህተት። እባክህ እንደገና ሞክር።"
+    },
+    {
+        "id": "toast-profile-load-error",
+        "am": "መገለጫን መጫን ላይ ስህተት። እባክህ እንደገና ሞክር።"
+    }
+]

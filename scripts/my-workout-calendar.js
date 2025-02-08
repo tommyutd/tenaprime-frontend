@@ -201,38 +201,38 @@ class WorkoutCalendar {
             
             regenerateButton.addEventListener('click', async () => {
                 const confirmed = await window.showPrompt(
-                    'Regenerate Workout',
-                    'Are you sure you want to regenerate this workout? This will create a new workout plan, but will not affect your progress.'
+                    'prompt-workout-regen-title',
+                    'prompt-workout-regen-message'
                 );
                 if (confirmed) {                   
                     const success = await this.regenerateWorkout();
 
                     if (success) {
-                        window.showToast('Workout regenerated successfully!', false);
+                        window.showToast('toast-workout-regen', false);
                         setTimeout(() => {
                             window.location = '/exercises/dashboard';
                         }, 3000);
                     } else {
-                        window.showToast('Failed to regenerate workout. Please try again.', true);
+                        window.showToast('toast-workout-regen-error', true);
                     }
                 }
             });
             
             resetButton.addEventListener('click', async () => {
                 const confirmed = await window.showPrompt(
-                    'Reset Progress',
-                    'Are you sure you want to reset your progress for this workout? This will clear all completed exercises.'
+                    'prompt-workout-reset-title',
+                    'prompt-workout-reset-message'
                 );
                 if (confirmed) {
                     const success = await this.resetWorkoutProgress();
                     
                     if (success) {
-                        window.showToast('Progress reset successfully!', false);
+                        window.showToast('toast-workout-reset', false);
                         setTimeout(() => {
                             window.location.reload();
                         }, 3000);
                     } else {
-                        window.showToast('Failed to reset progress. Please try again.', true);
+                        window.showToast('toast-workout-reset-error', true);
                     }
                 }
             });

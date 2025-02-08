@@ -1,0 +1,162 @@
+[
+    {
+        "id": "profile",
+        "en": "Profile"
+    },
+    {
+        "id": "profile-title",
+        "en": "Your Profile"
+    },
+    {
+        "id": "edit-profile",
+        "en": "<b>Edit Profile</b>"
+    },
+    {
+        "id": "basic-info-title",
+        "en": "Basic Information"
+    },
+    {
+        "id": "age-label",
+        "en": "Age"
+    },
+    {
+        "id": "gender-label",
+        "en": "Gender"
+    },
+    {
+        "id": "phone-label",
+        "en": "Phone Number"
+    },
+    {
+        "id": "body-metrics-title",
+        "en": "Body Metrics"
+    },
+    {
+        "id": "weight-label",
+        "en": "Weight"
+    },
+    {
+        "id": "height-label",
+        "en": "Height"
+    },
+    {
+        "id": "bmi-label",
+        "en": "BMI"
+    },
+    {
+        "id": "body-fat-label",
+        "en": "Body Fat"
+    },
+    {
+        "id": "lifestyle-title",
+        "en": "Lifestyle & Health"
+    },
+    {
+        "id": "activity-level-label",
+        "en": "Activity Level"
+    },
+    {
+        "id": "diet-preferences-label",
+        "en": "Dietary Preferences"
+    },
+    {
+        "id": "allergies-label",
+        "en": "Allergies"
+    },
+    {
+        "id": "health-conditions-label",
+        "en": "Health Conditions"
+    },
+    {
+        "id": "goals-title",
+        "en": "Goals"
+    },
+    {
+        "id": "primary-goal-label",
+        "en": "Primary Goal"
+    },
+    {
+        "id": "workout-preferences-title",
+        "en": "Workout Preferences"
+    },
+    {
+        "id": "workout-type-label",
+        "en": "Workout Type"
+    },
+    {
+        "id": "workout-environment-label",
+        "en": "Environment"
+    },
+    {
+        "id": "workout-frequency-label",
+        "en": "Days per Week"
+    },
+    {
+        "id": "workout-intensity-label",
+        "en": "Intensity Level"
+    },
+    {
+        "id": "unit-kg",
+        "en": "kg"
+    },
+    {
+        "id": "unit-cm",
+        "en": "cm"
+    },
+    {
+        "id": "gender-male",
+        "en": "Male"
+    },
+    {
+        "id": "light-activity",
+        "en": "Light Activity"
+    },
+    {
+        "id": "vegetarian",
+        "en": "Vegetarian"
+    },
+    {
+        "id": "keto",
+        "en": "Keto"
+    },
+    {
+        "id": "paleo",
+        "en": "Paleo"
+    },
+    {
+        "id": "none-reported",
+        "en": "None Reported"
+    },
+    {
+        "id": "goal-weight-loss",
+        "en": "Weight Loss"
+    },
+    {
+        "id": "hiit-training",
+        "en": "HIIT Training"
+    },
+    {
+        "id": "frequency-five-day",
+        "en": "Five Day"
+    },
+    {
+        "id": "intensity-advanced",
+        "en": "Advanced"
+    },
+    {
+        "id": "toast-fill-fields",
+        "en": "Please fill in all required fields"
+    },
+    {
+        "id": "toast-profile-save",
+        "en": "Profile saved successfully!"
+    },
+    {
+        "id": "toast-profile-save-error",
+        "en": "Error saving profile. Please try again."
+    },
+    {
+        "id": "toast-profile-load-error",
+        "en": "Error loading profile. Please try again."
+    }
+]

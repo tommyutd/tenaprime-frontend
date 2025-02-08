@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TenaPrime - Profile</title>
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="/exercises/exercises.css">
-  <link rel="stylesheet" href="/exercises/profile.css">
+  <link rel="stylesheet" href="/dashboard.css">
+  <link rel="stylesheet" href="/profile.css">
   <link rel="icon" href="/assets/logo-mini.svg">
   <script src="/scripts/config.js"></script>
   <script src="/scripts/route-guard.js"></script>
@@ -102,7 +102,7 @@
     <div class="profile-container aleo-text">
         <div class="profile-header">
             <h1 data-text-key="profile-title">Your Profile</h1>
-            <a href="/exercises/setup" class="edit-profile-btn">
+            <a href="/setup" class="edit-profile-btn">
                 <button class="btn-primary" data-text-key="edit-profile"><b>Edit Profile</b></button>
             </a>
         </div>
@@ -131,11 +131,17 @@
                 <div class="info-grid">
                     <div class="info-item">
                         <label data-text-key="weight-label">Weight</label>
-                        <span id="profileWeight">-- kg</span>
+                        <span>
+                            <span id="profileWeight">--</span>
+                            <span data-text-key="unit-kg">kg</span>
+                        </span>
                     </div>
                     <div class="info-item">
                         <label data-text-key="height-label">Height</label>
-                        <span id="profileHeight">-- cm</span>
+                        <span>
+                            <span id="profileHeight">--</span>
+                            <span data-text-key="unit-cm">cm</span>
+                        </span>
                     </div>
                     <div class="info-item">
                         <label data-text-key="bmi-label">BMI</label>

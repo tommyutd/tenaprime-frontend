@@ -30,5 +30,21 @@
     {
         "id": "disclaimer",
         "en": "<i>Disclaimer: This guide is for informational purposes only. Always consult with a healthcare professional before starting a new exercise program, particularly if you have any pre-existing health conditions or concerns.</i>"
+    },
+    {
+        "id": "profile",
+        "en": "Profile"
+    },
+    {
+        "id": "personalization-prompt-title",
+        "en": "Personalize Your Experience"
+    },
+    {
+        "id": "personalization-prompt-description",
+        "en": "Get customized recommendations by completing your fitness profile."
+    },
+    {
+        "id": "personalization-prompt-button",
+        "en": "Setup Profile"
     }
 ]

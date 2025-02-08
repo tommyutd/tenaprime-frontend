@@ -290,5 +290,25 @@
     {
         "id": "hiit-workout",
         "am": "HIIT የአካል ብቃት እንቅስቃሴ"
+    },
+    {
+        "id": "workout-generating-heading-title",
+        "am": "እቅድዎን በማመንጨት ላይ…"
+    },
+    {
+        "id": "workout-generating-heading-description",
+        "am": "እባክዎ የእርስዎን ግላዊ የአካል ብቃት እንቅስቃሴ እቅድ እስክንፈጥር ድረስ ይጠብቁ።"
+    },
+    {
+        "id": "workout-plan-heading-title",
+        "am": "የእርስዎ ግላዊ እቅድ"
+    },
+    {
+        "id": "workout-plan-heading-description",
+        "am": "በአካል ብቃት መገለጫዎ ላይ በመመስረት ብጁ የአካል ብቃት እንቅስቃሴ እቅድ ፈጥረን ነበር።"
+    },
+    {
+        "id": "workout-plan-view-button",
+        "am": "ጀምር<br>የእርስዎን<br>ስፖርታዊ እንቅስቃሴ"
     }
 ]

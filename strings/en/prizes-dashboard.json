@@ -1,0 +1,38 @@
+[
+    {
+        "id": "prizes-title",
+        "en": "Win Now"
+    },
+    {
+        "id": "prizes-description",
+        "en": "You can win amazing prizes by competing in our weekly quizzes."
+    },
+    {
+        "id": "prizes-play-now-button-text",
+        "en": "Play Now and Win Big!"
+    },
+    {
+        "id": "prizes-play-now-button",
+        "en": "Play Now"
+    },
+    {
+        "id": "scoreboard-title",
+        "en": "Weekly Quiz Leaderboard"
+    },
+    {
+        "id": "scoreboard-rank",
+        "en": "Rank"
+    },
+    {
+        "id": "scoreboard-player",
+        "en": "Phone Number"
+    },
+    {
+        "id": "scoreboard-score",
+        "en": "Score"
+    },
+    {
+        "id": "scoreboard-time",
+        "en": "Time"
+    }
+]

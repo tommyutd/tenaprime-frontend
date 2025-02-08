@@ -23,26 +23,27 @@ document.addEventListener('DOMContentLoaded', async function() {
         
         // Basic Info
         document.getElementById('profileAge').textContent = profile.basicInfo.age;
-        document.getElementById('profileGender').textContent = 
-            profile.basicInfo.gender.charAt(0).toUpperCase() + profile.basicInfo.gender.slice(1);
+        document.getElementById('profileGender').setAttribute('data-text-key', 
+            `gender-${profile.basicInfo.gender}`);
 
         // Body Metrics
-        document.getElementById('profileWeight').textContent = `${profile.bodyMetrics.weight} kg`;
-        document.getElementById('profileHeight').textContent = `${profile.bodyMetrics.height} cm`;
+        document.getElementById('profileWeight').textContent = profile.bodyMetrics.weight;
+        document.getElementById('profileHeight').textContent = profile.bodyMetrics.height;
+
         document.getElementById('profileBMI').textContent = profile.bodyMetrics.bmi.toFixed(1);
         document.getElementById('profileBodyFat').textContent = 
-            profile.bodyMetrics.bodyFat ? `${profile.bodyMetrics.bodyFat}%` : 'Not specified';
+            profile.bodyMetrics.bodyFat ? `${profile.bodyMetrics.bodyFat}%` : '--';
 
         // Lifestyle
         const activityLabels = {
-            sedentary: 'Sedentary',
-            light: 'Light Activity',
-            moderate: 'Moderate Activity',
-            active: 'Active',
-            very_active: 'Very Active'
+            sedentary: 'sedentary-activity',
+            light: 'light-activity',
+            moderate: 'moderate-activity',
+            active: 'active-activity',
+            very_active: 'very-active-activity'
         };
-        document.getElementById('profileActivity').textContent = 
-            activityLabels[profile.lifestyle.activityLevel];
+        document.getElementById('profileActivity').setAttribute('data-text-key', 
+            activityLabels[profile.lifestyle.activityLevel]);
 
         // Create tags for dietary preferences
         const dietContainer = document.getElementById('profileDiet');
@@ -51,11 +52,11 @@ document.addEventListener('DOMContentLoaded', async function() {
             profile.lifestyle.dietaryPreferences.forEach(diet => {
                 const tag = document.createElement('span');
                 tag.className = 'tag';
-                tag.textContent = diet.charAt(0).toUpperCase() + diet.slice(1);
+                tag.setAttribute('data-text-key', diet);
                 dietContainer.appendChild(tag);
             });
         } else {
-            dietContainer.textContent = 'None specified';
+            dietContainer.setAttribute('data-text-key', 'none-specified');
         }
 
         // Create tags for allergies
@@ -65,11 +66,11 @@ document.addEventListener('DOMContentLoaded', async function() {
             profile.lifestyle.allergies.forEach(allergy => {
                 const tag = document.createElement('span');
                 tag.className = 'tag';
-                tag.textContent = allergy.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase());
+                tag.setAttribute('data-text-key', allergy);
                 allergiesContainer.appendChild(tag);
             });
         } else {
-            allergiesContainer.textContent = 'None reported';
+            allergiesContainer.setAttribute('data-text-key', 'none-reported');
         }
 
         // Create tags for health conditions
@@ -79,70 +80,107 @@ document.addEventListener('DOMContentLoaded', async function() {
             profile.lifestyle.healthConditions.forEach(condition => {
                 const tag = document.createElement('span');
                 tag.className = 'tag';
-                tag.textContent = condition.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase());
+                tag.setAttribute('data-text-key', condition);
                 healthContainer.appendChild(tag);
             });
         } else {
-            healthContainer.textContent = 'None reported';
+            healthContainer.setAttribute('data-text-key', 'none-reported');
         }
 
         // Goals
         const goalLabels = {
-            weight_loss: 'Weight Loss',
-            muscleGain: 'Muscle Gain',
-            maintenance: 'Maintenance',
-            performance: 'Performance Improvement',
-            wellness: 'Overall Wellness'
+            weightLoss: 'goal-weight-loss',
+            muscleGain: 'goal-muscle-gain',
+            maintenance: 'goal-maintenance',
+            performance: 'goal-performance',
+            wellness: 'goal-wellness'
         };
-        document.getElementById('profileGoal').textContent = goalLabels[profile.goals.primaryGoal];
+        document.getElementById('profileGoal').setAttribute('data-text-key', 
+            goalLabels[profile.goals.primaryGoal]);
 
         // Workout Preferences
         if (profile.goals.preferences && profile.goals.preferences[profile.goals.primaryGoal]) {
             const prefs = profile.goals.preferences[profile.goals.primaryGoal];
             
-            // Handle workout type
-            if (prefs.type) {
-                const typeLabels = {
-                    full_body: 'Full Body',
-                    upper_lower: 'Upper/Lower Split',
-                    push_pull: 'Push/Pull Split'
-                };
-                document.getElementById('profileWorkoutType').textContent = typeLabels[prefs.type] || prefs.type;
-            }
+            // Create a mapping of preference labels based on goal type
+            const preferenceLabels = {
+                weightLoss: {
+                    cardio: 'cardio-focus',
+                    hiit: 'hiit-training',
+                    mixed: 'mixed-training'
+                },
+                muscleGain: {
+                    full_body: 'full-body',
+                    split: 'split-routine'
+                },
+                maintenance: {
+                    balanced: 'balanced-training',
+                    strength_focused: 'strength-maintenance',
+                    cardio_focused: 'cardio-maintenance'
+                },
+                performance: {
+                    strength: 'strength-performance',
+                    endurance: 'endurance-focus',
+                    power: 'power-development'
+                },
+                wellness: {
+                    mind_body: 'mind-body-balance',
+                    functional: 'functional-fitness',
+                    mobility: 'mobility-focus'
+                }
+            };
 
-            // Handle environment
-            if (prefs.environment) {
-                const envLabels = {
-                    gym: 'Gym',
-                    home: 'Home',
-                    outdoor: 'Outdoor'
-                };
-                document.getElementById('profileWorkoutEnvironment').textContent = 
-                    envLabels[prefs.environment] || prefs.environment;
+            // Handle workout type based on goal
+            const goalLabels = preferenceLabels[profile.goals.primaryGoal];
+            if (prefs && prefs.type) {
+                document.getElementById('profileWorkoutType').setAttribute('data-text-key', 
+                    goalLabels[prefs.type] || prefs.type);
+                
+                const environmentElement = document.getElementById('profileWorkoutEnvironment');
+                if (environmentElement) {
+                    const environmentContainer = environmentElement.closest('.info-item');
+                    if (prefs.environment) {
+                        environmentContainer.style.display = '';
+                        const envLabels = {
+                            gym: 'environment-gym',
+                            home: 'environment-home',
+                            outdoor: 'environment-outdoor'
+                        };
+                        environmentElement.setAttribute('data-text-key', 
+                            envLabels[prefs.environment] || prefs.environment);
+                    } else {
+                        environmentContainer.style.display = 'none';
+                    }
+                }
             }
         }
 
         // Frequency
         const frequencyLabels = {
-            three_day: '3 Days',
-            four_day: '4 Days',
-            five_day: '5 Days',
-            six_day: '6 Days'
+            three_day: 'frequency-three-day',
+            four_day: 'frequency-four-day',
+            five_day: 'frequency-five-day'
         };
-        document.getElementById('profileFrequency').textContent = 
-            frequencyLabels[profile.goals.frequency] || profile.goals.frequency;
+        document.getElementById('profileFrequency').setAttribute('data-text-key', 
+            frequencyLabels[profile.goals.frequency] || profile.goals.frequency);
 
         // Intensity
         const intensityLabels = {
-            beginner: 'Beginner',
-            intermediate: 'Intermediate',
-            advanced: 'Advanced'
+            beginner: 'intensity-beginner',
+            intermediate: 'intensity-intermediate',
+            advanced: 'intensity-advanced'
         };
-        document.getElementById('profileIntensity').textContent = 
-            intensityLabels[profile.goals.intensity] || profile.goals.intensity;
+        document.getElementById('profileIntensity').setAttribute('data-text-key', 
+            intensityLabels[profile.goals.intensity] || profile.goals.intensity);
+
+        // Update all strings after setting data-text-key attributes
+        window.stringsLoaded.then(() => {
+            updatePageStrings();
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
 
     } catch (error) {
         console.error('Error loading profile:', error);
-        // You might want to show an error message to the user
     }
 });

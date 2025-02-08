@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   });
 });
 
-function showToast(message, error = false) {
+function showToast(messageKey, error = false) {
   const errorToast = document.createElement('div');
   errorToast.className = 'error-toast-overlay aleo-text';
   
@@ -83,7 +83,7 @@ function showToast(message, error = false) {
   errorToastNotification.className = 'error-toast-notification';
   
   const messageSpan = document.createElement('span');
-  messageSpan.textContent = message;
+  messageSpan.setAttribute('data-text-key', messageKey);
   
   errorToastNotification.appendChild(messageSpan);
   errorToast.appendChild(errorToastNotification);
@@ -100,6 +100,13 @@ function showToast(message, error = false) {
   requestAnimationFrame(() => {
       errorToast.classList.add('show');
       errorToastNotification.classList.add('show');
+  });
+
+  // Update strings after adding to DOM
+  window.stringsLoaded.then(() => {
+      updatePageStrings();
+  }).catch(error => {
+      console.error('Error updating strings:', error);
   });
   
   // Hide and remove toast after 5 seconds
@@ -125,7 +132,7 @@ function showToast(message, error = false) {
   });
 }
 
-function showPrompt(title, message) {
+function showPrompt(titleKey, messageKey) {
   return new Promise((resolve) => {
       const template = document.getElementById('prompt-template');
       const clone = template.content.cloneNode(true);
@@ -139,8 +146,15 @@ function showPrompt(title, message) {
       const titleEl = overlay.querySelector('.prompt-title');
       const messageEl = overlay.querySelector('.prompt-message');
 
-      titleEl.textContent = title;
-      messageEl.textContent = message;
+      titleEl.setAttribute('data-text-key', titleKey);
+      messageEl.setAttribute('data-text-key', messageKey);
+
+      // Update strings after adding to DOM
+      window.stringsLoaded.then(() => {
+          updatePageStrings();
+      }).catch(error => {
+          console.error('Error updating strings:', error);
+      });
 
       setTimeout(() => {
           overlay.classList.add('show');

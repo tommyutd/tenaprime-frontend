@@ -290,5 +290,25 @@
     {
         "id": "hiit-workout",
         "en": "HIIT Workout"
+    },
+    {
+        "id": "workout-generating-heading-title",
+        "en": "Generating Your Plan…"
+    },
+    {
+        "id": "workout-generating-heading-description",
+        "en": "Please wait while we create your personalized workout plan."
+    },
+    {
+        "id": "workout-plan-heading-title",
+        "en": "Your Personalized Plan"
+    },
+    {
+        "id": "workout-plan-heading-description",
+        "en": "We've created a customized workout plan based on your fitness profile."
+    },
+    {
+        "id": "workout-plan-view-button",
+        "en": "Start<br>Your<br>Workout"
     }
 ]

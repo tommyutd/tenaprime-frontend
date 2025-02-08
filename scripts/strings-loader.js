@@ -45,12 +45,17 @@ function getPageTags(path) {
         '/exercises/yoga': ['yoga', 'exercise', 'user'],
         '/exercises/healthy-sleeping': ['sleep', 'exercise', 'user'],
         '/exercises/stress-regulation': ['stress', 'exercise', 'user'],
+        '/exercises/my-workout': ['my-workout', 'exercise', 'user'],
         '/nutrition': ['nutrition-index', 'guest'],
         '/nutrition/dashboard': ['nutrition-dashboard', 'user'],
         '/nutrition/learn': ['nutrition-dashboard', 'nutrition-learn', 'user'],
         '/prizes': ['prizes-index', 'guest'],
         '/prizes/dashboard': ['prizes-dashboard', 'user'],
-        '/about': ['about', 'guest', 'user']
+        '/prizes/quiz': ['prizes-quiz', 'user'],
+        '/prizes/rules': ['prizes-rules', 'user'],
+        '/about': ['about', 'guest', 'user'],
+        '/profile': ['profile', 'user'],
+        '/setup': ['profile', 'setup', 'user']
     };
     
     // Get URL parameters

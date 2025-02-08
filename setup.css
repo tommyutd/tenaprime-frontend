@@ -261,33 +261,33 @@ select:focus {
     width: 0;
 }
 
-.card-content {
+.setup-card-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
 }
 
-.card-content .icon {
+.setup-card-content .icon {
     font-size: 1.5rem;
     margin-bottom: 0.25rem;
 }
 
-.card-content .text {
+.setup-card-content .text {
     color: white;
     font-size: 1rem;
 }
 
 /* Checked state */
-.card-style input:checked ~ .card-content {
+.card-style input:checked ~ .setup-card-content {
     color: white;
 }
 
-.card-style input:checked + .card-content .text {
+.card-style input:checked + .setup-card-content .text {
     color: rgba(186, 156, 98, 1);
 }
 
-.card-style input:checked + .card-content .icon {
+.card-style input:checked + .setup-card-content .icon {
     transform: scale(1.1);
 }
 
@@ -296,7 +296,7 @@ select:focus {
     background: rgba(186, 156, 98, 0.2);
 }
 
-.card-style input:checked + .card-content::before {
+.card-style input:checked + .setup-card-content::before {
     content: '';
     position: absolute;
     top: 0;
@@ -569,11 +569,11 @@ select:focus {
         grid-template-columns: 1fr 1fr;
     }
     
-    .card-content .icon {
+    .setup-card-content .icon {
         font-size: 1.25rem;
     }
     
-    .card-content .text {
+    .setup-card-content .text {
         font-size: 0.9rem;
     }
 }
@@ -589,7 +589,7 @@ select:focus {
     justify-content: center;
 }
 
-.activity-group .card-content {
+.activity-group .setup-card-content {
     gap: 0.75rem;
 }
 
@@ -617,11 +617,11 @@ select:focus {
     box-shadow: 0 4px 12px rgba(186, 156, 98, 0.1);
 }
 
-.activity-group .card-style input:checked + .card-content .text {
+.activity-group .card-style input:checked + .setup-card-content .text {
     color: white;
 }
 
-.activity-group .card-style input:checked + .card-content .description {
+.activity-group .card-style input:checked + .setup-card-content .description {
     color: rgba(255, 255, 255, 0.9);
 }
 

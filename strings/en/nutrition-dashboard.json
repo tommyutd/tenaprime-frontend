@@ -242,5 +242,25 @@
     {
         "id": "supplements-shop-description",
         "en": "Browse and purchase high-quality, verified supplements."
+    },
+    {
+        "id": "nutrition-generating-heading-title",
+        "en": "Generating Your Plan…"
+    },
+    {
+        "id": "nutrition-generating-heading-description",
+        "en": "Please wait while we create your personalized nutrition plan."
+    },
+    {
+        "id": "nutrition-plan-heading-title",
+        "en": "Your Personalized Meals"
+    },
+    {
+        "id": "nutrition-plan-heading-description",
+        "en": "We've created a customized nutrition plan based on your profile."
+    },
+    {
+        "id": "nutrition-plan-view-button",
+        "en": "View Your Plan"
     }
 ]

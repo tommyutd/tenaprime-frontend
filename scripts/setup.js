@@ -14,12 +14,19 @@ document.addEventListener('DOMContentLoaded', async function() {
     const handleGoalChange = (e) => {
         // Hide all preference sections first
         document.querySelectorAll('.preference-section').forEach(section => {
-            section.style.display = 'none';
+            if (section.id !== 'workoutEnvironmentPreferences') {
+                section.style.display = 'none';
+            }
         });
 
         // Clear any previously selected preferences
-        document.querySelectorAll('input[name="weight_loss_preference"], input[name="muscle_gain_preference"], input[name="workout_environment"], input[name="performance_preference"]').forEach(input => {
+        document.querySelectorAll('input[name="weight_loss_preference"], input[name="muscle_gain_preference"], input[name="performance_preference"], input[name="maintenance_preference"], input[name="wellness_preference"]').forEach(input => {
             input.required = false;
+        });
+
+        // Workout environment is always required
+        document.querySelectorAll('input[name="workout_environment"]').forEach(input => {
+            input.required = true;
         });
 
         // Show relevant section based on selected goal
@@ -33,7 +40,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 break;
             case 'muscleGain':
                 document.getElementById('muscleGainPreferences').style.display = 'block';
-                document.querySelectorAll('input[name="muscle_gain_preference"], input[name="workout_environment"]').forEach(input => {
+                document.querySelectorAll('input[name="muscle_gain_preference"]').forEach(input => {
                     input.required = true;
                 });
                 break;
@@ -186,7 +193,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (validateCurrentStep()) {
             navigateToStep(currentStep + 1);
         } else {
-            window.showToast('Please fill in all required fields', true);
+            window.showToast('toast-fill-fields', true);
         }
     });
 
@@ -198,7 +205,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     submitBtn.addEventListener('click', async (e) => {
         e.preventDefault();
         if (!validateCurrentStep()) {
-            window.showToast('Please fill in all required fields', true);
+            window.showToast('toast-fill-fields', true);
             return;
         }
 
@@ -227,12 +234,13 @@ document.addEventListener('DOMContentLoaded', async function() {
             goals: {
                 preferences: (() => {
                     const goal = formData.get('primary_goal');
+                    const environment = formData.get('workout_environment');
                     switch (goal) {
                         case 'muscleGain':
                             return {
                                 muscleGain: {
                                     type: formData.get('muscle_gain_preference'),
-                                    environment: formData.get('workout_environment')
+                                    environment: environment
                                 },
                                 weightLoss: null,
                                 performance: null,
@@ -242,7 +250,10 @@ document.addEventListener('DOMContentLoaded', async function() {
                         case 'weightLoss':
                             return {
                                 muscleGain: null,
-                                weightLoss: formData.get('weight_loss_preference'),
+                                weightLoss: {
+                                    type: formData.get('weight_loss_preference'),
+                                    environment: environment
+                                },
                                 performance: null,
                                 maintenance: null,
                                 wellness: null
@@ -251,7 +262,10 @@ document.addEventListener('DOMContentLoaded', async function() {
                             return {
                                 muscleGain: null,
                                 weightLoss: null,
-                                performance: formData.get('performance_preference'),
+                                performance: {
+                                    type: formData.get('performance_preference'),
+                                    environment: environment
+                                },
                                 maintenance: null,
                                 wellness: null
                             };
@@ -260,7 +274,10 @@ document.addEventListener('DOMContentLoaded', async function() {
                                 muscleGain: null,
                                 weightLoss: null,
                                 performance: null,
-                                maintenance: formData.get('maintenance_preference'),
+                                maintenance: {
+                                    type: formData.get('maintenance_preference'),
+                                    environment: environment
+                                },
                                 wellness: null
                             };
                         case 'wellness':
@@ -269,7 +286,10 @@ document.addEventListener('DOMContentLoaded', async function() {
                                 weightLoss: null,
                                 performance: null,
                                 maintenance: null,
-                                wellness: formData.get('wellness_preference')
+                                wellness: {
+                                    type: formData.get('wellness_preference'),
+                                    environment: environment
+                                }
                             };
                         default:
                             return {
@@ -286,7 +306,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 intensity: formData.get('exercise_intensity')
             }
         };
-
+        
         try {
             const token = localStorage.getItem('login-token');
             const response = await fetch(`${window.CONFIG.API_URL}/profile`, {
@@ -299,15 +319,15 @@ document.addEventListener('DOMContentLoaded', async function() {
             });
 
             if (response.ok) {
-                window.showToast('Profile saved successfully!', false);
+                window.showToast('toast-profile-save', false);
                 setTimeout(() => {
-                    window.location.href = '/exercises/dashboard';
+                    window.location.href = '/dashboard';
                 }, 1500);
             } else {
                 throw new Error('Failed to save profile');
             }
         } catch (error) {
-            window.showToast('Error saving profile. Please try again.', true);
+            window.showToast('toast-profile-save-error', true);
             console.error('Error:', error);
             // Remove loading state and re-enable button on error
             submitBtn.classList.remove('loading');
@@ -382,26 +402,34 @@ document.addEventListener('DOMContentLoaded', async function() {
             if (profile.goals.preferences) {
                 switch (profile.goals.primaryGoal) {
                     case 'weightLoss':
-                        const weightLossRadio = document.querySelector(`input[name="weight_loss_preference"][value="${profile.goals.preferences.weightLoss}"]`);
+                        const weightLossRadio = document.querySelector(`input[name="weight_loss_preference"][value="${profile.goals.preferences.weightLoss.type}"]`);
+                        const weightLossEnvRadio = document.querySelector(`input[name="workout_environment"][value="${profile.goals.preferences.weightLoss.environment}"]`);
                         if (weightLossRadio) weightLossRadio.checked = true;
+                        if (weightLossEnvRadio) weightLossEnvRadio.checked = true;
                         break;
                     case 'muscleGain':
                         const muscleTypeRadio = document.querySelector(`input[name="muscle_gain_preference"][value="${profile.goals.preferences.muscleGain.type}"]`);
-                        const environmentRadio = document.querySelector(`input[name="workout_environment"][value="${profile.goals.preferences.muscleGain.environment}"]`);
+                        const muscleEnvRadio = document.querySelector(`input[name="workout_environment"][value="${profile.goals.preferences.muscleGain.environment}"]`);
                         if (muscleTypeRadio) muscleTypeRadio.checked = true;
-                        if (environmentRadio) environmentRadio.checked = true;
+                        if (muscleEnvRadio) muscleEnvRadio.checked = true;
                         break;
                     case 'performance':
-                        const performanceRadio = document.querySelector(`input[name="performance_preference"][value="${profile.goals.preferences.performance}"]`);
+                        const performanceRadio = document.querySelector(`input[name="performance_preference"][value="${profile.goals.preferences.performance.type}"]`);
+                        const performanceEnvRadio = document.querySelector(`input[name="workout_environment"][value="${profile.goals.preferences.performance.environment}"]`);
                         if (performanceRadio) performanceRadio.checked = true;
+                        if (performanceEnvRadio) performanceEnvRadio.checked = true;
                         break;
                     case 'maintenance':
-                        const maintenanceRadio = document.querySelector(`input[name="maintenance_preference"][value="${profile.goals.preferences.maintenance}"]`);
+                        const maintenanceRadio = document.querySelector(`input[name="maintenance_preference"][value="${profile.goals.preferences.maintenance.type}"]`);
+                        const maintenanceEnvRadio = document.querySelector(`input[name="workout_environment"][value="${profile.goals.preferences.maintenance.environment}"]`);
                         if (maintenanceRadio) maintenanceRadio.checked = true;
+                        if (maintenanceEnvRadio) maintenanceEnvRadio.checked = true;
                         break;
                     case 'wellness':
-                        const wellnessRadio = document.querySelector(`input[name="wellness_preference"][value="${profile.goals.preferences.wellness}"]`);
+                        const wellnessRadio = document.querySelector(`input[name="wellness_preference"][value="${profile.goals.preferences.wellness.type}"]`);
+                        const wellnessEnvRadio = document.querySelector(`input[name="workout_environment"][value="${profile.goals.preferences.wellness.environment}"]`);
                         if (wellnessRadio) wellnessRadio.checked = true;
+                        if (wellnessEnvRadio) wellnessEnvRadio.checked = true;
                         break;
                 }
             }
@@ -426,7 +454,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             });
         } catch (error) {
             console.error('Error loading profile:', error);
-            window.showToast('Error loading profile. Please try again.', true);
+            window.showToast('toast-profile-load-error', true);
         }
     }
 

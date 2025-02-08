@@ -55,12 +55,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
     function showRegisterOverlay() {
-        if (Object.keys(window.englishStrings).length === 0) {
-            setTimeout(showRegisterOverlay, 100);
-            return;
-        }
-
         registerOverlay.style.display = 'flex';
+        registerOverlay.offsetHeight; // Trigger reflow
         requestAnimationFrame(() => {
             registerOverlay.classList.add('show');
             registerToastNotification.classList.add('show');
@@ -94,8 +90,12 @@ document.addEventListener('DOMContentLoaded', async function() {
         showLoginOverlay();
     });
 
-    loginButton.addEventListener('click', showLoginOverlay);
-    registerButton.addEventListener('click', showRegisterOverlay);
+    if (loginButton) {
+        loginButton.addEventListener('click', showLoginOverlay);
+    }
+    if (registerButton) {
+        registerButton.addEventListener('click', showRegisterOverlay);
+    }
     registerLoginButton.addEventListener('click', showRegisterOverlay);
     closeButton.addEventListener('click', hideLoginOverlay);
 
@@ -183,38 +183,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
     function showLoginError() {
-        const errorToast = document.getElementById('errorToastOverlay');
-        const errorToastNotification = errorToast.querySelector('.error-toast-notification');
-        const textElement = errorToast.querySelector('[data-text-key]');
-        const currentLang = document.querySelector('.language-selector p').textContent.toLowerCase();
-        const key = textElement.dataset.textKey;
-        textElement.textContent = currentLang === 'en' ? window.englishStrings[key] : window.amharicStrings[key];
-        
-        // Show toast with animation
-        errorToast.style.display = 'flex';
-        requestAnimationFrame(() => {
-            errorToast.classList.add('show');
-            errorToastNotification.classList.add('show');
-        });
-        
-        // Hide and remove toast after 5 seconds
-        setTimeout(() => {
-            errorToastNotification.classList.remove('show');
-            errorToast.classList.remove('show');
-            setTimeout(() => {
-                errorToast.style.display = 'none';
-            }, 300);
-        }, 5000);
-        
-        // Add click event listener to close toast on click
-        errorToast.addEventListener('click', function(e) {
-            if (e.target === errorToast) {
-                errorToastNotification.classList.remove('show');
-                errorToast.classList.remove('show');
-                setTimeout(() => {
-                    errorToast.style.display = 'none';
-                }, 300);
-            }
-        });
+        window.showToast('login-failed', true);
     }
 });

@@ -6,7 +6,7 @@ class NutritionProfileLoader {
     async loadNutritionProfile() {
         try {
             const token = localStorage.getItem('login-token');
-            const response = await fetch(`${window.CONFIG.API_URL}/nutrition`, {
+            const response = await fetch(`${window.CONFIG.API_URL}/profile/nutrition`, {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }
@@ -104,11 +104,16 @@ class NutritionProfileLoader {
                 <div class="instructions-section">
                     <h4>Instructions</h4>
                     <ol class="instructions-list">
-                        ${mealData.recipe.instructions.map(instruction => `
-                            <li>${instruction.action} ${instruction.subjectIngredients.join(', ')} 
+                        ${mealData.recipe.instructions.map(instruction => {
+                            const formatIngredients = (ingredients) => {
+                                if (ingredients.length <= 1) return ingredients.join('');
+                                return ingredients.slice(0, -1).join(', ') + ' and ' + ingredients.slice(-1);
+                            };
+                            
+                            return `<li>${instruction.action} ${formatIngredients(instruction.subjectIngredients)} 
                                 ${instruction.objectIngredients.length ? 
-                                    'to ' + instruction.objectIngredients.join(', ') : ''}</li>
-                        `).join('')}
+                                    instruction.preposition[0] + ' ' + formatIngredients(instruction.objectIngredients) : ''}</li>`;
+                        }).join('')}
                     </ol>
                 </div>
                 

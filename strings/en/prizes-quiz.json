@@ -1,0 +1,38 @@
+[
+    {
+        "id": "quiz-welcome-title",
+        "en": "Welcome to the Quiz!"
+    },
+    {
+        "id": "quiz-welcome-description",
+        "en": "<b>15 questions • 2:30 minutes</b>"
+    },
+    {
+        "id": "quiz-rules-button",
+        "en": "Rules"
+    },
+    {
+        "id": "quiz-start-button",
+        "en": "Start Quiz"
+    },
+    {
+        "id": "quiz-scoreboard-button",
+        "en": "Scoreboard"
+    },
+    {
+        "id": "quiz-complete-title",
+        "en": "Quiz Complete! You scored:"
+    },
+    {
+        "id": "quiz-retry-button",
+        "en": "Retry Quiz"
+    },
+    {
+        "id": "quiz-loading",
+        "en": "Loading..."
+    },
+    {
+        "id": "quiz-get-ready",
+        "en": "Get Ready!"
+    }
+]

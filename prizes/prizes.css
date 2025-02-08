@@ -117,7 +117,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1.5rem 0px;
+  margin: 1.5rem 1rem;
 }
 
 .prizes-heading-image img {
@@ -793,3 +793,115 @@
   }
 }
 
+.rules-page {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: white;
+  line-height: 1.6;
+}
+
+.rules-page h1 {
+  color: rgba(186, 156, 98, 1);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.rules-page h2 {
+  color: rgba(186, 156, 98, 0.9);
+  font-size: 2rem;
+  margin: 2.5rem 0 1.5rem 0;
+  border-bottom: 1px solid rgba(186, 156, 98, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+.rules-page h3 {
+  color: rgba(186, 156, 98, 0.8);
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.rules-page p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.rules-page ul, 
+.rules-page ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.rules-page li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.rules-page strong {
+  color: rgba(186, 156, 98, 1);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .rules-page {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .rules-page h1 {
+    font-size: 2rem;
+  }
+
+  .rules-page h2 {
+    font-size: 1.75rem;
+  }
+
+  .rules-page h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .rules-page {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .rules-page h1 {
+    font-size: 1.75rem;
+  }
+
+  .rules-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .rules-page h3 {
+    font-size: 1.15rem;
+  }
+
+  .rules-page p,
+  .rules-page li {
+    font-size: 1rem;
+  }
+}
+
+/* Custom Scrollbar - matching the site's theme */
+.rules-page::-webkit-scrollbar {
+  width: 8px;
+}
+
+.rules-page::-webkit-scrollbar-track {
+  background: rgba(186, 156, 98, 0.1);
+  border-radius: 4px;
+}
+
+.rules-page::-webkit-scrollbar-thumb {
+  background: rgba(186, 156, 98, 0.3);
+  border-radius: 4px;
+}
+
+.rules-page::-webkit-scrollbar-thumb:hover {
+  background: rgba(186, 156, 98, 0.5);
+}

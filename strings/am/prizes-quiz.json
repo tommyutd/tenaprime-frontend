@@ -1,0 +1,38 @@
+[
+    {
+        "id": "quiz-welcome-title",
+        "am": "ወደ ፈተናው እንኳን በደህና መጡ!"
+    },
+    {
+        "id": "quiz-welcome-description",
+        "am": "<b>15 ጥያቄዎች • 2፡30 ደቂቃዎች</b>"
+    },
+    {
+        "id": "quiz-rules-button",
+        "am": "ደንቦች"
+    },
+    {
+        "id": "quiz-start-button",
+        "am": "ጥያቄዎችን ጀምር"
+    },
+    {
+        "id": "quiz-scoreboard-button",
+        "am": "የውጤት ሰሌዳ"
+    },
+    {
+        "id": "quiz-complete-title",
+        "am": "የፈተና ጥያቄ ተጠናቋል! አስቆጥረዋል፡"
+    },
+    {
+        "id": "quiz-retry-button",
+        "am": "ጥያቄዎችን እንደገና ይሞክሩ"
+    },
+    {
+        "id": "quiz-loading",
+        "am": "በመጫን ላይ..."
+    },
+    {
+        "id": "quiz-get-ready",
+        "am": "ተዘጋጅ!"
+    }
+]

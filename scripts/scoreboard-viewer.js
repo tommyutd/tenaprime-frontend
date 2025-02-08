@@ -24,8 +24,6 @@ function getWeekSpan(weeksAgo) {
     // Calculate the end of the week (Sunday)
     const weekEnd = new Date(weekStart);
     weekEnd.setUTCDate(weekStart.getUTCDate() + 6);
-
-    console.log(weekStart, weekEnd);
     
     // Format dates in UTC
     return `${formatDateUTC(weekStart)} - ${formatDateUTC(weekEnd)}`;

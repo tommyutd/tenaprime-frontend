@@ -18,6 +18,12 @@ document.addEventListener('DOMContentLoaded', async function() {
       if (personalizationPrompt) {
         personalizationPrompt.style.display = 'none';
       }
+      
+      // Initial check when page loads
+      checkNutritionPlan();
+      
+      // Set up interval to check every minute
+      nutritionPlanInterval = setInterval(checkNutritionPlan, 60000);
     } else {
       // No profile exists - show the prompt with default text
       if (personalizationPrompt) {
@@ -32,6 +38,11 @@ document.addEventListener('DOMContentLoaded', async function() {
         personalizationPrompt.classList.add('show');
       }
     }
+    window.stringsLoaded.then(() => {
+        updatePageStrings();
+    }).catch(error => {
+        console.error('Error updating strings:', error);
+    });
   } catch (error) {
     console.error('Error checking profile status:', error);
   }
@@ -56,3 +67,80 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
   });
 });
+
+async function checkNutritionPlan() {
+    try {
+        const token = localStorage.getItem('login-token');
+        const response = await fetch(`${window.CONFIG.API_URL}/profile/nutrition`, {
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }
+        });
+
+        if (response.ok) {
+            const nutritionPlan = await response.json();
+            const nutritionPlanHeading = document.querySelector('.nutrition-plan-heading');
+            
+            if (!nutritionPlan || !nutritionPlan.nutritionProfile) {
+                // No nutrition plan exists - hide the nutrition plan section
+                if (nutritionPlanHeading) {
+                    nutritionPlanHeading.style.display = 'none';
+                }
+                return;
+            }
+            
+            // Nutrition plan exists - show the nutrition plan section
+            if (nutritionPlanHeading) {
+                nutritionPlanHeading.style.display = 'block';
+                
+                const headingText = nutritionPlanHeading.querySelector('#nutrition-plan-heading-title');
+                const descriptionText = nutritionPlanHeading.querySelector('#nutrition-plan-heading-description');
+                const button = nutritionPlanHeading.querySelector('.nutrition-plan-view-button');
+
+                if (nutritionPlan.nutritionProfile.bmr === 0) {
+                    headingText.setAttribute('data-text-key', 'nutrition-generating-heading-title');
+                    descriptionText.setAttribute('data-text-key', 'nutrition-generating-heading-description');
+
+                    headingText.style.color = '#36454F';
+                    descriptionText.style.color = '#36454F';
+                    
+                    button.disabled = true;
+                    button.innerHTML = `
+                        <div class="loading-spinner"></div>
+                        <span data-text-key="loading"></span>
+                    `;
+                } else {
+                    headingText.setAttribute('data-text-key', 'nutrition-plan-heading-title');
+                    descriptionText.setAttribute('data-text-key', 'nutrition-plan-heading-description');
+
+                    headingText.style.color = '#121518';
+                    descriptionText.style.color = '#121518';
+                    
+                    button.disabled = false;
+                    button.innerHTML = '<span data-text-key="nutrition-plan-view-button"></span>';
+                    
+                    // Clear interval once plan is generated
+                    clearInterval(nutritionPlanInterval);
+                }
+                window.stringsLoaded.then(() => {
+                    updatePageStrings();
+                }).catch(error => {
+                    console.error('Error updating strings:', error);
+                });
+            }
+        } else {
+            const nutritionPlanHeading = document.querySelector('.nutrition-plan-heading');
+            if (nutritionPlanHeading) {
+                nutritionPlanHeading.style.display = 'none';
+            }
+        }
+
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    } catch (error) {
+        console.error('Error checking nutrition plan:', error);
+        const nutritionPlanHeading = document.querySelector('.nutrition-plan-heading');
+        if (nutritionPlanHeading) {
+            nutritionPlanHeading.style.display = 'none';
+        }
+    }
+}

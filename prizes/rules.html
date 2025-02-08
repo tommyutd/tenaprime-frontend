@@ -97,85 +97,67 @@
     </div>
   </div>
 
-  <div class="quiz-page aleo-text" id="quiz-page">
-    <div class="quiz-container aleo-text" id="quiz-container">
-      <!-- Welcome Screen -->
-      <div id="quiz-welcome-screen" class="screen active">
-        <div id="quiz-welcome-text-container" class="quiz-text-container">
-          <h1 data-text-key="quiz-welcome-title">Welcome to the Quiz!</h1>
-          <p data-text-key="quiz-welcome-description"><b>15 questions • 2:30 minutes</b></p>
-        </div>
-        <div id="quiz-welcome-button-container" class="quiz-buttons-container">
-          <button id="quiz-rules-btn" class="quiz-btn aleo-text" data-text-key="quiz-rules-button">Rules</button>
-          <button id="quiz-start-btn" class="quiz-btn aleo-text" data-text-key="quiz-start-button">Start Quiz</button>
-          <button id="quiz-scoreboard-btn" class="quiz-btn aleo-text" data-text-key="quiz-scoreboard-button">Scoreboard</button>
-        </div>
-      </div>
-  
-      <!-- Quiz Screen -->
-      <div id="quiz-play-screen" class="screen">
-          <div class="progress-container">
-              <div class="progress-bar">
-                  <div class="progress"></div>
-              </div>
-              <div class="question-counter">Question <span id="current-question">1</span>/15</div>
-          </div>
-  
-          <div class="timer-container">
-              <div class="timer">
-                  <div class="timer-fill"></div>
-              </div>
-              <span id="timer-text">15</span>
-          </div>
-  
-          <div class="question-container">
-              <h2 id="question-text"></h2>
-              <div class="options-container">
-                  <!-- Options will be inserted here by JavaScript -->
-              </div>
-          </div>
-      </div>
-  
-      <!-- Results Screen -->
-      <div id="quiz-results-screen" class="screen">
-        <div id="quiz-results-text-container" class="quiz-text-container">
-          <h2 data-text-key="quiz-complete-title">Quiz Complete! You scored:</h2>
-          <div class="results-container">
-              <div class="score-circle">
-                  <span id="final-score">0</span>/15
-              </div>
-              <div id="time-display" class="time-text"></div>
-          </div>
-        </div>
-        <div id="quiz-results-button-container" class="quiz-buttons-container">
-          <button id="quiz-rules-btn" class="quiz-btn aleo-text" data-text-key="quiz-rules-button">Rules</button>
-          <button id="quiz-retry-btn" class="quiz-btn aleo-text" data-text-key="quiz-retry-button">Retry Quiz</button>
-          <button id="quiz-scoreboard-btn" class="quiz-btn aleo-text" data-text-key="quiz-scoreboard-button">Scoreboard</button>
-        </div>
-      </div>
+  <div class="rules-page aleo-text">
+    <h1 data-text-key="rules-title">Game Rules and Participation</h1>
+    <p data-text-key="rules-intro">Welcome to the TenaPrime Trivia Challenge! The competition is designed to promote healthy habits while engaging subscribers in a fun and competitive way. Please review the following rules carefully before participating.</p>
 
-      <div id="quiz-loading-screen" class="screen">
-        <div class="loading-spinner"></div>
-        <h2 data-text-key="quiz-loading" id="quiz-loading">Loading...</h2>
-      </div>
+    <h2 data-text-key="rules-objective-title">Objective and Game Format</h2>
+    <h3 data-text-key="rules-objective-subtitle">Objective:</h3>
+    <p data-text-key="rules-objective-description">The primary goal of the competition is to correctly answer 15 general knowledge trivia questions within a total time limit of 2 minutes and 30 seconds.</p>
 
-      <div id="quiz-countdown-screen" class="screen">
-        <div class="countdown-container">
-          <h2 data-text-key="quiz-get-ready">Get Ready!</h2>
-          <div class="countdown-number">3</div>
-        </div>
-      </div>
+    <h3 data-text-key="rules-scoring-subtitle">Scoring:</h3>
+    <ul>
+        <li data-text-key="rules-scoring-point">Each question is worth one point.</li>
+        <li data-text-key="rules-scoring-perfect">A perfect score is 15 out of 15 within the allotted time.</li>
+        <li data-text-key="rules-scoring-tiebreaker">In the event that two or more players achieve a perfect score, the winner will be determined based on who completed the quiz in the shortest overall time.</li>
+    </ul>
 
-      <div id="quiz-message-screen" class="screen">
-        <div class="quiz-message-container">
-          <h2 id="quiz-message-text"></h2>
-          <div id="quiz-message-button-container" class="quiz-buttons-container">
-            <button id="quiz-rules-btn" class="quiz-btn aleo-text" data-text-key="quiz-rules-button">Rules</button>
-            <button id="quiz-scoreboard-btn" class="quiz-btn aleo-text" data-text-key="quiz-scoreboard-button">Scoreboard</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <h2 data-text-key="rules-eligibility-title">Eligibility</h2>
+    <h3 data-text-key="rules-who-can-participate-subtitle">Who Can Participate:</h3>
+    <p data-text-key="rules-who-can-participate-description">Participation in the Trivia Challenge is open exclusively to eligible TenaPrime subscribers.</p>
+    <h3 data-text-key="rules-exclusions-subtitle">Exclusions:</h3>
+    <p data-text-key="rules-exclusions-description">Employees of TenaPrime, Ethio Telecom, their co-workers, affiliates, and any associated professional partners are not eligible to participate or win prizes in this competition.</p>
+    <h3 data-text-key="rules-important-subtitle">Important:</h3>
+    <p data-text-key="rules-important-description">The IP address of your device used for the competition must be within Ethiopia.</p>
+
+    <h2 data-text-key="rules-subscription-title">Subscription and Payment Details</h2>
+    <h3 data-text-key="rules-free-trial-subtitle">Free Trial:</h3>
+    <p data-text-key="rules-free-trial-description">New users are offered a free trial period of three days during which they can access the competition service without any charges.</p>
+    <h3 data-text-key="rules-subscription-fee-subtitle">Subscription Fee:</h3>
+    <p data-text-key="rules-subscription-fee-description">After the free trial period ends, a daily fee of 2 Ethiopian Birr will apply until the service is canceled.</p>
+    <h3 data-text-key="rules-play-fee-subtitle">Play Fee:</h3>
+    <p data-text-key="rules-play-fee-description">Subscribers are required to pay a nominal fee of 1 Ethiopian Birr for each attempt at the weekly trivia challenge. Users are allowed unlimited attempts per week to achieve their best score.</p>
+
+    <h2 data-text-key="rules-participation-title">Participation and Scheduling</h2>
+    <h3 data-text-key="rules-competition-window-subtitle">Competition Window:</h3>
+    <p data-text-key="rules-competition-window-description">The Trivia Challenge for each week is open until Sunday midnight. All attempts and scores submitted before Sunday midnight will be considered for that week's competition. A new competition cycle will begin on Monday, allowing players to start fresh with new attempts for the upcoming week.</p>
+    <h3 data-text-key="rules-unlimited-participation-subtitle">Unlimited Participation:</h3>
+    <p data-text-key="rules-unlimited-participation-description">Participants can play the trivia challenge as many times as they wish throughout the competition period. However, a winner will only be declared if a perfect score (15 out of 15) is achieved within the time limit.</p>
+
+    <h2 data-text-key="rules-winning-criteria-title">Winning Criteria and Prize Distribution</h2>
+    <h3 data-text-key="rules-determining-winner-subtitle">Determining the Winner:</h3>
+    <p data-text-key="rules-determining-winner-description">The participant who scores a perfect 15 out of 15 within the 2:30-minute time limit is recognized as the weekly winner. If more than one player achieves a perfect score, the winner will be determined by the fastest overall completion time.</p>
+    <h3 data-text-key="rules-prize-distribution-subtitle">Prize Distribution:</h3>
+    <ul>
+        <li data-text-key="rules-prize-amount">The weekly prize is 25,000 Ethiopian Birr.</li>
+        <li data-text-key="rules-prize-eligibility">Prizes are awarded exclusively to the registered telephone number owner or their legal representative.</li>
+        <li data-text-key="rules-prize-payment">Prize funds will be disbursed via bank transfer or Telebirr as designated.</li>
+    </ul>
+    <h3 data-text-key="rules-consent-subtitle">Consent for Promotion:</h3>
+    <p data-text-key="rules-consent-description">By participating in the Trivia Challenge, you consent to allow TenaPrime to use your image, name, and data for marketing purposes, including promotion on our website, in TV commercials, and on social media platforms.</p>
+    <h3 data-text-key="rules-alternate-winner-subtitle">Alternate Winner Selection:</h3>
+    <p data-text-key="rules-alternate-winner-description">If, during any given week or across multiple weeks of the competition, no participant attains a perfect score of 15 out of 15 within the 2:30-minute time limit, TenaPrime reserves the right, at its sole and absolute discretion, to determine the winner(s) by selecting the participant(s) achieving the highest score and, among those, the one(s) with the shortest total time used. In such circumstances, TenaPrime may, but is not obligated to, award the prize according to this alternative criterion. TenaPrime's decision regarding the selection of winners under this provision shall be final and binding, and no claim or dispute shall be raised regarding the awarding of prizes in weeks when a perfect score is not achieved.</p>
+
+    <h2 data-text-key="rules-additional-terms-title">Additional Terms</h2>
+    <h3 data-text-key="rules-modification-subtitle">Modification of Rules:</h3>
+    <p data-text-key="rules-modification-description">TenaPrime reserves the right to modify or update the rules of the Trivia Challenge at any time. Any changes will be posted on the Site, and your participation in the game after such changes indicates your acceptance of the new rules.</p>
+    <h3 data-text-key="rules-dispute-resolution-subtitle">Dispute Resolution:</h3>
+    <p data-text-key="rules-dispute-resolution-description">In the event of a dispute regarding the rules, attempts, or scoring, TenaPrime's decision shall be final and binding.</p>
+    <h3 data-text-key="rules-general-responsibility-subtitle">General Responsibility:</h3>
+    <p data-text-key="rules-general-responsibility-description">By participating in the game, you agree to comply with all these rules and acknowledge that any breach may result in the suspension or termination of your participation and access to related prizes.</p>
+
+    <h2 data-text-key="rules-final-note-title">Final Note</h2>
+    <p data-text-key="rules-final-note-description">Your participation in the TenaPrime Trivia Challenge is a commitment to both healthy living and continuous improvement. We encourage you to challenge yourself, have fun, and use each attempt as an opportunity to learn and grow. Good luck, and enjoy the challenge!</p>
   </div>
 
   <div class="footer aleo-text">
@@ -287,7 +269,6 @@
 <script src="/scripts/language-selector.js"></script>
 <script src="/scripts/user-stats-popup.js"></script>
 <script src="/scripts/sidebar-overlay.js"></script>
-<script src="/scripts/play-quiz.js"></script>
 
 </body>
 </html> 

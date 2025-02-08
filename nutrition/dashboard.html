@@ -97,14 +97,30 @@
   </div>
 
   <div class="personalization-prompt aleo-text">
-    <div class="prompt-content">
-      <div class="prompt-text">
-        <h2>Personalize Your Experience</h2>
-        <p>Get customized nutrition recommendations by completing your fitness profile.</p>
+    <div class="personalization-prompt-content">
+      <div class="personalization-prompt-text">
+        <h2 id="personalization-title" data-text-key="personalization-prompt-title">Personalize Your Experience</h2>
+        <p id="personalization-description" data-text-key="personalization-prompt-description">Get customized recommendations by completing your fitness profile.</p>
       </div>
-      <a href="/setup" class="prompt-button">
-        <button class="complete-setup-btn" data-text-key="personalization-button">Setup Profile</button>
+      <a href="/setup" class="personalization-prompt-button">
+        <button class="personalization-complete-setup-btn aleo-text" data-text-key="personalization-prompt-button" id="personalization-button">Setup Profile</button>
       </a>
+    </div>
+  </div>
+
+  <div class="nutrition-plan-heading aleo-text">
+    <div class="nutrition-plan-heading-container">
+      <div class="nutrition-plan-heading-text-container">
+        <div class="nutrition-plan-heading-text">
+          <h1 id="nutrition-plan-heading-title" data-text-key="nutrition-plan-heading-title">Your Personalized Meals</h1>
+          <h3 id="nutrition-plan-heading-description" data-text-key="nutrition-plan-heading-description">We've created a customized nutrition plan based on your profile.</h3>
+        </div>
+      </div>
+      <div class="nutrition-plan-heading-button-container">
+        <div class="nutrition-plan-heading-button">
+          <button class="nutrition-plan-view-button aleo-text" data-text-key="nutrition-plan-view-button" onclick="window.location.href='/nutrition/my-nutrition'">View Your Plan</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -126,7 +142,7 @@
         <h2 data-text-key="dietary-preferences-text">Special Diets</h2>
       </div>
       <div class="category-item" data-category="recipes">
-        <h2 data-text-key="healthy-recipes-text">Sample Recipes</h2>
+        <h2 data-text-key="sample-recipes-text">Sample Recipes</h2>
       </div>
       <div class="category-item" data-category="supplements">
         <h2 data-text-key="supplements-text">Supplements Guide</h2>

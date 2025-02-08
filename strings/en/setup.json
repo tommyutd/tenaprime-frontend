@@ -1,0 +1,462 @@
+[
+    {
+        "id": "setup-title",
+        "en": "Exercise Profile Setup"
+    },
+    {
+        "id": "setup-description",
+        "en": "Let's customize your exercise experience"
+    },
+    {
+        "id": "setup-basic-info",
+        "en": "Basic Information"
+    },
+    {
+        "id": "setup-body-metrics",
+        "en": "Body Metrics"
+    },
+    {
+        "id": "setup-lifestyle",
+        "en": "Lifestyle"
+    },
+    {
+        "id": "setup-goals",
+        "en": "Goals"
+    },
+    {
+        "id": "setup-schedule",
+        "en": "Schedule"
+    },
+    {
+        "id": "setup-preferences",
+        "en": "Preferences"
+    },
+    {
+        "id": "setup-gender-female",
+        "en": "Female"
+    },
+    {
+        "id": "setup-lifestyle-health-title",
+        "en": "Lifestyle & Health"
+    },
+    {
+        "id": "setup-sedentary",
+        "en": "Sedentary"
+    },
+    {
+        "id": "setup-sedentary-desc",
+        "en": "Little or no exercise"
+    },
+    {
+        "id": "setup-light",
+        "en": "Light"
+    },
+    {
+        "id": "setup-light-desc",
+        "en": "Exercise 1-3 times/week"
+    },
+    {
+        "id": "setup-moderate",
+        "en": "Moderate"
+    },
+    {
+        "id": "setup-moderate-desc",
+        "en": "Exercise 3-5 times/week"
+    },
+    {
+        "id": "setup-active",
+        "en": "Active"
+    },
+    {
+        "id": "setup-active-desc",
+        "en": "Exercise 6-7 times/week"
+    },
+    {
+        "id": "setup-very-active",
+        "en": "Very Active"
+    },
+    {
+        "id": "setup-very-active-desc",
+        "en": "Intense exercise daily"
+    },
+    {
+        "id": "setup-dietary-preferences-label",
+        "en": "Dietary Preferences (Multiple Selection)"
+    },
+    {
+        "id": "setup-diet-vegan",
+        "en": "Vegan"
+    },
+    {
+        "id": "setup-diet-vegetarian",
+        "en": "Vegetarian"
+    },
+    {
+        "id": "setup-diet-keto",
+        "en": "Keto"
+    },
+    {
+        "id": "setup-diet-paleo",
+        "en": "Paleo"
+    },
+    {
+        "id": "setup-diet-gluten-free",
+        "en": "Gluten-Free"
+    },
+    {
+        "id": "setup-allergies-intolerances-label",
+        "en": "Allergies/Intolerances (Multiple Selection)"
+    },
+    {
+        "id": "setup-allergy-nuts",
+        "en": "Nuts"
+    },
+    {
+        "id": "setup-allergy-dairy",
+        "en": "Dairy"
+    },
+    {
+        "id": "setup-allergy-shellfish",
+        "en": "Shellfish"
+    },
+    {
+        "id": "setup-allergy-eggs",
+        "en": "Eggs"
+    },
+    {
+        "id": "setup-allergy-soy",
+        "en": "Soy"
+    },
+    {
+        "id": "setup-health-diabetes",
+        "en": "Diabetes"
+    },
+    {
+        "id": "setup-health-hypertension",
+        "en": "Hypertension"
+    },
+    {
+        "id": "setup-health-heart-disease",
+        "en": "Heart Disease"
+    },
+    {
+        "id": "setup-goal-weight-loss-desc",
+        "en": "Reduce body fat while maintaining muscle mass"
+    },
+    {
+        "id": "setup-goal-muscle-gain",
+        "en": "Muscle Gain"
+    },
+    {
+        "id": "setup-goal-muscle-gain-desc",
+        "en": "Build strength and increase muscle mass"
+    },
+    {
+        "id": "setup-goal-maintenance",
+        "en": "Maintenance"
+    },
+    {
+        "id": "setup-goal-maintenance-desc",
+        "en": "Maintain current weight and improve body composition"
+    },
+    {
+        "id": "setup-goal-performance",
+        "en": "Performance"
+    },
+    {
+        "id": "setup-goal-performance-desc",
+        "en": "Improve athletic performance and endurance"
+    },
+    {
+        "id": "setup-goal-wellness",
+        "en": "Wellness"
+    },
+    {
+        "id": "setup-goal-wellness-desc",
+        "en": "Focus on overall health and longevity"
+    },
+    {
+        "id": "setup-weight-loss-workout-label",
+        "en": "What type of workouts do you prefer for <b>weight loss</b>?"
+    },
+    {
+        "id": "setup-workout-cardio",
+        "en": "Cardio"
+    },
+    {
+        "id": "setup-workout-cardio-desc",
+        "en": "Focus on running, cycling, and endurance training"
+    },
+    {
+        "id": "setup-workout-hiit",
+        "en": "HIIT"
+    },
+    {
+        "id": "setup-workout-hiit-desc",
+        "en": "High-intensity interval training for maximum calorie burn"
+    },
+    {
+        "id": "setup-workout-mixed",
+        "en": "Mixed"
+    },
+    {
+        "id": "setup-workout-mixed-desc",
+        "en": "Combination of cardio and strength training"
+    },
+    {
+        "id": "setup-muscle-gain-workout-label",
+        "en": "What type of strength training do you prefer for <b>muscle gain</b>?"
+    },
+    {
+        "id": "setup-workout-full-body",
+        "en": "Full Body"
+    },
+    {
+        "id": "setup-workout-full-body-desc",
+        "en": "Complete body workouts in each session"
+    },
+    {
+        "id": "setup-workout-split",
+        "en": "Split Routine"
+    },
+    {
+        "id": "setup-workout-split-desc",
+        "en": "Different muscle groups on different days"
+    },
+    {
+        "id": "setup-workout-env-gym",
+        "en": "Gym"
+    },
+    {
+        "id": "setup-workout-env-gym-desc",
+        "en": "With equipment access"
+    },
+    {
+        "id": "setup-workout-env-home",
+        "en": "Home"
+    },
+    {
+        "id": "setup-workout-env-home-desc",
+        "en": "Minimal equipment needed"
+    },
+    {
+        "id": "setup-performance-focus-label",
+        "en": "What aspect of <b>performance</b> would you like to focus on?"
+    },
+    {
+        "id": "setup-performance-endurance",
+        "en": "Endurance"
+    },
+    {
+        "id": "setup-performance-endurance-desc",
+        "en": "Improve stamina and cardiovascular fitness"
+    },
+    {
+        "id": "setup-performance-strength",
+        "en": "Strength"
+    },
+    {
+        "id": "setup-performance-strength-desc",
+        "en": "Focus on power and muscle strength"
+    },
+    {
+        "id": "setup-performance-agility",
+        "en": "Agility"
+    },
+    {
+        "id": "setup-performance-agility-desc",
+        "en": "Improve speed and coordination"
+    },
+    {
+        "id": "setup-maintenance-routine-label",
+        "en": "What type of <b>maintenance</b> routine do you prefer?"
+    },
+    {
+        "id": "setup-maintenance-balanced",
+        "en": "Balanced Training"
+    },
+    {
+        "id": "setup-maintenance-balanced-desc",
+        "en": "Equal focus on strength and cardio to maintain current fitness"
+    },
+    {
+        "id": "setup-maintenance-strength",
+        "en": "Strength Maintenance"
+    },
+    {
+        "id": "setup-maintenance-strength-desc",
+        "en": "Focus on maintaining muscle mass and strength"
+    },
+    {
+        "id": "setup-maintenance-cardio",
+        "en": "Cardio Maintenance"
+    },
+    {
+        "id": "setup-maintenance-cardio-desc",
+        "en": "Emphasis on maintaining cardiovascular fitness"
+    },
+    {
+        "id": "setup-wellness-focus-label",
+        "en": "What aspects of <b>wellness</b> would you like to focus on?"
+    },
+    {
+        "id": "setup-wellness-mind-body",
+        "en": "Mind-Body Balance"
+    },
+    {
+        "id": "setup-wellness-mind-body-desc",
+        "en": "Focus on yoga, meditation, and flexibility"
+    },
+    {
+        "id": "setup-wellness-functional",
+        "en": "Functional Fitness"
+    },
+    {
+        "id": "setup-wellness-functional-desc",
+        "en": "Improve daily movement and overall mobility"
+    },
+    {
+        "id": "setup-wellness-low-impact",
+        "en": "Low Impact"
+    },
+    {
+        "id": "setup-wellness-low-impact-desc",
+        "en": "Gentle exercises focusing on joint health and mobility"
+    },
+    {
+        "id": "setup-exercise-schedule-title",
+        "en": "Exercise Schedule"
+    },
+    {
+        "id": "setup-exercise-frequency-label",
+        "en": "How many days per week can you commit to exercising?"
+    },
+    {
+        "id": "setup-frequency-three-days",
+        "en": "3 Days"
+    },
+    {
+        "id": "setup-frequency-three-days-desc",
+        "en": "Perfect for beginners, allows full recovery between sessions"
+    },
+    {
+        "id": "setup-frequency-four-days",
+        "en": "4 Days"
+    },
+    {
+        "id": "setup-frequency-four-days-desc",
+        "en": "Balanced approach, suitable for most fitness levels"
+    },
+    {
+        "id": "setup-frequency-five-days",
+        "en": "5 Days"
+    },
+    {
+        "id": "setup-frequency-five-days-desc",
+        "en": "Intensive program for dedicated fitness enthusiasts"
+    },
+    {
+        "id": "setup-intensity-level-label",
+        "en": "What workout intensity level are you comfortable with?"
+    },
+    {
+        "id": "setup-intensity-beginner",
+        "en": "Beginner"
+    },
+    {
+        "id": "setup-intensity-beginner-desc",
+        "en": "Focus on form and building basic fitness"
+    },
+    {
+        "id": "setup-intensity-intermediate",
+        "en": "Intermediate"
+    },
+    {
+        "id": "setup-intensity-intermediate-desc",
+        "en": "Moderate intensity with challenging exercises"
+    },
+    {
+        "id": "setup-intensity-advanced-desc",
+        "en": "High-intensity workouts for experienced athletes"
+    },
+    {
+        "id": "setup-previous-btn",
+        "en": "Previous"
+    },
+    {
+        "id": "setup-next-btn",
+        "en": "Next"
+    },
+    {
+        "id": "setup-complete-setup-btn",
+        "en": "Complete Setup"
+    },
+    {
+        "id": "setup-basic-info-title",
+        "en": "Basic Information"
+    },
+    {
+        "id": "setup-age-label",
+        "en": "Age"
+    },
+    {
+        "id": "setup-gender-label",
+        "en": "Gender"
+    },
+    {
+        "id": "setup-gender-male",
+        "en": "Male"
+    },
+    {
+        "id": "setup-body-metrics-title",
+        "en": "Body Metrics"
+    },
+    {
+        "id": "setup-weight-label",
+        "en": "Weight (kg)"
+    },
+    {
+        "id": "setup-height-label",
+        "en": "Height (cm)"
+    },
+    {
+        "id": "setup-body-fat-label",
+        "en": "Body Fat % (optional)"
+    },
+    {
+        "id": "setup-bmi-label",
+        "en": "Your BMI:"
+    },
+    {
+        "id": "setup-activity-level-label",
+        "en": "Activity Level (Single Selection)"
+    },
+    {
+        "id": "setup-health-conditions-label",
+        "en": "Health Conditions (Multiple Selection)"
+    },
+    {
+        "id": "setup-goals-title",
+        "en": "Your Goals"
+    },
+    {
+        "id": "setup-primary-goal-label",
+        "en": "Primary Goal"
+    },
+    {
+        "id": "setup-goal-weight-loss",
+        "en": "Weight Loss"
+    },
+    {
+        "id": "setup-workout-preferences-title",
+        "en": "Workout Preferences"
+    },
+    {
+        "id": "setup-workout-environment-label",
+        "en": "Workout Environment"
+    },
+    {
+        "id": "setup-intensity-advanced",
+        "en": "Advanced"
+    }
+]

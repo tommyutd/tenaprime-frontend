@@ -1,0 +1,462 @@
+[
+    {
+        "id": "setup-title",
+        "am": "የአካል ብቃት እንቅስቃሴ መገለጫ ማዋቀር"
+    },
+    {
+        "id": "setup-description",
+        "am": "የአካል ብቃት እንቅስቃሴ ልምድዎን እናብጅ"
+    },
+    {
+        "id": "setup-basic-info",
+        "am": "መሰረታዊ መረጃ"
+    },
+    {
+        "id": "setup-body-metrics",
+        "am": "የሰውነት መለኪያዎች"
+    },
+    {
+        "id": "setup-lifestyle",
+        "am": "የአኗኗር ዘይቤ"
+    },
+    {
+        "id": "setup-goals",
+        "am": "ግቦች"
+    },
+    {
+        "id": "setup-schedule",
+        "am": "መርሐግብር"
+    },
+    {
+        "id": "setup-preferences",
+        "am": "ምርጫዎች"
+    },
+    {
+        "id": "setup-gender-female",
+        "am": "ሴት"
+    },
+    {
+        "id": "setup-lifestyle-health-title",
+        "am": "የአኗኗር ዘይቤ እና ጤና"
+    },
+    {
+        "id": "setup-sedentary",
+        "am": "ተቀምጦ"
+    },
+    {
+        "id": "setup-sedentary-desc",
+        "am": "ትንሽ ወይም ምንም የአካል ብቃት እንቅስቃሴ የለም"
+    },
+    {
+        "id": "setup-light",
+        "am": "ብርሃን"
+    },
+    {
+        "id": "setup-light-desc",
+        "am": "በሳምንት 1-3 ጊዜ የአካል ብቃት እንቅስቃሴ ያድርጉ"
+    },
+    {
+        "id": "setup-moderate",
+        "am": "መጠነኛ"
+    },
+    {
+        "id": "setup-moderate-desc",
+        "am": "በሳምንት 3-5 ጊዜ የአካል ብቃት እንቅስቃሴ ያድርጉ"
+    },
+    {
+        "id": "setup-active",
+        "am": "ንቁ"
+    },
+    {
+        "id": "setup-active-desc",
+        "am": "በሳምንት ከ6-7 ጊዜ የአካል ብቃት እንቅስቃሴ ያድርጉ"
+    },
+    {
+        "id": "setup-very-active",
+        "am": "በጣም ንቁ"
+    },
+    {
+        "id": "setup-very-active-desc",
+        "am": "በየቀኑ ከባድ የአካል ብቃት እንቅስቃሴ"
+    },
+    {
+        "id": "setup-dietary-preferences-label",
+        "am": "የአመጋገብ ምርጫዎች (ብዙ ምርጫ)"
+    },
+    {
+        "id": "setup-diet-vegan",
+        "am": "ቪጋን"
+    },
+    {
+        "id": "setup-diet-vegetarian",
+        "am": "ቬጀቴሪያን"
+    },
+    {
+        "id": "setup-diet-keto",
+        "am": "ኬቶ"
+    },
+    {
+        "id": "setup-diet-paleo",
+        "am": "ፓሊዮ"
+    },
+    {
+        "id": "setup-diet-gluten-free",
+        "am": "ከግሉተን-ነጻ"
+    },
+    {
+        "id": "setup-allergies-intolerances-label",
+        "am": "አለርጂ/አለመቻቻል (በርካታ ምርጫ)"
+    },
+    {
+        "id": "setup-allergy-nuts",
+        "am": "ለውዝ"
+    },
+    {
+        "id": "setup-allergy-dairy",
+        "am": "የወተት ምርቶች"
+    },
+    {
+        "id": "setup-allergy-shellfish",
+        "am": "ሼልፊሽ"
+    },
+    {
+        "id": "setup-allergy-eggs",
+        "am": "እንቁላል"
+    },
+    {
+        "id": "setup-allergy-soy",
+        "am": "አኩሪ አተር"
+    },
+    {
+        "id": "setup-health-diabetes",
+        "am": "የስኳር በሽታ"
+    },
+    {
+        "id": "setup-health-hypertension",
+        "am": "የደም ግፊት"
+    },
+    {
+        "id": "setup-health-heart-disease",
+        "am": "የልብ በሽታ"
+    },
+    {
+        "id": "setup-goal-weight-loss-desc",
+        "am": "የጡንቻን ብዛት በመጠበቅ የሰውነት ስብን ይቀንሱ"
+    },
+    {
+        "id": "setup-goal-muscle-gain",
+        "am": "የጡንቻ መጨመር"
+    },
+    {
+        "id": "setup-goal-muscle-gain-desc",
+        "am": "ጥንካሬን ይገንቡ እና የጡንቻን ብዛት ይጨምሩ"
+    },
+    {
+        "id": "setup-goal-maintenance",
+        "am": "ጥገና"
+    },
+    {
+        "id": "setup-goal-maintenance-desc",
+        "am": "የአሁኑን ክብደት ይንከባከቡ እና የሰውነት ስብጥርን ያሻሽሉ።"
+    },
+    {
+        "id": "setup-goal-performance",
+        "am": "አፈጻጸም"
+    },
+    {
+        "id": "setup-goal-performance-desc",
+        "am": "የአትሌቲክስ አፈፃፀምን እና ጽናትን ያሻሽሉ።"
+    },
+    {
+        "id": "setup-goal-wellness",
+        "am": "ጤና"
+    },
+    {
+        "id": "setup-goal-wellness-desc",
+        "am": "በአጠቃላይ ጤና እና ረጅም ዕድሜ ላይ ያተኩሩ"
+    },
+    {
+        "id": "setup-weight-loss-workout-label",
+        "am": "ለ<b>ክብደት መቀነስ</b> ምን አይነት ስፖርታዊ እንቅስቃሴዎችን ይመርጣሉ?"
+    },
+    {
+        "id": "setup-workout-cardio",
+        "am": "ካርዲዮ"
+    },
+    {
+        "id": "setup-workout-cardio-desc",
+        "am": "በሩጫ፣ በብስክሌት እና በጽናት ስልጠና ላይ ያተኩሩ"
+    },
+    {
+        "id": "setup-workout-hiit",
+        "am": "HIIT"
+    },
+    {
+        "id": "setup-workout-hiit-desc",
+        "am": "ለከፍተኛ የካሎሪ ማቃጠል ከፍተኛ-የጊዜ ልዩነት ስልጠና"
+    },
+    {
+        "id": "setup-workout-mixed",
+        "am": "የተቀላቀለ"
+    },
+    {
+        "id": "setup-workout-mixed-desc",
+        "am": "የካርዲዮ እና የጥንካሬ ስልጠና ጥምረት"
+    },
+    {
+        "id": "setup-muscle-gain-workout-label",
+        "am": "ለ<b>ጡንቻ መጨመር</b> ምን ዓይነት የጥንካሬ ስልጠና ይመርጣሉ?"
+    },
+    {
+        "id": "setup-workout-full-body",
+        "am": "ሙሉ አካል"
+    },
+    {
+        "id": "setup-workout-full-body-desc",
+        "am": "በእያንዳንዱ ክፍለ ጊዜ የአካል ብቃት እንቅስቃሴዎችን ያጠናቅቁ"
+    },
+    {
+        "id": "setup-workout-split",
+        "am": "የተከፋፈለ የዕለት ተዕለት ተግባር"
+    },
+    {
+        "id": "setup-workout-split-desc",
+        "am": "በተለያዩ ቀናት ውስጥ የተለያዩ የጡንቻ ቡድኖች"
+    },
+    {
+        "id": "setup-workout-env-gym",
+        "am": "ጂም"
+    },
+    {
+        "id": "setup-workout-env-gym-desc",
+        "am": "ከመሳሪያዎች መዳረሻ ጋር"
+    },
+    {
+        "id": "setup-workout-env-home",
+        "am": "ቤት"
+    },
+    {
+        "id": "setup-workout-env-home-desc",
+        "am": "አነስተኛ መሣሪያዎች ያስፈልጋሉ።"
+    },
+    {
+        "id": "setup-performance-focus-label",
+        "am": "በየትኛው የ<b>አፈጻጸም</b> ገጽታ ላይ ማተኮር ይፈልጋሉ?"
+    },
+    {
+        "id": "setup-performance-endurance",
+        "am": "ጽናት።"
+    },
+    {
+        "id": "setup-performance-endurance-desc",
+        "am": "ጥንካሬን እና የልብና የደም ህክምናን ያሻሽሉ"
+    },
+    {
+        "id": "setup-performance-strength",
+        "am": "ጥንካሬ"
+    },
+    {
+        "id": "setup-performance-strength-desc",
+        "am": "በኃይል እና በጡንቻ ጥንካሬ ላይ ያተኩሩ"
+    },
+    {
+        "id": "setup-performance-agility",
+        "am": "ቅልጥፍና"
+    },
+    {
+        "id": "setup-performance-agility-desc",
+        "am": "ፍጥነትን እና ቅንጅትን ያሻሽሉ"
+    },
+    {
+        "id": "setup-maintenance-routine-label",
+        "am": "ምን አይነት የ<b>ጥገና</b> የዕለት ተዕለት ተግባር ነው የሚመርጡት?"
+    },
+    {
+        "id": "setup-maintenance-balanced",
+        "am": "ሚዛናዊ ስልጠና"
+    },
+    {
+        "id": "setup-maintenance-balanced-desc",
+        "am": "የአሁኑን የአካል ብቃት ለመጠበቅ በጥንካሬ እና በ cardio ላይ እኩል ትኩረት ያድርጉ"
+    },
+    {
+        "id": "setup-maintenance-strength",
+        "am": "የጥንካሬ ጥገና"
+    },
+    {
+        "id": "setup-maintenance-strength-desc",
+        "am": "የጡንቻን ብዛት እና ጥንካሬን በመጠበቅ ላይ ያተኩሩ"
+    },
+    {
+        "id": "setup-maintenance-cardio",
+        "am": "የካርዲዮ ጥገና"
+    },
+    {
+        "id": "setup-maintenance-cardio-desc",
+        "am": "የካርዲዮቫስኩላር ብቃትን ለመጠበቅ አጽንዖት"
+    },
+    {
+        "id": "setup-wellness-focus-label",
+        "am": "በየትኞቹ የ<b>ደህንነት</b> ገጽታዎች ላይ ማተኮር ይፈልጋሉ?"
+    },
+    {
+        "id": "setup-wellness-mind-body",
+        "am": "የአእምሮ-የሰውነት ሚዛን"
+    },
+    {
+        "id": "setup-wellness-mind-body-desc",
+        "am": "በዮጋ፣ በማሰላሰል እና በተለዋዋጭነት ላይ ያተኩሩ"
+    },
+    {
+        "id": "setup-wellness-functional",
+        "am": "ተግባራዊ የአካል ብቃት"
+    },
+    {
+        "id": "setup-wellness-functional-desc",
+        "am": "የዕለት ተዕለት እንቅስቃሴን እና አጠቃላይ እንቅስቃሴን ያሻሽሉ።"
+    },
+    {
+        "id": "setup-wellness-low-impact",
+        "am": "ዝቅተኛ ተጽዕኖ"
+    },
+    {
+        "id": "setup-wellness-low-impact-desc",
+        "am": "በጋራ ጤና እና ተንቀሳቃሽነት ላይ የሚያተኩሩ ረጋ ያሉ ልምምዶች"
+    },
+    {
+        "id": "setup-exercise-schedule-title",
+        "am": "የአካል ብቃት እንቅስቃሴ መርሃ ግብር"
+    },
+    {
+        "id": "setup-exercise-frequency-label",
+        "am": "በሳምንት ስንት ቀናት የአካል ብቃት እንቅስቃሴ ማድረግ ይችላሉ?"
+    },
+    {
+        "id": "setup-frequency-three-days",
+        "am": "3 ቀናት"
+    },
+    {
+        "id": "setup-frequency-three-days-desc",
+        "am": "ለጀማሪዎች ፍጹም ፣ በክፍለ-ጊዜዎች መካከል ሙሉ ማገገምን ያስችላል"
+    },
+    {
+        "id": "setup-frequency-four-days",
+        "am": "4 ቀናት"
+    },
+    {
+        "id": "setup-frequency-four-days-desc",
+        "am": "ለአብዛኛዎቹ የአካል ብቃት ደረጃዎች ተስማሚ የሆነ ሚዛናዊ አቀራረብ"
+    },
+    {
+        "id": "setup-frequency-five-days",
+        "am": "5 ቀናት"
+    },
+    {
+        "id": "setup-frequency-five-days-desc",
+        "am": "ለወሰኑ የአካል ብቃት አድናቂዎች የተጠናከረ ፕሮግራም"
+    },
+    {
+        "id": "setup-intensity-level-label",
+        "am": "በምን ዓይነት የአካል ብቃት እንቅስቃሴ ደረጃ ይመቻችሁ?"
+    },
+    {
+        "id": "setup-intensity-beginner",
+        "am": "ጀማሪ"
+    },
+    {
+        "id": "setup-intensity-beginner-desc",
+        "am": "በቅጹ ላይ ያተኩሩ እና መሰረታዊ የአካል ብቃትን መገንባት"
+    },
+    {
+        "id": "setup-intensity-intermediate",
+        "am": "መካከለኛ"
+    },
+    {
+        "id": "setup-intensity-intermediate-desc",
+        "am": "ከአስቸጋሪ ልምምዶች ጋር መጠነኛ ጥንካሬ"
+    },
+    {
+        "id": "setup-intensity-advanced-desc",
+        "am": "ልምድ ላላቸው አትሌቶች ከፍተኛ ጥንካሬ ያላቸው የአካል ብቃት እንቅስቃሴዎች"
+    },
+    {
+        "id": "setup-previous-btn",
+        "am": "ቀዳሚ"
+    },
+    {
+        "id": "setup-next-btn",
+        "am": "ቀጥሎ"
+    },
+    {
+        "id": "setup-complete-setup-btn",
+        "am": "የተሟላ ማዋቀር"
+    },
+    {
+        "id": "setup-basic-info-title",
+        "am": "መሰረታዊ መረጃ"
+    },
+    {
+        "id": "setup-age-label",
+        "am": "ዕድሜ"
+    },
+    {
+        "id": "setup-gender-label",
+        "am": "ጾታ"
+    },
+    {
+        "id": "setup-gender-male",
+        "am": "ወንድ"
+    },
+    {
+        "id": "setup-body-metrics-title",
+        "am": "የሰውነት መለኪያዎች"
+    },
+    {
+        "id": "setup-weight-label",
+        "am": "ክብደት (ኪግ)"
+    },
+    {
+        "id": "setup-height-label",
+        "am": "ቁመት (ሴሜ)"
+    },
+    {
+        "id": "setup-body-fat-label",
+        "am": "የሰውነት ስብ % (አማራጭ)"
+    },
+    {
+        "id": "setup-bmi-label",
+        "am": "የእርስዎ BMI፡"
+    },
+    {
+        "id": "setup-activity-level-label",
+        "am": "የእንቅስቃሴ ደረጃ (ነጠላ ምርጫ)"
+    },
+    {
+        "id": "setup-health-conditions-label",
+        "am": "የጤና ሁኔታዎች (በርካታ ምርጫ)"
+    },
+    {
+        "id": "setup-goals-title",
+        "am": "የእርስዎ ግቦች"
+    },
+    {
+        "id": "setup-primary-goal-label",
+        "am": "ዋና ግብ"
+    },
+    {
+        "id": "setup-goal-weight-loss",
+        "am": "ክብደት መቀነስ"
+    },
+    {
+        "id": "setup-workout-preferences-title",
+        "am": "የአካል ብቃት እንቅስቃሴ ምርጫዎች"
+    },
+    {
+        "id": "setup-workout-environment-label",
+        "am": "የአካል ብቃት እንቅስቃሴ አከባቢ"
+    },
+    {
+        "id": "setup-intensity-advanced",
+        "am": "የላቀ"
+    }
+]

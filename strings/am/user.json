@@ -30,5 +30,21 @@
     {
         "id": "disclaimer",
         "am": "<i>ማስተባበያ፡ ይህ መመሪያ ለመረጃ አገልግሎት ብቻ ነው። አዲስ የአካል ብቃት እንቅስቃሴ ፕሮግራም ከመጀመርዎ በፊት ሁል ጊዜ ከጤና አጠባበቅ ባለሙያ ጋር ያማክሩ፣ በተለይም ቀደም ሲል የነበሩ የጤና ሁኔታዎች ወይም ስጋቶች ካሉዎት።</i>"
+    },
+    {
+        "id": "profile",
+        "am": "መገለጫ"
+    },
+    {
+        "id": "personalization-prompt-title",
+        "am": "ልምድዎን ለግል ያብጁ"
+    },
+    {
+        "id": "personalization-prompt-description",
+        "am": "የአካል ብቃት መገለጫዎን በማጠናቀቅ ብጁ ምክሮችን ያግኙ።"
+    },
+    {
+        "id": "personalization-prompt-button",
+        "am": "የማዋቀር መገለጫ"
     }
 ]

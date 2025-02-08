@@ -1,0 +1,50 @@
+[
+    {
+        "id": "toast-workout-regen",
+        "am": "የአካል ብቃት እንቅስቃሴ በተሳካ ሁኔታ ታድሷል!"
+    },
+    {
+        "id": "toast-workout-regen-error",
+        "am": "የአካል ብቃት እንቅስቃሴን እንደገና ማመንጨት አልተሳካም። እባክህ እንደገና ሞክር።"
+    },
+    {
+        "id": "toast-workout-reset",
+        "am": "በተሳካ ሁኔታ የሂደት ዳግም ማስጀመር!"
+    },
+    {
+        "id": "toast-workout-reset-error",
+        "am": "እድገትን ዳግም ማስጀመር አልተሳካም። እባክህ እንደገና ሞክር።"
+    },
+    {
+        "id": "prompt-workout-reset-title",
+        "am": "ግስጋሴን ዳግም አስጀምር"
+    },
+    {
+        "id": "prompt-workout-reset-message",
+        "am": "እርግጠኛ ነዎት ለዚህ ስፖርታዊ እንቅስቃሴ እድገትዎን ዳግም ማስጀመር ይፈልጋሉ? ይህ ሁሉንም የተጠናቀቁ ልምምዶች ያጸዳል."
+    },
+    {
+        "id": "prompt-workout-regen-title",
+        "am": "የአካል ብቃት እንቅስቃሴን እንደገና ማደስ"
+    },
+    {
+        "id": "prompt-workout-regen-message",
+        "am": "እርግጠኛ ነዎት ይህን ስፖርታዊ እንቅስቃሴ ማደስ ይፈልጋሉ? ይህ አዲስ የአካል ብቃት እንቅስቃሴ እቅድ ይፈጥራል፣ ነገር ግን እድገትዎን አይጎዳም።"
+    },
+    {
+        "id": "prompt-workout-complete-title",
+        "am": "የተሟላ የአካል ብቃት እንቅስቃሴ"
+    },
+    {
+        "id": "prompt-workout-complete-message",
+        "am": "እርግጠኛ ነህ ስፖርታዊ እንቅስቃሴውን ማጠናቀቅ ትፈልጋለህ?"
+    },
+    {
+        "id": "prompt-workout-end-title",
+        "am": "የአካል ብቃት እንቅስቃሴን ጨርስ"
+    },
+    {
+        "id": "prompt-workout-end-message",
+        "am": "እርግጠኛ ነህ ስፖርታዊ እንቅስቃሴውን ማቆም ትፈልጋለህ?"
+    }
+]

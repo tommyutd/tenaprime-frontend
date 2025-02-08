@@ -242,5 +242,25 @@
     {
         "id": "supplements-shop-description",
         "am": "ከፍተኛ ጥራት ያላቸውን የተረጋገጡ ማሟያዎችን ያስሱ እና ይግዙ።"
+    },
+    {
+        "id": "nutrition-generating-heading-title",
+        "am": "እቅድዎን በማመንጨት ላይ…"
+    },
+    {
+        "id": "nutrition-generating-heading-description",
+        "am": "እባክዎ የእርስዎን ግላዊ የተመጣጠነ ምግብ እቅድ እስክንፈጥር ድረስ ይጠብቁ።"
+    },
+    {
+        "id": "nutrition-plan-heading-title",
+        "am": "የእርስዎ ግላዊ ምግቦች"
+    },
+    {
+        "id": "nutrition-plan-heading-description",
+        "am": "በመገለጫዎ ላይ በመመስረት ብጁ የሆነ የአመጋገብ ዕቅድ ፈጠርን።"
+    },
+    {
+        "id": "nutrition-plan-view-button",
+        "am": "እቅድዎን ይመልከቱ"
     }
 ]

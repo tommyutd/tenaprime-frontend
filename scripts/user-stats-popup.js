@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
         // Add click handler for profile button
         profileButton.addEventListener('click', function() {
-            window.location.href = '/exercises/profile';
+            window.location.href = '/profile';
         });
     }
 
@@ -69,5 +69,11 @@ document.addEventListener('DOMContentLoaded', async function() {
                 statsPopup.style.display = 'none';
             }, 300);
         }
+    });
+    
+    window.stringsLoaded.then(() => {
+        updatePageStrings();
+    }).catch(error => {
+        console.error('Error updating strings:', error);
     });
 }); 

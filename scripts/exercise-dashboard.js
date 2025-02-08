@@ -5,9 +5,6 @@ let workoutPlanInterval;
 document.addEventListener('DOMContentLoaded', async function() {
     workoutPlanHeading = document.querySelector('.workout-plan-heading');
     const personalizationPrompt = document.querySelector('.personalization-prompt');
-    const promptTitle = document.getElementById('personalization-title');
-    const promptDescription = document.getElementById('personalization-description');
-    const promptButton = document.getElementById('personalization-button');
     
     try {
         // Wait for auth state to be initialized
@@ -22,7 +19,6 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (window.userData.profile) {
             // Profile exists - hide the prompt
             personalizationPrompt.classList.remove('show');
-            number_of_weeks = 0;
 
             // Initial check when page loads
             checkWorkoutPlan();
@@ -34,6 +30,11 @@ document.addEventListener('DOMContentLoaded', async function() {
             personalizationPrompt.classList.add('show');
             workoutPlanHeading.style.display = 'none';
         }
+        window.stringsLoaded.then(() => {
+            updatePageStrings();
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
     } catch (error) {
         console.error('Error checking profile status:', error);
     }
@@ -167,8 +168,8 @@ async function checkWorkoutPlan() {
             const button = workoutPlanHeading.querySelector('.workout-plan-view-button');
 
             if (workoutPlan.workoutPlan.number_of_weeks_per_phase === 0) {
-                headingText.textContent = 'Generating Your Plan...';
-                descriptionText.textContent = 'Please wait while we create your personalized workout plan.';
+                headingText.setAttribute('data-text-key', 'workout-generating-heading-title');
+                descriptionText.setAttribute('data-text-key', 'workout-generating-heading-description');
 
                 headingText.style.color = '#36454F';
                 descriptionText.style.color = '#36454F';
@@ -176,25 +177,32 @@ async function checkWorkoutPlan() {
                 button.disabled = true;
                 button.innerHTML = `
                     <div class="loading-spinner"></div>
-                    <span>Loading</span>
+                    <span data-text-key="loading"></span>
                 `;
             } else {
-                headingText.textContent = 'Your Personalized Plan';
-                descriptionText.textContent = 'We\'ve created a customized workout plan based on your fitness profile.';
+                headingText.setAttribute('data-text-key', 'workout-plan-heading-title');
+                descriptionText.setAttribute('data-text-key', 'workout-plan-heading-description');
 
                 headingText.style.color = '#121518';
                 descriptionText.style.color = '#121518';
                 
                 button.disabled = false;
                 button.innerHTML = `
-                    Start<br>Your<br>Workout
+                    <span data-text-key="workout-plan-view-button"></span>
                 `;
                 // Clear interval once plan is generated
                 clearInterval(workoutPlanInterval);
             }
+            window.stringsLoaded.then(() => {
+                updatePageStrings();
+            }).catch(error => {
+                console.error('Error updating strings:', error);
+            });
         } else {
             workoutPlanHeading.style.display = 'none';
         }
+
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     } catch (error) {
         console.error('Error checking workout plan:', error);
         workoutPlanHeading.style.display = 'none';

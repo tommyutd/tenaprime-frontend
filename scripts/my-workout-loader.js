@@ -210,7 +210,7 @@ function setupNavigationButtons() {
             currentExerciseIndex++;
             updateExerciseDisplay(allExercises[currentExerciseIndex]);
         } else {
-            const confirmed = await window.showPrompt('Complete Workout', 'Are you sure you want to complete the workout?');
+            const confirmed = await window.showPrompt('prompt-workout-complete-title', 'prompt-workout-complete-message');
             if (confirmed) {
                 clearInterval(timer);
                 window.location.href = '/exercises/dashboard';
@@ -226,7 +226,7 @@ function setupNavigationButtons() {
     });
 
     endButton.addEventListener('click', async () => {
-        const confirmed = await window.showPrompt('End Workout', 'Are you sure you want to end the workout?');
+        const confirmed = await window.showPrompt('prompt-workout-end-title', 'prompt-workout-end-message');
         if (confirmed) {
             clearInterval(timer);
             window.location.href = '/exercises/dashboard';

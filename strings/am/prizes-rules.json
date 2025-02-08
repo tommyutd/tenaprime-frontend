@@ -1,0 +1,194 @@
+[
+    {
+        "id": "rules-title",
+        "am": "የጨዋታ ህጎች እና ተሳትፎ"
+    },
+    {
+        "id": "rules-intro",
+        "am": "እንኳን ወደ TenaPrime Trivia Challenge በደህና መጡ! ውድድሩ ጤናማ ልማዶችን ለማስተዋወቅ እና ተመዝጋቢዎችን አስደሳች እና ፉክክር በሚያደርግ መልኩ የተዘጋጀ ነው። እባክዎ ከመሳተፍዎ በፊት የሚከተሉትን ህጎች በጥንቃቄ ይከልሱ።"
+    },
+    {
+        "id": "rules-objective-title",
+        "am": "ዓላማ እና የጨዋታ ቅርጸት"
+    },
+    {
+        "id": "rules-objective-subtitle",
+        "am": "ዓላማ፡-"
+    },
+    {
+        "id": "rules-objective-description",
+        "am": "የውድድሩ ተቀዳሚ ግብ 15 የጠቅላላ እውቀት ጥቃቅን ጥያቄዎችን በጠቅላላ በ2 ደቂቃ ከ30 ሰከንድ ውስጥ በትክክል መመለስ ነው።"
+    },
+    {
+        "id": "rules-scoring-subtitle",
+        "am": "ነጥብ ማስቆጠር፡"
+    },
+    {
+        "id": "rules-scoring-point",
+        "am": "እያንዳንዱ ጥያቄ አንድ ነጥብ ዋጋ አለው."
+    },
+    {
+        "id": "rules-scoring-perfect",
+        "am": "ፍጹም ነጥብ በተሰጠው ጊዜ ውስጥ 15 ከ15 ነው።"
+    },
+    {
+        "id": "rules-scoring-tiebreaker",
+        "am": "ሁለት ወይም ከዚያ በላይ ተጫዋቾች ፍጹም ነጥብ ቢያመጡ አሸናፊው የሚለየው በአጭር ጊዜ ውስጥ የፈተና ጥያቄውን በማን እንዳጠናቀቀ ነው።"
+    },
+    {
+        "id": "rules-eligibility-title",
+        "am": "ብቁነት"
+    },
+    {
+        "id": "rules-who-can-participate-subtitle",
+        "am": "ማን መሳተፍ ይችላል:"
+    },
+    {
+        "id": "rules-who-can-participate-description",
+        "am": "በTrivia Challenge ውስጥ መሳተፍ ብቁ ለሆኑ TenaPrime ተመዝጋቢዎች ብቻ ክፍት ነው።"
+    },
+    {
+        "id": "rules-exclusions-subtitle",
+        "am": "የማይካተቱት፡"
+    },
+    {
+        "id": "rules-exclusions-description",
+        "am": "TenaPrime፣ኢትዮ ቴሌኮም፣የስራ ባልደረቦቻቸው፣ተባባሪዎቻቸው እና ማንኛውም ተዛማጅ ሙያዊ አጋሮቻቸው በዚህ ውድድር ለመሳተፍ ወይም ሽልማት ለማግኘት ብቁ አይደሉም።"
+    },
+    {
+        "id": "rules-important-subtitle",
+        "am": "ጠቃሚ፡-"
+    },
+    {
+        "id": "rules-important-description",
+        "am": "ለውድድሩ የሚውለው መሳሪያዎ የአይ ፒ አድራሻ ኢትዮጵያ ውስጥ መሆን አለበት።"
+    },
+    {
+        "id": "rules-subscription-title",
+        "am": "የደንበኝነት ምዝገባ እና የክፍያ ዝርዝሮች"
+    },
+    {
+        "id": "rules-free-trial-subtitle",
+        "am": "ነጻ ሙከራ፡-"
+    },
+    {
+        "id": "rules-free-trial-description",
+        "am": "አዲስ ተጠቃሚዎች ያለ ምንም ክፍያ የውድድር አገልግሎቱን ማግኘት የሚችሉበት የሶስት ቀናት የነጻ የሙከራ ጊዜ ተሰጥቷቸዋል።"
+    },
+    {
+        "id": "rules-subscription-fee-subtitle",
+        "am": "የምዝገባ ክፍያ፡-"
+    },
+    {
+        "id": "rules-subscription-fee-description",
+        "am": "የነጻ የሙከራ ጊዜ ካለቀ በኋላ አገልግሎቱ እስኪሰረዝ ድረስ በቀን 2 የኢትዮጵያ ብር ክፍያ ተፈፃሚ ይሆናል።"
+    },
+    {
+        "id": "rules-play-fee-subtitle",
+        "am": "የመጫወቻ ክፍያ፡-"
+    },
+    {
+        "id": "rules-play-fee-description",
+        "am": "ተመዝጋቢዎች በየሳምንቱ ለሚደረገው ትሪቪያ ፈተና ለእያንዳንዱ ሙከራ 1 የኢትዮጵያ ብር የስም ክፍያ መክፈል ይጠበቅባቸዋል። ተጠቃሚዎች ጥሩ ውጤታቸውን ለማሳካት በሳምንት ያልተገደበ ሙከራዎች ተፈቅዶላቸዋል።"
+    },
+    {
+        "id": "rules-participation-title",
+        "am": "ተሳትፎ እና መርሐግብር"
+    },
+    {
+        "id": "rules-competition-window-subtitle",
+        "am": "የውድድር መስኮት፡-"
+    },
+    {
+        "id": "rules-competition-window-description",
+        "am": "ለእያንዳንዱ ሳምንት የትሪቪያ ፈተና እስከ እሁድ እኩለ ሌሊት ድረስ ክፍት ነው። ከእሁድ እኩለ ሌሊት በፊት የቀረቡት ሁሉም ሙከራዎች እና ውጤቶች ለዚያ ሳምንት ውድድር ግምት ውስጥ ይገባሉ። አዲስ የውድድር ዑደት ሰኞ ይጀምራል፣ ይህም ተጫዋቾች ለመጪው ሳምንት በአዲስ ሙከራዎች አዲስ እንዲጀምሩ ያስችላቸዋል።"
+    },
+    {
+        "id": "rules-unlimited-participation-subtitle",
+        "am": "ያልተገደበ ተሳትፎ;"
+    },
+    {
+        "id": "rules-unlimited-participation-description",
+        "am": "ተሳታፊዎች የውድድር ዘመኑ በሙሉ የፈለጉትን ያህል ጊዜ ተራውን ፈተና መጫወት ይችላሉ። ሆኖም አሸናፊው የሚታወጀው በጊዜ ገደቡ ውስጥ ፍጹም ነጥብ (15 ከ15) ከተገኘ ብቻ ነው።"
+    },
+    {
+        "id": "rules-winning-criteria-title",
+        "am": "አሸናፊ መስፈርት እና ሽልማት ስርጭት"
+    },
+    {
+        "id": "rules-determining-winner-subtitle",
+        "am": "አሸናፊውን መወሰን;"
+    },
+    {
+        "id": "rules-determining-winner-description",
+        "am": "በ2፡30 ደቂቃ የጊዜ ገደብ ውስጥ ከ15ቱ 15 ምርጥ ውጤት ያስመዘገበው ተሳታፊ ሳምንታዊ አሸናፊ እንደሆነ ይታወቃል። ከአንድ በላይ ተጫዋቾች ፍጹም ነጥብ ቢያመጡ አሸናፊው የሚወሰነው በፈጣኑ አጠቃላይ የማጠናቀቂያ ጊዜ ነው።"
+    },
+    {
+        "id": "rules-prize-distribution-subtitle",
+        "am": "የሽልማት ስርጭት፡"
+    },
+    {
+        "id": "rules-prize-amount",
+        "am": "ሳምንታዊ ሽልማቱ 25,000 የኢትዮጵያ ብር ነው።"
+    },
+    {
+        "id": "rules-prize-eligibility",
+        "am": "ሽልማቶች ለተመዘገበው የስልክ ቁጥር ባለቤት ወይም ህጋዊ ወኪሎቻቸው ብቻ ይሰጣሉ።"
+    },
+    {
+        "id": "rules-prize-payment",
+        "am": "የሽልማት ገንዘቦች በባንክ ማስተላለፍ ወይም በቴሌቢር በተሰየመ መልኩ ይከፈላሉ ።"
+    },
+    {
+        "id": "rules-consent-subtitle",
+        "am": "የማስተዋወቅ ፈቃድ፡-"
+    },
+    {
+        "id": "rules-consent-description",
+        "am": "በትሪቪያ ፈተና ላይ በመሳተፍ TenaPrime የእርስዎን ምስል፣ ስም እና ውሂብ ለገበያ አላማዎች፣ በድረ-ገፃችን፣ በቲቪ ማስታወቂያዎች እና በማህበራዊ ሚዲያ መድረኮች ላይ ማስተዋወቅን ጨምሮ እንዲጠቀም ለመፍቀድ ተስማምተዋል።"
+    },
+    {
+        "id": "rules-alternate-winner-subtitle",
+        "am": "አማራጭ አሸናፊ ምርጫ፡-"
+    },
+    {
+        "id": "rules-alternate-winner-description",
+        "am": "በማንኛውም ሳምንት ወይም በበርካታ ሳምንታት የውድድር ጊዜ ውስጥ ማንኛውም ተሳታፊ በ2፡30 ደቂቃ ገደብ ውስጥ ከ15ቱ 15 ፍጹም ነጥብ ካላመጣ TenaPrime በብቸኛው እና በፍፁም ውሳኔው ከፍተኛውን ነጥብ በማምጣት አሸናፊውን (ዎች) የመወሰን መብቱ የተጠበቀ ነው። በእንደዚህ አይነት ሁኔታዎች TenaPrime በዚህ አማራጭ መስፈርት መሰረት ሽልማቱን ሊሰጥ ይችላል ነገር ግን ግዴታ የለበትም። TenaPrime በዚህ ድንጋጌ የአሸናፊዎችን ምርጫ በተመለከተ የሚሰጠው ውሳኔ የመጨረሻ እና አስገዳጅ ይሆናል፣ እና ፍጹም ውጤት በማይገኝበት ሳምንታት ውስጥ ሽልማቶችን ስለመስጠት ምንም አይነት የይገባኛል ጥያቄ ወይም ክርክር መነሳት የለበትም።"
+    },
+    {
+        "id": "rules-additional-terms-title",
+        "am": "ተጨማሪ ውሎች"
+    },
+    {
+        "id": "rules-modification-subtitle",
+        "am": "ደንቦችን ማሻሻል;"
+    },
+    {
+        "id": "rules-modification-description",
+        "am": "TenaPrime በማንኛውም ጊዜ የትራይቪያ ፈተና ደንቦችን የማሻሻል ወይም የማዘመን መብቱ የተጠበቀ ነው። ማንኛውም ለውጦች በጣቢያው ላይ ይለጠፋሉ, እና ከእንደዚህ አይነት ለውጦች በኋላ በጨዋታው ውስጥ ያለዎት ተሳትፎ አዲሶቹን ህጎች መቀበሉን ያመለክታል."
+    },
+    {
+        "id": "rules-dispute-resolution-subtitle",
+        "am": "የክርክር አፈታት፡-"
+    },
+    {
+        "id": "rules-dispute-resolution-description",
+        "am": "ደንቦቹን፣ ሙከራዎችን ወይም ነጥቦችን በሚመለከት አለመግባባት በሚፈጠርበት ጊዜ፣ የቴናፕሪም ውሳኔ የመጨረሻ እና አስገዳጅ ይሆናል።"
+    },
+    {
+        "id": "rules-general-responsibility-subtitle",
+        "am": "አጠቃላይ ኃላፊነት፡-"
+    },
+    {
+        "id": "rules-general-responsibility-description",
+        "am": "በጨዋታው ውስጥ በመሳተፍ እነዚህን ሁሉ ህጎች ለማክበር ተስማምተዋል እና ማንኛውም ጥሰት ተሳትፎዎን ሊታገድ ወይም ሊያቋርጥ እና ተዛማጅ ሽልማቶችን ማግኘት እንደሚችል አምነዋል።"
+    },
+    {
+        "id": "rules-final-note-title",
+        "am": "የመጨረሻ ማስታወሻ"
+    },
+    {
+        "id": "rules-final-note-description",
+        "am": "በTenaPrime Trivia Challenge ውስጥ ያለዎት ተሳትፎ ለጤናማ ኑሮ እና ቀጣይነት ያለው መሻሻል ቁርጠኝነት ነው። እራስዎን እንዲፈትኑ፣ እንዲዝናኑ እና እያንዳንዱን ሙከራ ለመማር እና ለማደግ እንደ እድል እንዲጠቀሙ እናበረታታዎታለን። መልካም ዕድል, እና በፈተናው ይደሰቱ!"
+    }
+]
