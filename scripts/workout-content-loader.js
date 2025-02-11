@@ -93,6 +93,9 @@ async function loadWorkoutContent() {
                     key: value
                 }));
 
+            const language = localStorage.getItem('app-language');
+            const separator = language === 'am' ? '፣ ' : ', ';
+
             return `
                 <div class="exercise-item">
                     <div class="exercise-details">
@@ -102,7 +105,7 @@ async function loadWorkoutContent() {
                                 <div class="exercise-info-row">
                                     <div class="exercise-info-label" data-text-key="primary-targets"></div>
                                     <div class="exercise-info-description">
-                                        ${exerciseData.primaryTargets.map(muscle => `<span data-text-key="${muscle}"></span>`).join(', ')}
+                                        ${exerciseData.primaryTargets.map(muscle => `<span data-text-key="${muscle}"></span>`).join(separator)}
                                     </div>
                                 </div>
                             ` : ''}
@@ -110,7 +113,7 @@ async function loadWorkoutContent() {
                                 <div class="exercise-info-row">
                                     <div class="exercise-info-label" data-text-key="secondary-targets"></div>
                                     <div class="exercise-info-description">
-                                        ${exerciseData.secondaryTargets.map(muscle => `<span data-text-key="${muscle}"></span>`).join(', ')}
+                                        ${exerciseData.secondaryTargets.map(muscle => `<span data-text-key="${muscle}"></span>`).join(separator)}
                                     </div>
                                 </div>
                             ` : ''}

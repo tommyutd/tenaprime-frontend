@@ -25,6 +25,14 @@ document.addEventListener('DOMContentLoaded', async function() {
         profileButton.className = 'stats-profile-button aleo-text';
         profileButton.setAttribute('data-text-key', 'profile');
         profileButton.textContent = 'Profile';
+
+        const workoutGoal = localStorage.getItem('workout-goal') || "No Goal Set";
+        const workoutStreak = localStorage.getItem('workout-streak') || 0;
+        const workoutTotalCompleted = localStorage.getItem('workout-total-completed') || 0;
+
+        document.getElementById('workout-goal').setAttribute('data-text-key', workoutGoal);
+        document.getElementById('workout-streak').setAttribute('data-placeholder-workout-streak', workoutStreak);
+        document.getElementById('workout-total-completed').setAttribute('data-placeholder-workout-total-completed', workoutTotalCompleted);
         
         // Insert profile button before logout button
         statsFooter.insertBefore(profileButton, logoutButton);

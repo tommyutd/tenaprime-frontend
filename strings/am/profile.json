@@ -158,5 +158,13 @@
     {
         "id": "toast-profile-load-error",
         "am": "መገለጫን መጫን ላይ ስህተት። እባክህ እንደገና ሞክር።"
+    },
+    {
+        "id": "profile-ingredients-title",
+        "am": "ንጥረ ነገሮች"
+    },
+    {
+        "id": "profile-available-ingredients",
+        "am": "የሚገኙ ንጥረ ነገሮች"
     }
 ]

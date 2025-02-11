@@ -1,5 +1,33 @@
 [
     {
+        "id": "warmup-section",
+        "am": "ማሞቂያ"
+    },
+    {
+        "id": "main-workout-section",
+        "am": "ዋና የአካል ብቃት እንቅስቃሴ"
+    },
+    {
+        "id": "cooldown-section",
+        "am": "ረጋ በይ"
+    },
+    {
+        "id": "duration",
+        "am": "ቆይታ"
+    },
+    {
+        "id": "primary-targets",
+        "am": "ዋና ዒላማዎች"
+    },
+    {
+        "id": "secondary-targets",
+        "am": "ሁለተኛ ደረጃ ዒላማዎች"
+    },
+    {
+        "id": "complete-workout",
+        "am": "የተሟላ የአካል ብቃት እንቅስቃሴ"
+    },
+    {
         "id": "toast-workout-regen",
         "am": "የአካል ብቃት እንቅስቃሴ በተሳካ ሁኔታ ታድሷል!"
     },
@@ -46,5 +74,181 @@
     {
         "id": "prompt-workout-end-message",
         "am": "እርግጠኛ ነህ ስፖርታዊ እንቅስቃሴውን ማቆም ትፈልጋለህ?"
+    },
+    {
+        "id": "prompt-cancel",
+        "am": "ሰርዝ"
+    },
+    {
+        "id": "prompt-confirm",
+        "am": "አረጋግጥ"
+    },
+    {
+        "id": "selected-day-workout-title",
+        "am": "የተመረጠው ቀን የአካል ብቃት እንቅስቃሴ"
+    },
+    {
+        "id": "start-workout",
+        "am": "የአካል ብቃት እንቅስቃሴ ይጀምሩ"
+    },
+    {
+        "id": "regenerate-workout",
+        "am": "የአካል ብቃት እንቅስቃሴን እንደገና ማደስ"
+    },
+    {
+        "id": "reset-progress",
+        "am": "እድገትን ዳግም አስጀምር"
+    },
+    {
+        "id": "current-exercise",
+        "am": "ወቅታዊ የአካል ብቃት እንቅስቃሴ"
+    },
+    {
+        "id": "previous",
+        "am": "ቀዳሚ"
+    },
+    {
+        "id": "next",
+        "am": "ቀጥሎ"
+    },
+    {
+        "id": "pause-workout",
+        "am": "የአካል ብቃት እንቅስቃሴን ለአፍታ አቁም"
+    },
+    {
+        "id": "resume-workout",
+        "am": "የአካል ብቃት እንቅስቃሴን ከቆመበት ቀጥል"
+    },
+    {
+        "id": "end-workout",
+        "am": "የአካል ብቃት እንቅስቃሴን ጨርስ"
+    },
+    {
+        "id": "phase-label",
+        "am": "ደረጃ፡"
+    },
+    {
+        "id": "phase-text",
+        "am": "{{ordinal}} ደረጃ"
+    },
+    {
+        "id": "exercises-label",
+        "am": "መልመጃዎች:"
+    },
+    {
+        "id": "estimated-duration-label",
+        "am": "የሚገመተው ቆይታ፡-"
+    },
+    {
+        "id": "exercise-duration-minutes",
+        "am": "{{exercise-duration}} ደቂቃዎች"
+    },
+    {
+        "id": "no-exercises",
+        "am": "ምንም መልመጃዎች አልተገኙም"
+    },
+    {
+        "id": "rest-day-label",
+        "am": "<strong>የእረፍት ቀን፡</strong> ምንም የአካል ብቃት እንቅስቃሴ መርሐግብር አልያዘም።"
+    },
+    {
+        "id": "month-january",
+        "am": "ጥር"
+    },
+    {
+        "id": "month-february",
+        "am": "የካቲት"
+    },
+    {
+        "id": "month-march",
+        "am": "መጋቢት"
+    },
+    {
+        "id": "month-april",
+        "am": "ሚያዚያ"
+    },
+    {
+        "id": "month-may",
+        "am": "ግንቦት"
+    },
+    {
+        "id": "month-june",
+        "am": "ሰኔ"
+    },
+    {
+        "id": "month-july",
+        "am": "ሀምሌ"
+    },
+    {
+        "id": "month-august",
+        "am": "ነሐሴ"
+    },
+    {
+        "id": "month-september",
+        "am": "መስከረም"
+    },
+    {
+        "id": "month-october",
+        "am": "ጥቅምት"
+    },
+    {
+        "id": "month-november",
+        "am": "ህዳር"
+    },
+    {
+        "id": "month-december",
+        "am": "ታህሳስ"
+    },
+    {
+        "id": "day-sun",
+        "am": "ፀሐይ"
+    },
+    {
+        "id": "day-mon",
+        "am": "ሰኞ"
+    },
+    {
+        "id": "day-tue",
+        "am": "ማክሰኞ"
+    },
+    {
+        "id": "day-wed",
+        "am": "ረቡዕ"
+    },
+    {
+        "id": "day-thu",
+        "am": "ቱ"
+    },
+    {
+        "id": "day-fri",
+        "am": "ዓርብ"
+    },
+    {
+        "id": "day-sat",
+        "am": "ሳት"
+    },
+    {
+        "id": "duration-seconds",
+        "am": "{{exercise-duration}} ሰከንዶች"
+    },
+    {
+        "id": "set",
+        "am": "አዘጋጅ"
+    },
+    {
+        "id": "set-of-total",
+        "am": "{{current-set}} ከ {{total-sets}}"
+    },
+    {
+        "id": "exercise-reps",
+        "am": " - {{exercise-reps}} ተወካዮች"
+    },
+    {
+        "id": "toast-workout-complete",
+        "am": "እንኳን ደስ አላችሁ! የዛሬውን የአካል ብቃት እንቅስቃሴ አጠናቅቀዋል።"
+    },
+    {
+        "id": "toast-workout-complete-failed",
+        "am": "የአካል ብቃት እንቅስቃሴውን ማጠናቀቅ አልተቻለም። እባክህ እንደገና ሞክር።"
     }
 ]

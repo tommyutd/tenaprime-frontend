@@ -38,14 +38,22 @@ class NutritionProfileLoader {
 
     updateUI() {
         // Update basic stats
-        document.getElementById('bmrValue').textContent = 
-            `${Math.round(this.nutritionData.bmr)} calories`;
-        document.getElementById('tdeeValue').textContent = 
-            `${Math.round(this.nutritionData.tdee)} calories`;
-        document.getElementById('calorieAdjustment').textContent = 
-            `${this.nutritionData.recommendations.calorieAdjustment > 0 ? '+' : ''}${this.nutritionData.recommendations.calorieAdjustment} calories`;
-        document.getElementById('hydrationGoal').textContent = 
-            `${this.nutritionData.recommendations.hydration} liters`;
+        const bmrElement = document.getElementById('bmrValue');
+        bmrElement.setAttribute('data-text-key', 'nutrition-bmr-calories');
+        bmrElement.setAttribute('data-placeholder-bmr', Math.round(this.nutritionData.bmr));
+
+        const tdeeElement = document.getElementById('tdeeValue');
+        tdeeElement.setAttribute('data-text-key', 'nutrition-tdee-calories');
+        tdeeElement.setAttribute('data-placeholder-tdee', Math.round(this.nutritionData.tdee));
+
+        const calorieAdjustment = document.getElementById('calorieAdjustment');
+        calorieAdjustment.setAttribute('data-text-key', 'nutrition-calorie-adjustment');
+        calorieAdjustment.setAttribute('data-placeholder-adjustment', 
+            `${this.nutritionData.recommendations.calorieAdjustment > 0 ? '+' : ''}${this.nutritionData.recommendations.calorieAdjustment}`);
+
+        const hydrationGoal = document.getElementById('hydrationGoal');
+        hydrationGoal.setAttribute('data-text-key', 'nutrition-hydration-goal');
+        hydrationGoal.setAttribute('data-placeholder-liters', this.nutritionData.recommendations.hydration);
 
         // Update macro breakdown
         const macros = this.nutritionData.recommendations.macroBreakdown;
@@ -74,7 +82,7 @@ class NutritionProfileLoader {
             
             mealCard.innerHTML = `
                 <div class="meal-header">
-                    <h2>Meal ${index + 1}</h2>
+                    <h2 data-text-key="meal-number" data-placeholder-meal-number="${index + 1}"></h2>
                     <span class="meal-time">${this.formatTime(timing)}</span>
                 </div>
                 ${mealData ? this.createMealContent(mealData) : ''}
@@ -82,56 +90,66 @@ class NutritionProfileLoader {
             
             mealsContainer.appendChild(mealCard);
         });
+
+        // Update all strings after setting data-text-key attributes
+        window.stringsLoaded.then(() => {
+            updatePageStrings();
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
     }
 
     createMealContent(mealData) {
+        const lang = localStorage.getItem('app-language');
+        const conjunction = lang === 'en' ? 'and' : 'እና';
+        const separator = lang === 'en' ? ',' : '፣ ';
+        
         return `
             <div class="meal-content">
+                <h3 class="meal-name">
+                    <span style="display: ${lang === 'en' ? 'inline' : 'none'}">${mealData.recipe.name.en}</span>
+                    <span style="display: ${lang === 'en' ? 'none' : 'inline'}">${mealData.recipe.name.am}</span>
+                </h3>
                 <div class="meal-stats">
-                    <span class="meal-calories">${mealData.totalMealCalories} cal</span>
-                    <span class="meal-percentage">${mealData.mealCaloriePercentage}% of daily</span>
+                    <span class="meal-calories" data-text-key="meal-calories" 
+                        data-placeholder-meal-calories="${mealData.totalMealCalories}"></span>
+                    <span class="meal-percentage" data-text-key="meal-percentage" 
+                        data-placeholder-meal-percentage="${mealData.mealCaloriePercentage}"></span>
                 </div>
                 
                 <div class="ingredients-section">
-                    <h4>Ingredients</h4>
+                    <h4 data-text-key="ingredients-title"></h4>
                     <ul class="ingredients-list">
                         ${mealData.recipe.ingredients.map(ingredient => `
-                            <li>${ingredient.amountValue} ${ingredient.amountType} ${ingredient.food}</li>
+                            <li>${ingredient.amountValue} <span data-text-key="${ingredient.amountType}"></span> <span data-text-key="${ingredient.food}"></span></li>
                         `).join('')}
                     </ul>
                 </div>
                 
                 <div class="instructions-section">
-                    <h4>Instructions</h4>
+                    <h4 data-text-key="instructions-title"></h4>
                     <ol class="instructions-list">
-                        ${mealData.recipe.instructions.map(instruction => {
-                            const formatIngredients = (ingredients) => {
-                                if (ingredients.length <= 1) return ingredients.join('');
-                                return ingredients.slice(0, -1).join(', ') + ' and ' + ingredients.slice(-1);
-                            };
-                            
-                            return `<li>${instruction.action} ${formatIngredients(instruction.subjectIngredients)} 
-                                ${instruction.objectIngredients.length ? 
-                                    instruction.preposition[0] + ' ' + formatIngredients(instruction.objectIngredients) : ''}</li>`;
-                        }).join('')}
+                        ${mealData.recipe.instructions.map(instruction => 
+                            this.formatInstructionStep(instruction, lang)
+                        ).join('')}
                     </ol>
                 </div>
                 
                 <div class="nutrition-distribution">
-                    <h4>Nutrition Distribution</h4>
+                    <h4 data-text-key="nutrition-distribution-title"></h4>
                     <div class="macro-bars">
                         <div class="macro-bar">
-                            <span class="macro-label">Protein</span>
+                            <span class="macro-label" data-text-key="macro-label-protein"></span>
                             <div class="bar-fill" style="width: ${mealData.nutritionDistribution.protein}%"></div>
                             <span class="macro-percentage">${mealData.nutritionDistribution.protein}%</span>
                         </div>
                         <div class="macro-bar">
-                            <span class="macro-label">Carbs</span>
+                            <span class="macro-label" data-text-key="macro-label-carbs"></span>
                             <div class="bar-fill" style="width: ${mealData.nutritionDistribution.carbs}%"></div>
                             <span class="macro-percentage">${mealData.nutritionDistribution.carbs}%</span>
                         </div>
                         <div class="macro-bar">
-                            <span class="macro-label">Fats</span>
+                            <span class="macro-label" data-text-key="macro-label-fats"></span>
                             <div class="bar-fill" style="width: ${mealData.nutritionDistribution.fats}%"></div>
                             <span class="macro-percentage">${mealData.nutritionDistribution.fats}%</span>
                         </div>
@@ -141,15 +159,44 @@ class NutritionProfileLoader {
                 <div class="time-info">
                     <span class="prep-time">
                         <i class="time-icon"></i>
-                        Prep: ${mealData.recipe.prepTime} min
+                        <span data-text-key="prep-time" data-placeholder-prep-time="${mealData.recipe.prepTime}"></span>
                     </span>
                     <span class="cook-time">
                         <i class="time-icon"></i>
-                        Cook: ${mealData.recipe.cookTime} min
+                        <span data-text-key="cook-time" data-placeholder-cook-time="${mealData.recipe.cookTime}"></span>
                     </span>
                 </div>
             </div>
         `;
+    }
+
+    formatInstructionStep(instruction, lang) {
+        const formatIngredients = (ingredients) => {
+            if (ingredients.length <= 1) {
+                return `<span data-text-key="${ingredients[0]}"></span>`;
+            }
+            
+            const lastIngredient = `<span data-text-key="${ingredients[ingredients.length - 1]}"></span>`;
+            const otherIngredients = ingredients.slice(0, -1).map(ing => 
+                `<span data-text-key="${ing}"></span>`
+            ).join(lang === 'en' ? ', ' : '፣ ');
+            
+            const conjunction = lang === 'en' ? 'and' : 'እና';
+            return `${otherIngredients} ${conjunction} ${lastIngredient}`;
+        };
+
+        if (lang === 'en') {
+            // English: Subject-Verb-Object structure
+            return `<li><span data-text-key="${instruction.action}"></span> ${formatIngredients(instruction.subjectIngredients)} 
+                ${instruction.objectIngredients.length ? 
+                    `<span data-text-key="${instruction.preposition[0]}"></span> ${formatIngredients(instruction.objectIngredients)}` : ''}</li>`;
+        } else {
+            // Amharic: Object-Preposition-Subject-Action structure
+            return `<li>${instruction.objectIngredients.length ? 
+                `${formatIngredients(instruction.objectIngredients)} <span data-text-key="${instruction.preposition[0]}"></span> ` : ''}
+                ${formatIngredients(instruction.subjectIngredients)} 
+                <span data-text-key="${instruction.action}"></span></li>`;
+        }
     }
 }
 
@@ -158,43 +205,3 @@ document.addEventListener('DOMContentLoaded', async () => {
     const loader = new NutritionProfileLoader();
     await loader.loadNutritionProfile();
 });
-
-function createMealCard(mealData) {
-    const template = document.querySelector('.meal-card');
-    const card = template.cloneNode(true);
-    
-    // Set meal name and stats
-    card.querySelector('.meal-name').textContent = mealData.recipe.name;
-    card.querySelector('.meal-calories').textContent = `${mealData.totalMealCalories} cal`;
-    card.querySelector('.meal-percentage').textContent = `${mealData.mealCaloriePercentage}%`;
-    
-    // Populate ingredients
-    const ingredientsList = card.querySelector('.ingredients-list');
-    mealData.recipe.ingredients.forEach(ingredient => {
-        const li = document.createElement('li');
-        li.textContent = `${ingredient.amountValue} ${ingredient.amountType} ${ingredient.food}`;
-        ingredientsList.appendChild(li);
-    });
-    
-    // Populate instructions
-    const instructionsList = card.querySelector('.instructions-list');
-    mealData.recipe.instructions.forEach(instruction => {
-        const li = document.createElement('li');
-        li.textContent = `${instruction.action} ${instruction.subjectIngredients.join(', ')} ${
-            instruction.objectIngredients.length ? 'to ' + instruction.objectIngredients.join(', ') : ''
-        }`;
-        instructionsList.appendChild(li);
-    });
-    
-    // Set nutrition distribution
-    const bars = card.querySelectorAll('.bar-fill');
-    bars[0].style.width = `${mealData.nutritionDistribution.protein}%`;
-    bars[1].style.width = `${mealData.nutritionDistribution.carbs}%`;
-    bars[2].style.width = `${mealData.nutritionDistribution.fats}%`;
-    
-    // Set time information
-    card.querySelector('.prep-time .time-value').textContent = `${mealData.recipe.prepTime} min`;
-    card.querySelector('.cook-time .time-value').textContent = `${mealData.recipe.cookTime} min`;
-    
-    return card;
-}

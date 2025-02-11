@@ -52,29 +52,29 @@
           <div class="avatar">
             <img src="/assets/avatar.svg" alt="Account">
             <div class="stats-popup aleo-text" id="statsPopup">
-                <div class="stats-container">
-                    <div class="stats-header">
-                        <h2 data-text-key="stats-title">Your Stats</h2>
-                        <button class="close-button" id="closeStats">&times;</button>
-                    </div>
-                    <div class="stats-content">
-                        <div class="stats-item">
-                            <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
-                            <span class="stats-value">5 <span data-text-key="days">days</span></span>
-                        </div>
-                        <div class="stats-item">
-                            <span class="stats-label" data-text-key="points-earned">Points Earned</span>
-                            <span class="stats-value">250 <span data-text-key="points">points</span></span>
-                        </div>
-                        <div class="stats-item">
-                            <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
-                            <span class="stats-value">12</span>
-                        </div>
-                    </div>
-                    <div class="stats-footer">
-                        <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
-                    </div>
-                </div>
+              <div class="stats-container">
+                  <div class="stats-header">
+                      <h2 data-text-key="stats-title">Your Stats</h2>
+                      <button class="close-button" id="closeStats">&times;</button>
+                  </div>
+                  <div class="stats-content">
+                      <div class="stats-item">
+                          <span class="stats-label" data-text-key="workout-goal">Goal</span>
+                          <span class="stats-value" id="workout-goal"></span>
+                      </div>
+                      <div class="stats-item">
+                          <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                          <span class="stats-value" id="workout-streak" data-text-key="workout-streak-value"></span>
+                      </div>
+                      <div class="stats-item">
+                          <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                          <span class="stats-value" id="workout-total-completed" data-text-key="workout-total-completed-value"></span>
+                      </div>
+                  </div>
+                  <div class="stats-footer">
+                      <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+                  </div>
+              </div>
             </div>
           </div>
           <div class="language-selector aleo-text">
@@ -150,7 +150,8 @@
                 <div class="exercise-header">
                     <h2 class="exercise-title" data-text-key="current-exercise">Current Exercise</h2>
                     <div class="exercise-timer">
-                        <span class="time-remaining">00:30</span>
+                        <span class="time-remaining"></span>
+                        <span class="reps-text"></span>
                     </div>
                 </div>
                 <div class="exercise-content">
@@ -305,8 +306,8 @@
         <h2 class="prompt-title"></h2>
         <p class="prompt-message"></p>
         <div class="prompt-buttons">
-          <button class="prompt-cancel aleo-text">Cancel</button>
-          <button class="prompt-confirm aleo-text">Confirm</button>
+          <button data-text-key="prompt-cancel" class="prompt-cancel aleo-text">Cancel</button>
+          <button data-text-key="prompt-confirm" class="prompt-confirm aleo-text">Confirm</button>
         </div>
       </div>
     </div>

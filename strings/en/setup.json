@@ -458,5 +458,21 @@
     {
         "id": "setup-intensity-advanced",
         "en": "Advanced"
+    },
+    {
+        "id": "setup-ingredients",
+        "en": "Ingredients"
+    },
+    {
+        "id": "setup-ingredients-title",
+        "en": "Deselect Ingredients You Don't Want"
+    },
+    {
+        "id": "setup-ingredients-label",
+        "en": "Deselect the ingredients that you don't want to include in your meal plan."
+    },
+    {
+        "id": "setup-ingredients-search-placeholder",
+        "en": "Search Ingredients…"
     }
 ]

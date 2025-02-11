@@ -89,7 +89,7 @@ class Quiz {
     }
 
     async startQuiz() {
-        this.loadingText.textContent = 'Loading Quiz...';
+        this.loadingText.setAttribute('data-text-key', 'quiz-loading');
         this.switchScreen('loading');
 
         try {
@@ -108,9 +108,9 @@ class Quiz {
     }
 
     startCountdown() {
-        this.switchScreen('countdown');
         let count = 3;
         this.countdownNumber.textContent = count;
+        this.switchScreen('countdown');
 
         const countdownInterval = setInterval(() => {
             count--;
@@ -118,8 +118,8 @@ class Quiz {
                 this.countdownNumber.textContent = count;
             } else {
                 clearInterval(countdownInterval);
-                this.switchScreen('quiz');
                 this.loadQuestion();
+                this.switchScreen('quiz');
             }
         }, 1000);
     }
@@ -147,6 +147,11 @@ class Quiz {
 
         this.updateProgress();
         this.startTimer();
+        window.stringsLoaded.then(() => {
+            updatePageStrings();
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
     }
 
     selectAnswer(answer) {
@@ -180,13 +185,17 @@ class Quiz {
     updateProgress() {
         const progress = ((this.currentQuestion + 1) / this.questions.length) * 100;
         this.progressBar.style.width = `${progress}%`;
-        this.currentQuestionNum.textContent = this.currentQuestion + 1;
+        
+        const questionCounter = document.querySelector('.question-counter');
+        questionCounter.setAttribute('data-text-key', 'quiz-question-counter');
+        questionCounter.setAttribute('data-placeholder-current', (this.currentQuestion + 1).toString());
+        questionCounter.setAttribute('data-placeholder-total', this.questions.length.toString());
     }
 
     async showResults() {
         let responseMessage = null;
         try {
-            this.loadingText.textContent = 'Loading Results...';
+            this.loadingText.setAttribute('data-text-key', 'quiz-loading-result');
             this.switchScreen('loading');
 
             const response = await fetch(`${window.CONFIG.API_URL}/play/submit`, {
@@ -206,17 +215,32 @@ class Quiz {
             this.bestScoreText = resultData.isNewBest ? '<span class="time-text-highlight">This is your new Best Score!</span><br>' : '';
 
             clearInterval(this.timer);
-            setTimeout(() => {
-                this.switchScreen('results');
-            }, 1000);
             this.finalScore.textContent = this.score;
             
             if (this.timeDisplay) {
+                this.timeDisplay.setAttribute('data-text-key', 
+                    this.timeTaken.minutes > 0 ? 'quiz-time-minutes' : 'quiz-time-seconds'
+                );
+                
                 if (this.timeTaken.minutes > 0) {
-                    this.timeDisplay.innerHTML = `${this.bestScoreText}You took <span class="time-text-highlight">${this.timeTaken.minutes.toString().padStart(2, '0')}:${this.timeTaken.seconds.toString().padStart(2, '0')}.${this.timeTaken.milliseconds}</span> minutes.`;
+                    this.timeDisplay.setAttribute('data-placeholder-minutes', 
+                        this.timeTaken.minutes.toString().padStart(2, '0'));
+                    this.timeDisplay.setAttribute('data-placeholder-seconds', 
+                        this.timeTaken.seconds.toString().padStart(2, '0'));
+                    this.timeDisplay.setAttribute('data-placeholder-milliseconds', 
+                        this.timeTaken.milliseconds);
+                } else {
+                    this.timeDisplay.setAttribute('data-placeholder-seconds', 
+                        this.timeTaken.seconds.toString().padStart(2, '0'));
+                    this.timeDisplay.setAttribute('data-placeholder-milliseconds', 
+                        this.timeTaken.milliseconds);
                 }
-                else {
-                    this.timeDisplay.innerHTML = `${this.bestScoreText}You took <span class="time-text-highlight">${this.timeTaken.seconds.toString().padStart(2, '0')}.${this.timeTaken.milliseconds}</span> seconds.`;
+                
+                if (this.bestScoreText) {
+                    const bestScoreElement = document.createElement('div');
+                    bestScoreElement.className = 'best-score-text';
+                    bestScoreElement.setAttribute('data-text-key', 'quiz-new-best-score');
+                    this.timeDisplay.insertAdjacentElement('beforebegin', bestScoreElement);
                 }
             }
             
@@ -224,24 +248,25 @@ class Quiz {
                 setTimeout(() => {
                     // Add celebration based on score
                     if (this.score === 15) {
-                        // Perfect score celebration
                         grandCelebration();
                         const winnerText = document.createElement('div');
                         winnerText.className = 'winner-text';
-                        winnerText.textContent = '🏆 Perfect Score! You are Amazing! 🏆';
+                        winnerText.setAttribute('data-text-key', 'quiz-perfect-score');
                         this.resultsScreen.querySelector('.results-container').appendChild(winnerText);
                     } else if (this.score >= 12 && this.score < 15) {
-                        // Good score celebration
                         normalCelebration();
                         const greatJobText = document.createElement('div');
                         greatJobText.className = 'great-job-text';
-                        greatJobText.textContent = '🌟 Great Job! 🌟';
+                        greatJobText.setAttribute('data-text-key', 'quiz-great-job');
                         this.resultsScreen.querySelector('.results-container').appendChild(greatJobText);
                     }
                 }, 1000);
             } catch (error) {
                 console.error('Error adding celebration:', error);
             }
+            setTimeout(() => {
+                this.switchScreen('results');
+            }, 1000);
         } catch (error) {
             if (responseMessage) {
                 return responseMessage;
@@ -257,32 +282,31 @@ class Quiz {
     }
 
     showMessage(messageText) {
-        let displayText = null;
+        let messageKey = null;
         if (messageText === 'Maximum attempts reached') {
-            displayText = 'You have reached the maximum number of attempts for this week. You can try again next week.';
+            messageKey = 'quiz-max-attempts';
         }
         else if (messageText === 'No questions found') {
-            displayText = 'Couldn\'t find any questions. Please try again later.';
+            messageKey = 'quiz-no-questions';
         }
         else if (messageText === 'Quiz not found') {
-            displayText = 'This quiz was not found or has expired. Please try again.';
+            messageKey = 'quiz-not-found';
         }
         else if (messageText === 'Time limit exceeded') {
-            displayText = 'You have exceeded the time limit for this quiz. Please try again.';
+            messageKey = 'quiz-time-limit';
         }
         else if (messageText === 'Question not found') {
-            displayText = 'Your responses are invalid. Please try again.';
+            messageKey = 'quiz-invalid-response';
         }
         else {
-            displayText = 'An error occurred while loading the quiz. Please try again later.';
+            messageKey = 'quiz-error-generic';
         }
 
-        this.messageTextElement.innerHTML = displayText;
+        this.messageTextElement.setAttribute('data-text-key', messageKey);
         this.switchScreen('message');
     }
 
     switchScreen(screen) {
-        clearInterval(this.timer);
         this.welcomeScreen.classList.remove('active');
         this.loadingScreen.classList.remove('active');
         this.countdownScreen.classList.remove('active');
@@ -324,6 +348,11 @@ class Quiz {
                     break;
             }
         }, 400);
+        window.stringsLoaded.then(() => {
+            updatePageStrings();
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
     }
 }
 

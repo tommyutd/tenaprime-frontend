@@ -46,5 +46,45 @@
     {
         "id": "personalization-prompt-button",
         "am": "የማዋቀር መገለጫ"
+    },
+    {
+        "id": "weightLoss",
+        "am": "ክብደት መቀነስ"
+    },
+    {
+        "id": "muscleGain",
+        "am": "የጡንቻ መጨመር"
+    },
+    {
+        "id": "maintenance",
+        "am": "ጥገና"
+    },
+    {
+        "id": "performance",
+        "am": "አፈጻጸም"
+    },
+    {
+        "id": "wellness",
+        "am": "ጤና"
+    },
+    {
+        "id": "workout-goal",
+        "am": "ግብ"
+    },
+    {
+        "id": "workout-goal-value",
+        "am": "{{workout-goal}}"
+    },
+    {
+        "id": "workout-streak-value",
+        "am": "{{workout-streak}} ቀናት"
+    },
+    {
+        "id": "workout-total-completed-value",
+        "am": "{{workout-total-completed}} የአካል ብቃት እንቅስቃሴዎች"
+    },
+    {
+        "id": "no-goal-set",
+        "am": "ምንም ግብ አልተዘጋጀም"
     }
 ]

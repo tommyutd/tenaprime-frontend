@@ -1,0 +1,422 @@
+[
+    {
+        "id": "nutrition-stats-title",
+        "am": "የአመጋገብ ስታቲስቲክስ"
+    },
+    {
+        "id": "bmr-label",
+        "am": "ባሳል ሜታቦሊክ ፍጥነት (ቢኤምአር)"
+    },
+    {
+        "id": "tdee-label",
+        "am": "ጠቅላላ ዕለታዊ የኃይል ወጪዎች (TDEE)"
+    },
+    {
+        "id": "nutrition-recommendations-title",
+        "am": "ምክሮች"
+    },
+    {
+        "id": "calorie-adjustment-label",
+        "am": "የካሎሪ ማስተካከያ"
+    },
+    {
+        "id": "hydration-label",
+        "am": "ዕለታዊ የሃይድሬሽን ግብ"
+    },
+    {
+        "id": "macro-breakdown-title",
+        "am": "የማክሮ መፈራረስ ግቦች"
+    },
+    {
+        "id": "meal-timings-title",
+        "am": "ተስማሚ የምግብ መርሃ ግብር"
+    },
+    {
+        "id": "nutrition-bmr-calories",
+        "am": "{{bmr}} ካሎሪዎች"
+    },
+    {
+        "id": "nutrition-tdee-calories",
+        "am": "{{tdee}} ካሎሪዎች"
+    },
+    {
+        "id": "nutrition-calorie-adjustment",
+        "am": "{{adjustment}} ካሎሪዎች"
+    },
+    {
+        "id": "nutrition-hydration-goal",
+        "am": "{{liters}} ሊትር"
+    },
+    {
+        "id": "macro-label-protein",
+        "am": "ፕሮቲን"
+    },
+    {
+        "id": "macro-label-carbs",
+        "am": "ካርቦሃይድሬትስ"
+    },
+    {
+        "id": "macro-label-fats",
+        "am": "ስብ"
+    },
+    {
+        "id": "meal-number",
+        "am": "ምግብ {{meal-number}}"
+    },
+    {
+        "id": "meal-calories",
+        "am": "{{meal-calories}} ካሎሪ"
+    },
+    {
+        "id": "meal-percentage",
+        "am": "የዕለታዊ {{meal-percentage}}%"
+    },
+    {
+        "id": "ingredients-title",
+        "am": "ንጥረ ነገሮች"
+    },
+    {
+        "id": "instructions-title",
+        "am": "መመሪያዎች"
+    },
+    {
+        "id": "nutrition-distribution-title",
+        "am": "የአመጋገብ ስርጭት"
+    },
+    {
+        "id": "prep-time",
+        "am": "ዝግጅት፡ {{prep-time}} ደቂቃ"
+    },
+    {
+        "id": "cook-time",
+        "am": "ምግብ ማብሰል፡ {{cook-time}} ደቂቃ"
+    },
+    {
+        "id": "add",
+        "am": "አክል"
+    },
+    {
+        "id": "bake",
+        "am": "መጋገር"
+    },
+    {
+        "id": "beat",
+        "am": "ይመቱ"
+    },
+    {
+        "id": "blanch",
+        "am": "ብላች"
+    },
+    {
+        "id": "blend",
+        "am": "ቅልቅል"
+    },
+    {
+        "id": "boil",
+        "am": "ቀቅለው"
+    },
+    {
+        "id": "broil",
+        "am": "ብስባሽ"
+    },
+    {
+        "id": "caramelize",
+        "am": "ካራሜሊዝ"
+    },
+    {
+        "id": "chop",
+        "am": "ቁረጥ"
+    },
+    {
+        "id": "combine",
+        "am": "አዋህድ"
+    },
+    {
+        "id": "cool",
+        "am": "ጥሩ"
+    },
+    {
+        "id": "crack",
+        "am": "ስንጥቅ"
+    },
+    {
+        "id": "crush",
+        "am": "መጨፍለቅ"
+    },
+    {
+        "id": "cut",
+        "am": "ቁረጥ"
+    },
+    {
+        "id": "deep-fry",
+        "am": "ጥልቅ-ጥብስ"
+    },
+    {
+        "id": "dice",
+        "am": "ዳይስ"
+    },
+    {
+        "id": "dollop",
+        "am": "ዶሎፕ"
+    },
+    {
+        "id": "drain",
+        "am": "ማፍሰሻ"
+    },
+    {
+        "id": "drizzle",
+        "am": "አፍስሱ"
+    },
+    {
+        "id": "flip",
+        "am": "ገልብጥ"
+    },
+    {
+        "id": "fold",
+        "am": "ማጠፍ"
+    },
+    {
+        "id": "freeze",
+        "am": "እሰር"
+    },
+    {
+        "id": "fry",
+        "am": "ጥብስ"
+    },
+    {
+        "id": "garnish",
+        "am": "ማስጌጥ"
+    },
+    {
+        "id": "grate",
+        "am": "ፍርግርግ"
+    },
+    {
+        "id": "grill",
+        "am": "ግሪል"
+    },
+    {
+        "id": "grind",
+        "am": "መፍጨት"
+    },
+    {
+        "id": "heat",
+        "am": "ሙቀት"
+    },
+    {
+        "id": "julienne",
+        "am": "ጁሊን"
+    },
+    {
+        "id": "knead",
+        "am": "ይቅበዘበዙ"
+    },
+    {
+        "id": "layer",
+        "am": "ንብርብር"
+    },
+    {
+        "id": "marinate",
+        "am": "ማሪንቴ"
+    },
+    {
+        "id": "mash",
+        "am": "ማሽ"
+    },
+    {
+        "id": "measure",
+        "am": "ለካ"
+    },
+    {
+        "id": "mince",
+        "am": "ሚንስ"
+    },
+    {
+        "id": "mix",
+        "am": "ቅልቅል"
+    },
+    {
+        "id": "open",
+        "am": "ክፈት"
+    },
+    {
+        "id": "peel",
+        "am": "ልጣጭ"
+    },
+    {
+        "id": "place",
+        "am": "ቦታ"
+    },
+    {
+        "id": "poach",
+        "am": "ማደን"
+    },
+    {
+        "id": "pour",
+        "am": "አፍስሱ"
+    },
+    {
+        "id": "powder",
+        "am": "ዱቄት"
+    },
+    {
+        "id": "prepare",
+        "am": "አዘጋጅ"
+    },
+    {
+        "id": "press",
+        "am": "ተጫን"
+    },
+    {
+        "id": "put",
+        "am": "አስቀምጥ"
+    },
+    {
+        "id": "reduce",
+        "am": "ቀንስ"
+    },
+    {
+        "id": "refrigerate",
+        "am": "ማቀዝቀዝ"
+    },
+    {
+        "id": "rinse",
+        "am": "ያለቅልቁ"
+    },
+    {
+        "id": "roast",
+        "am": "ጥብስ"
+    },
+    {
+        "id": "roll",
+        "am": "ጥቅልል"
+    },
+    {
+        "id": "saute",
+        "am": "ሰተት"
+    },
+    {
+        "id": "sear",
+        "am": "ማሰስ"
+    },
+    {
+        "id": "shred",
+        "am": "ሸርተቴ"
+    },
+    {
+        "id": "simmer",
+        "am": "ቅመሱ"
+    },
+    {
+        "id": "slice",
+        "am": "ቁራጭ"
+    },
+    {
+        "id": "smash",
+        "am": "መሰባበር"
+    },
+    {
+        "id": "soak",
+        "am": "መንከር"
+    },
+    {
+        "id": "skim",
+        "am": "ስኪም"
+    },
+    {
+        "id": "squeeze",
+        "am": "ጨመቅ"
+    },
+    {
+        "id": "sprinkle",
+        "am": "ይርጩ"
+    },
+    {
+        "id": "spread",
+        "am": "ስርጭት"
+    },
+    {
+        "id": "steam",
+        "am": "በእንፋሎት"
+    },
+    {
+        "id": "stir",
+        "am": "ቀስቅሰው"
+    },
+    {
+        "id": "stir-fry",
+        "am": "ቀቅለው"
+    },
+    {
+        "id": "thaw",
+        "am": "ቀለጠ"
+    },
+    {
+        "id": "toast",
+        "am": "ቶስት"
+    },
+    {
+        "id": "top",
+        "am": "ከፍተኛ"
+    },
+    {
+        "id": "toss",
+        "am": "መወርወር"
+    },
+    {
+        "id": "whisk",
+        "am": "ሹክ"
+    },
+    {
+        "id": "combined_ingredients",
+        "am": "የተዋሃዱ ንጥረ ነገሮች"
+    },
+    {
+        "id": "grams",
+        "am": "ግራም"
+    },
+    {
+        "id": "ml",
+        "am": "ml"
+    },
+    {
+        "id": "whole",
+        "am": "ሙሉ"
+    },
+    {
+        "id": "half",
+        "am": "ግማሽ"
+    },
+    {
+        "id": "quarter",
+        "am": "ሩብ"
+    },
+    {
+        "id": "cup",
+        "am": "ኩባያ"
+    },
+    {
+        "id": "cups",
+        "am": "ኩባያዎች"
+    },
+    {
+        "id": "tbsp",
+        "am": "የጠረጴዛ ማንኪያ"
+    },
+    {
+        "id": "in",
+        "am": "ውስጥ"
+    },
+    {
+        "id": "on",
+        "am": "ላይ"
+    },
+    {
+        "id": "over",
+        "am": "ላይ"
+    },
+    {
+        "id": "into",
+        "am": "ውስጥ"
+    }
+]

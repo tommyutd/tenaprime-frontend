@@ -63,6 +63,7 @@ window.authState = {
                     if (profileResponse.ok) {
                         const { profile } = await profileResponse.json();
                         window.userData.profile = profile;
+                        localStorage.setItem('workout-goal', profile.goals.primaryGoal);
                     } else {
                         window.userData.profile = null;
                     }

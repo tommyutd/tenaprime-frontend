@@ -1,5 +1,33 @@
 [
     {
+        "id": "warmup-section",
+        "en": "Warm-up"
+    },
+    {
+        "id": "main-workout-section",
+        "en": "Main Workout"
+    },
+    {
+        "id": "cooldown-section",
+        "en": "Cool-down"
+    },
+    {
+        "id": "duration",
+        "en": "Duration"
+    },
+    {
+        "id": "primary-targets",
+        "en": "Primary Targets"
+    },
+    {
+        "id": "secondary-targets",
+        "en": "Secondary Targets"
+    },
+    {
+        "id": "complete-workout",
+        "en": "Complete Workout"
+    },
+    {
         "id": "toast-workout-regen",
         "en": "Workout regenerated successfully!"
     },
@@ -46,5 +74,181 @@
     {
         "id": "prompt-workout-end-message",
         "en": "Are you sure you want to end the workout?"
+    },
+    {
+        "id": "prompt-cancel",
+        "en": "Cancel"
+    },
+    {
+        "id": "prompt-confirm",
+        "en": "Confirm"
+    },
+    {
+        "id": "selected-day-workout-title",
+        "en": "Selected Day's Workout"
+    },
+    {
+        "id": "start-workout",
+        "en": "Start Workout"
+    },
+    {
+        "id": "regenerate-workout",
+        "en": "Regenerate Workout"
+    },
+    {
+        "id": "reset-progress",
+        "en": "Reset Progress"
+    },
+    {
+        "id": "current-exercise",
+        "en": "Current Exercise"
+    },
+    {
+        "id": "previous",
+        "en": "Previous"
+    },
+    {
+        "id": "next",
+        "en": "Next"
+    },
+    {
+        "id": "pause-workout",
+        "en": "Pause Workout"
+    },
+    {
+        "id": "resume-workout",
+        "en": "Resume Workout"
+    },
+    {
+        "id": "end-workout",
+        "en": "End Workout"
+    },
+    {
+        "id": "phase-label",
+        "en": "Phase:"
+    },
+    {
+        "id": "phase-text",
+        "en": "{{ordinal}} Phase"
+    },
+    {
+        "id": "exercises-label",
+        "en": "Exercises:"
+    },
+    {
+        "id": "estimated-duration-label",
+        "en": "Estimated Duration:"
+    },
+    {
+        "id": "exercise-duration-minutes",
+        "en": "{{exercise-duration}} Minutes"
+    },
+    {
+        "id": "no-exercises",
+        "en": "No Exercises Found"
+    },
+    {
+        "id": "rest-day-label",
+        "en": "<strong>Rest Day:</strong> No Workout Scheduled"
+    },
+    {
+        "id": "month-january",
+        "en": "January"
+    },
+    {
+        "id": "month-february",
+        "en": "February"
+    },
+    {
+        "id": "month-march",
+        "en": "March"
+    },
+    {
+        "id": "month-april",
+        "en": "April"
+    },
+    {
+        "id": "month-may",
+        "en": "May"
+    },
+    {
+        "id": "month-june",
+        "en": "June"
+    },
+    {
+        "id": "month-july",
+        "en": "July"
+    },
+    {
+        "id": "month-august",
+        "en": "August"
+    },
+    {
+        "id": "month-september",
+        "en": "September"
+    },
+    {
+        "id": "month-october",
+        "en": "October"
+    },
+    {
+        "id": "month-november",
+        "en": "November"
+    },
+    {
+        "id": "month-december",
+        "en": "December"
+    },
+    {
+        "id": "day-sun",
+        "en": "Sun"
+    },
+    {
+        "id": "day-mon",
+        "en": "Mon"
+    },
+    {
+        "id": "day-tue",
+        "en": "Tue"
+    },
+    {
+        "id": "day-wed",
+        "en": "Wed"
+    },
+    {
+        "id": "day-thu",
+        "en": "Thu"
+    },
+    {
+        "id": "day-fri",
+        "en": "Fri"
+    },
+    {
+        "id": "day-sat",
+        "en": "Sat"
+    },
+    {
+        "id": "duration-seconds",
+        "en": "{{exercise-duration}} Seconds"
+    },
+    {
+        "id": "set",
+        "en": "Set"
+    },
+    {
+        "id": "set-of-total",
+        "en": "{{current-set}} of {{total-sets}}"
+    },
+    {
+        "id": "exercise-reps",
+        "en": " - {{exercise-reps}} Reps"
+    },
+    {
+        "id": "toast-workout-complete",
+        "en": "Congratulations! You have completed today's workout."
+    },
+    {
+        "id": "toast-workout-complete-failed",
+        "en": "Unable to complete the workout. Please try again."
     }
 ]

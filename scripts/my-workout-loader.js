@@ -39,16 +39,10 @@ function startTimer(duration) {
 }
 
 function updateTimerDisplay() {
-    const timerElement = document.querySelector('.time-remaining');
+    const timerElement = document.querySelector('.exercise-timer .time-remaining');
     const timerText = formatTime(timeRemaining);
-    const currentExercise = allExercises[currentExerciseIndex];
     
-    // If this exercise has sets (and a reps array) then add the reps text to the timer display.
-    if (currentExercise && currentExercise.current_set && currentExercise.exercise_reps && currentExercise.exercise_reps.length > 0) {
-        timerElement.textContent = `${timerText} - ${getAdjustedExerciseValue('reps', currentExercise.exercise_reps[0])} Reps`;
-    } else {
-        timerElement.textContent = timerText;
-    }
+    timerElement.textContent = timerText;
 }
 
 // Helper: given an array of exercises (or a subarray), return a list where
@@ -171,10 +165,41 @@ async function loadWorkoutData() {
 
         // After everything is loaded and displayed
         hideLoading();
+        window.stringsLoaded.then(() => {
+            updatePageStrings();
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
     } catch (error) {
         console.error('Error loading workout:', error);
         hideLoading();
         // Handle error state in the UI
+    }
+};
+
+async function completeWorkout(workoutDate) {
+    try {
+        const token = localStorage.getItem('login-token');
+        
+        const response = await fetch(`${window.CONFIG.API_URL}/profile/workout/complete`, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                completed_date: workoutDate
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error('Failed to complete workout');
+        }
+
+        return true;
+    } catch (error) {
+        console.error('Error completing workout:', error);
+        return false;
     }
 }
 
@@ -212,15 +237,26 @@ function setupNavigationButtons() {
         } else {
             const confirmed = await window.showPrompt('prompt-workout-complete-title', 'prompt-workout-complete-message');
             if (confirmed) {
-                clearInterval(timer);
-                window.location.href = '/exercises/dashboard';
+                
+                const workoutDate = JSON.parse(sessionStorage.getItem('workoutDate'));
+                
+                completeResult = await completeWorkout(workoutDate);
+                if (completeResult) {
+                    clearInterval(timer);
+                    setTimeout(() => {
+                        window.showToast('toast-workout-complete', false);
+                        window.location.reload();
+                    }, 3000);
+                } else {
+                    window.showToast('toast-workout-complete-failed', true);
+                }
             }
         }
     });
 
     pauseButton.addEventListener('click', () => {
         isPaused = !isPaused;
-        pauseButton.textContent = isPaused ? 'Resume Workout' : 'Pause Workout';
+        pauseButton.setAttribute('data-text-key', isPaused ? 'resume-workout' : 'pause-workout');
         prevButton.classList.toggle('disabled', isPaused);
         nextButton.classList.toggle('disabled', isPaused);
     });
@@ -229,15 +265,21 @@ function setupNavigationButtons() {
         const confirmed = await window.showPrompt('prompt-workout-end-title', 'prompt-workout-end-message');
         if (confirmed) {
             clearInterval(timer);
-            window.location.href = '/exercises/dashboard';
+            window.location.reload();
         }
+    });
+    
+    window.stringsLoaded.then(() => {
+        updatePageStrings();
+    }).catch(error => {
+        console.error('Error updating strings:', error);
     });
 }
 
 function updateExerciseDisplay(exercise) {
     if (nextButton) {
         const isLastExercise = currentExerciseIndex === allExercises.length - 1;
-        nextButton.textContent = isLastExercise ? 'Complete Workout' : 'Next';
+        nextButton.setAttribute('data-text-key', isLastExercise ? 'complete-workout' : 'next');
         nextButton.classList.toggle('complete-workout', isLastExercise);
     }
 
@@ -258,27 +300,21 @@ function updateExerciseDisplay(exercise) {
     const exerciseCard = document.querySelector('.exercise-card');
     const primaryTargetsRow = exercisePrimaryTargets.closest('.exercise-info-row');
     const secondaryTargetsRow = exerciseSecondaryTargets.closest('.exercise-info-row');
+    const repsElement = document.querySelector('.exercise-timer .reps-text');
+    const currentExercise = allExercises[currentExerciseIndex];
 
-    // Update section title and card styling based on exercise type
-    let sectionTitle;
-    switch(exercise.type) {
-        case 'warmup':
-            sectionTitle = 'Warm Up';
-            break;
-        case 'main':
-            sectionTitle = 'Main Workout';
-            break;
-        case 'cooldown':
-            sectionTitle = 'Cool Down';
-            break;
-        default:
-            sectionTitle = 'Current Exercise';
+    if (currentExercise && currentExercise.current_set && 
+        currentExercise.exercise_reps && currentExercise.exercise_reps.length > 0) {
+        repsElement.setAttribute('data-text-key', 'exercise-reps');
+        repsElement.setAttribute('data-placeholder-exercise-reps', getAdjustedExerciseValue('reps', currentExercise.exercise_reps[0]));
+        repsElement.style.display = 'inline';
+    } else {
+        repsElement.style.display = 'none';
     }
     
     // Set the section type as a data attribute
     exerciseCard.setAttribute('data-section', exercise.type);
-    exerciseTitle.textContent = sectionTitle;
-    exerciseTitle.setAttribute('data-text-key', exercise.type + '-section');
+    exerciseTitle.setAttribute('data-text-key', exercise.type + (exercise.type === 'main' ? '-workout-section' : '-section'));
 
     // Get exercise details from exercises-list.json
     const exerciseData = window.exercisesList[exercise.exercise_id];
@@ -288,33 +324,33 @@ function updateExerciseDisplay(exercise) {
     }
 
     // Update exercise details
-    exerciseName.textContent = exerciseData.name;
-    exerciseDescription.textContent = exerciseData.description;
+    exerciseName.setAttribute('data-text-key', exercise.exercise_id);
+    exerciseDescription.style.display = 'none';
+    //exerciseDescription.setAttribute('data-text-key', exercise.exercise_id);
 
     // Update duration/sets/reps info
     if (exercise.type === 'warmup' || exercise.type === 'cooldown') {
-        // For warmup/cooldown, always show duration as provided.
-        exerciseDurationLabel.textContent = 'Duration';
-        exerciseDuration.textContent = `${exercise.exercise_duration_in_seconds} seconds`;
+        exerciseDurationLabel.setAttribute('data-text-key', 'duration');
+        exerciseDuration.setAttribute('data-placeholder-exercise-duration', exercise.exercise_duration_in_seconds);
+        exerciseDuration.setAttribute('data-text-key', 'duration-seconds');
         startTimer(exercise.exercise_duration_in_seconds);
     } else {
-        // For main exercises
         if (exercise.current_set) {
-            // When an exercise has sets info, switch the label to "Set".
-            exerciseDurationLabel.textContent = 'Set';
-            exerciseDuration.textContent = `${exercise.current_set} of ${exercise.total_sets}`;
-            startTimer(60); // Standard time for completing a set
+            exerciseDurationLabel.setAttribute('data-text-key', 'set');
+            exerciseDuration.setAttribute('data-placeholder-current-set', exercise.current_set);
+            exerciseDuration.setAttribute('data-placeholder-total-sets', exercise.total_sets);
+            exerciseDuration.setAttribute('data-text-key', 'set-of-total');
+            startTimer(60);
         } else if (exercise.exercise_duration_in_seconds && exercise.exercise_duration_in_seconds.length > 0) {
-            // If duration info exists for the main exercise
-            exerciseDurationLabel.textContent = 'Duration';
+            exerciseDurationLabel.setAttribute('data-text-key', 'duration');
             const duration = exercise.exercise_duration_in_seconds.join('-');
-            exerciseDuration.textContent = `${duration} seconds`;
+            exerciseDuration.setAttribute('data-placeholder-exercise-duration', duration);
+            exerciseDuration.setAttribute('data-text-key', 'duration-seconds');
             startTimer(exercise.exercise_duration_in_seconds[0]);
         } else {
-            // For main exercises without a duration; replace label with "Set"
-            exerciseDurationLabel.textContent = 'Set';
-            exerciseDuration.textContent = 'Set';
-            startTimer(60); // Fallback timing (adjust as needed)
+            exerciseDurationLabel.setAttribute('data-text-key', 'set');
+            exerciseDuration.setAttribute('data-text-key', 'set');
+            startTimer(60);
         }
     }
 
@@ -324,12 +360,14 @@ function updateExerciseDisplay(exercise) {
 
     // Update exercise GIF
     exerciseGif.src = `/exercises/assets/gifs/${exerciseData.name}.gif`;
+    const language = localStorage.getItem('app-language');
+    const separator = language === 'am' ? '፣ ' : ', ';
 
     // Update target muscles
     if (exerciseData.primaryTargets && exerciseData.primaryTargets.length > 0) {
         exercisePrimaryTargets.innerHTML = exerciseData.primaryTargets
             .map(muscle => `<span data-text-key="${muscle}">${muscle}</span>`)
-            .join(', ');
+            .join(separator);
         primaryTargetsRow.style.display = 'flex'; // Show the row
     } else {
         exercisePrimaryTargets.innerHTML = '';
@@ -340,12 +378,18 @@ function updateExerciseDisplay(exercise) {
     if (exerciseData.secondaryTargets && exerciseData.secondaryTargets.length > 0) {
         exerciseSecondaryTargets.innerHTML = exerciseData.secondaryTargets
             .map(muscle => `<span data-text-key="${muscle}">${muscle}</span>`)
-            .join(', ');
+            .join(separator);
         secondaryTargetsRow.style.display = 'flex'; // Show the row
     } else {
         exerciseSecondaryTargets.innerHTML = '';
         secondaryTargetsRow.style.display = 'none'; // Hide the row
     }
+
+    window.stringsLoaded.then(() => {
+        updatePageStrings();
+    }).catch(error => {
+        console.error('Error updating strings:', error);
+    });
 }
 
 // Helper function to calculate adjusted value based on phase and type

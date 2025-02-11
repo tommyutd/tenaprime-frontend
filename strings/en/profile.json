@@ -158,5 +158,13 @@
     {
         "id": "toast-profile-load-error",
         "en": "Error loading profile. Please try again."
+    },
+    {
+        "id": "profile-ingredients-title",
+        "en": "Ingredients"
+    },
+    {
+        "id": "profile-available-ingredients",
+        "en": "Available Ingredients"
     }
 ]

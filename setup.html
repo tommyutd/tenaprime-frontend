@@ -59,23 +59,23 @@
                     </div>
                     <div class="stats-content">
                         <div class="stats-item">
-                            <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
-                            <span class="stats-value">5 <span data-text-key="days">days</span></span>
+                            <span class="stats-label" data-text-key="workout-goal">Goal</span>
+                            <span class="stats-value" id="workout-goal"></span>
                         </div>
                         <div class="stats-item">
-                            <span class="stats-label" data-text-key="points-earned">Points Earned</span>
-                            <span class="stats-value">250 <span data-text-key="points">points</span></span>
+                            <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                            <span class="stats-value" id="workout-streak" data-text-key="workout-streak-value"></span>
                         </div>
                         <div class="stats-item">
                             <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
-                            <span class="stats-value">12</span>
+                            <span class="stats-value" id="workout-total-completed" data-text-key="workout-total-completed-value"></span>
                         </div>
                     </div>
                     <div class="stats-footer">
                         <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
                     </div>
                 </div>
-            </div>
+              </div>
           </div>
           <div class="language-selector aleo-text">
             <p>EN</p>
@@ -126,6 +126,10 @@
             <div class="progress-step" data-step="6" role="button" tabindex="0">
                 <div class="step-number">6</div>
                 <div class="step-text" data-text-key="setup-preferences">Preferences</div>
+            </div>
+            <div class="progress-step" data-step="7" role="button" tabindex="0">
+                <div class="step-number">7</div>
+                <div class="step-text" data-text-key="setup-ingredients">Ingredients</div>
             </div>
             <div class="progress-fill"></div>
         </div>
@@ -657,6 +661,22 @@
                                 <span class="description" data-text-key="setup-intensity-advanced-desc">High-intensity workouts for experienced athletes</span>
                             </div>
                         </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 7: Ingredient Preferences -->
+            <div class="form-step hidden" data-step="7">
+                <h2 data-text-key="setup-ingredients-title">Ingredient Preferences</h2>
+                <div class="form-group">
+                    <label data-text-key="setup-ingredients-label">Select ingredients you commonly use or have access to:</label>
+                    <div class="ingredients-container">
+                        <div class="search-box">
+                            <input type="text" id="ingredientSearch" class="form-control" data-text-key="setup-ingredients-search-placeholder" placeholder="Search ingredients...">
+                        </div>
+                        <div class="ingredients-grid" id="ingredientsGrid">
+                            <!-- Ingredients will be dynamically added here via JavaScript -->
+                        </div>
                     </div>
                 </div>
             </div>

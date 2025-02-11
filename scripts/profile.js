@@ -36,11 +36,11 @@ document.addEventListener('DOMContentLoaded', async function() {
 
         // Lifestyle
         const activityLabels = {
-            sedentary: 'sedentary-activity',
-            light: 'light-activity',
-            moderate: 'moderate-activity',
-            active: 'active-activity',
-            very_active: 'very-active-activity'
+            sedentary: 'setup-sedentary',
+            light: 'setup-light',
+            moderate: 'setup-moderate',
+            active: 'setup-active',
+            very_active: 'setup-very-active'
         };
         document.getElementById('profileActivity').setAttribute('data-text-key', 
             activityLabels[profile.lifestyle.activityLevel]);
@@ -89,11 +89,11 @@ document.addEventListener('DOMContentLoaded', async function() {
 
         // Goals
         const goalLabels = {
-            weightLoss: 'goal-weight-loss',
-            muscleGain: 'goal-muscle-gain',
-            maintenance: 'goal-maintenance',
-            performance: 'goal-performance',
-            wellness: 'goal-wellness'
+            weightLoss: 'setup-goal-weight-loss',
+            muscleGain: 'setup-goal-muscle-gain',
+            maintenance: 'setup-goal-maintenance',
+            performance: 'setup-goal-performance',
+            wellness: 'setup-goal-wellness'
         };
         document.getElementById('profileGoal').setAttribute('data-text-key', 
             goalLabels[profile.goals.primaryGoal]);
@@ -105,13 +105,13 @@ document.addEventListener('DOMContentLoaded', async function() {
             // Create a mapping of preference labels based on goal type
             const preferenceLabels = {
                 weightLoss: {
-                    cardio: 'cardio-focus',
-                    hiit: 'hiit-training',
-                    mixed: 'mixed-training'
+                    cardio: 'setup-workout-cardio',
+                    hiit: 'setup-workout-hiit',
+                    mixed: 'setup-workout-mixed'
                 },
                 muscleGain: {
-                    full_body: 'full-body',
-                    split: 'split-routine'
+                    full_body: 'setup-workout-full-body',
+                    split: 'setup-workout-split'
                 },
                 maintenance: {
                     balanced: 'balanced-training',
@@ -119,14 +119,14 @@ document.addEventListener('DOMContentLoaded', async function() {
                     cardio_focused: 'cardio-maintenance'
                 },
                 performance: {
-                    strength: 'strength-performance',
-                    endurance: 'endurance-focus',
-                    power: 'power-development'
+                    strength: 'setup-performance-strength',
+                    endurance: 'setup-performance-endurance',
+                    agility: 'setup-performance-agility'
                 },
                 wellness: {
-                    mind_body: 'mind-body-balance',
-                    functional: 'functional-fitness',
-                    mobility: 'mobility-focus'
+                    mind_body: 'setup-wellness-mind-body',
+                    functional: 'setup-wellness-functional',
+                    low_impact: 'setup-wellness-low-impact'
                 }
             };
 
@@ -142,9 +142,8 @@ document.addEventListener('DOMContentLoaded', async function() {
                     if (prefs.environment) {
                         environmentContainer.style.display = '';
                         const envLabels = {
-                            gym: 'environment-gym',
-                            home: 'environment-home',
-                            outdoor: 'environment-outdoor'
+                            gym: 'setup-workout-env-gym',
+                            home: 'setup-workout-env-home'
                         };
                         environmentElement.setAttribute('data-text-key', 
                             envLabels[prefs.environment] || prefs.environment);
@@ -157,21 +156,36 @@ document.addEventListener('DOMContentLoaded', async function() {
 
         // Frequency
         const frequencyLabels = {
-            three_day: 'frequency-three-day',
-            four_day: 'frequency-four-day',
-            five_day: 'frequency-five-day'
+            three_day: 'setup-frequency-three-days',
+            four_day: 'setup-frequency-four-days',
+            five_day: 'setup-frequency-five-days'
         };
         document.getElementById('profileFrequency').setAttribute('data-text-key', 
             frequencyLabels[profile.goals.frequency] || profile.goals.frequency);
 
         // Intensity
         const intensityLabels = {
-            beginner: 'intensity-beginner',
-            intermediate: 'intensity-intermediate',
-            advanced: 'intensity-advanced'
+            beginner: 'setup-intensity-beginner',
+            intermediate: 'setup-intensity-intermediate',
+            advanced: 'setup-intensity-advanced'
         };
         document.getElementById('profileIntensity').setAttribute('data-text-key', 
             intensityLabels[profile.goals.intensity] || profile.goals.intensity);
+
+        // Inside your DOMContentLoaded event handler
+        if (profile.ingredients && profile.ingredients.length > 0) {
+            const ingredientsContainer = document.getElementById('profileIngredients');
+            ingredientsContainer.innerHTML = ''; // Clear existing content
+            
+            profile.ingredients.forEach(ingredient => {
+                const tag = document.createElement('span');
+                tag.className = 'tag';
+                tag.setAttribute('data-text-key', ingredient);
+                ingredientsContainer.appendChild(tag);
+            });
+        } else {
+            document.getElementById('profileIngredients').setAttribute('data-text-key', 'none-specified');
+        }
 
         // Update all strings after setting data-text-key attributes
         window.stringsLoaded.then(() => {

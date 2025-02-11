@@ -46,5 +46,45 @@
     {
         "id": "personalization-prompt-button",
         "en": "Setup Profile"
+    },
+    {
+        "id": "weightLoss",
+        "en": "Weight Loss"
+    },
+    {
+        "id": "muscleGain",
+        "en": "Muscle Gain"
+    },
+    {
+        "id": "maintenance",
+        "en": "Maintenance"
+    },
+    {
+        "id": "performance",
+        "en": "Performance"
+    },
+    {
+        "id": "wellness",
+        "en": "Wellness"
+    },
+    {
+        "id": "workout-goal",
+        "en": "Goal"
+    },
+    {
+        "id": "workout-goal-value",
+        "en": "{{workout-goal}}"
+    },
+    {
+        "id": "workout-streak-value",
+        "en": "{{workout-streak}} Days"
+    },
+    {
+        "id": "workout-total-completed-value",
+        "en": "{{workout-total-completed}} Workouts"
+    },
+    {
+        "id": "no-goal-set",
+        "en": "No Goal Set"
     }
 ]

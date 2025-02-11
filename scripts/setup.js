@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     const prevBtn = document.getElementById('prevBtn');
     const submitBtn = document.getElementById('submitBtn');
     let currentStep = 1;
-    const totalSteps = steps.length;
+    const totalSteps = 7;
 
     const primaryGoalInputs = document.querySelectorAll('input[name="primary_goal"]');
 
@@ -304,7 +304,9 @@ document.addEventListener('DOMContentLoaded', async function() {
                 primaryGoal: formData.get('primary_goal'),
                 frequency: formData.get('exercise_frequency'),
                 intensity: formData.get('exercise_intensity')
-            }
+            },
+            ingredients: Array.from(document.querySelectorAll('input[name="ingredients"]:checked'))
+                .map(input => input.value)
         };
         
         try {
@@ -322,6 +324,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 window.showToast('toast-profile-save', false);
                 setTimeout(() => {
                     window.location.href = '/dashboard';
+                    //console.log('Profile saved');
                 }, 1500);
             } else {
                 throw new Error('Failed to save profile');
@@ -452,6 +455,25 @@ document.addEventListener('DOMContentLoaded', async function() {
                     radio.checked = true;
                 }
             });
+
+            // Ingredients
+            if (profile.ingredients && profile.ingredients.length > 0) {
+                // First check all ingredients
+                document.querySelectorAll('input[name="ingredients"]').forEach(checkbox => {
+                    checkbox.checked = true;
+                });
+                // Then uncheck those not in the profile's ingredients
+                document.querySelectorAll('input[name="ingredients"]').forEach(checkbox => {
+                    if (!profile.ingredients.includes(checkbox.value)) {
+                        checkbox.checked = false;
+                    }
+                });
+            } else {
+                // If no ingredients data exists, check all ingredients
+                document.querySelectorAll('input[name="ingredients"]').forEach(checkbox => {
+                    checkbox.checked = true;
+                });
+            }
         } catch (error) {
             console.error('Error loading profile:', error);
             window.showToast('toast-profile-load-error', true);
@@ -461,4 +483,76 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Initialize form
     updateFormSteps();
     loadProfile();
+
+    // Ingredients handling
+    const ingredients = [
+        'salt', 'sugar', 'olive_oil', 'vegetable_oil', 'flour', 'teff_flour', 
+        'corn_flour', 'rice_flour', 'egg', 'milk', 'butter', 'cheese', 'tomato', 
+        'onion', 'garlic', 'ginger', 'lemon', 'chili_powder', 'black_pepper', 'berbere', 
+        'mitmita', 'shiro_powder', 'potato', 'carrot', 'green_beans', 'bell_pepper', 
+        'spinach', 'cabbage', 'lentils', 'chickpeas', 'apple', 'banana', 'mango', 
+        'pineapple', 'orange', 'zucchini', 'rice', 'chicken_broth', 'beef_broth', 
+        'rosemary', 'gesho_leaves', 'injera', 'red_pepper', 'wheat_flour', 'barley', 
+        'honey', 'green_chili', 'cooking_oil', 'yogurt', 'beef', 'chicken', 'fish', 
+        'tomato_paste', 'eggplant', 'corn', 'pumpkin', 'avocado', 'watermelon', 
+        'grapes', 'papaya', 'coffee_beans', 'peanuts', 'almonds', 'sesame_seeds', 
+        'sunflower_seeds', 'raisins', 'coconut', 'spaghetti', 'bread_crumbs', 
+        'cocoa_powder', 'soy_sauce', 'coconut_milk', 'all_purpose_flour', 
+        'granulated_sugar', 'brown_sugar', 'pasta', 'bread', 'oats', 'broccoli', 
+        'lettuce', 'mushrooms', 'peas', 'mustard', 'ketchup', 'mayonnaise', 'sugarcane', 
+        'maize', 'sorghum', 'wheat', 'fava_beans', 'groundnuts', 'red_meat', 
+        'coconut_oil', 'beans', 'meat', 'sweet_potatoes', 'liver', 'fortified_milk', 
+        'herbal_teas', 'fermented_milk', 'dark_chocolate', 'nuts'
+    ];
+
+    function initializeIngredients() {
+        const grid = document.getElementById('ingredientsGrid');
+        const searchInput = document.getElementById('ingredientSearch');
+
+        function createIngredientElement(ingredient) {
+            const label = document.createElement('label');
+            label.className = 'ingredient-item';
+            
+            const input = document.createElement('input');
+            input.type = 'checkbox';
+            input.name = 'ingredients';
+            input.value = ingredient;
+            input.checked = true;
+            
+            const content = document.createElement('div');
+            content.className = 'ingredient-content';
+
+            const span = document.createElement('span');
+            span.setAttribute('data-text-key', `${ingredient}`);
+            span.textContent = ingredient.split('_').map(word => 
+                word.charAt(0).toUpperCase() + word.slice(1)
+            ).join(' ');
+
+            content.appendChild(span);
+            label.appendChild(input);
+            label.appendChild(content);
+            return label;
+        }
+
+        function renderIngredients(filterText = '') {
+            grid.innerHTML = '';
+            
+            const filteredIngredients = ingredients.filter(ing => 
+                ing.toLowerCase().includes(filterText.toLowerCase())
+            );
+            
+            filteredIngredients.forEach(ingredient => {
+                grid.appendChild(createIngredientElement(ingredient));
+            });
+        }
+
+        searchInput.addEventListener('input', (e) => {
+            renderIngredients(e.target.value);
+        });
+
+        renderIngredients();
+    }
+
+    // Initialize ingredients when DOM is loaded
+    initializeIngredients();
 }); 

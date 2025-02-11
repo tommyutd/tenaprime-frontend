@@ -51,29 +51,29 @@
       <div class="avatar">
         <img src="/assets/avatar.svg" alt="Account">
         <div class="stats-popup aleo-text" id="statsPopup">
-            <div class="stats-container">
-                <div class="stats-header">
-                    <h2 data-text-key="stats-title">Your Stats</h2>
-                    <button class="close-button" id="closeStats">&times;</button>
-                </div>
-                <div class="stats-content">
-                    <div class="stats-item">
-                        <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
-                        <span class="stats-value">5 <span data-text-key="days">days</span></span>
-                    </div>
-                    <div class="stats-item">
-                        <span class="stats-label" data-text-key="points-earned">Points Earned</span>
-                        <span class="stats-value">250 <span data-text-key="points">points</span></span>
-                    </div>
-                    <div class="stats-item">
-                        <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
-                        <span class="stats-value">12</span>
-                    </div>
-                </div>
-                <div class="stats-footer">
-                    <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
-                </div>
-            </div>
+          <div class="stats-container">
+              <div class="stats-header">
+                  <h2 data-text-key="stats-title">Your Stats</h2>
+                  <button class="close-button" id="closeStats">&times;</button>
+              </div>
+              <div class="stats-content">
+                  <div class="stats-item">
+                      <span class="stats-label" data-text-key="workout-goal">Goal</span>
+                      <span class="stats-value" id="workout-goal"></span>
+                  </div>
+                  <div class="stats-item">
+                      <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
+                      <span class="stats-value" id="workout-streak" data-text-key="workout-streak-value"></span>
+                  </div>
+                  <div class="stats-item">
+                      <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
+                      <span class="stats-value" id="workout-total-completed" data-text-key="workout-total-completed-value"></span>
+                  </div>
+              </div>
+              <div class="stats-footer">
+                  <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+              </div>
+          </div>
         </div>
       </div>
       <div class="language-selector aleo-text">

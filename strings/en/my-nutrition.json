@@ -1,0 +1,422 @@
+[
+    {
+        "id": "nutrition-stats-title",
+        "en": "Nutrition Stats"
+    },
+    {
+        "id": "bmr-label",
+        "en": "Basal Metabolic Rate (BMR)"
+    },
+    {
+        "id": "tdee-label",
+        "en": "Total Daily Energy Expenditure (TDEE)"
+    },
+    {
+        "id": "nutrition-recommendations-title",
+        "en": "Recommendations"
+    },
+    {
+        "id": "calorie-adjustment-label",
+        "en": "Calorie Adjustment"
+    },
+    {
+        "id": "hydration-label",
+        "en": "Daily Hydration Goal"
+    },
+    {
+        "id": "macro-breakdown-title",
+        "en": "Macro Breakdown Goals"
+    },
+    {
+        "id": "meal-timings-title",
+        "en": "Ideal Meal Schedule"
+    },
+    {
+        "id": "nutrition-bmr-calories",
+        "en": "{{bmr}} Calories"
+    },
+    {
+        "id": "nutrition-tdee-calories",
+        "en": "{{tdee}} Calories"
+    },
+    {
+        "id": "nutrition-calorie-adjustment",
+        "en": "{{adjustment}} Calories"
+    },
+    {
+        "id": "nutrition-hydration-goal",
+        "en": "{{liters}} Liters"
+    },
+    {
+        "id": "macro-label-protein",
+        "en": "Protein"
+    },
+    {
+        "id": "macro-label-carbs",
+        "en": "Carbs"
+    },
+    {
+        "id": "macro-label-fats",
+        "en": "Fats"
+    },
+    {
+        "id": "meal-number",
+        "en": "Meal {{meal-number}}"
+    },
+    {
+        "id": "meal-calories",
+        "en": "{{meal-calories}} cal"
+    },
+    {
+        "id": "meal-percentage",
+        "en": "{{meal-percentage}}% of daily"
+    },
+    {
+        "id": "ingredients-title",
+        "en": "Ingredients"
+    },
+    {
+        "id": "instructions-title",
+        "en": "Instructions"
+    },
+    {
+        "id": "nutrition-distribution-title",
+        "en": "Nutrition Distribution"
+    },
+    {
+        "id": "prep-time",
+        "en": "Prep: {{prep-time}} min"
+    },
+    {
+        "id": "cook-time",
+        "en": "Cook: {{cook-time}} min"
+    },
+    {
+        "id": "add",
+        "en": "Add"
+    },
+    {
+        "id": "bake",
+        "en": "Bake"
+    },
+    {
+        "id": "beat",
+        "en": "Beat"
+    },
+    {
+        "id": "blanch",
+        "en": "Blanch"
+    },
+    {
+        "id": "blend",
+        "en": "Blend"
+    },
+    {
+        "id": "boil",
+        "en": "Boil"
+    },
+    {
+        "id": "broil",
+        "en": "Broil"
+    },
+    {
+        "id": "caramelize",
+        "en": "Caramelize"
+    },
+    {
+        "id": "chop",
+        "en": "Chop"
+    },
+    {
+        "id": "combine",
+        "en": "Combine"
+    },
+    {
+        "id": "cool",
+        "en": "Cool"
+    },
+    {
+        "id": "crack",
+        "en": "Crack"
+    },
+    {
+        "id": "crush",
+        "en": "Crush"
+    },
+    {
+        "id": "cut",
+        "en": "Cut"
+    },
+    {
+        "id": "deep-fry",
+        "en": "Deep-fry"
+    },
+    {
+        "id": "dice",
+        "en": "Dice"
+    },
+    {
+        "id": "dollop",
+        "en": "Dollop"
+    },
+    {
+        "id": "drain",
+        "en": "Drain"
+    },
+    {
+        "id": "drizzle",
+        "en": "Drizzle"
+    },
+    {
+        "id": "flip",
+        "en": "Flip"
+    },
+    {
+        "id": "fold",
+        "en": "Fold"
+    },
+    {
+        "id": "freeze",
+        "en": "Freeze"
+    },
+    {
+        "id": "fry",
+        "en": "Fry"
+    },
+    {
+        "id": "garnish",
+        "en": "Garnish"
+    },
+    {
+        "id": "grate",
+        "en": "Grate"
+    },
+    {
+        "id": "grill",
+        "en": "Grill"
+    },
+    {
+        "id": "grind",
+        "en": "Grind"
+    },
+    {
+        "id": "heat",
+        "en": "Heat"
+    },
+    {
+        "id": "julienne",
+        "en": "Julienne"
+    },
+    {
+        "id": "knead",
+        "en": "Knead"
+    },
+    {
+        "id": "layer",
+        "en": "Layer"
+    },
+    {
+        "id": "marinate",
+        "en": "Marinate"
+    },
+    {
+        "id": "mash",
+        "en": "Mash"
+    },
+    {
+        "id": "measure",
+        "en": "Measure"
+    },
+    {
+        "id": "mince",
+        "en": "Mince"
+    },
+    {
+        "id": "mix",
+        "en": "Mix"
+    },
+    {
+        "id": "open",
+        "en": "Open"
+    },
+    {
+        "id": "peel",
+        "en": "Peel"
+    },
+    {
+        "id": "place",
+        "en": "Place"
+    },
+    {
+        "id": "poach",
+        "en": "Poach"
+    },
+    {
+        "id": "pour",
+        "en": "Pour"
+    },
+    {
+        "id": "powder",
+        "en": "Powder"
+    },
+    {
+        "id": "prepare",
+        "en": "Prepare"
+    },
+    {
+        "id": "press",
+        "en": "Press"
+    },
+    {
+        "id": "put",
+        "en": "Put"
+    },
+    {
+        "id": "reduce",
+        "en": "Reduce"
+    },
+    {
+        "id": "refrigerate",
+        "en": "Refrigerate"
+    },
+    {
+        "id": "rinse",
+        "en": "Rinse"
+    },
+    {
+        "id": "roast",
+        "en": "Roast"
+    },
+    {
+        "id": "roll",
+        "en": "Roll"
+    },
+    {
+        "id": "saute",
+        "en": "Saute"
+    },
+    {
+        "id": "sear",
+        "en": "Sear"
+    },
+    {
+        "id": "shred",
+        "en": "Shred"
+    },
+    {
+        "id": "simmer",
+        "en": "Simmer"
+    },
+    {
+        "id": "slice",
+        "en": "Slice"
+    },
+    {
+        "id": "smash",
+        "en": "Smash"
+    },
+    {
+        "id": "soak",
+        "en": "Soak"
+    },
+    {
+        "id": "skim",
+        "en": "Skim"
+    },
+    {
+        "id": "squeeze",
+        "en": "Squeeze"
+    },
+    {
+        "id": "sprinkle",
+        "en": "Sprinkle"
+    },
+    {
+        "id": "spread",
+        "en": "Spread"
+    },
+    {
+        "id": "steam",
+        "en": "Steam"
+    },
+    {
+        "id": "stir",
+        "en": "Stir"
+    },
+    {
+        "id": "stir-fry",
+        "en": "Stir-fry"
+    },
+    {
+        "id": "thaw",
+        "en": "Thaw"
+    },
+    {
+        "id": "toast",
+        "en": "Toast"
+    },
+    {
+        "id": "top",
+        "en": "Top"
+    },
+    {
+        "id": "toss",
+        "en": "Toss"
+    },
+    {
+        "id": "whisk",
+        "en": "Whisk"
+    },
+    {
+        "id": "combined_ingredients",
+        "en": "Combined Ingredients"
+    },
+    {
+        "id": "grams",
+        "en": "Grams"
+    },
+    {
+        "id": "ml",
+        "en": "ml"
+    },
+    {
+        "id": "whole",
+        "en": "Whole"
+    },
+    {
+        "id": "half",
+        "en": "Half"
+    },
+    {
+        "id": "quarter",
+        "en": "Quarter"
+    },
+    {
+        "id": "cup",
+        "en": "Cup"
+    },
+    {
+        "id": "cups",
+        "en": "Cups"
+    },
+    {
+        "id": "tbsp",
+        "en": "Tablespoon"
+    },
+    {
+        "id": "in",
+        "en": "in"
+    },
+    {
+        "id": "on",
+        "en": "on"
+    },
+    {
+        "id": "over",
+        "en": "over"
+    },
+    {
+        "id": "into",
+        "en": "into"
+    }
+]

@@ -66,5 +66,9 @@
     {
         "id": "winners-section-description",
         "en": "Here are some of the winners of our weekly contest. You might be this week's winner. <a href=\"#\">Play now</a>!"
+    },
+    {
+        "id": "loading",
+        "en": "Loading…"
     }
 ]

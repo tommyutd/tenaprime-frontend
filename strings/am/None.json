@@ -1,0 +1,34 @@
+[
+    {
+        "id": "muscleGain",
+        "am": null
+    },
+    {
+        "id": "maintenance",
+        "am": null
+    },
+    {
+        "id": "performance",
+        "am": null
+    },
+    {
+        "id": "wellness",
+        "am": null
+    },
+    {
+        "id": "workout-goal",
+        "am": null
+    },
+    {
+        "id": "workout-goal-value",
+        "am": null
+    },
+    {
+        "id": "workout-streak-value",
+        "am": null
+    },
+    {
+        "id": "workout-total-completed-value",
+        "am": null
+    }
+]

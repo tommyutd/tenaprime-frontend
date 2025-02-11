@@ -5,6 +5,7 @@ class WorkoutCalendar {
         this.workoutData = null;
         this.startDate = null;  // Add this to track the start date
         this.endDate = null;  // Add this line
+        this.completedWorkouts = [];  // Add this line
         this.init();
     }
 
@@ -17,6 +18,11 @@ class WorkoutCalendar {
                 }
             });
             this.workoutData = await response.json();
+            
+            // Store completed workouts
+            this.completedWorkouts = this.workoutData.workoutPlan.completed_workouts.map(workout => 
+                new Date(workout.year, workout.month, workout.day)
+            );
             
             // Set the start date from workoutData
             this.startDate = new Date(this.workoutData.workoutPlan.createdAt);
@@ -32,6 +38,14 @@ class WorkoutCalendar {
             this.render();
             this.attachEventListeners();
             this.updateSelectedDayWorkout();
+            localStorage.setItem('workout-streak', this.calculateStreak());
+            localStorage.setItem('workout-total-completed', this.completedWorkouts.length);
+
+            window.stringsLoaded.then(() => {
+                updatePageStrings();
+            }).catch(error => {
+                console.error('Error updating strings:', error);
+            });
         } catch (error) {
             console.error('Error initializing calendar:', error);
         }
@@ -45,15 +59,30 @@ class WorkoutCalendar {
 
     updateCalendarTitle() {
         const title = document.querySelector('.calendar-title');
-        title.textContent = this.currentDate.toLocaleString('default', { 
-            month: 'long', 
-            year: 'numeric' 
-        });
+        const month = this.currentDate.toLocaleString('default', { month: 'long' });
+        const year = this.currentDate.getFullYear();
+        
+        title.innerHTML = `
+            <span data-text-key="month-${month.toLowerCase()}"></span> 
+            <span>${year}</span>
+        `;
     }
 
     renderDays() {
         const daysContainer = document.querySelector('.calendar-days');
+        const weekdaysContainer = document.querySelector('.calendar-weekdays');
         daysContainer.innerHTML = '';
+        
+        // Update weekday labels with data-text-key
+        weekdaysContainer.innerHTML = `
+            <div data-text-key="day-sun">Sun</div>
+            <div data-text-key="day-mon">Mon</div>
+            <div data-text-key="day-tue">Tue</div>
+            <div data-text-key="day-wed">Wed</div>
+            <div data-text-key="day-thu">Thu</div>
+            <div data-text-key="day-fri">Fri</div>
+            <div data-text-key="day-sat">Sat</div>
+        `;
 
         const firstDay = new Date(
             this.currentDate.getFullYear(),
@@ -80,6 +109,13 @@ class WorkoutCalendar {
             );
             daysContainer.appendChild(this.createDayElement(date));
         }
+
+        // Update strings after rendering
+        window.stringsLoaded.then(() => {
+            updatePageStrings();
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
     }
 
     createDayElement(date) {
@@ -121,6 +157,13 @@ class WorkoutCalendar {
             dayElement.classList.add('has-workout');
         }
 
+        // Add class if workout was completed on this date
+        if (this.isWorkoutCompleted(date)) {
+            dayElement.classList.add('completed-workout');
+        } else if (this.isWorkoutSkipped(date)) {
+            dayElement.classList.add('skipped-workout');
+        }
+
         // Only add click event if date is not before start date
         dayElement.addEventListener('click', () => this.selectDate(date));
         return dayElement;
@@ -156,13 +199,26 @@ class WorkoutCalendar {
         const startButton = document.querySelector('.start-workout-button');
         const regenerateButton = document.querySelector('.regenerate-workout-button');
         const resetButton = document.querySelector('.reset-progress-button');
+
+        const language = localStorage.getItem('app-language');
         
         if (workout) {
             const phaseNumber = this.getPhaseNumber(this.selectedDate);
             summaryContainer.innerHTML = `
-                <p><strong>Phase:</strong> ${this.getOrdinalSuffix(phaseNumber)} Phase</p>
-                <p><strong>Exercises:</strong> ${this.getExerciseList(workout)}</p>
-                <p><strong>Estimated Duration:</strong> ${this.getWorkoutDuration(workout)} Minutes</p>
+                <p>
+                    <strong data-text-key="phase-label"></strong>
+                    <span data-text-key="phase-text" data-placeholder-ordinal="${this.getOrdinalSuffix(phaseNumber, language)}"></span>
+                </p>
+                <p>
+                    <strong data-text-key="exercises-label"></strong>
+                    <span>${this.getExerciseList(workout)}</span>
+                </p>
+                <p>
+                    <strong data-text-key="estimated-duration-label"></strong>
+                    <span data-text-key="exercise-duration-minutes" 
+                          data-placeholder-exercise-duration="${this.getWorkoutDuration(workout)}">
+                    </span>
+                </p>
             `;
             
             startButton.style.display = 'block';
@@ -174,6 +230,15 @@ class WorkoutCalendar {
                 if (workout) {
                     // Store workout data in sessionStorage
                     sessionStorage.setItem('current-workout', JSON.stringify(workout));
+                    
+                    // Store date components separately to preserve local date
+                    const dateToStore = {
+                        year: this.selectedDate.getFullYear(),
+                        month: this.selectedDate.getMonth(),
+                        day: this.selectedDate.getDate()
+                    };
+                    sessionStorage.setItem('workoutDate', JSON.stringify(dateToStore));
+                    
                     const currentPhaseNumber = phaseNumber - 1;
                     const accumulatedPhase = {
                         ...this.workoutData.workoutPlan.phases[0]
@@ -236,8 +301,14 @@ class WorkoutCalendar {
                     }
                 }
             });
+
+            window.stringsLoaded.then(() => {
+                updatePageStrings();
+            }).catch(error => {
+                console.error('Error updating strings:', error);
+            });
         } else {
-            summaryContainer.innerHTML = '<p><strong>Rest day</strong>: No workout scheduled</p>';
+            summaryContainer.innerHTML = '<p data-text-key="rest-day-label"></p>';
             startButton.style.display = 'none';
             regenerateButton.style.display = 'none';
             resetButton.style.display = 'none';
@@ -281,13 +352,22 @@ class WorkoutCalendar {
 
         // Initial button state
         this.updateNavigationButtons();
+        window.stringsLoaded.then(() => {
+            updatePageStrings();
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
     }
 
     getExerciseList(workout) {
-        if (!workout.main_workout) return 'No exercises';
+        if (!workout.main_workout) return '<span data-text-key="no-exercises"></span>';
+        
+        const language = localStorage.getItem('app-language');
+        const separator = language === 'am' ? '፣ ' : ', ';
+        
         return workout.main_workout
-            .map(exercise => exercise.exercise_id)
-            .join(', ');
+            .map(exercise => `<span data-text-key="${exercise.exercise_id}"></span>`)
+            .join(separator);
     }
 
     getWorkoutDuration(workout) {
@@ -311,19 +391,24 @@ class WorkoutCalendar {
         return currentPhase;
     }
 
-    getOrdinalSuffix(number) {
-        const j = number % 10;
-        const k = number % 100;
-        if (j == 1 && k != 11) {
-            return number + "st";
+    getOrdinalSuffix(number, lang) {
+        if (lang === 'en') {
+            const j = number % 10;
+            const k = number % 100;
+            if (j == 1 && k != 11) {
+                return number + "st";
+            }
+            if (j == 2 && k != 12) {
+                return number + "nd";
+            }
+            if (j == 3 && k != 13) {
+                return number + "rd";
+            }
+            return number + "th";
         }
-        if (j == 2 && k != 12) {
-            return number + "nd";
+        else {
+            return number + "ኛ";
         }
-        if (j == 3 && k != 13) {
-            return number + "rd";
-        }
-        return number + "th";
     }
 
     async regenerateWorkout() {
@@ -389,6 +474,63 @@ class WorkoutCalendar {
         // Update button states
         prevButton.classList.toggle('disabled', !canGoBack);
         nextButton.classList.toggle('disabled', !canGoForward);
+    }
+
+    isWorkoutCompleted(date) {
+        return this.completedWorkouts.some(completedDate => 
+            completedDate.toDateString() === date.toDateString()
+        );
+    }
+
+    isWorkoutSkipped(date) {
+        const today = new Date();
+        const dateStripped = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+        const todayStripped = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+
+        return dateStripped < todayStripped && 
+               this.hasWorkout(date) && 
+               !this.isWorkoutCompleted(date);
+    }
+
+    calculateStreak() {
+        let streak = 1;
+        const today = new Date();
+        // Clear time for correct day-to-day comparisons
+        today.setHours(0, 0, 0, 0);
+        
+        // Start checking from yesterday
+        let dateToCheck = new Date(today);
+        dateToCheck.setDate(dateToCheck.getDate() - 1);
+
+        // If yesterday isn't a scheduled workout day, move backwards until we find the most recent day that is scheduled.
+        while (dateToCheck >= this.startDate && !this.hasWorkout(dateToCheck)) {
+            dateToCheck.setDate(dateToCheck.getDate() - 1);
+        }
+
+        // If none found (we went before the startDate), return a streak of zero.
+        if (dateToCheck < this.startDate) {
+            return streak;
+        }
+
+        // Iterate backwards through the scheduled workout days and count consecutive completed days.
+        while (dateToCheck >= this.startDate) {
+            if (this.hasWorkout(dateToCheck)) {    
+                if (this.isWorkoutCompleted(dateToCheck)) {
+                    streak++;
+                } else {
+                    // If a scheduled workout day is not completed, the streak ends.
+                    break;
+                }
+            }
+            // Move backward to the previous scheduled workout day.
+            let previous = new Date(dateToCheck);
+            previous.setDate(previous.getDate() - 1);
+            while (previous >= this.startDate && !this.hasWorkout(previous)) {
+                previous.setDate(previous.getDate() - 1);
+            }
+            dateToCheck = previous;
+        }
+        return streak;
     }
 }
 

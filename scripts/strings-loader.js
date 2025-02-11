@@ -45,19 +45,21 @@ function getPageTags(path) {
         '/exercises/yoga': ['yoga', 'exercise', 'user'],
         '/exercises/healthy-sleeping': ['sleep', 'exercise', 'user'],
         '/exercises/stress-regulation': ['stress', 'exercise', 'user'],
-        '/exercises/my-workout': ['my-workout', 'exercise', 'user'],
+        '/exercises/my-workout': ['my-workout', 'body', 'exercise', 'user'],
         '/nutrition': ['nutrition-index', 'guest'],
         '/nutrition/dashboard': ['nutrition-dashboard', 'user'],
         '/nutrition/learn': ['nutrition-dashboard', 'nutrition-learn', 'user'],
+        '/nutrition/my-nutrition': ['my-nutrition', 'food', 'user'],
         '/prizes': ['prizes-index', 'guest'],
         '/prizes/dashboard': ['prizes-dashboard', 'user'],
         '/prizes/quiz': ['prizes-quiz', 'user'],
         '/prizes/rules': ['prizes-rules', 'user'],
         '/about': ['about', 'guest', 'user'],
-        '/profile': ['profile', 'user'],
-        '/setup': ['profile', 'setup', 'user']
+        '/profile': ['profile', 'setup', 'user', 'food'],
+        '/setup': ['profile', 'setup', 'user', 'food']
     };
     
+
     // Get URL parameters
     const url = new URL(window.location.href);
     const params = url.searchParams;
@@ -159,10 +161,31 @@ async function updatePageStrings() {
     elements.forEach(element => {
         const key = element.getAttribute('data-text-key');
         if (strings[key]) {
-            element.innerHTML = strings[key];
+            // Get placeholder data from data attributes
+            const placeholders = {};
+            for (const attr of element.attributes) {
+                if (attr.name.startsWith('data-placeholder-')) {
+                    const placeholderKey = attr.name.replace('data-placeholder-', '');
+                    placeholders[placeholderKey] = attr.value;
+                }
+            }
+
+            // Replace placeholders in the string
+            let finalString = strings[key];
+            Object.entries(placeholders).forEach(([key, value]) => {
+                const placeholder = `{{${key}}}`;
+                finalString = finalString.replace(placeholder, value);
+            });
+            
+            element.innerHTML = finalString;
+            if (element.placeholder) {
+                element.placeholder = finalString;
+            }
         } else {
+            element.innerHTML = key;
             console.warn(`Missing string for key: ${key}`);
         }
+
     });
 }
 

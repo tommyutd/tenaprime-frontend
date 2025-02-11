@@ -1,0 +1,418 @@
+[
+    {
+        "id": "salt",
+        "am": "ጨው"
+    },
+    {
+        "id": "water",
+        "am": "ውሃ"
+    },
+    {
+        "id": "sugar",
+        "am": "ስኳር"
+    },
+    {
+        "id": "olive_oil",
+        "am": "የወይራ ዘይት"
+    },
+    {
+        "id": "vegetable_oil",
+        "am": "የአትክልት ዘይት"
+    },
+    {
+        "id": "flour",
+        "am": "ዱቄት"
+    },
+    {
+        "id": "teff_flour",
+        "am": "የጤፍ ዱቄት"
+    },
+    {
+        "id": "corn_flour",
+        "am": "የበቆሎ ዱቄት"
+    },
+    {
+        "id": "rice_flour",
+        "am": "የሩዝ ዱቄት"
+    },
+    {
+        "id": "egg",
+        "am": "እንቁላል"
+    },
+    {
+        "id": "milk",
+        "am": "ወተት"
+    },
+    {
+        "id": "butter",
+        "am": "ቅቤ"
+    },
+    {
+        "id": "cheese",
+        "am": "አይብ"
+    },
+    {
+        "id": "tomato",
+        "am": "ቲማቲም"
+    },
+    {
+        "id": "onion",
+        "am": "ሽንኩርት"
+    },
+    {
+        "id": "garlic",
+        "am": "ነጭ ሽንኩርት"
+    },
+    {
+        "id": "ginger",
+        "am": "ዝንጅብል"
+    },
+    {
+        "id": "lemon",
+        "am": "ሎሚ"
+    },
+    {
+        "id": "chili_powder",
+        "am": "የቺሊ ዱቄት"
+    },
+    {
+        "id": "black_pepper",
+        "am": "ጥቁር ፔፐር"
+    },
+    {
+        "id": "berbere",
+        "am": "በርበረ"
+    },
+    {
+        "id": "mitmita",
+        "am": "ሚቲሚታ"
+    },
+    {
+        "id": "shiro_powder",
+        "am": "ሽሮ ዱቄት"
+    },
+    {
+        "id": "potato",
+        "am": "ድንች"
+    },
+    {
+        "id": "carrot",
+        "am": "ካሮት"
+    },
+    {
+        "id": "green_beans",
+        "am": "አረንጓዴ ባቄላ"
+    },
+    {
+        "id": "bell_pepper",
+        "am": "ደወል በርበሬ"
+    },
+    {
+        "id": "spinach",
+        "am": "ስፒናች"
+    },
+    {
+        "id": "cabbage",
+        "am": "ጎመን"
+    },
+    {
+        "id": "lentils",
+        "am": "ምስር"
+    },
+    {
+        "id": "chickpeas",
+        "am": "ሽንብራ"
+    },
+    {
+        "id": "apple",
+        "am": "አፕል"
+    },
+    {
+        "id": "banana",
+        "am": "ሙዝ"
+    },
+    {
+        "id": "mango",
+        "am": "ማንጎ"
+    },
+    {
+        "id": "pineapple",
+        "am": "አናናስ"
+    },
+    {
+        "id": "orange",
+        "am": "ብርቱካናማ"
+    },
+    {
+        "id": "zucchini",
+        "am": "Zucchini"
+    },
+    {
+        "id": "rice",
+        "am": "ሩዝ"
+    },
+    {
+        "id": "chicken_broth",
+        "am": "የዶሮ ሾርባ"
+    },
+    {
+        "id": "beef_broth",
+        "am": "የበሬ ሥጋ ሾርባ"
+    },
+    {
+        "id": "rosemary",
+        "am": "ሮዝሜሪ"
+    },
+    {
+        "id": "gesho_leaves",
+        "am": "የጌሾ ቅጠሎች"
+    },
+    {
+        "id": "injera",
+        "am": "እንጀራ"
+    },
+    {
+        "id": "red_pepper",
+        "am": "ቀይ በርበሬ"
+    },
+    {
+        "id": "wheat_flour",
+        "am": "የስንዴ ዱቄት"
+    },
+    {
+        "id": "barley",
+        "am": "ገብስ"
+    },
+    {
+        "id": "honey",
+        "am": "ማር"
+    },
+    {
+        "id": "green_chili",
+        "am": "አረንጓዴ ቺሊ"
+    },
+    {
+        "id": "cooking_oil",
+        "am": "የማብሰያ ዘይት"
+    },
+    {
+        "id": "yogurt",
+        "am": "እርጎ"
+    },
+    {
+        "id": "beef",
+        "am": "የበሬ ሥጋ"
+    },
+    {
+        "id": "chicken",
+        "am": "ዶሮ"
+    },
+    {
+        "id": "fish",
+        "am": "ዓሳ"
+    },
+    {
+        "id": "tomato_paste",
+        "am": "የቲማቲም ለጥፍ"
+    },
+    {
+        "id": "eggplant",
+        "am": "የእንቁላል ፍሬ"
+    },
+    {
+        "id": "corn",
+        "am": "በቆሎ"
+    },
+    {
+        "id": "pumpkin",
+        "am": "ዱባ"
+    },
+    {
+        "id": "avocado",
+        "am": "አቮካዶ"
+    },
+    {
+        "id": "watermelon",
+        "am": "ሐብሐብ"
+    },
+    {
+        "id": "grapes",
+        "am": "ወይን"
+    },
+    {
+        "id": "papaya",
+        "am": "ፓፓያ"
+    },
+    {
+        "id": "coffee_beans",
+        "am": "የቡና ፍሬዎች"
+    },
+    {
+        "id": "peanuts",
+        "am": "ኦቾሎኒ"
+    },
+    {
+        "id": "almonds",
+        "am": "የአልሞንድ ፍሬዎች"
+    },
+    {
+        "id": "sesame_seeds",
+        "am": "የሰሊጥ ዘሮች"
+    },
+    {
+        "id": "sunflower_seeds",
+        "am": "የሱፍ አበባ ዘሮች"
+    },
+    {
+        "id": "raisins",
+        "am": "ዘቢብ"
+    },
+    {
+        "id": "coconut",
+        "am": "ኮኮናት"
+    },
+    {
+        "id": "spaghetti",
+        "am": "ስፓጌቲ"
+    },
+    {
+        "id": "bread_crumbs",
+        "am": "የዳቦ ፍርፋሪ"
+    },
+    {
+        "id": "cocoa_powder",
+        "am": "የኮኮዋ ዱቄት"
+    },
+    {
+        "id": "soy_sauce",
+        "am": "አኩሪ አተር"
+    },
+    {
+        "id": "coconut_milk",
+        "am": "የኮኮናት ወተት"
+    },
+    {
+        "id": "all_purpose_flour",
+        "am": "ሁሉም ዓላማ ዱቄት"
+    },
+    {
+        "id": "granulated_sugar",
+        "am": "የተጣራ ስኳር"
+    },
+    {
+        "id": "brown_sugar",
+        "am": "ቡናማ ስኳር"
+    },
+    {
+        "id": "pasta",
+        "am": "ፓስታ"
+    },
+    {
+        "id": "bread",
+        "am": "ዳቦ"
+    },
+    {
+        "id": "oats",
+        "am": "አጃ"
+    },
+    {
+        "id": "broccoli",
+        "am": "ብሮኮሊ"
+    },
+    {
+        "id": "lettuce",
+        "am": "ሰላጣ"
+    },
+    {
+        "id": "mushrooms",
+        "am": "እንጉዳዮች"
+    },
+    {
+        "id": "peas",
+        "am": "አተር"
+    },
+    {
+        "id": "mustard",
+        "am": "ሰናፍጭ"
+    },
+    {
+        "id": "ketchup",
+        "am": "ኬትጪፕ"
+    },
+    {
+        "id": "mayonnaise",
+        "am": "ማዮኔዝ"
+    },
+    {
+        "id": "sugarcane",
+        "am": "የሸንኮራ አገዳ"
+    },
+    {
+        "id": "maize",
+        "am": "በቆሎ"
+    },
+    {
+        "id": "sorghum",
+        "am": "ማሽላ"
+    },
+    {
+        "id": "wheat",
+        "am": "ስንዴ"
+    },
+    {
+        "id": "fava_beans",
+        "am": "Fava Beans"
+    },
+    {
+        "id": "groundnuts",
+        "am": "የከርሰ ምድር ፍሬዎች"
+    },
+    {
+        "id": "red_meat",
+        "am": "ቀይ ሥጋ"
+    },
+    {
+        "id": "coconut_oil",
+        "am": "የኮኮናት ዘይት"
+    },
+    {
+        "id": "beans",
+        "am": "ባቄላ"
+    },
+    {
+        "id": "meat",
+        "am": "ስጋ"
+    },
+    {
+        "id": "sweet_potatoes",
+        "am": "ድንች ድንች"
+    },
+    {
+        "id": "liver",
+        "am": "ጉበት"
+    },
+    {
+        "id": "fortified_milk",
+        "am": "የተጠናከረ ወተት"
+    },
+    {
+        "id": "herbal_teas",
+        "am": "የእፅዋት ሻይ"
+    },
+    {
+        "id": "fermented_milk",
+        "am": "የተቀቀለ ወተት"
+    },
+    {
+        "id": "dark_chocolate",
+        "am": "ጥቁር ቸኮሌት"
+    },
+    {
+        "id": "nuts",
+        "am": "ለውዝ"
+    },
+    {
+        "id": "combined_ingredients",
+        "am": "የተዋሃዱ ንጥረ ነገሮች"
+    }
+]

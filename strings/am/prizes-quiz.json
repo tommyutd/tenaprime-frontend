@@ -29,10 +29,62 @@
     },
     {
         "id": "quiz-loading",
-        "am": "በመጫን ላይ..."
+        "am": "ጥያቄዎችን በመጫን ላይ..."
+    },
+    {
+        "id": "quiz-loading-result",
+        "am": "ውጤትን በመጫን ላይ..."
     },
     {
         "id": "quiz-get-ready",
         "am": "ተዘጋጅ!"
+    },
+    {
+        "id": "quiz-max-attempts",
+        "am": "ለዚህ ሳምንት ከፍተኛው የሙከራ ብዛት ላይ ደርሰዋል። በሚቀጥለው ሳምንት እንደገና መሞከር ይችላሉ።"
+    },
+    {
+        "id": "quiz-no-questions",
+        "am": "ምንም ጥያቄዎች ማግኘት አልተቻለም። እባክዎ ቆይተው እንደገና ይሞክሩ።"
+    },
+    {
+        "id": "quiz-not-found",
+        "am": "ይህ ጥያቄ አልተገኘም ወይም ጊዜው አልፎበታል። እባክህ እንደገና ሞክር።"
+    },
+    {
+        "id": "quiz-time-limit",
+        "am": "ለዚህ ጥያቄ ከተሰጠው የጊዜ ገደብ አልፈዋል። እባክህ እንደገና ሞክር።"
+    },
+    {
+        "id": "quiz-invalid-response",
+        "am": "የእርስዎ ምላሾች ልክ ያልሆኑ ናቸው። እባክህ እንደገና ሞክር።"
+    },
+    {
+        "id": "quiz-error-generic",
+        "am": "ጥያቄውን በመጫን ላይ ስህተት ተፈጥሯል። እባክዎ ቆይተው እንደገና ይሞክሩ።"
+    },
+    {
+        "id": "quiz-perfect-score",
+        "am": "🏆 ፍጹም ነጥብ! ድንቅ ፡ ነህ! 🏆"
+    },
+    {
+        "id": "quiz-great-job",
+        "am": "🌟 ታላቅ ስራ! 🌟"
+    },
+    {
+        "id": "quiz-time-minutes",
+        "am": "<span class='time-text-highlight'>{{ደቂቃዎች}}፡{{ሰከንዶች}}።{{ሚሊሰከንዶች}}</span> ደቂቃዎች ወስደሃል።"
+    },
+    {
+        "id": "quiz-time-seconds",
+        "am": "<span class='time-text-highlight'>{{ሰከንዶች}} ወስደሃል።{{milliseconds}}</span> ሰከንዶች ወስደሃል።"
+    },
+    {
+        "id": "quiz-new-best-score",
+        "am": "<span class='time-text-highlight'>ይህ አዲሱ የእርስዎ ምርጥ ነጥብ ነው!</span><br>"
+    },
+    {
+        "id": "quiz-question-counter",
+        "am": "ጥያቄ {{current}}/{{total}}"
     }
 ]

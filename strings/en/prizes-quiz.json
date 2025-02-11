@@ -29,10 +29,62 @@
     },
     {
         "id": "quiz-loading",
-        "en": "Loading..."
+        "en": "Loading Quiz..."
+    },
+    {
+        "id": "quiz-loading-result",
+        "en": "Loading Result..."
     },
     {
         "id": "quiz-get-ready",
         "en": "Get Ready!"
+    },
+    {
+        "id": "quiz-max-attempts",
+        "en": "You have reached the maximum number of attempts for this week. You can try again next week."
+    },
+    {
+        "id": "quiz-no-questions",
+        "en": "Couldn\\'t find any questions. Please try again later."
+    },
+    {
+        "id": "quiz-not-found",
+        "en": "This quiz was not found or has expired. Please try again."
+    },
+    {
+        "id": "quiz-time-limit",
+        "en": "You have exceeded the time limit for this quiz. Please try again."
+    },
+    {
+        "id": "quiz-invalid-response",
+        "en": "Your responses are invalid. Please try again."
+    },
+    {
+        "id": "quiz-error-generic",
+        "en": "An error occurred while loading the quiz. Please try again later."
+    },
+    {
+        "id": "quiz-perfect-score",
+        "en": "🏆 Perfect Score! You are Amazing! 🏆"
+    },
+    {
+        "id": "quiz-great-job",
+        "en": "🌟 Great Job! 🌟"
+    },
+    {
+        "id": "quiz-time-minutes",
+        "en": "You took <span class='time-text-highlight'>{{minutes}}:{{seconds}}.{{milliseconds}}</span> minutes."
+    },
+    {
+        "id": "quiz-time-seconds",
+        "en": "You took <span class='time-text-highlight'>{{seconds}}.{{milliseconds}}</span> seconds."
+    },
+    {
+        "id": "quiz-new-best-score",
+        "en": "<span class='time-text-highlight'>This is your new Best Score!</span><br>"
+    },
+    {
+        "id": "quiz-question-counter",
+        "en": "Question {{current}}/{{total}}"
     }
 ]

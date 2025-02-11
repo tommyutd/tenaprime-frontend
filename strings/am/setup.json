@@ -458,5 +458,21 @@
     {
         "id": "setup-intensity-advanced",
         "am": "የላቀ"
+    },
+    {
+        "id": "setup-ingredients",
+        "am": "ንጥረ ነገሮች"
+    },
+    {
+        "id": "setup-ingredients-title",
+        "am": "የማይፈልጓቸውን ንጥረ ነገሮች አይምረጡ"
+    },
+    {
+        "id": "setup-ingredients-label",
+        "am": "በምግብ እቅድዎ ውስጥ ማካተት የማይፈልጓቸውን ንጥረ ነገሮች ይምረጡ።"
+    },
+    {
+        "id": "setup-ingredients-search-placeholder",
+        "am": "ግብዓቶችን ይፈልጉ…"
     }
 ]
