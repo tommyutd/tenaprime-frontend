@@ -1,17 +1,19 @@
+@import '/themes.css';
+
 .navigation-exercises {
   flex: 1;  /* Added to make it share width equally */
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(186, 156, 98, 1);
+  background-color: var(--accent-100);
 }
 
 .navigation-home,
 .navigation-nutrition,
 .navigation-about,
 .navigation-prizes {
-  color: white;
+  color: var(--text-primary);
   flex: 1;
   height: 100%;
   display: flex;
@@ -31,7 +33,7 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: rgba(186, 156, 98, 1);
+  background-color: var(--accent-100);
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
@@ -41,7 +43,7 @@
 .navigation-about:hover a,
 .navigation-prizes:hover a {
   background-color: transparent;
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .navigation-home:hover::after,
@@ -74,7 +76,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--text-primary);
   gap: 20px;
 }
 
@@ -84,7 +86,7 @@
   margin: 0 auto;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   line-height: 1.4;
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .exercises-page-greeting h2 {
@@ -106,7 +108,7 @@
 .exercises-user-weight-loss,
 .exercises-user-mind-body {
     padding: 2rem;
-    color: white;
+    color: var(--text-primary);
 }
 
 .exercises-user-workout h1,
@@ -114,7 +116,7 @@
 .exercises-user-strength h1,
 .exercises-user-weight-loss h1,
 .exercises-user-mind-body h1 {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
     margin-bottom: 1.5rem;
     font-size: 2rem;
 }
@@ -124,7 +126,7 @@
 .exercises-user-strength b,
 .exercises-user-weight-loss b,
 .exercises-user-mind-body b {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
 }
 
 .workout-cards,
@@ -149,11 +151,11 @@
 #mind-body-yoga,
 #mind-body-sleep,
 #mind-body-stress {
-    background: rgba(186, 156, 98, 0.1);
+    background: var(--accent-10);
     border-radius: 1rem;
     padding: 1.5rem;
-    color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: var(--text-primary);
+    box-shadow: 0 4px 6px var(--bg-10);
     transition: all 0.3s ease;
     min-height: 200px;
     display: flex;
@@ -178,7 +180,7 @@
 #mind-body-sleep:hover,
 #mind-body-stress:hover {
     transform: translateY(-5px);
-    background: rgba(186, 156, 98, 0.2);
+    background: var(--accent-20);
     cursor: pointer;
 }
 
@@ -272,13 +274,13 @@
 }
 
 .card-title {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
 .card-description {
-    color: white;
+    color: var(--text-primary);
     font-size: 1rem;
     line-height: 1.5;
     max-width: 50%;
@@ -301,17 +303,17 @@
 }
 
 .exercise-popup-overlay.show {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--bg-80);
 }
 
 .exercise-popup-content {
-    background: #121518;
+    background: var(--bg-primary);
     padding: 2rem;
     border-radius: 1rem;
     width: 90%;
     max-width: 600px;
     position: relative;
-    border: 1px solid rgba(186, 156, 98, 0.3);
+    border: 1px solid var(--accent-30);
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.3s ease;
@@ -339,26 +341,26 @@
     right: 1rem;
     background: none;
     border: none;
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
     font-size: 1.5rem;
     cursor: pointer;
     padding: 0.5rem;
 }
 
 .exercise-popup-content h2 {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
     margin: 0.5rem;
     font-size: 1.8rem;
 }
 
 .exercise-popup-content p {
-    color: white;
+    color: var(--text-primary);
     margin: 0.5rem;
     flex-grow: 1;
 }
 
 .exercise-popup-content b {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
 }
 
 .exercise-popup-buttons {
@@ -371,9 +373,9 @@
 }
 
 .exercise-popup-button {
-    background-color: rgba(186, 156, 98, 1);
+    background-color: var(--accent-100);
     border: none;
-    color: white;
+    color: var(--text-primary);
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -381,17 +383,17 @@
     text-align: center;
     width: 100%;
     font-size: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px var(--bg-10);
 }
 
 .exercise-popup-button:hover {
-    background-color: rgba(186, 156, 98, 0.9);
+    background-color: var(--accent-90);
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
+    box-shadow: 0 5px 15px var(--accent-40);
 }
 
 .exercise-popup-button:disabled:hover {
-    background-color: rgba(186, 156, 98, 1);
+    background-color: var(--accent-100);
     transform: none;
     box-shadow: none;
 }
@@ -423,12 +425,12 @@
 
 .workout-overview {
     width: 80%;
-    color: white;
+    color: var(--text-primary);
 }
 
 .overview-container h1 {
     text-align: center;
-    color: #BA9C62;
+    color: var(--accent-primary);
     margin-bottom: 1.5rem;
     
 }
@@ -454,7 +456,7 @@
 }
 
 .schedule-day {
-    background: rgba(186, 156, 98, 0.05);
+    background: var(--accent-05);
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
@@ -464,11 +466,11 @@
 
 .schedule-day.clickable {
     cursor: pointer;
-    background: rgba(186, 156, 98, 0.3);
+    background: var(--accent-30);
 }
 
 .schedule-day.clickable:hover {
-    background: rgba(186, 156, 98, 0.5);
+    background: var(--accent-50);
     transform: translateY(-2px);
 }
 
@@ -479,12 +481,12 @@
 }
 
 .schedule-day h3 {
-    color: #BA9C62;
+    color: var(--accent-primary);
     margin-bottom: 0.5rem;
 }
 
 .schedule-day p {
-    color: white;
+    color: var(--text-primary);
     font-size: 0.9rem;
 }
 
@@ -492,8 +494,8 @@
     position: absolute;
     top: -10px;
     right: -10px;
-    background: #BA9C62;
-    color: white;
+    background: var(--accent-primary);
+    color: var(--text-primary);
     padding: 0.3rem 0.6rem;
     border-radius: 15px;
     font-size: 0.8rem;
@@ -502,13 +504,13 @@
 .workout-content {
     width: 80%;
     border-radius: 20px;
-    color: white;
+    color: var(--text-primary);
 }
 
 .workout-header {
     text-align: center;
     margin-bottom: 3rem;
-    color: #BA9C62;
+    color: var(--accent-primary);
     margin-top: 0px;
 }
 
@@ -518,11 +520,11 @@
 }
 
 .workout-header p {
-    color: white;
+    color: var(--text-primary);
 }
 
 .workout-header p b {
-    color: #BA9C62;
+    color: var(--accent-primary);
 }
 
 .workout-description {
@@ -540,13 +542,13 @@
 }
 
 .workout-section h2 {
-    color: #BA9C62;
+    color: var(--accent-primary);
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
 }
 
 #main {
-    background: rgba(186, 156, 98, 0.1);
+    background: var(--accent-10);
 }
 
 .exercise-items {
@@ -559,7 +561,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(186, 156, 98, 0.1);
+    background: var(--accent-10);
     border-radius: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -578,7 +580,7 @@
 }
 
 .exercise-details h3 {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -596,13 +598,13 @@
 
 .exercise-info-label {
     flex: 0 0 25%;
-    color: #BA9C62;
+    color: var(--accent-primary);
     font-weight: bold;
 }
 
 .exercise-info-description {
     flex: 1;
-    color: white;
+    color: var(--text-primary);
 }
 
 .exercise-visual {
@@ -623,8 +625,8 @@
 }
 
 .video-guide-btn {
-    background-color: rgba(186, 156, 98, 1);
-    color: white;
+    background-color: var(--accent-100);
+    color: var(--text-primary);
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
@@ -633,7 +635,7 @@
 }
 
 .video-guide-btn:hover {
-    background-color: rgba(186, 156, 98, 0.8);
+    background-color: var(--accent-80);
 }
 
 .workout-footer {
@@ -662,28 +664,28 @@
 
 .complete-workout-btn,
 .complete-setup-btn {
-    background-color: rgba(186, 156, 98, 1);
-    color: #121518;
+    background-color: var(--accent-100);
+    color: var(--bg-primary);
 }
 
 .complete-workout-btn:hover,
 .complete-setup-btn:hover {
-    background-color: rgb(226, 196, 138);
+    background-color: var(--accent-deeper);
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
+    box-shadow: 0 5px 15px var(--accent-40);
 }
 
 .save-for-later-btn {
     background-color: transparent;
-    color: #FFFFFF;
-    border: 2px solid #FFFFFF;
+    color: var(--text-primary);
+    border: 2px solid var(--text-primary);
 }
 
 .save-for-later-btn:hover {
-    background-color: #FFFFFF;
-    color: #121518;
+    background-color: var(--text-primary);
+    color: var(--bg-primary);
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 5px 15px var(--text-30);
 }
 
 .complete-workout-btn:active,
@@ -694,7 +696,7 @@
 
 .strength-training {
   max-width: 60vw;
-  color: white;
+  color: var(--text-primary);
   margin-bottom: 5%;
 }
 
@@ -710,14 +712,14 @@
 .strength-training-content h3,
 .strength-training-content h4,
 .strength-exercise-category h3 {
-  color: #BA9C62;
+  color: var(--accent-primary);
 }
 
 .strength-training-header p,
 .strength-training-content p,
 .strength-training-content ul,
 .strength-training-content ol {
-  color: white;
+  color: var(--text-primary);
 }
 
 .strength-training-content-anatomy-image img {
@@ -725,11 +727,11 @@
   height: auto;
   margin: 0 auto;
   border-radius: 1rem;
-  border: 0.5rem solid #BA9C62;
+  border: 0.5rem solid var(--accent-primary);
 }
 
 .strength-training-content-anatomy-image p {
-  color: #BA9C62;
+  color: var(--accent-primary);
 }
 
 .strength-training-content-anatomy-image {
@@ -757,9 +759,9 @@
 }
 
 .strength-exercise-button {
-    background-color: rgba(186, 156, 98, 0.3);
+    background-color: var(--accent-30);
     border: none;
-    color: white;
+    color: var(--text-primary);
     border-radius: 0.5rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -769,7 +771,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px var(--bg-10);
     padding: 1rem;
 }
 
@@ -779,9 +781,9 @@
 }
 
 .strength-exercise-button:hover {
-    background-color: rgba(186, 156, 98, 0.7);
+    background-color: var(--accent-70);
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
+    box-shadow: 0 5px 15px var(--accent-40);
 }
 
 .strength-section {
@@ -802,18 +804,18 @@
 }
 
 .disclaimer i {
-  color: #BA9C62;
+  color: var(--accent-primary);
 }
 
 .personalization-prompt {
     width: 70vw;
-    background: rgba(186, 156, 98, 0.1);
+    background: var(--accent-10);
     border-radius: 1rem;
     margin: 2rem 0;
     padding: 2rem;
     box-sizing: border-box;
     display: none;
-    color: white;
+    color: var(--text-primary);
 }
 
 .personalization-prompt.show {
@@ -832,14 +834,14 @@
 }
 
 .personalization-prompt-text h2 {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
     margin: 0 0 0.5rem 0;
     font-size: 1.5rem;
     opacity: 1;
 }
 
 .personalization-prompt-text p {
-    color: white;
+    color: var(--text-primary);
     margin: 0;
     font-size: 1rem;
     line-height: 1.5;
@@ -850,8 +852,8 @@
     white-space: nowrap;
     padding: 1rem 2rem;
     font-size: 1rem;
-    background-color: rgba(186, 156, 98, 1);
-    color: #121518;
+    background-color: var(--accent-100);
+    color: var(--bg-primary);
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -859,9 +861,9 @@
 }
 
 .personalization-prompt-button .personalization-complete-setup-btn:hover {
-    background-color: rgba(186, 156, 98, 0.8);
+    background-color: var(--accent-80);
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
+    box-shadow: 0 5px 15px var(--accent-40);
 }
 
 .workout-plan-heading {
@@ -878,9 +880,9 @@
     border-radius: 2.5rem;
     background: linear-gradient(
         to right,
-        rgba(186, 156, 98, 1) 0%,
-        rgba(186, 156, 98, 0.5) 60%,
-        rgba(186, 156, 98, 0) 100%
+        var(--accent-100) 0%,
+        var(--accent-50) 60%,
+        var(--accent-00) 100%
     );
     box-sizing: border-box;
     gap: 3rem;
@@ -921,7 +923,7 @@
   }
   
   .workout-plan-heading-button h2 {
-    color: #FFFFFF;
+    color: var(--text-primary);
   }
   
   .workout-plan-heading-button button {
@@ -939,8 +941,12 @@
       letter-spacing: 0.5px;
       text-align: center;
       box-sizing: border-box;
-      color: #FFFFFF;
-      background-image: url('/assets/plan-button.jpeg');
+      color: var(--text-primary);
+      background-image: linear-gradient(
+        var(--bg-30),
+        var(--bg-30)
+      ),
+      url('/assets/plan-button.jpeg');
       background-size: cover;
       background-position: center;
       display: flex;
@@ -950,14 +956,14 @@
   
   .workout-plan-heading-button button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
-    color: #BA9C62;
+    box-shadow: 0 5px 15px var(--text-30);
+    color: var(--accent-primary);
   }
 
 .loading-spinner {
     width: 20px;
     height: 20px;
-    border: 2px solid #ffffff;
+    border: 2px solid var(--text-primary)fff;
     border-top: 2px solid transparent;
     border-radius: 50%;
     animation: spin 1s linear infinite;

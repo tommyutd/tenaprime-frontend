@@ -1,17 +1,19 @@
+@import '/themes.css';
+
 .navigation-home {
   flex: 1;  /* Added to make it share width equally */
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(186, 156, 98, 1);
+  background-color: var(--accent-100);
 }
 
 .navigation-exercises,
 .navigation-nutrition,
 .navigation-about,
 .navigation-prizes {
-  color: white;
+  color: var(--text-primary);
   flex: 1;
   height: 100%;
   display: flex;
@@ -31,7 +33,7 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: rgba(186, 156, 98, 1);
+  background-color: var(--accent-100);
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
@@ -41,7 +43,7 @@
 .navigation-about:hover a,
 .navigation-prizes:hover a {
   background-color: transparent;
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .navigation-exercises:hover::after,
@@ -86,7 +88,7 @@
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  color: white;
+  color: var(--text-primary);
 }
 
 .front-page-offerings {
@@ -100,7 +102,7 @@
 
 .services-container {
   width: 80%;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--bg-30);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   padding: 10px;
@@ -115,7 +117,7 @@
   align-items: center;
   gap: 15px;
   padding: 0 20px;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid var(--text-10);
 }
 
 .service-item:last-child {
@@ -123,25 +125,25 @@
 }
 
 .service-item img {
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: auto;
   object-fit: contain;
 }
 
 .service-text {
-  color: white;
+  color: var(--text-primary);
 }
 
 .service-text h3 {
   font-size: 1rem;
   margin: 0 0 5px 0;
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .service-text p {
   font-size: 0.8rem;
   margin: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--text-80);
 }
 
 /* Winners Section */
@@ -173,10 +175,10 @@
 .card {
   flex: 0 0 31.333%;
   margin: 0 1%;
-  background: rgba(170, 150, 120, 1);
+  background: var(--accent-lighter);
   padding: 1rem;
   border-radius: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 8px var(--bg-50);
   overflow: hidden;
   transition: all 0.5s ease-in-out;
   transform: scale(0.9) translateZ(-50px);
@@ -197,19 +199,19 @@
 .card h3 {
   padding: 10px;
   margin: 0;
-  color: #121518;
+  color: var(--bg-primary);
   font-size: 1rem;
 }
 
 .card p {
   padding: 0 10px 10px;
   margin: 0;
-  color: #121518;
+  color: var(--bg-primary);
   font-size: 0.8rem;
 }
 
 .card.active:not(:hover) {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 24px var(--bg-20);
   z-index: 2;
   transform: scale(1.1) translateZ(100px);
   opacity: 1;
@@ -217,7 +219,7 @@
 }
 
 .card:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 24px var(--bg-20);
   z-index: 2;
   transform: scale(1.1) translateZ(100px);
   opacity: 1;
@@ -245,18 +247,18 @@
 
 .winners-section-text-container h1, a {
   text-decoration: none;
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .winners-section-text-container h3 {
-  color: white;
+  color: var(--text-primary);
 }
 
 /*Exercises Section*/ 
 .exercises-section {
   width: 100%;
   min-height: 90vh;
-  background-color: #121518; /* Similar to front-page background */
+  background-color: var(--bg-primary); /* Similar to front-page background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,16 +267,16 @@
 
 .exercises-section-container {
   width: 80%;
-  background: linear-gradient(135deg, #BA9C62 0%, #BA7062 110%);
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-quinary) 110%);
   border-radius: 20px;
   padding: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--text-primary);
   gap: 5%;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 32px var(--bg-30);
 }
 
 .exercises-section-text-container {
@@ -291,7 +293,7 @@
 }
 
 .exercises-section-texts h1, p {
-  color: white;
+  color: var(--text-primary);
   max-width: 75%;
   align-content: left;
 }
@@ -304,25 +306,33 @@
   font-size: 1.5rem;
 }
 
+/*
 .exercises-section-texts p #exercises-promo-text {
   font-weight: bold;
-  color: #BA9C62;
-  background-color: white;
+  color: var(--accent-primary);
+  background-color: var(--text-primary);
 }
 
 .exercises-section-texts p #exercises-promo-text-inner {
   text-decoration: underline;
-  color: #BA6262;
+  color: var(--accent-secondary);
 }
 
 .exercises-section-texts p #exercises-promo-goals {
   font-weight: bold;
-  color: #BA62AC;
+  color: var(--accent-tertiary);
 }
 
 .exercises-section-texts p #exercises-promo-500 {
   font-weight: bold;
-  color: #62BA70;
+  color: var(--accent-quaternary);
+}
+*/
+
+.exercises-section-texts b,
+.nutrition-section-texts b,
+.prizes-section-texts b {
+  color: white;
 }
 
 .exercises-section-image-container {
@@ -335,8 +345,8 @@
 }
 
 .exercises-section-image-container img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 80%;
+  max-height: 80%;
   object-fit: contain;
 }
 
@@ -344,7 +354,7 @@
 .nutrition-section {
   width: 100%;
   min-height: 90vh;
-  background-color: #121518; /* Similar to front-page background */
+  background-color: var(--bg-primary); /* Similar to front-page background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -353,16 +363,16 @@
 
 .nutrition-section-container {
   width: 80%;
-  background: linear-gradient(135deg, #BA9C62 0%, #62BA70 150%);
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-quaternary) 150%);
   border-radius: 20px;
   padding: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--text-primary);
   gap: 5%;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 32px var(--bg-30);
 }
 
 .nutrition-section-text-container {
@@ -380,7 +390,7 @@
 
 .nutrition-section-texts h1,
 .nutrition-section-texts p {
-  color: white;
+  color: var(--text-primary);
   max-width: 75%;
   align-content: left;
 }
@@ -393,26 +403,28 @@
   font-size: 1.5rem;
 }
 
+/*
 .nutrition-section-texts p #nutrition-promo-text {
   font-weight: bold;
-  color: #BA9C62;
-  background-color: white;
+  color: var(--accent-primary);
+  background-color: var(--text-primary);
 }
 
 .nutrition-section-texts p #nutrition-promo-text-inner {
   text-decoration: underline;
-  color: #62BA70;
+  color: var(--accent-quaternary);
 }
 
 .nutrition-section-texts p #nutrition-promo-cookbook {
   font-weight: bold;
-  color: #BA62AC;
+  color: var(--accent-tertiary);
 }
 
 .nutrition-section-texts p #nutrition-promo-1k {
   font-weight: bold;
-  color: #BA7062;
+  color: var(--accent-quinary);
 }
+*/
 
 .nutrition-section-image-container {
   flex: 1;
@@ -434,7 +446,7 @@
 .prizes-section {
   width: 100%;
   min-height: 90vh;
-  background-color: #121518; /* Similar to front-page background */
+  background-color: var(--bg-primary); /* Similar to front-page background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -443,16 +455,16 @@
 
 .prizes-section-container {
   width: 80%;
-  background: linear-gradient(135deg, #BA9C62 0%, #BA62AC 150%);
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-tertiary) 150%);
   border-radius: 20px;
   padding: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--text-primary);
   gap: 5%;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 32px var(--bg-30);
 }
 
 .prizes-section-text-container {
@@ -470,7 +482,7 @@
 
 .prizes-section-texts h1,
 .prizes-section-texts p {
-  color: white;
+  color: var(--text-primary);
   max-width: 75%;
   align-content: left;
 }
@@ -483,22 +495,24 @@
   font-size: 1.5rem;
 }
 
+/*
 .prizes-section-texts p #prize-promo-10k {
   font-weight: bold;
-  color: #BA62AC;
+  color: var(--accent-tertiary);
 }
 
 .prizes-section-texts p #prize-promo-50k {
   font-weight: bold;
-  color: #62BA70;
+  color: var(--accent-quaternary);
 }
 
 .prizes-section-texts p #prize-promo-text {
   font-weight: bold;
   text-decoration: underline;
-  color: #BA9C62;
-  background-color: white;
+  color: var(--accent-primary);
+  background-color: var(--text-primary);
 }
+*/
 
 .prizes-section-image-container {
   flex: 1;
@@ -513,4 +527,110 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+.prizes-heading-container {
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5rem;
+  background-color: var(--accent-100);
+  padding: 0px 1.5rem;
+  box-sizing: border-box;
+  gap: 5rem;
+  margin: 2rem auto;
+  margin-bottom: 5rem;
+}
+
+.prizes-heading-image {
+  max-width: 50%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 1rem;
+}
+
+.prizes-heading-image img {
+  height: 100%;
+  width: auto;
+}
+
+.prizes-heading-text-container {
+  max-width: 40%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.prizes-heading-text h1 {
+  font-size: 4rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+.prizes-heading-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prizes-heading-button h2 {
+  color: var(--text-primary);
+}
+
+.prizes-heading-button button {
+    min-width: 160px;
+    padding: 16px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: var(--text-primary);
+    color: var(--accent-100);
+    border: 2px solid var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prizes-heading-button button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px var(--text-30);
+}
+
+.prizes-page-heading-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prizes-page-heading-button .intro-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.prizes-page-heading-button .intro-login-button {
+  border: 2px solid var(--bg-100);
+  color: var(--bg-100);
+}
+
+.prizes-page-heading-button .intro-login-button:hover {
+  background-color: var(--bg-100);
+  color: var(--text-primary);
 }

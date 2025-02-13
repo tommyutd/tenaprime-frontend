@@ -1,8 +1,10 @@
+@import '/themes.css';
+
 .profile-container {
     width: 60vw;
     margin: 2rem auto;
     padding: 2rem;
-    color: white;
+    color: var(--text-primary);
 }
 
 .profile-header {
@@ -13,33 +15,33 @@
 }
 
 .profile-header h1 {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
 }
 
 .edit-profile-btn .btn-primary {
     padding: 0.8rem 2rem;
-    background: rgba(186, 156, 98, 1);
+    background: var(--accent-100);
     border: none;
     border-radius: 0.5rem;
-    color: #121518;
+    color: var(--bg-primary);
     font-family: 'Aleo', serif;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .edit-profile-btn .btn-primary:hover {
-    background: rgba(186, 156, 98, 0.8);
+    background: var(--accent-80);
 }
 
 .profile-section {
-    background: rgba(186, 156, 98, 0.1);
+    background: var(--accent-10);
     border-radius: 1rem;
     padding: 2rem;
     margin-bottom: 2rem;
 }
 
 .profile-section h2 {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
     margin-bottom: 1.5rem;
 }
 
@@ -57,7 +59,7 @@
 }
 
 .info-item label {
-    color: rgba(186, 156, 98, 0.8);
+    color: var(--accent-80);
     font-size: 0.9rem;
 }
 
@@ -72,7 +74,7 @@
 }
 
 .tag {
-    background: rgba(186, 156, 98, 0.2);
+    background: var(--accent-20);
     padding: 0.3rem 0.8rem;
     border-radius: 1rem;
     font-size: 0.9rem;

@@ -1,17 +1,19 @@
+@import '/themes.css';
+
 .navigation-nutrition {
   flex: 1;  /* Added to make it share width equally */
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(186, 156, 98, 1);
+  background-color: var(--accent-100);
 }
 
 .navigation-home,
 .navigation-exercises,
 .navigation-about,
 .navigation-prizes {
-  color: white;
+  color: var(--text-primary);
   flex: 1;
   height: 100%;
   display: flex;
@@ -31,7 +33,7 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: rgba(186, 156, 98, 1);
+  background-color: var(--accent-100);
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
@@ -41,7 +43,7 @@
 .navigation-about:hover a,
 .navigation-prizes:hover a {
   background-color: transparent;
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .navigation-home:hover::after,
@@ -74,7 +76,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--text-primary);
   gap: 20px;
 }
 
@@ -84,7 +86,7 @@
   margin: 0 auto;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   line-height: 1.4;
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .nutrition-page-greeting h2 {
@@ -103,7 +105,7 @@
   gap: 4vw;
   position: relative;
   overflow: visible;
-  color: white;
+  color: var(--text-primary);
   margin-bottom: 2rem;
 }
 
@@ -111,7 +113,7 @@
 .learning-navigation-container {
   flex: 0 0 20vw;
   height: 70vh;
-  background: rgba(186, 156, 98, 0.1);
+  background: var(--accent-10);
   border-radius: 1.5rem;
   padding: 4vh;
   position: sticky;
@@ -129,21 +131,21 @@
 }
 
 .category-item:hover {
-  background: rgba(186, 156, 98, 0.2);
+  background: var(--accent-20);
 }
 
 .category-item.active {
-  background: rgba(186, 156, 98, 0.3);
+  background: var(--accent-30);
 }
 
 .category-item h2 {
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
   font-size: 1.2rem;
   margin: 0;
 }
 
 .category-item.active h2 {
-  color: white;
+  color: var(--text-primary);
 }
 
 .nutrition-content {
@@ -188,10 +190,10 @@
 }
 
 .card {
-  background: rgba(186, 156, 98, 0.1);
+  background: var(--accent-10);
   border-radius: 1rem;
   padding: 1.5rem;
-  color: white;
+  color: var(--text-primary);
   transition: all 0.3s ease;
   min-height: 200px;
   display: flex;
@@ -202,20 +204,149 @@
   text-decoration: none;
 }
 
+.card h2,
+.card p {
+  z-index: 1;
+  max-width: 60%;
+}
+
 .card:hover {
   transform: translateY(-5px);
-  background: rgba(186, 156, 98, 0.2);
+  background: var(--accent-20);
   cursor: pointer;
 }
 
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 80%;
+  border-radius: 1rem;
+  z-index: 0;
+  opacity: 0.75;
+}
+
+#education-basics::before {
+  background-image: url('/nutrition/assets/education-basics.png');
+}
+
+#education-macros::before {
+  background-image: url('/nutrition/assets/education-macros.png');
+}
+
+#education-meal-prep::before {
+  background-image: url('/nutrition/assets/education-meal-prep.png');
+}
+
+#macro-carbs::before {
+  background-image: url('/nutrition/assets/macro-carbs.png');
+}
+
+#macro-protein::before {
+  background-image: url('/nutrition/assets/macro-protein.png');
+}
+
+#macro-fats::before {
+  background-image: url('/nutrition/assets/macro-fats.png');
+}
+
+#micro-vitamins::before {
+  background-image: url('/nutrition/assets/micro-vitamins.png');
+}
+
+#micro-minerals::before {
+  background-image: url('/nutrition/assets/micro-minerals.png');
+}
+
+#micro-hydration::before {
+  background-image: url('/nutrition/assets/micro-hydration.png');
+}
+
+#meal-plan-weight-loss::before {
+  background-image: url('/nutrition/assets/meal-plan-weight-loss.png');
+}
+
+#meal-plan-muscle-gain::before {
+  background-image: url('/nutrition/assets/meal-plan-muscle-gain.png');
+}
+
+#meal-plan-maintenance::before {
+  background-image: url('/nutrition/assets/meal-plan-maintenance.png');
+}
+
+#meal-plan-endurance::before {
+  background-image: url('/nutrition/assets/meal-plan-endurance.png');
+}
+
+#meal-plan-recomp::before {
+  background-image: url('/nutrition/assets/meal-plan-recomp.png');
+}
+
+#dietary-plant-based::before {
+  background-image: url('/nutrition/assets/dietary-plant-based.png');
+}
+
+#dietary-low-carb::before {
+  background-image: url('/nutrition/assets/dietary-low-carb.png');
+}
+
+#dietary-mediterranean::before {
+  background-image: url('/nutrition/assets/dietary-mediterranean.png');
+}
+
+#dietary-gluten-free::before {
+  background-image: url('/nutrition/assets/dietary-gluten-free.png');
+}
+
+#dietary-if::before {
+  background-image: url('/nutrition/assets/dietary-if.png');
+}
+
+#dietary-dairy-free::before {
+  background-image: url('/nutrition/assets/dietary-dairy-free.png');
+}
+
+#dietary-high-protein::before {
+  background-image: url('/nutrition/assets/dietary-high-protein.png');
+}
+
+#recipes-breakfast::before {
+  background-image: url('/nutrition/assets/recipes-breakfast.png');
+}
+
+#recipes-lunch::before {
+  background-image: url('/nutrition/assets/recipes-lunch.png');
+}
+
+#recipes-dinner::before {
+  background-image: url('/nutrition/assets/recipes-dinner.png');
+}
+
+#supplements-understanding::before {
+  background-image: url('/nutrition/assets/supplements-understanding.png');
+}
+
+#supplements-safety::before {
+  background-image: url('/nutrition/assets/supplements-safety.png');
+}
+
+#supplements-shop::before {
+  background-image: url('/nutrition/assets/supplements-shop.png');
+}
+
 .card-title {
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .card-description {
-  color: white;
+  color: var(--text-primary);
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -233,17 +364,17 @@
 }
 
 .learning-navigation::-webkit-scrollbar-track {
-  background: rgba(186, 156, 98, 0.1);
+  background: var(--accent-10);
   border-radius: 4px;
 }
 
 .learning-navigation::-webkit-scrollbar-thumb {
-  background: rgba(186, 156, 98, 0.3);
+  background: var(--accent-30);
   border-radius: 4px;
 }
 
 .learning-navigation::-webkit-scrollbar-thumb:hover {
-  background: rgba(186, 156, 98, 0.5);
+  background: var(--accent-50);
 }
 
 .nav-section {
@@ -251,7 +382,7 @@
 }
 
 .nav-section h3 {
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
   font-size: 1.1rem;
 }
 
@@ -264,7 +395,7 @@
 .nav-link {
   display: block;
   padding: 8px 15px;
-  color: #fff;
+  color: var(--text-primary);
   text-decoration: none;
   border-radius: 5px;
   transition: all 0.3s ease;
@@ -272,13 +403,13 @@
 }
 
 .nav-link:hover {
-  background: rgba(186, 156, 98, 0.1);
-  color: rgba(186, 156, 98, 1);
+  background: var(--accent-10);
+  color: var(--accent-100);
 }
 
 .nav-link.active {
-  background: rgba(186, 156, 98, 0.2);
-  color: rgba(186, 156, 98, 1);
+  background: var(--accent-20);
+  color: var(--accent-100);
   font-weight: 500;
 }
 
@@ -293,7 +424,7 @@
 .toggle-icon {
     font-size: 1.2rem;
     font-weight: bold;
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
 }
 
 .nutrition-navigation-items {
@@ -309,7 +440,7 @@
 /* Nutrition Learn Content */
 .learning-content {
   gap: 2rem;
-  color: white;
+  color: var(--text-primary);
 }
 
 .nutrition-detail-section,
@@ -318,11 +449,11 @@
 }
 
 .nutrition-detail-header h1 {
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .nutrition-detail-section h2 {
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .nutrition-detail-section p {
@@ -339,8 +470,8 @@
 
 .macro-item {
   flex: 1;
-  background: rgba(186, 156, 98, 0.1);
-  border: 1px solid rgba(186, 156, 98, 0.3);
+  background: var(--accent-10);
+  border: 1px solid var(--accent-30);
   border-radius: 8px;
   padding: 1rem;
   text-align: center;
@@ -351,13 +482,13 @@
 
 .macro-percentage {
   font-size: 1.2rem;
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
   font-weight: bold;
 }
 
 .macro-label {
   font-size: 0.9rem;
-  color: white;
+  color: var(--text-primary);
 }
 
 .nav-section-header {
@@ -369,12 +500,12 @@
 
 .personalization-prompt {
   width: 70vw;
-  background: rgba(186, 156, 98, 0.1);
+  background: var(--accent-10);
   border-radius: 1rem;
   padding: 2rem;
   box-sizing: border-box;
   display: none;
-  color: white;
+  color: var(--text-primary);
   margin: 2rem auto;
 }
 
@@ -394,14 +525,14 @@
 }
 
 .personalization-prompt-text h2 {
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
   margin: 0 0 0.5rem 0;
   font-size: 1.5rem;
   opacity: 1;
 }
 
 .personalization-prompt-text p {
-  color: white;
+  color: var(--text-primary);
   margin: 0;
   font-size: 1rem;
   line-height: 1.5;
@@ -412,8 +543,8 @@
   white-space: nowrap;
   padding: 1rem 2rem;
   font-size: 1rem;
-  background-color: rgba(186, 156, 98, 1);
-  color: #121518;
+  background-color: var(--accent-100);
+  color: var(--bg-primary);
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -421,9 +552,9 @@
 }
 
 .personalization-prompt-button .personalization-complete-setup-btn:hover {
-  background-color: rgba(186, 156, 98, 0.8);
+  background-color: var(--accent-80);
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(186, 156, 98, 0.4);
+  box-shadow: 0 5px 15px var(--accent-40);
 }
 
 .nutrition-plan-heading {
@@ -441,9 +572,9 @@
     border-radius: 2.5rem;
     background: linear-gradient(
         to bottom,
-        rgba(186, 156, 98, 1) 0%,
-        rgba(186, 156, 98, 0.5) 50%,
-        rgba(186, 156, 98, 0) 95%
+        var(--accent-100) 0%,
+        var(--accent-50) 50%,
+        var(--accent-00) 95%
     );
     box-sizing: border-box;
     gap: 1rem;
@@ -500,10 +631,10 @@
       letter-spacing: 0.5px;
       text-align: center;
       box-sizing: border-box;
-      color: white;
+      color: var(--text-primary);
       background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
+        var(--bg-50),
+        var(--bg-50)
       ),
       url('/assets/my-nutrition.jpeg');
       background-size: cover;
@@ -515,14 +646,14 @@
   
   .nutrition-plan-heading-button button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
-    color: #BA9C62;
+    box-shadow: 0 5px 15px var(--text-30);
+    color: var(--accent-primary);
   }
 
   .loading-spinner {
     width: 20px;
     height: 20px;
-    border: 2px solid #ffffff;
+    border: 2px solid var(--text-primary)fff;
     border-top: 2px solid transparent;
     border-radius: 50%;
     animation: spin 1s linear infinite;

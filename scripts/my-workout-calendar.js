@@ -38,8 +38,6 @@ class WorkoutCalendar {
             this.render();
             this.attachEventListeners();
             this.updateSelectedDayWorkout();
-            localStorage.setItem('workout-streak', this.calculateStreak());
-            localStorage.setItem('workout-total-completed', this.completedWorkouts.length);
 
             window.stringsLoaded.then(() => {
                 updatePageStrings();
@@ -491,50 +489,12 @@ class WorkoutCalendar {
                this.hasWorkout(date) && 
                !this.isWorkoutCompleted(date);
     }
-
-    calculateStreak() {
-        let streak = 1;
-        const today = new Date();
-        // Clear time for correct day-to-day comparisons
-        today.setHours(0, 0, 0, 0);
-        
-        // Start checking from yesterday
-        let dateToCheck = new Date(today);
-        dateToCheck.setDate(dateToCheck.getDate() - 1);
-
-        // If yesterday isn't a scheduled workout day, move backwards until we find the most recent day that is scheduled.
-        while (dateToCheck >= this.startDate && !this.hasWorkout(dateToCheck)) {
-            dateToCheck.setDate(dateToCheck.getDate() - 1);
-        }
-
-        // If none found (we went before the startDate), return a streak of zero.
-        if (dateToCheck < this.startDate) {
-            return streak;
-        }
-
-        // Iterate backwards through the scheduled workout days and count consecutive completed days.
-        while (dateToCheck >= this.startDate) {
-            if (this.hasWorkout(dateToCheck)) {    
-                if (this.isWorkoutCompleted(dateToCheck)) {
-                    streak++;
-                } else {
-                    // If a scheduled workout day is not completed, the streak ends.
-                    break;
-                }
-            }
-            // Move backward to the previous scheduled workout day.
-            let previous = new Date(dateToCheck);
-            previous.setDate(previous.getDate() - 1);
-            while (previous >= this.startDate && !this.hasWorkout(previous)) {
-                previous.setDate(previous.getDate() - 1);
-            }
-            dateToCheck = previous;
-        }
-        return streak;
-    }
 }
 
 // Initialize calendar when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     new WorkoutCalendar();
-}); 
+});
+
+// Export the class
+window.WorkoutCalendar = WorkoutCalendar; 

@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
     const avatar = document.querySelector('.avatar');
-    const loginButton = document.querySelector('.intro-login-button');
-    const registerButton = document.querySelector('.intro-register-button');
+    const loginButton = document.querySelectorAll('.intro-login-button');
+    const registerButton = document.querySelectorAll('.intro-register-button');
     const loginOverlay = document.getElementById('loginOverlay');
     const loginContainer = loginOverlay.querySelector('.login-container');
     const registerOverlay = document.getElementById('registerOverlay');
@@ -91,10 +91,14 @@ document.addEventListener('DOMContentLoaded', async function() {
     });
 
     if (loginButton) {
-        loginButton.addEventListener('click', showLoginOverlay);
+        loginButton.forEach(button => {
+            button.addEventListener('click', showLoginOverlay);
+        });
     }
     if (registerButton) {
-        registerButton.addEventListener('click', showRegisterOverlay);
+        registerButton.forEach(button => {
+            button.addEventListener('click', showRegisterOverlay);
+        });
     }
     registerLoginButton.addEventListener('click', showRegisterOverlay);
     closeButton.addEventListener('click', hideLoginOverlay);

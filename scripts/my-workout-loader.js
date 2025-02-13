@@ -259,6 +259,11 @@ function setupNavigationButtons() {
         pauseButton.setAttribute('data-text-key', isPaused ? 'resume-workout' : 'pause-workout');
         prevButton.classList.toggle('disabled', isPaused);
         nextButton.classList.toggle('disabled', isPaused);
+        window.stringsLoaded.then(() => {
+            updatePageStrings();
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
     });
 
     endButton.addEventListener('click', async () => {

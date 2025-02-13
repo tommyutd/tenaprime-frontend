@@ -6,5 +6,17 @@
     {
         "id": "prizes-page-greeting-description",
         "am": "ለተሳታፊዎቻችን የምንሰጣቸው የተለያዩ ሽልማቶች አሉን። ብዙ በተሳተፉ ቁጥር የማሸነፍ እድሎችዎ ይጨምራል!"
+    },
+    {
+        "id": "prizes-title",
+        "am": "አሁን ያሸንፉ"
+    },
+    {
+        "id": "prizes-description",
+        "am": "በየሳምንቱ በሚቀርቡ ጥያቄዎች ላይ በመወዳደር አስደናቂ ሽልማቶችን ማግኘት ይችላሉ።"
+    },
+    {
+        "id": "prizes-play-now-button-text",
+        "am": "አሁን ይጫወቱ እና ትልቅ ያሸንፉ!"
     }
 ]

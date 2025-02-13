@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     function updateProgressBar() {
         // Update progress fill
-        const progress = (((currentStep - 1) / (totalSteps)) * 100) * 1.1;
+        const progress = (((currentStep - 1) / (totalSteps)) * 100);
         progressFill.style.width = `${progress}%`;
 
         // Update step states

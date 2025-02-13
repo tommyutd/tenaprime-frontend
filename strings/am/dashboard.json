@@ -50,5 +50,49 @@
     {
         "id": "scoreboard-card-content",
         "am": "ሳምንታዊ ደረጃዎን ይመልከቱ።"
+    },
+    {
+        "id": "prizes-title",
+        "am": "አሁን ያሸንፉ"
+    },
+    {
+        "id": "prizes-description",
+        "am": "በየሳምንቱ በሚቀርቡ ጥያቄዎች ላይ በመወዳደር አስደናቂ ሽልማቶችን ማግኘት ይችላሉ።"
+    },
+    {
+        "id": "prizes-play-now-button-text",
+        "am": "አሁን ይጫወቱ እና ትልቅ ያሸንፉ!"
+    },
+    {
+        "id": "prizes-play-now-button",
+        "am": "አሁን አጫውት።"
+    },
+    {
+        "id": "scoreboard-title",
+        "am": "ሳምንታዊ የፈተና ጥያቄ መሪ ሰሌዳ"
+    },
+    {
+        "id": "scoreboard-rank",
+        "am": "ደረጃ"
+    },
+    {
+        "id": "scoreboard-player",
+        "am": "ስልክ ቁጥር"
+    },
+    {
+        "id": "scoreboard-score",
+        "am": "ነጥብ"
+    },
+    {
+        "id": "scoreboard-time",
+        "am": "ጊዜ"
+    },
+    {
+        "id": "featured-workouts-title",
+        "am": "ተለይተው የቀረቡ የአካል ብቃት እንቅስቃሴዎች"
+    },
+    {
+        "id": "featured-nutrition-title",
+        "am": "ተለይቶ የቀረበ የአመጋገብ ይዘት"
     }
 ]

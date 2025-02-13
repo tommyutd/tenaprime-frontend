@@ -1,6 +1,8 @@
+@import '/themes.css';
+
 .nutrition-overview {
   padding: 2rem;
-  color: white;
+  color: var(--text-primary);
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -20,8 +22,8 @@
 }
 
 .stat-item {
-  background: rgba(186, 156, 98, 0.1);
-  border: 1px solid rgba(186, 156, 98, 0.3);
+  background: var(--accent-10);
+  border: 1px solid var(--accent-30);
   border-radius: 8px;
   padding: 1.5rem;
   display: flex;
@@ -31,7 +33,7 @@
 }
 
 .stat-label {
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
   font-size: 1rem;
 }
 
@@ -48,7 +50,7 @@
 }
 
 .nutrition-section-title {
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
   margin-bottom: 1.5rem;
 }
 
@@ -67,7 +69,7 @@
 .macro-bar {
   position: relative;
   height: 40px;
-  background: rgba(186, 156, 98, 0.1);
+  background: var(--accent-10);
   border-radius: 4px;
   overflow: hidden;
   width: 100%; /* Set initial width to 100% */
@@ -84,17 +86,17 @@
 }
 
 .macro-bar.protein::before {
-  background: rgba(255, 99, 132, 0.3);
+  background: var(--misc-1);
   width: var(--width, 0%);
 }
 
 .macro-bar.carbs::before {
-  background: rgba(54, 162, 235, 0.3);
+  background: var(--misc-2);
   width: var(--width, 0%);
 }
 
 .macro-bar.fats::before {
-  background: rgba(255, 206, 86, 0.3);
+  background: var(--misc-3);
   width: var(--width, 0%);
 }
 
@@ -103,7 +105,7 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
-  color: white;
+  color: var(--text-primary);
 }
 
 .macro-label {
@@ -119,7 +121,7 @@
 }
 
 .meal-timings h3 {
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
   margin-bottom: 1.5rem;
 }
 
@@ -130,8 +132,8 @@
 }
 
 .meal-card {
-  background: rgba(186, 156, 98, 0.1);
-  border: 1px solid rgba(186, 156, 98, 0.3);
+  background: var(--accent-10);
+  border: 1px solid var(--accent-30);
   border-radius: 8px;
   padding: 1.5rem;
   display: flex;
@@ -145,12 +147,12 @@
 }
 
 .meal-header h2 {
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
   margin: 0;
 }
 
 .meal-time {
-  color: white;
+  color: var(--text-primary);
   font-size: 0.9rem;
 }
 
@@ -181,7 +183,7 @@
   flex-grow: 1;
   height: 20px;
   border-radius: 10px;
-  background: #eee;
+  background: var(--misc-4);
   position: relative;
   overflow: hidden;
 }
@@ -196,15 +198,15 @@
 }
 
 .protein .bar-fill::after {
-  background: #ff6b6b;
+  background: var(--misc-5);
 }
 
 .carbs .bar-fill::after {
-  background: #4ecdc4;
+  background: var(--misc-6);
 }
 
 .fats .bar-fill::after {
-  background: #45b7d1;
+  background: var(--misc-7);
 }
 
 .time-info {
@@ -218,7 +220,7 @@
 }
 
 .meal-name {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
     margin: 0 0 10px 0;
 }
 
@@ -226,7 +228,7 @@
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
-    color: rgba(186, 156, 98, 0.8);
+    color: var(--accent-80);
 }
 
 .time-info span,
@@ -243,7 +245,7 @@
 .ingredients-section h4,
 .instructions-section h4,
 .nutrition-distribution h4 {
-    color: rgba(186, 156, 98, 1);
+    color: var(--accent-100);
     margin-bottom: 10px;
 }
 
@@ -251,7 +253,7 @@
 .instructions-list {
     list-style-position: inside;
     padding-left: 15px;
-    color: white;
+    color: var(--text-primary);
 }
 
 .ingredients-list li,
@@ -263,7 +265,7 @@
 .time-info {
     display: flex;
     gap: 20px;
-    color: rgba(186, 156, 98, 0.8);
+    color: var(--accent-80);
     font-size: 0.9rem;
 }
 
@@ -286,7 +288,7 @@
 
 .nutrition-distribution .macro-bar {
     height: 25px;
-    background: rgba(186, 156, 98, 0.1);
+    background: var(--accent-10);
     border-radius: 4px;
     position: relative;
     overflow: hidden;
@@ -297,7 +299,7 @@
     height: 100%;
     left: 0;
     top: 0;
-    background: rgba(186, 156, 98, 0.3);
+    background: var(--accent-30);
     transition: width 0.3s ease;
 }
 
@@ -307,7 +309,7 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
-    color: white;
+    color: var(--text-primary);
     font-size: 0.9rem;
 }
 

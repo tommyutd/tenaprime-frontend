@@ -9,35 +9,35 @@
     },
     {
         "id": "front-page-offerings-1",
-        "am": "ነጻ ማጓጓዣ"
+        "am": "ለግል የተበጁ መልመጃዎች"
     },
     {
         "id": "front-page-offerings-1-description",
-        "am": "በሁሉም ትዕዛዞች ላይ ነፃ መላኪያ"
+        "am": "ከእርስዎ የአካል ብቃት ደረጃ ጋር የተበጁ ልምምዶችን ይድረሱ"
     },
     {
         "id": "front-page-offerings-2",
-        "am": "ገንዘብ ተመላሽ ዋስትና"
+        "am": "የአመጋገብ ዕቅዶች"
     },
     {
         "id": "front-page-offerings-2-description",
-        "am": "የ 30 ቀናት ገንዘብ ተመላሽ ዋስትና"
+        "am": "ብጁ የምግብ ዕቅዶችን እና የምግብ አዘገጃጀቶችን ያግኙ"
     },
     {
         "id": "front-page-offerings-3",
-        "am": "24/7 ድጋፍ"
+        "am": "የገንዘብ ሽልማቶች"
     },
     {
         "id": "front-page-offerings-3-description",
-        "am": "በቀን 24 ሰዓት ያግኙን።"
+        "am": "በየሳምንቱ እስከ 10,000 ብር አሸንፉ"
     },
     {
         "id": "front-page-offerings-4",
-        "am": "ደህንነቱ የተጠበቀ ክፍያ"
+        "am": "ምርቶች"
     },
     {
         "id": "front-page-offerings-4-description",
-        "am": "ክፍያዎ ከእኛ ጋር ደህንነቱ የተጠበቀ ነው።"
+        "am": "ከአጋሮቻችን አስደናቂ ምርቶችን ያግኙ"
     },
     {
         "id": "exercises-section-title",
@@ -45,7 +45,7 @@
     },
     {
         "id": "exercises-section-description",
-        "am": "<span id=\"exercises-promo-text\">ይጠንክሩ፣ <span id=\"exercises-promo-text-inner\">ይሻልሃል</span></span> - ከእርስዎ ጋር የሚስማማ ዕቅድ እናዘጋጃለን span id=\"exercises-promo-goals\">ግቦች፣ የአኗኗር ዘይቤ እና የአካል ብቃት ደረጃ</span>። ተነሳሽ ለመሆን የ<span id=\"exercises-promo-500\">500+</span> ልምምዶችን እና የባለሙያ ምክሮችን ይድረሱ።"
+        "am": "<b>ጠንክሩ፣ ጥሩ ስሜት ይሰማዎት!</b><br><br>ተነሳሽ ለመሆን ለግል የተበጁ የአካል ብቃት እንቅስቃሴ እቅዶችን እና የባለሙያ ምክሮችን ይድረሱ።"
     },
     {
         "id": "nutrition-section-title",
@@ -53,7 +53,7 @@
     },
     {
         "id": "nutrition-section-description",
-        "am": "<span id=\"nutrition-promo-text\">ይበልጡ ይበሉ፣ <span id=\"nutrition-promo-text-inner\">የተሻለ ይኑሩ</span></span> - ለእርስዎ የሚጠቅም እቅድ እናዘጋጃለን ! ከ<span id=\"nutrition-promo-1k\">1000</span> ጤናማ የምግብ አዘገጃጀቶች ጋር በ<span id=\"nutrition-promo-cookbook\">የምግብ ማብሰያ ደብተር</span> ይደሰቱ።"
+        "am": "<b>የተሻለ ይበሉ፣ የተሻለ ይኑሩ!</b><br><br>ምክሮችን ያግኙ እና ከግል ግቦችዎ ጋር በተስማሙ ጤናማ የምግብ አዘገጃጀቶች ይደሰቱ።"
     },
     {
         "id": "prizes-section-title",
@@ -61,6 +61,18 @@
     },
     {
         "id": "prizes-section-description",
-        "am": "ጤና ሀብት ነው - <span id=\"prize-promo-text\">በቀጥታ! promo-50k\">50,000 ኢቲቢ</span> ከTenaPrime ግላዊ ፕሮግራሞች ጋር።"
+        "am": "<b>ጤና ሀብት ነው - በጥሬው!</b><br><br>በTenaPrime ሳምንታዊ የፈተና ጥያቄዎች በየሳምንቱ 25,000 ኢቲቢ አሸንፉ።"
+    },
+    {
+        "id": "prizes-title",
+        "am": "አሁን ያሸንፉ"
+    },
+    {
+        "id": "prizes-description",
+        "am": "በየሳምንቱ በሚቀርቡ ጥያቄዎች ላይ በመወዳደር አስደናቂ ሽልማቶችን ማግኘት ይችላሉ።"
+    },
+    {
+        "id": "prizes-play-now-button-text",
+        "am": "አሁን ይጫወቱ እና ትልቅ ያሸንፉ!"
     }
 ]

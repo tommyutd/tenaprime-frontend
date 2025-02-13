@@ -1,17 +1,19 @@
+@import '/themes.css';
+
 .navigation-about {
   flex: 1;  /* Added to make it share width equally */
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(186, 156, 98, 1);
+  background-color: var(--accent-100);
 }
 
 .navigation-home,
 .navigation-exercises,
 .navigation-nutrition,
 .navigation-prizes {
-  color: white;
+  color: var(--text-primary);
   flex: 1;
   height: 100%;
   display: flex;
@@ -31,7 +33,7 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: rgba(186, 156, 98, 1);
+  background-color: var(--accent-100);
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
@@ -41,7 +43,7 @@
 .navigation-nutrition:hover a,
 .navigation-prizes:hover a {
   background-color: transparent;
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .navigation-home:hover::after,
@@ -73,14 +75,14 @@
   margin-top: 2%;
   flex-direction: column;
   align-items: flex-start;
-  color: white;
+  color: var(--text-primary);
   gap: 1%;
   padding-left: 5%;
 }
 
 .about-page-greeting h1 {
   max-width: 90%;
-  color: rgba(186, 156, 98, 1);
+  color: var(--accent-100);
 }
 
 .about-page-greeting p {
@@ -98,18 +100,18 @@
 
 .about-page-promo-container h1 {
   color: transparent;
-  background: linear-gradient(135deg, #BA9C62 0%, #BA62AC 110%);
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-tertiary) 110%);
   -webkit-background-clip: text;
 }
 
 .about-page-promo-container h2 {
   color: transparent;
-  background: linear-gradient(135deg, #BA9C62 0%, #62BA70 110%);
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-quaternary) 110%);
   -webkit-background-clip: text;
 }
 
 .about-page-promo-container h3 {
   color: transparent;
-  background: linear-gradient(135deg, #BA9C62 0%, #BA7062 110%);
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-quinary) 110%);
   -webkit-background-clip: text;
 }

@@ -83,6 +83,12 @@
           <div class="language-option" data-lang="አማ">አማርኛ</div>
         </div>
       </div>
+      <div class="theme-toggle">
+        <button class="theme-toggle-btn">
+          <img src="/assets/moon.svg" alt="Light Mode" class="light-icon">
+          <img src="/assets/sun.svg" alt="Dark Mode" class="dark-icon">
+        </button>
+      </div>
       <div class="hamburger-menu">
         <div class="bar"></div>
         <div class="bar"></div>
@@ -143,6 +149,111 @@
       <div class="winners-section-text-container">
         <h1 data-text-key="winners-section-title"></h1>
         <h3 data-text-key="winners-section-description"></h3>
+      </div>
+    </div>
+
+    <div class="personalization-prompt aleo-text">
+      <div class="personalization-prompt-content">
+        <div class="personalization-prompt-text">
+          <h2 id="personalization-title" data-text-key="personalization-prompt-title">Personalize Your Experience</h2>
+          <p id="personalization-description" data-text-key="personalization-prompt-description">Get customized recommendations by completing your fitness profile.</p>
+        </div>
+        <a href="/setup" class="personalization-prompt-button">
+          <button class="personalization-complete-setup-btn aleo-text" data-text-key="personalization-prompt-button" id="personalization-button">Setup Profile</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="workout-plan-heading aleo-text" style="display: none;">
+      <div class="workout-plan-heading-container">
+        <div class="workout-plan-heading-text-container">
+          <div class="workout-plan-heading-text">
+            <h1 id="workout-plan-heading-title" data-text-key="workout-plan-heading-title">Your Personalized Plan</h1>
+            <h3 id="workout-plan-heading-description" data-text-key="workout-plan-heading-description">We've created a customized workout plan based on your fitness profile.</h3>
+          </div>
+        </div>
+        <div class="workout-plan-heading-button-container">
+          <div class="workout-plan-heading-button">
+            <button class="workout-plan-view-button aleo-text" data-text-key="workout-plan-view-button" onclick="window.location.href='/exercises/my-workout'">Start<br>Your<br>Workout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="featured-workouts aleo-text">
+      <div class="featured-workouts-container">
+        <h2 class="featured-workouts-title" data-text-key="featured-workouts-title">Featured Workouts</h2>
+        <div class="featured-workouts-grid">
+          <!-- Workouts will be dynamically inserted here -->
+        </div>
+      </div>
+    </div>
+
+    <div class="nutrition-plan-heading aleo-text">
+      <div class="nutrition-plan-heading-container">
+        <div class="nutrition-plan-heading-text-container">
+          <div class="nutrition-plan-heading-text">
+            <h1 id="nutrition-plan-heading-title" data-text-key="nutrition-plan-heading-title">Your Personalized Meals</h1>
+            <h3 id="nutrition-plan-heading-description" data-text-key="nutrition-plan-heading-description">We've created a customized nutrition plan based on your profile.</h3>
+          </div>
+        </div>
+        <div class="nutrition-plan-heading-button-container">
+          <div class="nutrition-plan-heading-button">
+            <button class="nutrition-plan-view-button aleo-text" data-text-key="nutrition-plan-view-button" onclick="window.location.href='/nutrition/my-nutrition'">View Your Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="featured-nutrition aleo-text">
+      <div class="featured-nutrition-container">
+        <h2 class="featured-nutrition-title" data-text-key="featured-nutrition-title">Featured Nutrition Content</h2>
+        <div class="featured-nutrition-grid">
+          <!-- Nutrition content will be dynamically inserted here -->
+        </div>
+      </div>
+    </div>
+
+    <div class="prizes-heading-container">
+      <div class="prizes-heading-image">
+        <img src="/assets/prizes-heading.png" alt="Prizes">
+      </div>
+      <div class="prizes-heading-text-container">
+        <div class="prizes-heading-text">
+          <h1 data-text-key="prizes-title">Win Now</h1>
+          <h3 data-text-key="prizes-description">You can win amazing prizes by competing in our weekly quizzes.</h3>
+        </div>
+        <div class="prizes-heading-button">
+          <h2 data-text-key="prizes-play-now-button-text">Play Now and Win Big!</h2>
+          <button class="prizes-play-now-button aleo-text" data-text-key="prizes-play-now-button" onclick="window.location.href='/prizes/quiz'">Play Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="prizes-scoreboard">
+      <div class="scoreboard-container">
+        <div class="scoreboard-header">
+          <div class="scoreboard-title-container">
+            <h2 data-text-key="scoreboard-title">Weekly Quiz Leaderboard</h2>
+            <select id="weekSelector" class="week-dropdown aleo-text">
+              <!-- Week options will be populated by JavaScript -->
+            </select>
+          </div>
+        </div>
+        
+        <div class="scoreboard-content">
+          <div class="scoreboard-table">
+            <div class="scoreboard-table-header" id="scoreboard">
+              <div class="rank-column" data-text-key="scoreboard-rank">Rank</div>
+              <div class="player-column" data-text-key="scoreboard-player">Phone Number</div>
+              <div class="score-column" data-text-key="scoreboard-score">Score</div>
+              <div class="time-column" data-text-key="scoreboard-time">Time</div>
+            </div>
+            <div class="scoreboard-table-body">
+              <!-- Scoreboard entries will be inserted here by JavaScript -->
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -257,6 +368,9 @@
 <script src="/scripts/user-stats-popup.js"></script>
 <script src="/scripts/sidebar-overlay.js"></script>
 <script src="/scripts/winners-carousel.js"></script>
+<script src="/scripts/theme-manager.js"></script>
+<script src="/scripts/dashboard.js"></script>
+<script src="/scripts/scoreboard-viewer.js"></script>
 
 </body>
 </html> 

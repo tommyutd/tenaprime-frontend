@@ -6,5 +6,17 @@
     {
         "id": "prizes-page-greeting-description",
         "en": "We have a variety of prizes to offer to our participants. The more you participate, the more chances you have to win!"
+    },
+    {
+        "id": "prizes-title",
+        "en": "Win Now"
+    },
+    {
+        "id": "prizes-description",
+        "en": "You can win amazing prizes by competing in our weekly quizzes."
+    },
+    {
+        "id": "prizes-play-now-button-text",
+        "en": "Play Now and Win Big!"
     }
 ]

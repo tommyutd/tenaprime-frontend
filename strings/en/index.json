@@ -9,35 +9,35 @@
     },
     {
         "id": "front-page-offerings-1",
-        "en": "Free Shipping"
+        "en": "Personalized Exercises"
     },
     {
         "id": "front-page-offerings-1-description",
-        "en": "Free shipping on all orders"
+        "en": "Access exercises tailored to your fitness level"
     },
     {
         "id": "front-page-offerings-2",
-        "en": "Money Back Guarantee"
+        "en": "Nutrition Plans"
     },
     {
         "id": "front-page-offerings-2-description",
-        "en": "30 days money back guarantee"
+        "en": "Get customized meal plans and recipes"
     },
     {
         "id": "front-page-offerings-3",
-        "en": "24/7 Support"
+        "en": "Cash Prizes"
     },
     {
         "id": "front-page-offerings-3-description",
-        "en": "Contact us 24 hours a day"
+        "en": "Win up to 10,000 Birr weekly"
     },
     {
         "id": "front-page-offerings-4",
-        "en": "Secure Payment"
+        "en": "Products"
     },
     {
         "id": "front-page-offerings-4-description",
-        "en": "Your payment is safe with us"
+        "en": "Get amazing products from our partners"
     },
     {
         "id": "exercises-section-title",
@@ -45,7 +45,7 @@
     },
     {
         "id": "exercises-section-description",
-        "en": "<span id=\"exercises-promo-text\">Get Stronger, <span id=\"exercises-promo-text-inner\">Feel Better</span></span> - We'll craft a plan that fits your <span id=\"exercises-promo-goals\">goals, lifestyle, and fitness level</span>. Access <span id=\"exercises-promo-500\">500+</span> exercises and expert tips to stay motivated."
+        "en": "<b>Get Stronger, Feel Better!</b><br><br>Access personalized workout plans and expert tips to stay motivated."
     },
     {
         "id": "nutrition-section-title",
@@ -53,7 +53,7 @@
     },
     {
         "id": "nutrition-section-description",
-        "en": "<span id=\"nutrition-promo-text\">Eat Better, <span id=\"nutrition-promo-text-inner\">Live Better</span></span> - We'll make a plan that works for you! Enjoy our <span id=\"nutrition-promo-cookbook\">cookbook</span> with over <span id=\"nutrition-promo-1k\">1000</span> healthy recipes."
+        "en": "<b>Eat Better, Live Better!</b><br><br>Get recommendations and enjoy healthy recipes tailored to your personal goals."
     },
     {
         "id": "prizes-section-title",
@@ -61,6 +61,18 @@
     },
     {
         "id": "prizes-section-description",
-        "en": "Health Is Wealth - <span id=\"prize-promo-text\">Literally!</span> Win <span id=\"prize-promo-10k\">10,000 ETB</span> instantly and <span id=\"prize-promo-50k\">50,000 ETB</span> with TenaPrime's Personalized Programs."
+        "en": "<b>Health Is Wealth - Literally!</b><br><br>Win 25,000 ETB every week with TenaPrime's weekly quiz contests."
+    },
+    {
+        "id": "prizes-title",
+        "en": "Win Now"
+    },
+    {
+        "id": "prizes-description",
+        "en": "You can win amazing prizes by competing in our weekly quizzes."
+    },
+    {
+        "id": "prizes-play-now-button-text",
+        "en": "Play Now and Win Big!"
     }
 ]

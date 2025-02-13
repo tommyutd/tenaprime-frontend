@@ -35,10 +35,10 @@ class Quiz {
         this.countdownScreen = document.getElementById('quiz-countdown-screen');
         this.countdownNumber = document.querySelector('.countdown-number');
 
-        document.getElementById('quiz-rules-btn').addEventListener('click', () => window.location.href = '/prizes/rules');
+        document.querySelectorAll('.quiz-rules-btn').forEach(btn => btn.addEventListener('click', () => window.location.href = '/prizes/rules'));
         document.getElementById('quiz-start-btn').addEventListener('click', () => this.startQuiz());
         document.getElementById('quiz-retry-btn').addEventListener('click', () => this.resetQuiz());
-        document.getElementById('quiz-scoreboard-btn').addEventListener('click', () => window.location.href = '/prizes/dashboard#scoreboard');
+        document.querySelectorAll('.quiz-scoreboard-btn').forEach(btn => btn.addEventListener('click', () => window.location.href = '/prizes/dashboard#scoreboard'));
     }
 
     async loadQuestions() {

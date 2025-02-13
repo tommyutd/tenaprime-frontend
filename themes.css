@@ -1,0 +1,152 @@
+:root[data-theme="dark"] {
+    --bg-primary: #121518;
+    --bg-secondary: #1E2126;
+    --bg-tertiary: #2A2E35;
+    --bg-quaternary: black;
+    --bg-10: rgba(0, 0, 0, 0.1);
+    --bg-20: rgba(0, 0, 0, 0.2);
+    --bg-30: rgba(0, 0, 0, 0.3);
+    --bg-40: rgba(0, 0, 0, 0.4);
+    --bg-50: rgba(0, 0, 0, 0.5);
+    --bg-60: rgba(0, 0, 0, 0.6);
+    --bg-70: rgba(0, 0, 0, 0.7);
+    --bg-80: rgba(0, 0, 0, 0.8);
+    --bg-90: rgba(0, 0, 0, 0.9);
+    --bg-100: rgba(0, 0, 0, 1);
+    --text-primary: #FFFFFF;
+    --text-secondary: #f8f9fa;
+    --text-10: rgba(255, 255, 255, 0.1);
+    --text-20: rgba(255, 255, 255, 0.2);
+    --text-30: rgba(255, 255, 255, 0.3);
+    --text-40: rgba(255, 255, 255, 0.4);
+    --text-50: rgba(255, 255, 255, 0.5);
+    --text-60: rgba(255, 255, 255, 0.6);
+    --text-70: rgba(255, 255, 255, 0.7);
+    --text-80: rgba(255, 255, 255, 0.8);
+    --text-90: rgba(255, 255, 255, 0.9);
+    --text-100: rgba(255, 255, 255, 1);
+    --accent-primary: #BA9C62;
+    --accent-secondary: #BA6262;
+    --accent-tertiary: #BA62AC;
+    --accent-quaternary: #62BA70;
+    --accent-quinary: #BA7062;
+    --accent-00: rgba(186, 156, 98, 0);
+    --accent-05: rgba(186, 156, 98, 0.05);
+    --accent-10: rgba(186, 156, 98, 0.1);
+    --accent-15: rgba(186, 156, 98, 0.15);
+    --accent-20: rgba(186, 156, 98, 0.2);
+    --accent-30: rgba(186, 156, 98, 0.3);
+    --accent-40: rgba(186, 156, 98, 0.4);
+    --accent-50: rgba(186, 156, 98, 0.5);
+    --accent-60: rgba(186, 156, 98, 0.6);
+    --accent-70: rgba(186, 156, 98, 0.7);
+    --accent-80: rgba(186, 156, 98, 0.8);
+    --accent-90: rgba(186, 156, 98, 0.9);
+    --accent-100: rgba(186, 156, 98, 1);
+    --accent-lighter: rgba(170, 150, 120, 1);
+    --accent-deeper: rgb(226, 196, 138);
+    --misc-1: rgba(255, 99, 132, 0.3);
+    --misc-2: rgba(54, 162, 235, 0.3);
+    --misc-3: rgba(255, 206, 86, 0.3);
+    --misc-4: #eee;
+    --misc-5: #ff6b6b;
+    --misc-6: #4ecdc4;
+    --misc-7: #45b7d1;
+    --misc-8: rgba(98, 149, 186, 0.15);
+    --misc-9: rgba(98, 149, 186, 0.3);
+    --misc-10: rgba(98, 186, 112, 0.15);
+    --misc-11: rgba(98, 186, 112, 0.3);
+    --misc-12: rgba(18, 21, 24, 0.95);
+    --misc-13: rgba(255, 107, 107, 0.1);
+    --misc-14: rgb(98, 149, 186);
+    --misc-15: rgb(98, 186, 112);
+    --misc-16: #1A1A1A;
+    --misc-17: #D4B67E;
+    --misc-18: #4CAF50;
+    --misc-19: #f44336;
+    --misc-20: #e74c3c;
+    --misc-21: #ff4444;
+    --misc-22: #c0392b;
+    --misc-23: rgba(231, 76, 60, 0.4);
+  }
+  
+  :root[data-theme="light"] {
+    /* Background Colors */
+    --bg-primary: #edeae7;      /* Main background */
+    --bg-secondary: #E0E0D1;      /* Slightly off-white for secondary elements */
+    --bg-tertiary: #D3D3C1;       /* Light grey for surfaces like cards */
+    --bg-quaternary: #C6C6B0;     /* Another subtle variant for contrast */
+    --bg-10: rgba(255, 255, 255, 0.1);
+    --bg-20: rgba(255, 255, 255, 0.2);
+    --bg-30: rgba(255, 255, 255, 0.3);
+    --bg-40: rgba(255, 255, 255, 0.4);
+    --bg-50: rgba(255, 255, 255, 0.5);
+    --bg-60: rgba(255, 255, 255, 0.6);
+    --bg-70: rgba(255, 255, 255, 0.7);
+    --bg-80: rgba(255, 255, 255, 0.8);
+    --bg-90: rgba(255, 255, 255, 0.9);
+    --bg-100: rgba(255, 255, 255, 1);
+  
+    /* Text Colors */
+    --text-primary: #000000;    /* Main text: black */
+    --text-secondary: #212529;   /* Secondary text: dark gray */
+    --text-10: rgba(0, 0, 0, 0.1);
+    --text-20: rgba(0, 0, 0, 0.2);
+    --text-30: rgba(0, 0, 0, 0.3);
+    --text-40: rgba(0, 0, 0, 0.4);
+    --text-50: rgba(0, 0, 0, 0.5);
+    --text-60: rgba(0, 0, 0, 0.6);
+    --text-70: rgba(0, 0, 0, 0.7);
+    --text-80: rgba(0, 0, 0, 0.8);
+    --text-90: rgba(0, 0, 0, 0.9);
+    --text-100: rgba(0, 0, 0, 1);
+  
+    /* Accent Colors (same as dark mode) */
+    --accent-primary: #BA9C62;
+    --accent-secondary: #BA6262;
+    --accent-tertiary: #BA62AC;
+    --accent-quaternary: #62BA70;
+    --accent-quinary: #BA7062;
+    --accent-00: rgba(186, 156, 98, 0);
+    --accent-05: rgba(186, 156, 98, 0.05);
+    --accent-10: rgba(186, 156, 98, 0.1);
+    --accent-15: rgba(186, 156, 98, 0.15);
+    --accent-20: rgba(186, 156, 98, 0.2);
+    --accent-30: rgba(186, 156, 98, 0.3);
+    --accent-40: rgba(186, 156, 98, 0.4);
+    --accent-50: rgba(186, 156, 98, 0.5);
+    --accent-60: rgba(186, 156, 98, 0.6);
+    --accent-70: rgba(186, 156, 98, 0.7);
+    --accent-80: rgba(186, 156, 98, 0.8);
+    --accent-90: rgba(186, 156, 98, 0.9);
+    --accent-100: rgba(186, 156, 98, 1);
+    --accent-lighter: rgba(170, 150, 120, 1);
+    --accent-deeper: rgb(226, 196, 138);
+  
+    /* Miscellaneous Colors */
+    --misc-1: rgba(255, 99, 132, 0.3);
+    --misc-2: rgba(54, 162, 235, 0.3);
+    --misc-3: rgba(255, 206, 86, 0.3);
+    --misc-4: #eee;
+    --misc-5: #ff6b6b;
+    --misc-6: #4ecdc4;
+    --misc-7: #45b7d1;
+    --misc-8: rgba(98, 149, 186, 0.15);
+    --misc-9: rgba(98, 149, 186, 0.3);
+    --misc-10: rgba(98, 186, 112, 0.15);
+    --misc-11: rgba(98, 186, 112, 0.3);
+    --misc-12: rgba(245, 245, 245, 0.95); /* light variant replacing the dark near-black */
+    --misc-13: rgba(255, 107, 107, 0.1);
+    --misc-14: rgb(98, 149, 186);
+    --misc-15: rgb(98, 186, 112);
+    --misc-16: #eaeaea;
+    --misc-17: #D4B67E;
+    --misc-18: #4CAF50;
+    --misc-19: #f44336;
+    --misc-20: #e74c3c;
+    --misc-21: #ff4444;
+    --misc-22: #c0392b;
+    --misc-23: rgba(231, 76, 60, 0.4);
+  }
+  
+  

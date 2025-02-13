@@ -59,6 +59,12 @@
           <div class="language-option" data-lang="አማ">አማርኛ</div>
         </div>
       </div>
+      <div class="theme-toggle">
+        <button class="theme-toggle-btn">
+          <img src="/assets/moon.svg" alt="Light Mode" class="light-icon">
+          <img src="/assets/sun.svg" alt="Dark Mode" class="dark-icon">
+        </button>
+      </div>
       <div class="hamburger-menu">
         <div class="bar"></div>
         <div class="bar"></div>
@@ -72,9 +78,34 @@
     </div>
   </div>
   <div class="prizes-page aleo-text">
-    <div class="prizes-page-greeting">
-      <h1 data-text-key="prizes-page-greeting-title">Prizes</h1>
-      <p data-text-key="prizes-page-greeting-description">We have a variety of prizes to offer to our participants. The more you participate, the more chances you have to win!</p>
+    <div class="prizes-heading-container">
+      <div class="prizes-heading-image">
+        <img src="/assets/prizes-heading.png" alt="Prizes">
+      </div>
+      <div class="prizes-heading-text-container">
+        <div class="prizes-heading-text">
+          <h1 data-text-key="prizes-title">Win Now</h1>
+          <h3 data-text-key="prizes-description">You can win amazing prizes by competing in our weekly quizzes.</h3>
+        </div>
+        <div class="prizes-page-heading-button">
+          <h2 data-text-key="prizes-play-now-button-text">Play Now and Win Big!</h2>
+          <div class="intro-buttons aleo-text">
+            <button class="intro-login-button aleo-text" data-text-key="login">Login</button>
+            <button class="intro-register-button aleo-text" data-text-key="register">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="winners-section aleo-text">
+      <div class="slideshow-container">
+        <div class="carousel"></div>
+      </div>
+      <div class="winners-section-text-container">
+        <h1 data-text-key="winners-section-title">Meet the winners!</h1>
+        <h3 data-text-key="winners-section-description">Here are some of the winners of our weekly contest. <a href="#">Login</a> or <a href="#">Register</a> to participate.</h3>
+      </div>
     </div>
   </div>
   <div class="footer aleo-text">
@@ -179,13 +210,6 @@
   </div>
 </div>
 
-<!-- Error Toast Overlay -->
-<div class="error-toast-overlay aleo-text" id="errorToastOverlay">
-  <div class="error-toast-notification">
-      <span data-text-key="login-failed"></span>
-  </div>
-</div>
-
 <!-- Sidebar Overlay -->
 <div class="sidebar-overlay"></div>
 <div class="sidebar aleo-text" id="sidebar">
@@ -242,9 +266,11 @@
 </div>
 
 <script src="/scripts/auth-service.js"></script>
+<script src="/scripts/theme-manager.js"></script>
 <script src="/scripts/language-selector.js"></script>
 <script src="/scripts/login-overlay-script.js"></script>
 <script src="/scripts/sidebar-overlay.js"></script>
+<script src="/scripts/winners-carousel.js"></script>
 
 </body>
 </html>
