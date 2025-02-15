@@ -55,17 +55,16 @@
 
 .front-page {
   width: 100%;
-  max-width: 100%;
-  min-height: 80%;
   position: relative;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 /*Guest Content*/
 .guest-content {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -73,15 +72,19 @@
 
 /*Greeting Section*/
 .greeting-section {
-  height: 80vh;
-  background-image: url('../assets/muscleman.png');
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  background-image: url('/assets/muscleman.png');
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right 7rem top 20%;
   background-size: auto 90%;
+  gap: 2rem;
 }
 
 .front-page-greeting {
-  width: 100%;
+  width: fit-content;
+  max-width: 70%;
   height: 70%;
   padding-left: 7%;
   display: flex;
@@ -89,6 +92,7 @@
   align-items: left;
   justify-content: center;
   color: var(--text-primary);
+  box-sizing: border-box;
 }
 
 .front-page-offerings {
@@ -106,18 +110,18 @@
   backdrop-filter: blur(10px);
   border-radius: 10px;
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  /* Always 2 columns by default */
+  gap: 20px;
 }
 
 .service-item {
-  flex: 1;
   display: flex;
   align-items: center;
   gap: 15px;
   padding: 0 20px;
-  border-right: 1px solid var(--text-10);
+  position: relative;
+  z-index: 1;
 }
 
 .service-item:last-child {
@@ -146,491 +150,41 @@
   color: var(--text-80);
 }
 
-/* Winners Section */
-.winners-section {
-  width: 100%;
-  min-height: 90vh;
-  padding: 40px 0;
-  /*background-color: #edeae7;*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.slideshow-container {
-  max-width: 100%;
-  overflow: hidden;
-  padding: 5% 10%;
-  perspective: 1000px;
-}
-
-.carousel {
-  display: flex;
-  flex-direction: row;
-  transition: transform 0.5s ease-in-out;
-  transform-style: preserve-3d;
-  position: relative;
-}
-
-.card {
-  flex: 0 0 31.333%;
-  margin: 0 1%;
-  background: var(--accent-lighter);
-  padding: 1rem;
-  border-radius: 1rem;
-  box-shadow: 0 2px 8px var(--bg-50);
-  overflow: hidden;
-  transition: all 0.5s ease-in-out;
-  transform: scale(0.9) translateZ(-50px);
-  opacity: 0.7;
-  filter: brightness(0.8);
-  position: relative;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 1rem;
-}
-
-.card h3 {
-  padding: 10px;
-  margin: 0;
-  color: var(--bg-primary);
-  font-size: 1rem;
-}
-
-.card p {
-  padding: 0 10px 10px;
-  margin: 0;
-  color: var(--bg-primary);
-  font-size: 0.8rem;
-}
-
-.card.active:not(:hover) {
-  box-shadow: 0 8px 24px var(--bg-20);
-  z-index: 2;
-  transform: scale(1.1) translateZ(100px);
-  opacity: 1;
-  filter: brightness(1);
-}
-
-.card:hover {
-  box-shadow: 0 8px 24px var(--bg-20);
-  z-index: 2;
-  transform: scale(1.1) translateZ(100px);
-  opacity: 1;
-  filter: brightness(1);
-}
-
-.card-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.fade-out {
-  opacity: 0;
-}
-
-.fade-in {
-  opacity: 0;
-}
-
-.winners-section-text-container {
-  padding-left: 5%;
-}
-
-.winners-section-text-container h1, a {
-  text-decoration: none;
-  color: var(--accent-100);
-}
-
-.winners-section-text-container h3 {
-  color: var(--text-primary);
-}
-
-/*Exercises Section*/ 
-.exercises-section {
-  width: 100%;
-  min-height: 90vh;
-  background-color: var(--bg-primary); /* Similar to front-page background */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5% 0;
-}
-
-.exercises-section-container {
-  width: 80%;
-  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-quinary) 110%);
-  border-radius: 20px;
-  padding: 40px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-primary);
-  gap: 5%;
-  box-shadow: 0 8px 32px var(--bg-30);
-}
-
-.exercises-section-text-container {
-  flex: 0 0 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-.exercises-section-texts {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  padding-left: 20%;
-}
-
-.exercises-section-texts h1, p {
-  color: var(--text-primary);
-  max-width: 75%;
-  align-content: left;
-}
-
-.exercises-section-texts h1 {
-  font-size: 2.5rem;
-}
-
-.exercises-section-texts p {
-  font-size: 1.5rem;
-}
-
-/*
-.exercises-section-texts p #exercises-promo-text {
-  font-weight: bold;
-  color: var(--accent-primary);
-  background-color: var(--text-primary);
-}
-
-.exercises-section-texts p #exercises-promo-text-inner {
-  text-decoration: underline;
-  color: var(--accent-secondary);
-}
-
-.exercises-section-texts p #exercises-promo-goals {
-  font-weight: bold;
-  color: var(--accent-tertiary);
-}
-
-.exercises-section-texts p #exercises-promo-500 {
-  font-weight: bold;
-  color: var(--accent-quaternary);
-}
-*/
-
-.exercises-section-texts b,
-.nutrition-section-texts b,
-.prizes-section-texts b {
-  color: white;
-}
-
-.exercises-section-image-container {
-  flex: 1;
-  height: 70vh;
-  padding-right: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.exercises-section-image-container img {
-  max-width: 80%;
-  max-height: 80%;
-  object-fit: contain;
-}
-
-/*Nutrition Section*/ 
-.nutrition-section {
-  width: 100%;
-  min-height: 90vh;
-  background-color: var(--bg-primary); /* Similar to front-page background */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5% 0;
-}
-
-.nutrition-section-container {
-  width: 80%;
-  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-quaternary) 150%);
-  border-radius: 20px;
-  padding: 40px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-primary);
-  gap: 5%;
-  box-shadow: 0 8px 32px var(--bg-30);
-}
-
-.nutrition-section-text-container {
-  flex: 0 0 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-.nutrition-section-texts {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  padding-left: 20%;
-}
-
-.nutrition-section-texts h1,
-.nutrition-section-texts p {
-  color: var(--text-primary);
-  max-width: 75%;
-  align-content: left;
-}
-
-.nutrition-section-texts h1 {
-  font-size: 2.5rem;
-}
-
-.nutrition-section-texts p {
-  font-size: 1.5rem;
-}
-
-/*
-.nutrition-section-texts p #nutrition-promo-text {
-  font-weight: bold;
-  color: var(--accent-primary);
-  background-color: var(--text-primary);
-}
-
-.nutrition-section-texts p #nutrition-promo-text-inner {
-  text-decoration: underline;
-  color: var(--accent-quaternary);
-}
-
-.nutrition-section-texts p #nutrition-promo-cookbook {
-  font-weight: bold;
-  color: var(--accent-tertiary);
-}
-
-.nutrition-section-texts p #nutrition-promo-1k {
-  font-weight: bold;
-  color: var(--accent-quinary);
-}
-*/
-
-.nutrition-section-image-container {
-  flex: 1;
-  height: 70vh;
-  padding-right: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 5%;
-}
-
-.nutrition-section-image-container img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-/*Prizes Section*/ 
-.prizes-section {
-  width: 100%;
-  min-height: 90vh;
-  background-color: var(--bg-primary); /* Similar to front-page background */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5% 0;
-}
-
-.prizes-section-container {
-  width: 80%;
-  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-tertiary) 150%);
-  border-radius: 20px;
-  padding: 40px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-primary);
-  gap: 5%;
-  box-shadow: 0 8px 32px var(--bg-30);
-}
-
-.prizes-section-text-container {
-  flex: 0 0 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-.prizes-section-texts {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  padding-left: 20%;
-}
-
-.prizes-section-texts h1,
-.prizes-section-texts p {
-  color: var(--text-primary);
-  max-width: 75%;
-  align-content: left;
-}
-
-.prizes-section-texts h1 {
-  font-size: 2.5rem;
-}
-
-.prizes-section-texts p {
-  font-size: 1.5rem;
-}
-
-/*
-.prizes-section-texts p #prize-promo-10k {
-  font-weight: bold;
-  color: var(--accent-tertiary);
-}
-
-.prizes-section-texts p #prize-promo-50k {
-  font-weight: bold;
-  color: var(--accent-quaternary);
-}
-
-.prizes-section-texts p #prize-promo-text {
-  font-weight: bold;
-  text-decoration: underline;
-  color: var(--accent-primary);
-  background-color: var(--text-primary);
-}
-*/
-
-.prizes-section-image-container {
-  flex: 1;
-  height: 70vh;
-  padding-right: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.prizes-section-image-container img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-.prizes-heading-container {
-  width: 80vw;
-  height: 70vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border-radius: 2.5rem;
-  background-color: var(--accent-100);
-  padding: 0px 1.5rem;
-  box-sizing: border-box;
-  gap: 5rem;
-  margin: 2rem auto;
-  margin-bottom: 5rem;
-}
-
-.prizes-heading-image {
-  max-width: 50%;
-  height: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1.5rem 1rem;
-}
-
-.prizes-heading-image img {
-  height: 100%;
-  width: auto;
-}
-
-.prizes-heading-text-container {
-  max-width: 40%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.prizes-heading-text h1 {
-  font-size: 4rem;
-  padding: 0px;
-  margin: 0px;
-}
-
-.prizes-heading-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.prizes-heading-button h2 {
-  color: var(--text-primary);
-}
-
-.prizes-heading-button button {
-    min-width: 160px;
-    padding: 16px 40px;
-    font-size: 20px;
-    font-weight: 600;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    text-align: center;
-    box-sizing: border-box;
-    background-color: var(--text-primary);
-    color: var(--accent-100);
-    border: 2px solid var(--text-primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.prizes-heading-button button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px var(--text-30);
-}
-
-.prizes-page-heading-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.prizes-page-heading-button .intro-buttons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.prizes-page-heading-button .intro-login-button {
-  border: 2px solid var(--bg-100);
-  color: var(--bg-100);
-}
-
-.prizes-page-heading-button .intro-login-button:hover {
-  background-color: var(--bg-100);
-  color: var(--text-primary);
+@media (max-width: 900px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);  /* 4 columns on larger screens */
+  }
+
+  .front-page .greeting-section {
+    background-position: right 1rem top 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .front-page .greeting-section {
+    background-position: center;
+    background-image: linear-gradient(
+      var(--bg-primary-transparent),  /* This creates a semi-transparent overlay */
+      var(--bg-primary-transparent)
+    ), url('/assets/muscleman.png');
+  }
+}
+
+@media (max-width: 480px) {
+  .services-container {
+    grid-template-columns: repeat(1, 1fr);  /* 4 columns on larger screens */
+  }
+  .front-page .greeting-section {
+    background-size: 90%;
+    background-position: top;
+  }
+
+  .front-page-greeting {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .greeting-section .intro-buttons {
+    margin: 0 auto;
+  }
 }
