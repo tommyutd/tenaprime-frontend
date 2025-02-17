@@ -2,8 +2,24 @@
     const protectedRouteMappings = {
         '/dashboard': '/',
         '/exercises/dashboard': '/exercises',
+        '/exercises/workout': '/exercises',
+        '/exercises/strength': '/exercises',
+        '/exercises/fitness': '/exercises',
+        '/exercises/cardio': '/exercises',
+        '/exercises/aerobics': '/exercises',
+        '/exercises/hiit': '/exercises',
+        '/exercises/yoga': '/exercises',
+        '/exercises/healthy-sleeping': '/exercises',
+        '/exercises/stress-regulation': '/exercises',
+        '/exercises/my-workout': '/exercises',
         '/nutrition/dashboard': '/nutrition',
-        '/prizes/dashboard': '/prizes'
+        '/nutrition/learn': '/nutrition',
+        '/nutrition/my-nutrition': '/nutrition',
+        '/prizes/dashboard': '/prizes',
+        '/prizes/quiz': '/prizes',
+        '/prizes/rules': '/prizes',
+        '/profile': '/',
+        '/setup': '/'
     };
 
     const guestRouteMappings = {

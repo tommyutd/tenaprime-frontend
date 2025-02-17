@@ -1,11 +1,11 @@
 [
     {
         "id": "setup-title",
-        "am": "የአካል ብቃት እንቅስቃሴ መገለጫ ማዋቀር"
+        "am": "የስፖርት መገለጫ ማዋቀር"
     },
     {
         "id": "setup-description",
-        "am": "የአካል ብቃት እንቅስቃሴ ልምድዎን እናብጅ"
+        "am": "የስፖርት ልምድዎን እናብጅ"
     },
     {
         "id": "setup-basic-info",
@@ -41,19 +41,19 @@
     },
     {
         "id": "setup-sedentary",
-        "am": "ተቀምጦ"
+        "am": "እንቅስቃሴ የሌለው"
     },
     {
         "id": "setup-sedentary-desc",
-        "am": "ትንሽ ወይም ምንም የአካል ብቃት እንቅስቃሴ የለም"
+        "am": "ትንሽ ወይም ምንም ስፖርት"
     },
     {
         "id": "setup-light",
-        "am": "ብርሃን"
+        "am": "ቀላል"
     },
     {
         "id": "setup-light-desc",
-        "am": "በሳምንት 1-3 ጊዜ የአካል ብቃት እንቅስቃሴ ያድርጉ"
+        "am": "በሳምንት 1-3 ጊዜ ስፖርት ያድርጉ"
     },
     {
         "id": "setup-moderate",
@@ -89,11 +89,11 @@
     },
     {
         "id": "setup-diet-vegetarian",
-        "am": "ቬጀቴሪያን"
+        "am": "ቬጅቴሪያን"
     },
     {
         "id": "setup-diet-keto",
-        "am": "ኬቶ"
+        "am": "ኪቶ"
     },
     {
         "id": "setup-diet-paleo",
@@ -101,7 +101,7 @@
     },
     {
         "id": "setup-diet-gluten-free",
-        "am": "ከግሉተን-ነጻ"
+        "am": "ከግሉተን-ነፃ"
     },
     {
         "id": "setup-allergies-intolerances-label",
@@ -141,7 +141,7 @@
     },
     {
         "id": "setup-goal-weight-loss-desc",
-        "am": "የጡንቻን ብዛት በመጠበቅ የሰውነት ስብን ይቀንሱ"
+        "am": "የጡንቻን መጠን በመጠበቅ የሰውነት ስብን ይቀንሱ"
     },
     {
         "id": "setup-goal-muscle-gain",
@@ -149,27 +149,27 @@
     },
     {
         "id": "setup-goal-muscle-gain-desc",
-        "am": "ጥንካሬን ይገንቡ እና የጡንቻን ብዛት ይጨምሩ"
+        "am": "ጥንካሬን ይገንቡ እና የጡንቻን መጠን ይጨምሩ"
     },
     {
         "id": "setup-goal-maintenance",
-        "am": "ጥገና"
+        "am": "ክብደትን መጠበቅ"
     },
     {
         "id": "setup-goal-maintenance-desc",
-        "am": "የአሁኑን ክብደት ይንከባከቡ እና የሰውነት ስብጥርን ያሻሽሉ።"
+        "am": "የአሁኑን ክብደት ይጠብቁ እና የሰውነት ስብጥርን ያሻሽሉ።"
     },
     {
         "id": "setup-goal-performance",
-        "am": "አፈጻጸም"
+        "am": "ልህቀት"
     },
     {
         "id": "setup-goal-performance-desc",
-        "am": "የአትሌቲክስ አፈፃፀምን እና ጽናትን ያሻሽሉ።"
+        "am": "የአትሌቲክ ልህቀትን እና ብርታትን ያሻሽሉ።"
     },
     {
         "id": "setup-goal-wellness",
-        "am": "ጤና"
+        "am": "ጤንነት"
     },
     {
         "id": "setup-goal-wellness-desc",
@@ -185,7 +185,7 @@
     },
     {
         "id": "setup-workout-cardio-desc",
-        "am": "በሩጫ፣ በብስክሌት እና በጽናት ስልጠና ላይ ያተኩሩ"
+        "am": "በሩጫ፣ በብስክሌት እና በብርታትት ስልጠና ላይ ያተኩሩ"
     },
     {
         "id": "setup-workout-hiit",
@@ -193,7 +193,7 @@
     },
     {
         "id": "setup-workout-hiit-desc",
-        "am": "ለከፍተኛ የካሎሪ ማቃጠል ከፍተኛ-የጊዜ ልዩነት ስልጠና"
+        "am": "ለከፍተኛ የካሎሪ ማቃጠል HIIT"
     },
     {
         "id": "setup-workout-mixed",
@@ -209,7 +209,7 @@
     },
     {
         "id": "setup-workout-full-body",
-        "am": "ሙሉ አካል"
+        "am": "ሙሉ ሰውነት የመለጠጥ ሂደት"
     },
     {
         "id": "setup-workout-full-body-desc",
@@ -229,7 +229,7 @@
     },
     {
         "id": "setup-workout-env-gym-desc",
-        "am": "ከመሳሪያዎች መዳረሻ ጋር"
+        "am": "ከመሳሪያዎች ጋር"
     },
     {
         "id": "setup-workout-env-home",
@@ -237,19 +237,19 @@
     },
     {
         "id": "setup-workout-env-home-desc",
-        "am": "አነስተኛ መሣሪያዎች ያስፈልጋሉ።"
+        "am": "አነስተኛ መሣሪያዎች ያስፈልጋሉ"
     },
     {
         "id": "setup-performance-focus-label",
-        "am": "በየትኛው የ<b>አፈጻጸም</b> ገጽታ ላይ ማተኮር ይፈልጋሉ?"
+        "am": "በየትኛው የ<b>አሰራር</b> አይነት ላይ ማተኮር ይፈልጋሉ?"
     },
     {
         "id": "setup-performance-endurance",
-        "am": "ጽናት።"
+        "am": "ብርታት"
     },
     {
         "id": "setup-performance-endurance-desc",
-        "am": "ጥንካሬን እና የልብና የደም ህክምናን ያሻሽሉ"
+        "am": "ጉልበትን እና የልብና የደም ህክምናን ያሻሽሉ"
     },
     {
         "id": "setup-performance-strength",
@@ -269,7 +269,7 @@
     },
     {
         "id": "setup-maintenance-routine-label",
-        "am": "ምን አይነት የ<b>ጥገና</b> የዕለት ተዕለት ተግባር ነው የሚመርጡት?"
+        "am": "ምን አይነት የ<b>ክብደት መጠበቂያ</b> የዕለት ተዕለት ተግባር ነው የሚመርጡት?"
     },
     {
         "id": "setup-maintenance-balanced",
@@ -277,39 +277,39 @@
     },
     {
         "id": "setup-maintenance-balanced-desc",
-        "am": "የአሁኑን የአካል ብቃት ለመጠበቅ በጥንካሬ እና በ cardio ላይ እኩል ትኩረት ያድርጉ"
+        "am": "የአሁኑን የአካል ብቃት ለመጠበቅ በጥንካሬ እና በካርዲዮ ላይ እኩል ትኩረት ያድርጉ"
     },
     {
         "id": "setup-maintenance-strength",
-        "am": "የጥንካሬ ጥገና"
+        "am": "የጥንካሬ ክብደት መጠበቂያ"
     },
     {
         "id": "setup-maintenance-strength-desc",
-        "am": "የጡንቻን ብዛት እና ጥንካሬን በመጠበቅ ላይ ያተኩሩ"
+        "am": "የጡንቻን መጠንን እና ጥንካሬን በመጠበቅ ላይ ያተኩሩ"
     },
     {
         "id": "setup-maintenance-cardio",
-        "am": "የካርዲዮ ጥገና"
+        "am": "የካርዲዮ ክብደት መጠበቂያ"
     },
     {
         "id": "setup-maintenance-cardio-desc",
-        "am": "የካርዲዮቫስኩላር ብቃትን ለመጠበቅ አጽንዖት"
+        "am": "የካርዲዮቫስኩላር ብቃትን መጠበቅ ላይ ማተኮር"
     },
     {
         "id": "setup-wellness-focus-label",
-        "am": "በየትኞቹ የ<b>ደህንነት</b> ገጽታዎች ላይ ማተኮር ይፈልጋሉ?"
+        "am": "በየትኞቹ የ<b>ጤንነት</b> ገጽታዎች ላይ ማተኮር ይፈልጋሉ?"
     },
     {
         "id": "setup-wellness-mind-body",
-        "am": "የአእምሮ-የሰውነት ሚዛን"
+        "am": "የአእምሮ-ሰውነት ሚዛን"
     },
     {
         "id": "setup-wellness-mind-body-desc",
-        "am": "በዮጋ፣ በማሰላሰል እና በተለዋዋጭነት ላይ ያተኩሩ"
+        "am": "በዮጋ፣ በማሰላሰል እና በመተጣጠፍ ላይ ያተኩሩ"
     },
     {
         "id": "setup-wellness-functional",
-        "am": "ተግባራዊ የአካል ብቃት"
+        "am": "ጠቃሚ የአካል ብቃት"
     },
     {
         "id": "setup-wellness-functional-desc",
@@ -317,15 +317,15 @@
     },
     {
         "id": "setup-wellness-low-impact",
-        "am": "ዝቅተኛ ተጽዕኖ"
+        "am": "ዝቅተኛ ተፅዕኖ"
     },
     {
         "id": "setup-wellness-low-impact-desc",
-        "am": "በጋራ ጤና እና ተንቀሳቃሽነት ላይ የሚያተኩሩ ረጋ ያሉ ልምምዶች"
+        "am": "በመገጣጠሚያ ጤና እና ተንቀሳቃሽነት ላይ የሚያተኩሩ ረጋ ያሉ ልምምዶች"
     },
     {
         "id": "setup-exercise-schedule-title",
-        "am": "የአካል ብቃት እንቅስቃሴ መርሃ ግብር"
+        "am": "የስፖርት መርሃ ግብር"
     },
     {
         "id": "setup-exercise-frequency-label",
@@ -337,7 +337,7 @@
     },
     {
         "id": "setup-frequency-three-days-desc",
-        "am": "ለጀማሪዎች ፍጹም ፣ በክፍለ-ጊዜዎች መካከል ሙሉ ማገገምን ያስችላል"
+        "am": "ለጀማሪዎች ምርጥ ሲሆን በክፍለ-ጊዜዎች መካከል ሙሉ ማገገምን ያስችላል"
     },
     {
         "id": "setup-frequency-four-days",
@@ -353,11 +353,11 @@
     },
     {
         "id": "setup-frequency-five-days-desc",
-        "am": "ለወሰኑ የአካል ብቃት አድናቂዎች የተጠናከረ ፕሮግራም"
+        "am": "ለተወሰኑ የአካል ብቃት አድናቂዎች የተጠናከረ ፕሮግራም"
     },
     {
         "id": "setup-intensity-level-label",
-        "am": "በምን ዓይነት የአካል ብቃት እንቅስቃሴ ደረጃ ይመቻችሁ?"
+        "am": "ምን ዓይነት የአካል ብቃት እንቅስቃሴ ደረጃ ይመቻችኋል?"
     },
     {
         "id": "setup-intensity-beginner",
@@ -365,7 +365,7 @@
     },
     {
         "id": "setup-intensity-beginner-desc",
-        "am": "በቅጹ ላይ ያተኩሩ እና መሰረታዊ የአካል ብቃትን መገንባት"
+        "am": "በአሰራር ላይ ያተኩሩ እና መሰረታዊ የአካል ብቃትን ይገንቡ"
     },
     {
         "id": "setup-intensity-intermediate",
@@ -373,7 +373,7 @@
     },
     {
         "id": "setup-intensity-intermediate-desc",
-        "am": "ከአስቸጋሪ ልምምዶች ጋር መጠነኛ ጥንካሬ"
+        "am": "ከአስቸጋሪ ልምምዶች ጋር መጠነኛ ክብደት ያለው ስፖርት"
     },
     {
         "id": "setup-intensity-advanced-desc",
@@ -389,7 +389,7 @@
     },
     {
         "id": "setup-complete-setup-btn",
-        "am": "የተሟላ ማዋቀር"
+        "am": "ሙሉ መዋቅር"
     },
     {
         "id": "setup-basic-info-title",
@@ -401,7 +401,7 @@
     },
     {
         "id": "setup-gender-label",
-        "am": "ጾታ"
+        "am": "ፆታ"
     },
     {
         "id": "setup-gender-male",
@@ -417,7 +417,7 @@
     },
     {
         "id": "setup-height-label",
-        "am": "ቁመት (ሴሜ)"
+        "am": "ቁመት (ሳሜ)"
     },
     {
         "id": "setup-body-fat-label",
@@ -449,11 +449,11 @@
     },
     {
         "id": "setup-workout-preferences-title",
-        "am": "የአካል ብቃት እንቅስቃሴ ምርጫዎች"
+        "am": "የስፖርት ምርጫዎች"
     },
     {
         "id": "setup-workout-environment-label",
-        "am": "የአካል ብቃት እንቅስቃሴ አከባቢ"
+        "am": "የስፖርት አካባቢ"
     },
     {
         "id": "setup-intensity-advanced",

@@ -5,11 +5,11 @@
     },
     {
         "id": "nutrition-carbs-primary-fuel",
-        "am": "ካርቦሃይድሬት ለጽናት ተግባራት ዋና የነዳጅ ምንጭ ነው።"
+        "am": "ካርቦሃይድሬት ለብርታት ተግባራት ዋና የነዳጅ ምንጭ ነው።"
     },
     {
         "id": "nutrition-carbs-intake",
-        "am": "በእንቅስቃሴ ደረጃ ላይ በመመርኮዝ በአንድ ኪሎ ግራም የሰውነት ክብደት 5-10 ግራም ካርቦሃይድሬት ይበሉ"
+        "am": "በእንቅስቃሴ ደረጃ ላይ በመመርኮዝ በአንድ ኪሎ ግራም የሰውነት ክብደት 5-10 ግራም ካርቦሃይድሬት ይመገቡ"
     },
     {
         "id": "nutrition-pre-post-workout-importance",
@@ -17,7 +17,7 @@
     },
     {
         "id": "nutrition-pre-workout-carb-meal",
-        "am": "<b>ቅድመ-ስፖርታዊ እንቅስቃሴ፡</b> ካርቦሃይድሬት የበዛ ምግብ ከ2-3 ሰአታት በፊት (ለምሳሌ፡ ኦትሜል ከፍራፍሬ ጋር)"
+        "am": "<b>ቅድመ-ስፖርት፡</b> ካርቦሃይድሬት የበዛበት ምግብ ከ2-3 ሰአታት በፊት (ለምሳሌ፡አጃ ከፍራፍሬ ጋር)"
     },
     {
         "id": "nutrition-post-workout-recovery",
@@ -25,7 +25,7 @@
     },
     {
         "id": "nutrition-optimal-hydration-strategies",
-        "am": "እጅግ በጣም ጥሩ የውሃ ማጠጣት ስልቶች"
+        "am": "እጅግ በጣም ጥሩ ውሃ የመጠጣት ስትራቴጂዎች"
     },
     {
         "id": "nutrition-consistent-hydration",
@@ -33,6 +33,6 @@
     },
     {
         "id": "nutrition-electrolytes-for-endurance",
-        "am": "ለረጅም ጊዜ እንቅስቃሴዎች (&gt; 60 ደቂቃዎች) ኤሌክትሮላይቶችን ያካትቱ"
+        "am": "ለረጅም ጊዜ እንቅስቃሴዎች (60 ደቂቃዎች) ኤሌክትሮላይቶችን ያካትቱ"
     }
 ]

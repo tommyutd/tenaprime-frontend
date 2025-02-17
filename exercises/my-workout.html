@@ -103,7 +103,12 @@
         </div>
     </div>
     
-    <div class="workout-calendar aleo-text">
+    <div class="my-workout-container">
+      <div class="loading-overlay">
+        <div class="loading-spinner-large"></div>
+        <div class="loading-text" data-text-key="loading-workout">Loading Workout...</div>
+      </div>
+      <div class="workout-calendar aleo-text">
         <div class="calendar-container">
             <div class="calendar-header">
                 <button class="calendar-nav prev-month"><b>&lt;</b></button>
@@ -144,14 +149,10 @@
                 </button>
             </div>
         </div>
-    </div>
+      </div>
 
-    <div class="workout-content aleo-text" style="display: none;">
+      <div class="my-workout-content aleo-text" style="display: none;">
         <div class="workout-exercise-container">
-            <div class="loading-overlay">
-              <div class="loading-spinner-large"></div>
-              <div class="loading-text">Loading Workout...</div>
-            </div>
             <div class="exercise-card">
                 <div class="exercise-header">
                     <h2 class="exercise-title" data-text-key="current-exercise">Current Exercise</h2>
@@ -198,6 +199,7 @@
                 <button class="control-button aleo-text end-workout" data-text-key="end-workout">End Workout</button>
             </div>
         </div>
+      </div>
     </div>
 
     <div class="footer aleo-text">

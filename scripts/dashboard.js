@@ -263,7 +263,8 @@ async function loadFeaturedNutrition() {
                         textKey: item.textKey,
                         page: `/nutrition/learn?topic=${item.id}`,
                         type: categoryId,
-                        categoryTitleKey: data.title
+                        categoryTitleKey: data.title,
+                        imagePath: `/nutrition/assets/${categoryId}-${item.id}.png` // Add image path
                     });
                 });
             }
@@ -286,6 +287,9 @@ async function loadFeaturedNutrition() {
         selectedNutrition.forEach(item => {
             const card = document.createElement('div');
             card.className = 'featured-nutrition-card';
+            
+            // Set the background image
+            card.style.setProperty('--nutrition-bg-image', `url('${item.imagePath}')`);
             
             card.innerHTML = `
                 <h3 data-text-key="${item.textKey}"></h3>

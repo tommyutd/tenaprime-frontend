@@ -9,8 +9,19 @@ class WorkoutCalendar {
         this.init();
     }
 
+    showLoading() {
+        const overlay = document.querySelector('.loading-overlay');
+        overlay.classList.add('show');
+    }
+
+    hideLoading() {
+        const overlay = document.querySelector('.loading-overlay');
+        overlay.classList.remove('show');
+    }
+
     async init() {
         try {
+            this.showLoading(); // Use this.showLoading() instead
             const token = localStorage.getItem('login-token');
             const response = await fetch(`${window.CONFIG.API_URL}/profile/workout`, {
                 headers: {
@@ -46,6 +57,8 @@ class WorkoutCalendar {
             });
         } catch (error) {
             console.error('Error initializing calendar:', error);
+        } finally {
+            this.hideLoading(); // Use this.hideLoading() instead
         }
     }
 
@@ -255,7 +268,7 @@ class WorkoutCalendar {
                     
                     // Hide calendar and show workout content
                     document.querySelector('.workout-calendar').style.display = 'none';
-                    document.querySelector('.workout-content').style.display = 'block';
+                    document.querySelector('.my-workout-content').style.display = 'block';
                     
                     // Initialize the workout loader
                     window.loadWorkoutData();

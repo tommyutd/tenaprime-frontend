@@ -136,7 +136,7 @@
             </button>
           </div>
         </div>
-        <div class="winners-section-text-container">
+        <div class="winners-section-text-container aleo-text">
           <h1 data-text-key="winners-section-title">Meet the winners!</h1>
           <h3 data-text-key="winners-section-description">Here are some of the winners of our weekly contest. <a href="#">Login</a> or <a href="#">Register</a> to participate.</h3>
         </div>
@@ -268,13 +268,15 @@
                 <label for="number" class="form-label" data-text-key="phone-number-label">Phone Number</label>
                 <div class="phone-input-container">
                     <span class="country-code">+251</span>
-                    <input type="number" id="number" required maxlength="6">
+                    <!--input type="number" id="number" required maxlength="6"-->
+                    <input type="tel" id="number" name="username" required maxlength="9" autocomplete="username">
                 </div>
             </div>
             <div class="form-group">
                 <label for="pin" class="form-label" data-text-key="pin-label">PIN</label>
                 <div class="pin-input-container">
-                    <input type="number" id="pin" required maxlength="6">
+                    <!--input type="number" id="pin" required maxlength="6"-->
+                    <input type="password" id="pin" name="current-password" required maxlength="6" autocomplete="current-password">
                 </div>
             </div>
             <div class="form-options">

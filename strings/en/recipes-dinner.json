@@ -1,0 +1,238 @@
+[
+    {
+        "id": "nutrition-weight-loss-dinner",
+        "en": "Weight Loss Dinner"
+    },
+    {
+        "id": "nutrition-lemon-chicken",
+        "en": "Grilled Lemon Herb Chicken with Steamed Veggies"
+    },
+    {
+        "id": "nutrition-chicken-breast",
+        "en": "1 chicken breast (boneless, skinless)"
+    },
+    {
+        "id": "nutrition-lemon-juice",
+        "en": "Juice of 1 lemon"
+    },
+    {
+        "id": "nutrition-olive-oil-1tsp",
+        "en": "1 teaspoon olive oil"
+    },
+    {
+        "id": "nutrition-oregano",
+        "en": "½ teaspoon dried oregano"
+    },
+    {
+        "id": "nutrition-steamed-veggies",
+        "en": "1 cup steamed broccoli and carrots"
+    },
+    {
+        "id": "nutrition-chicken-step1",
+        "en": "Marinate chicken in lemon juice, olive oil, and oregano for 15 minutes"
+    },
+    {
+        "id": "nutrition-chicken-step2",
+        "en": "Grill the chicken until fully cooked"
+    },
+    {
+        "id": "nutrition-chicken-step3",
+        "en": "Serve with steamed broccoli and carrots"
+    },
+    {
+        "id": "nutrition-chicken-why",
+        "en": "<b>Why it works:</b> Low in calories and high in protein, with fiber-rich veggies to promote satiety"
+    },
+    {
+        "id": "nutrition-muscle-building-dinner",
+        "en": "Muscle Building Dinner"
+    },
+    {
+        "id": "nutrition-beef-quinoa",
+        "en": "Beef &amp; Quinoa Stir-Fry"
+    },
+    {
+        "id": "nutrition-beef",
+        "en": "200g lean ground beef"
+    },
+    {
+        "id": "nutrition-quinoa",
+        "en": "1 cup cooked quinoa"
+    },
+    {
+        "id": "nutrition-mixed-veggies",
+        "en": "1 cup mixed vegetables (e.g., bell peppers, zucchini, onions)"
+    },
+    {
+        "id": "nutrition-sesame-oil",
+        "en": "1 teaspoon sesame oil"
+    },
+    {
+        "id": "nutrition-beef-step1",
+        "en": "Cook ground beef in a skillet until browned"
+    },
+    {
+        "id": "nutrition-beef-step2",
+        "en": "Add vegetables and stir-fry until tender"
+    },
+    {
+        "id": "nutrition-beef-step3",
+        "en": "Mix in cooked quinoa, soy sauce, and sesame oil. Serve hot"
+    },
+    {
+        "id": "nutrition-beef-why",
+        "en": "<b>Why it works:</b> High in protein and complex carbs for muscle repair and growth"
+    },
+    {
+        "id": "nutrition-energy-boost-dinner",
+        "en": "Energy Boost Dinner"
+    },
+    {
+        "id": "nutrition-baked-salmon",
+        "en": "Baked Salmon with Sweet Potato and Asparagus"
+    },
+    {
+        "id": "nutrition-salmon",
+        "en": "1 salmon fillet"
+    },
+    {
+        "id": "nutrition-sweet-potato",
+        "en": "1 medium sweet potato (sliced)"
+    },
+    {
+        "id": "nutrition-asparagus",
+        "en": "1 cup asparagus spears"
+    },
+    {
+        "id": "nutrition-garlic-powder",
+        "en": "1 teaspoon garlic powder"
+    },
+    {
+        "id": "nutrition-salmon-step1",
+        "en": "Preheat the oven to 200°C (400°F)"
+    },
+    {
+        "id": "nutrition-salmon-step2",
+        "en": "Place salmon, sweet potato slices, and asparagus on a baking sheet"
+    },
+    {
+        "id": "nutrition-salmon-step3",
+        "en": "Drizzle with olive oil, sprinkle garlic powder, and bake for 20-25 minutes"
+    },
+    {
+        "id": "nutrition-salmon-why",
+        "en": "<b>Why it works:</b> Combines healthy fats, protein, and slow-digesting carbs for lasting energy"
+    },
+    {
+        "id": "nutrition-balanced-dinner",
+        "en": "Balanced General Health Dinner"
+    },
+    {
+        "id": "nutrition-chicken-stir-fry",
+        "en": "Chicken &amp; Vegetable Stir-Fry with Brown Rice"
+    },
+    {
+        "id": "nutrition-chicken-sliced",
+        "en": "1 chicken breast (sliced)"
+    },
+    {
+        "id": "nutrition-brown-rice",
+        "en": "1 cup cooked brown rice"
+    },
+    {
+        "id": "nutrition-mixed-veggies-general",
+        "en": "1 cup mixed vegetables (e.g., broccoli, snap peas, carrots)"
+    },
+    {
+        "id": "nutrition-stir-fry-step1",
+        "en": "Heat olive oil in a pan and cook chicken slices until browned"
+    },
+    {
+        "id": "nutrition-stir-fry-step2",
+        "en": "Add vegetables and stir-fry until tender"
+    },
+    {
+        "id": "nutrition-stir-fry-step3",
+        "en": "Mix in cooked brown rice and soy sauce. Serve warm"
+    },
+    {
+        "id": "nutrition-stir-fry-why",
+        "en": "<b>Why it works:</b> A balanced mix of lean protein, fiber, and healthy carbs"
+    },
+    {
+        "id": "nutrition-vegan-dinner",
+        "en": "Vegan Dinner Option"
+    },
+    {
+        "id": "nutrition-stuffed-peppers",
+        "en": "Stuffed Bell Peppers"
+    },
+    {
+        "id": "nutrition-bell-peppers",
+        "en": "2 large bell peppers (halved and deseeded)"
+    },
+    {
+        "id": "nutrition-quinoa-rice",
+        "en": "1 cup cooked quinoa or brown rice"
+    },
+    {
+        "id": "nutrition-black-beans",
+        "en": "½ cup black beans (cooked or canned)"
+    },
+    {
+        "id": "nutrition-tomatoes",
+        "en": "½ cup diced tomatoes"
+    },
+    {
+        "id": "nutrition-cumin",
+        "en": "1 teaspoon cumin"
+    },
+    {
+        "id": "nutrition-peppers-step1",
+        "en": "Preheat the oven to 180°C (350°F)"
+    },
+    {
+        "id": "nutrition-peppers-step2",
+        "en": "Mix quinoa, black beans, tomatoes, and cumin"
+    },
+    {
+        "id": "nutrition-peppers-step3",
+        "en": "Stuff the bell peppers with the mixture and bake for 25 minutes"
+    },
+    {
+        "id": "nutrition-peppers-why",
+        "en": "<b>Why it works:</b> Packed with plant-based protein and fiber for a satisfying vegan dinner"
+    },
+    {
+        "id": "nutrition-low-carb-dinner",
+        "en": "Low-Carb/Keto Dinner"
+    },
+    {
+        "id": "nutrition-zoodles",
+        "en": "Zucchini Noodles with Pesto &amp; Grilled Shrimp"
+    },
+    {
+        "id": "nutrition-zucchini",
+        "en": "1 zucchini (spiralized into noodles)"
+    },
+    {
+        "id": "nutrition-shrimp",
+        "en": "100g grilled shrimp"
+    },
+    {
+        "id": "nutrition-pesto",
+        "en": "2 tablespoons pesto (low-carb)"
+    },
+    {
+        "id": "nutrition-zoodles-step1",
+        "en": "Heat olive oil in a pan and sauté zucchini noodles for 2-3 minutes"
+    },
+    {
+        "id": "nutrition-zoodles-step2",
+        "en": "Toss noodles with pesto and grilled shrimp. Serve warm"
+    },
+    {
+        "id": "nutrition-zoodles-why",
+        "en": "<b>Why it works:</b> Low in carbs, high in protein and healthy fats, perfect for keto"
+    }
+]

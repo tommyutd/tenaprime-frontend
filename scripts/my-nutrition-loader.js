@@ -57,20 +57,20 @@ class NutritionProfileLoader {
 
         // Update macro breakdown
         const macros = this.nutritionData.recommendations.macroBreakdown;
-        const proteinBar = document.querySelector('.macro-bar.protein');
-        const carbsBar = document.querySelector('.macro-bar.carbs');
-        const fatsBar = document.querySelector('.macro-bar.fats');
+        const proteinBar = document.querySelector('.my-nutrition-macro-bar.protein');
+        const carbsBar = document.querySelector('.my-nutrition-macro-bar.carbs');
+        const fatsBar = document.querySelector('.my-nutrition-macro-bar.fats');
 
         proteinBar.style.setProperty('--width', `${macros.protein}%`);
         carbsBar.style.setProperty('--width', `${macros.carbs}%`);
         fatsBar.style.setProperty('--width', `${macros.fats}%`);
 
-        proteinBar.querySelector('.macro-value').textContent = `${macros.protein}%`;
-        carbsBar.querySelector('.macro-value').textContent = `${macros.carbs}%`;
-        fatsBar.querySelector('.macro-value').textContent = `${macros.fats}%`;
+        proteinBar.querySelector('.my-nutrition-macro-value').textContent = `${macros.protein}%`;
+        carbsBar.querySelector('.my-nutrition-macro-value').textContent = `${macros.carbs}%`;
+        fatsBar.querySelector('.my-nutrition-macro-value').textContent = `${macros.fats}%`;
 
         // Display meal timings and recipes
-        const mealsContainer = document.querySelector('.meals-container');
+        const mealsContainer = document.querySelector('.my-nutrition-meals-container');
         const mealTimings = this.nutritionData.recommendations.mealTimings;
         
         mealsContainer.innerHTML = ''; // Clear existing content
@@ -78,12 +78,12 @@ class NutritionProfileLoader {
         mealTimings.forEach((timing, index) => {
             const mealData = this.nutritionData.recommendations.meals[index];
             const mealCard = document.createElement('div');
-            mealCard.className = 'meal-card';
+            mealCard.className = 'my-nutrition-meal-card';
             
             mealCard.innerHTML = `
-                <div class="meal-header">
+                <div class="my-nutrition-meal-header">
                     <h2 data-text-key="meal-number" data-placeholder-meal-number="${index + 1}"></h2>
-                    <span class="meal-time">${this.formatTime(timing)}</span>
+                    <span class="my-nutrition-meal-time">${this.formatTime(timing)}</span>
                 </div>
                 ${mealData ? this.createMealContent(mealData) : ''}
             `;
@@ -105,64 +105,64 @@ class NutritionProfileLoader {
         const separator = lang === 'en' ? ',' : '፣ ';
         
         return `
-            <div class="meal-content">
-                <h3 class="meal-name">
+            <div class="my-nutrition-meal-content">
+                <h3 class="my-nutrition-meal-name">
                     <span style="display: ${lang === 'en' ? 'inline' : 'none'}">${mealData.recipe.name.en}</span>
                     <span style="display: ${lang === 'en' ? 'none' : 'inline'}">${mealData.recipe.name.am}</span>
                 </h3>
-                <div class="meal-stats">
-                    <span class="meal-calories" data-text-key="meal-calories" 
+                <div class="my-nutrition-meal-stats">
+                    <span class="my-nutrition-meal-calories" data-text-key="meal-calories" 
                         data-placeholder-meal-calories="${mealData.totalMealCalories}"></span>
-                    <span class="meal-percentage" data-text-key="meal-percentage" 
+                    <span class="my-nutrition-meal-percentage" data-text-key="meal-percentage" 
                         data-placeholder-meal-percentage="${mealData.mealCaloriePercentage}"></span>
                 </div>
                 
-                <div class="ingredients-section">
+                <div class="my-nutrition-ingredients-section">
                     <h4 data-text-key="ingredients-title"></h4>
-                    <ul class="ingredients-list">
+                    <ul class="my-nutrition-ingredients-list">
                         ${mealData.recipe.ingredients.map(ingredient => `
                             <li>${ingredient.amountValue} <span data-text-key="${ingredient.amountType}"></span> <span data-text-key="${ingredient.food}"></span></li>
                         `).join('')}
                     </ul>
                 </div>
                 
-                <div class="instructions-section">
+                <div class="my-nutrition-instructions-section">
                     <h4 data-text-key="instructions-title"></h4>
-                    <ol class="instructions-list">
+                    <ol class="my-nutrition-instructions-list">
                         ${mealData.recipe.instructions.map(instruction => 
                             this.formatInstructionStep(instruction, lang)
                         ).join('')}
                     </ol>
                 </div>
                 
-                <div class="nutrition-distribution">
+                <div class="my-nutrition-nutrition-distribution">
                     <h4 data-text-key="nutrition-distribution-title"></h4>
-                    <div class="macro-bars">
-                        <div class="macro-bar">
-                            <span class="macro-label" data-text-key="macro-label-protein"></span>
-                            <div class="bar-fill" style="width: ${mealData.nutritionDistribution.protein}%"></div>
-                            <span class="macro-percentage">${mealData.nutritionDistribution.protein}%</span>
+                    <div class="my-nutrition-macro-bars">
+                        <div class="my-nutrition-macro-bar">
+                            <span class="my-nutrition-macro-label" data-text-key="macro-label-protein"></span>
+                            <div class="my-nutrition-bar-fill" style="width: ${mealData.nutritionDistribution.protein}%"></div>
+                            <span class="my-nutrition-macro-percentage">${mealData.nutritionDistribution.protein}%</span>
                         </div>
-                        <div class="macro-bar">
-                            <span class="macro-label" data-text-key="macro-label-carbs"></span>
-                            <div class="bar-fill" style="width: ${mealData.nutritionDistribution.carbs}%"></div>
-                            <span class="macro-percentage">${mealData.nutritionDistribution.carbs}%</span>
+                        <div class="my-nutrition-macro-bar">
+                            <span class="my-nutrition-macro-label" data-text-key="macro-label-carbs"></span>
+                            <div class="my-nutrition-bar-fill" style="width: ${mealData.nutritionDistribution.carbs}%"></div>
+                            <span class="my-nutrition-macro-percentage">${mealData.nutritionDistribution.carbs}%</span>
                         </div>
-                        <div class="macro-bar">
-                            <span class="macro-label" data-text-key="macro-label-fats"></span>
-                            <div class="bar-fill" style="width: ${mealData.nutritionDistribution.fats}%"></div>
-                            <span class="macro-percentage">${mealData.nutritionDistribution.fats}%</span>
+                        <div class="my-nutrition-macro-bar">
+                            <span class="my-nutrition-macro-label" data-text-key="macro-label-fats"></span>
+                            <div class="my-nutrition-bar-fill" style="width: ${mealData.nutritionDistribution.fats}%"></div>
+                            <span class="my-nutrition-macro-percentage">${mealData.nutritionDistribution.fats}%</span>
                         </div>
                     </div>
                 </div>
                 
-                <div class="time-info">
-                    <span class="prep-time">
-                        <i class="time-icon"></i>
+                <div class="my-nutrition-time-info">
+                    <span class="my-nutrition-prep-time">
+                        <i class="my-nutrition-time-icon"></i>
                         <span data-text-key="prep-time" data-placeholder-prep-time="${mealData.recipe.prepTime}"></span>
                     </span>
-                    <span class="cook-time">
-                        <i class="time-icon"></i>
+                    <span class="my-nutrition-cook-time">
+                        <i class="my-nutrition-time-icon"></i>
                         <span data-text-key="cook-time" data-placeholder-cook-time="${mealData.recipe.cookTime}"></span>
                     </span>
                 </div>

@@ -35,6 +35,8 @@ class Quiz {
         this.countdownScreen = document.getElementById('quiz-countdown-screen');
         this.countdownNumber = document.querySelector('.countdown-number');
 
+        this.quizContainer.style.height = `calc(${document.querySelector('.screen.active').scrollHeight + 'px'} + 6rem)`;
+
         document.querySelectorAll('.quiz-rules-btn').forEach(btn => btn.addEventListener('click', () => window.location.href = '/prizes/rules'));
         document.getElementById('quiz-start-btn').addEventListener('click', () => this.startQuiz());
         document.getElementById('quiz-retry-btn').addEventListener('click', () => this.resetQuiz());
@@ -152,6 +154,7 @@ class Quiz {
         }).catch(error => {
             console.error('Error updating strings:', error);
         });
+        this.quizContainer.style.height = `calc(${document.querySelector('.screen.active').scrollHeight + 'px'} + 6rem)`;
     }
 
     selectAnswer(answer) {
@@ -307,6 +310,7 @@ class Quiz {
     }
 
     switchScreen(screen) {
+        // First, remove active class from all screens
         this.welcomeScreen.classList.remove('active');
         this.loadingScreen.classList.remove('active');
         this.countdownScreen.classList.remove('active');
@@ -314,40 +318,39 @@ class Quiz {
         this.resultsScreen.classList.remove('active');
         this.messageScreen.classList.remove('active');
         
-        this.quizContainer.setAttribute('style', 'height: 0%;');
+        // Set height to 0 and wait for transition to complete
+        this.quizContainer.style.height = '0px';
 
+        // Wait for the height transition to complete before showing new screen
         setTimeout(() => {
-            this.quizContainer.setAttribute('style', 'height: 60%;');
-            this.quizPage.setAttribute('style', 'height: 80vh;');
+            // Add active class to new screen
             switch(screen) {
                 case 'welcome':
-                    this.quizContainer.setAttribute('style', 'justify-content: center;');
-                    this.welcomeScreen.classList.add('active')
+                    this.welcomeScreen.classList.add('active');
                     break;
                 case 'loading':
-                    this.quizContainer.setAttribute('style', 'justify-content: center;');
                     this.loadingScreen.classList.add('active');
                     break;
                 case 'countdown':
-                    this.quizContainer.setAttribute('style', 'justify-content: center;');
                     this.countdownScreen.classList.add('active');
                     break;
                 case 'quiz':
-                    this.quizPage.setAttribute('style', 'height: 130vh;');
-                    this.quizContainer.setAttribute('style', 'justify-content: flex-start;');
                     this.quizScreen.classList.add('active');
                     break;
                 case 'results':
-                    this.quizPage.setAttribute('style', 'height: fit-content;');
-                    this.quizContainer.setAttribute('style', 'justify-content: center;');
                     this.resultsScreen.classList.add('active');
                     break;
                 case 'message':
-                    this.quizContainer.setAttribute('style', 'justify-content: center;');
                     this.messageScreen.classList.add('active');
                     break;
             }
-        }, 400);
+
+            // Wait a brief moment for the DOM to update with new content
+            requestAnimationFrame(() => {
+                this.quizContainer.style.height = `calc(${document.querySelector('.screen.active').scrollHeight + 'px'} + 6rem)`;
+            });
+        }, 400); // Match this to your CSS transition duration
+
         window.stringsLoaded.then(() => {
             updatePageStrings();
         }).catch(error => {

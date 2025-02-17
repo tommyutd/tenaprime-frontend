@@ -145,7 +145,7 @@
     },
     {
         "id": "zucchini",
-        "am": "Zucchini"
+        "am": "ዝኩኒ"
     },
     {
         "id": "rice",
@@ -173,7 +173,7 @@
     },
     {
         "id": "red_pepper",
-        "am": "ቀይ በርበሬ"
+        "am": "በርበሬ"
     },
     {
         "id": "wheat_flour",
@@ -213,11 +213,11 @@
     },
     {
         "id": "tomato_paste",
-        "am": "የቲማቲም ለጥፍ"
+        "am": "የቲማቲም ስልስ"
     },
     {
         "id": "eggplant",
-        "am": "የእንቁላል ፍሬ"
+        "am": "ኤግፕላንት"
     },
     {
         "id": "corn",
@@ -293,7 +293,7 @@
     },
     {
         "id": "all_purpose_flour",
-        "am": "ሁሉም ዓላማ ዱቄት"
+        "am": "ዱቄት"
     },
     {
         "id": "granulated_sugar",
@@ -337,7 +337,7 @@
     },
     {
         "id": "ketchup",
-        "am": "ኬትጪፕ"
+        "am": "ኬቻፕ"
     },
     {
         "id": "mayonnaise",
@@ -361,11 +361,11 @@
     },
     {
         "id": "fava_beans",
-        "am": "Fava Beans"
+        "am": "የፋቫ ፍሬዎች"
     },
     {
         "id": "groundnuts",
-        "am": "የከርሰ ምድር ፍሬዎች"
+        "am": "ግራውንድነትስ"
     },
     {
         "id": "red_meat",
@@ -385,7 +385,7 @@
     },
     {
         "id": "sweet_potatoes",
-        "am": "ድንች ድንች"
+        "am": "ስኳር ድንች"
     },
     {
         "id": "liver",
@@ -393,7 +393,7 @@
     },
     {
         "id": "fortified_milk",
-        "am": "የተጠናከረ ወተት"
+        "am": "ወተት"
     },
     {
         "id": "herbal_teas",
@@ -401,7 +401,7 @@
     },
     {
         "id": "fermented_milk",
-        "am": "የተቀቀለ ወተት"
+        "am": "ፈርመንትድ ወተት"
     },
     {
         "id": "dark_chocolate",

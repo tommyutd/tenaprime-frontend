@@ -1,7 +1,7 @@
 [
     {
         "id": "light-cardio",
-        "am": "ብርሃን Cardio"
+        "am": "ቀላል ካርዲዮ"
     },
     {
         "id": "light-cardio-activity",
@@ -9,31 +9,31 @@
     },
     {
         "id": "dynamic-stretches",
-        "am": "ተለዋዋጭ ዝርጋታዎች"
+        "am": "ተለዋዋጭ ስትረቺንግ"
     },
     {
         "id": "squats",
-        "am": "ስኩዊቶች"
+        "am": "ስኩዋት"
     },
     {
         "id": "pushups",
-        "am": "ፑሹፕስ"
+        "am": "ፑሹአፕ"
     },
     {
         "id": "static-stretches",
-        "am": "የማይለዋወጥ ዝርጋታዎች"
+        "am": "የማይለዋወጥ ስትረቺንግ"
     },
     {
         "id": "bench-press",
-        "am": "የቤንች ማተሚያ"
+        "am": "ቤንች ፕረስ"
     },
     {
         "id": "bent-over-rows",
-        "am": "ከረድፎች በላይ መታጠፍ"
+        "am": "ቤንት ኦቨር ሮውስ"
     },
     {
         "id": "overhead-press",
-        "am": "በላይ ፕሬስ"
+        "am": "ኦቨርሄድ ፕሬስ"
     },
     {
         "id": "plank",
@@ -41,279 +41,279 @@
     },
     {
         "id": "deadlifts",
-        "am": "Deadlifts"
+        "am": "ዴድሊፍት"
     },
     {
         "id": "lat-pulldown",
-        "am": "Lat Pulldown"
+        "am": "ላት ፑልዳውን"
     },
     {
         "id": "lunges",
-        "am": "ሳንባዎች"
+        "am": "ላንጅስ"
     },
     {
         "id": "dumbbell-curl",
-        "am": "Dumbbell Curl"
+        "am": "ዳምቤል ከርል"
     },
     {
         "id": "bicycle-crunches",
-        "am": "የብስክሌት ክራንች"
+        "am": "ባይስክል ክረንችስ"
     },
     {
         "id": "leg-press",
-        "am": "እግር ፕሬስ"
+        "am": "ሌግ ፕሬስ"
     },
     {
         "id": "dumbbell-flys",
-        "am": "Dumbbell ፍላይ"
+        "am": "ዳምቤል ፍላይስ"
     },
     {
         "id": "seated-cable-rows",
-        "am": "የተቀመጡ የኬብል ረድፎች"
+        "am": "ሲትድ ኬብል ሮውስ"
     },
     {
         "id": "triceps-pushdown",
-        "am": "ትራይሴፕስ ፑሽወርድ"
+        "am": "ትራይሰፕስ ፑሽዳውን"
     },
     {
         "id": "russian-twists",
-        "am": "የሩሲያ ጠማማዎች"
+        "am": "ሩሲያን ትዊስትስ"
     },
     {
         "id": "triceps-dips",
-        "am": "ትራይሴፕስ ዲፕስ"
+        "am": "ትራይሰፕስ ዲፕስ"
     },
     {
         "id": "leg-curl",
-        "am": "የእግር ማጠፍ"
+        "am": "ሌግ ከርል"
     },
     {
         "id": "leg-extension",
-        "am": "የእግር ማራዘሚያ"
+        "am": "ሌግ ኤክስቴንሽን"
     },
     {
         "id": "standing-calf-raises",
-        "am": "የቆመ ጥጃ ያሳድጋል"
+        "am": "ስታንዲንግ ካልፍ ሬይዝስ"
     },
     {
         "id": "seated-calf-raises",
-        "am": "የተቀመጠ ጥጃ ያሳድጋል"
+        "am": "ሲትድ ካልፍ ሬይዝስ"
     },
     {
         "id": "glutes-bridge",
-        "am": "Glutes ድልድይ"
+        "am": "ግሉትስ ብሪጅ"
     },
     {
         "id": "incline-dumbbell-press",
-        "am": "ዳምቤል ፕሬስ ያዘንብል"
+        "am": "ኢንክላይን ዳምቤል ፕሬስ"
     },
     {
         "id": "hammer-curls",
-        "am": "መዶሻ ኩርባዎች"
+        "am": "ሃመር ከርልስ"
     },
     {
         "id": "lateral-raises",
-        "am": "የጎን ጭማሪዎች"
+        "am": "ላተራል ሬይዝስ"
     },
     {
         "id": "ab-wheel-rollout",
-        "am": "ኣብ ዊል ሎውት"
+        "am": "አብ ዊል ሮላውት"
     },
     {
         "id": "overhead-triceps-extension",
-        "am": "በላይኛው ትራይሴፕስ ቅጥያ"
+        "am": "ኦቨርሄድ ትራይሰፕስ ኤክስቴንሽን"
     },
     {
         "id": "preacher-curl",
-        "am": "ሰባኪ ከርል"
+        "am": "ፕሪቸር ከርል"
     },
     {
         "id": "marching-in-place",
-        "am": "በቦታ ላይ ሰልፍ ማድረግ"
+        "am": "ማርቺንግ ኢን ፕሌስ"
     },
     {
         "id": "arm-circles",
-        "am": "የክንድ ክበቦች"
+        "am": "አርም ሰርክልስ"
     },
     {
         "id": "hip-circles",
-        "am": "የሂፕ ክበቦች"
+        "am": "ሂፕ ሰርክልስ"
     },
     {
         "id": "squat-jacks",
-        "am": "Squat Jacks"
+        "am": "ስኳት ጃክስ"
     },
     {
         "id": "high-kicks",
-        "am": "ከፍተኛ Kicks"
+        "am": "ሃይ ኪክስ"
     },
     {
         "id": "side-to-side-squats",
-        "am": "ከጎን ወደ ጎን ስኩዊቶች"
+        "am": "ሳይድ ቱ ሳይድ ስኳትስ"
     },
     {
         "id": "jumping-jacks",
-        "am": "መዝለል ጃክሶች"
+        "am": "ጃምፒንግ ጃክስ"
     },
     {
         "id": "arm-swings",
-        "am": "ክንድ ስዊንግስ"
+        "am": "አርም ስዊንግስ"
     },
     {
         "id": "high-knees",
-        "am": "ከፍተኛ ጉልበቶች"
+        "am": "ሃይ ኒስ"
     },
     {
         "id": "fingertip-to-toe-jacks",
-        "am": "የጣት ጫፍ ወደ ጣት ጃክስ"
+        "am": "ፊንገርቲፕ ቱ ቶው ጃክስ"
     },
     {
         "id": "bird-dog",
-        "am": "የወፍ ውሻ"
+        "am": "በርድ ዶግ"
     },
     {
         "id": "stutter-steps",
-        "am": "የመንተባተብ እርምጃዎች"
+        "am": "ስታተር ስቴፕስ"
     },
     {
         "id": "forward-fold",
-        "am": "ወደፊት ማጠፍ"
+        "am": "ፎርዋርድ ፎልድ"
     },
     {
         "id": "quad-stretch",
-        "am": "ኳድ ዘረጋ"
+        "am": "ኳድ ስትሬች"
     },
     {
         "id": "tricep-stretch",
-        "am": "Tricep ዘርጋ"
+        "am": "ትራይሴፕ ስትሬች"
     },
     {
         "id": "upper-back-stretch",
-        "am": "የላይኛው ጀርባ መዘርጋት"
+        "am": "አፐር ባክ ስትሬች"
     },
     {
         "id": "calf-stretch",
-        "am": "ጥጃ ዘረጋ"
+        "am": "ካልፍ ስትሬች"
     },
     {
         "id": "back-stretch",
-        "am": "የኋላ መዘርጋት"
+        "am": "ባክ ስትሬች"
     },
     {
         "id": "neck-stretch",
-        "am": "የአንገት ዝርጋታ"
+        "am": "ኔክ ስትሬች"
     },
     {
         "id": "front-raises",
-        "am": "የፊት ከፍ ይላል"
+        "am": "ፍሮንት ሬይዝስ"
     },
     {
         "id": "shrugs",
-        "am": "ሽረቦች"
+        "am": "ሽረግስ"
     },
     {
         "id": "extended-arm-circles",
-        "am": "የተዘረጉ የክንድ ክበቦች"
+        "am": "ኤክስቴንድድ አርም ሰርክልስ"
     },
     {
         "id": "jump-rope",
-        "am": "ገመድ ዝለል"
+        "am": "ገመድ ዝላይ"
     },
     {
         "id": "hand-to-toe",
-        "am": "እጅ ለእግር ጣት"
+        "am": "እጅ ወደ እግር"
     },
     {
         "id": "rest-period",
-        "am": "የእረፍት ጊዜ"
+        "am": "እረፍት"
     },
     {
         "id": "kneeled-pushups",
-        "am": "የተንበረከኩ ፑሹፕስ"
+        "am": "የጉልበት ፑሽአፕ"
     },
     {
         "id": "kneeled-wide-pushups",
-        "am": "ተንበርክከው ሰፊ ፑሹፕስ"
+        "am": "የጉልበት ሰፊ ፑሽአፕ"
     },
     {
         "id": "kneeled-narrow-pushups",
-        "am": "ተንበርክከው ጠባብ ፑሹፕስ"
+        "am": "ኒልድ ጠባብ ፑሽአፕ"
     },
     {
         "id": "hindu-pushups",
-        "am": "ሂንዱ ፑሹፕ"
+        "am": "ሂንዱ ፑሽአፕ"
     },
     {
         "id": "inclined-pushup",
-        "am": "የተዘበራረቀ ፑሹፕ"
+        "am": "ኢንክላይንድ ፑሽአፕ"
     },
     {
         "id": "wall-pushup",
-        "am": "የግድግዳ ፑሹፕ"
+        "am": "የግድግዳ ፑሽአፕ"
     },
     {
         "id": "narrow-pushup",
-        "am": "ጠባብ ፑሹፕ"
+        "am": "ጠባብ ፑሽአፕ"
     },
     {
         "id": "mountain-walkers",
-        "am": "የተራራ ተጓዦች"
+        "am": "ማውንቴን ዋከርስ"
     },
     {
         "id": "sumo-squat",
-        "am": "ሱሞ ስኩዌት"
+        "am": "ሱሞ ስኳት"
     },
     {
         "id": "kneeled-diamond-pushups",
-        "am": "ተንበርክኮ አልማዝ ፑሹፕስ"
+        "am": "የጉልበት ዳይመንድ ፑሽአፕ"
     },
     {
         "id": "bridge-kicker",
-        "am": "ድልድይ ኪከር"
+        "am": "ብሪጅ ኪከር"
     },
     {
         "id": "triceps-pushup",
-        "am": "ትራይሴፕስ ፑሹፕ"
+        "am": "ትራይሴፕስ ፑሽአፕ"
     },
     {
         "id": "burpees",
-        "am": "ቡርፒስ"
+        "am": "በርፒስ"
     },
     {
         "id": "bear-crawl",
-        "am": "ድብ መጎተት"
+        "am": "ቤር ክራውል"
     },
     {
         "id": "mountain-climbers",
-        "am": "የተራራ አውራጆች"
+        "am": "ማውንቴን ክላይምበርስ"
     },
     {
         "id": "punches",
-        "am": "ቡጢዎች"
+        "am": "ቡጢ"
     },
     {
         "id": "decline-pushups",
-        "am": "ፑሹፕስን ውድቅ አድርግ"
+        "am": "ዲክላይን ፑሽአፕ"
     },
     {
         "id": "superman",
-        "am": "ሱፐር ሰው"
+        "am": "ሱፐር ማን"
     },
     {
         "id": "side-plank-elbow-to-knee",
-        "am": "የጎን ፕላንክ ክርናቸው እስከ ጉልበት"
+        "am": "የጎን ፕላንክ እጅ ወደ ጉልበት"
     },
     {
         "id": "diamond-pushups",
-        "am": "የአልማዝ ፑሹፕስ"
+        "am": "ዳይመንድ ፑሽአፕ"
     },
     {
         "id": "pull-up",
-        "am": "አፕስ ይጎትቱ"
+        "am": "ፑል አፕ"
     },
     {
         "id": "flutter-kick-squats",
-        "am": "Flutter Kick Squats"
+        "am": "ፍለተር ኪክ ስኳት"
     },
     {
         "id": "crunches",
@@ -325,171 +325,171 @@
     },
     {
         "id": "leg-pull-knee-ups",
-        "am": "እግር ጉልበቶች ይጎትቱ"
+        "am": "ሌግ ፑል ኒ አፕስ"
     },
     {
         "id": "l-sit",
-        "am": "ኤል-ቁጭ"
+        "am": "ኤል-ሲት"
     },
     {
         "id": "kneeling-back-rotation",
-        "am": "ተንበርክኮ ወደ ኋላ መዞር"
+        "am": "በእንብርክክ ወደ ኋላ መዞር"
     },
     {
         "id": "side-plank-hip-raise",
-        "am": "የጎን ፕላንክ ሂፕ ከፍ ማድረግ"
+        "am": "ሳይድ ፕላንክ ሂፕ ሬይዝ"
     },
     {
         "id": "side-plank",
-        "am": "የጎን ፕላንክ"
+        "am": "ሳይድ ፕላንክ"
     },
     {
         "id": "cross-crunches",
-        "am": "ክራንች ክራንች"
+        "am": "ክሮስ ክረንችስ"
     },
     {
         "id": "reverse-crunches",
-        "am": "የተገላቢጦሽ ክራንች"
+        "am": "ሪቨርስ ክረንችስ"
     },
     {
         "id": "crab-twist-toe-touch",
-        "am": "የክራብ ጠማማ የእግር ጣት ንካ"
+        "am": "ክራብ ትዊስት ቶው ታች"
     },
     {
         "id": "hanging-knee-raises",
-        "am": "የተንጠለጠለ ጉልበት ይነሳል"
+        "am": "ሀንጊንግ ኒ ሬይዝስ"
     },
     {
         "id": "upper-abs",
-        "am": "የላይኛው አቢስ"
+        "am": "የላይኛው ሆድ"
     },
     {
         "id": "lower-abs",
-        "am": "የታችኛው Abs"
+        "am": "የታችኛው ሆድ"
     },
     {
         "id": "squat-and-knee-kick",
-        "am": "ስኩዌት እና ጉልበት ኪክ"
+        "am": "ስኳት እና ኒ ኪክ"
     },
     {
         "id": "leg-raises",
-        "am": "እግር ከፍ ይላል"
+        "am": "ሌግ ሬይዝስ"
     },
     {
         "id": "jump-squat",
-        "am": "ስኳትን ዝለል"
+        "am": "ጃምፕ ስኳት"
     },
     {
         "id": "bulgarian-squat",
-        "am": "ቡልጋሪያኛ ስኳት"
+        "am": "ቡልጋሪያን ስኳት"
     },
     {
         "id": "wall-sit",
-        "am": "የግድግዳ ቁጭ"
+        "am": "ዋል ሲት"
     },
     {
         "id": "rear-lunges",
-        "am": "የኋላ ሳንባዎች"
+        "am": "የኋላ ላንጅስ"
     },
     {
         "id": "pistol-squat",
-        "am": "Pistol Squat"
+        "am": "ፒስትል ስኳት"
     },
     {
         "id": "frog-jumps",
-        "am": "እንቁራሪት ይዘላል"
+        "am": "ፍሮግ ጃምፕ"
     },
     {
         "id": "prisoners-squat",
-        "am": "እስረኞች Squat"
+        "am": "ፕሪዘነርስ ስኳት"
     },
     {
         "id": "bulgarian-split-squat-jump",
-        "am": "ቡልጋሪያኛ ስፕሊት ስኳት ዝለል"
+        "am": "ቡልጋሪያን ስፕሊት ስኳት ጃምፕ"
     },
     {
         "id": "step-ups",
-        "am": "ደረጃ ወደላይ"
+        "am": "ስቴፕ አፕስ"
     },
     {
         "id": "high-knee-squat",
-        "am": "ከፍተኛ የጉልበት Squat"
+        "am": "የጉልበት ስኳት"
     },
     {
         "id": "high-knees-lift-run",
-        "am": "ከፍተኛ የጉልበት ማንሳት ሩጫ"
+        "am": "ሃይ ኒ ሊፍት ራን"
     },
     {
         "id": "bench-glute-flutter-kicks",
-        "am": "የቤንች Glute Flutter Kicks"
+        "am": "ቤንች ግሉት ፍላተር ኪክስ"
     },
     {
         "id": "toe-touch-squat",
-        "am": "Toe Touch Squat"
+        "am": "ቶ ታች ስኳት"
     },
     {
         "id": "toe-touches",
-        "am": "የእግር ጣቶች ንክኪዎች"
+        "am": "እግር መንካት"
     },
     {
         "id": "side-crunches",
-        "am": "የጎን ክራንች"
+        "am": "የጎን ክረንችስ"
     },
     {
         "id": "knee-to-elbow",
-        "am": "ከጉልበት እስከ ክርን"
+        "am": "ጉልበት ወደ እጅ"
     },
     {
         "id": "elevated-crunches",
-        "am": "ከፍ ያለ ክራንች"
+        "am": "ኤሌቬትድ ክረንችስ"
     },
     {
         "id": "shoulder-pushups",
-        "am": "የትከሻ ፑሹፕስ"
+        "am": "የትከሻ ፑሽአፕ"
     },
     {
         "id": "easy-side-plank",
-        "am": "ቀላል የጎን ፕላንክ"
+        "am": "ኢዚ ሳይድ ፕላንክ"
     },
     {
         "id": "single-leg-plank",
-        "am": "ነጠላ እግር ፕላንክ"
+        "am": "የአንድ እግር ፕላንክ"
     },
     {
         "id": "abdominal-hip-raises",
-        "am": "የሆድ ዳሌ ከፍ ይላል"
+        "am": "አብዶሚናል ሂፕ ሬይዝስ"
     },
     {
         "id": "alternating-leg-lifts",
-        "am": "ተለዋጭ እግር ማንሻዎች"
+        "am": "አልተርኔቲንግ ሌግ ሊፍትስ"
     },
     {
         "id": "sit-ups",
-        "am": "ቁጭ-አፕ"
+        "am": "ሲት አፕ"
     },
     {
         "id": "alternating-crunches",
-        "am": "ተለዋጭ ክራንች"
+        "am": "አልተርኔቲንግ ክረንችስ"
     },
     {
         "id": "oblique-crunches",
-        "am": "Oblique Crunches"
+        "am": "ኦብሊክ ክረንችስ"
     },
     {
         "id": "cat-cow",
-        "am": "ድመት ላም"
+        "am": "ካት ካው"
     },
     {
         "id": "lying-lat-pulldown",
-        "am": "ውሸት Lat Pulldown"
+        "am": "ላይንግ ላት ፑልዳውን"
     },
     {
         "id": "high-knees-against-wall",
-        "am": "በግድግዳ ላይ ከፍተኛ ጉልበቶች"
+        "am": "ሃይ ኒስ አጌንስት ዋል"
     },
     {
         "id": "jumping",
-        "am": "መዝለል"
+        "am": "ዝላይ"
     },
     {
         "id": "running-in-place",
@@ -497,7 +497,7 @@
     },
     {
         "id": "knee-kick",
-        "am": "የጉልበት ምቶች"
+        "am": "ጉልበት እርግጫ"
     },
     {
         "id": "butterfly-dips",
@@ -505,43 +505,43 @@
     },
     {
         "id": "ankle-tap-push-ups",
-        "am": "ቁርጭምጭሚት መታ መግፋት"
+        "am": "አንክል ታፕ ፑሽአፕስ"
     },
     {
         "id": "push-up-burpees",
-        "am": "Burpees ወደላይ ይግፉ"
+        "am": "ፑሽአፕ በርፒስ"
     },
     {
         "id": "chest-stretch",
-        "am": "የደረት ዝርጋታ"
+        "am": "የደረት ስትሬች"
     },
     {
         "id": "speed-bag-punches",
-        "am": "የፍጥነት ቦርሳ ቡጢዎች"
+        "am": "ስፒድ ባግ ፓንችስ"
     },
     {
         "id": "concentration-curl",
-        "am": "የማጎሪያ ከርል"
+        "am": "ኮንሰንትሬሽን ከርል"
     },
     {
         "id": "wrist-curl",
-        "am": "የእጅ አንጓ"
+        "am": "ሪስት ከርል"
     },
     {
         "id": "reverse-wrist-curl",
-        "am": "የተገላቢጦሽ የእጅ አንጓ"
+        "am": "ሪቨርስ ሪስት ከርል"
     },
     {
         "id": "close-grip-bench-press",
-        "am": "ዝጋ-ግሪፕ ቤንች ማተሚያ"
+        "am": "ጠባብ ቤንች ፕሬስ"
     },
     {
         "id": "farmers-walk",
-        "am": "የገበሬዎች የእግር ጉዞ"
+        "am": "ፋርመርስ ዋክ"
     },
     {
         "id": "dumbbell-shoulder-press",
-        "am": "Dumbbell ትከሻ ፕሬስ"
+        "am": "ዳምቤል ሾልደር ፕሬስ"
     },
     {
         "id": "arnold-press",
@@ -549,83 +549,83 @@
     },
     {
         "id": "bent-over-reverse-fly",
-        "am": "የታጠፈ ተገላቢጦሽ ፍላይ"
+        "am": "ቤንት-ኦቨር ሪቨርስ ፍላይ"
     },
     {
         "id": "face-pull",
-        "am": "ፊት መጎተት"
+        "am": "ፌስ ፑል"
     },
     {
         "id": "big-arm-circles",
-        "am": "ትልቅ ክንድ ክበቦች"
+        "am": "ቢግ አርም ሰርክልስ"
     },
     {
         "id": "deadlift-upright-row",
-        "am": "Deadlift ቀጥ ረድፍ"
+        "am": "ዴድሊፍት አፕራይት ሮው"
     },
     {
         "id": "inchworm",
-        "am": "ኢንች ትል"
+        "am": "ኢንችዎርም"
     },
     {
         "id": "half-squat-jab-cross",
-        "am": "ግማሽ-Squat Jab መስቀል"
+        "am": "ሃልፍ-ስኳት ጃብ ክሮስ"
     },
     {
         "id": "plie-squat-scoop-up",
-        "am": "ፕሊ ስኳት ስካፕ አፕ"
+        "am": "ፕሊ ስኳት ስኩፕ-አፕ"
     },
     {
         "id": "side-lunge-front-raise",
-        "am": "የጎን ላንግ የፊት መጨመሪያ"
+        "am": "ሳይድ ላንጅ ፍሮንት ሬዝ"
     },
     {
         "id": "lunge-punch",
-        "am": "የሳንባ ቡጢ"
+        "am": "ላንጅ ፓንች"
     },
     {
         "id": "split-squat-press",
-        "am": "ስፕሊት ስኩዌት ፕሬስ"
+        "am": "ስፕሊት ስኳት ፕሬስ"
     },
     {
         "id": "plank-bird-dog",
-        "am": "ፕላንክ ወፍ ውሻ"
+        "am": "ፕላንክ ብርድ ዶግ"
     },
     {
         "id": "balance-chop",
-        "am": "ሚዛን ቾፕ"
+        "am": "ባላንስ ቾፕ"
     },
     {
         "id": "single-arm-dumbbell-row",
-        "am": "ነጠላ ክንድ Dumbbell ረድፍ"
+        "am": "አንድ እጅ ዳምቤል ሮው"
     },
     {
         "id": "t-bar-row",
-        "am": "ቲ-ባር ረድፍ"
+        "am": "ቲ-ባር ሮው"
     },
     {
         "id": "hyperextensions",
-        "am": "ከፍተኛ ቅጥያዎች"
+        "am": "ሃይፐርኤክስቴንሽንስ"
     },
     {
         "id": "floor-hyperextension",
-        "am": "ወለል ሃይፐር ኤክስቴንሽን"
+        "am": "ፍሎር ሃይፐርኤክስቴንሽን"
     },
     {
         "id": "frog-crunches",
-        "am": "እንቁራሪት ክራንች"
+        "am": "ፍሮግ ክረንችስ"
     },
     {
         "id": "heel-touches",
-        "am": "ተረከዝ ንክኪዎች"
+        "am": "ሂል ታችስ"
     },
     {
         "id": "sumo-side-bends",
-        "am": "ሱሞ የጎን መታጠፊያዎች"
+        "am": "ሱሞ ሳይድ ቤንድስ"
     },
     {
         "id": "single-leg-squat-kickback",
-        "am": "ነጠላ እግር Squat Kickback"
+        "am": "ሲንግል ሌግ ስኳት ኪክባክ"
     },
     {
         "id": "gate-swings",
@@ -633,66 +633,66 @@
     },
     {
         "id": "leg-lifts",
-        "am": "የእግር ማንሻዎች"
+        "am": "ሌግ ሊፍትስ"
     },
     {
         "id": "side-bend",
-        "am": "የጎን መታጠፍ"
+        "am": "ሳይድ ቤንድ"
     },
     {
         "id": "curtsy-lunge-side-kick-raise",
-        "am": "Curtsy Lunge Side-Kick Raise"
+        "am": "ኩርቲሲ ላንጅ ሳይድ-ኪክ ሬዝ"
     },
     {
         "id": "lunge-back-kick",
-        "am": "የሳንባ የኋላ ምት"
+        "am": "ላንጅ ባክ ኪክ"
     },
     {
         "id": "cossack-squat",
-        "am": "Cossack Squat"
+        "am": "ኮሳክ ስኳት"
     },
     {
         "id": "double-pulse-squat-jump",
-        "am": "Double Pulse Squat ዝለል"
+        "am": "ዳብል ፐልስ ስኳት ጃምፕ"
     },
     {
         "id": "squat-and-jump",
-        "am": "ይዝለሉ እና ዝለል"
+        "am": "ስኳት እና ዝላይ"
     },
     {
         "id": "hamstring-curl",
-        "am": "Hamstring Curl"
+        "am": "ሃምስትሪንግ ከርል"
     },
     {
         "id": "hip-thrusts",
-        "am": "የሂፕ ግፊቶች"
+        "am": "ሂፕ ትራስትስ"
     },
     {
         "id": "squat-tuck-jump",
-        "am": "ስኳት ታክ ዝለል"
+        "am": "ስኳት ታክ ጃምፕ"
     },
     {
         "id": "star-jumps",
-        "am": "ኮከብ ዘለላዎች"
+        "am": "ስታር ጃምፕስ"
     },
     {
         "id": "cross-body-mountain-climbers",
-        "am": "ተሻጋሪ-የሰውነት ተራራ ወጣ ገባዎች"
+        "am": "ክሮስ-ቦዲ ማውንቴን ክላይምበርስ"
     },
     {
         "id": "single-leg-broad-jumps",
-        "am": "ነጠላ እግር ሰፋ ያለ ዝላይ"
+        "am": "ሲንግል ሌግ ብሮድ ጃምፕስ"
     },
     {
         "id": "sphinx",
-        "am": "ሰፊኒክስ"
+        "am": "ስፊንክስ"
     },
     {
         "id": "split-jump-squat",
-        "am": "የተከፈለ ዝለል ስኩዌት"
+        "am": "ስፕሊት ጃምፕ ስኳት"
     },
     {
         "id": "flutter-kicks",
-        "am": "ፍሉተር ኪክስ"
+        "am": "ፍላተር ኪክስ"
     }
 ]

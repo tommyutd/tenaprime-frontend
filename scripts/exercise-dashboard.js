@@ -145,6 +145,7 @@ function hideExercisePopup(popup) {
 
 async function checkWorkoutPlan() {
     try {
+        const workoutPlanHeading = document.querySelector('.workout-plan-heading');
         const token = localStorage.getItem('login-token');
         const response = await fetch(`${window.CONFIG.API_URL}/profile/workout`, {
             headers: {
@@ -159,9 +160,6 @@ async function checkWorkoutPlan() {
                 workoutPlanHeading.style.display = 'none';
                 return;
             }
-            
-            // Workout plan exists - show the workout plan section
-            workoutPlanHeading.style.display = 'block';
             
             const headingText = workoutPlanHeading.querySelector('#workout-plan-heading-title');
             const descriptionText = workoutPlanHeading.querySelector('#workout-plan-heading-description');

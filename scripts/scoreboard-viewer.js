@@ -76,8 +76,18 @@ function displayScoreboard(scoreboardData) {
     });
 }
 
+function showLoading() {
+    scoreboardBody.innerHTML = `
+        <div class="loading-container">
+            <div class="loading-spinner spinner-small"></div>
+            <span data-text-key="loading-scoreboard">Loading scoreboard...</span>
+        </div>
+    `;
+}
+
 async function loadScoreboard() {
     try {
+        showLoading();
         const weeksAgo = weekSelector.value;
         const response = await fetch(`${window.CONFIG.API_URL}/scoreboard?weeksago=${weeksAgo}`, {
             headers: {

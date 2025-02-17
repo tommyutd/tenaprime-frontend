@@ -69,7 +69,9 @@ document.addEventListener('DOMContentLoaded', async function() {
 });
 
 async function checkNutritionPlan() {
+    let nutritionPlanHeading;
     try {
+        nutritionPlanHeading = document.querySelector('.nutrition-plan-heading');
         const token = localStorage.getItem('login-token');
         const response = await fetch(`${window.CONFIG.API_URL}/profile/nutrition`, {
             headers: {
@@ -79,7 +81,6 @@ async function checkNutritionPlan() {
 
         if (response.ok) {
             const nutritionPlan = await response.json();
-            const nutritionPlanHeading = document.querySelector('.nutrition-plan-heading');
             
             if (!nutritionPlan || !nutritionPlan.nutritionProfile) {
                 // No nutrition plan exists - hide the nutrition plan section

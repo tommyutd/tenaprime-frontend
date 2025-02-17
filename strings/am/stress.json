@@ -1,7 +1,7 @@
 [
     {
         "id": "stress-guide-title",
-        "am": "የጭንቀት እፎይታ መልመጃዎች መመሪያ መጽሐፍ"
+        "am": "የጭንቀት እፎይታ ስፖርቶች መመሪያ"
     },
     {
         "id": "stress-guide-description",
@@ -9,27 +9,27 @@
     },
     {
         "id": "stress-intro-title",
-        "am": "የጭንቀት ደንብ መግቢያ"
+        "am": "የጭንቀት ቁጥጥር መግቢያ"
     },
     {
         "id": "stress-intro-content",
-        "am": "ውጥረት ለአስቸጋሪ ሁኔታዎች ተፈጥሯዊ ምላሽ ነው፣ ነገር ግን ሥር የሰደደ ወይም ከልክ ያለፈ ውጥረት በአእምሮም ሆነ በአካላዊ ጤንነት ላይ አሉታዊ ተጽዕኖ ያሳድራል። በተነጣጠሩ ልምምዶች እና ስልቶች ውጥረትን መቆጣጠርን መማር ስሜታዊ ሚዛንን ለመጠበቅ፣ ጥንካሬን ለማሻሻል እና አጠቃላይ ደህንነትን ለማሻሻል አስፈላጊ ነው።"
+        "am": "ውጥረት ለአስቸጋሪ ሁኔታዎች ተፈጥሯዊ ምላሽ ነው፣ ነገር ግን ሥር የሰደደ ወይም ከልክ ያለፈ ውጥረት በአእምሮም ሆነ በአካላዊ ጤንነት ላይ አሉታዊ ተጽዕኖ ያሳድራል። በተነጣጠሩ ስፖርቶች እና ስልቶች ውጥረትን መቆጣጠርን መማር ስሜታዊ ሚዛንን ለመጠበቅ፣ ጥንካሬን ለማሻሻል እና አጠቃላይ ደህንነትን ለማሻሻል አስፈላጊ ነው።"
     },
     {
         "id": "stress-understanding-title",
-        "am": "ጭንቀትን እና ተጽእኖውን መረዳት"
+        "am": "ጭንቀትን እና ተጽዕኖውን መረዳት"
     },
     {
         "id": "stress-understanding-content",
-        "am": "ውጥረት የሰውነትን \"የመዋጋት ወይም የበረራ\" ምላሽ ያነሳሳል, እንደ ኮርቲሶል እና አድሬናሊን ያሉ ሆርሞኖችን ያስወጣል. የአጭር ጊዜ ጭንቀት ለተነሳሽነት ወይም ለፈጣን ተግዳሮቶች ምላሽ ሊረዳ ቢችልም፣ ረዘም ላለ ጊዜ የሚቆይ ጭንቀት ወደሚከተሉት ሊመራ ይችላል፡-"
+        "am": "ውጥረት የሰውነትን \"የመዋጋት ወይም የማምለጥ\" ምላሽ ያነሳሳል, እንደ ኮርቲሶል እና አድሬናሊን ያሉ ሆርሞኖችን ያስወጣል። የአጭር ጊዜ ጭንቀት ለተነሳሽነት ወይም ለፈጣን ተግዳሮቶች ምላሽ ሊረዳ ቢችልም፣ ረዘም ላለ ጊዜ የሚቆይ ጭንቀት ወደሚከተሉት ሊመራ ይችላል፡-"
     },
     {
         "id": "stress-impact-physical",
-        "am": "<b>የአካል ምልክቶች፡</b> ራስ ምታት፣ የጡንቻ ውጥረት፣ ድካም"
+        "am": "<b>የአካል ህመሞች፡</b> ራስ ምታት፣ የጡንቻ ውጥረት፣ ድካም"
     },
     {
         "id": "stress-impact-emotional",
-        "am": "<b>ስሜታዊ ጉዳዮች፡</b> መበሳጨት፣ ጭንቀት፣ የስሜት መለዋወጥ"
+        "am": "<b>ስሜታዊ ችግሮች፡</b> መበሳጨት፣ ጭንቀት፣ የስሜት መለዋወጥ"
     },
     {
         "id": "stress-impact-cognitive",
@@ -37,7 +37,7 @@
     },
     {
         "id": "stress-importance-title",
-        "am": "የጭንቀት ደንብ አስፈላጊነት"
+        "am": "የጭንቀት ቁጥጥር አስፈላጊነት"
     },
     {
         "id": "stress-importance-mental",
@@ -57,7 +57,7 @@
     },
     {
         "id": "stress-factors-lifestyle",
-        "am": "<b>የአኗኗር ምርጫዎች፡</b> ደካማ የጊዜ አያያዝ፣ ከመጠን ያለፈ ኃላፊነት እና የእረፍት ጊዜ ማጣት ጭንቀትን ይጨምራል።"
+        "am": "<b>የአኗኗር ምርጫዎች፡</b> ደካማ የጊዜ አጠቃቀም፣ ከመጠን ያለፈ ኃላፊነት እና የእረፍት ጊዜ ማጣት ጭንቀትን ይጨምራል።"
     },
     {
         "id": "stress-factors-environment",
@@ -65,11 +65,11 @@
     },
     {
         "id": "stress-factors-psychological",
-        "am": "<b>ሥነ ልቦናዊ ምክንያቶች፡</b> አሉታዊ የአስተሳሰብ ዘይቤዎች፣ ፍጽምናዊነት እና ያለፉ ጉዳቶች ውጥረትን ከፍ ያደርጋሉ።"
+        "am": "<b>ሥነ ልቦናዊ ምክንያቶች፡</b> አሉታዊ የአስተሳሰብ ዘይቤዎች፣ ፍፁምናዊነት እና ያለፉ ጉዳቶች ውጥረትን ከፍ ያደርጋሉ።"
     },
     {
         "id": "stress-factors-medical",
-        "am": "<b>የህክምና ሁኔታዎች እና መድሃኒቶች፡</b> አንዳንድ የጤና ጉዳዮች እና መድሃኒቶች የጭንቀት ደረጃዎች ላይ ተጽእኖ ሊያሳድሩ ይችላሉ።"
+        "am": "<b>የህክምና ሁኔታዎች እና መድሃኒቶች፡</b> አንዳንድ የጤና ጉዳዮች እና መድሃኒቶች የጭንቀት ደረጃዎች ላይ ተጽዕኖ ሊያሳድሩ ይችላሉ።"
     },
     {
         "id": "stress-techniques-title",
@@ -77,11 +77,11 @@
     },
     {
         "id": "stress-breathing-stress-relief-title",
-        "am": "ሀ. ለጭንቀት እፎይታ የመተንፈስ መልመጃዎች"
+        "am": "ሀ. ለጭንቀት እፎይታ የሚሰጡ የአተነፋፈስ ስፖርቶች"
     },
     {
         "id": "stress-box-breathing-title",
-        "am": "1. የሳጥን መተንፈስ"
+        "am": "1. ቦክስ አተነፋፈስ"
     },
     {
         "id": "stress-box-breathing-howto",
@@ -93,27 +93,27 @@
     },
     {
         "id": "stress-box-breathing-step2",
-        "am": "ለ 4 ቆጠራ በአፍንጫዎ ውስጥ ይንፉ።"
+        "am": "በአፍንጫዎ ወደ ውስጥ ይተንፍሱ፤ እስከ 4 ይቁጠሩ ።"
     },
     {
         "id": "stress-box-breathing-step3",
-        "am": "ለ 4 ቆጠራ እስትንፋስዎን ይያዙ።"
+        "am": "እስትንፋስዎን ይያዙ፤ እስከ 4 ይቁጠሩ።"
     },
     {
         "id": "stress-box-breathing-step4",
-        "am": "ለ 4 ቆጠራ በአፍዎ ይንፉ።"
+        "am": "በአፍዎ ወደ ውጪ ይተንፍሱ፤ እስከ 4 ይቁጠሩ።"
     },
     {
         "id": "stress-box-breathing-step5",
-        "am": "ለ 4 ቆጠራ እንደገና እስትንፋስዎን ይያዙ።"
+        "am": "እንደገና እስትንፋስዎን ይያዙ፤እስከ 4 ይቁጠሩ።"
     },
     {
         "id": "stress-box-breathing-step6",
-        "am": "ለበርካታ ዑደቶች ይድገሙ."
+        "am": "ለበርካታ ሳይክሎች ይድገሙ።"
     },
     {
         "id": "stress-four-seven-eight-title",
-        "am": "2. 4-7-8 መተንፈስ"
+        "am": "2. 4-7-8 አተነፋፈስ"
     },
     {
         "id": "stress-four-seven-eight-howto",
@@ -121,27 +121,27 @@
     },
     {
         "id": "stress-four-seven-eight-step1",
-        "am": "ቀጥ ያለ ጀርባ ጋር በምቾት ይቀመጡ።"
+        "am": "በምቾት ይቀመጡ፤ ጀርባዎን ቀጥ ያድርጉ።"
     },
     {
         "id": "stress-four-seven-eight-step2",
-        "am": "ለ 4 ቆጠራ በአፍንጫዎ በፀጥታ ይንፉ።"
+        "am": "በአፍንጫዎ በቀስታ ወደ ውስጥ ይተንፍሱ፤ እስከ 4 ይቁጠሩ።"
     },
     {
         "id": "stress-four-seven-eight-step3",
-        "am": "እስትንፋስዎን ለ 7 ቆጠራ ይያዙ።"
+        "am": "እስትንፋስዎን ይያዙ፤እስከ 7 ይቁጠሩ"
     },
     {
         "id": "stress-four-seven-eight-step4",
-        "am": "ለ 8 ቆጠራ በአፍዎ በኃይል ያውጡ።"
+        "am": "ለ 8 ቆጠራ በአፍዎ በኃይል ወደ ውጪ ያውጡ።"
     },
     {
         "id": "stress-four-seven-eight-step5",
-        "am": "ዑደቱን 4 ጊዜ ይድገሙት."
+        "am": "ሳይክሉን 4 ጊዜ ይድገሙት"
     },
     {
         "id": "stress-diaphragmatic-breathing-title",
-        "am": "3. ድያፍራም መተንፈስ"
+        "am": "3. የድያፍራም አተነፋፈስ"
     },
     {
         "id": "stress-diaphragmatic-breathing-howto",
@@ -149,55 +149,55 @@
     },
     {
         "id": "stress-diaphragmatic-breathing-step1",
-        "am": "በምቾት ይቀመጡ ወይም ይተኛሉ."
+        "am": "በምቾት ይቀመጡ ወይም ይተኙ።"
     },
     {
         "id": "stress-diaphragmatic-breathing-step2",
-        "am": "አንድ እጅ በደረትዎ ላይ እና አንዱን በሆድዎ ላይ ያድርጉ."
+        "am": "አንድ እጅ በደረትዎ ላይ እና አንዱን በሆድዎ ላይ ያድርጉ።"
     },
     {
         "id": "stress-diaphragmatic-breathing-step3",
-        "am": "በአፍንጫዎ ቀስ ብለው ይንፉ, ሆድዎ ከፍ እንዲል ያድርጉ."
+        "am": "በአፍንጫዎ ቀስ ብለው ወደ ውጪ ይተንፍሱ፣ ሆድዎ እንዲነፋ ያድርጉ።"
     },
     {
         "id": "stress-diaphragmatic-breathing-step4",
-        "am": "በአፍዎ ወይም በአፍንጫዎ መተንፈስ, ሆድዎ እንዲወድቅ ያድርጉ."
+        "am": "በአፍዎ ወይም በአፍንጫዎ ወደ ውጪ ይተንፍሱ፣ ሆድዎ እንዲተነፍሱ ያድርጉ።"
     },
     {
         "id": "stress-diaphragmatic-breathing-step5",
-        "am": "ለብዙ ደቂቃዎች መድገም."
+        "am": "ለብዙ ደቂቃዎች መድገም።"
     },
     {
         "id": "stress-breathing-energy-title",
-        "am": "ለ. ለሃይል እና ህያውነት የመተንፈስ መልመጃዎች"
+        "am": "ለ. ለሃይል እና ህያውነት የአተንፋፈስ ስፖርቶች"
     },
     {
         "id": "stress-skull-breathing-title",
-        "am": "ሀ. የራስ ቅል የሚያበራ እስትንፋስ"
+        "am": "ሀ. ስከል ሻይኒንግ እስትንፋስ"
     },
     {
         "id": "stress-skull-breathing-steps-title",
-        "am": "<b>እርምጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፡</b>"
     },
     {
         "id": "stress-skull-breathing-step1",
-        "am": "ቀጥ ያለ አከርካሪ ጋር በምቾት ይቀመጡ።"
+        "am": "በምቾት ይቀመጡ፤ ጀርባዎን ቀጥ ያድርጉ።"
     },
     {
         "id": "stress-skull-breathing-step2",
-        "am": "በአፍንጫዎ ውስጥ ጥልቅ ትንፋሽ ይውሰዱ።"
+        "am": "በአፍንጫዎ ወደ ውስጥ ጥልቅ ትንፋሽ ይውሰዱ።"
     },
     {
         "id": "stress-skull-breathing-step3",
-        "am": "ሆድዎን ወደ ውስጥ በሚስቡበት ጊዜ በአፍንጫዎ ውስጥ በደንብ ያውጡ።"
+        "am": "ሆድዎን ወደ ውስጥ እየሳቡ በአፍንጫዎ በደንብ ወደ ውጪ ይተንፍሱ።"
     },
     {
         "id": "stress-skull-breathing-step4",
-        "am": "በአተነፋፈስ መካከል ያለ መተንፈስ ይፍቀዱ።"
+        "am": "ወደ ውጪ በመተንፈስ መካከል ወደ ውስጥ መተንፈስን ይፍቀዱ።"
     },
     {
         "id": "stress-skull-breathing-step5",
-        "am": "ለ 30 ሰከንድ ያህል ዑደቱን በፍጥነት ይቀጥሉ."
+        "am": "ለ 30 ሰከንድ ያህል ሳይክሉን በፍጥነት ይቀጥሉ።"
     },
     {
         "id": "stress-skull-breathing-step6",
@@ -205,31 +205,31 @@
     },
     {
         "id": "stress-skull-breathing-warning",
-        "am": "<i>ማስታወሻ፡ ከፍተኛ የደም ግፊት ወይም የልብ ህመም ካለብዎ ያስወግዱ።</i>"
+        "am": "<i>ማስታወሻ፡ ከፍተኛ የደም ግፊት ወይም የልብ ህመም ካለብዎ ያቁሙ።</i>"
     },
     {
         "id": "stress-bellows-breath-title",
-        "am": "ለ. Bellows እስትንፋስ"
+        "am": "ለ. ቤሎውስ አተነፋፈስ"
     },
     {
         "id": "stress-bellows-breath-steps-title",
-        "am": "<b>እርምጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፡</b>"
     },
     {
         "id": "stress-bellows-breath-step1",
-        "am": "ቀጥ ብለህ ተቀመጥ።"
+        "am": "ቀጥ ብለው ይቀመጡ።"
     },
     {
         "id": "stress-bellows-breath-step2",
-        "am": "በአፍንጫዎ ውስጥ በጥልቀት ይተንፍሱ, ሆድዎን ያስፋፉ."
+        "am": "በአፍንጫዎ ወደ ውስጥ በጥልቀት ይተንፍሱ፣ ሆድዎን ያስፋፉ።"
     },
     {
         "id": "stress-bellows-breath-step3",
-        "am": "በአፍንጫዎ በኃይል ያውጡ ፣ ሆድዎን ይሰብስቡ።"
+        "am": "በአፍንጫዎ በኃይል ወደ ውጪ ይተንፋሱ፣ ሆድዎን ይሰብስቡ።"
     },
     {
         "id": "stress-bellows-breath-step4",
-        "am": "ለ 10 ትንፋሽዎች ወደ ውስጥ መተንፈስ እና በኃይል መተንፈስዎን ይቀጥሉ።"
+        "am": "ለ 10 ትንፋሽዎች ወደ ውስጥ እና ወደ ውጪ መተንፈስዎን ይቀጥሉ።"
     },
     {
         "id": "stress-bellows-breath-step5",
@@ -237,11 +237,11 @@
     },
     {
         "id": "stress-stimulating-breath-title",
-        "am": "ሐ. የሚያነቃቃ እስትንፋስ (የእሳት እስትንፋስ)"
+        "am": "ሐ. የሚያነቃቃ እስትንፋስ"
     },
     {
         "id": "stress-stimulating-breath-steps-title",
-        "am": "<b>እርምጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፡</b>"
     },
     {
         "id": "stress-stimulating-breath-step1",
@@ -249,27 +249,27 @@
     },
     {
         "id": "stress-stimulating-breath-step2",
-        "am": "ትንፋሹን እኩል በማድረግ በአፍንጫዎ በፍጥነት ወደ ውስጥ ይተንፍሱ እና ይተንፍሱ።"
+        "am": "ትንፋሹን እኩል በማድረግ በአፍንጫዎ በፍጥነት ወደ ውስጥ እና ወደ ውጪ ይተንፍሱ።"
     },
     {
         "id": "stress-stimulating-breath-step3",
-        "am": "በሰከንድ 2-3 ትንፋሽዎችን ያጥፉ።"
+        "am": "በሰከንድ 2-3 ትንፋሽዎችን ያልሙ።"
     },
     {
         "id": "stress-stimulating-breath-step4",
-        "am": "ለመጀመር ለ 15-30 ሰከንዶች ይቀጥሉ."
+        "am": "ለመጀመር ከ15-30 ሰከንዶች ይጀምሩ።"
     },
     {
         "id": "stress-breathing-balance-title",
-        "am": "ሐ. ለተመጣጣኝ እና ለመስማማት የመተንፈስ መልመጃዎች"
+        "am": "ሐ. ለሃርመኒ የሚደረጉ የአተነፋፈስ ስፖርቶች"
     },
     {
         "id": "stress-alternate-nostril-title",
-        "am": "ሀ. ተለዋጭ የአፍንጫ መተንፈስ"
+        "am": "ሀ. ተለዋዋጭ የአፍንጫ አተነፋፈስ"
     },
     {
         "id": "stress-alternate-nostril-steps-title",
-        "am": "<b>እርምጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፡</b>"
     },
     {
         "id": "stress-alternate-nostril-step1",
@@ -277,11 +277,11 @@
     },
     {
         "id": "stress-alternate-nostril-step2",
-        "am": "ቀኝ እጃችሁን ተጠቀም፡ የቀኝ አፍንጫ አውራ ጣት፣ የቀለበት ጣት በግራ በኩል።"
+        "am": "ቀኝ እጃችሁን ይጠቀሙ፡ አውራ ጣትዎን የቀኝ አፍንጫ ላይ የቀለበት ጣትዎን የግራው አፍንጫ ላይ።"
     },
     {
         "id": "stress-alternate-nostril-step3",
-        "am": "የቀኝ አፍንጫውን በአውራ ጣት ይዝጉ; በግራ አፍንጫ በኩል ወደ ውስጥ መተንፈስ."
+        "am": "የቀኝ አፍንጫዎን በአውራ ጣት ይዝጉ; በግራ አፍንጫ በኩል ወደ ውስጥ ይተንፍሱ።"
     },
     {
         "id": "stress-alternate-nostril-step4",
@@ -289,47 +289,47 @@
     },
     {
         "id": "stress-alternate-nostril-step5",
-        "am": "በቀኝ የአፍንጫ ቀዳዳ በኩል ወደ ውስጥ መተንፈስ."
+        "am": "በቀኝ የአፍንጫ ቀዳዳ በኩል ወደ ውስጥ ይተንፍሱ።"
     },
     {
         "id": "stress-alternate-nostril-step6",
-        "am": "የቀኝ አፍንጫን ይዝጉ; በግራ አፍንጫ በኩል መተንፈስ."
+        "am": "የቀኝ አፍንጫን ይዝጉ፣ በግራ አፍንጫ በኩል ወደ ውጪ ይተንፍሱ።"
     },
     {
         "id": "stress-alternate-nostril-step7",
-        "am": "ዑደቱን ይድገሙት."
+        "am": "ሳይክሉን ይድገሙት።"
     },
     {
         "id": "stress-equal-breathing-title",
-        "am": "ለ. እኩል መተንፈስ (ሳማ ቪሪቲ)"
+        "am": "ለ. እኩል አተነፋፈስ (ሳማ ቪሪቲ)"
     },
     {
         "id": "stress-equal-breathing-steps-title",
-        "am": "<b>እርምጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፡</b>"
     },
     {
         "id": "stress-equal-breathing-step1",
-        "am": "በምቾት ይቀመጡ ወይም ይተኛሉ."
+        "am": "በምቾት ይቀመጡ ወይም ይተኙ።"
     },
     {
         "id": "stress-equal-breathing-step2",
-        "am": "ለ 4 ቆጠራ በአፍንጫዎ ውስጥ ይንፉ።"
+        "am": "በአፍንጫዎ ወደ ውስጥ ይተንፍሱ፤ እስከ 4 ይቁጠሩ ።"
     },
     {
         "id": "stress-equal-breathing-step3",
-        "am": "ለ 4 ቆጠራ በአፍንጫዎ መተንፈስ።"
+        "am": "በአፍዎ ወደ ውጪ ይተንፍሱ፤ እስከ 4 ይቁጠሩ።"
     },
     {
         "id": "stress-equal-breathing-step4",
-        "am": "እስትንፋሶችን እና እስትንፋሶችን በእኩል ርዝመት በማቆየት ይቀጥሉ።"
+        "am": "ወደ ውስጥ እና ወደ ውጪ እስትንፋሶችን በእኩል ርዝመት በማቆየት ይቀጥሉ።"
     },
     {
         "id": "stress-coherent-breathing-title",
-        "am": "ሐ. ወጥነት ያለው መተንፈስ"
+        "am": "ሐ. ወጥነት ያለው አተነፋፈስ"
     },
     {
         "id": "stress-coherent-breathing-steps-title",
-        "am": "<b>እርምጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፡</b>"
     },
     {
         "id": "stress-coherent-breathing-step1",
@@ -337,43 +337,43 @@
     },
     {
         "id": "stress-coherent-breathing-step2",
-        "am": "ለ 5 ጊዜ ያህል በአፍንጫዎ ቀስ ብለው ይንፉ."
+        "am": "በአፍንጫዎ ወደ ውስጥ ይተንፍሱ፤ እስከ 5 ይቁጠሩ ።"
     },
     {
         "id": "stress-coherent-breathing-step3",
-        "am": "ለ 5 ጊዜ ያህል በአፍንጫዎ ቀስ ብለው ይንፉ."
+        "am": "በአፍዎ ወደ ውጪ ይተንፍሱ፤ እስከ 5 ይቁጠሩ።"
     },
     {
         "id": "stress-coherent-breathing-step4",
-        "am": "በደቂቃ 5 ትንፋሾችን ያጥፉ።"
+        "am": "በደቂቃ 5 ትንፋሾችን ለማሳካት ያልሙ።"
     },
     {
         "id": "stress-breathing-mindfulness-title",
-        "am": "መ. ለአስተሳሰብ የመተንፈስ እንቅስቃሴዎች"
+        "am": "መ. ለአስተሳሰብ ጥራት የአተነፋፈስ እንቅስቃሴዎች"
     },
     {
         "id": "stress-mindful-breathing-title",
-        "am": "ሀ. ጥንቃቄ የተሞላበት መተንፈስ"
+        "am": "ሀ. ጥንቃቄ የተሞላበት አተነፋፈስ"
     },
     {
         "id": "stress-mindful-breathing-steps-title",
-        "am": "<b>እርምጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፡</b>"
     },
     {
         "id": "stress-mindful-breathing-step1",
-        "am": "በምቾት ይቀመጡ ወይም ይተኛሉ."
+        "am": "በምቾት ይቀመጡ ወይም ይተኙ።"
     },
     {
         "id": "stress-mindful-breathing-step2",
-        "am": "ዓይንዎን ይዝጉ."
+        "am": "ዓይንዎን ይዝጉ።"
     },
     {
         "id": "stress-mindful-breathing-step3",
-        "am": "ትኩረትዎን በተፈጥሯዊ እስትንፋስዎ ላይ ያተኩሩ."
+        "am": "ትኩረትዎን በተፈጥሯዊ እስትንፋስዎ ላይ ያተኩሩ።"
     },
     {
         "id": "stress-mindful-breathing-step4",
-        "am": "እያንዳንዱን እስትንፋስ ይመልከቱ እና ያለፍርድ ይተንፍሱ።"
+        "am": "እያንዳንዱን እስትንፋስ ይመልከቱ።"
     },
     {
         "id": "stress-resonant-breathing-title",
@@ -381,7 +381,7 @@
     },
     {
         "id": "stress-resonant-breathing-steps-title",
-        "am": "<b>እርምጃዎች፡</b>"
+        "am": "<b>ድጃዎች፡</b>"
     },
     {
         "id": "stress-resonant-breathing-step1",
@@ -389,23 +389,23 @@
     },
     {
         "id": "stress-resonant-breathing-step2",
-        "am": "ለ 6 ጊዜ ያህል በአፍንጫዎ ቀስ ብለው ይንፉ."
+        "am": "በአፍንጫዎ ወደ ውስጥ ይተንፍሱ፤ እስከ 6 ይቁጠሩ ።"
     },
     {
         "id": "stress-resonant-breathing-step3",
-        "am": "ለ 6 ጊዜ ያህል በአፍንጫዎ ቀስ ብለው ይንፉ."
+        "am": "በአፍዎ ወደ ውጪ ይተንፍሱ፤ እስከ 6 ይቁጠሩ።"
     },
     {
         "id": "stress-resonant-breathing-step4",
-        "am": "ይህን ቀርፋፋ፣ የተረጋጋ ምት ጠብቅ።"
+        "am": "ይህን የተረጋጋ ምት ጠብቁ።"
     },
     {
         "id": "stress-loving-kindness-breath-title",
-        "am": "ሐ. አፍቃሪ-ደግነት እስትንፋስ"
+        "am": "ሐ. ፍቅር-ደግነት እስትንፋስ"
     },
     {
         "id": "stress-loving-kindness-breath-steps-title",
-        "am": "<b>እርምጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፡</b>"
     },
     {
         "id": "stress-loving-kindness-breath-step1",
@@ -413,15 +413,15 @@
     },
     {
         "id": "stress-loving-kindness-breath-step2",
-        "am": "ወደ ውስጥ መተንፈስ እና በጸጥታ \"ደስተኛ ልሁን\" በል።"
+        "am": "ወደ ውስጥ ይተንፍሱ እና በፀጥታ \"ደስተኛ ልሁን\" ይበሉ።"
     },
     {
         "id": "stress-loving-kindness-breath-step3",
-        "am": "ትንፋሹን አውጥተህ በጸጥታ \"ሌሎች ደስተኛ ይሁኑ\" በል።"
+        "am": "ትንፋሹን አውጥተው በፀጥታ \"ሌሎች ደስተኛ ይሁኑ\" በሉ።"
     },
     {
         "id": "stress-loving-kindness-breath-step4",
-        "am": "የደግነት ስሜትን በማዳበር ይድገሙት."
+        "am": "የደግነት ስሜትን በማዳበር ይድገሙት።"
     },
     {
         "id": "stress-pmr-title",
@@ -433,19 +433,19 @@
     },
     {
         "id": "stress-pmr-step1",
-        "am": "በምቾት ይቀመጡ ወይም ይተኛሉ."
+        "am": "በምቾት ይቀመጡ ወይም ይተኙ።"
     },
     {
         "id": "stress-pmr-step2",
-        "am": "እያንዳንዱን የጡንቻ ቡድን (ለምሳሌ፣ ጣቶች፣ ጥጃዎች፣ ጭኖች) ለ5-10 ሰከንድ ያቆዩ እና ከዚያ ይልቀቁ።"
+        "am": "እያንዳንዱን የጡንቻ ቡድን (ለምሳሌ፣ የእግር ጣቶች፣ ካልቮች፣ ጭኖች) ለ5-10 ሰከንድ አጠንክረው ይያዙ እና ከዚያ ይልቀቁ።"
     },
     {
         "id": "stress-pmr-step3",
-        "am": "በሰውነት (በእግር, በሆድ, በክንድ, በትከሻ, በአንገት, ፊት) ውስጥ በቅደም ተከተል ይንቀሳቀሱ."
+        "am": "በሰውነት ውስጥ በቅደም ተከተል ይንቀሳቀሱ (እግር፣ ሆድ፣ ክንድ፣ ትከሻ፣ አንገት፣ ፊት)።"
     },
     {
         "id": "stress-pmr-step4",
-        "am": "በውጥረት እና በመዝናናት መካከል ባለው ልዩነት ላይ ያተኩሩ."
+        "am": "በውጥረት እና በማፍታታት መካከል ባለው ልዩነት ላይ ያተኩሩ።"
     },
     {
         "id": "stress-meditation-title",
@@ -469,7 +469,7 @@
     },
     {
         "id": "stress-mindfulness-meditation-step3",
-        "am": "ከ5-10 ደቂቃዎች ይጀምሩ እና ቀስ በቀስ ጊዜ ይጨምሩ."
+        "am": "ከ5-10 ደቂቃዎች ይጀምሩ እና ቀስ በቀስ ጊዜውን ይጨምሩ።"
     },
     {
         "id": "stress-body-scan-title",
@@ -497,7 +497,7 @@
     },
     {
         "id": "stress-guided-imagery-step1",
-        "am": "ሰላማዊ ትዕይንት ወይም ትውስታን በዓይነ ሕሊናህ ተመልከት።"
+        "am": "ሰላማዊ ትዕይንት ወይም ትውስታን በዓይነ ሕሊናህ ይመልከቱ።"
     },
     {
         "id": "stress-guided-imagery-step2",
@@ -505,7 +505,7 @@
     },
     {
         "id": "stress-grounding-techniques-title",
-        "am": "G. የመሬት አቀማመጥ ዘዴዎች"
+        "am": "G. የግራውንዲንግ ዘዴዎች"
     },
     {
         "id": "stress-five-four-three-title",
@@ -525,11 +525,11 @@
     },
     {
         "id": "stress-five-four-three-step3",
-        "am": "የምትሰማቸውን 3 ነገሮች ለይ።"
+        "am": "የሚሰሟቸውን 3 ነገሮች ለዩ።"
     },
     {
         "id": "stress-five-four-three-step4",
-        "am": "ሊሸቱዋቸው የሚችሉ 2 ነገሮችን ይለዩ።"
+        "am": "ሊያሸቱዋቸው የሚችሉ 2 ነገሮችን ይለዩ።"
     },
     {
         "id": "stress-five-four-three-step5",
@@ -549,11 +549,11 @@
     },
     {
         "id": "stress-emotion-acknowledge-step1",
-        "am": "አስጨናቂ ሀሳብ ወይም ስሜት አስተውል።"
+        "am": "አስጨናቂ ሀሳብ ወይም ስሜት ያስተውሉ።"
     },
     {
         "id": "stress-emotion-acknowledge-step2",
-        "am": "(\"ይህ ጭንቀት ነው\" ወይም \"ይህ ጭንቀት ነው\") ላይ ምልክት ያድርጉበት."
+        "am": "(\"ይህ ጭንቀት ነው\" ወይም \"ይህ ሃሳብ ነው\") በማለት ስም ይስጡት።"
     },
     {
         "id": "stress-emotion-acknowledge-step3",
@@ -565,11 +565,11 @@
     },
     {
         "id": "stress-cardio-title",
-        "am": "1. ፈካ ያለ ካርዲዮ (ለምሳሌ፡ መራመድ፣ ብስክሌት መንዳት)"
+        "am": "1. ቀላል ካርዲዮ (ለምሳሌ፡ እርምጃ፣ ብስክሌት መንዳት)"
     },
     {
         "id": "stress-cardio-benefits",
-        "am": "ኢንዶርፊን ያስወጣል፣ ስሜትን ያሻሽላል እና ውጥረትን ይቀንሳል።"
+        "am": "ኢንዶርፊን ያስወጣል፣ ሙድን ያሻሽላል እና ውጥረትን ይቀንሳል።"
     },
     {
         "id": "stress-yoga-title",
@@ -577,15 +577,15 @@
     },
     {
         "id": "stress-yoga-benefits",
-        "am": "አካላዊ አቀማመጦችን ከአተነፋፈስ እና ከማስተዋል ጋር ያዋህዳል, መዝናናትን ያበረታታል."
+        "am": "አካላዊ አቀማመጦችን ከአተነፋፈስ እና ከማስተዋል ጋር ያዋህዳል፣ መዝናናትን ያበረታታል።"
     },
     {
         "id": "stress-stretching-title",
-        "am": "3. መዘርጋት"
+        "am": "3. ስትረቺንግ"
     },
     {
         "id": "stress-stretching-benefits",
-        "am": "የጡንቻ ውጥረትን ያስወግዳል እና መዝናናትን ያበረታታል."
+        "am": "የጡንቻ ውጥረትን ያስወግዳል እና መዝናናትን ያበረታታል።"
     },
     {
         "id": "stress-management-tips-title",
@@ -593,15 +593,15 @@
     },
     {
         "id": "stress-tip-time",
-        "am": "<b>የጊዜ አስተዳደር፡</b> የመጨናነቅ ስሜትን ለማስወገድ ቅድሚያ የሚሰጣቸውን ነገሮች ያዘጋጁ እና የተግባር ዝርዝሮችን ይፍጠሩ።"
+        "am": "<b>የጊዜ አጠቃቀም፡</b> የመጨናነቅ ስሜትን ለማስወገድ ቅድሚያ የሚሰጧቸውን ነገሮች ያዘጋጁ እና የተግባር ዝርዝሮችን ይፍጠሩ።"
     },
     {
         "id": "stress-tip-boundaries",
-        "am": "<b>ጤናማ ድንበሮች፡</b> ከአቅምህ በላይ ለሚሆኑ ቃል ኪዳኖች እምቢ ማለትን ተማር።"
+        "am": "<b>ጤናማ ድንበሮች፡</b> ከአቅምዎ በላይ ለሚሆኑ ቃል ኪዳኖች እምቢ ማለትን ይማሩ።"
     },
     {
         "id": "stress-tip-support",
-        "am": "<b>ማህበራዊ ድጋፍ፡</b> ስለ አስጨናቂዎች ከጓደኞች፣ ቤተሰብ ወይም የድጋፍ ቡድኖች ጋር ይነጋገሩ።"
+        "am": "<b>ማህበራዊ ድጋፍ፡</b> ስለ አስጨናቂ ነገሮች ከጓደኞች፣ ቤተሰብ ወይም የድጋፍ ቡድኖች ጋር ይነጋገሩ።"
     },
     {
         "id": "stress-tip-humor",
@@ -609,11 +609,11 @@
     },
     {
         "id": "stress-tip-relaxation",
-        "am": "<b>የመዝናናት ሥነ-ሥርዓቶች፡</b> እንደ ማንበብ፣ ሙቅ ገላ መታጠብ፣ ወይም የሚያረጋጋ ሙዚቃ ማዳመጥ ያሉ አስደሳች፣ የሚያረጋጋ እንቅስቃሴዎችን አካትት።"
+        "am": "<b>የመዝናናኛ ሥነ-ሥርዓቶች፡</b> እንደ ማንበብ፣ ሙቅ ሻወር፣ ወይም የሚያረጋጋ ሙዚቃ ማዳመጥ ያሉ አስደሳች፣ የሚያረጋጉ እንቅስቃሴዎችን ያካትቱ።"
     },
     {
         "id": "stress-mental-health-concerns-title",
-        "am": "ከውጥረት ጋር የተያያዙ የተለመዱ የአእምሮ ጤና ስጋቶች"
+        "am": "ከጭንቀት ጋር የተያያዙ የተለመዱ የአእምሮ ጤና ስጋቶች"
     },
     {
         "id": "stress-anxiety-title",
@@ -621,19 +621,19 @@
     },
     {
         "id": "stress-anxiety-symptoms",
-        "am": "ከመጠን በላይ መጨነቅ, እረፍት ማጣት, ትኩረትን መሰብሰብ ችግር."
+        "am": "ከመጠን በላይ መጨነቅ፣ እረፍት ማጣት፣ ትኩረትን የመሰብሰብ ችግር።"
     },
     {
         "id": "stress-anxiety-management",
-        "am": "የጭንቀት መቆጣጠሪያ ዘዴዎች ምልክቶችን ለማስታገስ ይረዳሉ."
+        "am": "የጭንቀት መቆጣጠሪያ ዘዴዎች የህመም ምልክቶችን ለማስታገስ ይረዳሉ።"
     },
     {
         "id": "stress-depression-title",
-        "am": "ለ. የመንፈስ ጭንቀት"
+        "am": "ለ. ድብርት"
     },
     {
         "id": "stress-depression-symptoms",
-        "am": "የማያቋርጥ ሀዘን, ፍላጎት ማጣት, ዝቅተኛ ጉልበት."
+        "am": "የማያቋርጥ ሀዘን፣ ፍላጎት ማጣት፣ ጉልበት ማጣት።"
     },
     {
         "id": "stress-depression-management",
@@ -641,15 +641,15 @@
     },
     {
         "id": "stress-burnout-title",
-        "am": "ሐ. ማቃጠል"
+        "am": "ሐ. ከመጠን ያለፈ ድካም"
     },
     {
         "id": "stress-burnout-symptoms",
-        "am": "ከረጅም ጊዜ ጭንቀት የተነሳ አካላዊ እና ስሜታዊ ድካም."
+        "am": "ከረጅም ጊዜ ጭንቀት የተነሳ አካላዊ እና ስሜታዊ ድካም።"
     },
     {
         "id": "stress-burnout-management",
-        "am": "መደበኛ እረፍቶች እና ራስን የመንከባከብ ልምዶች ወሳኝ ናቸው."
+        "am": "መደበኛ እረፍቶች እና ራስን የመንከባከብ ልምዶች ወሳኝ ናቸው።"
     },
     {
         "id": "stress-adjustment-title",
@@ -657,11 +657,11 @@
     },
     {
         "id": "stress-adjustment-symptoms",
-        "am": "የህይወት ለውጦችን ለመቋቋም አስቸጋሪነት."
+        "am": "የህይወት ለውጦችን ለመቋቋም መቸገር።"
     },
     {
         "id": "stress-adjustment-management",
-        "am": "ውጥረትን መቆጣጠር ከአዳዲስ ሁኔታዎች ጋር ለመላመድ ይረዳል."
+        "am": "ውጥረትን መቆጣጠር ከአዳዲስ ሁኔታዎች ጋር ለመላመድ ይረዳል።"
     },
     {
         "id": "stress-professional-help-title",
@@ -669,15 +669,15 @@
     },
     {
         "id": "stress-professional-help-persistent",
-        "am": "<b>የማያቋርጥ ጭንቀት፡</b> የራስ አገዝ ጥረቶች ቢኖሩም ከጥቂት ሳምንታት በላይ የሚቆይ።"
+        "am": "<b>የማያቋርጥ ጭንቀት፡</b> የራስ አገዝ ጥረቶች ቢያደርጉም ከብዙ ሳምንታት በላይ የሚቆይ ጭንቀት።"
     },
     {
         "id": "stress-professional-help-impact",
-        "am": "<b>በዕለት ተዕለት ሕይወት ላይ የሚያሳድረው ተጽዕኖ፡</b> የዕለት ተዕለት ሥራዎችን ለማከናወን ወይም ግንኙነቶችን ለመጠበቅ አስቸጋሪነት።"
+        "am": "<b>በዕለት ተዕለት ሕይወት ላይ የሚያሳድረው ተጽዕኖ፡</b> የዕለት ተዕለት ሥራዎችን ለማከናወን ወይም ግንኙነቶችን ለመጠበቅ መቸገር።"
     },
     {
         "id": "stress-professional-help-physical",
-        "am": "<b>የአካላዊ ምልክቶች፡</b> ተደጋጋሚ ራስ ምታት፣ የሆድ ችግር ወይም እንቅልፍ ማጣት።"
+        "am": "<b>አካላዊ ምልክቶች፡</b> ተደጋጋሚ ራስ ምታት፣ የሆድ ህመም ወይም እንቅልፍ ማጣት።"
     },
     {
         "id": "stress-professional-help-mental",
@@ -709,23 +709,11 @@
     },
     {
         "id": "stress-resources-book1",
-        "am": "የመዝናናት እና የጭንቀት ቅነሳ የስራ መጽሐፍ በማርታ ዴቪስ፣ ኤልዛቤት ሮቢንስ ኢሼልማን እና ማቲው ማኬይ።"
+        "am": "The Relaxation & Stress Reduction Workbook በማርታ ዴቪስ፣ ኤልዛቤት ሮቢንስ ኢሼልማን እና ማቲው ማኬይ።"
     },
     {
         "id": "stress-resources-book2",
-        "am": "ሙሉ ጥፋት መኖር በጆን ካባት-ዚን።"
-    },
-    {
-        "id": "stress-resources-websites-title",
-        "am": "ድር ጣቢያዎች፡"
-    },
-    {
-        "id": "stress-resources-website1",
-        "am": "የአሜሪካ የስነ-ልቦና ማህበር (ኤ.ፒ.ኤ) - <a href=\"http://www.apa.org\">www.apa.org</a>"
-    },
-    {
-        "id": "stress-resources-website2",
-        "am": "የአሜሪካ ጭንቀት እና ጭንቀት ማህበር (ADAA) - <a href=\"http://www.adaa.org\">www.adaa.org</a>"
+        "am": "Full Catastrophe Living - ጆን ካባት-ዚን።"
     },
     {
         "id": "stress-resources-apps-title",
@@ -733,27 +721,15 @@
     },
     {
         "id": "stress-resources-app1",
-        "am": "<b>የጭንቅላት ቦታ፡</b> የሚመሩ ማሰላሰሎች እና የጭንቀት እፎይታ ልምምዶች።"
+        "am": "<b>Headspace፡</b> የሚመሩ ማሰላሰሎች እና የጭንቀት እፎይታ ልምምዶች።"
     },
     {
         "id": "stress-resources-app2",
-        "am": "<b>መረጋጋት፡</b> የመተንፈስ ልምምዶች፣ የሚያዝናኑ ድምፆች እና የእንቅልፍ ታሪኮች።"
+        "am": "<b>Calm፡</b> የእስትንፋስ ልምምዶች፣ የሚያዝናኑ ድምፆች እና የእንቅልፍ ታሪኮች።"
     },
     {
         "id": "stress-resources-app3",
-        "am": "<b>ሳንቬሎ፡</b> ለጭንቀት እና ለጭንቀት አስተዳደር የግንዛቤ ባህሪ ቴራፒ-ተኮር መሳሪያዎች።"
-    },
-    {
-        "id": "stress-resources-hotlines-title",
-        "am": "የስልክ መስመር፡"
-    },
-    {
-        "id": "stress-resources-hotline1",
-        "am": "ብሄራዊ ራስን የማጥፋት መከላከል የህይወት መስመር (ዩኤስ)፡ ይደውሉ ወይም 988 ይጻፉ"
-    },
-    {
-        "id": "stress-resources-hotline2",
-        "am": "አለምአቀፍ የእገዛ መስመሮች፡ የሀገር ውስጥ ምንጮችን ይመልከቱ"
+        "am": "<b>Sanvello፡</b> ለጭንቀት እና ለጭንቀት አስተዳደር የግንዛቤ ባህሪ ቴራፒ-ተኮር መሳሪያዎች።"
     },
     {
         "id": "stress-conclusion-title",
@@ -761,6 +737,6 @@
     },
     {
         "id": "stress-conclusion-content",
-        "am": "የጭንቀት መቆጣጠሪያ ልምምዶችን እና ቴክኒኮችን መተግበር የአእምሮ ጤናን፣ ስሜታዊ ጥንካሬን እና አጠቃላይ የህይወት ጥራትን በእጅጉ ያሻሽላል። ጥንቃቄ የተሞላበት አተነፋፈስን በመለማመድ፣ በሂደት ላይ ያለ የጡንቻ መዝናናት፣ የመሬት አቀማመጥ ዘዴዎች እና የአካል ብቃት እንቅስቃሴን በማካተት የበለጠ ሚዛናዊ እና ውጥረትን የሚቋቋም የአኗኗር ዘይቤ መፍጠር ይችላሉ። ለራስህ ታጋሽ መሆንህን አስታውስ፣ በትንሽ እርምጃዎች ጀምር፣ እና ጭንቀትን መቆጣጠር ካልተቻለ የባለሙያ እርዳታ ለማግኘት አስብበት።"
+        "am": "የጭንቀት መቆጣጠሪያ ልምምዶችን እና ቴክኒኮችን መተግበር የአእምሮ ጤናን፣ ስሜታዊ ጥንካሬን እና አጠቃላይ የህይወት ጥራትን በእጅጉ ያሻሽላል። ጥንቃቄ የተሞላበት አተነፋፈስን በመለማመድ፣ በሂደት ላይ ያለ የጡንቻ ማፍታታት፣ የግራውንዲንግ ዘዴዎች እና የአካል ብቃት እንቅስቃሴን በማካተት የበለጠ ሚዛናዊ እና ውጥረትን የሚቋቋም የአኗኗር ዘይቤ መፍጠር ይችላሉ። ለራስዎ ታጋሽ መሆንዎን ያስታውሱ፣ በትንሽ እርምጃዎች ጀምሩ፣ እና ጭንቀትን መቆጣጠር ካልተቻለ የባለሙያ እርዳታ ለማግኘት አስቡበት።"
     }
 ]

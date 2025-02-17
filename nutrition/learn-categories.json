@@ -1,5 +1,5 @@
 {
-  "basics": {
+  "education": {
     "title": "nutrition-education-text",
     "items": [
       {
@@ -16,7 +16,7 @@
       }
     ]
   },
-  "macronutrients": {
+  "macro": {
     "title": "macronutrients-text",
     "items": [
       {
@@ -33,7 +33,7 @@
       }
     ]
   },
-  "micronutrients": {
+  "micro": {
     "title": "micronutrients-text",
     "items": [
       {
@@ -50,7 +50,7 @@
       }
     ]
   },
-  "meal-plans": {
+  "meal-plan": {
     "title": "meal-plans-text",
     "items": [
       {
@@ -95,7 +95,7 @@
         "textKey": "gluten-free-diet-title"
       },
       {
-        "id": "intermittent-fasting",
+        "id": "if",
         "textKey": "if-diet-title"
       },
       {
@@ -112,15 +112,15 @@
     "title": "sample-recipes-text",
     "items": [
       {
-        "id": "breakfast-recipes",
+        "id": "recipes-breakfast",
         "textKey": "breakfast-recipes-title"
       },
       {
-        "id": "lunch-recipes",
+        "id": "recipes-lunch",
         "textKey": "lunch-recipes-title"
       },
       {
-        "id": "dinner-recipes",
+        "id": "recipes-dinner",
         "textKey": "dinner-recipes-title"
       }
     ]

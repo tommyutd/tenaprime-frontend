@@ -9,7 +9,7 @@
     },
     {
         "id": "edit-profile",
-        "am": "<b>መገለጫ አርትዕ</b>"
+        "am": "<b>መገለጫዎን ያርትዑ</b>"
     },
     {
         "id": "basic-info-title",
@@ -21,7 +21,7 @@
     },
     {
         "id": "gender-label",
-        "am": "ጾታ"
+        "am": "ፆታ"
     },
     {
         "id": "phone-label",
@@ -41,7 +41,7 @@
     },
     {
         "id": "bmi-label",
-        "am": "BMI"
+        "am": "BMI(ቢ ኤም አይ)"
     },
     {
         "id": "body-fat-label",
@@ -53,7 +53,7 @@
     },
     {
         "id": "activity-level-label",
-        "am": "የእንቅስቃሴ ደረጃ"
+        "am": "የእንቅስቃሴ መጠን"
     },
     {
         "id": "diet-preferences-label",
@@ -77,11 +77,11 @@
     },
     {
         "id": "workout-preferences-title",
-        "am": "የአካል ብቃት እንቅስቃሴ ምርጫዎች"
+        "am": "የስፖርት ምርጫዎች"
     },
     {
         "id": "workout-type-label",
-        "am": "የአካል ብቃት እንቅስቃሴ ዓይነት"
+        "am": "የስፖርት ዓይነት"
     },
     {
         "id": "workout-environment-label",
@@ -93,7 +93,7 @@
     },
     {
         "id": "workout-intensity-label",
-        "am": "የብርቱነት ደረጃ"
+        "am": "የክብደት ደረጃ"
     },
     {
         "id": "unit-kg",
@@ -109,15 +109,15 @@
     },
     {
         "id": "light-activity",
-        "am": "የብርሃን እንቅስቃሴ"
+        "am": "ቀላል እንቅስቃሴ"
     },
     {
         "id": "vegetarian",
-        "am": "ቬጀቴሪያን"
+        "am": "ቬጅቴሪያን"
     },
     {
         "id": "keto",
-        "am": "ኬቶ"
+        "am": "ኪቶ"
     },
     {
         "id": "paleo",
@@ -125,7 +125,7 @@
     },
     {
         "id": "none-reported",
-        "am": "ምንም ሪፖርት አልተደረገም።"
+        "am": "ምንም ሪፖርት አልተደረገም"
     },
     {
         "id": "goal-weight-loss",
@@ -153,11 +153,11 @@
     },
     {
         "id": "toast-profile-save-error",
-        "am": "መገለጫ ማስቀመጥ ላይ ስህተት። እባክህ እንደገና ሞክር።"
+        "am": "መገለጫ በማስቀመጥ ጊዜ ስህተት ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።"
     },
     {
         "id": "toast-profile-load-error",
-        "am": "መገለጫን መጫን ላይ ስህተት። እባክህ እንደገና ሞክር።"
+        "am": "መገለጫን በመጫን ጊዜ ስህተት ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።"
     },
     {
         "id": "profile-ingredients-title",

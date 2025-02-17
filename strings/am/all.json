@@ -1,15 +1,15 @@
 [
     {
         "id": "home-menu-item",
-        "am": "ቤት"
+        "am": "መነሻ"
     },
     {
         "id": "exercises-menu-item",
-        "am": "መልመጃዎች"
+        "am": "ስፖርቶች"
     },
     {
         "id": "nutrition-menu-item",
-        "am": "የተመጣጠነ ምግብ"
+        "am": "አመጋገብ"
     },
     {
         "id": "prizes-menu-item",
@@ -17,15 +17,15 @@
     },
     {
         "id": "about-menu-item",
-        "am": "ስለ"
+        "am": "ስለ እኛ"
     },
     {
         "id": "tandc",
-        "am": "ውሎች እና ሁኔታዎች"
+        "am": "ደንቦች እና ሁኔታዎች"
     },
     {
         "id": "faq",
-        "am": "የሚጠየቁ ጥያቄዎች"
+        "am": "በብዛት የሚጠየቁ ጥያቄዎች"
     },
     {
         "id": "privacy-policy",
@@ -57,7 +57,7 @@
     },
     {
         "id": "footer-copyright",
-        "am": "© 2024 TenaPrime. ሁሉም መብቶች የተጠበቁ ናቸው።"
+        "am": "© 2024 ጤናፕራይም። ሁሉም መብቶች የተጠበቁ ናቸው።"
     },
     {
         "id": "winners-section-title",
@@ -65,10 +65,18 @@
     },
     {
         "id": "winners-section-description",
-        "am": "በሳምንታዊ ውድድሩ አሸናፊዎች መካከል ጥቂቶቹ እነሆ። የዚህ ሳምንት አሸናፊ ሊሆኑ ይችላሉ። <a href=\"#\">አሁን ይጫወቱ</a>!"
+        "am": "ከሳምንታዊ ውድድሩ አሸናፊዎች መካከል ጥቂቶቹ እነሆ። የዚህ ሳምንት አሸናፊ ሊሆኑ ይችላሉ። <a href=\"#\">አሁኑኑ ይጫወቱ</a>!"
     },
     {
         "id": "loading",
         "am": "በመጫን ላይ…"
+    },
+    {
+        "id": "loading-scoreboard",
+        "am": "የውጤት ሰሌዳን በመጫን ላይ…"
+    },
+    {
+        "id": "loading-workout",
+        "am": "የአካል ብቃት እንቅስቃሴን በመጫን ላይ…"
     }
 ]

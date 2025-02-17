@@ -1,23 +1,23 @@
 [
     {
         "id": "nutrition-balancing-macronutrients",
-        "am": "ማክሮሮኒተሮችን ማመጣጠን"
+        "am": "ማክሮንጥረነገሮችን ማመጣጠን"
     },
     {
         "id": "nutrition-moderate-intake",
-        "am": "ኃይልን እና ጤናን ለመደገፍ መጠነኛ የሆነ ፕሮቲን፣ ካርቦሃይድሬት እና ቅባት ያዙ"
+        "am": "ኃይልን እና ጤናን ለመደገፍ መጠነኛ የሆነ ፕሮቲን፣ ካርቦሃይድሬት እና ቅባት ይውሰዱ"
     },
     {
         "id": "nutrition-focus-on-nutrient-dense-foods",
-        "am": "ሙሉ፣ ጥቅጥቅ ያሉ ምግቦች ላይ አተኩር"
+        "am": "ሙሉ፣ በንጥረነገር የተሞሉ ምግቦች ላይ ያተኩሩ"
     },
     {
         "id": "nutrition-prioritize-foods",
-        "am": "ለአትክልት፣ ፍራፍሬ፣ ሙሉ እህል፣ ቅባት ፕሮቲኖች እና ጤናማ ቅባቶች ቅድሚያ ይስጡ"
+        "am": "ለአትክልት፣ ፍራፍሬ፣ እህል፣ ቅባት፣ ፕሮቲኖች እና ጤናማ ቅባቶች ቅድሚያ ይስጡ"
     },
     {
         "id": "nutrition-eating-intuitively",
-        "am": "በማስተዋል መብላት"
+        "am": "በማስተዋል መመገብ"
     },
     {
         "id": "nutrition-hunger-fullness-cues",
@@ -25,6 +25,6 @@
     },
     {
         "id": "nutrition-avoid-restrictions",
-        "am": "ገዳቢ የሆኑ የአመጋገብ ዘዴዎችን ያስወግዱ; ለዘላቂ ልማዶች ዓላማ"
+        "am": "ገዳቢ የሆኑ የአመጋገብ ዘዴዎችን ያስወግዱ፤ ለዘላቂ ልማዶች ያልሙ"
     }
 ]

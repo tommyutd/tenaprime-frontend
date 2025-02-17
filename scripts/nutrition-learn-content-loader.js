@@ -1045,7 +1045,7 @@ async function loadLearningContent(topicId) {
                 </ul>
             </div>
         `;
-    } else if (topicId === 'intermittent-fasting') {
+    } else if (topicId === 'if') {
         learningContent.innerHTML = `
             <div class="nutrition-detail-header">
                 <h1 data-text-key="if-diet-title">Intermittent Fasting (IF)</h1>
@@ -1287,7 +1287,7 @@ async function loadLearningContent(topicId) {
                 </ul>
             </div>
         `;
-    } else if (topicId === 'breakfast-recipes') {
+    } else if (topicId === 'recipes-breakfast') {
         learningContent.innerHTML = `
             <div class="nutrition-detail-header">
                 <h1 data-text-key="breakfast-recipes-title">Healthy Breakfast Recipes</h1>
@@ -1388,7 +1388,7 @@ async function loadLearningContent(topicId) {
                 </ul>
             </div>
         `;
-    } else if (topicId === 'lunch-recipes') {
+    } else if (topicId === 'recipes-lunch') {
         learningContent.innerHTML = `
             <div class="nutrition-detail-header">
                 <h1 data-text-key="lunch-recipes-title">Healthy Lunch Recipes</h1>
@@ -1514,7 +1514,7 @@ async function loadLearningContent(topicId) {
                 </ul>
             </div>
         `;
-    } else if (topicId === 'dinner-recipes') {
+    } else if (topicId === 'recipes-dinner') {
         learningContent.innerHTML = `
             <div class="nutrition-detail-header">
                 <h1 data-text-key="dinner-recipes-title">Healthy Dinner Recipes</h1>

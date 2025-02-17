@@ -98,14 +98,23 @@
     </div>
   </div>
 
-    <div class="winners-section aleo-text">
-      <div class="slideshow-container">
-        <div class="carousel"></div>
+  <div class="winners-section">
+    <div class="slideshow-container">
+      <div class="left-margin">
+        <button class="carousel-button prev-button">
+          <img src="/assets/prev-arrow.svg" alt="Previous">
+        </button>
       </div>
-      <div class="winners-section-text-container">
-        <h1 data-text-key="winners-section-title">Meet the winners!</h1>
-        <h3 data-text-key="winners-section-description">Here are some of the winners of our weekly contest. <a href="#">Login</a> or <a href="#">Register</a> to participate.</h3>
+      <div class="carousel"></div>
+      <div class="right-margin">
+        <button class="carousel-button next-button">
+          <img src="/assets/next-arrow.svg" alt="Next">
+        </button>
       </div>
+    </div>
+    <div class="winners-section-text-container aleo-text">
+      <h1 data-text-key="winners-section-title">Meet the winners!</h1>
+      <h3 data-text-key="winners-section-description">Here are some of the winners of our weekly contest. <a href="#">Login</a> or <a href="#">Register</a> to participate.</h3>
     </div>
   </div>
   <div class="footer aleo-text">
@@ -170,13 +179,13 @@
               <label for="number" class="form-label" data-text-key="phone-number-label">Phone Number</label>
               <div class="phone-input-container">
                   <span class="country-code">+251</span>
-                  <input type="number" id="number" required maxlength="6">
+                  <input type="tel" id="number" name="username" required maxlength="9" autocomplete="username">
               </div>
           </div>
           <div class="form-group">
               <label for="pin" class="form-label" data-text-key="pin-label">PIN</label>
               <div class="pin-input-container">
-                  <input type="number" id="pin" required maxlength="6">
+                  <input type="password" id="pin" name="current-password" required maxlength="6" autocomplete="current-password">
               </div>
           </div>
           <div class="form-options">

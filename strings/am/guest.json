@@ -1,7 +1,7 @@
 [
     {
         "id": "login",
-        "am": "ግባ"
+        "am": "ይግቡ"
     },
     {
         "id": "register",
@@ -9,7 +9,7 @@
     },
     {
         "id": "login-title",
-        "am": "ወደ TenaPrime ይግቡ"
+        "am": "ወደ ጤናፕራይም ይግቡ"
     },
     {
         "id": "phone-number-label",
@@ -25,7 +25,7 @@
     },
     {
         "id": "forgot-password",
-        "am": "የይለፍ ቃል ረሱ?"
+        "am": "የይለፍ ቃል ረስተዋል?"
     },
     {
         "id": "tandc-agree",
@@ -33,11 +33,11 @@
     },
     {
         "id": "no-account",
-        "am": "መለያ የለህም?"
+        "am": "መለያ የለዎትም?"
     },
     {
         "id": "register-toast",
-        "am": "አካውንት ከሌለህ እሺን ወደ 8362 በመላክ መመዝገብ ትችላለህ።"
+        "am": "አካውንት ከሌለዎ \"ok\" ብለው ወደ 8362 በመላክ መመዝገብ ይችላሉ።"
     },
     {
         "id": "login-failed",

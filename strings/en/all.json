@@ -70,5 +70,13 @@
     {
         "id": "loading",
         "en": "Loading…"
+    },
+    {
+        "id": "loading-scoreboard",
+        "en": "Loading Scoreboard…"
+    },
+    {
+        "id": "loading-workout",
+        "en": "Loading Workout…"
     }
 ]

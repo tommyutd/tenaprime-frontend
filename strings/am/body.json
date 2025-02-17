@@ -1,11 +1,11 @@
 [
     {
         "id": "chest-triceps",
-        "am": "ደረትና ትሪሴፕስ"
+        "am": "ደረትና ትራይሴፕስ"
     },
     {
         "id": "back-biceps",
-        "am": "ጀርባ እና ቢሴፕስ"
+        "am": "ጀርባ እና ባይሴፕስ"
     },
     {
         "id": "shoulders-core",
@@ -13,7 +13,7 @@
     },
     {
         "id": "legs",
-        "am": "እግሮች"
+        "am": "እግር"
     },
     {
         "id": "chest",
@@ -21,7 +21,7 @@
     },
     {
         "id": "back",
-        "am": "ተመለስ"
+        "am": "ጀርባ"
     },
     {
         "id": "core",
@@ -29,19 +29,19 @@
     },
     {
         "id": "shoulders",
-        "am": "ትከሻዎች"
+        "am": "ትከሻ"
     },
     {
         "id": "back-and-legs",
-        "am": "ጀርባ እና እግሮች"
+        "am": "ጀርባ እና እግር"
     },
     {
         "id": "arms",
-        "am": "ክንዶች"
+        "am": "ክንድ"
     },
     {
         "id": "hamstrings",
-        "am": "ሃምትሪንግ"
+        "am": "ሃምስትሪንግስ"
     },
     {
         "id": "quadriceps",
@@ -49,7 +49,7 @@
     },
     {
         "id": "biceps",
-        "am": "ቢሴፕስ"
+        "am": "ባይሴፕስ"
     },
     {
         "id": "triceps",
@@ -57,35 +57,35 @@
     },
     {
         "id": "calves",
-        "am": "ጥጃዎች"
+        "am": "ካልቭስ"
     },
     {
         "id": "glutes",
-        "am": "ግሉተስ"
+        "am": "ግሉትስ"
     },
     {
         "id": "hamstrings-back",
-        "am": "የሆድ ድርቀት እና ጀርባ"
+        "am": "ሃምስትሪንግስ እና ጀርባ"
     },
     {
         "id": "cardiovascular-system",
-        "am": "የካርዲዮቫስኩላር ሲስተም"
+        "am": "የልብና የደም ዝውውር ሥርዓት"
     },
     {
         "id": "forearms",
-        "am": "ክንዶች"
+        "am": "ፎርአርም"
     },
     {
         "id": "obliques",
-        "am": "ኦብሊኮች"
+        "am": "ኦብሊክ"
     },
     {
         "id": "traps",
-        "am": "ወጥመዶች"
+        "am": "ትራፕ"
     },
     {
         "id": "full-body",
-        "am": "ሙሉ አካል"
+        "am": "ሙሉ ሰውነት ስትረች የማድረግ ሂደት"
     },
     {
         "id": "hips",
@@ -109,7 +109,7 @@
     },
     {
         "id": "lateral-deltoid",
-        "am": "ላተራል ዴልቶይድ"
+        "am": "የጎን ዴልቶይድ"
     },
     {
         "id": "posterior-deltoid",
@@ -121,27 +121,27 @@
     },
     {
         "id": "serratus-anterior",
-        "am": "Serratus ቀዳሚ"
+        "am": "ሴራተስ አንቴሪየር"
     },
     {
         "id": "pectoralis-major",
-        "am": "Pectoralis ሜጀር"
+        "am": "ፔክቶራሊስ ማጄር"
     },
     {
         "id": "pectoralis-minor",
-        "am": "Pectoralis ትንሹ"
+        "am": "ፔክቶራሊስ ማይነር"
     },
     {
         "id": "forearm-flexors",
-        "am": "የፊት ክንድ Flexors"
+        "am": "ፎርአርም ፍሌክሰርስ"
     },
     {
         "id": "forearm-extensors",
-        "am": "የፊት ክንድ ማራዘሚያዎች"
+        "am": "ፎርአርም ኤክስቴንሰርስ"
     },
     {
         "id": "brachialis",
-        "am": "ብራቺያሊስ"
+        "am": "ብራኪያሊስ"
     },
     {
         "id": "neck",
@@ -149,23 +149,23 @@
     },
     {
         "id": "upper-body",
-        "am": "የላይኛው አካል"
+        "am": "የላይኛው ሰውነት ስልጠና"
     },
     {
         "id": "lower-body",
-        "am": "የታችኛው አካል"
+        "am": "የታችኛው ሰውነት"
     },
     {
         "id": "hip-flexors",
-        "am": "ሂፕ Flexors"
+        "am": "ሂፕ ፍሌክሰርስ"
     },
     {
         "id": "hip-extensors",
-        "am": "የሂፕ ማራዘሚያዎች"
+        "am": "ሂፕ ኤክስቴንሰርስ"
     },
     {
         "id": "gastrocnemius",
-        "am": "Gastrocnemius"
+        "am": "ጋስትሮክንሚየስ"
     },
     {
         "id": "soleus",
@@ -173,27 +173,27 @@
     },
     {
         "id": "rhomboids",
-        "am": "Rhomboid"
+        "am": "ሮምቦይድ"
     },
     {
         "id": "adductors",
-        "am": "አዱክተሮች"
+        "am": "አደክተሮች"
     },
     {
         "id": "abductors",
-        "am": "ጠላፊዎች"
+        "am": "አብደክተርስ"
     },
     {
         "id": "rectus-abdominis",
-        "am": "Rectus Abdominis"
+        "am": "ሬክተስ አብዶሚኒስ"
     },
     {
         "id": "transverse-abdominis",
-        "am": "ተሻጋሪ የሆድ ድርቀት"
+        "am": "ትራንስቨርስ አብዶሚኒስ"
     },
     {
         "id": "erector-spinae",
-        "am": "ኢሬክተር ስፒና"
+        "am": "ኢሬክተር ስፓይኔ"
     },
     {
         "id": "latissimus-dorsi",
@@ -205,7 +205,7 @@
     },
     {
         "id": "teres-minor",
-        "am": "ትንሹ ቴረስ"
+        "am": "ቴረስ ማይነር"
     },
     {
         "id": "infraspinatus",
@@ -213,15 +213,15 @@
     },
     {
         "id": "supraspinatus",
-        "am": "Supraspinatus"
+        "am": "ሱፕራስፒናተስ"
     },
     {
         "id": "external-obliques",
-        "am": "ውጫዊ Obliques"
+        "am": "ውጫዊ ኦብሊክስ"
     },
     {
         "id": "internal-obliques",
-        "am": "የውስጥ ኦብሊኮች"
+        "am": "ውስጣዊ ኦብሊክስ"
     },
     {
         "id": "multifidus",

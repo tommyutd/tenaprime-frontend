@@ -17,11 +17,11 @@
     },
     {
         "id": "dashboard-main-card-content",
-        "am": "በየሳምንቱ 50,000 ETB ለማሸነፍ ጥያቄዎችን ይመልሱ።"
+        "am": "በየሳምንቱ 50,000 ብር ለማሸነፍ ጥያቄዎችን ይመልሱ።"
     },
     {
         "id": "exercises-card-title",
-        "am": "መልመጃዎች"
+        "am": "ስፖርቶች"
     },
     {
         "id": "exercises-card-content",
@@ -29,11 +29,11 @@
     },
     {
         "id": "nutrition-card-title",
-        "am": "የተመጣጠነ ምግብ"
+        "am": "አመጋገብ"
     },
     {
         "id": "nutrition-card-content",
-        "am": "በተሻለ ሁኔታ እንዴት እንደሚበሉ ጠቃሚ ምክሮችን ያግኙ።"
+        "am": "በተሻለ ሁኔታ እንዴት እንደሚመገቡ ጠቃሚ ምክሮችን ያግኙ።"
     },
     {
         "id": "products-card-title",
@@ -49,7 +49,7 @@
     },
     {
         "id": "scoreboard-card-content",
-        "am": "ሳምንታዊ ደረጃዎን ይመልከቱ።"
+        "am": "ሳምንታዊ ደረጃዎን ይመልከቱ"
     },
     {
         "id": "prizes-title",
@@ -65,7 +65,7 @@
     },
     {
         "id": "prizes-play-now-button",
-        "am": "አሁን አጫውት።"
+        "am": "አሁን ተጫወት"
     },
     {
         "id": "scoreboard-title",
@@ -89,7 +89,7 @@
     },
     {
         "id": "featured-workouts-title",
-        "am": "ተለይተው የቀረቡ የአካል ብቃት እንቅስቃሴዎች"
+        "am": "ተለይተው የቀረቡ ስፖርቶች"
     },
     {
         "id": "featured-nutrition-title",

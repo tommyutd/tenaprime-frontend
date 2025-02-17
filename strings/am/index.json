@@ -1,11 +1,11 @@
 [
     {
         "id": "front-page-greeting-1",
-        "am": "ጤናማ እና ጤናማ ይሁኑ"
+        "am": "ጤናማ እየሆኑ"
     },
     {
         "id": "front-page-greeting-2",
-        "am": "10,000 ብር ሲያሸንፍ!"
+        "am": "10,000 ብር ያሸንፉ!"
     },
     {
         "id": "front-page-offerings-1",
@@ -41,7 +41,7 @@
     },
     {
         "id": "exercises-section-title",
-        "am": "ዋና የአካል ብቃት"
+        "am": "ፕራይም የአካል ብቃት"
     },
     {
         "id": "exercises-section-description",

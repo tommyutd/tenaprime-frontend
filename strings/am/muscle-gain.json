@@ -1,7 +1,7 @@
 [
     {
         "id": "nutrition-calorie-surplus",
-        "am": "የካሎሪ ትርፍ መፍጠር"
+        "am": "የካሎሪ ትርፍን መፍጠር"
     },
     {
         "id": "nutrition-calorie-surplus-intake",
@@ -13,11 +13,11 @@
     },
     {
         "id": "nutrition-protein-intake-muscle-gain",
-        "am": "ለአንድ ኪሎ ግራም የሰውነት ክብደት 1.8-2.5 ግራም ፕሮቲን ይኑሩ"
+        "am": "ለአንድ ኪሎ ግራም የሰውነት ክብደት 1.8-2.5 ግራም ፕሮቲን ያስቡ"
     },
     {
         "id": "nutrition-macronutrient-split",
-        "am": "የማክሮን ንጥረ ነገር ክፍፍል"
+        "am": "የማክሮ ንጥረ ነገር ክፍፍል"
     },
     {
         "id": "nutrition-protein-percentage-25-30",

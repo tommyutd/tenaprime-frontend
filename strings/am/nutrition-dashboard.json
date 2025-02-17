@@ -13,11 +13,11 @@
     },
     {
         "id": "macro-tracking-title",
-        "am": "ማክሮ መከታተል"
+        "am": "ማክሮ ትራኪንግ"
     },
     {
         "id": "macro-tracking-description",
-        "am": "ለተሻለ ውጤት የእርስዎን ማክሮ ኤለመንቶችን እና ካሎሪዎችን ይከታተሉ"
+        "am": "ለተሻለ ውጤት የእርስዎን ማክሮ ኤለመንቶችን እና ካሎሪዎችን ይከታተሉ።"
     },
     {
         "id": "meal-prep-title",
@@ -25,11 +25,11 @@
     },
     {
         "id": "meal-prep-description",
-        "am": "ጠቃሚ ምክሮች እና ስልቶች ውጤታማ የምግብ እቅድ እና ዝግጅት።"
+        "am": "ጠቃሚ ምክሮች እና ስልቶች ለውጤታማ የምግብ እቅድ እና ዝግጅት።"
     },
     {
         "id": "macronutrients-text",
-        "am": "ማክሮን ንጥረ ነገሮች"
+        "am": "ማክሮ ንጥረ ነገሮች"
     },
     {
         "id": "carbs-title",
@@ -45,7 +45,7 @@
     },
     {
         "id": "protein-description",
-        "am": "የጡንቻዎች ግንባታ ብሎኮች"
+        "am": "የጡንቻዎች ግንባታ ብሎኬቶች"
     },
     {
         "id": "fats-title",
@@ -57,7 +57,7 @@
     },
     {
         "id": "micronutrients-text",
-        "am": "ማይክሮ ኤለመንቶች እና እርጥበት"
+        "am": "ማይክሮ ንጥረ ነገሮች እና ሃይድሬሽን"
     },
     {
         "id": "vitamins-title",
@@ -69,19 +69,19 @@
     },
     {
         "id": "minerals-title",
-        "am": "ማዕድናት"
+        "am": "ሚነራሎች"
     },
     {
         "id": "minerals-description",
-        "am": "ቁልፍ ተግባራትን መደገፍ"
+        "am": "ቁልፍ ተግባራትን ደጋፊዎች"
     },
     {
         "id": "micro-hydration-title",
-        "am": "እርጥበት"
+        "am": "ሃይድሬሽን"
     },
     {
         "id": "micro-hydration-description",
-        "am": "ለአፈፃፀም እና ለማገገም አስፈላጊ"
+        "am": "ለእንቅስቃሴ እና ለማገገም አስፈላጊ"
     },
     {
         "id": "meal-plans-text",
@@ -89,23 +89,23 @@
     },
     {
         "id": "weight-loss-meal-plan-title",
-        "am": "የክብደት መቀነስ የምግብ እቅድ"
+        "am": "የክብደት መቀነሻ የምግብ እቅድ"
     },
     {
         "id": "weight-loss-meal-plan-description",
-        "am": "ለጤናማ እና ዘላቂ ክብደት መቀነስ የተነደፉ ብጁ የምግብ ዕቅዶች።"
+        "am": "ለጤናማ እና ዘላቂ የክብደት ቅነሳ የተነደፉ ምርጥ የምግብ ዕቅዶች።"
     },
     {
         "id": "muscle-gain-meal-plan-title",
-        "am": "የጡንቻ መጨመር የምግብ እቅድ"
+        "am": "የጡንቻ እድገት የምግብ እቅድ"
     },
     {
         "id": "muscle-gain-meal-plan-description",
-        "am": "በንጥረ-ምግብ የበለፀገ ምግብ የጡንቻን እድገትን እና ማገገምን ለመደገፍ እቅድ አለው."
+        "am": "በንጥረ-ምግብ በበለፀገ ምግብ የጡንቻን እድገትን እና ማገገምን ለመደገፍ የተዘጋጀ እቅድ።"
     },
     {
         "id": "maintenance-meal-plan-title",
-        "am": "የጥገና ምግብ እቅድ"
+        "am": "ክብደት መጠበቂያ የምግብ እቅድ"
     },
     {
         "id": "maintenance-meal-plan-description",
@@ -113,11 +113,11 @@
     },
     {
         "id": "endurance-meal-plan-title",
-        "am": "ጽናት እና የአፈጻጸም ማሻሻያ"
+        "am": "ብርታት እና የአፈጻጸም ማሻሻያ"
     },
     {
         "id": "endurance-meal-plan-description",
-        "am": "ለጽናት አትሌቶች የተመቻቸ አመጋገብ እና የአፈፃፀም ማሻሻያ።"
+        "am": "ለአትሌቶች ብርታት የተመቻቸ አመጋገብ እና የአፈፃፀም ማሻሻያ።"
     },
     {
         "id": "recomp-meal-plan-title",
@@ -137,15 +137,15 @@
     },
     {
         "id": "plant-based-diet-description",
-        "am": "በፕሮቲን እና ጠቃሚ ንጥረ ነገሮች የበለፀጉ የተመጣጠነ ተክል-ተኮር ምግቦች."
+        "am": "በፕሮቲን እና ጠቃሚ ንጥረ ነገሮች የበለፀጉ የተመጣጠነ ተክል-ተኮር ምግቦች።"
     },
     {
         "id": "low-carb-diet-title",
-        "am": "ዝቅተኛ-ካርቦሃይድሬት አመጋገብ"
+        "am": "የዝቅተኛ-ካርቦሃይድሬት አመጋገብ"
     },
     {
         "id": "low-carb-diet-description",
-        "am": "ለክብደት አስተዳደር እና ለሜታቦሊክ ጤና የተቀነሰ የካርቦሃይድሬት ምግቦች።"
+        "am": "ለክብደት ቁጥጥር እና ለሜታቦሊክ ጤና የተቀነሱ የካርቦሃይድሬት ምግቦች።"
     },
     {
         "id": "mediterranean-diet-title",
@@ -153,7 +153,7 @@
     },
     {
         "id": "mediterranean-diet-description",
-        "am": "በሜዲትራኒያን ምግብ ተመስጦ የልብ-ጤናማ የአመጋገብ ስርዓት።"
+        "am": "በሜዲትራኒያን ምግብ የተመሰረተ የልብ-ጤናማ የአመጋገብ ስርዓት።"
     },
     {
         "id": "gluten-free-diet-title",
@@ -161,15 +161,15 @@
     },
     {
         "id": "gluten-free-diet-description",
-        "am": "ከግሉተን-ያካተቱ ንጥረ ነገሮች ያለ ጣፋጭ ምግቦች።"
+        "am": "ከግሉተን ነፃ ከሆኑ ንጥረ ነገሮች የተሰሩ ጣፋጭ ምግቦች።"
     },
     {
         "id": "if-diet-title",
-        "am": "ጊዜያዊ ጾም (ከሆነ)"
+        "am": "ኢንተርሚተንት ጾም"
     },
     {
         "id": "if-diet-description",
-        "am": "ለሜታቦሊክ ጤና እና ክብደት አስተዳደር ስልታዊ የአመጋገብ ዘይቤዎች።"
+        "am": "ለሜታቦሊክ ጤና እና ክብደት ቁጥጥር ስልታዊ የአመጋገብ ዘይቤ ነው።"
     },
     {
         "id": "dairy-free-diet-title",
@@ -177,7 +177,7 @@
     },
     {
         "id": "dairy-free-diet-description",
-        "am": "ያለ የወተት ተዋጽኦዎች የተመጣጠነ ምግብ."
+        "am": "ከወተት ተዋፅኦዎች ነፃ የሆነ የተመጣጠነ ምግብ።"
     },
     {
         "id": "high-protein-diet-title",
@@ -185,15 +185,15 @@
     },
     {
         "id": "high-protein-diet-description",
-        "am": "በፕሮቲን የበለፀገ የምግብ እቅድ ለጡንቻ እድገት እና ለማገገም።"
+        "am": "ለጡንቻ እድገት እና ለማገገም የሚሆን በፕሮቲን የበለፀገ የምግብ እቅድ ።"
     },
     {
         "id": "sample-recipes-text",
-        "am": "ናሙና የምግብ አዘገጃጀት"
+        "am": "የምግብ አዘገጃጀት ሳምፕሎች"
     },
     {
         "id": "breakfast-recipes-title",
-        "am": "ቁርስ የምግብ አዘገጃጀት"
+        "am": "የቁርስ የምግብ አዘገጃጀት"
     },
     {
         "id": "breakfast-recipes-description",
@@ -205,11 +205,11 @@
     },
     {
         "id": "lunch-recipes-description",
-        "am": "ቀንዎን ለማሞቅ ፈጣን እና ጤናማ የምሳ ሀሳቦች።"
+        "am": "ቀንዎን ለማድመቅ ፈጣን እና ጤናማ የምሳ ሀሳቦች።"
     },
     {
         "id": "dinner-recipes-title",
-        "am": "እራት የምግብ አዘገጃጀት"
+        "am": "የእራት የምግብ አዘገጃጀት"
     },
     {
         "id": "dinner-recipes-description",
@@ -217,27 +217,27 @@
     },
     {
         "id": "supplements-text",
-        "am": "ተጨማሪዎች መመሪያ"
+        "am": "የሰፕሊመንቶች መመሪያ"
     },
     {
         "id": "supplements-understanding-title",
-        "am": "ተጨማሪዎችን መረዳት"
+        "am": "ሰፕሊመንቶችን መረዳት"
     },
     {
         "id": "supplements-understanding-description",
-        "am": "ስለ የተለያዩ አይነት ማሟያዎች እና ለአካል ብቃት ጉዞዎ ያላቸውን ጥቅሞች ይወቁ።"
+        "am": "ስለ የተለያዩ አይነት ሰፕሊመንቶች እና ለአካል ብቃት ጉዞዎ ያላቸውን ጥቅሞች ይወቁ።"
     },
     {
         "id": "supplements-safety-title",
-        "am": "ተጨማሪ ደህንነት"
+        "am": "የሰፕሊመንቶች ደህንነት"
     },
     {
         "id": "supplements-safety-description",
-        "am": "ውጤታማ አጠቃቀም መመሪያዎች፣ ሊከሰቱ የሚችሉ ስጋቶች እና የደህንነት ጉዳዮች።"
+        "am": "ስለውጤታማ አጠቃቀም ፣ ሊከሰቱ ስለሚችሉ ስጋቶች እና ስለደህንነት ጉዳዮች የሚገልፁ መመሪያዎች።"
     },
     {
         "id": "supplements-shop-title",
-        "am": "የሱቅ ማሟያዎች"
+        "am": "ሰፕሊመንቶችን ይግዙ"
     },
     {
         "id": "supplements-shop-description",
@@ -257,7 +257,7 @@
     },
     {
         "id": "nutrition-plan-heading-description",
-        "am": "በመገለጫዎ ላይ በመመስረት ብጁ የሆነ የአመጋገብ ዕቅድ ፈጠርን።"
+        "am": "በመገለጫዎ ላይ በመመስረት ምርጥ የሆነ የአመጋገብ ዕቅድ ፈጠርን።"
     },
     {
         "id": "nutrition-plan-view-button",
