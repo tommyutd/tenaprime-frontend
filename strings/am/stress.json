@@ -21,19 +21,19 @@
     },
     {
         "id": "stress-understanding-content",
-        "am": "ውጥረት የሰውነትን \"የመዋጋት ወይም የማምለጥ\" ምላሽ ያነሳሳል, እንደ ኮርቲሶል እና አድሬናሊን ያሉ ሆርሞኖችን ያስወጣል። የአጭር ጊዜ ጭንቀት ለተነሳሽነት ወይም ለፈጣን ተግዳሮቶች ምላሽ ሊረዳ ቢችልም፣ ረዘም ላለ ጊዜ የሚቆይ ጭንቀት ወደሚከተሉት ሊመራ ይችላል፡-"
+        "am": "ውጥረት የሰውነትን \"የመዋጋት ወይም የማምለጥ\" ምላሽ ያነሳሳል, እንደ ኮርቲሶል እና አድሬናሊን ያሉ ሆርሞኖችን ያስወጣል። የአጭር ጊዜ ጭንቀት ለተነሳሽነት ወይም ለፈጣን ተግዳሮቶች ምላሽ ሊረዳ ቢችልም፣ ረዘም ላለ ጊዜ የሚቆይ ጭንቀት ወደሚከተሉት ሊመራ ይችላል፦"
     },
     {
         "id": "stress-impact-physical",
-        "am": "<b>የአካል ህመሞች፡</b> ራስ ምታት፣ የጡንቻ ውጥረት፣ ድካም"
+        "am": "<b>የአካል ህመሞች፦</b> ራስ ምታት፣ የጡንቻ ውጥረት፣ ድካም"
     },
     {
         "id": "stress-impact-emotional",
-        "am": "<b>ስሜታዊ ችግሮች፡</b> መበሳጨት፣ ጭንቀት፣ የስሜት መለዋወጥ"
+        "am": "<b>ስሜታዊ ችግሮች፦</b> መበሳጨት፣ ጭንቀት፣ የስሜት መለዋወጥ"
     },
     {
         "id": "stress-impact-cognitive",
-        "am": "<b>የግንዛቤ ችግሮች፡</b> ትኩረትን መሰብሰብ ላይ ችግር፣ የማስታወስ ችግር"
+        "am": "<b>የግንዛቤ ችግሮች፦</b> ትኩረትን መሰብሰብ ላይ ችግር፣ የማስታወስ ችግር"
     },
     {
         "id": "stress-importance-title",
@@ -41,15 +41,15 @@
     },
     {
         "id": "stress-importance-mental",
-        "am": "<b>የአእምሮ ጤናን ይደግፋል፡</b> ከመጠን በላይ የመጨነቅ እና የብስጭት ስሜቶችን ይቀንሳል"
+        "am": "<b>የአእምሮ ጤናን ይደግፋል፦</b> ከመጠን በላይ የመጨነቅ እና የብስጭት ስሜቶችን ይቀንሳል"
     },
     {
         "id": "stress-importance-physical",
-        "am": "<b>አካላዊ ጤንነትን ያሻሽላል፡</b> የደም ግፊትን ይቀንሳል፣ ውጥረትን ያስታግሳል እንዲሁም በሽታ የመከላከል ስርዓትን ያጠናክራል።"
+        "am": "<b>አካላዊ ጤንነትን ያሻሽላል፦</b> የደም ግፊትን ይቀንሳል፣ ውጥረትን ያስታግሳል እንዲሁም በሽታ የመከላከል ስርዓትን ያጠናክራል።"
     },
     {
         "id": "stress-importance-quality",
-        "am": "<b>የህይወት ጥራትን ያሳድጋል፡</b> የተሻሉ ግንኙነቶችን፣ ምርታማነትን እና የበለጠ አዎንታዊ አመለካከትን ያበረታታል"
+        "am": "<b>የህይወት ጥራትን ያሳድጋል፦</b> የተሻሉ ግንኙነቶችን፣ ምርታማነትን እና የበለጠ አዎንታዊ አመለካከትን ያበረታታል"
     },
     {
         "id": "stress-factors-title",
@@ -57,19 +57,19 @@
     },
     {
         "id": "stress-factors-lifestyle",
-        "am": "<b>የአኗኗር ምርጫዎች፡</b> ደካማ የጊዜ አጠቃቀም፣ ከመጠን ያለፈ ኃላፊነት እና የእረፍት ጊዜ ማጣት ጭንቀትን ይጨምራል።"
+        "am": "<b>የአኗኗር ምርጫዎች፦</b> ደካማ የጊዜ አጠቃቀም፣ ከመጠን ያለፈ ኃላፊነት እና የእረፍት ጊዜ ማጣት ጭንቀትን ይጨምራል።"
     },
     {
         "id": "stress-factors-environment",
-        "am": "<b>አካባቢያዊ ሁኔታዎች፡</b> ጫጫታ የሚበዛባቸው የስራ ቦታዎች፣ የተዝረከረኩ ቤቶች እና የግል ቦታ እጦት ለጭንቀት አስተዋፅኦ ያደርጋሉ።"
+        "am": "<b>አካባቢያዊ ሁኔታዎች፦</b> ጫጫታ የሚበዛባቸው የስራ ቦታዎች፣ የተዝረከረኩ ቤቶች እና የግል ቦታ እጦት ለጭንቀት አስተዋፅኦ ያደርጋሉ።"
     },
     {
         "id": "stress-factors-psychological",
-        "am": "<b>ሥነ ልቦናዊ ምክንያቶች፡</b> አሉታዊ የአስተሳሰብ ዘይቤዎች፣ ፍፁምናዊነት እና ያለፉ ጉዳቶች ውጥረትን ከፍ ያደርጋሉ።"
+        "am": "<b>ሥነ ልቦናዊ ምክንያቶች፦</b> አሉታዊ የአስተሳሰብ ዘይቤዎች፣ ፍፁምናዊነት እና ያለፉ ጉዳቶች ውጥረትን ከፍ ያደርጋሉ።"
     },
     {
         "id": "stress-factors-medical",
-        "am": "<b>የህክምና ሁኔታዎች እና መድሃኒቶች፡</b> አንዳንድ የጤና ጉዳዮች እና መድሃኒቶች የጭንቀት ደረጃዎች ላይ ተጽዕኖ ሊያሳድሩ ይችላሉ።"
+        "am": "<b>የህክምና ሁኔታዎች እና መድሃኒቶች፦</b> አንዳንድ የጤና ጉዳዮች እና መድሃኒቶች የጭንቀት ደረጃዎች ላይ ተጽዕኖ ሊያሳድሩ ይችላሉ።"
     },
     {
         "id": "stress-techniques-title",
@@ -85,7 +85,7 @@
     },
     {
         "id": "stress-box-breathing-howto",
-        "am": "<b>እንዴት እንደሚደረግ፡</b>"
+        "am": "<b>እንዴት እንደሚደረግ፦</b>"
     },
     {
         "id": "stress-box-breathing-step1",
@@ -117,7 +117,7 @@
     },
     {
         "id": "stress-four-seven-eight-howto",
-        "am": "<b>እንዴት እንደሚደረግ፡</b>"
+        "am": "<b>እንዴት እንደሚደረግ፦</b>"
     },
     {
         "id": "stress-four-seven-eight-step1",
@@ -145,7 +145,7 @@
     },
     {
         "id": "stress-diaphragmatic-breathing-howto",
-        "am": "<b>እንዴት እንደሚደረግ፡</b>"
+        "am": "<b>እንዴት እንደሚደረግ፦</b>"
     },
     {
         "id": "stress-diaphragmatic-breathing-step1",
@@ -177,7 +177,7 @@
     },
     {
         "id": "stress-skull-breathing-steps-title",
-        "am": "<b>ደረጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፦</b>"
     },
     {
         "id": "stress-skull-breathing-step1",
@@ -205,7 +205,7 @@
     },
     {
         "id": "stress-skull-breathing-warning",
-        "am": "<i>ማስታወሻ፡ ከፍተኛ የደም ግፊት ወይም የልብ ህመም ካለብዎ ያቁሙ።</i>"
+        "am": "<i>ማስታወሻ፦ ከፍተኛ የደም ግፊት ወይም የልብ ህመም ካለብዎ ያቁሙ።</i>"
     },
     {
         "id": "stress-bellows-breath-title",
@@ -213,7 +213,7 @@
     },
     {
         "id": "stress-bellows-breath-steps-title",
-        "am": "<b>ደረጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፦</b>"
     },
     {
         "id": "stress-bellows-breath-step1",
@@ -241,7 +241,7 @@
     },
     {
         "id": "stress-stimulating-breath-steps-title",
-        "am": "<b>ደረጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፦</b>"
     },
     {
         "id": "stress-stimulating-breath-step1",
@@ -269,7 +269,7 @@
     },
     {
         "id": "stress-alternate-nostril-steps-title",
-        "am": "<b>ደረጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፦</b>"
     },
     {
         "id": "stress-alternate-nostril-step1",
@@ -277,7 +277,7 @@
     },
     {
         "id": "stress-alternate-nostril-step2",
-        "am": "ቀኝ እጃችሁን ይጠቀሙ፡ አውራ ጣትዎን የቀኝ አፍንጫ ላይ የቀለበት ጣትዎን የግራው አፍንጫ ላይ።"
+        "am": "ቀኝ እጃችሁን ይጠቀሙ፦ አውራ ጣትዎን የቀኝ አፍንጫ ላይ የቀለበት ጣትዎን የግራው አፍንጫ ላይ።"
     },
     {
         "id": "stress-alternate-nostril-step3",
@@ -305,7 +305,7 @@
     },
     {
         "id": "stress-equal-breathing-steps-title",
-        "am": "<b>ደረጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፦</b>"
     },
     {
         "id": "stress-equal-breathing-step1",
@@ -329,7 +329,7 @@
     },
     {
         "id": "stress-coherent-breathing-steps-title",
-        "am": "<b>ደረጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፦</b>"
     },
     {
         "id": "stress-coherent-breathing-step1",
@@ -357,7 +357,7 @@
     },
     {
         "id": "stress-mindful-breathing-steps-title",
-        "am": "<b>ደረጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፦</b>"
     },
     {
         "id": "stress-mindful-breathing-step1",
@@ -381,7 +381,7 @@
     },
     {
         "id": "stress-resonant-breathing-steps-title",
-        "am": "<b>ድጃዎች፡</b>"
+        "am": "<b>ድጃዎች፦</b>"
     },
     {
         "id": "stress-resonant-breathing-step1",
@@ -405,7 +405,7 @@
     },
     {
         "id": "stress-loving-kindness-breath-steps-title",
-        "am": "<b>ደረጃዎች፡</b>"
+        "am": "<b>ደረጃዎች፦</b>"
     },
     {
         "id": "stress-loving-kindness-breath-step1",
@@ -429,7 +429,7 @@
     },
     {
         "id": "stress-pmr-howto",
-        "am": "<b>እንዴት እንደሚደረግ፡</b>"
+        "am": "<b>እንዴት እንደሚደረግ፦</b>"
     },
     {
         "id": "stress-pmr-step1",
@@ -457,7 +457,7 @@
     },
     {
         "id": "stress-mindfulness-meditation-howto",
-        "am": "<b>እንዴት እንደሚደረግ፡</b>"
+        "am": "<b>እንዴት እንደሚደረግ፦</b>"
     },
     {
         "id": "stress-mindfulness-meditation-step1",
@@ -477,7 +477,7 @@
     },
     {
         "id": "stress-body-scan-howto",
-        "am": "<b>እንዴት እንደሚደረግ፡</b>"
+        "am": "<b>እንዴት እንደሚደረግ፦</b>"
     },
     {
         "id": "stress-body-scan-step1",
@@ -493,7 +493,7 @@
     },
     {
         "id": "stress-guided-imagery-howto",
-        "am": "<b>እንዴት እንደሚደረግ፡</b>"
+        "am": "<b>እንዴት እንደሚደረግ፦</b>"
     },
     {
         "id": "stress-guided-imagery-step1",
@@ -513,7 +513,7 @@
     },
     {
         "id": "stress-five-four-three-howto",
-        "am": "<b>እንዴት እንደሚደረግ፡</b>"
+        "am": "<b>እንዴት እንደሚደረግ፦</b>"
     },
     {
         "id": "stress-five-four-three-step1",
@@ -545,7 +545,7 @@
     },
     {
         "id": "stress-emotion-acknowledge-howto",
-        "am": "<b>እንዴት እንደሚደረግ፡</b>"
+        "am": "<b>እንዴት እንደሚደረግ፦</b>"
     },
     {
         "id": "stress-emotion-acknowledge-step1",
@@ -565,7 +565,7 @@
     },
     {
         "id": "stress-cardio-title",
-        "am": "1. ቀላል ካርዲዮ (ለምሳሌ፡ እርምጃ፣ ብስክሌት መንዳት)"
+        "am": "1. ቀላል ካርዲዮ (ለምሳሌ፦ እርምጃ፣ ብስክሌት መንዳት)"
     },
     {
         "id": "stress-cardio-benefits",
@@ -593,23 +593,23 @@
     },
     {
         "id": "stress-tip-time",
-        "am": "<b>የጊዜ አጠቃቀም፡</b> የመጨናነቅ ስሜትን ለማስወገድ ቅድሚያ የሚሰጧቸውን ነገሮች ያዘጋጁ እና የተግባር ዝርዝሮችን ይፍጠሩ።"
+        "am": "<b>የጊዜ አጠቃቀም፦</b> የመጨናነቅ ስሜትን ለማስወገድ ቅድሚያ የሚሰጧቸውን ነገሮች ያዘጋጁ እና የተግባር ዝርዝሮችን ይፍጠሩ።"
     },
     {
         "id": "stress-tip-boundaries",
-        "am": "<b>ጤናማ ድንበሮች፡</b> ከአቅምዎ በላይ ለሚሆኑ ቃል ኪዳኖች እምቢ ማለትን ይማሩ።"
+        "am": "<b>ጤናማ ድንበሮች፦</b> ከአቅምዎ በላይ ለሚሆኑ ቃል ኪዳኖች እምቢ ማለትን ይማሩ።"
     },
     {
         "id": "stress-tip-support",
-        "am": "<b>ማህበራዊ ድጋፍ፡</b> ስለ አስጨናቂ ነገሮች ከጓደኞች፣ ቤተሰብ ወይም የድጋፍ ቡድኖች ጋር ይነጋገሩ።"
+        "am": "<b>ማህበራዊ ድጋፍ፦</b> ስለ አስጨናቂ ነገሮች ከጓደኞች፣ ቤተሰብ ወይም የድጋፍ ቡድኖች ጋር ይነጋገሩ።"
     },
     {
         "id": "stress-tip-humor",
-        "am": "<b>ቀልድ እና ጨዋታ፡</b> ደስታ እና ሳቅ በሚያመጡ እንቅስቃሴዎች ውስጥ ይሳተፉ።"
+        "am": "<b>ቀልድ እና ጨዋታ፦</b> ደስታ እና ሳቅ በሚያመጡ እንቅስቃሴዎች ውስጥ ይሳተፉ።"
     },
     {
         "id": "stress-tip-relaxation",
-        "am": "<b>የመዝናናኛ ሥነ-ሥርዓቶች፡</b> እንደ ማንበብ፣ ሙቅ ሻወር፣ ወይም የሚያረጋጋ ሙዚቃ ማዳመጥ ያሉ አስደሳች፣ የሚያረጋጉ እንቅስቃሴዎችን ያካትቱ።"
+        "am": "<b>የመዝናናኛ ሥነ-ሥርዓቶች፦</b> እንደ ማንበብ፣ ሙቅ ሻወር፣ ወይም የሚያረጋጋ ሙዚቃ ማዳመጥ ያሉ አስደሳች፣ የሚያረጋጉ እንቅስቃሴዎችን ያካትቱ።"
     },
     {
         "id": "stress-mental-health-concerns-title",
@@ -669,35 +669,35 @@
     },
     {
         "id": "stress-professional-help-persistent",
-        "am": "<b>የማያቋርጥ ጭንቀት፡</b> የራስ አገዝ ጥረቶች ቢያደርጉም ከብዙ ሳምንታት በላይ የሚቆይ ጭንቀት።"
+        "am": "<b>የማያቋርጥ ጭንቀት፦</b> የራስ አገዝ ጥረቶች ቢያደርጉም ከብዙ ሳምንታት በላይ የሚቆይ ጭንቀት።"
     },
     {
         "id": "stress-professional-help-impact",
-        "am": "<b>በዕለት ተዕለት ሕይወት ላይ የሚያሳድረው ተጽዕኖ፡</b> የዕለት ተዕለት ሥራዎችን ለማከናወን ወይም ግንኙነቶችን ለመጠበቅ መቸገር።"
+        "am": "<b>በዕለት ተዕለት ሕይወት ላይ የሚያሳድረው ተጽዕኖ፦</b> የዕለት ተዕለት ሥራዎችን ለማከናወን ወይም ግንኙነቶችን ለመጠበቅ መቸገር።"
     },
     {
         "id": "stress-professional-help-physical",
-        "am": "<b>አካላዊ ምልክቶች፡</b> ተደጋጋሚ ራስ ምታት፣ የሆድ ህመም ወይም እንቅልፍ ማጣት።"
+        "am": "<b>አካላዊ ምልክቶች፦</b> ተደጋጋሚ ራስ ምታት፣ የሆድ ህመም ወይም እንቅልፍ ማጣት።"
     },
     {
         "id": "stress-professional-help-mental",
-        "am": "<b>የአእምሮ ጤና ጉዳዮች ምልክቶች፡</b> ከባድ ጭንቀት፣ ድብርት፣ የሽብር ጥቃቶች።"
+        "am": "<b>የአእምሮ ጤና ጉዳዮች ምልክቶች፦</b> ከባድ ጭንቀት፣ ድብርት፣ የሽብር ጥቃቶች።"
     },
     {
         "id": "stress-consultation-options-title",
-        "am": "የምክክር አማራጮች፡-"
+        "am": "የምክክር አማራጮች፦"
     },
     {
         "id": "stress-consultation-physician",
-        "am": "<b>የመጀመሪያ ደረጃ ሐኪም፡</b> የመጀመሪያ ደረጃ ግምገማ እና መመሪያ።"
+        "am": "<b>የመጀመሪያ ደረጃ ሐኪም፦</b> የመጀመሪያ ደረጃ ግምገማ እና መመሪያ።"
     },
     {
         "id": "stress-consultation-therapist",
-        "am": "<b>የአእምሮ ጤና ባለሙያ (ቴራፒስት፣ አማካሪ)፡</b> የመቋቋሚያ ስልቶችን እና ህክምናን ይሰጣል።"
+        "am": "<b>የአእምሮ ጤና ባለሙያ (ቴራፒስት፣ አማካሪ)፦</b> የመቋቋሚያ ስልቶችን እና ህክምናን ይሰጣል።"
     },
     {
         "id": "stress-consultation-psychiatrist",
-        "am": "<b>የአእምሮ ሐኪም፡</b> ለመድኃኒት እና ልዩ የሕክምና ዕቅዶች።"
+        "am": "<b>የአእምሮ ሐኪም፦</b> ለመድኃኒት እና ልዩ የሕክምና ዕቅዶች።"
     },
     {
         "id": "stress-additional-resources-title",
@@ -705,7 +705,7 @@
     },
     {
         "id": "stress-resources-books-title",
-        "am": "መጽሐፍት፡-"
+        "am": "መጽሐፍት፦"
     },
     {
         "id": "stress-resources-book1",
@@ -717,19 +717,19 @@
     },
     {
         "id": "stress-resources-apps-title",
-        "am": "መተግበሪያዎች፡-"
+        "am": "መተግበሪያዎች፦"
     },
     {
         "id": "stress-resources-app1",
-        "am": "<b>Headspace፡</b> የሚመሩ ማሰላሰሎች እና የጭንቀት እፎይታ ልምምዶች።"
+        "am": "<b>Headspace፦</b> የሚመሩ ማሰላሰሎች እና የጭንቀት እፎይታ ልምምዶች።"
     },
     {
         "id": "stress-resources-app2",
-        "am": "<b>Calm፡</b> የእስትንፋስ ልምምዶች፣ የሚያዝናኑ ድምፆች እና የእንቅልፍ ታሪኮች።"
+        "am": "<b>Calm፦</b> የእስትንፋስ ልምምዶች፣ የሚያዝናኑ ድምፆች እና የእንቅልፍ ታሪኮች።"
     },
     {
         "id": "stress-resources-app3",
-        "am": "<b>Sanvello፡</b> ለጭንቀት እና ለጭንቀት አስተዳደር የግንዛቤ ባህሪ ቴራፒ-ተኮር መሳሪያዎች።"
+        "am": "<b>Sanvello፦</b> ለጭንቀት እና ለጭንቀት አስተዳደር የግንዛቤ ባህሪ ቴራፒ-ተኮር መሳሪያዎች።"
     },
     {
         "id": "stress-conclusion-title",

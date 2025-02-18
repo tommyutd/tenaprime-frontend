@@ -1,7 +1,7 @@
 [
     {
         "id": "yoga-guide-title",
-        "en": "Yoga: A Beginner's Guide"
+        "en": "Yoga፦ A Beginner's Guide"
     },
     {
         "id": "yoga-guide-description",
@@ -25,19 +25,19 @@
     },
     {
         "id": "yoga-benefit-flexibility",
-        "en": "<b>Improves Flexibility:</b> Regular practice stretches muscles and increases range of motion."
+        "en": "<b>Improves Flexibility፦</b> Regular practice stretches muscles and increases range of motion."
     },
     {
         "id": "yoga-benefit-strength",
-        "en": "<b>Builds Strength:</b> Enhances muscle tone and endurance throughout the body."
+        "en": "<b>Builds Strength፦</b> Enhances muscle tone and endurance throughout the body."
     },
     {
         "id": "yoga-benefit-balance",
-        "en": "<b>Enhances Balance and Posture:</b> Promotes better alignment and stability."
+        "en": "<b>Enhances Balance and Posture፦</b> Promotes better alignment and stability."
     },
     {
         "id": "yoga-benefit-energy",
-        "en": "<b>Boosts Energy Levels:</b> Increases vitality and reduces feelings of fatigue."
+        "en": "<b>Boosts Energy Levels፦</b> Increases vitality and reduces feelings of fatigue."
     },
     {
         "id": "yoga-mental-title",
@@ -45,15 +45,15 @@
     },
     {
         "id": "yoga-benefit-stress",
-        "en": "<b>Reduces Stress:</b> Lowers cortisol levels and promotes relaxation."
+        "en": "<b>Reduces Stress፦</b> Lowers cortisol levels and promotes relaxation."
     },
     {
         "id": "yoga-benefit-focus",
-        "en": "<b>Enhances Focus:</b> Improves concentration and mental clarity."
+        "en": "<b>Enhances Focus፦</b> Improves concentration and mental clarity."
     },
     {
         "id": "yoga-benefit-emotional",
-        "en": "<b>Promotes Emotional Health:</b> Encourages mindfulness and self-awareness."
+        "en": "<b>Promotes Emotional Health፦</b> Encourages mindfulness and self-awareness."
     },
     {
         "id": "yoga-styles-title",
@@ -65,15 +65,15 @@
     },
     {
         "id": "yoga-hatha-overview",
-        "en": "<b>Overview:</b> Focuses on basic postures at a gentle pace."
+        "en": "<b>Overview፦</b> Focuses on basic postures at a gentle pace."
     },
     {
         "id": "yoga-hatha-ideal",
-        "en": "<b>Ideal For:</b> Beginners seeking foundational practice."
+        "en": "<b>Ideal For፦</b> Beginners seeking foundational practice."
     },
     {
         "id": "yoga-hatha-benefits",
-        "en": "<b>Benefits:</b> Builds flexibility and introduces fundamental poses."
+        "en": "<b>Benefits፦</b> Builds flexibility and introduces fundamental poses."
     },
     {
         "id": "yoga-vinyasa-title",
@@ -81,15 +81,15 @@
     },
     {
         "id": "yoga-vinyasa-overview",
-        "en": "<b>Overview:</b> Involves fluid movement linked with breath."
+        "en": "<b>Overview፦</b> Involves fluid movement linked with breath."
     },
     {
         "id": "yoga-vinyasa-ideal",
-        "en": "<b>Ideal For:</b> Those who enjoy dynamic and varied routines."
+        "en": "<b>Ideal For፦</b> Those who enjoy dynamic and varied routines."
     },
     {
         "id": "yoga-vinyasa-benefits",
-        "en": "<b>Benefits:</b> Enhances cardiovascular health and coordination."
+        "en": "<b>Benefits፦</b> Enhances cardiovascular health and coordination."
     },
     {
         "id": "yoga-restorative-title",
@@ -97,15 +97,15 @@
     },
     {
         "id": "yoga-restorative-overview",
-        "en": "<b>Overview:</b> Uses props to support passive poses for deep relaxation."
+        "en": "<b>Overview፦</b> Uses props to support passive poses for deep relaxation."
     },
     {
         "id": "yoga-restorative-ideal",
-        "en": "<b>Ideal For:</b> Stress relief and recovery."
+        "en": "<b>Ideal For፦</b> Stress relief and recovery."
     },
     {
         "id": "yoga-restorative-benefits",
-        "en": "<b>Benefits:</b> Promotes healing and reduces tension."
+        "en": "<b>Benefits፦</b> Promotes healing and reduces tension."
     },
     {
         "id": "yoga-poses-title",
@@ -117,11 +117,11 @@
     },
     {
         "id": "yoga-mountain-purpose",
-        "en": "<b>Purpose:</b> Establishes a solid foundation and improves posture."
+        "en": "<b>Purpose፦</b> Establishes a solid foundation and improves posture."
     },
     {
         "id": "yoga-mountain-howto",
-        "en": "<b>How to Practice:</b>"
+        "en": "<b>How to Practice፦</b>"
     },
     {
         "id": "yoga-mountain-step1",
@@ -149,11 +149,11 @@
     },
     {
         "id": "yoga-downdog-purpose",
-        "en": "<b>Purpose:</b> Stretches the entire body and builds strength."
+        "en": "<b>Purpose፦</b> Stretches the entire body and builds strength."
     },
     {
         "id": "yoga-downdog-howto",
-        "en": "<b>How to Practice:</b>"
+        "en": "<b>How to Practice፦</b>"
     },
     {
         "id": "yoga-downdog-step1",
@@ -181,11 +181,11 @@
     },
     {
         "id": "yoga-warrior-purpose",
-        "en": "<b>Purpose:</b> Strengthens legs and improves stamina."
+        "en": "<b>Purpose፦</b> Strengthens legs and improves stamina."
     },
     {
         "id": "yoga-warrior-howto",
-        "en": "<b>How to Practice:</b>"
+        "en": "<b>How to Practice፦</b>"
     },
     {
         "id": "yoga-warrior-step1",
@@ -213,11 +213,11 @@
     },
     {
         "id": "yoga-child-purpose",
-        "en": "<b>Purpose:</b> Provides rest and gentle stretching for the back and hips."
+        "en": "<b>Purpose፦</b> Provides rest and gentle stretching for the back and hips."
     },
     {
         "id": "yoga-child-howto",
-        "en": "<b>How to Practice:</b>"
+        "en": "<b>How to Practice፦</b>"
     },
     {
         "id": "yoga-child-step1",
@@ -249,11 +249,11 @@
     },
     {
         "id": "yoga-instruction-classes",
-        "en": "<b>Classes:</b> Attend a local beginner's class for guided instruction."
+        "en": "<b>Classes፦</b> Attend a local beginner's class for guided instruction."
     },
     {
         "id": "yoga-instruction-online",
-        "en": "<b>Online Resources:</b> Use reputable websites or apps offering beginner tutorials."
+        "en": "<b>Online Resources፦</b> Use reputable websites or apps offering beginner tutorials."
     },
     {
         "id": "yoga-space-title",
@@ -261,11 +261,11 @@
     },
     {
         "id": "yoga-space-mat",
-        "en": "<b>Yoga Mat:</b> Provides cushioning and stability."
+        "en": "<b>Yoga Mat፦</b> Provides cushioning and stability."
     },
     {
         "id": "yoga-space-area",
-        "en": "<b>Quiet Area:</b> Choose a space free from distractions."
+        "en": "<b>Quiet Area፦</b> Choose a space free from distractions."
     },
     {
         "id": "yoga-clothing-title",
@@ -273,7 +273,7 @@
     },
     {
         "id": "yoga-clothing-attire",
-        "en": "<b>Clothing:</b> Wear attire that allows free movement, such as leggings and a fitted top."
+        "en": "<b>Clothing፦</b> Wear attire that allows free movement, such as leggings and a fitted top."
     },
     {
         "id": "yoga-body-title",
@@ -281,11 +281,11 @@
     },
     {
         "id": "yoga-body-modify",
-        "en": "<b>Modify Poses:</b> Use props or adjust positions to suit your comfort level."
+        "en": "<b>Modify Poses፦</b> Use props or adjust positions to suit your comfort level."
     },
     {
         "id": "yoga-body-pain",
-        "en": "<b>Avoid Pain:</b> Discomfort is okay, but sharp pain is a signal to stop."
+        "en": "<b>Avoid Pain፦</b> Discomfort is okay, but sharp pain is a signal to stop."
     },
     {
         "id": "yoga-tips-title",
@@ -297,11 +297,11 @@
     },
     {
         "id": "yoga-tips-session",
-        "en": "<b>Session Length:</b> Begin with 15-20 minutes and gradually increase."
+        "en": "<b>Session Length፦</b> Begin with 15-20 minutes and gradually increase."
     },
     {
         "id": "yoga-tips-frequency",
-        "en": "<b>Frequency:</b> Aim for 2-3 times per week initially."
+        "en": "<b>Frequency፦</b> Aim for 2-3 times per week initially."
     },
     {
         "id": "yoga-consistency-title",
@@ -309,11 +309,11 @@
     },
     {
         "id": "yoga-tips-routine",
-        "en": "<b>Routine:</b> Practice at the same time each day to build habit."
+        "en": "<b>Routine፦</b> Practice at the same time each day to build habit."
     },
     {
         "id": "yoga-tips-patience",
-        "en": "<b>Patience:</b> Progress takes time; focus on the journey."
+        "en": "<b>Patience፦</b> Progress takes time; focus on the journey."
     },
     {
         "id": "yoga-combine-title",
@@ -321,11 +321,11 @@
     },
     {
         "id": "yoga-tips-complementary",
-        "en": "<b>Complementary Exercise:</b> Yoga pairs well with cardio and strength training."
+        "en": "<b>Complementary Exercise፦</b> Yoga pairs well with cardio and strength training."
     },
     {
         "id": "yoga-tips-flexibility",
-        "en": "<b>Flexibility and Recovery:</b> Use yoga to enhance flexibility and aid muscle recovery."
+        "en": "<b>Flexibility and Recovery፦</b> Use yoga to enhance flexibility and aid muscle recovery."
     },
     {
         "id": "yoga-hydration-title",
@@ -333,7 +333,7 @@
     },
     {
         "id": "yoga-tips-hydration",
-        "en": "<b>Before and After:</b> Drink water to keep muscles functioning optimally."
+        "en": "<b>Before and After፦</b> Drink water to keep muscles functioning optimally."
     },
     {
         "id": "yoga-conclusion-title",

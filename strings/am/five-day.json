@@ -1,7 +1,7 @@
 [
     {
         "id": "five-day-split-title",
-        "am": "የአምስት ቀን ስፕሊት ስፖርታዊ እንቅስቃሴ በእያንዳንዱ ክፍለ ጊዜ የተለያዩ የጡንቻ ቡድኖችን ኢላማ ያደርጋል፣ ጥንካሬን፣ ማገገምን እና እድገትን ለተቀላጠፈ ስልጠና።"
+        "am": "የአምስት ቀን ስፕሊት"
     },
     {
         "id": "five-day-split-overview",
@@ -9,42 +9,42 @@
     },
     {
         "id": "five-day-split-day-one",
-        "am": "ቀን 1: ደረትና ትራይሴፕስ"
+        "am": "ቀን 1፦ ደረትና ትራይሴፕስ"
     },
     {
         "id": "five-day-split-day-one-description",
-        "am": "የታለሙ የጡንቻ ቡድኖች፡<b>ደረት፣ ትራይሴፕስ</b>"
+        "am": "የታለሙ የጡንቻ ቡድኖች፦<b>ደረት፣ ትራይሴፕስ</b>"
     },
     {
         "id": "five-day-split-day-two",
-        "am": "ቀን 2፡ ጀርባ እና ባይሴፕስ"
+        "am": "ቀን 2፦ ጀርባ እና ባይሴፕስ"
     },
     {
         "id": "five-day-split-day-two-description",
-        "am": "የታለሙ የጡንቻ ቡድኖች፡ <b>ጀርባ፣ ባይሴፕስ</b>"
+        "am": "የታለሙ የጡንቻ ቡድኖች፦ <b>ጀርባ፣ ባይሴፕስ</b>"
     },
     {
         "id": "five-day-split-day-three",
-        "am": "ቀን 3: እግሮች"
+        "am": "ቀን 3፦ እግሮች"
     },
     {
         "id": "five-day-split-day-three-description",
-        "am": "የታለሙ የጡንቻ ቡድኖች፡ <b>እግሮች</b>"
+        "am": "የታለሙ የጡንቻ ቡድኖች፦ <b>እግሮች</b>"
     },
     {
         "id": "five-day-split-day-four",
-        "am": "ቀን 4: ትከሻ እና ኮር"
+        "am": "ቀን 4፦ ትከሻ እና ኮር"
     },
     {
         "id": "five-day-split-day-four-description",
-        "am": "የታለሙ የጡንቻ ቡድኖች፡<b>ትከሻዎች፣ ኮር</b>"
+        "am": "የታለሙ የጡንቻ ቡድኖች፦<b>ትከሻዎች፣ ኮር</b>"
     },
     {
         "id": "five-day-split-day-five",
-        "am": "ቀን 5፡ ሙሉ ሰውነት"
+        "am": "ቀን 5፦ ሙሉ ሰውነት"
     },
     {
         "id": "five-day-split-day-five-description",
-        "am": "የታለሙ የጡንቻ ቡድኖች፡ <b>ሙሉ ሰውነት</b>"
+        "am": "የታለሙ የጡንቻ ቡድኖች፦ <b>ሙሉ ሰውነት</b>"
     }
 ]

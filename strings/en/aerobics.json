@@ -29,23 +29,23 @@
     },
     {
         "id": "aerobics-benefit-heart",
-        "en": "<b>Cardiovascular Health:</b> Strengthens the heart and reduces the risk of heart disease."
+        "en": "<b>Cardiovascular Health፦</b> Strengthens the heart and reduces the risk of heart disease."
     },
     {
         "id": "aerobics-benefit-stamina",
-        "en": "<b>Improved Stamina:</b> Increases endurance for daily activities."
+        "en": "<b>Improved Stamina፦</b> Increases endurance for daily activities."
     },
     {
         "id": "aerobics-benefit-weight",
-        "en": "<b>Weight Management:</b> Burns calories to support weight loss or maintenance goals."
+        "en": "<b>Weight Management፦</b> Burns calories to support weight loss or maintenance goals."
     },
     {
         "id": "aerobics-benefit-mood",
-        "en": "<b>Mood Enhancement:</b> Releases endorphins, reducing stress and improving emotional well-being."
+        "en": "<b>Mood Enhancement፦</b> Releases endorphins, reducing stress and improving emotional well-being."
     },
     {
         "id": "aerobics-benefit-metabolism",
-        "en": "<b>Metabolic Boost:</b> Increases overall energy expenditure, aiding in long-term health."
+        "en": "<b>Metabolic Boost፦</b> Increases overall energy expenditure, aiding in long-term health."
     },
     {
         "id": "aerobics-intensity-title",
@@ -53,15 +53,15 @@
     },
     {
         "id": "aerobics-intensity-low",
-        "en": "<b>Low to Moderate Intensity:</b> 50-70% of your maximum heart rate, suitable for beginners."
+        "en": "<b>Low to Moderate Intensity፦</b> 50-70% of your maximum heart rate, suitable for beginners."
     },
     {
         "id": "aerobics-intensity-high",
-        "en": "<b>Moderate to Vigorous Intensity:</b> 70-85% of your maximum heart rate, for improved fitness and weight management."
+        "en": "<b>Moderate to Vigorous Intensity፦</b> 70-85% of your maximum heart rate, for improved fitness and weight management."
     },
     {
         "id": "aerobics-intensity-tracking",
-        "en": "<b>Tracking Heart Rate:</b> Use a heart rate monitor or perceived exertion (ability to talk comfortably) as a guide."
+        "en": "<b>Tracking Heart Rate፦</b> Use a heart rate monitor or perceived exertion (ability to talk comfortably) as a guide."
     },
     {
         "id": "aerobics-types-title",
@@ -73,11 +73,11 @@
     },
     {
         "id": "aerobics-low-impact-examples",
-        "en": "<b>Examples:</b> Walking, elliptical machine, stationary cycling."
+        "en": "<b>Examples፦</b> Walking, elliptical machine, stationary cycling."
     },
     {
         "id": "aerobics-low-impact-benefits",
-        "en": "<b>Benefits:</b> Gentle on joints, ideal for beginners or those with joint issues."
+        "en": "<b>Benefits፦</b> Gentle on joints, ideal for beginners or those with joint issues."
     },
     {
         "id": "aerobics-high-impact-title",
@@ -85,11 +85,11 @@
     },
     {
         "id": "aerobics-high-impact-examples",
-        "en": "<b>Examples:</b> Running, jumping rope, high-intensity dance classes."
+        "en": "<b>Examples፦</b> Running, jumping rope, high-intensity dance classes."
     },
     {
         "id": "aerobics-high-impact-benefits",
-        "en": "<b>Benefits:</b> Burns more calories in less time, improves bone density."
+        "en": "<b>Benefits፦</b> Burns more calories in less time, improves bone density."
     },
     {
         "id": "aerobics-dance-title",
@@ -97,11 +97,11 @@
     },
     {
         "id": "aerobics-dance-examples",
-        "en": "<b>Examples:</b> Zumba, aerobic dance classes."
+        "en": "<b>Examples፦</b> Zumba, aerobic dance classes."
     },
     {
         "id": "aerobics-dance-benefits",
-        "en": "<b>Benefits:</b> Fun, social, improves coordination, makes workouts enjoyable."
+        "en": "<b>Benefits፦</b> Fun, social, improves coordination, makes workouts enjoyable."
     },
     {
         "id": "aerobics-water-title",
@@ -109,11 +109,11 @@
     },
     {
         "id": "aerobics-water-examples",
-        "en": "<b>Examples:</b> Aqua jogging, water aerobics classes."
+        "en": "<b>Examples፦</b> Aqua jogging, water aerobics classes."
     },
     {
         "id": "aerobics-water-benefits",
-        "en": "<b>Benefits:</b> Low impact, suitable for those with mobility challenges or injuries."
+        "en": "<b>Benefits፦</b> Low impact, suitable for those with mobility challenges or injuries."
     },
     {
         "id": "aerobics-equipment-title",
@@ -121,11 +121,11 @@
     },
     {
         "id": "aerobics-equipment-examples",
-        "en": "<b>Examples:</b> Treadmills, rowing machines, stair climbers."
+        "en": "<b>Examples፦</b> Treadmills, rowing machines, stair climbers."
     },
     {
         "id": "aerobics-equipment-benefits",
-        "en": "<b>Benefits:</b> Indoor options for consistent training, easy intensity adjustments."
+        "en": "<b>Benefits፦</b> Indoor options for consistent training, easy intensity adjustments."
     },
     {
         "id": "aerobics-guidelines-title",
@@ -133,23 +133,23 @@
     },
     {
         "id": "aerobics-guidelines-medical",
-        "en": "<b>Medical Clearance:</b> Consult a healthcare professional before starting if you have underlying health conditions."
+        "en": "<b>Medical Clearance፦</b> Consult a healthcare professional before starting if you have underlying health conditions."
     },
     {
         "id": "aerobics-guidelines-start",
-        "en": "<b>Start Slowly:</b> Begin with shorter sessions (15-20 minutes) at moderate intensity."
+        "en": "<b>Start Slowly፦</b> Begin with shorter sessions (15-20 minutes) at moderate intensity."
     },
     {
         "id": "aerobics-guidelines-progress",
-        "en": "<b>Progress Gradually:</b> Increase session length, intensity, or frequency as you adapt."
+        "en": "<b>Progress Gradually፦</b> Increase session length, intensity, or frequency as you adapt."
     },
     {
         "id": "aerobics-guidelines-warmup",
-        "en": "<b>Warm-Up and Cool Down:</b> Include 5-10 minutes of light activity and stretching before and after workouts."
+        "en": "<b>Warm-Up and Cool Down፦</b> Include 5-10 minutes of light activity and stretching before and after workouts."
     },
     {
         "id": "aerobics-guidelines-hydration",
-        "en": "<b>Hydration and Nutrition:</b> Drink water before, during, and after exercise and maintain a balanced diet."
+        "en": "<b>Hydration and Nutrition፦</b> Drink water before, during, and after exercise and maintain a balanced diet."
     },
     {
         "id": "aerobics-schedules-title",
@@ -161,31 +161,31 @@
     },
     {
         "id": "aerobics-3day-info",
-        "en": "Days: Monday, Wednesday, Friday"
+        "en": "Days፦ Monday, Wednesday, Friday"
     },
     {
         "id": "aerobics-3day-focus",
-        "en": "Focus: Build cardiovascular base, improve endurance"
+        "en": "Focus፦ Build cardiovascular base, improve endurance"
     },
     {
         "id": "aerobics-3day-week12-title",
-        "en": "Week 1-2:"
+        "en": "Week 1-2፦"
     },
     {
         "id": "aerobics-3day-monday",
-        "en": "<b>Monday:</b> 20-minute brisk walk or light cycling"
+        "en": "<b>Monday፦</b> 20-minute brisk walk or light cycling"
     },
     {
         "id": "aerobics-3day-wednesday",
-        "en": "<b>Wednesday:</b> 25-minute dance-based class or moderate stationary cycling"
+        "en": "<b>Wednesday፦</b> 25-minute dance-based class or moderate stationary cycling"
     },
     {
         "id": "aerobics-3day-friday",
-        "en": "<b>Friday:</b> 20-minute elliptical at a comfortable pace"
+        "en": "<b>Friday፦</b> 20-minute elliptical at a comfortable pace"
     },
     {
         "id": "aerobics-3day-week34-title",
-        "en": "Week 3-4:"
+        "en": "Week 3-4፦"
     },
     {
         "id": "aerobics-3day-week34-increase",
@@ -197,7 +197,7 @@
     },
     {
         "id": "aerobics-3day-week58-title",
-        "en": "Week 5-8:"
+        "en": "Week 5-8፦"
     },
     {
         "id": "aerobics-3day-week58-duration",
@@ -213,35 +213,35 @@
     },
     {
         "id": "aerobics-4day-info",
-        "en": "Days: Monday, Tuesday, Thursday, Friday"
+        "en": "Days፦ Monday, Tuesday, Thursday, Friday"
     },
     {
         "id": "aerobics-4day-focus",
-        "en": "Focus: Moderate progression, incorporate variety"
+        "en": "Focus፦ Moderate progression, incorporate variety"
     },
     {
         "id": "aerobics-4day-week12-title",
-        "en": "Week 1-2:"
+        "en": "Week 1-2፦"
     },
     {
         "id": "aerobics-4day-monday",
-        "en": "<b>Monday:</b> 20-minute low-impact aerobics (elliptical)"
+        "en": "<b>Monday፦</b> 20-minute low-impact aerobics (elliptical)"
     },
     {
         "id": "aerobics-4day-tuesday",
-        "en": "<b>Tuesday:</b> 25-minute stationary cycling"
+        "en": "<b>Tuesday፦</b> 25-minute stationary cycling"
     },
     {
         "id": "aerobics-4day-thursday",
-        "en": "<b>Thursday:</b> 20-minute brisk walk + 10 minutes light jogging intervals"
+        "en": "<b>Thursday፦</b> 20-minute brisk walk + 10 minutes light jogging intervals"
     },
     {
         "id": "aerobics-4day-friday",
-        "en": "<b>Friday:</b> 25-minute dance-based class"
+        "en": "<b>Friday፦</b> 25-minute dance-based class"
     },
     {
         "id": "aerobics-4day-week34-title",
-        "en": "Week 3-4:"
+        "en": "Week 3-4፦"
     },
     {
         "id": "aerobics-4day-week34-increase",
@@ -253,7 +253,7 @@
     },
     {
         "id": "aerobics-4day-week58-title",
-        "en": "Week 5-8:"
+        "en": "Week 5-8፦"
     },
     {
         "id": "aerobics-4day-week58-duration",
@@ -269,39 +269,39 @@
     },
     {
         "id": "aerobics-5day-info",
-        "en": "Days: Monday to Friday"
+        "en": "Days፦ Monday to Friday"
     },
     {
         "id": "aerobics-5day-focus",
-        "en": "Focus: More frequent sessions for advanced adaptation"
+        "en": "Focus፦ More frequent sessions for advanced adaptation"
     },
     {
         "id": "aerobics-5day-week12-title",
-        "en": "Week 1-2:"
+        "en": "Week 1-2፦"
     },
     {
         "id": "aerobics-5day-monday",
-        "en": "<b>Monday:</b> 20-minute treadmill walk"
+        "en": "<b>Monday፦</b> 20-minute treadmill walk"
     },
     {
         "id": "aerobics-5day-tuesday",
-        "en": "<b>Tuesday:</b> 20-minute aerobic dance class"
+        "en": "<b>Tuesday፦</b> 20-minute aerobic dance class"
     },
     {
         "id": "aerobics-5day-wednesday",
-        "en": "<b>Wednesday:</b> 20-minute rowing machine"
+        "en": "<b>Wednesday፦</b> 20-minute rowing machine"
     },
     {
         "id": "aerobics-5day-thursday",
-        "en": "<b>Thursday:</b> 25-minute brisk walk with short jogging intervals"
+        "en": "<b>Thursday፦</b> 25-minute brisk walk with short jogging intervals"
     },
     {
         "id": "aerobics-5day-friday",
-        "en": "<b>Friday:</b> 20-minute cycling"
+        "en": "<b>Friday፦</b> 20-minute cycling"
     },
     {
         "id": "aerobics-5day-week34-title",
-        "en": "Week 3-4:"
+        "en": "Week 3-4፦"
     },
     {
         "id": "aerobics-5day-week34-duration",
@@ -313,7 +313,7 @@
     },
     {
         "id": "aerobics-5day-week58-title",
-        "en": "Week 5-8:"
+        "en": "Week 5-8፦"
     },
     {
         "id": "aerobics-5day-week58-duration",
@@ -329,23 +329,23 @@
     },
     {
         "id": "aerobics-tips-consistency",
-        "en": "<b>Consistency is Key:</b> Stick to your schedule, even if it's short sessions."
+        "en": "<b>Consistency is Key፦</b> Stick to your schedule, even if it's short sessions."
     },
     {
         "id": "aerobics-tips-variety",
-        "en": "<b>Variety Matters:</b> Alternate between different types of aerobic exercises to prevent boredom."
+        "en": "<b>Variety Matters፦</b> Alternate between different types of aerobic exercises to prevent boredom."
     },
     {
         "id": "aerobics-tips-tracking",
-        "en": "<b>Track Progress:</b> Use a fitness app, log your workouts, or monitor heart rate for motivation."
+        "en": "<b>Track Progress፦</b> Use a fitness app, log your workouts, or monitor heart rate for motivation."
     },
     {
         "id": "aerobics-tips-goals",
-        "en": "<b>Set Realistic Goals:</b> Start with achievable targets (e.g., run 2 miles without stopping) and celebrate milestones."
+        "en": "<b>Set Realistic Goals፦</b> Start with achievable targets (e.g., run 2 miles without stopping) and celebrate milestones."
     },
     {
         "id": "aerobics-tips-fun",
-        "en": "<b>Incorporate Fun:</b> Listen to music, watch TV, or exercise with friends."
+        "en": "<b>Incorporate Fun፦</b> Listen to music, watch TV, or exercise with friends."
     },
     {
         "id": "aerobics-concerns-title",
@@ -353,15 +353,15 @@
     },
     {
         "id": "aerobics-concerns-joint",
-        "en": "<b>Joint Pain or Mobility Issues:</b> Opt for low-impact options like stationary cycling, elliptical, or water aerobics."
+        "en": "<b>Joint Pain or Mobility Issues፦</b> Opt for low-impact options like stationary cycling, elliptical, or water aerobics."
     },
     {
         "id": "aerobics-concerns-time",
-        "en": "<b>Limited Time:</b> Focus on shorter, more intense sessions (e.g., HIIT workouts)."
+        "en": "<b>Limited Time፦</b> Focus on shorter, more intense sessions (e.g., HIIT workouts)."
     },
     {
         "id": "aerobics-concerns-plateaus",
-        "en": "<b>Plateaus:</b> Change intensity, try new exercises, or add intervals to challenge the body."
+        "en": "<b>Plateaus፦</b> Change intensity, try new exercises, or add intervals to challenge the body."
     },
     {
         "id": "aerobics-professional-help-title",
@@ -369,15 +369,15 @@
     },
     {
         "id": "aerobics-professional-pain",
-        "en": "<b>Persistent Pain or Discomfort:</b> If exercise causes ongoing pain, consult a healthcare professional."
+        "en": "<b>Persistent Pain or Discomfort፦</b> If exercise causes ongoing pain, consult a healthcare professional."
     },
     {
         "id": "aerobics-professional-breathing",
-        "en": "<b>Breathing Difficulties:</b> If experiencing severe shortness of breath or dizziness, get medical guidance."
+        "en": "<b>Breathing Difficulties፦</b> If experiencing severe shortness of breath or dizziness, get medical guidance."
     },
     {
         "id": "aerobics-professional-conditions",
-        "en": "<b>Existing Medical Conditions:</b> Conditions like heart problems or asthma may require personalized programs."
+        "en": "<b>Existing Medical Conditions፦</b> Conditions like heart problems or asthma may require personalized programs."
     },
     {
         "id": "aerobics-conclusion-title",

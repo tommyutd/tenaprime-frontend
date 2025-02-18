@@ -30,6 +30,12 @@ document.addEventListener('DOMContentLoaded', async function() {
     loginSubmitButton.style.opacity = '0.5';
     loginSubmitButton.style.cursor = 'not-allowed';
 
+    // Set Terms and Conditions checkbox to checked by default
+    tandcCheckbox.checked = true;
+
+    // Validate form to update button state since T&C is now checked
+    validateForm();
+
     function hideLoginOverlay() {
         loginOverlay.classList.remove('show');
         loginContainer.classList.remove('show');

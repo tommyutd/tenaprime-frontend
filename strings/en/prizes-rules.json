@@ -13,7 +13,7 @@
     },
     {
         "id": "rules-objective-subtitle",
-        "en": "Objective:"
+        "en": "Objective፦"
     },
     {
         "id": "rules-objective-description",
@@ -21,7 +21,7 @@
     },
     {
         "id": "rules-scoring-subtitle",
-        "en": "Scoring:"
+        "en": "Scoring፦"
     },
     {
         "id": "rules-scoring-point",
@@ -41,7 +41,7 @@
     },
     {
         "id": "rules-who-can-participate-subtitle",
-        "en": "Who Can Participate:"
+        "en": "Who Can Participate፦"
     },
     {
         "id": "rules-who-can-participate-description",
@@ -49,7 +49,7 @@
     },
     {
         "id": "rules-exclusions-subtitle",
-        "en": "Exclusions:"
+        "en": "Exclusions፦"
     },
     {
         "id": "rules-exclusions-description",
@@ -57,7 +57,7 @@
     },
     {
         "id": "rules-important-subtitle",
-        "en": "Important:"
+        "en": "Important፦"
     },
     {
         "id": "rules-important-description",
@@ -69,7 +69,7 @@
     },
     {
         "id": "rules-free-trial-subtitle",
-        "en": "Free Trial:"
+        "en": "Free Trial፦"
     },
     {
         "id": "rules-free-trial-description",
@@ -77,7 +77,7 @@
     },
     {
         "id": "rules-subscription-fee-subtitle",
-        "en": "Subscription Fee:"
+        "en": "Subscription Fee፦"
     },
     {
         "id": "rules-subscription-fee-description",
@@ -85,7 +85,7 @@
     },
     {
         "id": "rules-play-fee-subtitle",
-        "en": "Play Fee:"
+        "en": "Play Fee፦"
     },
     {
         "id": "rules-play-fee-description",
@@ -97,7 +97,7 @@
     },
     {
         "id": "rules-competition-window-subtitle",
-        "en": "Competition Window:"
+        "en": "Competition Window፦"
     },
     {
         "id": "rules-competition-window-description",
@@ -105,7 +105,7 @@
     },
     {
         "id": "rules-unlimited-participation-subtitle",
-        "en": "Unlimited Participation:"
+        "en": "Unlimited Participation፦"
     },
     {
         "id": "rules-unlimited-participation-description",
@@ -117,15 +117,15 @@
     },
     {
         "id": "rules-determining-winner-subtitle",
-        "en": "Determining the Winner:"
+        "en": "Determining the Winner፦"
     },
     {
         "id": "rules-determining-winner-description",
-        "en": "The participant who scores a perfect 15 out of 15 within the 2:30-minute time limit is recognized as the weekly winner. If more than one player achieves a perfect score, the winner will be determined by the fastest overall completion time."
+        "en": "The participant who scores a perfect 15 out of 15 within the 2፦30-minute time limit is recognized as the weekly winner. If more than one player achieves a perfect score, the winner will be determined by the fastest overall completion time."
     },
     {
         "id": "rules-prize-distribution-subtitle",
-        "en": "Prize Distribution:"
+        "en": "Prize Distribution፦"
     },
     {
         "id": "rules-prize-amount",
@@ -141,7 +141,7 @@
     },
     {
         "id": "rules-consent-subtitle",
-        "en": "Consent for Promotion:"
+        "en": "Consent for Promotion፦"
     },
     {
         "id": "rules-consent-description",
@@ -149,11 +149,11 @@
     },
     {
         "id": "rules-alternate-winner-subtitle",
-        "en": "Alternate Winner Selection:"
+        "en": "Alternate Winner Selection፦"
     },
     {
         "id": "rules-alternate-winner-description",
-        "en": "If, during any given week or across multiple weeks of the competition, no participant attains a perfect score of 15 out of 15 within the 2:30-minute time limit, TenaPrime reserves the right, at its sole and absolute discretion, to determine the winner(s) by selecting the participant(s) achieving the highest score and, among those, the one(s) with the shortest total time used. In such circumstances, TenaPrime may, but is not obligated to, award the prize according to this alternative criterion. TenaPrime's decision regarding the selection of winners under this provision shall be final and binding, and no claim or dispute shall be raised regarding the awarding of prizes in weeks when a perfect score is not achieved."
+        "en": "If, during any given week or across multiple weeks of the competition, no participant attains a perfect score of 15 out of 15 within the 2፦30-minute time limit, TenaPrime reserves the right, at its sole and absolute discretion, to determine the winner(s) by selecting the participant(s) achieving the highest score and, among those, the one(s) with the shortest total time used. In such circumstances, TenaPrime may, but is not obligated to, award the prize according to this alternative criterion. TenaPrime's decision regarding the selection of winners under this provision shall be final and binding, and no claim or dispute shall be raised regarding the awarding of prizes in weeks when a perfect score is not achieved."
     },
     {
         "id": "rules-additional-terms-title",
@@ -161,7 +161,7 @@
     },
     {
         "id": "rules-modification-subtitle",
-        "en": "Modification of Rules:"
+        "en": "Modification of Rules፦"
     },
     {
         "id": "rules-modification-description",
@@ -169,7 +169,7 @@
     },
     {
         "id": "rules-dispute-resolution-subtitle",
-        "en": "Dispute Resolution:"
+        "en": "Dispute Resolution፦"
     },
     {
         "id": "rules-dispute-resolution-description",
@@ -177,7 +177,7 @@
     },
     {
         "id": "rules-general-responsibility-subtitle",
-        "en": "General Responsibility:"
+        "en": "General Responsibility፦"
     },
     {
         "id": "rules-general-responsibility-description",

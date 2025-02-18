@@ -85,11 +85,11 @@
     },
     {
         "id": "prep-time",
-        "en": "Prep: {{prep-time}} min"
+        "en": "Prep፦ {{prep-time}} min"
     },
     {
         "id": "cook-time",
-        "en": "Cook: {{cook-time}} min"
+        "en": "Cook፦ {{cook-time}} min"
     },
     {
         "id": "add",

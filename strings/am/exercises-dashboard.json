@@ -17,15 +17,15 @@
     },
     {
         "id": "three-day-split-day-one",
-        "am": "ቀን 1፡ የሙሉ ሰውነት እንቅስቃሴ"
+        "am": "ቀን 1፦ የሙሉ ሰውነት እንቅስቃሴ"
     },
     {
         "id": "three-day-split-day-two",
-        "am": "ቀን 2፡ የሙሉ ሰውነት እንቅስቃሴ"
+        "am": "ቀን 2፦ የሙሉ ሰውነት እንቅስቃሴ"
     },
     {
         "id": "three-day-split-day-three",
-        "am": "ቀን 3፡ የሙሉ ሰውነት እንቅስቃሴ"
+        "am": "ቀን 3፦ የሙሉ ሰውነት እንቅስቃሴ"
     },
     {
         "id": "four-day-split-title",
@@ -37,23 +37,23 @@
     },
     {
         "id": "four-day-split-day-one",
-        "am": "ቀን 1: የላይኛው ሰውነት"
+        "am": "ቀን 1፦ የላይኛው ሰውነት"
     },
     {
         "id": "four-day-split-day-two",
-        "am": "ቀን 2: የታችኛው ሰውነት"
+        "am": "ቀን 2፦ የታችኛው ሰውነት"
     },
     {
         "id": "four-day-split-day-three",
-        "am": "ቀን 3: የላይኛው ሰውነት"
+        "am": "ቀን 3፦ የላይኛው ሰውነት"
     },
     {
         "id": "four-day-split-day-four",
-        "am": "ቀን 4: የታችኛው ሰውነት"
+        "am": "ቀን 4፦ የታችኛው ሰውነት"
     },
     {
         "id": "five-day-split-title",
-        "am": "የአምስት ቀን ስፕሊት ስፖርታዊ እንቅስቃሴ በእያንዳንዱ ክፍለ ጊዜ የተለያዩ የጡንቻ ቡድኖችን ኢላማ ያደርጋል፣ ጥንካሬን፣ ማገገምን እና እድገትን ለተቀላጠፈ ስልጠና።"
+        "am": "የአምስት ቀን ስፕሊት"
     },
     {
         "id": "five-day-split-description",
@@ -61,23 +61,23 @@
     },
     {
         "id": "five-day-split-day-one",
-        "am": "ቀን 1: ደረትና ትራይሴፕስ"
+        "am": "ቀን 1፦ ደረትና ትራይሴፕስ"
     },
     {
         "id": "five-day-split-day-two",
-        "am": "ቀን 2፡ ጀርባ እና ባይሴፕስ"
+        "am": "ቀን 2፦ ጀርባ እና ባይሴፕስ"
     },
     {
         "id": "five-day-split-day-three",
-        "am": "ቀን 3: እግሮች"
+        "am": "ቀን 3፦ እግሮች"
     },
     {
         "id": "five-day-split-day-four",
-        "am": "ቀን 4: ትከሻ እና ኮር"
+        "am": "ቀን 4፦ ትከሻ እና ኮር"
     },
     {
         "id": "five-day-split-day-five",
-        "am": "ቀን 5፡ ሙሉ ሰውነት"
+        "am": "ቀን 5፦ ሙሉ ሰውነት"
     },
     {
         "id": "at-home-text",
@@ -85,7 +85,7 @@
     },
     {
         "id": "at-home-upper-body-training-title",
-        "am": "የቤት ውስጥ: የላይኛው ሰውነት"
+        "am": "የቤት ውስጥ፦ የላይኛው ሰውነት"
     },
     {
         "id": "at-home-upper-body-training-description",
@@ -93,23 +93,23 @@
     },
     {
         "id": "at-home-full-upper-body",
-        "am": "የቤት ውስጥ: ሙሉ የላይኛው አካል"
+        "am": "የቤት ውስጥ፦ ሙሉ የላይኛው አካል"
     },
     {
         "id": "at-home-chest-arms",
-        "am": "የቤት ውስጥ፡ ደረት እና ክንዶች"
+        "am": "የቤት ውስጥ፦ ደረት እና ክንዶች"
     },
     {
         "id": "at-home-shoulders-upper-back",
-        "am": "የቤት ውስጥ፡ ትከሻዎች እና የላይኛው ጀርባ"
+        "am": "የቤት ውስጥ፦ ትከሻዎች እና የላይኛው ጀርባ"
     },
     {
         "id": "at-home-core",
-        "am": "የቤት ውስጥ፡ ኮር"
+        "am": "የቤት ውስጥ፦ ኮር"
     },
     {
         "id": "at-home-lower-body-training-title",
-        "am": "የቤት ውስጥ: የታችኛው ሰውነት"
+        "am": "የቤት ውስጥ፦ የታችኛው ሰውነት"
     },
     {
         "id": "at-home-lower-body-training-description",
@@ -117,15 +117,15 @@
     },
     {
         "id": "at-home-full-lower-body",
-        "am": "የቤት ውስጥ: ሙሉ የታችኛው አካል"
+        "am": "የቤት ውስጥ፦ ሙሉ የታችኛው አካል"
     },
     {
         "id": "at-home-amazing-glutes",
-        "am": "የቤት ውስጥ: አስደናቂ ግሉተስ"
+        "am": "የቤት ውስጥ፦ አስደናቂ ግሉተስ"
     },
     {
         "id": "at-home-full-body-training-title",
-        "am": "የቤት ውስጥ: ሙሉ ሰውነት"
+        "am": "የቤት ውስጥ፦ ሙሉ ሰውነት"
     },
     {
         "id": "at-home-full-body-training-description",
@@ -133,19 +133,19 @@
     },
     {
         "id": "at-home-full-body",
-        "am": "የቤት ውስጥ: ሙሉ ሰውነት"
+        "am": "የቤት ውስጥ፦ ሙሉ ሰውነት"
     },
     {
         "id": "at-home-abs-and-core",
-        "am": "የቤት ውስጥ፡ ሆድ እና ኮር"
+        "am": "የቤት ውስጥ፦ ሆድ እና ኮር"
     },
     {
         "id": "at-home-strong-back",
-        "am": "የቤት ውስጥ፡ ጠንካራ ጀርባ"
+        "am": "የቤት ውስጥ፦ ጠንካራ ጀርባ"
     },
     {
         "id": "at-home-cardio-strength",
-        "am": "የቤት ውስጥ: ካርዲዮ-ጥንካሬ"
+        "am": "የቤት ውስጥ፦ ካርዲዮ-ጥንካሬ"
     },
     {
         "id": "upper-body-training-title",
@@ -257,7 +257,7 @@
     },
     {
         "id": "sleep-description",
-        "am": "በእነዚህ ምክሮች የእንቅልፍ ጥራትን ያሻሽሉ."
+        "am": "በእነዚህ ምክሮች የእንቅልፍ ጥራትን ያሻሽሉ።"
     },
     {
         "id": "stress-regulation-title",
@@ -309,6 +309,6 @@
     },
     {
         "id": "workout-plan-view-button",
-        "am": "ስፖርትዎን<br> ይጀምሩ"
+        "am": "ስፖርትዎን<br>ይጀምሩ"
     }
 ]

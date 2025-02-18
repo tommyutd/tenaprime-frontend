@@ -65,7 +65,7 @@
     },
     {
         "id": "prompt-workout-complete-message",
-        "am": "እርግጠኛ ነዎት ስፖርታዊ እንቅስቃሴውን ማጠናቀቅ ትፈልጋለህ?"
+        "am": "እርግጠኛ ነዎት ስፖርታዊ እንቅስቃሴውን ማጠናቀቅ ይፈልጋሉ?"
     },
     {
         "id": "prompt-workout-end-title",
@@ -125,7 +125,7 @@
     },
     {
         "id": "phase-label",
-        "am": "ደረጃ፡"
+        "am": "ደረጃ፦"
     },
     {
         "id": "phase-text",
@@ -133,11 +133,11 @@
     },
     {
         "id": "exercises-label",
-        "am": "ስፖርቶች:"
+        "am": "ስፖርቶች፦"
     },
     {
         "id": "estimated-duration-label",
-        "am": "የሚገመተው ቆይታ፡-"
+        "am": "የሚገመተው ቆይታ፦"
     },
     {
         "id": "exercise-duration-minutes",
@@ -149,7 +149,7 @@
     },
     {
         "id": "rest-day-label",
-        "am": "<strong>የእረፍት ቀን፡</strong> ምንም የስፖርት መርሐግብር አልያዘም።"
+        "am": "<strong>የእረፍት ቀን፦</strong> ምንም የስፖርት መርሐግብር አልያዘም።"
     },
     {
         "id": "month-january",
@@ -237,7 +237,7 @@
     },
     {
         "id": "set-of-total",
-        "am": "{{current-set}} ከ {{total-sets}}"
+        "am": "{{current-set}} ከ{{total-sets}}"
     },
     {
         "id": "exercise-reps",

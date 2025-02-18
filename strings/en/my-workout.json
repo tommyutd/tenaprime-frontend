@@ -125,7 +125,7 @@
     },
     {
         "id": "phase-label",
-        "en": "Phase:"
+        "en": "Phase፦"
     },
     {
         "id": "phase-text",
@@ -133,11 +133,11 @@
     },
     {
         "id": "exercises-label",
-        "en": "Exercises:"
+        "en": "Exercises፦"
     },
     {
         "id": "estimated-duration-label",
-        "en": "Estimated Duration:"
+        "en": "Estimated Duration፦"
     },
     {
         "id": "exercise-duration-minutes",
@@ -149,7 +149,7 @@
     },
     {
         "id": "rest-day-label",
-        "en": "<strong>Rest Day:</strong> No Workout Scheduled"
+        "en": "<strong>Rest Day፦</strong> No Workout Scheduled"
     },
     {
         "id": "month-january",

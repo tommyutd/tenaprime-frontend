@@ -5,7 +5,7 @@
     },
     {
         "id": "quiz-welcome-description",
-        "am": "<b>15 ጥያቄዎች • 2፡30 ደቂቃዎች</b>"
+        "am": "<b>15 ጥያቄዎች • 2:30 ደቂቃዎች</b>"
     },
     {
         "id": "quiz-rules-button",
@@ -37,7 +37,7 @@
     },
     {
         "id": "quiz-get-ready",
-        "am": "ተዘጋጅ!"
+        "am": "ይዘጋጁ!"
     },
     {
         "id": "quiz-max-attempts",
@@ -73,11 +73,11 @@
     },
     {
         "id": "quiz-time-minutes",
-        "am": "<span class='time-text-highlight'>{{ደቂቃዎች}}፡{{ሰከንዶች}}.{{ሚሊሰከንዶች}}</span> ደቂቃዎች ወስደዋል።"
+        "am": "<span class='time-text-highlight'>{{minutes}}:{{seconds}}.{{milliseconds}}</span> ደቂቃዎች ወስደዋል።"
     },
     {
         "id": "quiz-time-seconds",
-        "am": "<span class='time-text-highlight'>{{ሰከንዶች}}.{{milliseconds}}</span> ሰከንዶች ወስደዋል።"
+        "am": "<span class='time-text-highlight'>{{seconds}}.{{milliseconds}}</span> ሰከንዶች ወስደዋል።"
     },
     {
         "id": "quiz-new-best-score",

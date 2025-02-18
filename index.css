@@ -86,6 +86,7 @@
 
 .front-page-greeting {
   width: fit-content;
+  min-width: 30rem;
   max-width: 70%;
   height: 70%;
   padding-left: 7%;
@@ -184,6 +185,7 @@
   .front-page-greeting {
     width: 100%;
     max-width: 100%;
+    min-width: 0;
   }
 
   .greeting-section .intro-buttons {

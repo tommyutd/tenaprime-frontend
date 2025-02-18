@@ -85,11 +85,11 @@
     },
     {
         "id": "prep-time",
-        "am": "ዝግጅት፡ {{prep-time}} ደቂቃ"
+        "am": "ዝግጅት፦ {{prep-time}} ደቂቃ"
     },
     {
         "id": "cook-time",
-        "am": "ምግብ ማብሰል፡ {{cook-time}} ደቂቃ"
+        "am": "ምግብ ማብሰል፦ {{cook-time}} ደቂቃ"
     },
     {
         "id": "add",

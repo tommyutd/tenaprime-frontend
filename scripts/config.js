@@ -3,5 +3,11 @@ const CONFIG = {
   // Add other configuration values here as needed
 };
 
+// Initialize theme before DOM loads
+(function() {
+  const theme = localStorage.getItem('app-theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', theme);
+})();
+
 // Make config available globally
 window.CONFIG = CONFIG;

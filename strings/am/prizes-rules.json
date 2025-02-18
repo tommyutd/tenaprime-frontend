@@ -13,7 +13,7 @@
     },
     {
         "id": "rules-objective-subtitle",
-        "am": "ዓላማ፡-"
+        "am": "ዓላማ፦"
     },
     {
         "id": "rules-objective-description",
@@ -21,7 +21,7 @@
     },
     {
         "id": "rules-scoring-subtitle",
-        "am": "ነጥብ አያያዝ፡"
+        "am": "ነጥብ አያያዝ፦"
     },
     {
         "id": "rules-scoring-point",
@@ -57,7 +57,7 @@
     },
     {
         "id": "rules-important-subtitle",
-        "am": "ጠቃሚ፡-"
+        "am": "ጠቃሚ፦"
     },
     {
         "id": "rules-important-description",
@@ -69,7 +69,7 @@
     },
     {
         "id": "rules-free-trial-subtitle",
-        "am": "ነፃ ሙከራ፡-"
+        "am": "ነፃ ሙከራ፦"
     },
     {
         "id": "rules-free-trial-description",
@@ -77,7 +77,7 @@
     },
     {
         "id": "rules-subscription-fee-subtitle",
-        "am": "የምዝገባ ክፍያ፡-"
+        "am": "የምዝገባ ክፍያ፦"
     },
     {
         "id": "rules-subscription-fee-description",
@@ -85,7 +85,7 @@
     },
     {
         "id": "rules-play-fee-subtitle",
-        "am": "የመጫወቻ ክፍያ፡-"
+        "am": "የመጫወቻ ክፍያ፦"
     },
     {
         "id": "rules-play-fee-description",
@@ -97,7 +97,7 @@
     },
     {
         "id": "rules-competition-window-subtitle",
-        "am": "የውድድር መስኮት፡-"
+        "am": "የውድድር መስኮት፦"
     },
     {
         "id": "rules-competition-window-description",
@@ -105,7 +105,7 @@
     },
     {
         "id": "rules-unlimited-participation-subtitle",
-        "am": "ያልተገደበ ተሳትፎ፡"
+        "am": "ያልተገደበ ተሳትፎ፦"
     },
     {
         "id": "rules-unlimited-participation-description",
@@ -121,11 +121,11 @@
     },
     {
         "id": "rules-determining-winner-description",
-        "am": "በ2፡30 ደቂቃ የጊዜ ገደብ ውስጥ ከ15ቱ 15 ምርጥ ውጤት ያስመዘገበው ተሳታፊ ሳምንታዊ አሸናፊ እንደሆነ ይታወቃል። ከአንድ በላይ ተጫዋቾች ድፍን ነጥብ ቢያመጡ አሸናፊው የሚወሰነው በፈጀባቸው አጠቃላይ የማጠናቀቂያ ጊዜ ነው።"
+        "am": "በ2፦30 ደቂቃ የጊዜ ገደብ ውስጥ ከ15ቱ 15 ምርጥ ውጤት ያስመዘገበው ተሳታፊ ሳምንታዊ አሸናፊ እንደሆነ ይታወቃል። ከአንድ በላይ ተጫዋቾች ድፍን ነጥብ ቢያመጡ አሸናፊው የሚወሰነው በፈጀባቸው አጠቃላይ የማጠናቀቂያ ጊዜ ነው።"
     },
     {
         "id": "rules-prize-distribution-subtitle",
-        "am": "የሽልማት ስርጭት፡"
+        "am": "የሽልማት ስርጭት፦"
     },
     {
         "id": "rules-prize-amount",
@@ -141,7 +141,7 @@
     },
     {
         "id": "rules-consent-subtitle",
-        "am": "የማስተዋወቅ ፈቃድ፡-"
+        "am": "የማስተዋወቅ ፈቃድ፦"
     },
     {
         "id": "rules-consent-description",
@@ -149,11 +149,11 @@
     },
     {
         "id": "rules-alternate-winner-subtitle",
-        "am": "አማራጭ አሸናፊ ምርጫ፡-"
+        "am": "አማራጭ አሸናፊ ምርጫ፦"
     },
     {
         "id": "rules-alternate-winner-description",
-        "am": "በማንኛውም ሳምንት ወይም በበርካታ ሳምንታት የውድድር ጊዜ ውስጥ ማንኛውም ተሳታፊ በ2፡30 ደቂቃ ገደብ ውስጥ ከ15ቱ 15 ድፍን ነጥብ ካላመጣ ጤናፕራይም በብቸኛው ውሳኔው ከፍተኛውን ነጥብ በማምጣት አሸናፊውን የመወሰን መብቱ የተጠበቀ ነው። በእንደዚህ አይነት ሁኔታዎች ጤናፕራይም በዚህ አማራጭ መስፈርት መሰረት ሽልማቱን ሊሰጥ ይችላል ነገር ግን ግዴታ የለበትም። ጤናፕራይም በዚህ ድንጋጌ የአሸናፊዎችን ምርጫ በተመለከተ የሚሰጠው ውሳኔ የመጨረሻ እና አስገዳጅ ይሆናል፣ እና ድፍን ውጤት በማይገኝበት ሳምንታት ውስጥ ሽልማቶችን ስለመስጠት ምንም አይነት የይገባኛል ጥያቄ ወይም ክርክር መነሳት የለበትም።"
+        "am": "በማንኛውም ሳምንት ወይም በበርካታ ሳምንታት የውድድር ጊዜ ውስጥ ማንኛውም ተሳታፊ በ2፦30 ደቂቃ ገደብ ውስጥ ከ15ቱ 15 ድፍን ነጥብ ካላመጣ ጤናፕራይም በብቸኛው ውሳኔው ከፍተኛውን ነጥብ በማምጣት አሸናፊውን የመወሰን መብቱ የተጠበቀ ነው። በእንደዚህ አይነት ሁኔታዎች ጤናፕራይም በዚህ አማራጭ መስፈርት መሰረት ሽልማቱን ሊሰጥ ይችላል ነገር ግን ግዴታ የለበትም። ጤናፕራይም በዚህ ድንጋጌ የአሸናፊዎችን ምርጫ በተመለከተ የሚሰጠው ውሳኔ የመጨረሻ እና አስገዳጅ ይሆናል፣ እና ድፍን ውጤት በማይገኝበት ሳምንታት ውስጥ ሽልማቶችን ስለመስጠት ምንም አይነት የይገባኛል ጥያቄ ወይም ክርክር መነሳት የለበትም።"
     },
     {
         "id": "rules-additional-terms-title",
@@ -161,7 +161,7 @@
     },
     {
         "id": "rules-modification-subtitle",
-        "am": "ደንቦችን ማሻሻል፡"
+        "am": "ደንቦችን ማሻሻል፦"
     },
     {
         "id": "rules-modification-description",
@@ -169,7 +169,7 @@
     },
     {
         "id": "rules-dispute-resolution-subtitle",
-        "am": "የክርክር አፈታት፡-"
+        "am": "የክርክር አፈታት፦"
     },
     {
         "id": "rules-dispute-resolution-description",
@@ -177,7 +177,7 @@
     },
     {
         "id": "rules-general-responsibility-subtitle",
-        "am": "አጠቃላይ ኃላፊነት፡-"
+        "am": "አጠቃላይ ኃላፊነት፦"
     },
     {
         "id": "rules-general-responsibility-description",
