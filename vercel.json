@@ -3,12 +3,15 @@
       {
         "source": "/:path",
         "destination": "/:path.html",
-        "permanent": true
+        "permanent": true,
+        "has": [{ "type": "file" }]
       },
       {
         "source": "/:path/",
         "destination": "/:path/index.html",
-        "permanent": true
+        "permanent": true,
+        "has": [{ "type": "file" }]
       }
     ]
-}
+  }
+  
