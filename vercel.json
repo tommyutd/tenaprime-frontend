@@ -1,17 +1,12 @@
 {
     "redirects": [
       {
-        "source": "/:path",
-        "destination": "/:path.html",
-        "permanent": true,
-        "has": [{ "type": "file" }]
-      },
-      {
-        "source": "/:path/",
-        "destination": "/:path/index.html",
-        "permanent": true,
-        "has": [{ "type": "file" }]
+        "source": "/:path*.html",
+        "destination": "/:path*",
+        "permanent": true
       }
-    ]
-  }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+}
   
