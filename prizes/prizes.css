@@ -146,7 +146,7 @@
 }
 
 .quiz-btn {
-  min-width: 120px;
+  min-width: fit-content;
   width: 100%;
   padding: 12px 24px;
   font-size: 16px;

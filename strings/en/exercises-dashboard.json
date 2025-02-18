@@ -17,15 +17,15 @@
     },
     {
         "id": "three-day-split-day-one",
-        "en": "Day 1፦ Full Body Workout"
+        "en": "Day 1: Full Body Workout"
     },
     {
         "id": "three-day-split-day-two",
-        "en": "Day 2፦ Full Body Workout"
+        "en": "Day 2: Full Body Workout"
     },
     {
         "id": "three-day-split-day-three",
-        "en": "Day 3፦ Full Body Workout"
+        "en": "Day 3: Full Body Workout"
     },
     {
         "id": "four-day-split-title",
@@ -37,19 +37,19 @@
     },
     {
         "id": "four-day-split-day-one",
-        "en": "Day 1፦ Upper Body"
+        "en": "Day 1: Upper Body"
     },
     {
         "id": "four-day-split-day-two",
-        "en": "Day 2፦ Lower Body"
+        "en": "Day 2: Lower Body"
     },
     {
         "id": "four-day-split-day-three",
-        "en": "Day 3፦ Upper Body"
+        "en": "Day 3: Upper Body"
     },
     {
         "id": "four-day-split-day-four",
-        "en": "Day 4፦ Lower Body"
+        "en": "Day 4: Lower Body"
     },
     {
         "id": "five-day-split-title",
@@ -61,23 +61,23 @@
     },
     {
         "id": "five-day-split-day-one",
-        "en": "Day 1፦ Chest and Triceps"
+        "en": "Day 1: Chest and Triceps"
     },
     {
         "id": "five-day-split-day-two",
-        "en": "Day 2፦ Back and Biceps"
+        "en": "Day 2: Back and Biceps"
     },
     {
         "id": "five-day-split-day-three",
-        "en": "Day 3፦ Legs"
+        "en": "Day 3: Legs"
     },
     {
         "id": "five-day-split-day-four",
-        "en": "Day 4፦ Shoulders and Core"
+        "en": "Day 4: Shoulders and Core"
     },
     {
         "id": "five-day-split-day-five",
-        "en": "Day 5፦ Full Body"
+        "en": "Day 5: Full Body"
     },
     {
         "id": "at-home-text",
@@ -85,7 +85,7 @@
     },
     {
         "id": "at-home-upper-body-training-title",
-        "en": "At-Home፦ Upper Body"
+        "en": "At-Home: Upper Body"
     },
     {
         "id": "at-home-upper-body-training-description",
@@ -93,23 +93,23 @@
     },
     {
         "id": "at-home-full-upper-body",
-        "en": "At-Home፦ Full Upper Body"
+        "en": "At-Home: Full Upper Body"
     },
     {
         "id": "at-home-chest-arms",
-        "en": "At-Home፦ Chest & Arms"
+        "en": "At-Home: Chest & Arms"
     },
     {
         "id": "at-home-shoulders-upper-back",
-        "en": "At-Home፦ Shoulders & Upper Back"
+        "en": "At-Home: Shoulders & Upper Back"
     },
     {
         "id": "at-home-core",
-        "en": "At-Home፦ Core"
+        "en": "At-Home: Core"
     },
     {
         "id": "at-home-lower-body-training-title",
-        "en": "At-Home፦ Lower Body"
+        "en": "At-Home: Lower Body"
     },
     {
         "id": "at-home-lower-body-training-description",
@@ -117,15 +117,15 @@
     },
     {
         "id": "at-home-full-lower-body",
-        "en": "At Home፦ Full Lower Body"
+        "en": "At Home: Full Lower Body"
     },
     {
         "id": "at-home-amazing-glutes",
-        "en": "At Home፦ Amazing Glutes"
+        "en": "At Home: Amazing Glutes"
     },
     {
         "id": "at-home-full-body-training-title",
-        "en": "At-Home፦ Full Body"
+        "en": "At-Home: Full Body"
     },
     {
         "id": "at-home-full-body-training-description",
@@ -133,19 +133,19 @@
     },
     {
         "id": "at-home-full-body",
-        "en": "At-Home፦ Full Body"
+        "en": "At-Home: Full Body"
     },
     {
         "id": "at-home-abs-and-core",
-        "en": "At-Home፦ Abs & Core"
+        "en": "At-Home: Abs & Core"
     },
     {
         "id": "at-home-strong-back",
-        "en": "At-Home፦ Strong Back"
+        "en": "At-Home: Strong Back"
     },
     {
         "id": "at-home-cardio-strength",
-        "en": "At-Home፦ Cardio-Strength"
+        "en": "At-Home: Cardio-Strength"
     },
     {
         "id": "upper-body-training-title",

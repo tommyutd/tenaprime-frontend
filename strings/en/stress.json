@@ -21,19 +21,19 @@
     },
     {
         "id": "stress-understanding-content",
-        "en": "Stress triggers the body's \"fight-or-flight\" response, releasing hormones like cortisol and adrenaline. While short-term stress can be helpful for motivation or response to immediate challenges, prolonged stress can lead to፦"
+        "en": "Stress triggers the body's \"fight-or-flight\" response, releasing hormones like cortisol and adrenaline. While short-term stress can be helpful for motivation or response to immediate challenges, prolonged stress can lead to:"
     },
     {
         "id": "stress-impact-physical",
-        "en": "<b>Physical symptoms፦</b> Headaches, muscle tension, fatigue"
+        "en": "<b>Physical symptoms:</b> Headaches, muscle tension, fatigue"
     },
     {
         "id": "stress-impact-emotional",
-        "en": "<b>Emotional issues፦</b> Irritability, anxiety, mood swings"
+        "en": "<b>Emotional issues:</b> Irritability, anxiety, mood swings"
     },
     {
         "id": "stress-impact-cognitive",
-        "en": "<b>Cognitive difficulties፦</b> Trouble concentrating, memory problems"
+        "en": "<b>Cognitive difficulties:</b> Trouble concentrating, memory problems"
     },
     {
         "id": "stress-importance-title",
@@ -41,15 +41,15 @@
     },
     {
         "id": "stress-importance-mental",
-        "en": "<b>Supports Mental Health፦</b> Reduces feelings of overwhelm and frustration"
+        "en": "<b>Supports Mental Health:</b> Reduces feelings of overwhelm and frustration"
     },
     {
         "id": "stress-importance-physical",
-        "en": "<b>Improves Physical Health፦</b> Lowers blood pressure, eases tension, and strengthens the immune system"
+        "en": "<b>Improves Physical Health:</b> Lowers blood pressure, eases tension, and strengthens the immune system"
     },
     {
         "id": "stress-importance-quality",
-        "en": "<b>Enhances Quality of Life፦</b> Promotes better relationships, productivity, and a more positive outlook"
+        "en": "<b>Enhances Quality of Life:</b> Promotes better relationships, productivity, and a more positive outlook"
     },
     {
         "id": "stress-factors-title",
@@ -57,19 +57,19 @@
     },
     {
         "id": "stress-factors-lifestyle",
-        "en": "<b>Lifestyle Choices፦</b> Poor time management, excessive responsibilities, and lack of relaxation time increase stress."
+        "en": "<b>Lifestyle Choices:</b> Poor time management, excessive responsibilities, and lack of relaxation time increase stress."
     },
     {
         "id": "stress-factors-environment",
-        "en": "<b>Environmental Conditions፦</b> Noisy workplaces, cluttered homes, and lack of personal space contribute to tension."
+        "en": "<b>Environmental Conditions:</b> Noisy workplaces, cluttered homes, and lack of personal space contribute to tension."
     },
     {
         "id": "stress-factors-psychological",
-        "en": "<b>Psychological Factors፦</b> Negative thinking patterns, perfectionism, and past traumas can elevate stress."
+        "en": "<b>Psychological Factors:</b> Negative thinking patterns, perfectionism, and past traumas can elevate stress."
     },
     {
         "id": "stress-factors-medical",
-        "en": "<b>Medical Conditions and Medications፦</b> Certain health issues and medications may influence stress levels."
+        "en": "<b>Medical Conditions and Medications:</b> Certain health issues and medications may influence stress levels."
     },
     {
         "id": "stress-techniques-title",
@@ -85,7 +85,7 @@
     },
     {
         "id": "stress-box-breathing-howto",
-        "en": "<b>How to Do It፦</b>"
+        "en": "<b>How to Do It:</b>"
     },
     {
         "id": "stress-box-breathing-step1",
@@ -117,7 +117,7 @@
     },
     {
         "id": "stress-four-seven-eight-howto",
-        "en": "<b>How to Do It፦</b>"
+        "en": "<b>How to Do It:</b>"
     },
     {
         "id": "stress-four-seven-eight-step1",
@@ -145,7 +145,7 @@
     },
     {
         "id": "stress-diaphragmatic-breathing-howto",
-        "en": "<b>How to Do It፦</b>"
+        "en": "<b>How to Do It:</b>"
     },
     {
         "id": "stress-diaphragmatic-breathing-step1",
@@ -177,7 +177,7 @@
     },
     {
         "id": "stress-skull-breathing-steps-title",
-        "en": "<b>Steps፦</b>"
+        "en": "<b>Steps:</b>"
     },
     {
         "id": "stress-skull-breathing-step1",
@@ -205,7 +205,7 @@
     },
     {
         "id": "stress-skull-breathing-warning",
-        "en": "<i>Note፦ Avoid if you have high blood pressure or heart conditions.</i>"
+        "en": "<i>Note: Avoid if you have high blood pressure or heart conditions.</i>"
     },
     {
         "id": "stress-bellows-breath-title",
@@ -213,7 +213,7 @@
     },
     {
         "id": "stress-bellows-breath-steps-title",
-        "en": "<b>Steps፦</b>"
+        "en": "<b>Steps:</b>"
     },
     {
         "id": "stress-bellows-breath-step1",
@@ -241,7 +241,7 @@
     },
     {
         "id": "stress-stimulating-breath-steps-title",
-        "en": "<b>Steps፦</b>"
+        "en": "<b>Steps:</b>"
     },
     {
         "id": "stress-stimulating-breath-step1",
@@ -269,7 +269,7 @@
     },
     {
         "id": "stress-alternate-nostril-steps-title",
-        "en": "<b>Steps፦</b>"
+        "en": "<b>Steps:</b>"
     },
     {
         "id": "stress-alternate-nostril-step1",
@@ -277,7 +277,7 @@
     },
     {
         "id": "stress-alternate-nostril-step2",
-        "en": "Use your right hand፦ thumb on right nostril, ring finger on left."
+        "en": "Use your right hand: thumb on right nostril, ring finger on left."
     },
     {
         "id": "stress-alternate-nostril-step3",
@@ -305,7 +305,7 @@
     },
     {
         "id": "stress-equal-breathing-steps-title",
-        "en": "<b>Steps፦</b>"
+        "en": "<b>Steps:</b>"
     },
     {
         "id": "stress-equal-breathing-step1",
@@ -329,7 +329,7 @@
     },
     {
         "id": "stress-coherent-breathing-steps-title",
-        "en": "<b>Steps፦</b>"
+        "en": "<b>Steps:</b>"
     },
     {
         "id": "stress-coherent-breathing-step1",
@@ -357,7 +357,7 @@
     },
     {
         "id": "stress-mindful-breathing-steps-title",
-        "en": "<b>Steps፦</b>"
+        "en": "<b>Steps:</b>"
     },
     {
         "id": "stress-mindful-breathing-step1",
@@ -381,7 +381,7 @@
     },
     {
         "id": "stress-resonant-breathing-steps-title",
-        "en": "<b>Steps፦</b>"
+        "en": "<b>Steps:</b>"
     },
     {
         "id": "stress-resonant-breathing-step1",
@@ -405,7 +405,7 @@
     },
     {
         "id": "stress-loving-kindness-breath-steps-title",
-        "en": "<b>Steps፦</b>"
+        "en": "<b>Steps:</b>"
     },
     {
         "id": "stress-loving-kindness-breath-step1",
@@ -429,7 +429,7 @@
     },
     {
         "id": "stress-pmr-howto",
-        "en": "<b>How to Do It፦</b>"
+        "en": "<b>How to Do It:</b>"
     },
     {
         "id": "stress-pmr-step1",
@@ -457,7 +457,7 @@
     },
     {
         "id": "stress-mindfulness-meditation-howto",
-        "en": "<b>How to Do It፦</b>"
+        "en": "<b>How to Do It:</b>"
     },
     {
         "id": "stress-mindfulness-meditation-step1",
@@ -477,7 +477,7 @@
     },
     {
         "id": "stress-body-scan-howto",
-        "en": "<b>How to Do It፦</b>"
+        "en": "<b>How to Do It:</b>"
     },
     {
         "id": "stress-body-scan-step1",
@@ -493,7 +493,7 @@
     },
     {
         "id": "stress-guided-imagery-howto",
-        "en": "<b>How to Do It፦</b>"
+        "en": "<b>How to Do It:</b>"
     },
     {
         "id": "stress-guided-imagery-step1",
@@ -513,7 +513,7 @@
     },
     {
         "id": "stress-five-four-three-howto",
-        "en": "<b>How to Do It፦</b>"
+        "en": "<b>How to Do It:</b>"
     },
     {
         "id": "stress-five-four-three-step1",
@@ -545,7 +545,7 @@
     },
     {
         "id": "stress-emotion-acknowledge-howto",
-        "en": "<b>How to Do It፦</b>"
+        "en": "<b>How to Do It:</b>"
     },
     {
         "id": "stress-emotion-acknowledge-step1",
@@ -593,23 +593,23 @@
     },
     {
         "id": "stress-tip-time",
-        "en": "<b>Time Management፦</b> Set priorities and create to-do lists to avoid feeling overwhelmed."
+        "en": "<b>Time Management:</b> Set priorities and create to-do lists to avoid feeling overwhelmed."
     },
     {
         "id": "stress-tip-boundaries",
-        "en": "<b>Healthy Boundaries፦</b> Learn to say no to commitments that exceed your capacity."
+        "en": "<b>Healthy Boundaries:</b> Learn to say no to commitments that exceed your capacity."
     },
     {
         "id": "stress-tip-support",
-        "en": "<b>Social Support፦</b> Talk to friends, family, or support groups about stressors."
+        "en": "<b>Social Support:</b> Talk to friends, family, or support groups about stressors."
     },
     {
         "id": "stress-tip-humor",
-        "en": "<b>Humor and Play፦</b> Engage in activities that bring joy and laughter."
+        "en": "<b>Humor and Play:</b> Engage in activities that bring joy and laughter."
     },
     {
         "id": "stress-tip-relaxation",
-        "en": "<b>Relaxation Rituals፦</b> Incorporate enjoyable, calming activities like reading, taking a warm bath, or listening to soothing music."
+        "en": "<b>Relaxation Rituals:</b> Incorporate enjoyable, calming activities like reading, taking a warm bath, or listening to soothing music."
     },
     {
         "id": "stress-mental-health-concerns-title",
@@ -669,35 +669,35 @@
     },
     {
         "id": "stress-professional-help-persistent",
-        "en": "<b>Persistent Stress፦</b> Lasting more than a few weeks despite self-help efforts."
+        "en": "<b>Persistent Stress:</b> Lasting more than a few weeks despite self-help efforts."
     },
     {
         "id": "stress-professional-help-impact",
-        "en": "<b>Impact on Daily Life፦</b> Difficulty performing everyday tasks or maintaining relationships."
+        "en": "<b>Impact on Daily Life:</b> Difficulty performing everyday tasks or maintaining relationships."
     },
     {
         "id": "stress-professional-help-physical",
-        "en": "<b>Physical Symptoms፦</b> Frequent headaches, stomach problems, or insomnia."
+        "en": "<b>Physical Symptoms:</b> Frequent headaches, stomach problems, or insomnia."
     },
     {
         "id": "stress-professional-help-mental",
-        "en": "<b>Signs of Mental Health Issues፦</b> Severe anxiety, depression, panic attacks."
+        "en": "<b>Signs of Mental Health Issues:</b> Severe anxiety, depression, panic attacks."
     },
     {
         "id": "stress-consultation-options-title",
-        "en": "Consultation Options፦"
+        "en": "Consultation Options:"
     },
     {
         "id": "stress-consultation-physician",
-        "en": "<b>Primary Care Physician፦</b> Initial evaluation and guidance."
+        "en": "<b>Primary Care Physician:</b> Initial evaluation and guidance."
     },
     {
         "id": "stress-consultation-therapist",
-        "en": "<b>Mental Health Professional (Therapist, Counselor)፦</b> Provides coping strategies and therapy."
+        "en": "<b>Mental Health Professional (Therapist, Counselor):</b> Provides coping strategies and therapy."
     },
     {
         "id": "stress-consultation-psychiatrist",
-        "en": "<b>Psychiatrist፦</b> For medication and specialized treatment plans."
+        "en": "<b>Psychiatrist:</b> For medication and specialized treatment plans."
     },
     {
         "id": "stress-additional-resources-title",
@@ -705,7 +705,7 @@
     },
     {
         "id": "stress-resources-books-title",
-        "en": "Books፦"
+        "en": "Books:"
     },
     {
         "id": "stress-resources-book1",
@@ -717,19 +717,19 @@
     },
     {
         "id": "stress-resources-apps-title",
-        "en": "Apps፦"
+        "en": "Apps:"
     },
     {
         "id": "stress-resources-app1",
-        "en": "<b>Headspace፦</b> Guided meditations and stress relief exercises."
+        "en": "<b>Headspace:</b> Guided meditations and stress relief exercises."
     },
     {
         "id": "stress-resources-app2",
-        "en": "<b>Calm፦</b> Breathing exercises, relaxing sounds, and sleep stories."
+        "en": "<b>Calm:</b> Breathing exercises, relaxing sounds, and sleep stories."
     },
     {
         "id": "stress-resources-app3",
-        "en": "<b>Sanvello፦</b> Cognitive Behavioral Therapy-based tools for stress and anxiety management."
+        "en": "<b>Sanvello:</b> Cognitive Behavioral Therapy-based tools for stress and anxiety management."
     },
     {
         "id": "stress-conclusion-title",

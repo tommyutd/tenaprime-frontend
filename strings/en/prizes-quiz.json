@@ -5,7 +5,7 @@
     },
     {
         "id": "quiz-welcome-description",
-        "en": "<b>15 questions • 2፦30 minutes</b>"
+        "en": "<b>15 questions • 2:30 minutes</b>"
     },
     {
         "id": "quiz-rules-button",
@@ -21,7 +21,7 @@
     },
     {
         "id": "quiz-complete-title",
-        "en": "Quiz Complete! You scored፦"
+        "en": "Quiz Complete! You scored:"
     },
     {
         "id": "quiz-retry-button",
@@ -73,7 +73,7 @@
     },
     {
         "id": "quiz-time-minutes",
-        "en": "You took <span class='time-text-highlight'>{{minutes}}፦{{seconds}}.{{milliseconds}}</span> minutes."
+        "en": "You took <span class='time-text-highlight'>{{minutes}}:{{seconds}}.{{milliseconds}}</span> minutes."
     },
     {
         "id": "quiz-time-seconds",
