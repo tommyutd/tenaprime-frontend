@@ -23,20 +23,20 @@ window.authState = {
             return this.validationPromise;
         }
 
+        const token = localStorage.getItem('login-token');
+        // Early return if no token exists
+        if (!token) {
+            window.userData.isTokenValid = false;
+            window.userData.user = null;
+            window.userData.profile = null;
+            if (window.location.pathname.includes('/dashboard')) {
+                window.location.href = '/';
+            }
+            return false;
+        }
+
         this.validationPromise = (async () => {
             try {
-                const token = localStorage.getItem('login-token');
-                
-                if (!token) {
-                    window.userData.isTokenValid = false;
-                    window.userData.user = null;
-                    window.userData.profile = null;
-                    if (window.location.pathname.includes('/dashboard')) {
-                        window.location.href = '/';
-                    }
-                    return false;
-                }
-        
                 const userResponse = await fetch(`${window.CONFIG.API_URL}/subscriber/me`, {
                     headers: {
                         'Authorization': `Bearer ${token}`,
@@ -76,7 +76,10 @@ window.authState = {
         
                 return true;
             } catch (error) {
-                localStorage.removeItem('login-token');
+                // Only remove token if it hasn't changed during the request
+                if (localStorage.getItem('login-token') === token) {
+                    localStorage.removeItem('login-token');
+                }
                 window.userData.isTokenValid = false;
                 window.userData.user = null;
                 window.userData.profile = null;

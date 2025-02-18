@@ -13,7 +13,7 @@
     },
     {
         "id": "front-page-offerings-1-description",
-        "am": "ከእርስዎ የአካል ብቃት ደረጃ ጋር የተበጁ ልምምዶችን ይድረሱ"
+        "am": "ለአካል ብቃት ደረጃዎ ተመጥነው የተበጁ ስፖርቶችን ያግኙ"
     },
     {
         "id": "front-page-offerings-2",
@@ -21,7 +21,7 @@
     },
     {
         "id": "front-page-offerings-2-description",
-        "am": "ብጁ የምግብ ዕቅዶችን እና የምግብ አዘገጃጀቶችን ያግኙ"
+        "am": "ለእርስዎ የተበጁ የምግብ ዕቅዶችን እና አዘገጃጀቶችን ያግኙ"
     },
     {
         "id": "front-page-offerings-3",
@@ -29,7 +29,7 @@
     },
     {
         "id": "front-page-offerings-3-description",
-        "am": "በየሳምንቱ እስከ 10,000 ብር አሸንፉ"
+        "am": "በየሳምንቱ እስከ 10,000 ብር ያሸንፉ"
     },
     {
         "id": "front-page-offerings-4",
@@ -37,15 +37,15 @@
     },
     {
         "id": "front-page-offerings-4-description",
-        "am": "ከአጋሮቻችን አስደናቂ ምርቶችን ያግኙ"
+        "am": "በአጋሮቻችን አስደናቂ ምርቶችን ያግኙ"
     },
     {
         "id": "exercises-section-title",
-        "am": "ፕራይም የአካል ብቃት"
+        "am": "ምጡቅ የአካል ብቃት"
     },
     {
         "id": "exercises-section-description",
-        "am": "<b>ጠንክሩ፣ ጥሩ ስሜት ይሰማዎት!</b><br><br>ተነሳሽ ለመሆን ለግል የተበጁ የአካል ብቃት እንቅስቃሴ እቅዶችን እና የባለሙያ ምክሮችን ይድረሱ።"
+        "am": "<b>ይበልጥ ይጠንክሩ፣ ይበልጥ ይደሰቱ!</b><br><br>ተነሳሽነትዎን ለመጨመር ለግል የተዘጋጁ የስፖርት እቅዶችን እና የባለሙያ ምክሮችን ያግኙ።"
     },
     {
         "id": "nutrition-section-title",
@@ -53,15 +53,15 @@
     },
     {
         "id": "nutrition-section-description",
-        "am": "<b>የተሻለ ይበሉ፣ የተሻለ ይኑሩ!</b><br><br>ምክሮችን ያግኙ እና ከግል ግቦችዎ ጋር በተስማሙ ጤናማ የምግብ አዘገጃጀቶች ይደሰቱ።"
+        "am": "<b>ጤናማ አመጋገብ፣ ጤናማ አኗኗር!</b><br><br>ምክሮችን ያግኙ እና ከግቦችዎ ጋር በሚስማሙ ጤናማ ምግብች ይደሰቱ።"
     },
     {
         "id": "prizes-section-title",
-        "am": "የማይታመን ሽልማቶች"
+        "am": "አስደናቂ ሽልማቶች"
     },
     {
         "id": "prizes-section-description",
-        "am": "<b>ጤና ሀብት ነው - በጥሬው!</b><br><br>በTenaPrime ሳምንታዊ የፈተና ጥያቄዎች በየሳምንቱ 25,000 ኢቲቢ አሸንፉ።"
+        "am": "<b>ጤንነት ሀብት ነው - በእውነቱ!</b><br><br>በTenaPrime ሳምንታዊ የጥያቄ እና መልስ ውድድር ተሳትፈው በየሳምንቱ 25,000 ብር ያሸንፉ።"
     },
     {
         "id": "prizes-title",
