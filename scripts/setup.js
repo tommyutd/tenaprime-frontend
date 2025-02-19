@@ -132,10 +132,17 @@ document.addEventListener('DOMContentLoaded', async function() {
     function updateFormSteps(direction = 'forward') {
         steps.forEach((step, index) => {
             if (index + 1 === currentStep) {
+                // Remove any existing animations
+                step.style.animation = 'none';
                 step.classList.remove('hidden');
+                
+                // Force a reflow to ensure the animation starts fresh
+                void step.offsetWidth;
+                
+                // Apply the appropriate animation
                 step.style.animation = direction === 'forward' 
                     ? 'fadeIn 0.5s ease forwards'
-                    : 'fadeIn 0.5s ease forwards reverse';
+                    : 'fadeInReverse 0.5s ease forwards';
             } else {
                 step.classList.add('hidden');
             }

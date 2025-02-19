@@ -6,10 +6,12 @@
     margin: 0 auto;
     padding: 2rem;
     color: var(--text-primary);
+    box-sizing: border-box;
 }
 
 .progress-bar {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-between;
     position: relative;
     width: 100%;
@@ -48,12 +50,12 @@
     cursor: pointer;
     transition: all 0.3s ease;
     text-align: center;
-    flex: 1;
+    width: 100%;
 }
 
 .step-number {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: var(--bg-primary);
     border: 3px solid var(--accent-20);
     border-radius: 50%;
@@ -72,10 +74,9 @@
     font-weight: 500;
     color: var(--accent-60);
     transition: all 0.3s ease;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 /* Hover state */
@@ -125,71 +126,13 @@
     color: var(--accent-40);
 }
 
-@media (max-width: 768px) {
-    .progress-bar {
-        padding: 0 10px;
-        margin-bottom: 3rem;
-    }
-
-    .progress-bar::before {
-        left: 30px;
-        right: 30px;
-    }
-
-    .progress-fill {
-        left: 30px;
-    }
-
-    .progress-step {
-        min-width: 90px;
-    }
-
-    .step-number {
-        width: 40px;
-        height: 40px;
-        font-size: 1rem;
-    }
-
-    .step-text {
-        font-size: 0.85rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .progress-bar {
-        padding: 0 5px;
-    }
-
-    .progress-bar::before {
-        left: 20px;
-        right: 20px;
-    }
-
-    .progress-fill {
-        left: 20px;
-    }
-
-    .progress-step {
-        min-width: 70px;
-    }
-
-    .step-number {
-        width: 35px;
-        height: 35px;
-        font-size: 0.9rem;
-    }
-
-    .step-text {
-        font-size: 0.75rem;
-    }
-}
-
 .profile-form {
-    max-width: 800px;
+    width: 100%;
     margin: 0 auto;
     background: var(--accent-10);
     padding: 2rem;
     border-radius: 1rem;
+    box-sizing: border-box;
 }
 
 .form-step {
@@ -431,54 +374,6 @@ select:focus {
     color: var(--accent-100);
 }
 
-@media (max-width: 768px) {
-    .goal-content {
-        padding: 1.25rem;
-        gap: 1.25rem;
-    }
-
-    .goal-icon {
-        width: 3rem;
-        height: 3rem;
-    }
-
-    .goal-icon span {
-        font-size: 1.5rem;
-    }
-
-    .goal-info h3 {
-        font-size: 1.1rem;
-    }
-
-    .goal-info p {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .goal-content {
-        padding: 1rem;
-        gap: 1rem;
-    }
-
-    .goal-icon {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-
-    .goal-icon span {
-        font-size: 1.3rem;
-    }
-
-    .goal-info h3 {
-        font-size: 1rem;
-    }
-
-    .goal-info p {
-        font-size: 0.85rem;
-    }
-}
-
 .bmi-result {
     margin-top: 1rem;
     padding: 1rem;
@@ -530,58 +425,6 @@ select:focus {
     cursor: not-allowed;
 }
 
-@media (max-width: 768px) {
-    .profile-setup-container {
-        padding: 1rem;
-    }
-
-    .progress-bar {
-        font-size: 0.9rem;
-    }
-
-    .profile-form {
-        padding: 1rem;
-    }
-
-    .goals-group {
-        grid-template-columns: 1fr;
-    }
-
-    .radio-group,
-    .checkbox-group {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    }
-}
-
-@media (max-width: 480px) {
-    .progress-step {
-        font-size: 0.8rem;
-        padding: 0.4rem 0.8rem;
-    }
-
-    .form-navigation {
-        flex-direction: column;
-    }
-
-    .btn-primary,
-    .btn-secondary {
-        width: 100%;
-    }
-
-    .radio-group,
-    .checkbox-group {
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .setup-card-content .icon {
-        font-size: 1.25rem;
-    }
-    
-    .setup-card-content .text {
-        font-size: 0.9rem;
-    }
-}
-
 .activity-group {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
@@ -631,37 +474,6 @@ select:focus {
 
 .activity-group .card-style input:checked {
     background: var(--accent-30);
-}
-
-@media (max-width: 768px) {
-    .activity-group {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        gap: 1rem;
-    }
-
-    .activity-group .card-style {
-        min-height: 130px;
-        padding: 1.25rem;
-    }
-
-    .activity-group .icon {
-        font-size: 1.75rem;
-    }
-
-    .activity-group .text {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .activity-group {
-        grid-template-columns: 1fr;
-    }
-
-    .activity-group .card-style {
-        min-height: auto;
-        padding: 1rem;
-    }
 }
 
 /* Remove old completed state styles */
@@ -796,4 +608,66 @@ select:focus {
     color: var(--text-primary);
     font-size: 1rem;
     transition: all 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInReverse {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-setup-container {
+        width: 90vw;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-setup-container {
+        width: 100%;
+    }
+
+    .profile-form {
+        padding: 1rem;
+    }
+
+    .progress-bar {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem auto;
+    }
+
+    .progress-step {
+        display: none;
+    }
+
+    .progress-step.active {
+        display: flex;
+    }
+
+    .progress-bar::before {
+        display: none;
+    }
+
+    .progress-fill {
+        display: none;
+    }
 }
