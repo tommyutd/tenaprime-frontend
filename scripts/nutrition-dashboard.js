@@ -98,7 +98,7 @@ async function checkNutritionPlan() {
                 const descriptionText = nutritionPlanHeading.querySelector('#nutrition-plan-heading-description');
                 const button = nutritionPlanHeading.querySelector('.nutrition-plan-view-button');
 
-                if (nutritionPlan.nutritionProfile.bmr === 0) {
+                if (!nutritionPlan.nutritionProfile.generation_completed) {
                     headingText.setAttribute('data-text-key', 'nutrition-generating-heading-title');
                     descriptionText.setAttribute('data-text-key', 'nutrition-generating-heading-description');
 

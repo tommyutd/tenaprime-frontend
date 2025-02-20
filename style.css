@@ -1638,7 +1638,6 @@ input[type="number"] {
   display: none;
   margin: 2rem auto;
   width: 100%;
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 40vh;

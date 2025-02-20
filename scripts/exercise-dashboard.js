@@ -161,41 +161,45 @@ async function checkWorkoutPlan() {
                 return;
             }
             
-            const headingText = workoutPlanHeading.querySelector('#workout-plan-heading-title');
-            const descriptionText = workoutPlanHeading.querySelector('#workout-plan-heading-description');
-            const button = workoutPlanHeading.querySelector('.workout-plan-view-button');
-
-            if (workoutPlan.workoutPlan.number_of_weeks_per_phase === 0) {
-                headingText.setAttribute('data-text-key', 'workout-generating-heading-title');
-                descriptionText.setAttribute('data-text-key', 'workout-generating-heading-description');
-
-                headingText.style.color = '#36454F';
-                descriptionText.style.color = '#36454F';
+            if (workoutPlanHeading) {
+                workoutPlanHeading.style.display = 'block';
                 
-                button.disabled = true;
-                button.innerHTML = `
-                    <div class="loading-spinner"></div>
-                    <span data-text-key="loading"></span>
-                `;
-            } else {
-                headingText.setAttribute('data-text-key', 'workout-plan-heading-title');
-                descriptionText.setAttribute('data-text-key', 'workout-plan-heading-description');
+                const headingText = workoutPlanHeading.querySelector('#workout-plan-heading-title');
+                const descriptionText = workoutPlanHeading.querySelector('#workout-plan-heading-description');
+                const button = workoutPlanHeading.querySelector('.workout-plan-view-button');
 
-                headingText.style.color = '#121518';
-                descriptionText.style.color = '#121518';
-                
-                button.disabled = false;
-                button.innerHTML = `
-                    <span data-text-key="workout-plan-view-button"></span>
-                `;
-                // Clear interval once plan is generated
-                clearInterval(workoutPlanInterval);
+                if (!workoutPlan.workoutPlan.generation_completed) {
+                    headingText.setAttribute('data-text-key', 'workout-generating-heading-title');
+                    descriptionText.setAttribute('data-text-key', 'workout-generating-heading-description');
+
+                    headingText.style.color = '#36454F';
+                    descriptionText.style.color = '#36454F';
+                    
+                    button.disabled = true;
+                    button.innerHTML = `
+                        <div class="loading-spinner"></div>
+                        <span data-text-key="loading"></span>
+                    `;
+                } else {
+                    headingText.setAttribute('data-text-key', 'workout-plan-heading-title');
+                    descriptionText.setAttribute('data-text-key', 'workout-plan-heading-description');
+
+                    headingText.style.color = '#121518';
+                    descriptionText.style.color = '#121518';
+                    
+                    button.disabled = false;
+                    button.innerHTML = `
+                        <span data-text-key="workout-plan-view-button"></span>
+                    `;
+                    // Clear interval once plan is generated
+                    clearInterval(workoutPlanInterval);
+                }
+                window.stringsLoaded.then(() => {
+                    updatePageStrings();
+                }).catch(error => {
+                    console.error('Error updating strings:', error);
+                });
             }
-            window.stringsLoaded.then(() => {
-                updatePageStrings();
-            }).catch(error => {
-                console.error('Error updating strings:', error);
-            });
         } else {
             workoutPlanHeading.style.display = 'none';
         }
