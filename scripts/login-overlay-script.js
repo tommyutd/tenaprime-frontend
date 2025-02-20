@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     const registerButton = document.querySelectorAll('.intro-register-button');
     const loginOverlay = document.getElementById('loginOverlay');
     const loginContainer = loginOverlay.querySelector('.login-container');
-    const registerOverlay = document.getElementById('registerOverlay');
-    const registerToastNotification = registerOverlay.querySelector('.register-toast-notification');
+    //const registerOverlay = document.getElementById('registerOverlay');
+    //const registerToastNotification = registerOverlay.querySelector('.register-toast-notification');
 
     // Get form elements
     const closeButton = document.getElementById('closeLogin');
@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         loginContainer.classList.add('show');
     }
 
+    /*
     function showRegisterOverlay() {
         registerOverlay.style.display = 'flex';
         registerOverlay.offsetHeight; // Trigger reflow
@@ -78,6 +79,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             registerOverlay.style.display = 'none';
         }, 300);
     }
+    */
 
     // Form validation
     function validateForm() {
@@ -101,12 +103,14 @@ document.addEventListener('DOMContentLoaded', async function() {
             button.addEventListener('click', showLoginOverlay);
         });
     }
+    /*
     if (registerButton) {
         registerButton.forEach(button => {
             button.addEventListener('click', showRegisterOverlay);
         });
     }
     registerLoginButton.addEventListener('click', showRegisterOverlay);
+    */
     closeButton.addEventListener('click', hideLoginOverlay);
 
     // Handle click outside overlays
@@ -116,11 +120,13 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
     });
 
+    /*
     registerOverlay.addEventListener('click', function(e) {
         if (e.target === registerOverlay) {
             hideRegisterOverlay();
         }
     });
+    */
 
     // Form validation listeners
     phoneInput.addEventListener('input', validateForm);

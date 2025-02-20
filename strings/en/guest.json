@@ -42,5 +42,25 @@
     {
         "id": "login-failed",
         "en": "Login failed. Please check the information you entered and try again."
+    },
+    {
+        "id": "register-title",
+        "en": "Register for TenaPrime"
+    },
+    {
+        "id": "register-success",
+        "en": "Registration successful"
+    },
+    {
+        "id": "register-success-message",
+        "en": "Your registration was successful! Here is your pin: <b>{{register-pin}}</b>"
+    },
+    {
+        "id": "register-failed",
+        "en": "Registration failed. Please try again later."
+    },
+    {
+        "id": "register-failed-number-registered",
+        "en": "Registration failed. Phone number is already registered."
     }
 ]

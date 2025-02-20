@@ -42,5 +42,25 @@
     {
         "id": "login-failed",
         "am": "መግባት አልተሳካም። እባክዎ ያስገቡትን መረጃ ያረጋግጡ እና እንደገና ይሞክሩ።"
+    },
+    {
+        "id": "register-title",
+        "am": "ለጤናፕራይም ይመዝገቡ"
+    },
+    {
+        "id": "register-success",
+        "am": "ምዝገባው ተሳክቷል"
+    },
+    {
+        "id": "register-success-message",
+        "am": "ምዝገባዎ የተሳካ ነበር! ፒንዎ ይኸውና፦ <b>{{register-pin}}</b>"
+    },
+    {
+        "id": "register-failed",
+        "am": "ምዝገባ አልተሳካም። እባክዎ በኋላ እንደገና ይሞክሩ።"
+    },
+    {
+        "id": "register-failed-number-registered",
+        "am": "ምዝገባ አልተሳካም። ስልክ ቁጥሩ ከዚህ በፊት ተመዝግቦ ነበር።"
     }
 ]

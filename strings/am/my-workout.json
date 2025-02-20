@@ -76,14 +76,6 @@
         "am": "እርግጠኛ ነዎት ስፖርታዊ እንቅስቃሴውን ማቆም ይፈልጋሉ?"
     },
     {
-        "id": "prompt-cancel",
-        "am": "ሰርዝ"
-    },
-    {
-        "id": "prompt-confirm",
-        "am": "አረጋግጥ"
-    },
-    {
         "id": "selected-day-workout-title",
         "am": "የተመረጠው ቀን ስፖርት"
     },

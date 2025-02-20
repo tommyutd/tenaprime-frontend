@@ -836,6 +836,7 @@ input[type="number"] {
   opacity: 1;
 }
 
+/*
 .register-overlay {
   display: none;
   position: fixed;
@@ -854,14 +855,124 @@ input[type="number"] {
 .register-overlay.show {
   opacity: 1;
 }
+*/
 
-.login-submit:disabled {
+/* New Register Overlay Start */
+.register-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-70);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.register-container {
+  background-color: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  box-shadow: 0 4px 6px var(--bg-10);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease-in-out;
+}
+
+.register-container.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.register-overlay.show {
+  opacity: 1;
+}
+
+.register-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.register-header h2 {
+  color: var(--accent-100);
+  margin: 0;
+}
+
+.register-submit {
+  width: 100%;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: var(--accent-100);
+  color: var(--bg-primary);
+}
+
+.register-submit:hover {
+  background-color: var(--accent-deeper);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px var(--accent-40);
+}
+
+.register-submit:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.register-submit.loading {
+  position: relative;
+  color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-submit.loading::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--bg-primary);
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* New Register Overlay End */
+
+.login-submit:disabled, .register-submit:disabled {
   opacity: 0.5;
   cursor: not-allowed;
   pointer-events: none;
 }
 
-.login-submit:disabled:hover {
+.login-submit:disabled:hover, .register-submit:disabled:hover {
   background-color: var(--accent-100);
   transform: none;
   box-shadow: none;
@@ -970,6 +1081,11 @@ input[type="number"] {
 .prompt-message {
   color: var(--text-primary);
   margin-bottom: 2rem;
+}
+
+.prompt-message b {
+  color: var(--accent-100);
+  font-size: 1.2rem;
 }
 
 .prompt-buttons {

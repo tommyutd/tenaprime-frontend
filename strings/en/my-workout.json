@@ -76,14 +76,6 @@
         "en": "Are you sure you want to end the workout?"
     },
     {
-        "id": "prompt-cancel",
-        "en": "Cancel"
-    },
-    {
-        "id": "prompt-confirm",
-        "en": "Confirm"
-    },
-    {
         "id": "selected-day-workout-title",
         "en": "Selected Day's Workout"
     },

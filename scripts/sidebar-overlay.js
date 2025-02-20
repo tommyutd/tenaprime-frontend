@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', async function() {
   });
 });
 
-function showToast(messageKey, error = false) {
+function showToast(messageKey, error = false, messagePlaceholderKey = null, messagePlaceholderValue = null) {
   const errorToast = document.createElement('div');
   errorToast.className = 'error-toast-overlay aleo-text';
   
@@ -84,7 +84,10 @@ function showToast(messageKey, error = false) {
   
   const messageSpan = document.createElement('span');
   messageSpan.setAttribute('data-text-key', messageKey);
-  
+  if (messagePlaceholderKey) {
+    messageSpan.setAttribute(`data-placeholder-${messagePlaceholderKey}`, messagePlaceholderValue);
+  }
+
   errorToastNotification.appendChild(messageSpan);
   errorToast.appendChild(errorToastNotification);
   document.body.appendChild(errorToast);
@@ -132,51 +135,95 @@ function showToast(messageKey, error = false) {
   });
 }
 
-function showPrompt(titleKey, messageKey) {
-  return new Promise((resolve) => {
-      const template = document.getElementById('prompt-template');
-      const clone = template.content.cloneNode(true);
-      document.body.appendChild(clone);
+function showPrompt(titleKey, messageKey, messagePlaceholderKey = null, messagePlaceholderValue = null, showConfirmButton = true, showCancelButton = true) {
+    return new Promise((resolve) => {
+        const template = document.getElementById('prompt-template');
+        
+        // If template doesn't exist, create it dynamically
+        if (!template) {
+            const newTemplate = document.createElement('template');
+            newTemplate.id = 'prompt-template';
+            newTemplate.innerHTML = `
+                <div class="prompt-overlay">
+                    <div class="prompt-content aleo-text">
+                        <div class="prompt-container">
+                            <button class="prompt-close">&times;</button>
+                            <h2 class="prompt-title"></h2>
+                            <p class="prompt-message"></p>
+                            <div class="prompt-buttons">
+                                <button data-text-key="prompt-cancel" class="prompt-cancel aleo-text">Cancel</button>
+                                <button data-text-key="prompt-confirm" class="prompt-confirm aleo-text">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(newTemplate);
+        }
 
-      const overlay = document.querySelector('.prompt-overlay');
-      const content = overlay.querySelector('.prompt-content');
-      const closeBtn = overlay.querySelector('.prompt-close');
-      const cancelBtn = overlay.querySelector('.prompt-cancel');
-      const confirmBtn = overlay.querySelector('.prompt-confirm');
-      const titleEl = overlay.querySelector('.prompt-title');
-      const messageEl = overlay.querySelector('.prompt-message');
+        const clone = (template || document.getElementById('prompt-template')).content.cloneNode(true);
+        document.body.appendChild(clone);
 
-      titleEl.setAttribute('data-text-key', titleKey);
-      messageEl.setAttribute('data-text-key', messageKey);
+        const overlay = document.querySelector('.prompt-overlay');
+        const content = overlay.querySelector('.prompt-content');
+        const closeBtn = overlay.querySelector('.prompt-close');
+        const cancelBtn = overlay.querySelector('.prompt-cancel');
+        const confirmBtn = overlay.querySelector('.prompt-confirm');
+        const titleEl = overlay.querySelector('.prompt-title');
+        const messageEl = overlay.querySelector('.prompt-message');
 
-      // Update strings after adding to DOM
-      window.stringsLoaded.then(() => {
-          updatePageStrings();
-      }).catch(error => {
-          console.error('Error updating strings:', error);
-      });
+        // Handle button visibility
+        if (!showConfirmButton) {
+            confirmBtn.style.display = 'none';
+        }
+        if (!showCancelButton) {
+            cancelBtn.style.display = 'none';
+        }
 
-      setTimeout(() => {
-          overlay.classList.add('show');
-          content.classList.add('show');
-      }, 10);
+        // Adjust grid layout if only one button is shown
+        const buttonsContainer = overlay.querySelector('.prompt-buttons');
+        if (!showConfirmButton || !showCancelButton) {
+            buttonsContainer.style.gridTemplateColumns = '1fr';
+        }
 
-      function closePrompt(result) {
-          overlay.classList.remove('show');
-          content.classList.remove('show');
-          setTimeout(() => {
-              document.body.removeChild(overlay);
-              resolve(result);
-          }, 300);
-      }
+        titleEl.setAttribute('data-text-key', titleKey);
+        messageEl.setAttribute('data-text-key', messageKey);
+        if (messagePlaceholderKey) {
+            messageEl.setAttribute(`data-placeholder-${messagePlaceholderKey}`, messagePlaceholderValue);
+        }
 
-      closeBtn.addEventListener('click', () => closePrompt(false));
-      cancelBtn.addEventListener('click', () => closePrompt(false));
-      confirmBtn.addEventListener('click', () => closePrompt(true));
-      overlay.addEventListener('click', (e) => {
-          if (e.target === overlay) closePrompt(false);
-      });
-  });
+        // Update strings after adding to DOM
+        window.stringsLoaded.then(() => {
+            updatePageStrings();
+        }).catch(error => {
+            console.error('Error updating strings:', error);
+        });
+
+        setTimeout(() => {
+            overlay.classList.add('show');
+            content.classList.add('show');
+        }, 10);
+
+        function closePrompt(result) {
+            overlay.classList.remove('show');
+            content.classList.remove('show');
+            setTimeout(() => {
+                document.body.removeChild(overlay);
+                resolve(result);
+            }, 300);
+        }
+
+        closeBtn.addEventListener('click', () => closePrompt(false));
+        if (showCancelButton) {
+            cancelBtn.addEventListener('click', () => closePrompt(false));
+        }
+        if (showConfirmButton) {
+            confirmBtn.addEventListener('click', () => closePrompt(true));
+        }
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) closePrompt(false);
+        });
+    });
 }
 
 window.showToast = showToast;
