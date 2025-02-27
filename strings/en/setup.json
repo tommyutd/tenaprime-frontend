@@ -474,5 +474,25 @@
     {
         "id": "setup-ingredients-search-placeholder",
         "en": "Search Ingredients…"
+    },
+    {
+        "id": "toast-invalid-age",
+        "en": "TenaPrime is only available for users aged 10 and above."
+    },
+    {
+        "id": "toast-invalid-age-max",
+        "en": "Please enter a valid age."
+    },
+    {
+        "id": "toast-invalid-height",
+        "en": "Please enter a valid height."
+    },
+    {
+        "id": "toast-invalid-weight",
+        "en": "Please enter a valid weight."
+    },
+    {
+        "id": "toast-invalid-bodyfat",
+        "en": "Please enter a valid body fat percentage."
     }
 ]

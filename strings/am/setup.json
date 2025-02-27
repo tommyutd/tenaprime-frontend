@@ -474,5 +474,25 @@
     {
         "id": "setup-ingredients-search-placeholder",
         "am": "ግብዓቶችን ይፈልጉ…"
+    },
+    {
+        "id": "toast-invalid-age",
+        "am": "ጤናፕራይምን መጠቀም የሚችሉት እድሜያቸው 10 እና ከዚያ በላይ የሆኑ ተጠቃሚዎች ብቻ ነው።"
+    },
+    {
+        "id": "toast-invalid-age-max",
+        "am": "እባክዎ ትክክለኛ ዕድሜ ያስገቡ።"
+    },
+    {
+        "id": "toast-invalid-height",
+        "am": "እባክዎ ትክክለኛ ቁመት ያስገቡ።"
+    },
+    {
+        "id": "toast-invalid-weight",
+        "am": "እባክዎ ትክክለኛ ክብደት ያስገቡ።"
+    },
+    {
+        "id": "toast-invalid-bodyfat",
+        "am": "እባክዎ ትክክለኛ የሰውነት ስብ መቶኛ ያስገቡ።"
     }
 ]

@@ -216,8 +216,23 @@
 
 <!-- Register Overlay -->
 <div class="register-overlay aleo-text" id="registerOverlay">
-  <div class="register-toast-notification">
-      <span data-text-key="register-toast">If you don't have an account, you can register by sending OK to 8362.</span>
+  <div class="register-container">
+      <div class="register-header">
+          <h2 data-text-key="register-title">Register for TenaPrime</h2>
+          <button class="close-button" id="closeRegister">&times;</button>
+      </div>
+      <form class="register-form">
+          <div class="form-group">
+              <label for="registerNumber" class="form-label" data-text-key="phone-number-label">Phone Number</label>
+              <div class="phone-input-container">
+                  <span class="country-code">+251</span>
+                  <input type="tel" id="registerNumber" name="phone" required maxlength="9" autocomplete="tel">
+              </div>
+          </div>
+          <div class="register-buttons">
+              <button type="submit" class="register-submit aleo-text" data-text-key="register">Register</button>
+          </div>
+      </form>
   </div>
 </div>
 
@@ -282,6 +297,7 @@
 <script src="/scripts/login-overlay-script.js"></script>
 <script src="/scripts/sidebar-overlay.js"></script>
 <script src="/scripts/winners-carousel.js"></script>
+<script src="/scripts/register-overlay-script.js"></script>
 
 </body>
 </html>

@@ -198,6 +198,57 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     nextBtn.addEventListener('click', () => {
         if (validateCurrentStep()) {
+            // Validate profile data if we're on the relevant steps
+            if (currentStep === 1) { // Basic Info step with age
+                const ageInput = document.getElementById('age');
+                if (ageInput && ageInput.value) {
+                    const age = parseInt(ageInput.value);
+                    if (age < 10) {
+                        window.showToast('toast-invalid-age', true);
+                        ageInput.value = 10; // Set to minimum valid age
+                        return;
+                    } else if (age > 130) {
+                        window.showToast('toast-invalid-age-max', true);
+                        ageInput.value = 130; // Set to maximum valid age
+                        return;
+                    }
+                }
+            } else if (currentStep === 2) { // Body Metrics step
+                // Height validation (50-250 cm)
+                const heightInput = document.getElementById('height');
+                if (heightInput && heightInput.value) {
+                    const height = parseFloat(heightInput.value);
+                    if (height < 50 || height > 250) {
+                        window.showToast('toast-invalid-height', true);
+                        heightInput.value = height < 50 ? 50 : 250; // Set to valid range
+                        return;
+                    }
+                }
+
+                // Weight validation (20-400 kg)
+                const weightInput = document.getElementById('weight');
+                if (weightInput && weightInput.value) {
+                    const weight = parseFloat(weightInput.value);
+                    if (weight < 20 || weight > 400) {
+                        window.showToast('toast-invalid-weight', true);
+                        weightInput.value = weight < 20 ? 20 : 400; // Set to valid range
+                        return;
+                    }
+                }
+
+                // Body fat validation (2-70%)
+                const bodyFatInput = document.getElementById('bodyFat');
+                if (bodyFatInput && bodyFatInput.value) {
+                    const bodyFat = parseFloat(bodyFatInput.value);
+                    if (bodyFat < 2 || bodyFat > 70) {
+                        window.showToast('toast-invalid-bodyfat', true);
+                        bodyFatInput.value = bodyFat < 2 ? 2 : 70; // Set to valid range
+                        return;
+                    }
+                }
+            }
+            
+            // If all validations pass, navigate to the next step
             navigateToStep(currentStep + 1);
         } else {
             window.showToast('toast-fill-fields', true);
@@ -214,6 +265,29 @@ document.addEventListener('DOMContentLoaded', async function() {
         if (!validateCurrentStep()) {
             window.showToast('toast-fill-fields', true);
             return;
+        }
+
+        // Validate all profile data before submission
+        validateProfileData();
+        
+        // If there are validation errors, don't proceed with submission
+        const ageInput = document.getElementById('age');
+        const heightInput = document.getElementById('height');
+        const weightInput = document.getElementById('weight');
+        const bodyFatInput = document.getElementById('bodyFat');
+        
+        const age = parseInt(ageInput.value);
+        const height = parseFloat(heightInput.value);
+        const weight = parseFloat(weightInput.value);
+        const bodyFat = bodyFatInput.value ? parseFloat(bodyFatInput.value) : null;
+        
+        if (
+            age < 10 || age > 130 ||
+            height < 50 || height > 250 ||
+            weight < 20 || weight > 400 ||
+            (bodyFat !== null && (bodyFat < 2 || bodyFat > 70))
+        ) {
+            return; // Don't submit if validation fails
         }
 
         // Add loading state and disable button
@@ -376,6 +450,9 @@ document.addEventListener('DOMContentLoaded', async function() {
             // Trigger BMI calculation
             calculateBMI();
 
+            // Validate loaded profile data
+            validateProfileData();
+
             // Lifestyle
             const activityRadios = document.querySelectorAll('input[name="activityLevel"]');
             activityRadios.forEach(radio => {
@@ -484,6 +561,52 @@ document.addEventListener('DOMContentLoaded', async function() {
         } catch (error) {
             console.error('Error loading profile:', error);
             window.showToast('toast-profile-load-error', true);
+        }
+    }
+
+    // Add this new function to validate profile data
+    function validateProfileData() {
+        // Age validation (10-130 years)
+        const ageInput = document.getElementById('age');
+        if (ageInput && ageInput.value) {
+            const age = parseInt(ageInput.value);
+            if (age < 10) {
+                window.showToast('toast-invalid-age', true);
+                ageInput.value = 10; // Set to minimum valid age
+            } else if (age > 130) {
+                window.showToast('toast-invalid-age-max', true);
+                ageInput.value = 130; // Set to maximum valid age
+            }
+        }
+
+        // Height validation (50-250 cm)
+        const heightInput = document.getElementById('height');
+        if (heightInput && heightInput.value) {
+            const height = parseFloat(heightInput.value);
+            if (height < 50 || height > 250) {
+                window.showToast('toast-invalid-height', true);
+                heightInput.value = height < 50 ? 50 : 250; // Set to valid range
+            }
+        }
+
+        // Weight validation (20-400 kg)
+        const weightInput = document.getElementById('weight');
+        if (weightInput && weightInput.value) {
+            const weight = parseFloat(weightInput.value);
+            if (weight < 20 || weight > 400) {
+                window.showToast('toast-invalid-weight', true);
+                weightInput.value = weight < 20 ? 20 : 400; // Set to valid range
+            }
+        }
+
+        // Body fat validation (2-70%)
+        const bodyFatInput = document.getElementById('bodyFat');
+        if (bodyFatInput && bodyFatInput.value) {
+            const bodyFat = parseFloat(bodyFatInput.value);
+            if (bodyFat < 2 || bodyFat > 70) {
+                window.showToast('toast-invalid-bodyfat', true);
+                bodyFatInput.value = bodyFat < 2 ? 2 : 70; // Set to valid range
+            }
         }
     }
 
