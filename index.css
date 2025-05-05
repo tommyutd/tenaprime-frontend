@@ -192,3 +192,29 @@
     margin: 0 auto;
   }
 }
+
+.exercises-section-texts,
+.nutrition-section-texts,
+.prizes-section-texts {
+  padding: 1rem;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.exercises-section-texts:hover,
+.nutrition-section-texts:hover,
+.prizes-section-texts:hover {
+  background-color: white;
+}
+
+.exercises-section-texts:hover h1,
+.nutrition-section-texts:hover h1,
+.prizes-section-texts:hover h1,
+.exercises-section-texts:hover b,
+.nutrition-section-texts:hover b,
+.prizes-section-texts:hover b,
+.exercises-section-texts:hover p,
+.nutrition-section-texts:hover p,
+.prizes-section-texts:hover p {
+  color: black;
+}

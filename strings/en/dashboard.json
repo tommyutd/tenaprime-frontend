@@ -13,11 +13,11 @@
     },
     {
         "id": "dashboard-main-card-title",
-        "en": "Play to Win Your Health"
+        "en": "Play to Win"
     },
     {
         "id": "dashboard-main-card-content",
-        "en": "Turn Fitness Into a Game And Level Up Your Health"
+        "en": "Try our quizes to win amazing prizes."
     },
     {
         "id": "exercises-card-title",
@@ -44,12 +44,12 @@
         "en": "Improve your lifestyle with our products."
     },
     {
-        "id": "scoreboard-card-title",
-        "en": "Scoreboard"
+        "id": "pt-card-title",
+        "en": "Your Personal Trainer"
     },
     {
-        "id": "scoreboard-card-content",
-        "en": "View your weekly ranking."
+        "id": "pt-card-content",
+        "en": "Train with a coach tailored to your needs."
     },
     {
         "id": "prizes-title",

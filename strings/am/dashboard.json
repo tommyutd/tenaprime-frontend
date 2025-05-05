@@ -13,11 +13,11 @@
     },
     {
         "id": "dashboard-main-card-title",
-        "am": "ጤናዎን ለማሸነፍ ይጫወቱ"
+        "am": "ለማሸነፍ ይጫወቱ"
     },
     {
         "id": "dashboard-main-card-content",
-        "am": "ስፖርትዎን ወደ ጨዋታ ይለውጡ እና ጤናዎን ያሳድጉ"
+        "am": "ምርጥ ሽልማቶችን ለማሸነፍ ጥያቄዎችን ይመልሱ።"
     },
     {
         "id": "exercises-card-title",
@@ -44,12 +44,12 @@
         "am": "በምርቶቻችን የአኗኗር ዘይቤዎን ያሻሽሉ።"
     },
     {
-        "id": "scoreboard-card-title",
-        "am": "የውጤት ሰሌዳ"
+        "id": "pt-card-title",
+        "am": "የእርስዎ የግል አሰልጣኝ"
     },
     {
-        "id": "scoreboard-card-content",
-        "am": "ሳምንታዊ ደረጃዎን ይመልከቱ"
+        "id": "pt-card-content",
+        "am": "ለእርስዎ ከተዘጋጀ አሰልጣኝ ጋር ይስሩ።"
     },
     {
         "id": "prizes-title",
