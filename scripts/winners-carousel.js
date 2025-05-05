@@ -1,122 +1,105 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const carousel = document.querySelector('.carousel');
-  
-    // Clear any existing cards
-    carousel.innerHTML = '';
-  
-    const cardData = [
-      { image: '/assets/winners/img1.png', title: 'Henok Ayele', description: 'December 2024' },
-      { image: '/assets/winners/img2.png', title: 'Title 2', description: 'Description 2' },
-      { image: '/assets/winners/img3.png', title: 'Title 3', description: 'Description 3' },
-      { image: '/assets/winners/img4.png', title: 'Title 4', description: 'Description 4' },
-      { image: '/assets/winners/img5.png', title: 'Title 5', description: 'Description 5' },
-    ];
-  
-    // Function to create a card element
-    function createCard(data) {
-      const card = document.createElement('div');
-      card.classList.add('card');
-      card.innerHTML = `
-        <div class="card-image">
-          <img src="${data.image}" alt="${data.title}">
-        </div>
-        <div class="card-text">
-          <h3>${data.title}</h3>
-          <p>${data.description}</p>
-        </div>
-      `;
-      return card;
+    // Select the section whose background will change
+    const winnersSection = document.querySelector('.winners-section');
+    // Check if the winnersSection exists
+    if (!winnersSection) {
+      console.error('Error: .winners-section element not found.');
+      return; // Stop execution if the element is missing
     }
-  
-    // --- Build the initial carousel in circular order ---
-    // 1. Previous card: Use the second-to-last item from cardData.
-    const prevCard = createCard(cardData[cardData.length - 2]);
-    prevCard.classList.add('prev');
-    carousel.appendChild(prevCard);
-  
-    // 2. Active card: Last item in cardData.
-    const activeCard = createCard(cardData[cardData.length - 1]);
-    activeCard.classList.add('active');
-    carousel.appendChild(activeCard);
-  
-    // 3. Next cards: Add all cards except the last two
-    cardData.slice(0, -2).forEach((data, index) => {
-      const card = createCard(data);
-      if (index === 0) card.classList.add('next'); // Mark the first of these as "next"
-      carousel.appendChild(card);
-    });
-  
-    // Set initial transform so the active card is centered
-    //carousel.style.transform = `translateX(${centerActiveCard()}px)`;
-  
-    let isRotating = false;
-    let rotationInterval = setInterval(rotateSlides, 5000);
+
+    const cardData = [
+      { image: '/assets/winners/img1.jpg', title: 'Henok Ayele', description: 'December 2024' },
+      { image: '/assets/winners/img2.jpg', title: 'Title 2', description: 'Description 2' },
+      { image: '/assets/winners/img3.jpg', title: 'Title 3', description: 'Description 3' },
+      { image: '/assets/winners/img4.jpg', title: 'Title 4', description: 'Description 4' },
+      { image: '/assets/winners/img5.jpg', title: 'Title 5', description: 'Description 5' },
+    ];
+
+    // Extract just the image URLs for background changes
+    const backgroundImages = cardData.map(data => data.image);
+    let currentImageIndex = 0; // Start with the first image
+
+    // --- Remove card creation logic ---
+    /*
+    function createCard(data) {
+      // ... card creation code removed ...
+    }
+    */
+
+    // --- Remove initial card setup ---
+    /*
+    // 1. Previous card: ...
+    // 2. Active card: ...
+    // 3. Next cards: ...
+    */
+
+    let rotationInterval = setInterval(changeBackground, 5000); // Auto-rotate background
 
     const prevButton = document.querySelector('.prev-button');
     const nextButton = document.querySelector('.next-button');
 
-    prevButton.addEventListener('click', () => {
-      clearInterval(rotationInterval);
-      rotationInterval = null;
-      rotateSlides('+');
-      rotationInterval = setInterval(rotateSlides, 5000);
-    });
-    
-    nextButton.addEventListener('click', () => {
-      clearInterval(rotationInterval);
-      rotationInterval = null;
-      rotateSlides('-');
-      rotationInterval = setInterval(rotateSlides, 5000);
-    });
-  
-    // --- Rotate Slides ---
-    function rotateSlides(direction = '-') {
-      if (isRotating) return;
-      isRotating = true;
-  
-      // Calculate the offset for the transition
-      const next = direction === '-' ? carousel.children[2] : carousel.children[0];
-      const newOffset = next.offsetWidth;
-  
-      // Animate the transition
-      carousel.style.transition = 'transform 0.5s ease-in-out';
-      carousel.style.transform = `translateX(${direction}${newOffset}px)`;
-  
-      Array.from(carousel.children).forEach(card => {
-        card.classList.remove('prev', 'active', 'next');
+    // Check if buttons exist before adding listeners
+    if (prevButton) {
+      prevButton.addEventListener('click', () => {
+        clearInterval(rotationInterval);
+        rotationInterval = null; // Stop auto-rotation
+        changeBackground('prev'); // Change to previous background
+        rotationInterval = setInterval(changeBackground, 5000); // Restart auto-rotation
       });
-  
-      setTimeout(() => {
-        carousel.style.transition = 'none';
-        carousel.style.transform = 'translateX(0)';
-  
-        if (direction === '-') {
-          // Forward rotation: move first card to end
-          const firstCard = carousel.firstElementChild;
-          carousel.appendChild(firstCard);
-        } else {
-          // Backward rotation: move last card to front
-          const lastCard = carousel.lastElementChild;
-          carousel.insertBefore(lastCard, carousel.firstElementChild);
-        }
-  
-        // Update classes for the visible cards
-        if (carousel.children[0]) carousel.children[0].classList.add('prev');
-        if (carousel.children[1]) carousel.children[1].classList.add('active');
-        if (carousel.children[2]) carousel.children[2].classList.add('next');
-  
-        isRotating = false;
-      }, 500);
+    } else {
+      console.warn('Warning: .prev-button element not found.');
     }
-  
-    // --- Optional: Pause rotation on hover ---
-    //carousel.addEventListener('mouseenter', () => {
-      //clearInterval(rotationInterval);
-      //rotationInterval = null;
-    //});
-  
-    //carousel.addEventListener('mouseleave', () => {
-      //if (!rotationInterval) rotationInterval = setInterval(rotateSlides, 5000);
-    //});
+
+    if (nextButton) {
+      nextButton.addEventListener('click', () => {
+        clearInterval(rotationInterval);
+        rotationInterval = null; // Stop auto-rotation
+        changeBackground('next'); // Change to next background
+        rotationInterval = setInterval(changeBackground, 5000); // Restart auto-rotation
+      });
+    } else {
+      console.warn('Warning: .next-button element not found.');
+    }
+
+
+    // --- Function to change the background image ---
+    function changeBackground(direction = 'next') {
+      if (backgroundImages.length === 0) return; // Do nothing if no images
+
+      if (direction === 'next') {
+        currentImageIndex = (currentImageIndex + 1) % backgroundImages.length;
+      } else { // direction === 'prev'
+        currentImageIndex = (currentImageIndex - 1 + backgroundImages.length) % backgroundImages.length;
+      }
+
+      // Update the background image
+      winnersSection.style.backgroundImage = `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${backgroundImages[currentImageIndex]}')`;
+
+      // If you want to update text elsewhere based on the current winner, you could do it here
+      // For example:
+      // const winnerTitleElement = document.querySelector('.winner-title'); // Assume this exists
+      // const winnerDescElement = document.querySelector('.winner-description'); // Assume this exists
+      // if (winnerTitleElement) winnerTitleElement.textContent = cardData[currentImageIndex].title;
+      // if (winnerDescElement) winnerDescElement.textContent = cardData[currentImageIndex].description;
+    }
+
+    // --- Remove rotation logic based on card elements ---
+    /*
+    function rotateSlides(direction = '-') {
+      // ... old card rotation logic removed ...
+    }
+    */
+
+    // --- Optional: Pause rotation on hover (applied to the section now) ---
+    /*
+    winnersSection.addEventListener('mouseenter', () => {
+      clearInterval(rotationInterval);
+      rotationInterval = null;
+    });
+
+    winnersSection.addEventListener('mouseleave', () => {
+      if (!rotationInterval) rotationInterval = setInterval(changeBackground, 5000);
+    });
+    */
   });
   
