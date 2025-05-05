@@ -49,7 +49,7 @@
     },
     {
         "id": "footer-tagline",
-        "en": "Stay Fit, Win Big"
+        "en": "Stay Fit, Win Your Health!"
     },
     {
         "id": "support",
@@ -61,11 +61,11 @@
     },
     {
         "id": "winners-section-title",
-        "en": "Meet the winners!"
+        "en": "Check Out Our Gym"
     },
     {
         "id": "winners-section-description",
-        "en": "Here are some of the winners of our weekly contest. You might be this week's winner. <a href=\"#\">Play now</a>!"
+        "en": "A sneak peek into our training environment. <a href=\"#\">Our Gym</a>!"
     },
     {
         "id": "prompt-cancel",

@@ -1,11 +1,11 @@
 [
     {
         "id": "front-page-greeting-1",
-        "am": "ጤናማ እየሆኑ"
+        "am": "ጤናማ ይሁኑ"
     },
     {
         "id": "front-page-greeting-2",
-        "am": "25,000 ብር ያሸንፉ!"
+        "am": "ዲጂታል የጂም አጋርዎ"
     },
     {
         "id": "front-page-offerings-1",
@@ -25,11 +25,11 @@
     },
     {
         "id": "front-page-offerings-3",
-        "am": "የገንዘብ ሽልማቶች"
+        "am": "የጤንነት ምክሮች"
     },
     {
         "id": "front-page-offerings-3-description",
-        "am": "በየሳምንቱ እስከ 25,000 ብር ያሸንፉ"
+        "am": "ጤናዎን ለማሳደግ የባለሙያዎችን ምክር ያግኙ"
     },
     {
         "id": "front-page-offerings-4",
@@ -57,11 +57,11 @@
     },
     {
         "id": "prizes-section-title",
-        "am": "አስደናቂ ሽልማቶች"
+        "am": "እውነተኛ ጤንነት"
     },
     {
         "id": "prizes-section-description",
-        "am": "<b>ጤንነት ሀብት ነው - በእርግጥም!</b><br><br>በጤናፕራይም ሳምንታዊ የጥያቄ እና መልስ ውድድር ተሳትፈው በየሳምንቱ 25,000 ብር ያሸንፉ።"
+        "am": "<b>ጤንነት አዲሱ ሀብት ነው</b><br><br>የላቀ ስልጠና፣ ሚዛናዊ ኑሮ እና ሁለንተናዊ የእድገት ክትትል—ሁሉም በአንድ እንከን የለሽ መድረክ።"
     },
     {
         "id": "prizes-title",
