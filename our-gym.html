@@ -25,6 +25,14 @@
             </a>
           </div>
 
+          <div class="navigation-prizes">
+            <a href="/our-gym">
+              <div class="prizes-text" data-text-key="prizes-menu-item">
+                Our Gym
+              </div>
+            </a>
+          </div>
+
           <div class="navigation-exercises">
             <a href="/exercises">
               <div class="exercises-text" data-text-key="exercises-menu-item">
@@ -37,14 +45,6 @@
             <a href="/nutrition">
               <div class="nutrition-text" data-text-key="nutrition-menu-item">
                 Nutrition
-              </div>
-            </a>
-          </div>
-
-          <div class="navigation-prizes">
-            <a href="/prizes">
-              <div class="prizes-text" data-text-key="prizes-menu-item">
-                Prizes
               </div>
             </a>
           </div>
@@ -956,5 +956,22 @@
     <script src="/scripts/language-selector.js"></script>
     <script src="/scripts/sidebar-overlay.js"></script>
     <script src="/scripts/user-stats-popup.js"></script>
+    <script>
+      // Hide membership and CTA sections if user is logged in
+      document.addEventListener("DOMContentLoaded", async function () {
+        // Wait for auth state to be initialized and checked
+        await window.authState.init();
+        
+        if (window.authState && window.authState.isLoggedIn) {
+          const membershipSection = document.querySelector(
+            ".our-gym-membership-section"
+          );
+          const ctaSection = document.querySelector(".our-gym-cta-section");
+
+          if (membershipSection) membershipSection.style.display = "none";
+          if (ctaSection) ctaSection.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>

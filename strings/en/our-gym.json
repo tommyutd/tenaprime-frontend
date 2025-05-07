@@ -1,7 +1,7 @@
 [
     {
         "id": "gym-title",
-        "en": "TenaPrime Fitness Club"
+        "en": "Our Fitness Club"
     },
     {
         "id": "gym-subtitle",
@@ -333,7 +333,7 @@
     },
     {
         "id": "ai-benefits-desc",
-        "en": "Unlike human trainers, your AI assistant is available anytime, adapts to your progress, and provides consistent guidance wherever you are."
+        "en": "Your AI assistant is available anytime, adapts to your progress, and provides consistent guidance wherever you are."
     },
     {
         "id": "learn-more",

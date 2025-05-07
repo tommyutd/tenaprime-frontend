@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workout</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/exercises/exercises.css">
-    <link rel="icon" href="/assets/logo-mini.svg">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/exercises/exercises.css" />
+    <link rel="icon" href="/assets/logo-mini.svg" />
     <script src="/scripts/config.js"></script>
     <script src="/scripts/route-guard.js"></script>
-</head>
-<body>
-<div class="homepage">
-    <div class="header">
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="header">
         <div class="logo">
           <a href="/">
-            <img src="/assets/logo.svg" alt="TenaPrime">
+            <img src="/assets/logo.svg" alt="TenaPrime" />
           </a>
         </div>
         <div class="navigation aleo-text">
@@ -24,57 +24,84 @@
               <div class="home-text" data-text-key="home-menu-item">Home</div>
             </a>
           </div>
-          
+
+          <div class="navigation-prizes">
+            <a href="/our-gym">
+              <div class="prizes-text" data-text-key="prizes-menu-item">
+                Our Gym
+              </div>
+            </a>
+          </div>
+
           <div class="navigation-exercises">
             <a href="/exercises">
-              <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+              <div class="exercises-text" data-text-key="exercises-menu-item">
+                Exercises
+              </div>
             </a>
           </div>
-            
+
           <div class="navigation-nutrition">
             <a href="/nutrition">
-              <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+              <div class="nutrition-text" data-text-key="nutrition-menu-item">
+                Nutrition
+              </div>
             </a>
           </div>
-          
-          <div class="navigation-prizes">
-            <a href="/prizes">
-              <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
-            </a>
-          </div>
-    
+
           <div class="navigation-about">
             <a href="/about">
-              <div class="about-text" data-text-key="about-menu-item">About</div>
+              <div class="about-text" data-text-key="about-menu-item">
+                About
+              </div>
             </a>
           </div>
         </div>
         <div class="extra-navigation">
           <div class="avatar">
-            <img src="/assets/avatar.svg" alt="Account">
+            <img src="/assets/avatar.svg" alt="Account" />
             <div class="stats-popup aleo-text" id="statsPopup">
               <div class="stats-container">
-                  <div class="stats-header">
-                      <h2 data-text-key="stats-title">Your Stats</h2>
-                      <button class="close-button" id="closeStats">&times;</button>
+                <div class="stats-header">
+                  <h2 data-text-key="stats-title">Your Stats</h2>
+                  <button class="close-button" id="closeStats">&times;</button>
+                </div>
+                <div class="stats-content">
+                  <div class="stats-item">
+                    <span class="stats-label" data-text-key="workout-goal"
+                      >Goal</span
+                    >
+                    <span class="stats-value" id="workout-goal"></span>
                   </div>
-                  <div class="stats-content">
-                      <div class="stats-item">
-                          <span class="stats-label" data-text-key="workout-goal">Goal</span>
-                          <span class="stats-value" id="workout-goal"></span>
-                      </div>
-                      <div class="stats-item">
-                          <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
-                          <span class="stats-value" id="workout-streak" data-text-key="workout-streak-value"></span>
-                      </div>
-                      <div class="stats-item">
-                          <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
-                          <span class="stats-value" id="workout-total-completed" data-text-key="workout-total-completed-value"></span>
-                      </div>
+                  <div class="stats-item">
+                    <span class="stats-label" data-text-key="workout-streak"
+                      >Workout Streak</span
+                    >
+                    <span
+                      class="stats-value"
+                      id="workout-streak"
+                      data-text-key="workout-streak-value"
+                    ></span>
                   </div>
-                  <div class="stats-footer">
-                      <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
+                  <div class="stats-item">
+                    <span class="stats-label" data-text-key="completed-workouts"
+                      >Completed Workouts</span
+                    >
+                    <span
+                      class="stats-value"
+                      id="workout-total-completed"
+                      data-text-key="workout-total-completed-value"
+                    ></span>
                   </div>
+                </div>
+                <div class="stats-footer">
+                  <button
+                    class="logout-button aleo-text"
+                    data-text-key="logout"
+                  >
+                    Logout
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -87,8 +114,8 @@
           </div>
           <div class="theme-toggle">
             <button class="theme-toggle-btn">
-              <img src="/assets/moon.svg" alt="Light Mode" class="light-icon">
-              <img src="/assets/sun.svg" alt="Dark Mode" class="dark-icon">
+              <img src="/assets/moon.svg" alt="Light Mode" class="light-icon" />
+              <img src="/assets/sun.svg" alt="Dark Mode" class="dark-icon" />
             </button>
           </div>
           <div class="hamburger-menu">
@@ -99,209 +126,374 @@
         </div>
         <div class="ethiotelecom">
           <div class="ethiotelecom-container">
-            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom" />
           </div>
         </div>
-    </div>
-    
-    <div id="workout-guide-indicator-container" class="strength-training aleo-text" style="display: none;">
-      <div class="workout-guide-indicator">
-        <button class="strength-exercise-button aleo-text" onclick="document.getElementById('workout-guide-header').scrollIntoView({behavior: 'smooth', block: 'center'})">
-          <p id="workout-guide-button" data-text-key="workout-guide-button">View Our Workout Guide Below</p>
-        </button>
       </div>
-    </div>
 
-    <div class="workout-overview aleo-text">
+      <div
+        id="workout-guide-indicator-container"
+        class="strength-training aleo-text"
+        style="display: none"
+      >
+        <div class="workout-guide-indicator">
+          <button
+            class="strength-exercise-button aleo-text"
+            onclick="document.getElementById('workout-guide-header').scrollIntoView({behavior: 'smooth', block: 'center'})"
+          >
+            <p id="workout-guide-button" data-text-key="workout-guide-button">
+              View Our Workout Guide Below
+            </p>
+          </button>
+        </div>
+      </div>
+
+      <div class="workout-overview aleo-text">
         <!-- Content will be dynamically loaded -->
-    </div>
-    
-    <div class="workout-content aleo-text">
+      </div>
+
+      <div class="workout-content aleo-text">
         <div class="workout-header">
-            <!-- Content will be dynamically loaded -->
+          <!-- Content will be dynamically loaded -->
         </div>
 
         <div class="exercise-list">
-            <!-- Content will be dynamically loaded -->
+          <!-- Content will be dynamically loaded -->
         </div>
-    </div>
+      </div>
 
-    <div class="workout-content-guide aleo-text" style="display: none;">
-      <div class="strength-training">
-        <div id="workout-guide-header" class="strength-training-header">
-            <h1 data-text-key="workout-guide-title">Strength and Muscle Building Workout Plan Guideline</h1>
-            <p data-text-key="workout-guide-description">Comprehensive workout schedules for beginners aiming to build strength and muscle mass. Choose between 3, 4, or 5 days per week routines, all targeting major muscle groups.</p>
-        </div>
+      <div class="workout-content-guide aleo-text" style="display: none">
+        <div class="strength-training">
+          <div id="workout-guide-header" class="strength-training-header">
+            <h1 data-text-key="workout-guide-title">
+              Strength and Muscle Building Workout Plan Guideline
+            </h1>
+            <p data-text-key="workout-guide-description">
+              Comprehensive workout schedules for beginners aiming to build
+              strength and muscle mass. Choose between 3, 4, or 5 days per week
+              routines, all targeting major muscle groups.
+            </p>
+          </div>
 
-        <div class="strength-training-content">
+          <div class="strength-training-content">
             <h2 data-text-key="workout-intro-title">Introduction</h2>
-            <p data-text-key="workout-intro-content">This workout plan is designed for beginners looking to build strength and muscle mass. The routines incorporate exercises from previous guides, targeting all major muscle groups: chest, back, shoulders, arms, legs, and core. Each schedule spans 2 months (8 weeks) and can be recycled throughout the year to ensure continuous progress.</p>
-        </div>
+            <p data-text-key="workout-intro-content">
+              This workout plan is designed for beginners looking to build
+              strength and muscle mass. The routines incorporate exercises from
+              previous guides, targeting all major muscle groups: chest, back,
+              shoulders, arms, legs, and core. Each schedule spans 2 months (8
+              weeks) and can be recycled throughout the year to ensure
+              continuous progress.
+            </p>
+          </div>
 
-        <div class="strength-training-content">
+          <div class="strength-training-content">
             <h2 data-text-key="workout-guidelines-title">Guidelines</h2>
             <ul>
-                <li><p data-text-key="workout-guideline-1"><b>Consult a Professional:</b> Before starting any new exercise program, consult with a healthcare professional, especially if you have any underlying health conditions.</p></li>
-                <li><p data-text-key="workout-guideline-2"><b>Warm-Up:</b> Begin each workout with a 5-10 minute warm-up (e.g., light cardio, dynamic stretches).</p></li>
-                <li><p data-text-key="workout-guideline-3"><b>Cool Down:</b> End each session with a 5-10 minute cool down and stretching.</p></li>
-                <li><p data-text-key="workout-guideline-4"><b>Rest Periods:</b> Rest 60-90 seconds between sets.</p></li>
-                <li><p data-text-key="workout-guideline-5"><b>Proper Form:</b> Focus on mastering technique before increasing weight.</p></li>
-                <li><p data-text-key="workout-guideline-6"><b>Progressive Overload:</b> Gradually increase weight or repetitions as strength improves.</p></li>
-                <li><p data-text-key="workout-guideline-7"><b>Hydration:</b> Drink plenty of water before, during, and after workouts.</p></li>
-                <li><p data-text-key="workout-guideline-8"><b>Nutrition:</b> Maintain a balanced diet rich in protein, carbohydrates, and healthy fats.</p></li>
+              <li>
+                <p data-text-key="workout-guideline-1">
+                  <b>Consult a Professional:</b> Before starting any new
+                  exercise program, consult with a healthcare professional,
+                  especially if you have any underlying health conditions.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-guideline-2">
+                  <b>Warm-Up:</b> Begin each workout with a 5-10 minute warm-up
+                  (e.g., light cardio, dynamic stretches).
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-guideline-3">
+                  <b>Cool Down:</b> End each session with a 5-10 minute cool
+                  down and stretching.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-guideline-4">
+                  <b>Rest Periods:</b> Rest 60-90 seconds between sets.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-guideline-5">
+                  <b>Proper Form:</b> Focus on mastering technique before
+                  increasing weight.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-guideline-6">
+                  <b>Progressive Overload:</b> Gradually increase weight or
+                  repetitions as strength improves.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-guideline-7">
+                  <b>Hydration:</b> Drink plenty of water before, during, and
+                  after workouts.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-guideline-8">
+                  <b>Nutrition:</b> Maintain a balanced diet rich in protein,
+                  carbohydrates, and healthy fats.
+                </p>
+              </li>
             </ul>
-        </div>
+          </div>
 
-        <div class="strength-training-content">
-            <h2 data-text-key="workout-progression-title">Progression and Adaptation</h2>
+          <div class="strength-training-content">
+            <h2 data-text-key="workout-progression-title">
+              Progression and Adaptation
+            </h2>
             <ul>
-                <li><p data-text-key="workout-progression-1"><b>Week 1-2:</b> Focus on learning exercises and proper form.</p></li>
-                <li><p data-text-key="workout-progression-2"><b>Week 3-4:</b> Begin to increase weight slightly.</p></li>
-                <li><p data-text-key="workout-progression-3"><b>Week 5-6:</b> Increase sets or reps as indicated.</p></li>
-                <li><p data-text-key="workout-progression-4"><b>Week 7-8:</b> Challenge yourself with higher weights or additional exercises.</p></li>
-                <li><p data-text-key="workout-progression-5"><b>After Week 8:</b> Repeat the 2-month cycle, adjusting weights and exercises to continue progression.</p></li>
+              <li>
+                <p data-text-key="workout-progression-1">
+                  <b>Week 1-2:</b> Focus on learning exercises and proper form.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-progression-2">
+                  <b>Week 3-4:</b> Begin to increase weight slightly.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-progression-3">
+                  <b>Week 5-6:</b> Increase sets or reps as indicated.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-progression-4">
+                  <b>Week 7-8:</b> Challenge yourself with higher weights or
+                  additional exercises.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-progression-5">
+                  <b>After Week 8:</b> Repeat the 2-month cycle, adjusting
+                  weights and exercises to continue progression.
+                </p>
+              </li>
             </ul>
-        </div>
+          </div>
 
-        <div class="strength-training-content">
-            <h2 data-text-key="workout-nutrition-title">Nutrition and Recovery Tips</h2>
+          <div class="strength-training-content">
+            <h2 data-text-key="workout-nutrition-title">
+              Nutrition and Recovery Tips
+            </h2>
             <ul>
-                <li><p data-text-key="workout-nutrition-1"><b>Protein Intake:</b> Consume adequate protein to support muscle repair and growth (approximately 0.7-0.8 grams per pound of body weight).</p></li>
-                <li><p data-text-key="workout-nutrition-2"><b>Balanced Diet:</b> Include carbohydrates for energy and healthy fats for overall health.</p></li>
-                <li><p data-text-key="workout-nutrition-3"><b>Hydration:</b> Aim for at least 8 glasses of water per day.</p></li>
-                <li><p data-text-key="workout-nutrition-4"><b>Sleep:</b> Get 7-9 hours of quality sleep each night to facilitate recovery.</p></li>
-                <li><p data-text-key="workout-nutrition-5"><b>Active Recovery:</b> Incorporate light activities like walking or yoga on rest days.</p></li>
-                <li><p data-text-key="workout-nutrition-6"><b>Supplements:</b> Consider basic supplements like whey protein or multivitamins if dietary intake is insufficient (consult with a healthcare professional).</p></li>
+              <li>
+                <p data-text-key="workout-nutrition-1">
+                  <b>Protein Intake:</b> Consume adequate protein to support
+                  muscle repair and growth (approximately 0.7-0.8 grams per
+                  pound of body weight).
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-nutrition-2">
+                  <b>Balanced Diet:</b> Include carbohydrates for energy and
+                  healthy fats for overall health.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-nutrition-3">
+                  <b>Hydration:</b> Aim for at least 8 glasses of water per day.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-nutrition-4">
+                  <b>Sleep:</b> Get 7-9 hours of quality sleep each night to
+                  facilitate recovery.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-nutrition-5">
+                  <b>Active Recovery:</b> Incorporate light activities like
+                  walking or yoga on rest days.
+                </p>
+              </li>
+              <li>
+                <p data-text-key="workout-nutrition-6">
+                  <b>Supplements:</b> Consider basic supplements like whey
+                  protein or multivitamins if dietary intake is insufficient
+                  (consult with a healthcare professional).
+                </p>
+              </li>
             </ul>
-        </div>
+          </div>
 
-        <div class="strength-training-content">
+          <div class="strength-training-content">
             <h2 data-text-key="workout-conclusion-title">Conclusion</h2>
-            <p data-text-key="workout-conclusion-content">This comprehensive workout plan provides beginners with structured routines to build strength and muscle mass effectively. By following the schedules tailored to 3, 4, or 5 days per week, you can choose the plan that best fits your lifestyle. Remember, consistency and proper form are key to achieving your fitness goals. Stay dedicated, listen to your body, and enjoy the journey toward a stronger, healthier you.</p>
+            <p data-text-key="workout-conclusion-content">
+              This comprehensive workout plan provides beginners with structured
+              routines to build strength and muscle mass effectively. By
+              following the schedules tailored to 3, 4, or 5 days per week, you
+              can choose the plan that best fits your lifestyle. Remember,
+              consistency and proper form are key to achieving your fitness
+              goals. Stay dedicated, listen to your body, and enjoy the journey
+              toward a stronger, healthier you.
+            </p>
 
-            <p data-text-key="disclaimer" class="disclaimer"><i>Disclaimer: This guide is for informational purposes only. Always consult with a healthcare professional before starting a new exercise program, particularly if you have any pre-existing health conditions or concerns.</i></p>
+            <p data-text-key="disclaimer" class="disclaimer">
+              <i
+                >Disclaimer: This guide is for informational purposes only.
+                Always consult with a healthcare professional before starting a
+                new exercise program, particularly if you have any pre-existing
+                health conditions or concerns.</i
+              >
+            </p>
+          </div>
 
-        </div>
-
-        <div id="workout-commitment" class="strength-training-content">
-            <h1 data-text-key="workout-commitment-title">Commit to Your Fitness Journey Today!</h1>
-            <p data-text-key="workout-commitment-content">Embarking on a strength and muscle-building program is a significant step toward improving your health and well-being. Stay focused, be patient with your progress, and celebrate the milestones along the way.</p>
+          <div id="workout-commitment" class="strength-training-content">
+            <h1 data-text-key="workout-commitment-title">
+              Commit to Your Fitness Journey Today!
+            </h1>
+            <p data-text-key="workout-commitment-content">
+              Embarking on a strength and muscle-building program is a
+              significant step toward improving your health and well-being. Stay
+              focused, be patient with your progress, and celebrate the
+              milestones along the way.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Footer section (same as dashboard.html) -->
-    <div class="footer aleo-text">
+      <!-- Footer section (same as dashboard.html) -->
+      <div class="footer aleo-text">
         <div class="footer-content">
-            <div class="footer-sections">
-                <div class="footer-section">
-                    <h3 data-text-key="footer-quick-links">Quick Links</h3>
-                    <ul>
-                        <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
-                        <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
-                        <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
-                        <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3 data-text-key="footer-information">Information</h3>
-                    <ul>
-                        <li><a href="/about" data-text-key="about-menu-item">About</a></li>
-                        <li><a href="#" data-text-key="faq">FAQ</a></li>
-                        <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
-                        <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3 data-text-key="footer-contact">Contact</h3>
-                    <ul>
-                        <li><a href="tel:+251911234567">+251 911 234 567</a></li>
-                        <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
-                        <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
-                        <li><a href="#" data-text-key="support">Support</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section footer-logo">
-                    <img src="/assets/logo.svg" alt="TenaPrime">
-                    <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
-                    <div class="footer-social">
-                        <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
-                        <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
-                        <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
-                    </div>
-                </div>
+          <div class="footer-sections">
+            <div class="footer-section">
+              <h3 data-text-key="footer-quick-links">Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="/dashboard" data-text-key="home-menu-item">Home</a>
+                </li>
+                <li>
+                  <a href="/exercises" data-text-key="exercises-menu-item"
+                    >Exercises</a
+                  >
+                </li>
+                <li>
+                  <a href="/nutrition" data-text-key="nutrition-menu-item"
+                    >Nutrition</a
+                  >
+                </li>
+                <li>
+                  <a href="/prizes" data-text-key="prizes-menu-item">Prizes</a>
+                </li>
+              </ul>
             </div>
-            <div class="footer-bottom">
-                <p>© 2024 TenaPrime. All rights reserved.</p>
-                <div class="footer-ethiotelecom">
-                    <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
-                </div>
+            <div class="footer-section">
+              <h3 data-text-key="footer-information">Information</h3>
+              <ul>
+                <li>
+                  <a href="/about" data-text-key="about-menu-item">About</a>
+                </li>
+                <li><a href="#" data-text-key="faq">FAQ</a></li>
+                <li>
+                  <a href="#" data-text-key="privacy-policy">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" data-text-key="tandc">Terms & Conditions</a>
+                </li>
+              </ul>
             </div>
+            <div class="footer-section">
+              <h3 data-text-key="footer-contact">Contact</h3>
+              <ul>
+                <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+                <li>
+                  <a href="mailto:info@tenaprime.com">info@tenaprime.com</a>
+                </li>
+                <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+                <li><a href="#" data-text-key="support">Support</a></li>
+              </ul>
+            </div>
+            <div class="footer-section footer-logo">
+              <img src="/assets/logo.svg" alt="TenaPrime" />
+              <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+              <div class="footer-social">
+                <a href="#"
+                  ><img src="/assets/facebook.svg" alt="Facebook"
+                /></a>
+                <a href="#"
+                  ><img src="/assets/telegram.svg" alt="Telegram"
+                /></a>
+                <a href="#"
+                  ><img src="/assets/instagram.svg" alt="Instagram"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© 2024 TenaPrime. All rights reserved.</p>
+            <div class="footer-ethiotelecom">
+              <img src="/assets/ethiotelecom.png" alt="Ethiotelecom" />
+            </div>
+          </div>
         </div>
-    </div>
-</div>
-
-<div class="sidebar-overlay"></div>
-<div class="sidebar aleo-text" id="sidebar">
-  <div class="sidebar-header">
-    <div class="sidebar-logo">
-      <img src="/assets/logo.svg" alt="TenaPrime">
-    </div>
-    <button class="sidebar-close">&times;</button>
-  </div>
-  
-  <div class="sidebar-language-selector">
-    <div class="language-options-container">
-      <div class="sidebar-language-option" data-lang="en">
-        <span class="language-text">English</span>
-      </div>
-      <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
-        <span class="language-text">አማርኛ</span>
       </div>
     </div>
-  </div>
 
-  <div class="sidebar-navigation">
-    <a href="/dashboard" class="sidebar-item">
-      <div data-text-key="home-menu-item">Home</div>
-    </a>
-    <a href="/exercises" class="sidebar-item">
-      <div data-text-key="exercises-menu-item">Exercises</div>
-    </a>
-    <a href="/nutrition" class="sidebar-item">
-      <div data-text-key="nutrition-menu-item">Nutrition</div>
-    </a>
-    <a href="/prizes" class="sidebar-item">
-      <div data-text-key="prizes-menu-item">Prizes</div>
-    </a>
-    <a href="/about" class="sidebar-item">
-      <div data-text-key="about-menu-item">About</div>
-    </a>
-  </div>
+    <div class="sidebar-overlay"></div>
+    <div class="sidebar aleo-text" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo">
+          <img src="/assets/logo.svg" alt="TenaPrime" />
+        </div>
+        <button class="sidebar-close">&times;</button>
+      </div>
 
-  <div class="sidebar-footer">
-    <a href="#" class="sidebar-item">
-      <div data-text-key="tandc">Terms & Conditions</div>
-    </a>
-    <a href="#" class="sidebar-item">
-      <div data-text-key="faq">FAQ</div>
-    </a>
-    <a href="#" class="sidebar-item">
-      <div data-text-key="privacy-policy">Privacy Policy</div>
-    </a>
-    <a href="#" class="sidebar-item">
-      <div data-text-key="contact-us">Contact Us</div>
-    </a>
-  </div>
-</div>
+      <div class="sidebar-language-selector">
+        <div class="language-options-container">
+          <div class="sidebar-language-option" data-lang="en">
+            <span class="language-text">English</span>
+          </div>
+          <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+            <span class="language-text">አማርኛ</span>
+          </div>
+        </div>
+      </div>
 
-<script src="/scripts/workout-content-loader.js"></script>
-<script src="/scripts/auth-service.js"></script>
-<script src="/scripts/theme-manager.js"></script>
-<script src="/scripts/user-stats-popup.js"></script>
-<script src="/scripts/sidebar-overlay.js"></script>
-<script src="/scripts/strings-loader.js"></script>
-<script src="/scripts/language-selector.js"></script>
+      <div class="sidebar-navigation">
+        <a href="/dashboard" class="sidebar-item">
+          <div data-text-key="home-menu-item">Home</div>
+        </a>
+        <a href="/exercises" class="sidebar-item">
+          <div data-text-key="exercises-menu-item">Exercises</div>
+        </a>
+        <a href="/nutrition" class="sidebar-item">
+          <div data-text-key="nutrition-menu-item">Nutrition</div>
+        </a>
+        <a href="/prizes" class="sidebar-item">
+          <div data-text-key="prizes-menu-item">Prizes</div>
+        </a>
+        <a href="/about" class="sidebar-item">
+          <div data-text-key="about-menu-item">About</div>
+        </a>
+      </div>
 
-</body>
+      <div class="sidebar-footer">
+        <a href="#" class="sidebar-item">
+          <div data-text-key="tandc">Terms & Conditions</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="faq">FAQ</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="privacy-policy">Privacy Policy</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="contact-us">Contact Us</div>
+        </a>
+      </div>
+    </div>
+
+    <script src="/scripts/workout-content-loader.js"></script>
+    <script src="/scripts/auth-service.js"></script>
+    <script src="/scripts/theme-manager.js"></script>
+    <script src="/scripts/user-stats-popup.js"></script>
+    <script src="/scripts/sidebar-overlay.js"></script>
+    <script src="/scripts/strings-loader.js"></script>
+    <script src="/scripts/language-selector.js"></script>
+  </body>
 </html>

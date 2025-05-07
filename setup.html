@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TenaPrime - Exercise Profile Setup</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/dashboard.css">
-    <link rel="stylesheet" href="/setup.css">
-    <link rel="icon" href="/assets/logo-mini.svg">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/dashboard.css" />
+    <link rel="stylesheet" href="/setup.css" />
+    <link rel="icon" href="/assets/logo-mini.svg" />
     <script src="/scripts/config.js"></script>
     <script src="/scripts/route-guard.js"></script>
-</head>
-<body>
-<div class="homepage">
-    <div class="header">
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="header">
         <div class="logo">
-            <a href="/">
-                <img src="/assets/logo.svg" alt="TenaPrime">
-            </a>
+          <a href="/">
+            <img src="/assets/logo.svg" alt="TenaPrime" />
+          </a>
         </div>
         <div class="navigation aleo-text">
           <div class="navigation-home">
@@ -25,59 +25,86 @@
               <div class="home-text" data-text-key="home-menu-item">Home</div>
             </a>
           </div>
-          
+
+          <div class="navigation-prizes">
+            <a href="/our-gym">
+              <div class="prizes-text" data-text-key="prizes-menu-item">
+                Our Gym
+              </div>
+            </a>
+          </div>
+
           <div class="navigation-exercises">
             <a href="/exercises">
-              <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
+              <div class="exercises-text" data-text-key="exercises-menu-item">
+                Exercises
+              </div>
             </a>
           </div>
-            
+
           <div class="navigation-nutrition">
             <a href="/nutrition">
-              <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
+              <div class="nutrition-text" data-text-key="nutrition-menu-item">
+                Nutrition
+              </div>
             </a>
           </div>
-          
-          <div class="navigation-prizes">
-            <a href="/prizes">
-              <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
-            </a>
-          </div>
-    
+
           <div class="navigation-about">
             <a href="/about">
-              <div class="about-text" data-text-key="about-menu-item">About</div>
+              <div class="about-text" data-text-key="about-menu-item">
+                About
+              </div>
             </a>
           </div>
         </div>
         <div class="extra-navigation">
           <div class="avatar">
-            <img src="/assets/avatar.svg" alt="Account">
+            <img src="/assets/avatar.svg" alt="Account" />
             <div class="stats-popup aleo-text" id="statsPopup">
-                <div class="stats-container">
-                    <div class="stats-header">
-                        <h2 data-text-key="stats-title">Your Stats</h2>
-                        <button class="close-button" id="closeStats">&times;</button>
-                    </div>
-                    <div class="stats-content">
-                        <div class="stats-item">
-                            <span class="stats-label" data-text-key="workout-goal">Goal</span>
-                            <span class="stats-value" id="workout-goal"></span>
-                        </div>
-                        <div class="stats-item">
-                            <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
-                            <span class="stats-value" id="workout-streak" data-text-key="workout-streak-value"></span>
-                        </div>
-                        <div class="stats-item">
-                            <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
-                            <span class="stats-value" id="workout-total-completed" data-text-key="workout-total-completed-value"></span>
-                        </div>
-                    </div>
-                    <div class="stats-footer">
-                        <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
-                    </div>
+              <div class="stats-container">
+                <div class="stats-header">
+                  <h2 data-text-key="stats-title">Your Stats</h2>
+                  <button class="close-button" id="closeStats">&times;</button>
+                </div>
+                <div class="stats-content">
+                  <div class="stats-item">
+                    <span class="stats-label" data-text-key="workout-goal"
+                      >Goal</span
+                    >
+                    <span class="stats-value" id="workout-goal"></span>
+                  </div>
+                  <div class="stats-item">
+                    <span class="stats-label" data-text-key="workout-streak"
+                      >Workout Streak</span
+                    >
+                    <span
+                      class="stats-value"
+                      id="workout-streak"
+                      data-text-key="workout-streak-value"
+                    ></span>
+                  </div>
+                  <div class="stats-item">
+                    <span class="stats-label" data-text-key="completed-workouts"
+                      >Completed Workouts</span
+                    >
+                    <span
+                      class="stats-value"
+                      id="workout-total-completed"
+                      data-text-key="workout-total-completed-value"
+                    ></span>
+                  </div>
+                </div>
+                <div class="stats-footer">
+                  <button
+                    class="logout-button aleo-text"
+                    data-text-key="logout"
+                  >
+                    Logout
+                  </button>
                 </div>
               </div>
+            </div>
           </div>
           <div class="language-selector aleo-text">
             <p>EN</p>
@@ -88,8 +115,8 @@
           </div>
           <div class="theme-toggle">
             <button class="theme-toggle-btn">
-              <img src="/assets/moon.svg" alt="Light Mode" class="light-icon">
-              <img src="/assets/sun.svg" alt="Dark Mode" class="dark-icon">
+              <img src="/assets/moon.svg" alt="Light Mode" class="light-icon" />
+              <img src="/assets/sun.svg" alt="Dark Mode" class="dark-icon" />
             </button>
           </div>
           <div class="hamburger-menu">
@@ -100,714 +127,1199 @@
         </div>
         <div class="ethiotelecom">
           <div class="ethiotelecom-container">
-            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom" />
           </div>
         </div>
-    </div>
+      </div>
 
-    <div class="profile-setup-container aleo-text">
+      <div class="profile-setup-container aleo-text">
         <div class="setup-title">
-            <h1 data-text-key="setup-title">Exercise Profile Setup</h1>
-            <p data-text-key="setup-description">Let's customize your exercise experience</p>
+          <h1 data-text-key="setup-title">Exercise Profile Setup</h1>
+          <p data-text-key="setup-description">
+            Let's customize your exercise experience
+          </p>
         </div>
         <div class="progress-bar">
-            <div class="progress-step active" data-step="1" role="button" tabindex="0">
-                <div class="step-number">1</div>
-                <div class="step-text" data-text-key="setup-basic-info">Basic Information</div>
+          <div
+            class="progress-step active"
+            data-step="1"
+            role="button"
+            tabindex="0"
+          >
+            <div class="step-number">1</div>
+            <div class="step-text" data-text-key="setup-basic-info">
+              Basic Information
             </div>
-            <div class="progress-step" data-step="2" role="button" tabindex="0">
-                <div class="step-number">2</div>
-                <div class="step-text" data-text-key="setup-body-metrics">Body Metrics</div>
+          </div>
+          <div class="progress-step" data-step="2" role="button" tabindex="0">
+            <div class="step-number">2</div>
+            <div class="step-text" data-text-key="setup-body-metrics">
+              Body Metrics
             </div>
-            <div class="progress-step" data-step="3" role="button" tabindex="0">
-                <div class="step-number">3</div>
-                <div class="step-text" data-text-key="setup-lifestyle">Lifestyle</div>
+          </div>
+          <div class="progress-step" data-step="3" role="button" tabindex="0">
+            <div class="step-number">3</div>
+            <div class="step-text" data-text-key="setup-lifestyle">
+              Lifestyle
             </div>
-            <div class="progress-step" data-step="4" role="button" tabindex="0">
-                <div class="step-number">4</div>
-                <div class="step-text" data-text-key="setup-goals">Goals</div>
+          </div>
+          <div class="progress-step" data-step="4" role="button" tabindex="0">
+            <div class="step-number">4</div>
+            <div class="step-text" data-text-key="setup-goals">Goals</div>
+          </div>
+          <div class="progress-step" data-step="5" role="button" tabindex="0">
+            <div class="step-number">5</div>
+            <div class="step-text" data-text-key="setup-schedule">Schedule</div>
+          </div>
+          <div class="progress-step" data-step="6" role="button" tabindex="0">
+            <div class="step-number">6</div>
+            <div class="step-text" data-text-key="setup-preferences">
+              Preferences
             </div>
-            <div class="progress-step" data-step="5" role="button" tabindex="0">
-                <div class="step-number">5</div>
-                <div class="step-text" data-text-key="setup-schedule">Schedule</div>
+          </div>
+          <div class="progress-step" data-step="7" role="button" tabindex="0">
+            <div class="step-number">7</div>
+            <div class="step-text" data-text-key="setup-ingredients">
+              Ingredients
             </div>
-            <div class="progress-step" data-step="6" role="button" tabindex="0">
-                <div class="step-number">6</div>
-                <div class="step-text" data-text-key="setup-preferences">Preferences</div>
-            </div>
-            <div class="progress-step" data-step="7" role="button" tabindex="0">
-                <div class="step-number">7</div>
-                <div class="step-text" data-text-key="setup-ingredients">Ingredients</div>
-            </div>
-            <div class="progress-fill"></div>
+          </div>
+          <div class="progress-fill"></div>
         </div>
 
         <form id="profileSetupForm" class="profile-form">
-            <!-- Step 1: Basic Information -->
-            <div class="form-step" data-step="1">
-                <h2 data-text-key="setup-basic-info-title">Basic Information</h2>
-                <div class="form-group">
-                    <label for="age" data-text-key="setup-age-label">Age</label>
-                    <input type="number" id="age" name="age" min="13" max="120" required>
-                </div>
-                <div class="form-group">
-                    <label data-text-key="setup-gender-label">Gender</label>
-                    <div class="radio-group">
-                        <label class="radio-label card-style">
-                            <input type="radio" name="gender" value="male" required>
-                            <div class="setup-card-content">
-                                <span class="icon">♂</span>
-                                <span class="text" data-text-key="setup-gender-male">Male</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="gender" value="female">
-                            <div class="setup-card-content">
-                                <span class="icon">♀</span>
-                                <span class="text" data-text-key="setup-gender-female">Female</span>
-                            </div>
-                        </label>
+          <!-- Step 1: Basic Information -->
+          <div class="form-step" data-step="1">
+            <h2 data-text-key="setup-basic-info-title">Basic Information</h2>
+            <div class="form-group">
+              <label for="age" data-text-key="setup-age-label">Age</label>
+              <input
+                type="number"
+                id="age"
+                name="age"
+                min="13"
+                max="120"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label data-text-key="setup-gender-label">Gender</label>
+              <div class="radio-group">
+                <label class="radio-label card-style">
+                  <input type="radio" name="gender" value="male" required />
+                  <div class="setup-card-content">
+                    <span class="icon">♂</span>
+                    <span class="text" data-text-key="setup-gender-male"
+                      >Male</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input type="radio" name="gender" value="female" />
+                  <div class="setup-card-content">
+                    <span class="icon">♀</span>
+                    <span class="text" data-text-key="setup-gender-female"
+                      >Female</span
+                    >
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2: Body Metrics -->
+          <div class="form-step hidden" data-step="2">
+            <h2 data-text-key="setup-body-metrics-title">Body Metrics</h2>
+            <div class="form-group">
+              <label for="weight" data-text-key="setup-weight-label"
+                >Weight (kg)</label
+              >
+              <input
+                type="number"
+                id="weight"
+                name="weight"
+                step="0.1"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="height" data-text-key="setup-height-label"
+                >Height (cm)</label
+              >
+              <input type="number" id="height" name="height" required />
+            </div>
+            <div class="form-group">
+              <label for="bodyFat" data-text-key="setup-body-fat-label"
+                >Body Fat % (optional)</label
+              >
+              <input
+                type="number"
+                id="bodyFat"
+                name="bodyFat"
+                min="3"
+                max="70"
+                step="0.1"
+              />
+            </div>
+            <div class="bmi-result">
+              <span data-text-key="setup-bmi-label">Your BMI: </span>
+              <span id="bmiValue">--</span>
+            </div>
+          </div>
+
+          <!-- Step 3: Lifestyle -->
+          <div class="form-step hidden" data-step="3">
+            <h2 data-text-key="setup-lifestyle-health-title">
+              Lifestyle & Health
+            </h2>
+            <div class="form-group">
+              <label data-text-key="setup-activity-level-label"
+                >Activity Level (Single Selection)</label
+              >
+              <div class="radio-group activity-group">
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="activityLevel"
+                    value="sedentary"
+                    required
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🛋️</span>
+                    <span class="text" data-text-key="setup-sedentary"
+                      >Sedentary</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-sedentary-desc"
+                      >Little or no exercise</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input type="radio" name="activityLevel" value="light" />
+                  <div class="setup-card-content">
+                    <span class="icon">🚶</span>
+                    <span class="text" data-text-key="setup-light">Light</span>
+                    <span class="description" data-text-key="setup-light-desc"
+                      >Exercise 1-3 times/week</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input type="radio" name="activityLevel" value="moderate" />
+                  <div class="setup-card-content">
+                    <span class="icon">🏃</span>
+                    <span class="text" data-text-key="setup-moderate"
+                      >Moderate</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-moderate-desc"
+                      >Exercise 3-5 times/week</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input type="radio" name="activityLevel" value="active" />
+                  <div class="setup-card-content">
+                    <span class="icon">💪</span>
+                    <span class="text" data-text-key="setup-active"
+                      >Active</span
+                    >
+                    <span class="description" data-text-key="setup-active-desc"
+                      >Exercise 6-7 times/week</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="activityLevel"
+                    value="very_active"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🏋️</span>
+                    <span class="text" data-text-key="setup-very-active"
+                      >Very Active</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-very-active-desc"
+                      >Intense exercise daily</span
+                    >
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label data-text-key="setup-dietary-preferences-label"
+                >Dietary Preferences (Multiple Selection)</label
+              >
+              <div class="checkbox-group">
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="diet" value="vegan" />
+                  <div class="setup-card-content">
+                    <span class="icon">🌱</span>
+                    <span class="text" data-text-key="setup-diet-vegan"
+                      >Vegan</span
+                    >
+                  </div>
+                </label>
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="diet" value="vegetarian" />
+                  <div class="setup-card-content">
+                    <span class="icon">🥗</span>
+                    <span class="text" data-text-key="setup-diet-vegetarian"
+                      >Vegetarian</span
+                    >
+                  </div>
+                </label>
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="diet" value="keto" />
+                  <div class="setup-card-content">
+                    <span class="icon">🥑</span>
+                    <span class="text" data-text-key="setup-diet-keto"
+                      >Keto</span
+                    >
+                  </div>
+                </label>
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="diet" value="paleo" />
+                  <div class="setup-card-content">
+                    <span class="icon">🍖</span>
+                    <span class="text" data-text-key="setup-diet-paleo"
+                      >Paleo</span
+                    >
+                  </div>
+                </label>
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="diet" value="gluten_free" />
+                  <div class="setup-card-content">
+                    <span class="icon">🌾</span>
+                    <span class="text" data-text-key="setup-diet-gluten-free"
+                      >Gluten-Free</span
+                    >
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label data-text-key="setup-allergies-intolerances-label"
+                >Allergies/Intolerances (Multiple Selection)</label
+              >
+              <div class="checkbox-group">
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="allergies" value="nuts" />
+                  <div class="setup-card-content">
+                    <span class="icon">🥜</span>
+                    <span class="text" data-text-key="setup-allergy-nuts"
+                      >Nuts</span
+                    >
+                  </div>
+                </label>
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="allergies" value="dairy" />
+                  <div class="setup-card-content">
+                    <span class="icon">🥛</span>
+                    <span class="text" data-text-key="setup-allergy-dairy"
+                      >Dairy</span
+                    >
+                  </div>
+                </label>
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="allergies" value="shellfish" />
+                  <div class="setup-card-content">
+                    <span class="icon">🦐</span>
+                    <span class="text" data-text-key="setup-allergy-shellfish"
+                      >Shellfish</span
+                    >
+                  </div>
+                </label>
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="allergies" value="eggs" />
+                  <div class="setup-card-content">
+                    <span class="icon">🥚</span>
+                    <span class="text" data-text-key="setup-allergy-eggs"
+                      >Eggs</span
+                    >
+                  </div>
+                </label>
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="allergies" value="soy" />
+                  <div class="setup-card-content">
+                    <span class="icon">🌰</span>
+                    <span class="text" data-text-key="setup-allergy-soy"
+                      >Soy</span
+                    >
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label data-text-key="setup-health-conditions-label"
+                >Health Conditions (Multiple Selection)</label
+              >
+              <div class="checkbox-group">
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="health" value="diabetes" />
+                  <div class="setup-card-content">
+                    <span class="icon">💉</span>
+                    <span class="text" data-text-key="setup-health-diabetes"
+                      >Diabetes</span
+                    >
+                  </div>
+                </label>
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="health" value="hypertension" />
+                  <div class="setup-card-content">
+                    <span class="icon">❤️</span>
+                    <span class="text" data-text-key="setup-health-hypertension"
+                      >Hypertension</span
+                    >
+                  </div>
+                </label>
+                <label class="checkbox-label card-style">
+                  <input type="checkbox" name="health" value="heart_disease" />
+                  <div class="setup-card-content">
+                    <span class="icon">💗</span>
+                    <span
+                      class="text"
+                      data-text-key="setup-health-heart-disease"
+                      >Heart Disease</span
+                    >
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 4: Goals -->
+          <div class="form-step hidden" data-step="4">
+            <h2 data-text-key="setup-goals-title">Your Goals</h2>
+            <div class="form-group">
+              <label data-text-key="setup-primary-goal-label"
+                >Primary Goal</label
+              >
+              <div class="radio-group goals-group">
+                <label class="radio-label goal-card">
+                  <input
+                    type="radio"
+                    name="primary_goal"
+                    value="weightLoss"
+                    required
+                  />
+                  <div class="goal-content">
+                    <div class="goal-icon">
+                      <span>⚖️</span>
                     </div>
-                </div>
+                    <div class="goal-info">
+                      <h3 data-text-key="setup-goal-weight-loss">
+                        Weight Loss
+                      </h3>
+                      <p data-text-key="setup-goal-weight-loss-desc">
+                        Reduce body fat while maintaining muscle mass
+                      </p>
+                    </div>
+                    <div class="goal-arrow">
+                      <span>→</span>
+                    </div>
+                  </div>
+                </label>
+                <label class="radio-label goal-card">
+                  <input type="radio" name="primary_goal" value="muscleGain" />
+                  <div class="goal-content">
+                    <div class="goal-icon">
+                      <span>💪</span>
+                    </div>
+                    <div class="goal-info">
+                      <h3 data-text-key="setup-goal-muscle-gain">
+                        Muscle Gain
+                      </h3>
+                      <p data-text-key="setup-goal-muscle-gain-desc">
+                        Build strength and increase muscle mass
+                      </p>
+                    </div>
+                    <div class="goal-arrow">
+                      <span>→</span>
+                    </div>
+                  </div>
+                </label>
+                <label class="radio-label goal-card">
+                  <input type="radio" name="primary_goal" value="maintenance" />
+                  <div class="goal-content">
+                    <div class="goal-icon">
+                      <span>⚡</span>
+                    </div>
+                    <div class="goal-info">
+                      <h3 data-text-key="setup-goal-maintenance">
+                        Maintenance
+                      </h3>
+                      <p data-text-key="setup-goal-maintenance-desc">
+                        Maintain current weight and improve body composition
+                      </p>
+                    </div>
+                    <div class="goal-arrow">
+                      <span>→</span>
+                    </div>
+                  </div>
+                </label>
+                <label class="radio-label goal-card">
+                  <input type="radio" name="primary_goal" value="performance" />
+                  <div class="goal-content">
+                    <div class="goal-icon">
+                      <span>🏃</span>
+                    </div>
+                    <div class="goal-info">
+                      <h3 data-text-key="setup-goal-performance">
+                        Performance
+                      </h3>
+                      <p data-text-key="setup-goal-performance-desc">
+                        Improve athletic performance and endurance
+                      </p>
+                    </div>
+                    <div class="goal-arrow">
+                      <span>→</span>
+                    </div>
+                  </div>
+                </label>
+                <label class="radio-label goal-card">
+                  <input type="radio" name="primary_goal" value="wellness" />
+                  <div class="goal-content">
+                    <div class="goal-icon">
+                      <span>🌟</span>
+                    </div>
+                    <div class="goal-info">
+                      <h3 data-text-key="setup-goal-wellness">Wellness</h3>
+                      <p data-text-key="setup-goal-wellness-desc">
+                        Focus on overall health and longevity
+                      </p>
+                    </div>
+                    <div class="goal-arrow">
+                      <span>→</span>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 5: Workout Preferences -->
+          <div class="form-step hidden" data-step="5">
+            <h2 data-text-key="setup-workout-preferences-title">
+              Workout Preferences
+            </h2>
+
+            <!-- Weight Loss Options -->
+            <div
+              class="preference-section form-group"
+              id="weightLossPreferences"
+              style="display: none"
+            >
+              <label data-text-key="setup-weight-loss-workout-label"
+                >What type of workouts do you prefer for
+                <b>weight loss</b>?</label
+              >
+              <div class="radio-group activity-group">
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="weight_loss_preference"
+                    value="cardio"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🏃</span>
+                    <span class="text" data-text-key="setup-workout-cardio"
+                      >Cardio</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-workout-cardio-desc"
+                      >Focus on running, cycling, and endurance training</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="weight_loss_preference"
+                    value="hiit"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">⚡</span>
+                    <span class="text" data-text-key="setup-workout-hiit"
+                      >HIIT</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-workout-hiit-desc"
+                      >High-intensity interval training for maximum calorie
+                      burn</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="weight_loss_preference"
+                    value="mixed"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🔄</span>
+                    <span class="text" data-text-key="setup-workout-mixed"
+                      >Mixed</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-workout-mixed-desc"
+                      >Combination of cardio and strength training</span
+                    >
+                  </div>
+                </label>
+              </div>
             </div>
 
-            <!-- Step 2: Body Metrics -->
-            <div class="form-step hidden" data-step="2">
-                <h2 data-text-key="setup-body-metrics-title">Body Metrics</h2>
-                <div class="form-group">
-                    <label for="weight" data-text-key="setup-weight-label">Weight (kg)</label>
-                    <input type="number" id="weight" name="weight" step="0.1" required>
-                </div>
-                <div class="form-group">
-                    <label for="height" data-text-key="setup-height-label">Height (cm)</label>
-                    <input type="number" id="height" name="height" required>
-                </div>
-                <div class="form-group">
-                    <label for="bodyFat" data-text-key="setup-body-fat-label">Body Fat % (optional)</label>
-                    <input type="number" id="bodyFat" name="bodyFat" min="3" max="70" step="0.1">
-                </div>
-                <div class="bmi-result">
-                    <span data-text-key="setup-bmi-label">Your BMI: </span>
-                    <span id="bmiValue">--</span>
-                </div>
+            <!-- Muscle Gain Options -->
+            <div
+              class="preference-section form-group"
+              id="muscleGainPreferences"
+              style="display: none"
+            >
+              <label data-text-key="setup-muscle-gain-workout-label"
+                >What type of strength training do you prefer for
+                <b>muscle gain</b>?</label
+              >
+              <div class="radio-group activity-group">
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="muscle_gain_preference"
+                    value="full_body"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">💪</span>
+                    <span class="text" data-text-key="setup-workout-full-body"
+                      >Full Body</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-workout-full-body-desc"
+                      >Complete body workouts in each session</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="muscle_gain_preference"
+                    value="split"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">📋</span>
+                    <span class="text" data-text-key="setup-workout-split"
+                      >Split Routine</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-workout-split-desc"
+                      >Different muscle groups on different days</span
+                    >
+                  </div>
+                </label>
+              </div>
             </div>
 
-            <!-- Step 3: Lifestyle -->
-            <div class="form-step hidden" data-step="3">
-                <h2 data-text-key="setup-lifestyle-health-title">Lifestyle & Health</h2>
-                <div class="form-group">
-                    <label data-text-key="setup-activity-level-label">Activity Level (Single Selection)</label>
-                    <div class="radio-group activity-group">
-                        <label class="radio-label card-style">
-                            <input type="radio" name="activityLevel" value="sedentary" required>
-                            <div class="setup-card-content">
-                                <span class="icon">🛋️</span>
-                                <span class="text" data-text-key="setup-sedentary">Sedentary</span>
-                                <span class="description" data-text-key="setup-sedentary-desc">Little or no exercise</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="activityLevel" value="light">
-                            <div class="setup-card-content">
-                                <span class="icon">🚶</span>
-                                <span class="text" data-text-key="setup-light">Light</span>
-                                <span class="description" data-text-key="setup-light-desc">Exercise 1-3 times/week</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="activityLevel" value="moderate">
-                            <div class="setup-card-content">
-                                <span class="icon">🏃</span>
-                                <span class="text" data-text-key="setup-moderate">Moderate</span>
-                                <span class="description" data-text-key="setup-moderate-desc">Exercise 3-5 times/week</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="activityLevel" value="active">
-                            <div class="setup-card-content">
-                                <span class="icon">💪</span>
-                                <span class="text" data-text-key="setup-active">Active</span>
-                                <span class="description" data-text-key="setup-active-desc">Exercise 6-7 times/week</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="activityLevel" value="very_active">
-                            <div class="setup-card-content">
-                                <span class="icon">🏋️</span>
-                                <span class="text" data-text-key="setup-very-active">Very Active</span>
-                                <span class="description" data-text-key="setup-very-active-desc">Intense exercise daily</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label data-text-key="setup-dietary-preferences-label">Dietary Preferences (Multiple Selection)</label>
-                    <div class="checkbox-group">
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="diet" value="vegan">
-                            <div class="setup-card-content">
-                                <span class="icon">🌱</span>
-                                <span class="text" data-text-key="setup-diet-vegan">Vegan</span>
-                            </div>
-                        </label>
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="diet" value="vegetarian">
-                            <div class="setup-card-content">
-                                <span class="icon">🥗</span>
-                                <span class="text" data-text-key="setup-diet-vegetarian">Vegetarian</span>
-                            </div>
-                        </label>
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="diet" value="keto">
-                            <div class="setup-card-content">
-                                <span class="icon">🥑</span>
-                                <span class="text" data-text-key="setup-diet-keto">Keto</span>
-                            </div>
-                        </label>
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="diet" value="paleo">
-                            <div class="setup-card-content">
-                                <span class="icon">🍖</span>
-                                <span class="text" data-text-key="setup-diet-paleo">Paleo</span>
-                            </div>
-                        </label>
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="diet" value="gluten_free">
-                            <div class="setup-card-content">
-                                <span class="icon">🌾</span>
-                                <span class="text" data-text-key="setup-diet-gluten-free">Gluten-Free</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label data-text-key="setup-allergies-intolerances-label">Allergies/Intolerances (Multiple Selection)</label>
-                    <div class="checkbox-group">
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="allergies" value="nuts">
-                            <div class="setup-card-content">
-                                <span class="icon">🥜</span>
-                                <span class="text" data-text-key="setup-allergy-nuts">Nuts</span>
-                            </div>
-                        </label>
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="allergies" value="dairy">
-                            <div class="setup-card-content">
-                                <span class="icon">🥛</span>
-                                <span class="text" data-text-key="setup-allergy-dairy">Dairy</span>
-                            </div>
-                        </label>
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="allergies" value="shellfish">
-                            <div class="setup-card-content">
-                                <span class="icon">🦐</span>
-                                <span class="text" data-text-key="setup-allergy-shellfish">Shellfish</span>
-                            </div>
-                        </label>
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="allergies" value="eggs">
-                            <div class="setup-card-content">
-                                <span class="icon">🥚</span>
-                                <span class="text" data-text-key="setup-allergy-eggs">Eggs</span>
-                            </div>
-                        </label>
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="allergies" value="soy">
-                            <div class="setup-card-content">
-                                <span class="icon">🌰</span>
-                                <span class="text" data-text-key="setup-allergy-soy">Soy</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label data-text-key="setup-health-conditions-label">Health Conditions (Multiple Selection)</label>
-                    <div class="checkbox-group">
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="health" value="diabetes">
-                            <div class="setup-card-content">
-                                <span class="icon">💉</span>
-                                <span class="text" data-text-key="setup-health-diabetes">Diabetes</span>
-                            </div>
-                        </label>
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="health" value="hypertension">
-                            <div class="setup-card-content">
-                                <span class="icon">❤️</span>
-                                <span class="text" data-text-key="setup-health-hypertension">Hypertension</span>
-                            </div>
-                        </label>
-                        <label class="checkbox-label card-style">
-                            <input type="checkbox" name="health" value="heart_disease">
-                            <div class="setup-card-content">
-                                <span class="icon">💗</span>
-                                <span class="text" data-text-key="setup-health-heart-disease">Heart Disease</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
+            <!-- Performance Options -->
+            <div
+              class="preference-section form-group"
+              id="performancePreferences"
+              style="display: none"
+            >
+              <label data-text-key="setup-performance-focus-label"
+                >What aspect of <b>performance</b> would you like to focus
+                on?</label
+              >
+              <div class="radio-group activity-group">
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="performance_preference"
+                    value="endurance"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🏃</span>
+                    <span
+                      class="text"
+                      data-text-key="setup-performance-endurance"
+                      >Endurance</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-performance-endurance-desc"
+                      >Improve stamina and cardiovascular fitness</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="performance_preference"
+                    value="strength"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🏋️</span>
+                    <span
+                      class="text"
+                      data-text-key="setup-performance-strength"
+                      >Strength</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-performance-strength-desc"
+                      >Focus on power and muscle strength</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="performance_preference"
+                    value="agility"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">⚡</span>
+                    <span class="text" data-text-key="setup-performance-agility"
+                      >Agility</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-performance-agility-desc"
+                      >Improve speed and coordination</span
+                    >
+                  </div>
+                </label>
+              </div>
             </div>
 
-            <!-- Step 4: Goals -->
-            <div class="form-step hidden" data-step="4">
-                <h2 data-text-key="setup-goals-title">Your Goals</h2>
-                <div class="form-group">
-                    <label data-text-key="setup-primary-goal-label">Primary Goal</label>
-                    <div class="radio-group goals-group">
-                        <label class="radio-label goal-card">
-                            <input type="radio" name="primary_goal" value="weightLoss" required>
-                            <div class="goal-content">
-                                <div class="goal-icon">
-                                    <span>⚖️</span>
-                                </div>
-                                <div class="goal-info">
-                                    <h3 data-text-key="setup-goal-weight-loss">Weight Loss</h3>
-                                    <p data-text-key="setup-goal-weight-loss-desc">Reduce body fat while maintaining muscle mass</p>
-                                </div>
-                                <div class="goal-arrow">
-                                    <span>→</span>
-                                </div>
-                            </div>
-                        </label>
-                        <label class="radio-label goal-card">
-                            <input type="radio" name="primary_goal" value="muscleGain">
-                            <div class="goal-content">
-                                <div class="goal-icon">
-                                    <span>💪</span>
-                                </div>
-                                <div class="goal-info">
-                                    <h3 data-text-key="setup-goal-muscle-gain">Muscle Gain</h3>
-                                    <p data-text-key="setup-goal-muscle-gain-desc">Build strength and increase muscle mass</p>
-                                </div>
-                                <div class="goal-arrow">
-                                    <span>→</span>
-                                </div>
-                            </div>
-                        </label>
-                        <label class="radio-label goal-card">
-                            <input type="radio" name="primary_goal" value="maintenance">
-                            <div class="goal-content">
-                                <div class="goal-icon">
-                                    <span>⚡</span>
-                                </div>
-                                <div class="goal-info">
-                                    <h3 data-text-key="setup-goal-maintenance">Maintenance</h3>
-                                    <p data-text-key="setup-goal-maintenance-desc">Maintain current weight and improve body composition</p>
-                                </div>
-                                <div class="goal-arrow">
-                                    <span>→</span>
-                                </div>
-                            </div>
-                        </label>
-                        <label class="radio-label goal-card">
-                            <input type="radio" name="primary_goal" value="performance">
-                            <div class="goal-content">
-                                <div class="goal-icon">
-                                    <span>🏃</span>
-                                </div>
-                                <div class="goal-info">
-                                    <h3 data-text-key="setup-goal-performance">Performance</h3>
-                                    <p data-text-key="setup-goal-performance-desc">Improve athletic performance and endurance</p>
-                                </div>
-                                <div class="goal-arrow">
-                                    <span>→</span>
-                                </div>
-                            </div>
-                        </label>
-                        <label class="radio-label goal-card">
-                            <input type="radio" name="primary_goal" value="wellness">
-                            <div class="goal-content">
-                                <div class="goal-icon">
-                                    <span>🌟</span>
-                                </div>
-                                <div class="goal-info">
-                                    <h3 data-text-key="setup-goal-wellness">Wellness</h3>
-                                    <p data-text-key="setup-goal-wellness-desc">Focus on overall health and longevity</p>
-                                </div>
-                                <div class="goal-arrow">
-                                    <span>→</span>
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                </div>
+            <!-- Maintenance Options -->
+            <div
+              class="preference-section form-group"
+              id="maintenancePreferences"
+              style="display: none"
+            >
+              <label data-text-key="setup-maintenance-routine-label"
+                >What type of <b>maintenance</b> routine do you prefer?</label
+              >
+              <div class="radio-group activity-group">
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="maintenance_preference"
+                    value="balanced"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">⚖️</span>
+                    <span
+                      class="text"
+                      data-text-key="setup-maintenance-balanced"
+                      >Balanced Training</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-maintenance-balanced-desc"
+                      >Equal focus on strength and cardio to maintain current
+                      fitness</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="maintenance_preference"
+                    value="strength_focused"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">💪</span>
+                    <span
+                      class="text"
+                      data-text-key="setup-maintenance-strength"
+                      >Strength Maintenance</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-maintenance-strength-desc"
+                      >Focus on maintaining muscle mass and strength</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="maintenance_preference"
+                    value="cardio_focused"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🏃</span>
+                    <span class="text" data-text-key="setup-maintenance-cardio"
+                      >Cardio Maintenance</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-maintenance-cardio-desc"
+                      >Emphasis on maintaining cardiovascular fitness</span
+                    >
+                  </div>
+                </label>
+              </div>
             </div>
 
-            <!-- Step 5: Workout Preferences -->
-            <div class="form-step hidden" data-step="5">
-                <h2 data-text-key="setup-workout-preferences-title">Workout Preferences</h2>
-                
-                <!-- Weight Loss Options -->
-                <div class="preference-section form-group" id="weightLossPreferences" style="display: none;">
-                    <label data-text-key="setup-weight-loss-workout-label">What type of workouts do you prefer for <b>weight loss</b>?</label>
-                    <div class="radio-group activity-group">
-                        <label class="radio-label card-style">
-                            <input type="radio" name="weight_loss_preference" value="cardio">
-                            <div class="setup-card-content">
-                                <span class="icon">🏃</span>
-                                <span class="text" data-text-key="setup-workout-cardio">Cardio</span>
-                                <span class="description" data-text-key="setup-workout-cardio-desc">Focus on running, cycling, and endurance training</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="weight_loss_preference" value="hiit">
-                            <div class="setup-card-content">
-                                <span class="icon">⚡</span>
-                                <span class="text" data-text-key="setup-workout-hiit">HIIT</span>
-                                <span class="description" data-text-key="setup-workout-hiit-desc">High-intensity interval training for maximum calorie burn</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="weight_loss_preference" value="mixed">
-                            <div class="setup-card-content">
-                                <span class="icon">🔄</span>
-                                <span class="text" data-text-key="setup-workout-mixed">Mixed</span>
-                                <span class="description" data-text-key="setup-workout-mixed-desc">Combination of cardio and strength training</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-
-                <!-- Muscle Gain Options -->
-                <div class="preference-section form-group" id="muscleGainPreferences" style="display: none;">
-                    <label data-text-key="setup-muscle-gain-workout-label">What type of strength training do you prefer for <b>muscle gain</b>?</label>
-                    <div class="radio-group activity-group">
-                        <label class="radio-label card-style">
-                            <input type="radio" name="muscle_gain_preference" value="full_body">
-                            <div class="setup-card-content">
-                                <span class="icon">💪</span>
-                                <span class="text" data-text-key="setup-workout-full-body">Full Body</span>
-                                <span class="description" data-text-key="setup-workout-full-body-desc">Complete body workouts in each session</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="muscle_gain_preference" value="split">
-                            <div class="setup-card-content">
-                                <span class="icon">📋</span>
-                                <span class="text" data-text-key="setup-workout-split">Split Routine</span>
-                                <span class="description" data-text-key="setup-workout-split-desc">Different muscle groups on different days</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-
-                <!-- Performance Options -->
-                <div class="preference-section form-group" id="performancePreferences" style="display: none;">
-                    <label data-text-key="setup-performance-focus-label">What aspect of <b>performance</b> would you like to focus on?</label>
-                    <div class="radio-group activity-group">
-                        <label class="radio-label card-style">
-                            <input type="radio" name="performance_preference" value="endurance">
-                            <div class="setup-card-content">
-                                <span class="icon">🏃</span>
-                                <span class="text" data-text-key="setup-performance-endurance">Endurance</span>
-                                <span class="description" data-text-key="setup-performance-endurance-desc">Improve stamina and cardiovascular fitness</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="performance_preference" value="strength">
-                            <div class="setup-card-content">
-                                <span class="icon">🏋️</span>
-                                <span class="text" data-text-key="setup-performance-strength">Strength</span>
-                                <span class="description" data-text-key="setup-performance-strength-desc">Focus on power and muscle strength</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="performance_preference" value="agility">
-                            <div class="setup-card-content">
-                                <span class="icon">⚡</span>
-                                <span class="text" data-text-key="setup-performance-agility">Agility</span>
-                                <span class="description" data-text-key="setup-performance-agility-desc">Improve speed and coordination</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-
-                <!-- Maintenance Options -->
-                <div class="preference-section form-group" id="maintenancePreferences" style="display: none;">
-                    <label data-text-key="setup-maintenance-routine-label">What type of <b>maintenance</b> routine do you prefer?</label>
-                    <div class="radio-group activity-group">
-                        <label class="radio-label card-style">
-                            <input type="radio" name="maintenance_preference" value="balanced">
-                            <div class="setup-card-content">
-                                <span class="icon">⚖️</span>
-                                <span class="text" data-text-key="setup-maintenance-balanced">Balanced Training</span>
-                                <span class="description" data-text-key="setup-maintenance-balanced-desc">Equal focus on strength and cardio to maintain current fitness</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="maintenance_preference" value="strength_focused">
-                            <div class="setup-card-content">
-                                <span class="icon">💪</span>
-                                <span class="text" data-text-key="setup-maintenance-strength">Strength Maintenance</span>
-                                <span class="description" data-text-key="setup-maintenance-strength-desc">Focus on maintaining muscle mass and strength</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="maintenance_preference" value="cardio_focused">
-                            <div class="setup-card-content">
-                                <span class="icon">🏃</span>
-                                <span class="text" data-text-key="setup-maintenance-cardio">Cardio Maintenance</span>
-                                <span class="description" data-text-key="setup-maintenance-cardio-desc">Emphasis on maintaining cardiovascular fitness</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-
-                <!-- Wellness Options -->
-                <div class="preference-section form-group" id="wellnessPreferences" style="display: none;">
-                    <label data-text-key="setup-wellness-focus-label">What aspects of <b>wellness</b> would you like to focus on?</label>
-                    <div class="radio-group activity-group">
-                        <label class="radio-label card-style">
-                            <input type="radio" name="wellness_preference" value="mind_body">
-                            <div class="setup-card-content">
-                                <span class="icon">🧘</span>
-                                <span class="text" data-text-key="setup-wellness-mind-body">Mind-Body Balance</span>
-                                <span class="description" data-text-key="setup-wellness-mind-body-desc">Focus on yoga, meditation, and flexibility</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="wellness_preference" value="functional">
-                            <div class="setup-card-content">
-                                <span class="icon">🌟</span>
-                                <span class="text" data-text-key="setup-wellness-functional">Functional Fitness</span>
-                                <span class="description" data-text-key="setup-wellness-functional-desc">Improve daily movement and overall mobility</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="wellness_preference" value="low_impact">
-                            <div class="setup-card-content">
-                                <span class="icon">🌊</span>
-                                <span class="text" data-text-key="setup-wellness-low-impact">Low Impact</span>
-                                <span class="description" data-text-key="setup-wellness-low-impact-desc">Gentle exercises focusing on joint health and mobility</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-
-                <!-- New universal workout environment section -->
-                <div class="preference-section form-group" id="workoutEnvironmentPreferences">
-                    <label class="mt-4" data-text-key="setup-workout-environment-label">Workout Environment</label>
-                    <div class="radio-group activity-group">
-                        <label class="radio-label card-style">
-                            <input type="radio" name="workout_environment" value="gym" required>
-                            <div class="setup-card-content">
-                                <span class="icon">🏋️</span>
-                                <span class="text" data-text-key="setup-workout-env-gym">Gym</span>
-                                <span class="description" data-text-key="setup-workout-env-gym-desc">With equipment access</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="workout_environment" value="home">
-                            <div class="setup-card-content">
-                                <span class="icon">🏠</span>
-                                <span class="text" data-text-key="setup-workout-env-home">Home</span>
-                                <span class="description" data-text-key="setup-workout-env-home-desc">Minimal equipment needed</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
+            <!-- Wellness Options -->
+            <div
+              class="preference-section form-group"
+              id="wellnessPreferences"
+              style="display: none"
+            >
+              <label data-text-key="setup-wellness-focus-label"
+                >What aspects of <b>wellness</b> would you like to focus
+                on?</label
+              >
+              <div class="radio-group activity-group">
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="wellness_preference"
+                    value="mind_body"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🧘</span>
+                    <span class="text" data-text-key="setup-wellness-mind-body"
+                      >Mind-Body Balance</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-wellness-mind-body-desc"
+                      >Focus on yoga, meditation, and flexibility</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="wellness_preference"
+                    value="functional"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🌟</span>
+                    <span class="text" data-text-key="setup-wellness-functional"
+                      >Functional Fitness</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-wellness-functional-desc"
+                      >Improve daily movement and overall mobility</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="wellness_preference"
+                    value="low_impact"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🌊</span>
+                    <span class="text" data-text-key="setup-wellness-low-impact"
+                      >Low Impact</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-wellness-low-impact-desc"
+                      >Gentle exercises focusing on joint health and
+                      mobility</span
+                    >
+                  </div>
+                </label>
+              </div>
             </div>
 
-            <!-- Step 6: Exercise Schedule -->
-            <div class="form-step hidden" data-step="6">
-                <h2 data-text-key="setup-exercise-schedule-title">Exercise Schedule</h2>
-                
-                <div class="form-group">
-                    <label data-text-key="setup-exercise-frequency-label">How many days per week can you commit to exercising?</label>
-                    <div class="radio-group activity-group">
-                        <label class="radio-label card-style">
-                            <input type="radio" name="exercise_frequency" value="three_day" required>
-                            <div class="setup-card-content">
-                                <span class="icon">3️⃣</span>
-                                <span class="text" data-text-key="setup-frequency-three-days">3 Days</span>
-                                <span class="description" data-text-key="setup-frequency-three-days-desc">Perfect for beginners, allows full recovery between sessions</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="exercise_frequency" value="four_day">
-                            <div class="setup-card-content">
-                                <span class="icon">4️⃣</span>
-                                <span class="text" data-text-key="setup-frequency-four-days">4 Days</span>
-                                <span class="description" data-text-key="setup-frequency-four-days-desc">Balanced approach, suitable for most fitness levels</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="exercise_frequency" value="five_day">
-                            <div class="setup-card-content">
-                                <span class="icon">5️⃣</span>
-                                <span class="text" data-text-key="setup-frequency-five-days">5 Days</span>
-                                <span class="description" data-text-key="setup-frequency-five-days-desc">Intensive program for dedicated fitness enthusiasts</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
+            <!-- New universal workout environment section -->
+            <div
+              class="preference-section form-group"
+              id="workoutEnvironmentPreferences"
+            >
+              <label
+                class="mt-4"
+                data-text-key="setup-workout-environment-label"
+                >Workout Environment</label
+              >
+              <div class="radio-group activity-group">
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="workout_environment"
+                    value="gym"
+                    required
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🏋️</span>
+                    <span class="text" data-text-key="setup-workout-env-gym"
+                      >Gym</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-workout-env-gym-desc"
+                      >With equipment access</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input type="radio" name="workout_environment" value="home" />
+                  <div class="setup-card-content">
+                    <span class="icon">🏠</span>
+                    <span class="text" data-text-key="setup-workout-env-home"
+                      >Home</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-workout-env-home-desc"
+                      >Minimal equipment needed</span
+                    >
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
 
-                <div class="form-group">
-                    <label data-text-key="setup-intensity-level-label">What workout intensity level are you comfortable with?</label>
-                    <div class="radio-group activity-group">
-                        <label class="radio-label card-style">
-                            <input type="radio" name="exercise_intensity" value="beginner" required>
-                            <div class="setup-card-content">
-                                <span class="icon">🌱</span>
-                                <span class="text" data-text-key="setup-intensity-beginner">Beginner</span>
-                                <span class="description" data-text-key="setup-intensity-beginner-desc">Focus on form and building basic fitness</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="exercise_intensity" value="intermediate">
-                            <div class="setup-card-content">
-                                <span class="icon">⚡</span>
-                                <span class="text" data-text-key="setup-intensity-intermediate">Intermediate</span>
-                                <span class="description" data-text-key="setup-intensity-intermediate-desc">Moderate intensity with challenging exercises</span>
-                            </div>
-                        </label>
-                        <label class="radio-label card-style">
-                            <input type="radio" name="exercise_intensity" value="advanced">
-                            <div class="setup-card-content">
-                                <span class="icon">🔥</span>
-                                <span class="text" data-text-key="setup-intensity-advanced">Advanced</span>
-                                <span class="description" data-text-key="setup-intensity-advanced-desc">High-intensity workouts for experienced athletes</span>
-                            </div>
-                        </label>
-                    </div>
-                </div>
+          <!-- Step 6: Exercise Schedule -->
+          <div class="form-step hidden" data-step="6">
+            <h2 data-text-key="setup-exercise-schedule-title">
+              Exercise Schedule
+            </h2>
+
+            <div class="form-group">
+              <label data-text-key="setup-exercise-frequency-label"
+                >How many days per week can you commit to exercising?</label
+              >
+              <div class="radio-group activity-group">
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="exercise_frequency"
+                    value="three_day"
+                    required
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">3️⃣</span>
+                    <span
+                      class="text"
+                      data-text-key="setup-frequency-three-days"
+                      >3 Days</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-frequency-three-days-desc"
+                      >Perfect for beginners, allows full recovery between
+                      sessions</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="exercise_frequency"
+                    value="four_day"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">4️⃣</span>
+                    <span class="text" data-text-key="setup-frequency-four-days"
+                      >4 Days</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-frequency-four-days-desc"
+                      >Balanced approach, suitable for most fitness levels</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="exercise_frequency"
+                    value="five_day"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">5️⃣</span>
+                    <span class="text" data-text-key="setup-frequency-five-days"
+                      >5 Days</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-frequency-five-days-desc"
+                      >Intensive program for dedicated fitness enthusiasts</span
+                    >
+                  </div>
+                </label>
+              </div>
             </div>
 
-            <!-- Step 7: Ingredient Preferences -->
-            <div class="form-step hidden" data-step="7">
-                <h2 data-text-key="setup-ingredients-title">Ingredient Preferences</h2>
-                <div class="form-group">
-                    <label data-text-key="setup-ingredients-label">Select ingredients you commonly use or have access to:</label>
-                    <div class="ingredients-container">
-                        <div class="search-box">
-                            <input type="text" id="ingredientSearch" class="form-control" data-text-key="setup-ingredients-search-placeholder" placeholder="Search ingredients...">
-                        </div>
-                        <div class="ingredients-grid" id="ingredientsGrid">
-                            <!-- Ingredients will be dynamically added here via JavaScript -->
-                        </div>
-                    </div>
-                </div>
+            <div class="form-group">
+              <label data-text-key="setup-intensity-level-label"
+                >What workout intensity level are you comfortable with?</label
+              >
+              <div class="radio-group activity-group">
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="exercise_intensity"
+                    value="beginner"
+                    required
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🌱</span>
+                    <span class="text" data-text-key="setup-intensity-beginner"
+                      >Beginner</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-intensity-beginner-desc"
+                      >Focus on form and building basic fitness</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="exercise_intensity"
+                    value="intermediate"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">⚡</span>
+                    <span
+                      class="text"
+                      data-text-key="setup-intensity-intermediate"
+                      >Intermediate</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-intensity-intermediate-desc"
+                      >Moderate intensity with challenging exercises</span
+                    >
+                  </div>
+                </label>
+                <label class="radio-label card-style">
+                  <input
+                    type="radio"
+                    name="exercise_intensity"
+                    value="advanced"
+                  />
+                  <div class="setup-card-content">
+                    <span class="icon">🔥</span>
+                    <span class="text" data-text-key="setup-intensity-advanced"
+                      >Advanced</span
+                    >
+                    <span
+                      class="description"
+                      data-text-key="setup-intensity-advanced-desc"
+                      >High-intensity workouts for experienced athletes</span
+                    >
+                  </div>
+                </label>
+              </div>
             </div>
+          </div>
 
-            <div class="form-navigation">
-                <button type="button" class="btn-secondary" id="prevBtn" data-text-key="setup-previous-btn" disabled>Previous</button>
-                <button type="button" class="btn-primary" id="nextBtn" data-text-key="setup-next-btn">Next</button>
-                <button type="submit" class="btn-primary" id="submitBtn" data-text-key="setup-complete-setup-btn" style="display: none;">Complete Setup</button>
+          <!-- Step 7: Ingredient Preferences -->
+          <div class="form-step hidden" data-step="7">
+            <h2 data-text-key="setup-ingredients-title">
+              Ingredient Preferences
+            </h2>
+            <div class="form-group">
+              <label data-text-key="setup-ingredients-label"
+                >Select ingredients you commonly use or have access to:</label
+              >
+              <div class="ingredients-container">
+                <div class="search-box">
+                  <input
+                    type="text"
+                    id="ingredientSearch"
+                    class="form-control"
+                    data-text-key="setup-ingredients-search-placeholder"
+                    placeholder="Search ingredients..."
+                  />
+                </div>
+                <div class="ingredients-grid" id="ingredientsGrid">
+                  <!-- Ingredients will be dynamically added here via JavaScript -->
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="form-navigation">
+            <button
+              type="button"
+              class="btn-secondary"
+              id="prevBtn"
+              data-text-key="setup-previous-btn"
+              disabled
+            >
+              Previous
+            </button>
+            <button
+              type="button"
+              class="btn-primary"
+              id="nextBtn"
+              data-text-key="setup-next-btn"
+            >
+              Next
+            </button>
+            <button
+              type="submit"
+              class="btn-primary"
+              id="submitBtn"
+              data-text-key="setup-complete-setup-btn"
+              style="display: none"
+            >
+              Complete Setup
+            </button>
+          </div>
         </form>
-    </div>
+      </div>
 
-    <div class="footer aleo-text">
+      <div class="footer aleo-text">
         <div class="footer-content">
-        <div class="footer-sections">
+          <div class="footer-sections">
             <div class="footer-section">
-            <h3 data-text-key="footer-quick-links">Quick Links</h3>
-            <ul>
-                <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
-                <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
-                <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
-                <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
-            </ul>
+              <h3 data-text-key="footer-quick-links">Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="/dashboard" data-text-key="home-menu-item">Home</a>
+                </li>
+                <li>
+                  <a href="/exercises" data-text-key="exercises-menu-item"
+                    >Exercises</a
+                  >
+                </li>
+                <li>
+                  <a href="/nutrition" data-text-key="nutrition-menu-item"
+                    >Nutrition</a
+                  >
+                </li>
+                <li>
+                  <a href="/prizes" data-text-key="prizes-menu-item">Prizes</a>
+                </li>
+              </ul>
             </div>
             <div class="footer-section">
-            <h3 data-text-key="footer-information">Information</h3>
-            <ul>
-                <li><a href="/about" data-text-key="about-menu-item">About</a></li>
+              <h3 data-text-key="footer-information">Information</h3>
+              <ul>
+                <li>
+                  <a href="/about" data-text-key="about-menu-item">About</a>
+                </li>
                 <li><a href="#" data-text-key="faq">FAQ</a></li>
-                <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
-                <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
-            </ul>
+                <li>
+                  <a href="#" data-text-key="privacy-policy">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" data-text-key="tandc">Terms & Conditions</a>
+                </li>
+              </ul>
             </div>
             <div class="footer-section">
-            <h3 data-text-key="footer-contact">Contact</h3>
-            <ul>
+              <h3 data-text-key="footer-contact">Contact</h3>
+              <ul>
                 <li><a href="tel:+251911234567">+251 911 234 567</a></li>
-                <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
+                <li>
+                  <a href="mailto:info@tenaprime.com">info@tenaprime.com</a>
+                </li>
                 <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
                 <li><a href="#" data-text-key="support">Support</a></li>
-            </ul>
+              </ul>
             </div>
             <div class="footer-section footer-logo">
-            <img src="/assets/logo.svg" alt="TenaPrime">
-            <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
-            <div class="footer-social">
-                <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
-                <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
-                <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
+              <img src="/assets/logo.svg" alt="TenaPrime" />
+              <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+              <div class="footer-social">
+                <a href="#"
+                  ><img src="/assets/facebook.svg" alt="Facebook"
+                /></a>
+                <a href="#"
+                  ><img src="/assets/telegram.svg" alt="Telegram"
+                /></a>
+                <a href="#"
+                  ><img src="/assets/instagram.svg" alt="Instagram"
+                /></a>
+              </div>
             </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
+          </div>
+          <div class="footer-bottom">
             <p>© 2024 TenaPrime. All rights reserved.</p>
             <div class="footer-ethiotelecom">
-            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+              <img src="/assets/ethiotelecom.png" alt="Ethiotelecom" />
             </div>
+          </div>
         </div>
-        </div>
-    </div>
-</div>
-
-<div class="sidebar-overlay"></div>
-<div class="sidebar aleo-text" id="sidebar">
-  <div class="sidebar-header">
-    <div class="sidebar-logo">
-      <img src="/assets/logo.svg" alt="TenaPrime">
-    </div>
-    <button class="sidebar-close">&times;</button>
-  </div>
-  
-  <div class="sidebar-language-selector">
-    <div class="language-options-container">
-      <div class="sidebar-language-option" data-lang="en">
-        <span class="language-text">English</span>
-      </div>
-      <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
-        <span class="language-text">አማርኛ</span>
       </div>
     </div>
-  </div>
 
-  <div class="sidebar-navigation">
-    <a href="/dashboard" class="sidebar-item">
-      <div data-text-key="home-menu-item">Home</div>
-    </a>
-    <a href="/exercises" class="sidebar-item">
-      <div data-text-key="exercises-menu-item">Exercises</div>
-    </a>
-    <a href="/nutrition" class="sidebar-item">
-      <div data-text-key="nutrition-menu-item">Nutrition</div>
-    </a>
-    <a href="/prizes" class="sidebar-item">
-      <div data-text-key="prizes-menu-item">Prizes</div>
-    </a>
-    <a href="/about" class="sidebar-item">
-      <div data-text-key="about-menu-item">About</div>
-    </a>
-  </div>
+    <div class="sidebar-overlay"></div>
+    <div class="sidebar aleo-text" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo">
+          <img src="/assets/logo.svg" alt="TenaPrime" />
+        </div>
+        <button class="sidebar-close">&times;</button>
+      </div>
 
-  <div class="sidebar-footer">
-    <a href="#" class="sidebar-item">
-      <div data-text-key="tandc">Terms & Conditions</div>
-    </a>
-    <a href="#" class="sidebar-item">
-      <div data-text-key="faq">FAQ</div>
-    </a>
-    <a href="#" class="sidebar-item">
-      <div data-text-key="privacy-policy">Privacy Policy</div>
-    </a>
-    <a href="#" class="sidebar-item">
-      <div data-text-key="contact-us">Contact Us</div>
-    </a>
-  </div>
-</div>
+      <div class="sidebar-language-selector">
+        <div class="language-options-container">
+          <div class="sidebar-language-option" data-lang="en">
+            <span class="language-text">English</span>
+          </div>
+          <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+            <span class="language-text">አማርኛ</span>
+          </div>
+        </div>
+      </div>
 
-<script src="/scripts/auth-service.js"></script>
-<script src="/scripts/theme-manager.js"></script>
-<script src="/scripts/strings-loader.js"></script>
-<script src="/scripts/language-selector.js"></script>
-<script src="/scripts/user-stats-popup.js"></script>
-<script src="/scripts/sidebar-overlay.js"></script>
-<script src="/scripts/setup.js"></script>
+      <div class="sidebar-navigation">
+        <a href="/dashboard" class="sidebar-item">
+          <div data-text-key="home-menu-item">Home</div>
+        </a>
+        <a href="/exercises" class="sidebar-item">
+          <div data-text-key="exercises-menu-item">Exercises</div>
+        </a>
+        <a href="/nutrition" class="sidebar-item">
+          <div data-text-key="nutrition-menu-item">Nutrition</div>
+        </a>
+        <a href="/prizes" class="sidebar-item">
+          <div data-text-key="prizes-menu-item">Prizes</div>
+        </a>
+        <a href="/about" class="sidebar-item">
+          <div data-text-key="about-menu-item">About</div>
+        </a>
+      </div>
 
-</body>
-</html> 
+      <div class="sidebar-footer">
+        <a href="#" class="sidebar-item">
+          <div data-text-key="tandc">Terms & Conditions</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="faq">FAQ</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="privacy-policy">Privacy Policy</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="contact-us">Contact Us</div>
+        </a>
+      </div>
+    </div>
+
+    <script src="/scripts/auth-service.js"></script>
+    <script src="/scripts/theme-manager.js"></script>
+    <script src="/scripts/strings-loader.js"></script>
+    <script src="/scripts/language-selector.js"></script>
+    <script src="/scripts/user-stats-popup.js"></script>
+    <script src="/scripts/sidebar-overlay.js"></script>
+    <script src="/scripts/setup.js"></script>
+  </body>
+</html>

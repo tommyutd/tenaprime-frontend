@@ -1,352 +1,555 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TenaPrime - Exercises Dashboard</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/exercises/exercises.css">
-    <link rel="icon" href="/assets/logo-mini.svg">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/exercises/exercises.css" />
+    <link rel="icon" href="/assets/logo-mini.svg" />
     <script src="/scripts/config.js"></script>
     <script src="/scripts/route-guard.js"></script>
-</head>
-<body>
-<div class="homepage">
-  <div class="header">
-    <div class="logo">
-      <a href="/">
-        <img src="/assets/logo.svg" alt="TenaPrime">
-      </a>
-    </div>
-    <div class="navigation aleo-text">
-      <div class="navigation-home">
-        <a href="/dashboard">
-          <div class="home-text" data-text-key="home-menu-item">Home</div>
-        </a>
-      </div>
-      
-      <div class="navigation-exercises">
-        <a href="/exercises">
-          <div class="exercises-text" data-text-key="exercises-menu-item">Exercises</div>
-        </a>
-      </div>
-        
-      <div class="navigation-nutrition">
-        <a href="/nutrition">
-          <div class="nutrition-text" data-text-key="nutrition-menu-item">Nutrition</div>
-        </a>
-      </div>
-      
-      <div class="navigation-prizes">
-        <a href="/prizes">
-          <div class="prizes-text" data-text-key="prizes-menu-item">Prizes</div>
-        </a>
-      </div>
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="header">
+        <div class="logo">
+          <a href="/">
+            <img src="/assets/logo.svg" alt="TenaPrime" />
+          </a>
+        </div>
+        <div class="navigation aleo-text">
+          <div class="navigation-home">
+            <a href="/dashboard">
+              <div class="home-text" data-text-key="home-menu-item">Home</div>
+            </a>
+          </div>
 
-      <div class="navigation-about">
-        <a href="/about">
-          <div class="about-text" data-text-key="about-menu-item">About</div>
-        </a>
-      </div>
-    </div>
-    <div class="extra-navigation">
-      <div class="avatar">
-        <img src="/assets/avatar.svg" alt="Account">
-        <div class="stats-popup aleo-text" id="statsPopup">
-          <div class="stats-container">
-              <div class="stats-header">
+          <div class="navigation-prizes">
+            <a href="/our-gym">
+              <div class="prizes-text" data-text-key="prizes-menu-item">
+                Our Gym
+              </div>
+            </a>
+          </div>
+
+          <div class="navigation-exercises">
+            <a href="/exercises">
+              <div class="exercises-text" data-text-key="exercises-menu-item">
+                Exercises
+              </div>
+            </a>
+          </div>
+
+          <div class="navigation-nutrition">
+            <a href="/nutrition">
+              <div class="nutrition-text" data-text-key="nutrition-menu-item">
+                Nutrition
+              </div>
+            </a>
+          </div>
+
+          <div class="navigation-about">
+            <a href="/about">
+              <div class="about-text" data-text-key="about-menu-item">
+                About
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="extra-navigation">
+          <div class="avatar">
+            <img src="/assets/avatar.svg" alt="Account" />
+            <div class="stats-popup aleo-text" id="statsPopup">
+              <div class="stats-container">
+                <div class="stats-header">
                   <h2 data-text-key="stats-title">Your Stats</h2>
                   <button class="close-button" id="closeStats">&times;</button>
-              </div>
-              <div class="stats-content">
+                </div>
+                <div class="stats-content">
                   <div class="stats-item">
-                      <span class="stats-label" data-text-key="workout-goal">Goal</span>
-                      <span class="stats-value" id="workout-goal"></span>
+                    <span class="stats-label" data-text-key="workout-goal"
+                      >Goal</span
+                    >
+                    <span class="stats-value" id="workout-goal"></span>
                   </div>
                   <div class="stats-item">
-                      <span class="stats-label" data-text-key="workout-streak">Workout Streak</span>
-                      <span class="stats-value" id="workout-streak" data-text-key="workout-streak-value"></span>
+                    <span class="stats-label" data-text-key="workout-streak"
+                      >Workout Streak</span
+                    >
+                    <span
+                      class="stats-value"
+                      id="workout-streak"
+                      data-text-key="workout-streak-value"
+                    ></span>
                   </div>
                   <div class="stats-item">
-                      <span class="stats-label" data-text-key="completed-workouts">Completed Workouts</span>
-                      <span class="stats-value" id="workout-total-completed" data-text-key="workout-total-completed-value"></span>
+                    <span class="stats-label" data-text-key="completed-workouts"
+                      >Completed Workouts</span
+                    >
+                    <span
+                      class="stats-value"
+                      id="workout-total-completed"
+                      data-text-key="workout-total-completed-value"
+                    ></span>
                   </div>
+                </div>
+                <div class="stats-footer">
+                  <button
+                    class="logout-button aleo-text"
+                    data-text-key="logout"
+                  >
+                    Logout
+                  </button>
+                </div>
               </div>
-              <div class="stats-footer">
-                  <button class="logout-button aleo-text" data-text-key="logout">Logout</button>
-              </div>
+            </div>
+          </div>
+          <div class="language-selector aleo-text">
+            <p>EN</p>
+            <div class="language-dropdown">
+              <div class="language-option" data-lang="en">English</div>
+              <div class="language-option" data-lang="አማ">አማርኛ</div>
+            </div>
+          </div>
+          <div class="theme-toggle">
+            <button class="theme-toggle-btn">
+              <img src="/assets/moon.svg" alt="Light Mode" class="light-icon" />
+              <img src="/assets/sun.svg" alt="Dark Mode" class="dark-icon" />
+            </button>
+          </div>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <div class="ethiotelecom">
+          <div class="ethiotelecom-container">
+            <img src="/assets/ethiotelecom.png" alt="Ethiotelecom" />
           </div>
         </div>
       </div>
-      <div class="language-selector aleo-text">
-        <p>EN</p>
-        <div class="language-dropdown">
-          <div class="language-option" data-lang="en">English</div>
-          <div class="language-option" data-lang="አማ">አማርኛ</div>
-        </div>
-      </div>
-      <div class="theme-toggle">
-        <button class="theme-toggle-btn">
-          <img src="/assets/moon.svg" alt="Light Mode" class="light-icon">
-          <img src="/assets/sun.svg" alt="Dark Mode" class="dark-icon">
-        </button>
-      </div>
-      <div class="hamburger-menu">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-    </div>
-    <div class="ethiotelecom">
-      <div class="ethiotelecom-container">
-        <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
-      </div>
-    </div>
-  </div>
 
-  <div class="personalization-prompt aleo-text">
-    <div class="personalization-prompt-content">
-      <div class="personalization-prompt-text">
-        <h2 id="personalization-title" data-text-key="personalization-prompt-title">Personalize Your Experience</h2>
-        <p id="personalization-description" data-text-key="personalization-prompt-description">Get customized recommendations by completing your fitness profile.</p>
-      </div>
-      <a href="/setup" class="personalization-prompt-button">
-        <button class="personalization-complete-setup-btn aleo-text" data-text-key="personalization-prompt-button" id="personalization-button">Setup Profile</button>
-      </a>
-    </div>
-  </div>
-
-  <div class="workout-plan-heading aleo-text">
-    <div class="workout-plan-heading-container">
-      <div class="workout-plan-heading-text-container">
-        <div class="workout-plan-heading-text">
-          <h1 id="workout-plan-heading-title" data-text-key="workout-plan-heading-title">Your Personalized Plan</h1>
-          <h3 id="workout-plan-heading-description" data-text-key="workout-plan-heading-description">We've created a customized workout plan based on your fitness profile.</h3>
+      <div class="personalization-prompt aleo-text">
+        <div class="personalization-prompt-content">
+          <div class="personalization-prompt-text">
+            <h2
+              id="personalization-title"
+              data-text-key="personalization-prompt-title"
+            >
+              Personalize Your Experience
+            </h2>
+            <p
+              id="personalization-description"
+              data-text-key="personalization-prompt-description"
+            >
+              Get customized recommendations by completing your fitness profile.
+            </p>
+          </div>
+          <a href="/setup" class="personalization-prompt-button">
+            <button
+              class="personalization-complete-setup-btn aleo-text"
+              data-text-key="personalization-prompt-button"
+              id="personalization-button"
+            >
+              Setup Profile
+            </button>
+          </a>
         </div>
       </div>
-      <div class="workout-plan-heading-button-container">
-        <div class="workout-plan-heading-button">
-          <button class="workout-plan-view-button aleo-text" data-text-key="workout-plan-view-button" onclick="window.location.href='/exercises/my-workout'">Start<br>Your<br>Workout</button>
+
+      <div class="workout-plan-heading aleo-text">
+        <div class="workout-plan-heading-container">
+          <div class="workout-plan-heading-text-container">
+            <div class="workout-plan-heading-text">
+              <h1
+                id="workout-plan-heading-title"
+                data-text-key="workout-plan-heading-title"
+              >
+                Your Personalized Plan
+              </h1>
+              <h3
+                id="workout-plan-heading-description"
+                data-text-key="workout-plan-heading-description"
+              >
+                We've created a customized workout plan based on your fitness
+                profile.
+              </h3>
+            </div>
+          </div>
+          <div class="workout-plan-heading-button-container">
+            <div class="workout-plan-heading-button">
+              <button
+                class="workout-plan-view-button aleo-text"
+                data-text-key="workout-plan-view-button"
+                onclick="window.location.href='/exercises/my-workout'"
+              >
+                Start<br />Your<br />Workout
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <div class="exercises-user aleo-text">
-    <div class="exercises-user-workout">
-      <h1 data-text-key="workout-text">Workout Planner</h1>
-      <div class="exercises-user-cards">
-          <div id="workout-card-three-day">
-              <h2 class="card-title" data-text-key="three-day-split-title">3-Day Split</h2>
-              <p class="card-description" data-text-key="three-day-split-description">Perfect for beginners. Focus on full-body workouts with adequate rest days.</p>
+      <div class="exercises-user aleo-text">
+        <div class="exercises-user-workout">
+          <h1 data-text-key="workout-text">Workout Planner</h1>
+          <div class="exercises-user-cards">
+            <div id="workout-card-three-day">
+              <h2 class="card-title" data-text-key="three-day-split-title">
+                3-Day Split
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="three-day-split-description"
+              >
+                Perfect for beginners. Focus on full-body workouts with adequate
+                rest days.
+              </p>
+            </div>
+            <div id="workout-card-four-day">
+              <h2 class="card-title" data-text-key="four-day-split-title">
+                4-Day Split
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="four-day-split-description"
+              >
+                Intermediate level. Balance between workout intensity and
+                recovery time.
+              </p>
+            </div>
+            <div id="workout-card-five-day">
+              <h2 class="card-title" data-text-key="five-day-split-title">
+                5-Day Split
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="five-day-split-description"
+              >
+                Advanced training. Maximize muscle growth with targeted
+                workouts.
+              </p>
+            </div>
           </div>
-          <div id="workout-card-four-day">
-              <h2 class="card-title" data-text-key="four-day-split-title">4-Day Split</h2>
-              <p class="card-description" data-text-key="four-day-split-description">Intermediate level. Balance between workout intensity and recovery time.</p>
+        </div>
+        <div class="exercises-user-at-home">
+          <h1 data-text-key="at-home-text">At Home Workouts</h1>
+          <div class="exercises-user-cards">
+            <div id="at-home-card-upper-body">
+              <h2
+                class="card-title"
+                data-text-key="at-home-upper-body-training-title"
+              >
+                At-Home Upper Body Training
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="at-home-upper-body-training-description"
+              >
+                Build strength in your chest, shoulders, arms, upper back, and
+                core muscles.
+              </p>
+            </div>
+            <div id="at-home-card-lower-body">
+              <h2
+                class="card-title"
+                data-text-key="at-home-lower-body-training-title"
+              >
+                At-Home Lower Body Training
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="at-home-lower-body-training-description"
+              >
+                Develop powerful legs with focused lower body exercises.
+              </p>
+            </div>
+            <div id="at-home-card-full-body">
+              <h2
+                class="card-title"
+                data-text-key="at-home-full-body-training-title"
+              >
+                At-Home Full Body Training
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="at-home-full-body-training-description"
+              >
+                Complete full body workouts that target multiple muscle groups
+                in one session.
+              </p>
+            </div>
           </div>
-          <div id="workout-card-five-day">
-              <h2 class="card-title" data-text-key="five-day-split-title">5-Day Split</h2>
-              <p class="card-description" data-text-key="five-day-split-description">Advanced training. Maximize muscle growth with targeted workouts.</p>
-          </div>
-      </div>
-    </div>
-    <div class="exercises-user-at-home">
-      <h1 data-text-key="at-home-text">At Home Workouts</h1>
-      <div class="exercises-user-cards">
-          <div id="at-home-card-upper-body">
-              <h2 class="card-title" data-text-key="at-home-upper-body-training-title">At-Home Upper Body Training</h2>
-              <p class="card-description" data-text-key="at-home-upper-body-training-description">Build strength in your chest, shoulders, arms, upper back, and core muscles.</p>
-          </div>
-          <div id="at-home-card-lower-body">
-              <h2 class="card-title" data-text-key="at-home-lower-body-training-title">At-Home Lower Body Training</h2>
-              <p class="card-description" data-text-key="at-home-lower-body-training-description">Develop powerful legs with focused lower body exercises.</p>
-          </div>
-          <div id="at-home-card-full-body">
-              <h2 class="card-title" data-text-key="at-home-full-body-training-title">At-Home Full Body Training</h2>
-              <p class="card-description" data-text-key="at-home-full-body-training-description">Complete full body workouts that target multiple muscle groups in one session.</p>
-          </div>
-      </div>
-    </div>
-    <div class="exercises-user-strength">
-        <h1 data-text-key="strength-text">Strength Training</h1>
-        <div class="exercises-user-cards">
+        </div>
+        <div class="exercises-user-strength">
+          <h1 data-text-key="strength-text">Strength Training</h1>
+          <div class="exercises-user-cards">
             <div id="strength-upper-body">
-                <h2 class="card-title" data-text-key="upper-body-training-title">Upper Body & Core</h2>
-                <p class="card-description" data-text-key="upper-body-training-description">Build strength in your chest, shoulders, arms, upper back, and core muscles.</p>
+              <h2 class="card-title" data-text-key="upper-body-training-title">
+                Upper Body & Core
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="upper-body-training-description"
+              >
+                Build strength in your chest, shoulders, arms, upper back, and
+                core muscles.
+              </p>
             </div>
             <div id="strength-lower-body">
-                <h2 class="card-title" data-text-key="lower-body-training-title">Lower Body</h2>
-                <p class="card-description" data-text-key="lower-body-training-description">Develop powerful legs with focused lower body exercises.</p>
+              <h2 class="card-title" data-text-key="lower-body-training-title">
+                Lower Body
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="lower-body-training-description"
+              >
+                Develop powerful legs with focused lower body exercises.
+              </p>
             </div>
             <div id="strength-full-body">
-                <h2 class="card-title" data-text-key="full-body-training-title">Full Body Training</h2>
-                <p class="card-description" data-text-key="full-body-training-description">Complete full body workouts that target multiple muscle groups in one session.</p>
+              <h2 class="card-title" data-text-key="full-body-training-title">
+                Full Body Training
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="full-body-training-description"
+              >
+                Complete full body workouts that target multiple muscle groups
+                in one session.
+              </p>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="exercises-user-weight-loss">
-        <h1 data-text-key="weight-loss-text">Weight Loss</h1>
-        <div class="exercises-user-cards">
+        <div class="exercises-user-weight-loss">
+          <h1 data-text-key="weight-loss-text">Weight Loss</h1>
+          <div class="exercises-user-cards">
             <div id="weight-loss-cardio">
-                <h2 class="card-title" data-text-key="cardio-training-title">Cardio</h2>
-                <p class="card-description" data-text-key="cardio-training-description">Burn calories and improve cardiovascular health with effective cardio workouts.</p>
+              <h2 class="card-title" data-text-key="cardio-training-title">
+                Cardio
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="cardio-training-description"
+              >
+                Burn calories and improve cardiovascular health with effective
+                cardio workouts.
+              </p>
             </div>
             <div id="weight-loss-aerobics">
-                <h2 class="card-title" data-text-key="aerobics-training-title">Aerobics</h2>
-                <p class="card-description" data-text-key="aerobics-training-description">Energetic aerobic exercises to boost metabolism and enhance endurance.</p>
+              <h2 class="card-title" data-text-key="aerobics-training-title">
+                Aerobics
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="aerobics-training-description"
+              >
+                Energetic aerobic exercises to boost metabolism and enhance
+                endurance.
+              </p>
             </div>
             <div id="weight-loss-hiit">
-                <h2 class="card-title" data-text-key="hiit-training-title">HIIT</h2>
-                <p class="card-description" data-text-key="hiit-training-description">High-intensity interval training for maximum calorie burn and fat loss.</p>
+              <h2 class="card-title" data-text-key="hiit-training-title">
+                HIIT
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="hiit-training-description"
+              >
+                High-intensity interval training for maximum calorie burn and
+                fat loss.
+              </p>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="exercises-user-mind-body">
-        <h1 data-text-key="mind-body-text">Mind-Body Essentials</h1>
-        <div class="exercises-user-cards">
+        <div class="exercises-user-mind-body">
+          <h1 data-text-key="mind-body-text">Mind-Body Essentials</h1>
+          <div class="exercises-user-cards">
             <div id="mind-body-yoga">
-                <h2 class="card-title" data-text-key="yoga-title">Yoga Poses</h2>
-                <p class="card-description" data-text-key="yoga-description">Master breathing techniques for relaxation, focus, and stress relief.</p>
+              <h2 class="card-title" data-text-key="yoga-title">Yoga Poses</h2>
+              <p class="card-description" data-text-key="yoga-description">
+                Master breathing techniques for relaxation, focus, and stress
+                relief.
+              </p>
             </div>
             <div id="mind-body-sleep">
-                <h2 class="card-title" data-text-key="sleep-title">Healthy Sleeping</h2>
-                <p class="card-description" data-text-key="sleep-description">Optimize your sleep patterns for better recovery and overall well-being.</p>
+              <h2 class="card-title" data-text-key="sleep-title">
+                Healthy Sleeping
+              </h2>
+              <p class="card-description" data-text-key="sleep-description">
+                Optimize your sleep patterns for better recovery and overall
+                well-being.
+              </p>
             </div>
             <div id="mind-body-stress">
-                <h2 class="card-title" data-text-key="stress-regulation-title">Stress Regulation</h2>
-                <p class="card-description" data-text-key="stress-regulation-description">Learn effective techniques to manage and reduce stress levels.</p>
+              <h2 class="card-title" data-text-key="stress-regulation-title">
+                Stress Regulation
+              </h2>
+              <p
+                class="card-description"
+                data-text-key="stress-regulation-description"
+              >
+                Learn effective techniques to manage and reduce stress levels.
+              </p>
             </div>
-        </div>
-    </div>
-  </div>
-
-  <div class="footer aleo-text">
-    <div class="footer-content">
-      <div class="footer-sections">
-        <div class="footer-section">
-          <h3 data-text-key="footer-quick-links">Quick Links</h3>
-          <ul>
-            <li><a href="/dashboard" data-text-key="home-menu-item">Home</a></li>
-            <li><a href="/exercises" data-text-key="exercises-menu-item">Exercises</a></li>
-            <li><a href="/nutrition" data-text-key="nutrition-menu-item">Nutrition</a></li>
-            <li><a href="/prizes" data-text-key="prizes-menu-item">Prizes</a></li>
-          </ul>
-        </div>
-        <div class="footer-section">
-          <h3 data-text-key="footer-information">Information</h3>
-          <ul>
-            <li><a href="/about" data-text-key="about-menu-item">About</a></li>
-            <li><a href="#" data-text-key="faq">FAQ</a></li>
-            <li><a href="#" data-text-key="privacy-policy">Privacy Policy</a></li>
-            <li><a href="#" data-text-key="tandc">Terms & Conditions</a></li>
-          </ul>
-        </div>
-        <div class="footer-section">
-          <h3 data-text-key="footer-contact">Contact</h3>
-          <ul>
-            <li><a href="tel:+251911234567">+251 911 234 567</a></li>
-            <li><a href="mailto:info@tenaprime.com">info@tenaprime.com</a></li>
-            <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
-            <li><a href="#" data-text-key="support">Support</a></li>
-          </ul>
-        </div>
-        <div class="footer-section footer-logo">
-          <img src="/assets/logo.svg" alt="TenaPrime">
-          <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
-          <div class="footer-social">
-            <a href="#"><img src="/assets/facebook.svg" alt="Facebook"></a>
-            <a href="#"><img src="/assets/telegram.svg" alt="Telegram"></a>
-            <a href="#"><img src="/assets/instagram.svg" alt="Instagram"></a>
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>© 2024 TenaPrime. All rights reserved.</p>
-        <div class="footer-ethiotelecom">
-          <img src="/assets/ethiotelecom.png" alt="Ethiotelecom">
+
+      <div class="footer aleo-text">
+        <div class="footer-content">
+          <div class="footer-sections">
+            <div class="footer-section">
+              <h3 data-text-key="footer-quick-links">Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="/dashboard" data-text-key="home-menu-item">Home</a>
+                </li>
+                <li>
+                  <a href="/exercises" data-text-key="exercises-menu-item"
+                    >Exercises</a
+                  >
+                </li>
+                <li>
+                  <a href="/nutrition" data-text-key="nutrition-menu-item"
+                    >Nutrition</a
+                  >
+                </li>
+                <li>
+                  <a href="/prizes" data-text-key="prizes-menu-item">Prizes</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3 data-text-key="footer-information">Information</h3>
+              <ul>
+                <li>
+                  <a href="/about" data-text-key="about-menu-item">About</a>
+                </li>
+                <li><a href="#" data-text-key="faq">FAQ</a></li>
+                <li>
+                  <a href="#" data-text-key="privacy-policy">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" data-text-key="tandc">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3 data-text-key="footer-contact">Contact</h3>
+              <ul>
+                <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+                <li>
+                  <a href="mailto:info@tenaprime.com">info@tenaprime.com</a>
+                </li>
+                <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+                <li><a href="#" data-text-key="support">Support</a></li>
+              </ul>
+            </div>
+            <div class="footer-section footer-logo">
+              <img src="/assets/logo.svg" alt="TenaPrime" />
+              <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+              <div class="footer-social">
+                <a href="#"
+                  ><img src="/assets/facebook.svg" alt="Facebook"
+                /></a>
+                <a href="#"
+                  ><img src="/assets/telegram.svg" alt="Telegram"
+                /></a>
+                <a href="#"
+                  ><img src="/assets/instagram.svg" alt="Instagram"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© 2024 TenaPrime. All rights reserved.</p>
+            <div class="footer-ethiotelecom">
+              <img src="/assets/ethiotelecom.png" alt="Ethiotelecom" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="sidebar-overlay"></div>
-<div class="sidebar aleo-text" id="sidebar">
-  <div class="sidebar-header">
-    <div class="sidebar-logo">
-      <img src="/assets/logo.svg" alt="TenaPrime">
-    </div>
-    <button class="sidebar-close">&times;</button>
-  </div>
-  
-  <div class="sidebar-language-selector">
-    <div class="language-options-container">
-      <div class="sidebar-language-option" data-lang="en">
-        <span class="language-text">English</span>
-      </div>
-      <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
-        <span class="language-text">አማርኛ</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="sidebar-navigation">
-    <a href="/dashboard" class="sidebar-item">
-      <div data-text-key="home-menu-item">Home</div>
-    </a>
-    <a href="/exercises" class="sidebar-item">
-      <div data-text-key="exercises-menu-item">Exercises</div>
-    </a>
-    <a href="/nutrition" class="sidebar-item">
-      <div data-text-key="nutrition-menu-item">Nutrition</div>
-    </a>
-    <a href="/prizes" class="sidebar-item">
-      <div data-text-key="prizes-menu-item">Prizes</div>
-    </a>
-    <a href="/about" class="sidebar-item">
-      <div data-text-key="about-menu-item">About</div>
-    </a>
-  </div>
-
-  <div class="sidebar-footer">
-    <a href="#" class="sidebar-item">
-      <div data-text-key="tandc">Terms & Conditions</div>
-    </a>
-    <a href="#" class="sidebar-item">
-      <div data-text-key="faq">FAQ</div>
-    </a>
-    <a href="#" class="sidebar-item">
-      <div data-text-key="privacy-policy">Privacy Policy</div>
-    </a>
-    <a href="#" class="sidebar-item">
-      <div data-text-key="contact-us">Contact Us</div>
-    </a>
-  </div>
-</div>
-
-<template id="exercise-popup-template">
-  <div class="exercise-popup-overlay">
-    <div class="exercise-popup-content aleo-text">
-      <div class="exercise-popup-container">
-        <button class="exercise-popup-close">&times;</button>
-        <h2></h2>
-        <p></p>
-        <div class="exercise-popup-image">
-          <img src="" alt="Exercise Image">
+    <div class="sidebar-overlay"></div>
+    <div class="sidebar aleo-text" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo">
+          <img src="/assets/logo.svg" alt="TenaPrime" />
         </div>
-        <div class="exercise-popup-buttons"></div>
+        <button class="sidebar-close">&times;</button>
+      </div>
+
+      <div class="sidebar-language-selector">
+        <div class="language-options-container">
+          <div class="sidebar-language-option" data-lang="en">
+            <span class="language-text">English</span>
+          </div>
+          <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+            <span class="language-text">አማርኛ</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-navigation">
+        <a href="/dashboard" class="sidebar-item">
+          <div data-text-key="home-menu-item">Home</div>
+        </a>
+        <a href="/exercises" class="sidebar-item">
+          <div data-text-key="exercises-menu-item">Exercises</div>
+        </a>
+        <a href="/nutrition" class="sidebar-item">
+          <div data-text-key="nutrition-menu-item">Nutrition</div>
+        </a>
+        <a href="/prizes" class="sidebar-item">
+          <div data-text-key="prizes-menu-item">Prizes</div>
+        </a>
+        <a href="/about" class="sidebar-item">
+          <div data-text-key="about-menu-item">About</div>
+        </a>
+      </div>
+
+      <div class="sidebar-footer">
+        <a href="#" class="sidebar-item">
+          <div data-text-key="tandc">Terms & Conditions</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="faq">FAQ</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="privacy-policy">Privacy Policy</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="contact-us">Contact Us</div>
+        </a>
       </div>
     </div>
-  </div>
-</template>
 
-<script src="/scripts/exercise-dashboard.js"></script>
-<script src="/scripts/auth-service.js"></script>
-<script src="/scripts/theme-manager.js"></script>
-<script src="/scripts/strings-loader.js"></script>
-<script src="/scripts/language-selector.js"></script>
-<script src="/scripts/user-stats-popup.js"></script>
-<script src="/scripts/sidebar-overlay.js"></script>
+    <template id="exercise-popup-template">
+      <div class="exercise-popup-overlay">
+        <div class="exercise-popup-content aleo-text">
+          <div class="exercise-popup-container">
+            <button class="exercise-popup-close">&times;</button>
+            <h2></h2>
+            <p></p>
+            <div class="exercise-popup-image">
+              <img src="" alt="Exercise Image" />
+            </div>
+            <div class="exercise-popup-buttons"></div>
+          </div>
+        </div>
+      </div>
+    </template>
 
-</body>
-</html> 
+    <script src="/scripts/exercise-dashboard.js"></script>
+    <script src="/scripts/auth-service.js"></script>
+    <script src="/scripts/theme-manager.js"></script>
+    <script src="/scripts/strings-loader.js"></script>
+    <script src="/scripts/language-selector.js"></script>
+    <script src="/scripts/user-stats-popup.js"></script>
+    <script src="/scripts/sidebar-overlay.js"></script>
+  </body>
+</html>
