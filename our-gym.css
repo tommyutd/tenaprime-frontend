@@ -1,0 +1,869 @@
+@import "/themes.css";
+
+.navigation-about {
+  flex: 1; /* Added to make it share width equally */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-100);
+}
+
+.navigation-home,
+.navigation-exercises,
+.navigation-nutrition,
+.navigation-prizes {
+  color: var(--text-primary);
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navigation-home::after,
+.navigation-exercises::after,
+.navigation-nutrition::after,
+.navigation-prizes::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent-100);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navigation-home:hover a,
+.navigation-exercises:hover a,
+.navigation-nutrition:hover a,
+.navigation-prizes:hover a {
+  background-color: transparent;
+  color: var(--accent-100);
+}
+
+.navigation-home:hover::after,
+.navigation-exercises:hover::after,
+.navigation-nutrition:hover::after,
+.navigation-prizes:hover::after {
+  width: 100%;
+}
+
+/* General Layout */
+.our-gym-gym-content {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.our-gym-gym-content section {
+  border-bottom: 1px solid var(--accent-primary);
+}
+
+.our-gym-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.our-gym-section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.our-gym-section-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: var(--text-primary);
+}
+
+.our-gym-divider {
+  height: 4px;
+  width: 60px;
+  background-color: var(--accent-primary);
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.our-gym-hero-section {
+  position: relative;
+  height: 85vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/our-gym/gym-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.our-gym-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.our-gym-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.our-gym-hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.our-gym-hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.our-gym-cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: var(--accent-primary);
+  color: var(--text-primary);
+  text-decoration: none;
+  border-radius: 1rem;
+  border: 0.2rem solid var(--accent-primary);
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.our-gym-cta-button:hover {
+  background-color: var(--accent-primary);
+  transform: translateY(-2px);
+}
+
+/* About Section */
+.our-gym-about-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("/assets/our-gym/gym-about.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.our-gym-about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.our-gym-about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.our-gym-about-text p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+.our-gym-feature-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.our-gym-feature-list li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+  color: var(--text-primary);
+}
+
+.our-gym-feature-list li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent-primary);
+  font-weight: bold;
+}
+
+.our-gym-about-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.our-gym-about-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Facilities Section */
+.our-gym-facilities-section {
+  padding: 80px 0;
+  background-color: var(--bg-primary);
+  /*
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/assets/our-gym/gym-facilities.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+}
+
+.our-gym-facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.our-gym-facility-card {
+  background-color: var(--accent-50);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.our-gym-facility-content {
+  padding: 0 20px 20px 20px;
+  color: var(--text-primary);
+}
+
+.our-gym-facility-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.our-gym-facility-icon {
+  width: 100%;
+  height: 60%;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.our-gym-facility-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.our-gym-facility-card h3 {
+  margin-bottom: 15px;
+  color: var(--text-primary);
+}
+
+.our-gym-facility-card p {
+  color: var(--text-60);
+}
+
+/* Classes Section */
+.our-gym-classes-section {
+  /*
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/assets/our-gym/gym-classes.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+  background-color: var(--bg-primary);
+  padding: 80px 0;
+}
+
+.our-gym-classes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.our-gym-class-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  background-color: var(--bg-70);
+  height: fit-content;
+}
+
+.our-gym-class-card:hover {
+  transform: translateY(-5px);
+}
+
+.our-gym-class-image {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.our-gym-class-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.our-gym-class-card:hover .our-gym-class-image img {
+  transform: scale(1.1);
+}
+
+.our-gym-class-details {
+  padding: 20px;
+}
+
+.our-gym-class-details h3 {
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.our-gym-class-details p {
+  margin-bottom: 15px;
+  color: var(--text-60);
+  line-height: 1.6;
+}
+
+.our-gym-class-schedule {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  border-top: 1px solid var(--text-primary);
+  color: var(--accent-primary);
+  font-weight: bold;
+}
+
+/* Trainers Section */
+.our-gym-trainers-section {
+  background-color: var(--bg-primary);
+  padding: 80px 0;
+}
+
+.our-gym-trainers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.our-gym-trainer-card {
+  background-color: var(--accent-100);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.our-gym-trainer-card:hover {
+  transform: translateY(-5px);
+}
+
+.our-gym-trainer-image {
+  height: 300px;
+  overflow: hidden;
+}
+
+.our-gym-trainer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.our-gym-trainer-card:hover .our-gym-trainer-image img {
+  transform: scale(1.05);
+}
+
+.our-gym-trainer-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.our-gym-trainer-details h3 {
+  margin-bottom: 5px;
+  color: var(--text-primary);
+}
+
+.our-gym-trainer-title {
+  color: var(--text-primary);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.our-gym-trainer-description {
+  color: var(--bg-70);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* AI Trainer Button */
+.our-gym-ai-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: var(--text-primary);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s;
+  border: 2px solid var(--text-primary);
+}
+
+.our-gym-ai-button:hover {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  border: 2px solid var(--text-primary);
+  transform: translateY(-2px);
+}
+
+/* Membership Section */
+.our-gym-membership-section {
+  padding: 80px 0;
+}
+
+.our-gym-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.our-gym-pricing-card {
+  background-color: var(--accent-50);
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.our-gym-pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.our-gym-pricing-card.featured {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--accent-color);
+  position: relative;
+}
+
+.our-gym-pricing-card.featured:hover {
+  transform: scale(1.05) translateY(-5px);
+}
+
+.our-gym-pricing-header {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.our-gym-pricing-card.featured .our-gym-pricing-header {
+  background-color: var(--accent-100);
+}
+
+.our-gym-pricing-header h3 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.our-gym-price {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.our-gym-currency {
+  font-size: 1.5rem;
+  vertical-align: top;
+  position: relative;
+  top: 5px;
+}
+
+.our-gym-period {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.our-gym-pricing-features {
+  padding: 30px 20px;
+}
+
+.our-gym-pricing-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.our-gym-pricing-features li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--text-primary);
+  color: var(--text-80);
+}
+
+.our-gym-pricing-features li:last-child {
+  border-bottom: none;
+}
+
+.our-gym-pricing-features li:before {
+  content: "✓";
+  color: var(--accent-color);
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.our-gym-pricing-footer {
+  padding: 0 20px 30px;
+  text-align: center;
+}
+
+.our-gym-plan-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 2px solid var(--text-primary);
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.3s;
+  width: 80%;
+}
+
+.our-gym-plan-button:hover {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.our-gym-plan-button.featured:hover {
+  background-color: var(--accent-100);
+  border-color: var(--accent-100);
+}
+
+/* Testimonials Section */
+.our-gym-testimonials-section {
+  padding: 80px 0;
+}
+
+.our-gym-testimonials-slider {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.our-gym-testimonial-card {
+  background-color: var(--text-70);
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 380px;
+  transition: transform 0.3s;
+}
+
+.our-gym-testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.our-gym-testimonial-content {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.our-gym-testimonial-content p {
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.our-gym-testimonial-content p:before,
+.our-gym-testimonial-content p:after {
+  content: "";
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  opacity: 0.3;
+  position: absolute;
+}
+
+.our-gym-testimonial-content p:before {
+  top: -20px;
+  left: -10px;
+}
+
+.our-gym-testimonial-content p:after {
+  content: "";
+  bottom: -40px;
+  right: -10px;
+}
+
+.our-gym-testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.our-gym-author-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.our-gym-author-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.our-gym-author-info h4 {
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.our-gym-author-info p {
+  color: var(--text-80);
+  font-size: 0.9rem;
+}
+
+/* Location Section */
+.our-gym-location-section {
+  padding: 80px 0;
+}
+
+.our-gym-location-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.our-gym-map-container {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.our-gym-contact-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.our-gym-contact-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.our-gym-contact-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-light, #fff0e0);
+  border-radius: 50%;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.our-gym-contact-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.our-gym-contact-info h3 {
+  margin-bottom: 5px;
+  color: var(--text-primary);
+}
+
+.our-gym-contact-info p {
+  color: var(--text-80);
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.our-gym-cta-section {
+  padding: 80px 0;
+  background-color: var(--accent-color);
+  color: white;
+  text-align: center;
+}
+
+.our-gym-cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.our-gym-cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.our-gym-cta-content p {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.our-gym-cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our-gym-cta-button.primary {
+  background-color: var(--accent-100);
+  color: var(--text-primary);
+  border: 2px solid var(--accent-100);
+}
+
+.our-gym-cta-button.primary:hover {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  border: 2px solid var(--text-primary);
+}
+
+.our-gym-cta-button.secondary {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.our-gym-cta-button.secondary:hover {
+  background-color: white;
+  color: var(--accent-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .our-gym-hero-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .our-gym-hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .our-gym-about-content {
+    flex-direction: column;
+  }
+
+  .our-gym-about-image {
+    margin-top: 30px;
+    order: -1;
+  }
+
+  .our-gym-section-header h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-gym-hero-section {
+    height: 500px;
+  }
+
+  .our-gym-hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .our-gym-facilities-grid,
+  .our-gym-classes-grid,
+  .our-gym-trainers-grid,
+  .our-gym-pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .our-gym-cta-content h2 {
+    font-size: 2rem;
+  }
+
+  .our-gym-pricing-card.featured {
+    transform: none;
+    grid-row: 1;
+  }
+
+  .our-gym-testimonials-slider {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-gym-testimonial-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .our-gym-hero-section {
+    height: 400px;
+    margin-bottom: 50px;
+  }
+
+  .our-gym-hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .our-gym-hero-content p {
+    font-size: 1rem;
+  }
+
+  .our-gym-section-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .our-gym-about-section,
+  .our-gym-facilities-section,
+  .our-gym-classes-section,
+  .our-gym-trainers-section,
+  .our-gym-membership-section,
+  .our-gym-testimonials-section,
+  .our-gym-location-section,
+  .our-gym-cta-section {
+    padding: 50px 0;
+  }
+
+  .our-gym-cta-content h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Dark Mode Adjustments 
+[data-theme="dark"] .our-gym-facilities-section,
+[data-theme="dark"] .our-gym-trainers-section,
+[data-theme="dark"] .our-gym-testimonials-section {
+  background-color: var(--bg-darker, #1a1a1a);
+}
+
+[data-theme="dark"] .our-gym-facility-card,
+[data-theme="dark"] .our-gym-class-card,
+[data-theme="dark"] .our-gym-trainer-card,
+[data-theme="dark"] .our-gym-pricing-card,
+[data-theme="dark"] .our-gym-testimonial-card {
+  background-color: var(--bg-dark, #2a2a2a);
+}
+
+[data-theme="dark"] .our-gym-facility-icon,
+[data-theme="dark"] .our-gym-contact-icon {
+  background-color: var(--bg-color);
+}
+
+[data-theme="dark"] .our-gym-pricing-features li,
+[data-theme="dark"] .our-gym-class-schedule {
+  border-color: var(--border-dark, #3a3a3a);
+}
+
+[data-theme="dark"] .our-gym-cta-button.primary {
+  color: var(--bg-darker, #1a1a1a);
+}
+
+[data-theme="dark"] .our-gym-cta-button.primary:hover {
+  background-color: var(--bg-light, #f8f9fa);
+}
+*/

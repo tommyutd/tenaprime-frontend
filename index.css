@@ -204,7 +204,7 @@
 .exercises-section-texts:hover,
 .nutrition-section-texts:hover,
 .prizes-section-texts:hover {
-  background-color: white;
+  background-color: var(--accent-70);
 }
 
 .exercises-section-texts:hover h1,

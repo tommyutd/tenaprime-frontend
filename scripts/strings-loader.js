@@ -56,7 +56,8 @@ function getPageTags(path) {
         '/prizes/rules': ['prizes-rules', 'user'],
         '/about': ['about', 'guest', 'user'],
         '/profile': ['profile', 'setup', 'user', 'food'],
-        '/setup': ['profile', 'setup', 'user', 'food']
+        '/setup': ['profile', 'setup', 'user', 'food'],
+        '/our-gym': ['our-gym', 'guest', 'user']
     };
     
 

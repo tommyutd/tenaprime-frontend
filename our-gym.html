@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TenaPrime</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/our-gym.css" />
+    <link rel="icon" href="assets/logo-mini.svg" />
+    <script src="/scripts/config.js"></script>
+    <script src="/scripts/route-guard.js"></script>
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="header">
+        <div class="logo">
+          <a href="/">
+            <img src="assets/logo.svg" alt="TenaPrime" />
+          </a>
+        </div>
+        <div class="navigation aleo-text">
+          <div class="navigation-home">
+            <a href="/">
+              <div class="home-text" data-text-key="home-menu-item">Home</div>
+            </a>
+          </div>
+
+          <div class="navigation-exercises">
+            <a href="/exercises">
+              <div class="exercises-text" data-text-key="exercises-menu-item">
+                Exercises
+              </div>
+            </a>
+          </div>
+
+          <div class="navigation-nutrition">
+            <a href="/nutrition">
+              <div class="nutrition-text" data-text-key="nutrition-menu-item">
+                Nutrition
+              </div>
+            </a>
+          </div>
+
+          <div class="navigation-prizes">
+            <a href="/prizes">
+              <div class="prizes-text" data-text-key="prizes-menu-item">
+                Prizes
+              </div>
+            </a>
+          </div>
+
+          <div class="navigation-about">
+            <a href="/about">
+              <div class="about-text" data-text-key="about-menu-item">
+                About
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="extra-navigation">
+          <div class="avatar">
+            <img src="assets/avatar.svg" alt="Account" />
+            <div class="stats-popup aleo-text" id="statsPopup">
+              <div class="stats-container">
+                <div class="stats-header">
+                  <h2 data-text-key="stats-title">Your Stats</h2>
+                  <button class="close-button" id="closeStats">&times;</button>
+                </div>
+                <div class="stats-content">
+                  <div class="stats-item">
+                    <span class="stats-label" data-text-key="workout-goal"
+                      >Goal</span
+                    >
+                    <span class="stats-value" id="workout-goal"></span>
+                  </div>
+                  <div class="stats-item">
+                    <span class="stats-label" data-text-key="workout-streak"
+                      >Workout Streak</span
+                    >
+                    <span
+                      class="stats-value"
+                      id="workout-streak"
+                      data-text-key="workout-streak-value"
+                    ></span>
+                  </div>
+                  <div class="stats-item">
+                    <span class="stats-label" data-text-key="completed-workouts"
+                      >Completed Workouts</span
+                    >
+                    <span
+                      class="stats-value"
+                      id="workout-total-completed"
+                      data-text-key="workout-total-completed-value"
+                    ></span>
+                  </div>
+                </div>
+                <div class="stats-footer">
+                  <button
+                    class="logout-button aleo-text"
+                    data-text-key="logout"
+                  >
+                    Logout
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="language-selector aleo-text">
+            <p>EN</p>
+            <div class="language-dropdown">
+              <div class="language-option" data-lang="en">English</div>
+              <div class="language-option" data-lang="አማ">አማርኛ</div>
+            </div>
+          </div>
+          <div class="theme-toggle">
+            <button class="theme-toggle-btn">
+              <img src="assets/moon.svg" alt="Light Mode" class="light-icon" />
+              <img src="assets/sun.svg" alt="Dark Mode" class="dark-icon" />
+            </button>
+          </div>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <div class="ethiotelecom">
+          <div class="ethiotelecom-container">
+            <img src="assets/ethiotelecom.png" alt="Ethiotelecom" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="our-gym-gym-content aleo-text">
+        <!-- Hero Section -->
+        <section class="our-gym-hero-section">
+          <div class="our-gym-hero-overlay"></div>
+          <div class="our-gym-hero-content">
+            <h1 class="our-gym-aleo-text" data-text-key="gym-title">
+              TenaPrime Fitness Club
+            </h1>
+            <p class="our-gym-aleo-text" data-text-key="gym-subtitle">
+              Where Fitness Meets Excellence
+            </p>
+            <a
+              href="#membership"
+              class="our-gym-cta-button aleo-text"
+              data-text-key="become-member"
+              >Become a Member</a
+            >
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="our-gym-about-section" id="about">
+          <div class="our-gym-container">
+            <div class="our-gym-section-header">
+              <h2 class="our-gym-aleo-text" data-text-key="about-gym">
+                About Our Gym
+              </h2>
+              <div class="our-gym-divider"></div>
+            </div>
+            <div class="our-gym-about-content">
+              <div class="our-gym-about-text">
+                <p data-text-key="about-gym-p1">
+                  TenaPrime Fitness Club is Addis Ababa's premier fitness
+                  destination, offering state-of-the-art equipment, expert
+                  trainers, and a supportive community environment to help you
+                  achieve your fitness goals.
+                </p>
+                <p data-text-key="about-gym-p2">
+                  Established in 2020, we've quickly become the city's favorite
+                  place to train, with members experiencing real results through
+                  our personalized approach to fitness.
+                </p>
+                <ul class="our-gym-feature-list">
+                  <li data-text-key="feature-1">24/7 Access</li>
+                  <li data-text-key="feature-2">Expert Trainers</li>
+                  <li data-text-key="feature-3">Latest Equipment</li>
+                  <li data-text-key="feature-4">Group Classes</li>
+                </ul>
+              </div>
+              <div class="our-gym-about-image">
+                <img src="assets/our-gym/gym-interior.jpg" alt="Gym Interior" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section class="our-gym-facilities-section" id="facilities">
+          <div class="our-gym-container">
+            <div class="our-gym-section-header">
+              <h2 class="our-gym-aleo-text" data-text-key="facilities">
+                Our Facilities
+              </h2>
+              <div class="our-gym-divider"></div>
+            </div>
+            <div class="our-gym-facilities-grid">
+              <div class="our-gym-facility-card">
+                <div class="our-gym-facility-icon">
+                  <img src="assets/our-gym/weights.jpg" alt="Weights" />
+                </div>
+                <div class="our-gym-facility-content">
+                  <h3 class="our-gym-aleo-text" data-text-key="facility-1">
+                    Free Weights Area
+                  </h3>
+                  <p data-text-key="facility-1-desc">
+                    Complete range of dumbbells, barbells, and weight plates for
+                    strength training.
+                  </p>
+                </div>
+              </div>
+              <div class="our-gym-facility-card">
+                <div class="our-gym-facility-icon">
+                  <img src="assets/our-gym/cardio.jpg" alt="Cardio" />
+                </div>
+                <div class="our-gym-facility-content">
+                  <h3 class="our-gym-aleo-text" data-text-key="facility-2">
+                    Cardio Zone
+                  </h3>
+                  <p data-text-key="facility-2-desc">
+                    Modern treadmills, ellipticals, and bikes with personal
+                    entertainment systems.
+                  </p>
+                </div>
+              </div>
+              <div class="our-gym-facility-card">
+                <div class="our-gym-facility-icon">
+                  <img src="assets/our-gym/studio.jpg" alt="Studio" />
+                </div>
+                <div class="our-gym-facility-content">
+                  <h3 class="our-gym-aleo-text" data-text-key="facility-3">
+                    Group Fitness Studio
+                  </h3>
+                  <p data-text-key="facility-3-desc">
+                    Spacious studio for yoga, aerobics, and high-intensity
+                    interval training classes.
+                  </p>
+                </div>
+              </div>
+              <div class="our-gym-facility-card">
+                <div class="our-gym-facility-icon">
+                  <img src="assets/our-gym/locker.jpg" alt="Locker" />
+                </div>
+                <div class="our-gym-facility-content">
+                  <h3 class="our-gym-aleo-text" data-text-key="facility-4">
+                    Changing Rooms
+                  </h3>
+                  <p data-text-key="facility-4-desc">
+                    Clean and modern changing facilities with secure lockers and
+                    shower amenities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Classes Section -->
+        <section class="our-gym-classes-section" id="classes">
+          <div class="our-gym-container">
+            <div class="our-gym-section-header">
+              <h2 class="our-gym-aleo-text" data-text-key="classes">
+                Our Classes
+              </h2>
+              <div class="our-gym-divider"></div>
+            </div>
+            <div class="our-gym-classes-grid">
+              <div class="our-gym-class-card">
+                <div class="our-gym-class-image">
+                  <img src="assets/our-gym/hiit.jpg" alt="HIIT Class" />
+                </div>
+                <div class="our-gym-class-details">
+                  <h3 class="our-gym-aleo-text" data-text-key="class-1">
+                    HIIT
+                  </h3>
+                  <p data-text-key="class-1-desc">
+                    High-intensity interval training for maximum calorie burn
+                    and fitness improvement.
+                  </p>
+                  <div class="our-gym-class-schedule">
+                    <span data-text-key="mon-wed-fri">Mon, Wed, Fri</span>
+                    <span>6:00 - 7:00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="our-gym-class-card">
+                <div class="our-gym-class-image">
+                  <img src="assets/our-gym/yoga.jpg" alt="Yoga Class" />
+                </div>
+                <div class="our-gym-class-details">
+                  <h3 class="our-gym-aleo-text" data-text-key="class-2">
+                    Yoga
+                  </h3>
+                  <p data-text-key="class-2-desc">
+                    Find balance and flexibility with our expert-led yoga
+                    sessions.
+                  </p>
+                  <div class="our-gym-class-schedule">
+                    <span data-text-key="tue-thu">Tue, Thu</span>
+                    <span>7:30 - 8:30</span>
+                  </div>
+                </div>
+              </div>
+              <div class="our-gym-class-card">
+                <div class="our-gym-class-image">
+                  <img src="assets/our-gym/spin.jpg" alt="Spin Class" />
+                </div>
+                <div class="our-gym-class-details">
+                  <h3 class="our-gym-aleo-text" data-text-key="class-3">
+                    Spin
+                  </h3>
+                  <p data-text-key="class-3-desc">
+                    High-energy cycling workouts with music and motivation.
+                  </p>
+                  <div class="our-gym-class-schedule">
+                    <span data-text-key="mon-wed-fri">Mon, Wed, Fri</span>
+                    <span>18:00 - 19:00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="our-gym-class-card">
+                <div class="our-gym-class-image">
+                  <img
+                    src="assets/our-gym/strength.jpg"
+                    alt="Strength Training"
+                  />
+                </div>
+                <div class="our-gym-class-details">
+                  <h3 class="our-gym-aleo-text" data-text-key="class-4">
+                    Strength
+                  </h3>
+                  <p data-text-key="class-4-desc">
+                    Build muscle and strength with our comprehensive resistance
+                    training program.
+                  </p>
+                  <div class="our-gym-class-schedule">
+                    <span data-text-key="tue-thu-sat">Tue, Thu, Sat</span>
+                    <span>17:00 - 18:00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- AI Trainer Section -->
+        <section class="our-gym-trainers-section" id="trainers">
+          <div class="our-gym-container">
+            <div class="our-gym-section-header">
+              <h2 class="our-gym-aleo-text" data-text-key="ai-trainer">
+                Your Personal AI Trainer
+              </h2>
+              <div class="our-gym-divider"></div>
+            </div>
+            <div class="our-gym-trainers-grid">
+              <div class="our-gym-trainer-card">
+                <div class="our-gym-trainer-image">
+                  <img src="/assets/our-gym/ai-trainer.jpg" alt="AI Trainer" />
+                </div>
+                <div class="our-gym-trainer-details">
+                  <h3 class="our-gym-aleo-text">Workout AI</h3>
+                  <p
+                    class="our-gym-trainer-title"
+                    data-text-key="workout-assistant"
+                  >
+                    Personalized Workout Assistant
+                  </p>
+                  <p
+                    class="our-gym-trainer-description"
+                    data-text-key="workout-ai-desc"
+                  >
+                    Get customized workout plans, track your progress, and
+                    receive real-time feedback to maximize your fitness goals.
+                  </p>
+                  <a
+                    href="/exercises"
+                    class="our-gym-ai-button aleo-text"
+                    data-text-key="try-workout-ai"
+                    >Try My Workout</a
+                  >
+                </div>
+              </div>
+              <div class="our-gym-trainer-card">
+                <div class="our-gym-trainer-image">
+                  <img
+                    src="assets/our-gym/nutrition-ai.jpg"
+                    alt="Nutrition AI"
+                  />
+                </div>
+                <div class="our-gym-trainer-details">
+                  <h3 class="our-gym-aleo-text">Nutrition AI</h3>
+                  <p
+                    class="our-gym-trainer-title"
+                    data-text-key="nutrition-advisor"
+                  >
+                    Smart Nutrition Advisor
+                  </p>
+                  <p
+                    class="our-gym-trainer-description"
+                    data-text-key="nutrition-ai-desc"
+                  >
+                    Receive tailored meal plans, nutritional advice, and dietary
+                    recommendations that complement your workout routine.
+                  </p>
+                  <a
+                    href="/nutrition"
+                    class="our-gym-ai-button aleo-text"
+                    data-text-key="try-nutrition-ai"
+                    >Try My Nutrition</a
+                  >
+                </div>
+              </div>
+              <div class="our-gym-trainer-card">
+                <div class="our-gym-trainer-image">
+                  <img src="assets/our-gym/ai-benefits.jpg" alt="AI Benefits" />
+                </div>
+                <div class="our-gym-trainer-details">
+                  <h3 class="our-gym-aleo-text">24/7 Support</h3>
+                  <p
+                    class="our-gym-trainer-title"
+                    data-text-key="always-available"
+                  >
+                    Always Available
+                  </p>
+                  <p
+                    class="our-gym-trainer-description"
+                    data-text-key="ai-benefits-desc"
+                  >
+                    Unlike human trainers, your AI assistant is available
+                    anytime, adapts to your progress, and provides consistent
+                    guidance wherever you are.
+                  </p>
+                  <a
+                    href="/about"
+                    class="our-gym-ai-button aleo-text"
+                    data-text-key="learn-more"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Membership Section -->
+        <section class="our-gym-membership-section" id="membership">
+          <div class="our-gym-container">
+            <div class="our-gym-section-header">
+              <h2 class="our-gym-aleo-text" data-text-key="memberships">
+                Membership Plans
+              </h2>
+              <div class="our-gym-divider"></div>
+            </div>
+            <div class="our-gym-pricing-grid">
+              <div class="our-gym-pricing-card">
+                <div class="our-gym-pricing-header">
+                  <h3 class="our-gym-aleo-text" data-text-key="basic">Basic</h3>
+                  <div class="our-gym-price">
+                    <span class="our-gym-currency">Br</span>
+                    <span class="our-gym-amount">700</span>
+                    <span class="our-gym-period" data-text-key="per-month"
+                      >/month</span
+                    >
+                  </div>
+                </div>
+                <div class="our-gym-pricing-features">
+                  <ul>
+                    <li data-text-key="basic-feature-1">
+                      Gym access (6 AM - 10 PM)
+                    </li>
+                    <li data-text-key="basic-feature-2">
+                      Basic fitness assessment
+                    </li>
+                    <li data-text-key="basic-feature-3">
+                      Access to cardio equipment
+                    </li>
+                    <li data-text-key="basic-feature-4">Free water refill</li>
+                  </ul>
+                </div>
+                <div class="our-gym-pricing-footer">
+                  <a
+                    href="#"
+                    class="our-gym-plan-button"
+                    data-text-key="choose-plan"
+                    >Choose Plan</a
+                  >
+                </div>
+              </div>
+              <div class="our-gym-pricing-card featured">
+                <div class="our-gym-pricing-header">
+                  <h3 class="our-gym-aleo-text" data-text-key="premium">
+                    Premium
+                  </h3>
+                  <div class="our-gym-price">
+                    <span class="our-gym-currency">Br</span>
+                    <span class="our-gym-amount">1200</span>
+                    <span class="our-gym-period" data-text-key="per-month"
+                      >/month</span
+                    >
+                  </div>
+                </div>
+                <div class="our-gym-pricing-features">
+                  <ul>
+                    <li data-text-key="premium-feature-1">24/7 gym access</li>
+                    <li data-text-key="premium-feature-2">
+                      Advanced fitness assessment
+                    </li>
+                    <li data-text-key="premium-feature-3">
+                      Full equipment access
+                    </li>
+                    <li data-text-key="premium-feature-4">
+                      2 free personal training sessions
+                    </li>
+                    <li data-text-key="premium-feature-5">
+                      Group classes included
+                    </li>
+                  </ul>
+                </div>
+                <div class="our-gym-pricing-footer">
+                  <a
+                    href="#"
+                    class="our-gym-plan-button featured"
+                    data-text-key="choose-plan"
+                    >Choose Plan</a
+                  >
+                </div>
+              </div>
+              <div class="our-gym-pricing-card">
+                <div class="our-gym-pricing-header">
+                  <h3 class="our-gym-aleo-text" data-text-key="elite">Elite</h3>
+                  <div class="our-gym-price">
+                    <span class="our-gym-currency">Br</span>
+                    <span class="our-gym-amount">1800</span>
+                    <span class="our-gym-period" data-text-key="per-month"
+                      >/month</span
+                    >
+                  </div>
+                </div>
+                <div class="our-gym-pricing-features">
+                  <ul>
+                    <li data-text-key="elite-feature-1">24/7 gym access</li>
+                    <li data-text-key="elite-feature-2">
+                      Complete fitness assessment
+                    </li>
+                    <li data-text-key="elite-feature-3">
+                      Full equipment access
+                    </li>
+                    <li data-text-key="elite-feature-4">
+                      4 personal training sessions/month
+                    </li>
+                    <li data-text-key="elite-feature-5">
+                      Unlimited group classes
+                    </li>
+                    <li data-text-key="elite-feature-6">
+                      Nutrition consultation
+                    </li>
+                  </ul>
+                </div>
+                <div class="our-gym-pricing-footer">
+                  <a
+                    href="#"
+                    class="our-gym-plan-button"
+                    data-text-key="choose-plan"
+                    >Choose Plan</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="our-gym-testimonials-section">
+          <div class="our-gym-container">
+            <div class="our-gym-section-header">
+              <h2 class="our-gym-aleo-text" data-text-key="testimonials">
+                What Our Members Say
+              </h2>
+              <div class="our-gym-divider"></div>
+            </div>
+            <div class="our-gym-testimonials-slider">
+              <div class="our-gym-testimonial-card">
+                <div class="our-gym-testimonial-content">
+                  <p data-text-key="testimonial-1">
+                    "TenaPrime Fitness Club changed my life. I've lost 15kg and
+                    gained so much confidence. The trainers are exceptional and
+                    the community is so supportive."
+                  </p>
+                </div>
+                <div class="our-gym-testimonial-author">
+                  <div class="our-gym-author-image">
+                    <img src="assets/our-gym/member.jpg" alt="Member" />
+                  </div>
+                  <div class="our-gym-author-info">
+                    <h4 class="our-gym-aleo-text">Meron Alemu</h4>
+                    <p data-text-key="member-since">Member since 2021</p>
+                  </div>
+                </div>
+              </div>
+              <div class="our-gym-testimonial-card">
+                <div class="our-gym-testimonial-content">
+                  <p data-text-key="testimonial-2">
+                    "The facilities are top-notch and always clean. I appreciate
+                    the 24/7 access since I work odd hours. This gym
+                    accommodates my schedule perfectly."
+                  </p>
+                </div>
+                <div class="our-gym-testimonial-author">
+                  <div class="our-gym-author-image">
+                    <img src="assets/our-gym/member.jpg" alt="Member" />
+                  </div>
+                  <div class="our-gym-author-info">
+                    <h4 class="our-gym-aleo-text">Yonas Bekele</h4>
+                    <p data-text-key="member-since">Member since 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="our-gym-testimonial-card">
+                <div class="our-gym-testimonial-content">
+                  <p data-text-key="testimonial-3">
+                    "The group classes are amazing! I've tried HIIT and yoga,
+                    and both instructors are knowledgeable and motivating. I
+                    never thought I could enjoy working out this much."
+                  </p>
+                </div>
+                <div class="our-gym-testimonial-author">
+                  <div class="our-gym-author-image">
+                    <img src="assets/our-gym/member.jpg" alt="Member" />
+                  </div>
+                  <div class="our-gym-author-info">
+                    <h4 class="our-gym-aleo-text">Sara Tadesse</h4>
+                    <p data-text-key="member-since">Member since 2023</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Location Section -->
+        <section class="our-gym-location-section" id="location">
+          <div class="our-gym-container">
+            <div class="our-gym-section-header">
+              <h2 class="our-gym-aleo-text" data-text-key="our-location">
+                Our Location
+              </h2>
+              <div class="our-gym-divider"></div>
+            </div>
+            <div class="our-gym-location-content">
+              <div class="our-gym-map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.5384704888656!2d38.74899597507415!3d9.02308639058615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa%2C%20Ethiopia!5e0!3m2!1sen!2sus!4v1698429427206!5m2!1sen!2sus"
+                  width="100%"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="our-gym-contact-details">
+                <div class="our-gym-contact-card">
+                  <div class="our-gym-contact-icon">
+                    <img src="assets/our-gym/location.jpg" alt="Location" />
+                  </div>
+                  <div class="our-gym-contact-info">
+                    <h3 class="our-gym-aleo-text" data-text-key="address">
+                      Address
+                    </h3>
+                    <p>Bole Road, Addis Ababa, Ethiopia</p>
+                  </div>
+                </div>
+                <div class="our-gym-contact-card">
+                  <div class="our-gym-contact-icon">
+                    <img src="assets/our-gym/phone.jpg" alt="Phone" />
+                  </div>
+                  <div class="our-gym-contact-info">
+                    <h3 class="our-gym-aleo-text" data-text-key="phone">
+                      Phone
+                    </h3>
+                    <p>+251 911 234 567</p>
+                  </div>
+                </div>
+                <div class="our-gym-contact-card">
+                  <div class="our-gym-contact-icon">
+                    <img src="assets/our-gym/email.jpg" alt="Email" />
+                  </div>
+                  <div class="our-gym-contact-info">
+                    <h3 class="our-gym-aleo-text" data-text-key="email">
+                      Email
+                    </h3>
+                    <p>info@tenaprime.com</p>
+                  </div>
+                </div>
+                <div class="our-gym-contact-card">
+                  <div class="our-gym-contact-icon">
+                    <img src="assets/our-gym/clock.jpg" alt="Hours" />
+                  </div>
+                  <div class="our-gym-contact-info">
+                    <h3 class="our-gym-aleo-text" data-text-key="hours">
+                      Hours
+                    </h3>
+                    <p data-text-key="hours-value">
+                      24/7 for Premium & Elite Members<br />6 AM - 10 PM for
+                      Basic Members
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="our-gym-cta-section">
+          <div class="our-gym-container">
+            <div class="our-gym-cta-content">
+              <h2 class="our-gym-aleo-text" data-text-key="ready-to-join">
+                Ready to Start Your Fitness Journey?
+              </h2>
+              <p data-text-key="cta-description">
+                Join TenaPrime Fitness Club today and transform your life with
+                our premium facilities, expert trainers, and supportive
+                community.
+              </p>
+              <div class="our-gym-cta-buttons">
+                <a
+                  href="#membership"
+                  class="our-gym-cta-button primary aleo-text"
+                  data-text-key="view-memberships"
+                  >View Memberships</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="footer aleo-text">
+        <div class="footer-content">
+          <div class="footer-sections">
+            <div class="footer-section">
+              <h3 data-text-key="footer-quick-links">Quick Links</h3>
+              <ul>
+                <li><a href="/" data-text-key="home-menu-item">Home</a></li>
+                <li>
+                  <a href="/exercises" data-text-key="exercises-menu-item"
+                    >Exercises</a
+                  >
+                </li>
+                <li>
+                  <a href="/nutrition" data-text-key="nutrition-menu-item"
+                    >Nutrition</a
+                  >
+                </li>
+                <li>
+                  <a href="/prizes" data-text-key="prizes-menu-item">Prizes</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3 data-text-key="footer-information">Information</h3>
+              <ul>
+                <li>
+                  <a href="/about" data-text-key="about-menu-item">About</a>
+                </li>
+                <li><a href="#" data-text-key="faq">FAQ</a></li>
+                <li>
+                  <a href="#" data-text-key="privacy-policy">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" data-text-key="tandc">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3 data-text-key="footer-contact">Contact</h3>
+              <ul>
+                <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+                <li>
+                  <a href="mailto:info@tenaprime.com">info@tenaprime.com</a>
+                </li>
+                <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
+                <li><a href="#" data-text-key="support">Support</a></li>
+              </ul>
+            </div>
+            <div class="footer-section footer-logo">
+              <img src="assets/logo.svg" alt="TenaPrime" />
+              <p data-text-key="footer-tagline">Stay Fit, Win Big</p>
+              <div class="footer-social">
+                <a href="#"><img src="assets/facebook.svg" alt="Facebook" /></a>
+                <a href="#"><img src="assets/telegram.svg" alt="Telegram" /></a>
+                <a href="#"
+                  ><img src="assets/instagram.svg" alt="Instagram"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© 2024 TenaPrime. All rights reserved.</p>
+            <div class="footer-ethiotelecom">
+              <img src="assets/ethiotelecom.png" alt="Ethiotelecom" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-overlay"></div>
+    <div class="sidebar aleo-text" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo">
+          <img src="assets/logo.svg" alt="TenaPrime" />
+        </div>
+        <button class="sidebar-close">&times;</button>
+      </div>
+
+      <div class="sidebar-language-selector">
+        <div class="language-options-container">
+          <div class="sidebar-language-option" data-lang="en">
+            <span class="language-text">English</span>
+          </div>
+          <div class="sidebar-language-option ethiopic-text" data-lang="አማ">
+            <span class="language-text">አማርኛ</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-navigation">
+        <a href="/" class="sidebar-item">
+          <div data-text-key="home-menu-item">Home</div>
+        </a>
+        <a href="/exercises" class="sidebar-item">
+          <div data-text-key="exercises-menu-item">Exercises</div>
+        </a>
+        <a href="/nutrition" class="sidebar-item">
+          <div data-text-key="nutrition-menu-item">Nutrition</div>
+        </a>
+        <a href="/prizes" class="sidebar-item">
+          <div data-text-key="prizes-menu-item">Prizes</div>
+        </a>
+        <a href="/about" class="sidebar-item">
+          <div data-text-key="about-menu-item">About</div>
+        </a>
+      </div>
+
+      <div class="sidebar-footer">
+        <a href="#" class="sidebar-item">
+          <div data-text-key="tandc">Terms & Conditions</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="faq">FAQ</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="privacy-policy">Privacy Policy</div>
+        </a>
+        <a href="#" class="sidebar-item">
+          <div data-text-key="contact-us">Contact Us</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Login Overlay -->
+    <div class="login-overlay aleo-text" id="loginOverlay">
+      <div class="login-container">
+        <div class="login-header">
+          <h2 data-text-key="login-title">Login to TenaPrime</h2>
+          <button class="close-button" id="closeLogin">&times;</button>
+        </div>
+        <form class="login-form">
+          <div class="form-group">
+            <label
+              for="number"
+              class="form-label"
+              data-text-key="phone-number-label"
+              >Phone Number</label
+            >
+            <div class="phone-input-container">
+              <span class="country-code">+251</span>
+              <input
+                type="tel"
+                id="number"
+                name="username"
+                required
+                maxlength="9"
+                autocomplete="username"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="pin" class="form-label" data-text-key="pin-label"
+              >PIN</label
+            >
+            <div class="pin-input-container">
+              <input
+                type="password"
+                id="pin"
+                name="current-password"
+                required
+                maxlength="6"
+                autocomplete="current-password"
+              />
+            </div>
+          </div>
+          <div class="form-options">
+            <label class="remember-me">
+              <input type="checkbox" />
+              <span data-text-key="remember-me">Remember me</span>
+            </label>
+            <a href="#" class="forgot-password" data-text-key="forgot-password"
+              >Forgot Password?</a
+            >
+          </div>
+          <div class="tandc-options">
+            <label class="tandc-option">
+              <input type="checkbox" />
+              <a href="#" class="tandc-link" data-text-key="tandc-agree"
+                >Agree to Terms and Conditions</a
+              >
+            </label>
+          </div>
+          <div class="login-buttons">
+            <button type="submit" class="login-submit" data-text-key="login">
+              Login
+            </button>
+          </div>
+        </form>
+        <p class="login-footer" data-text-key="no-account">
+          Don't have an account?
+        </p>
+        <div class="login-buttons">
+          <button class="login-register" data-text-key="register">
+            Register
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Register Overlay -->
+    <div class="register-overlay aleo-text" id="registerOverlay">
+      <div class="register-toast-notification">
+        <span data-text-key="register-toast"
+          >If you don't have an account, you can register by sending OK to
+          8362.</span
+        >
+      </div>
+    </div>
+
+    <script src="/scripts/auth-service.js"></script>
+    <script src="/scripts/theme-manager.js"></script>
+    <script src="/scripts/login-overlay-script.js"></script>
+    <script src="/scripts/strings-loader.js"></script>
+    <script src="/scripts/language-selector.js"></script>
+    <script src="/scripts/sidebar-overlay.js"></script>
+    <script src="/scripts/user-stats-popup.js"></script>
+  </body>
+</html>

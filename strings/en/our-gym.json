@@ -1,0 +1,342 @@
+[
+    {
+        "id": "gym-title",
+        "en": "TenaPrime Fitness Club"
+    },
+    {
+        "id": "gym-subtitle",
+        "en": "Where Fitness Meets Excellence"
+    },
+    {
+        "id": "join-now",
+        "en": "Join Now"
+    },
+    {
+        "id": "about-gym",
+        "en": "About Our Gym"
+    },
+    {
+        "id": "about-gym-p1",
+        "en": "TenaPrime Fitness Club is Addis Ababa's premier fitness destination, offering state-of-the-art equipment, expert trainers, and a supportive community environment to help you achieve your fitness goals."
+    },
+    {
+        "id": "about-gym-p2",
+        "en": "Established in 2020, we've quickly become the city's favorite place to train, with members experiencing real results through our personalized approach to fitness."
+    },
+    {
+        "id": "feature-1",
+        "en": "24/7 Access"
+    },
+    {
+        "id": "feature-2",
+        "en": "Expert Trainers"
+    },
+    {
+        "id": "feature-3",
+        "en": "Latest Equipment"
+    },
+    {
+        "id": "feature-4",
+        "en": "Group Classes"
+    },
+    {
+        "id": "facilities",
+        "en": "Our Facilities"
+    },
+    {
+        "id": "facility-1",
+        "en": "Free Weights Area"
+    },
+    {
+        "id": "facility-1-desc",
+        "en": "Complete range of dumbbells, barbells, and weight plates for strength training."
+    },
+    {
+        "id": "facility-2",
+        "en": "Cardio Zone"
+    },
+    {
+        "id": "facility-2-desc",
+        "en": "Modern treadmills, ellipticals, and bikes with personal entertainment systems."
+    },
+    {
+        "id": "facility-3",
+        "en": "Group Fitness Studio"
+    },
+    {
+        "id": "facility-3-desc",
+        "en": "Spacious studio for yoga, aerobics, and high-intensity interval training classes."
+    },
+    {
+        "id": "facility-4",
+        "en": "Changing Rooms"
+    },
+    {
+        "id": "facility-4-desc",
+        "en": "Clean and modern changing facilities with secure lockers and shower amenities."
+    },
+    {
+        "id": "classes",
+        "en": "Our Classes"
+    },
+    {
+        "id": "class-1",
+        "en": "HIIT"
+    },
+    {
+        "id": "class-1-desc",
+        "en": "High-intensity interval training for maximum calorie burn and fitness improvement."
+    },
+    {
+        "id": "mon-wed-fri",
+        "en": "Mon, Wed, Fri"
+    },
+    {
+        "id": "class-2",
+        "en": "Yoga"
+    },
+    {
+        "id": "class-2-desc",
+        "en": "Find balance and flexibility with our expert-led yoga sessions."
+    },
+    {
+        "id": "tue-thu",
+        "en": "Tue, Thu"
+    },
+    {
+        "id": "class-3",
+        "en": "Spin"
+    },
+    {
+        "id": "class-3-desc",
+        "en": "High-energy cycling workouts with music and motivation."
+    },
+    {
+        "id": "class-4",
+        "en": "Strength"
+    },
+    {
+        "id": "class-4-desc",
+        "en": "Build muscle and strength with our comprehensive resistance training program."
+    },
+    {
+        "id": "tue-thu-sat",
+        "en": "Tue, Thu, Sat"
+    },
+    {
+        "id": "trainers",
+        "en": "Meet Our Trainers"
+    },
+    {
+        "id": "head-trainer",
+        "en": "Head Trainer"
+    },
+    {
+        "id": "trainer-1-desc",
+        "en": "Certified strength and conditioning specialist with 10+ years of experience."
+    },
+    {
+        "id": "yoga-instructor",
+        "en": "Yoga Instructor"
+    },
+    {
+        "id": "trainer-2-desc",
+        "en": "Certified yoga instructor specializing in vinyasa and power yoga."
+    },
+    {
+        "id": "fitness-coach",
+        "en": "Fitness Coach"
+    },
+    {
+        "id": "trainer-3-desc",
+        "en": "Expert in HIIT and functional training with nutrition certification."
+    },
+    {
+        "id": "memberships",
+        "en": "Membership Plans"
+    },
+    {
+        "id": "basic",
+        "en": "Basic"
+    },
+    {
+        "id": "per-month",
+        "en": "/month"
+    },
+    {
+        "id": "basic-feature-1",
+        "en": "Gym access (6 AM - 10 PM)"
+    },
+    {
+        "id": "basic-feature-2",
+        "en": "Basic fitness assessment"
+    },
+    {
+        "id": "basic-feature-3",
+        "en": "Access to cardio equipment"
+    },
+    {
+        "id": "basic-feature-4",
+        "en": "Free water refill"
+    },
+    {
+        "id": "choose-plan",
+        "en": "Choose Plan"
+    },
+    {
+        "id": "premium",
+        "en": "Premium"
+    },
+    {
+        "id": "premium-feature-1",
+        "en": "24/7 gym access"
+    },
+    {
+        "id": "premium-feature-2",
+        "en": "Advanced fitness assessment"
+    },
+    {
+        "id": "premium-feature-3",
+        "en": "Full equipment access"
+    },
+    {
+        "id": "premium-feature-4",
+        "en": "2 free personal training sessions"
+    },
+    {
+        "id": "premium-feature-5",
+        "en": "Group classes included"
+    },
+    {
+        "id": "elite",
+        "en": "Elite"
+    },
+    {
+        "id": "elite-feature-1",
+        "en": "24/7 gym access"
+    },
+    {
+        "id": "elite-feature-2",
+        "en": "Complete fitness assessment"
+    },
+    {
+        "id": "elite-feature-3",
+        "en": "Full equipment access"
+    },
+    {
+        "id": "elite-feature-4",
+        "en": "4 personal training sessions/month"
+    },
+    {
+        "id": "elite-feature-5",
+        "en": "Unlimited group classes"
+    },
+    {
+        "id": "elite-feature-6",
+        "en": "Nutrition consultation"
+    },
+    {
+        "id": "testimonials",
+        "en": "What Our Members Say"
+    },
+    {
+        "id": "testimonial-1",
+        "en": "\"TenaPrime Fitness Club changed my life. I've lost 15kg and gained so much confidence. The trainers are exceptional and the community is so supportive.\""
+    },
+    {
+        "id": "member-since",
+        "en": "Member since 2021"
+    },
+    {
+        "id": "testimonial-2",
+        "en": "\"The facilities are top-notch and always clean. I appreciate the 24/7 access since I work odd hours. This gym accommodates my schedule perfectly.\""
+    },
+    {
+        "id": "testimonial-3",
+        "en": "\"The group classes are amazing! I've tried HIIT and yoga, and both instructors are knowledgeable and motivating. I never thought I could enjoy working out this much.\""
+    },
+    {
+        "id": "our-location",
+        "en": "Our Location"
+    },
+    {
+        "id": "address",
+        "en": "Address"
+    },
+    {
+        "id": "phone",
+        "en": "Phone"
+    },
+    {
+        "id": "email",
+        "en": "Email"
+    },
+    {
+        "id": "hours",
+        "en": "Hours"
+    },
+    {
+        "id": "hours-value",
+        "en": "24/7 for Premium & Elite Members<br>6 AM - 10 PM for Basic Members"
+    },
+    {
+        "id": "ready-to-join",
+        "en": "Ready to Start Your Fitness Journey?"
+    },
+    {
+        "id": "cta-description",
+        "en": "Join TenaPrime Fitness Club today and transform your life with our premium facilities, expert trainers, and supportive community."
+    },
+    {
+        "id": "view-memberships",
+        "en": "View Memberships"
+    },
+    {
+        "id": "free-trial",
+        "en": "Try Free Day Pass"
+    },
+    {
+        "id": "become-member",
+        "en": "Become a Member"
+    },
+    {
+        "id": "ai-trainer",
+        "en": "Your Personal AI Trainer"
+    },
+    {
+        "id": "workout-assistant",
+        "en": "Personalized Workout Assistant"
+    },
+    {
+        "id": "workout-ai-desc",
+        "en": "Get customized workout plans, track your progress, and receive real-time feedback to maximize your fitness goals."
+    },
+    {
+        "id": "try-workout-ai",
+        "en": "Try My Workout"
+    },
+    {
+        "id": "nutrition-advisor",
+        "en": "Smart Nutrition Advisor"
+    },
+    {
+        "id": "nutrition-ai-desc",
+        "en": "Receive tailored meal plans, nutritional advice, and dietary recommendations that complement your workout routine."
+    },
+    {
+        "id": "try-nutrition-ai",
+        "en": "Try My Nutrition"
+    },
+    {
+        "id": "always-available",
+        "en": "Always Available"
+    },
+    {
+        "id": "ai-benefits-desc",
+        "en": "Unlike human trainers, your AI assistant is available anytime, adapts to your progress, and provides consistent guidance wherever you are."
+    },
+    {
+        "id": "learn-more",
+        "en": "Learn More"
+    }
+]
