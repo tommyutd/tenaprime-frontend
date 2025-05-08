@@ -60,12 +60,8 @@
         "en": "© 2025 TenaPrime. All rights reserved."
     },
     {
-        "id": "winners-section-title",
-        "en": "Check Out Our Gym"
-    },
-    {
-        "id": "winners-section-description",
-        "en": "A sneak peek into our training environment. <a href=\"#\">Our Gym</a>!"
+        "id": "trainer-preview-title",
+        "en": "A Sneak Peek Into Your Digital Training Partner."
     },
     {
         "id": "prompt-cancel",

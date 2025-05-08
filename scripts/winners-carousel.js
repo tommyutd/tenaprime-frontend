@@ -18,20 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Extract just the image URLs for background changes
     const backgroundImages = cardData.map(data => data.image);
     let currentImageIndex = 0; // Start with the first image
-
-    // --- Remove card creation logic ---
-    /*
-    function createCard(data) {
-      // ... card creation code removed ...
-    }
-    */
-
-    // --- Remove initial card setup ---
-    /*
-    // 1. Previous card: ...
-    // 2. Active card: ...
-    // 3. Next cards: ...
-    */
+    
+    // Preload all images when the page loads
+    preloadImages(backgroundImages);
+    
+    // Set initial background
+    changeBackground('initial');
 
     let rotationInterval = setInterval(changeBackground, 5000); // Auto-rotate background
 
@@ -61,15 +53,25 @@ document.addEventListener('DOMContentLoaded', () => {
       console.warn('Warning: .next-button element not found.');
     }
 
+    // Function to preload images
+    function preloadImages(imageArray) {
+      imageArray.forEach(imageUrl => {
+        const img = new Image();
+        img.src = imageUrl;
+      });
+    }
 
     // --- Function to change the background image ---
     function changeBackground(direction = 'next') {
       if (backgroundImages.length === 0) return; // Do nothing if no images
 
-      if (direction === 'next') {
-        currentImageIndex = (currentImageIndex + 1) % backgroundImages.length;
-      } else { // direction === 'prev'
-        currentImageIndex = (currentImageIndex - 1 + backgroundImages.length) % backgroundImages.length;
+      // Only update index if not the initial call
+      if (direction !== 'initial') {
+        if (direction === 'next') {
+          currentImageIndex = (currentImageIndex + 1) % backgroundImages.length;
+        } else if (direction === 'prev') {
+          currentImageIndex = (currentImageIndex - 1 + backgroundImages.length) % backgroundImages.length;
+        }
       }
 
       // Update the background image

@@ -60,12 +60,8 @@
         "am": "© 2025 ጤናፕራይም። ሁሉም መብቶች የተጠበቁ ናቸው።"
     },
     {
-        "id": "winners-section-title",
-        "am": "ጂማችንን ይመልከቱ!"
-    },
-    {
-        "id": "winners-section-description",
-        "am": "እውነተኛ ለውጥ የሚከሰትበትን ጂማችንን ይመልከቱ። <a href=\"#\">ጂማችን</a>!"
+        "id": "trainer-preview-title",
+        "am": "ወደ ዲጂታል ማሰልጠኛ አጋርዎ ሾልኮ ይመልከቱ።"
     },
     {
         "id": "prompt-cancel",

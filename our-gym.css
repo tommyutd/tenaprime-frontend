@@ -150,7 +150,7 @@
 
 /* About Section */
 .our-gym-about-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("/assets/our-gym/gym-about.jpg");
   background-size: cover;
   background-position: center;
@@ -834,36 +834,128 @@
   }
 }
 
-/* Dark Mode Adjustments 
-[data-theme="dark"] .our-gym-facilities-section,
-[data-theme="dark"] .our-gym-trainers-section,
-[data-theme="dark"] .our-gym-testimonials-section {
-  background-color: var(--bg-darker, #1a1a1a);
+/* Gallery Section */
+.our-gym-gallery-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--bg-primary);
 }
 
-[data-theme="dark"] .our-gym-facility-card,
-[data-theme="dark"] .our-gym-class-card,
-[data-theme="dark"] .our-gym-trainer-card,
-[data-theme="dark"] .our-gym-pricing-card,
-[data-theme="dark"] .our-gym-testimonial-card {
-  background-color: var(--bg-dark, #2a2a2a);
+.our-gym-gallery-slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-[data-theme="dark"] .our-gym-facility-icon,
-[data-theme="dark"] .our-gym-contact-icon {
-  background-color: var(--bg-color);
+.our-gym-gallery-slides {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-[data-theme="dark"] .our-gym-pricing-features li,
-[data-theme="dark"] .our-gym-class-schedule {
-  border-color: var(--border-dark, #3a3a3a);
+.our-gym-gallery-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease;
+  z-index: 1;
 }
 
-[data-theme="dark"] .our-gym-cta-button.primary {
-  color: var(--bg-darker, #1a1a1a);
+.our-gym-gallery-slide.active {
+  opacity: 1;
+  z-index: 2;
 }
 
-[data-theme="dark"] .our-gym-cta-button.primary:hover {
-  background-color: var(--bg-light, #f8f9fa);
+.our-gym-gallery-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-*/
+
+.our-gym-gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  z-index: 5;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0) 100%);
+}
+
+.our-gym-gallery-overlay .our-gym-section-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.our-gym-gallery-overlay .our-gym-section-header h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.our-gym-gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s;
+}
+
+.our-gym-gallery-nav:hover {
+  background-color: var(--accent-primary);
+}
+
+.our-gym-gallery-nav.prev-btn {
+  left: 20px;
+}
+
+.our-gym-gallery-nav.next-btn {
+  right: 20px;
+}
+
+/* Gallery Dots */
+.our-gym-gallery-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.our-gym-gallery-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.our-gym-gallery-dot.active {
+  background-color: var(--accent-primary);
+  transform: scale(1.2);
+}
+
+.our-gym-gallery-dot:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}

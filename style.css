@@ -217,6 +217,7 @@ body {
   border-radius: 40px;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .ethiotelecom img {
@@ -1161,7 +1162,7 @@ input[type="number"] {
   flex-direction: column;
   justify-content: center;
   overflow-x: hidden;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/showcase-bg.jpg');
+  /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/showcase-bg.jpg');*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1650,12 +1651,16 @@ input[type="number"] {
   height: auto;
   background-color: white;
   border-radius: 20px;
-  padding: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-ethiotelecom img {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .workout-plan-heading {

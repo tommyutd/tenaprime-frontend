@@ -161,29 +161,79 @@
               </div>
             </div>
           </div>
-          <div class="winners-section">
-            <div class="slideshow-container">
-              <div class="left-margin">
-                <button class="carousel-button prev-button">
-                  <img src="/assets/prev-arrow.svg" alt="Previous" />
-                </button>
+
+          <div class="personal-trainer-preview-section">
+            <div class="personal-trainer-container">
+              <div class="section-header">
+                <h2 class="aleo-text" data-text-key="trainer-preview-title">A Sneak Peek Into Your Personal Trainer</h2>
+                <div class="divider"></div>
               </div>
-              <div class="carousel"></div>
-              <div class="right-margin">
-                <button class="carousel-button next-button">
-                  <img src="/assets/next-arrow.svg" alt="Next" />
+              
+              <div class="trainer-gallery-slider">
+                <div class="trainer-gallery-slides">
+                  <div class="trainer-gallery-slide active">
+                    <img src="/assets/trainer-preview/img1.png"/>
+                  </div>
+                  <div class="trainer-gallery-slide">
+                    <img src="/assets/trainer-preview/img2.png"/>
+                  </div>
+                  <div class="trainer-gallery-slide">
+                    <img src="/assets/trainer-preview/img3.png"/>
+                  </div>
+                  <div class="trainer-gallery-slide">
+                    <img src="/assets/trainer-preview/img4.png"/>
+                  </div>
+                  <div class="trainer-gallery-slide">
+                    <img src="/assets/trainer-preview/img5.png"/>
+                  </div>
+                  <div class="trainer-gallery-slide">
+                    <img src="/assets/trainer-preview/img6.png"/>
+                  </div>
+                  <div class="trainer-gallery-slide">
+                    <img src="/assets/trainer-preview/img7.png"/>
+                  </div>
+                  <div class="trainer-gallery-slide">
+                    <img src="/assets/trainer-preview/img8.png"/>
+                  </div>
+                  <div class="trainer-gallery-slide">
+                    <img src="/assets/trainer-preview/img9.png"/>
+                  </div>
+                  <div class="trainer-gallery-slide">
+                    <img src="/assets/trainer-preview/img10.png"/>
+                  </div>
+                </div>
+                
+                <button class="trainer-gallery-nav prev-btn" aria-label="Previous image">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                  </svg>
                 </button>
+                <button class="trainer-gallery-nav next-btn" aria-label="Next image">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </button>
+                
+                <div class="trainer-gallery-dots">
+                  <span class="trainer-gallery-dot active" data-index="0"></span>
+                  <span class="trainer-gallery-dot" data-index="1"></span>
+                  <span class="trainer-gallery-dot" data-index="2"></span>
+                  <span class="trainer-gallery-dot" data-index="3"></span>
+                  <span class="trainer-gallery-dot" data-index="4"></span>
+                  <span class="trainer-gallery-dot" data-index="5"></span>
+                  <span class="trainer-gallery-dot" data-index="6"></span>
+                  <span class="trainer-gallery-dot" data-index="7"></span>
+                  <span class="trainer-gallery-dot" data-index="8"></span>
+                  <span class="trainer-gallery-dot" data-index="9"></span>
+                </div>
               </div>
-            </div>
-            <div class="winners-section-text-container aleo-text">
-              <h1 data-text-key="winners-section-title">Meet the winners!</h1>
-              <h3 data-text-key="winners-section-description">
-                Here are some of the winners of our weekly contest.
-                <a href="#">Login</a> or <a href="#">Register</a> to
-                participate.
-              </h3>
+              
+              <div class="trainer-preview-cta">
+                <a href="/#" class="cta-button aleo-text" data-text-key="join-now">Join Now</a>
+              </div>
             </div>
           </div>
+
           <div class="exercises-section">
             <div class="exercises-section-container">
               <div class="exercises-section-text-container">
@@ -538,5 +588,6 @@
     <script src="/scripts/sidebar-overlay.js"></script>
     <script src="/scripts/winners-carousel.js"></script>
     <script src="/scripts/register-overlay-script.js"></script>
+    <script src="/scripts/trainer-preview.js"></script>
   </body>
 </html>
