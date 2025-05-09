@@ -199,12 +199,28 @@
   padding: 1rem;
   border-radius: 15px;
   transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: var(--accent-100);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
 }
+
+/*
+.exercises-section-texts h1,
+.nutrition-section-texts h1,
+.prizes-section-texts h1,
+.exercises-section-texts b,
+.nutrition-section-texts b,
+.prizes-section-texts b,
+.exercises-section-texts p,
+.nutrition-section-texts p,
+.prizes-section-texts p {
+  color: black;
+}
+
 
 .exercises-section-texts:hover,
 .nutrition-section-texts:hover,
 .prizes-section-texts:hover {
-  background-color: var(--accent-70);
+  
 }
 
 .exercises-section-texts:hover h1,
@@ -217,11 +233,15 @@
 .nutrition-section-texts:hover p,
 .prizes-section-texts:hover p {
   color: black;
-}
+}*/
 
 .personal-trainer-preview-section {
   padding: 80px 0;
   background-color: var(--bg-primary);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/main-bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .personal-trainer-container {

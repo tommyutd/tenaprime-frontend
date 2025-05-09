@@ -416,6 +416,7 @@ body {
   width: 300px;
   background-color: var(--bg-secondary);
   border-radius: 8px;
+  border: 2px solid var(--accent-primary);
   box-shadow: 0 4px 6px var(--bg-10);
   opacity: 0;
   transition: all 0.3s ease-in-out;
@@ -1375,7 +1376,7 @@ input[type="number"] {
   align-items: center;
   justify-content: space-between;
   color: var(--text-primary);
-  gap: 2rem;
+  gap: 5rem;
   margin: 0 auto;
 }
 
@@ -1452,11 +1453,15 @@ input[type="number"] {
 .prizes-heading-image {
   flex: 1;
   height: fit-content;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   max-width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
 }
 
 .exercises-section-image-container img,
