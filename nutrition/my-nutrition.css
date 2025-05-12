@@ -4,6 +4,7 @@
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 1rem;
+  display: none;
 }
 
 .my-nutrition-overview {

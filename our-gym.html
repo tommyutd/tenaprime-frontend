@@ -494,6 +494,53 @@
           </div>
         </section>
 
+        <!-- Products Preview Section -->
+        <section class="our-gym-products-section" id="products">
+          <div class="our-gym-container">
+            <div class="our-gym-section-header">
+              <h2 class="our-gym-aleo-text" data-text-key="gym-products">
+                Gym Products
+              </h2>
+              <div class="our-gym-divider"></div>
+            </div>
+            <div class="our-gym-products-grid">
+              <div class="our-gym-product-card">
+                <div class="our-gym-product-image">
+                  <img src="assets/our-gym/supplements.jpg" alt="Supplements" />
+                </div>
+                <div class="our-gym-product-details">
+                  <h3 class="our-gym-aleo-text" data-text-key="our-gym-supplements">Supplements</h3>
+                  <p class="our-gym-product-description" data-text-key="our-gym-supplements-desc">
+                    High-quality supplements to support muscle recovery and growth after your workouts.
+                  </p>
+                </div>
+              </div>
+              <div class="our-gym-product-card">
+                <div class="our-gym-product-image">
+                  <img src="assets/our-gym/accessories.jpg" alt="Workout Accessories" />
+                </div>
+                <div class="our-gym-product-details">
+                  <h3 class="our-gym-aleo-text" data-text-key="our-gym-accessories">Accessories</h3>
+                  <p class="our-gym-product-description" data-text-key="our-gym-accessories-desc">
+                    Essential accessories and equipment to enhance your workout experience.
+                  </p>
+                </div>
+              </div>
+              <div class="our-gym-product-card">
+                <div class="our-gym-product-image">
+                  <img src="assets/our-gym/apparel.jpg" alt="Workout Apparel" />
+                </div>
+                <div class="our-gym-product-details">
+                  <h3 class="our-gym-aleo-text" data-text-key="our-gym-apparel">Apparel</h3>
+                  <p class="our-gym-product-description" data-text-key="our-gym-apparel-desc">
+                    Comfortable and stylish workout clothes for men and women, perfect for any exercise.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <!-- Membership Section -->
         <section class="our-gym-membership-section" id="membership">
           <div class="our-gym-container">
@@ -1005,88 +1052,6 @@
     <script src="/scripts/language-selector.js"></script>
     <script src="/scripts/sidebar-overlay.js"></script>
     <script src="/scripts/user-stats-popup.js"></script>
-    <script>
-      // Hide membership and CTA sections if user is logged in
-      document.addEventListener("DOMContentLoaded", async function () {
-        // Wait for auth state to be initialized and checked
-        await window.authState.init();
-        
-        if (window.authState && window.authState.isLoggedIn) {
-          const membershipSection = document.querySelector(
-            ".our-gym-membership-section"
-          );
-          const ctaSection = document.querySelector(".our-gym-cta-section");
-
-          if (membershipSection) membershipSection.style.display = "none";
-          if (ctaSection) ctaSection.style.display = "none";
-        }
-      });
-
-      // Gallery slider functionality
-      document.addEventListener("DOMContentLoaded", function() {
-        const slides = document.querySelectorAll('.our-gym-gallery-slide');
-        const dots = document.querySelectorAll('.our-gym-gallery-dot');
-        const prevBtn = document.querySelector('.prev-btn');
-        const nextBtn = document.querySelector('.next-btn');
-        let currentSlide = 0;
-        let slideInterval;
-        
-        // Start automatic slideshow
-        function startSlideshow() {
-          slideInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
-        }
-        
-        // Show a specific slide
-        function showSlide(index) {
-          // Remove active class from all slides and dots
-          slides.forEach(slide => slide.classList.remove('active'));
-          dots.forEach(dot => dot.classList.remove('active'));
-          
-          // Add active class to current slide and dot
-          slides[index].classList.add('active');
-          dots[index].classList.add('active');
-        }
-        
-        // Next slide function
-        function nextSlide() {
-          currentSlide = (currentSlide + 1) % slides.length;
-          showSlide(currentSlide);
-        }
-        
-        // Previous slide function
-        function prevSlide() {
-          currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-          showSlide(currentSlide);
-        }
-        
-        // Event listeners for buttons
-        if (prevBtn) prevBtn.addEventListener('click', function() {
-          clearInterval(slideInterval); // Stop automatic rotation
-          prevSlide();
-          startSlideshow(); // Restart automatic rotation
-        });
-        
-        if (nextBtn) nextBtn.addEventListener('click', function() {
-          clearInterval(slideInterval); // Stop automatic rotation
-          nextSlide();
-          startSlideshow(); // Restart automatic rotation
-        });
-        
-        // Event listeners for dots
-        dots.forEach(dot => {
-          dot.addEventListener('click', function() {
-            clearInterval(slideInterval); // Stop automatic rotation
-            currentSlide = parseInt(this.getAttribute('data-index'));
-            showSlide(currentSlide);
-            startSlideshow(); // Restart automatic rotation
-          });
-        });
-        
-        // Start the slideshow
-        if (slides.length > 0) {
-          startSlideshow();
-        }
-      });
-    </script>
+    <script src="/scripts/our-gym-gallery.js"></script>
   </body>
 </html>

@@ -56,12 +56,12 @@
         "en": "<b>Eat Better, Live Better!</b><br><br>Get recommendations and enjoy healthy recipes tailored to your personal goals."
     },
     {
-        "id": "prizes-section-title",
-        "en": "True Wellness"
+        "id": "tracking-section-title",
+        "en": "Forge Your Form"
     },
     {
-        "id": "prizes-section-description",
-        "en": "<b>Wellness Is the New Wealth</b><br><br>Mindful coaching, balanced living, and holistic progress tracking—all in one seamless platform."
+        "id": "tracking-section-description",
+        "en": "<b>Progress You Can See, Power You Can Feel</b><br><br>Smart tracking, deep performance insights, and evolving personal records."
     },
     {
         "id": "prizes-title",
@@ -74,5 +74,49 @@
     {
         "id": "prizes-play-now-button-text",
         "en": "Play Now and Win Big!"
+    },
+    {
+        "id": "gym-gallery",
+        "en": "Our Gym in Pictures"
+    },
+    {
+        "id": "personalization-section-title",
+        "en": "Define Your Blueprint"
+    },
+    {
+        "id": "personalization-section-description",
+        "en": "<b>No One-Size-Fits-All—Only You</b><br><br>Craft your unique profile, set your intentions, and let the system adapt to you. "
+    },
+    {
+        "id": "our-gym-supplements",
+        "en": "Supplements"
+    },
+    {
+        "id": "our-gym-supplements-desc",
+        "en": "High-quality supplements to support muscle recovery and growth after your workouts."
+    },
+    {
+        "id": "our-gym-accessories",
+        "en": "Accessories"
+    },
+    {
+        "id": "our-gym-accessories-desc",
+        "en": "Essential accessories and equipment to enhance your workout experience."
+    },
+    {
+        "id": "our-gym-apparel",
+        "en": "Apparel"
+    },
+    {
+        "id": "our-gym-apparel-desc",
+        "en": "Comfortable and stylish workout clothes for men and women, perfect for any exercise."
+    },
+    {
+        "id": "gym-products",
+        "en": "Our Gym Products"
+    },
+    {
+        "id": "index-cta-description",
+        "en": "Join Now and transform your life with our AI driven personal trainer."
     }
 ]

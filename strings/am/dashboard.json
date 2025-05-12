@@ -52,6 +52,34 @@
         "am": "ለእርስዎ ከተዘጋጀ አሰልጣኝ ጋር ይስሩ።"
     },
     {
+        "id": "warmup-section",
+        "am": "ማሟሟቂያ"
+    },
+    {
+        "id": "main-workout-section",
+        "am": "ዋና ስፖርት"
+    },
+    {
+        "id": "cooldown-section",
+        "am": "ማቀዝቀዥያ"
+    },
+    {
+        "id": "duration",
+        "am": "ቆይታ"
+    },
+    {
+        "id": "primary-targets",
+        "am": "ዋና ዒላማዎች"
+    },
+    {
+        "id": "secondary-targets",
+        "am": "ሁለተኛ ደረጃ ዒላማዎች"
+    },
+    {
+        "id": "complete-workout",
+        "am": "የተሟላ የአካል ብቃት እንቅስቃሴ"
+    },
+    {
         "id": "prizes-title",
         "am": "አሁን ያሸንፉ"
     },
@@ -88,11 +116,683 @@
         "am": "ጊዜ"
     },
     {
+        "id": "toast-workout-regen",
+        "am": "ስፖርቱ በተሳካ ሁኔታ ታድሷል!"
+    },
+    {
+        "id": "toast-workout-regen-error",
+        "am": "ስፖርቱን እንደገና ማመንጨት አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+    },
+    {
+        "id": "toast-workout-reset",
+        "am": "ሂደትን ዳግም ማስጀመር ተሳክቷል!"
+    },
+    {
+        "id": "toast-workout-reset-error",
+        "am": "ሂደቱን ዳግም ማስጀመር አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+    },
+    {
+        "id": "prompt-workout-reset-title",
+        "am": "ሂደትን ዳግም አስጀምር"
+    },
+    {
+        "id": "prompt-workout-reset-message",
+        "am": "እርግጠኛ ነዎት ሂደትዎን ዳግም ማስጀመር ይፈልጋሉ? ይህ ሁሉንም የተጠናቀቁ ልምምዶች ያጠፋል።"
+    },
+    {
+        "id": "prompt-workout-regen-title",
+        "am": "ስፖርትዎን እንደገና ያድሱ"
+    },
+    {
+        "id": "prompt-workout-regen-message",
+        "am": "እርግጠኛ ነዎት ይህን ስፖርታዊ እንቅስቃሴ ማደስ ይፈልጋሉ? ይህ አዲስ የስፖርት እቅድ ይፈጥራል፣ ነገር ግን ሂደትዎን አይነካም።"
+    },
+    {
+        "id": "prompt-workout-complete-title",
+        "am": "የተሟላ ስፖርት"
+    },
+    {
+        "id": "prompt-workout-complete-message",
+        "am": "እርግጠኛ ነዎት ስፖርታዊ እንቅስቃሴውን ማጠናቀቅ ይፈልጋሉ?"
+    },
+    {
+        "id": "prompt-workout-end-title",
+        "am": "ስፖርቱን ያጠናቁ"
+    },
+    {
+        "id": "prompt-workout-end-message",
+        "am": "እርግጠኛ ነዎት ስፖርታዊ እንቅስቃሴውን ማቆም ይፈልጋሉ?"
+    },
+    {
+        "id": "selected-day-workout-title",
+        "am": "የተመረጠው ቀን ስፖርት"
+    },
+    {
+        "id": "start-workout",
+        "am": "ስፖርቱን ይጀምሩ"
+    },
+    {
+        "id": "regenerate-workout",
+        "am": "ስፖርቱን እንደገና ያድሱ"
+    },
+    {
+        "id": "reset-progress",
+        "am": "ሂደትን ዳግም አስጀምር"
+    },
+    {
+        "id": "current-exercise",
+        "am": "ወቅታዊ ስፖርት"
+    },
+    {
+        "id": "previous",
+        "am": "ቀዳሚ"
+    },
+    {
+        "id": "next",
+        "am": "ቀጥሎ"
+    },
+    {
+        "id": "pause-workout",
+        "am": "ስፖርቱን አቁም"
+    },
+    {
+        "id": "resume-workout",
+        "am": "ስፖርቱን ቀጥል"
+    },
+    {
+        "id": "end-workout",
+        "am": "ስፖርቱን ጨርስ"
+    },
+    {
+        "id": "phase-label",
+        "am": "ደረጃ፦"
+    },
+    {
+        "id": "phase-text",
+        "am": "{{ordinal}} ደረጃ"
+    },
+    {
+        "id": "exercises-label",
+        "am": "ስፖርቶች፦"
+    },
+    {
+        "id": "estimated-duration-label",
+        "am": "የሚገመተው ቆይታ፦"
+    },
+    {
+        "id": "exercise-duration-minutes",
+        "am": "{{exercise-duration}} ደቂቃዎች"
+    },
+    {
+        "id": "no-exercises",
+        "am": "ምንም ስፖርቶች አልተገኙም"
+    },
+    {
+        "id": "rest-day-label",
+        "am": "<strong>የእረፍት ቀን፦</strong> ምንም የስፖርት መርሐግብር አልያዘም።"
+    },
+    {
+        "id": "month-january",
+        "am": "ጥር"
+    },
+    {
+        "id": "month-february",
+        "am": "የካቲት"
+    },
+    {
+        "id": "month-march",
+        "am": "መጋቢት"
+    },
+    {
+        "id": "month-april",
+        "am": "ሚያዚያ"
+    },
+    {
+        "id": "month-may",
+        "am": "ግንቦት"
+    },
+    {
+        "id": "month-june",
+        "am": "ሰኔ"
+    },
+    {
+        "id": "month-july",
+        "am": "ሀምሌ"
+    },
+    {
+        "id": "month-august",
+        "am": "ነሐሴ"
+    },
+    {
+        "id": "month-september",
+        "am": "መስከረም"
+    },
+    {
+        "id": "month-october",
+        "am": "ጥቅምት"
+    },
+    {
+        "id": "month-november",
+        "am": "ህዳር"
+    },
+    {
+        "id": "month-december",
+        "am": "ታህሳስ"
+    },
+    {
+        "id": "day-sun",
+        "am": "እሁድ"
+    },
+    {
+        "id": "day-mon",
+        "am": "ሰኞ"
+    },
+    {
+        "id": "day-tue",
+        "am": "ማክሰኞ"
+    },
+    {
+        "id": "day-wed",
+        "am": "ረቡዕ"
+    },
+    {
+        "id": "day-thu",
+        "am": "ሐሙስ"
+    },
+    {
+        "id": "day-fri",
+        "am": "ዓርብ"
+    },
+    {
+        "id": "day-sat",
+        "am": "ቅዳሜ"
+    },
+    {
+        "id": "duration-seconds",
+        "am": "{{exercise-duration}} ሰከንዶች"
+    },
+    {
+        "id": "set",
+        "am": "ሴት"
+    },
+    {
+        "id": "set-of-total",
+        "am": "{{current-set}} ከ{{total-sets}}"
+    },
+    {
+        "id": "exercise-reps",
+        "am": " - {{exercise-reps}} ድግግሞሽ"
+    },
+    {
+        "id": "nutrition-stats-title",
+        "am": "የአመጋገብ ስታቲስቲክስ"
+    },
+    {
+        "id": "bmr-label",
+        "am": "ባሳል ሜታቦሊክ ሬት (ቢኤምአር)"
+    },
+    {
+        "id": "tdee-label",
+        "am": "ጠቅላላ ዕለታዊ የኃይል ወጪ (TDEE)"
+    },
+    {
+        "id": "nutrition-recommendations-title",
+        "am": "ምክሮች"
+    },
+    {
+        "id": "calorie-adjustment-label",
+        "am": "የካሎሪ ማስተካከያ"
+    },
+    {
+        "id": "hydration-label",
+        "am": "ዕለታዊ የሃይድሬሽን ግብ"
+    },
+    {
+        "id": "macro-breakdown-title",
+        "am": "የማክሮ ንጥረነገሮች ግቦች"
+    },
+    {
+        "id": "meal-timings-title",
+        "am": "ምርጡ የምግብ መርሃ ግብር"
+    },
+    {
+        "id": "nutrition-bmr-calories",
+        "am": "{{bmr}} ካሎሪዎች"
+    },
+    {
+        "id": "nutrition-tdee-calories",
+        "am": "{{tdee}} ካሎሪዎች"
+    },
+    {
+        "id": "nutrition-calorie-adjustment",
+        "am": "{{adjustment}} ካሎሪዎች"
+    },
+    {
+        "id": "nutrition-hydration-goal",
+        "am": "{{liters}} ሊትር"
+    },
+    {
+        "id": "macro-label-protein",
+        "am": "ፕሮቲን"
+    },
+    {
+        "id": "macro-label-carbs",
+        "am": "ካርቦሃይድሬትስ"
+    },
+    {
+        "id": "macro-label-fats",
+        "am": "ቅባት"
+    },
+    {
+        "id": "meal-number",
+        "am": "ምግብ {{meal-number}}"
+    },
+    {
+        "id": "meal-calories",
+        "am": "{{meal-calories}} ካሎሪ"
+    },
+    {
+        "id": "meal-percentage",
+        "am": "የዕለታዊ {{meal-percentage}}%"
+    },
+    {
+        "id": "ingredients-title",
+        "am": "ንጥረ ነገሮች"
+    },
+    {
+        "id": "instructions-title",
+        "am": "መመሪያዎች"
+    },
+    {
+        "id": "nutrition-distribution-title",
+        "am": "የአመጋገብ ስርጭት"
+    },
+    {
+        "id": "prep-time",
+        "am": "ዝግጅት፦ {{prep-time}} ደቂቃ"
+    },
+    {
+        "id": "cook-time",
+        "am": "ምግብ ማብሰል፦ {{cook-time}} ደቂቃ"
+    },
+    {
+        "id": "add",
+        "am": "ጨምር"
+    },
+    {
+        "id": "bake",
+        "am": "ጋግሩ"
+    },
+    {
+        "id": "beat",
+        "am": "ደባልቁ"
+    },
+    {
+        "id": "blanch",
+        "am": "ቀቅሉ"
+    },
+    {
+        "id": "blend",
+        "am": "ቀላቅሉ"
+    },
+    {
+        "id": "boil",
+        "am": "ቀቅሉ"
+    },
+    {
+        "id": "broil",
+        "am": "ጥበሱ"
+    },
+    {
+        "id": "caramelize",
+        "am": "ካራሜላይዝ"
+    },
+    {
+        "id": "chop",
+        "am": "ክተፉ"
+    },
+    {
+        "id": "combine",
+        "am": "አዋህዱ"
+    },
+    {
+        "id": "cool",
+        "am": "አቀዝቅዙ"
+    },
+    {
+        "id": "crack",
+        "am": "ሰንጥቁ"
+    },
+    {
+        "id": "crush",
+        "am": "ጨፍልቁ"
+    },
+    {
+        "id": "cut",
+        "am": "ቁረጡ"
+    },
+    {
+        "id": "deep-fry",
+        "am": "ጥልቅ-ጥብስ"
+    },
+    {
+        "id": "dice",
+        "am": "ዳይስ"
+    },
+    {
+        "id": "dollop",
+        "am": "ዶሎፕ"
+    },
+    {
+        "id": "drain",
+        "am": "ያፍስሱ"
+    },
+    {
+        "id": "drizzle",
+        "am": "አፍስሱ"
+    },
+    {
+        "id": "flip",
+        "am": "ገልብጡ"
+    },
+    {
+        "id": "fold",
+        "am": "እጠፉ"
+    },
+    {
+        "id": "freeze",
+        "am": "ያቀዝቅዙ"
+    },
+    {
+        "id": "fry",
+        "am": "ጥበሱ"
+    },
+    {
+        "id": "garnish",
+        "am": "ያስጊጡ"
+    },
+    {
+        "id": "grate",
+        "am": "ፍርግርግ"
+    },
+    {
+        "id": "grill",
+        "am": "ግሪል"
+    },
+    {
+        "id": "grind",
+        "am": "መፍጨት"
+    },
+    {
+        "id": "heat",
+        "am": "ያሙቁ"
+    },
+    {
+        "id": "julienne",
+        "am": "ጁሊን"
+    },
+    {
+        "id": "knead",
+        "am": "ይደባልቁ"
+    },
+    {
+        "id": "layer",
+        "am": "ንብርብር"
+    },
+    {
+        "id": "marinate",
+        "am": "ማሪኔት"
+    },
+    {
+        "id": "mash",
+        "am": "ማሽ"
+    },
+    {
+        "id": "measure",
+        "am": "ለኩ"
+    },
+    {
+        "id": "mince",
+        "am": "ይክተፉ"
+    },
+    {
+        "id": "mix",
+        "am": "ቀላቅሉ"
+    },
+    {
+        "id": "open",
+        "am": "ክፈት"
+    },
+    {
+        "id": "peel",
+        "am": "ላጡት"
+    },
+    {
+        "id": "place",
+        "am": "አስቀምጡ"
+    },
+    {
+        "id": "poach",
+        "am": "ቀቅሉ"
+    },
+    {
+        "id": "pour",
+        "am": "አፍስሱ"
+    },
+    {
+        "id": "powder",
+        "am": "ዱቄት"
+    },
+    {
+        "id": "prepare",
+        "am": "አዘጋጁ"
+    },
+    {
+        "id": "press",
+        "am": "ተጫኑ"
+    },
+    {
+        "id": "put",
+        "am": "አስቀምጡ"
+    },
+    {
+        "id": "reduce",
+        "am": "ቀንሱ"
+    },
+    {
+        "id": "refrigerate",
+        "am": "ያቀዝቅዙ"
+    },
+    {
+        "id": "rinse",
+        "am": "ይጠቡ"
+    },
+    {
+        "id": "roast",
+        "am": "ጥበሱ"
+    },
+    {
+        "id": "roll",
+        "am": "ጥቅልል"
+    },
+    {
+        "id": "saute",
+        "am": "ሶቴ"
+    },
+    {
+        "id": "sear",
+        "am": "ጥበሱ"
+    },
+    {
+        "id": "shred",
+        "am": "ክተፉ"
+    },
+    {
+        "id": "simmer",
+        "am": "ቀቅሉ"
+    },
+    {
+        "id": "slice",
+        "am": "ቁረጡ"
+    },
+    {
+        "id": "smash",
+        "am": "ጨፍልቁ"
+    },
+    {
+        "id": "soak",
+        "am": "ንከሩ"
+    },
+    {
+        "id": "skim",
+        "am": "ያውጡ"
+    },
+    {
+        "id": "squeeze",
+        "am": "ጭመቁ"
+    },
+    {
+        "id": "sprinkle",
+        "am": "ይርጩ"
+    },
+    {
+        "id": "spread",
+        "am": "ያሰራጩ"
+    },
+    {
+        "id": "steam",
+        "am": "በእንፋሎት ይጥበሱ"
+    },
+    {
+        "id": "stir",
+        "am": "ያማስሉ"
+    },
+    {
+        "id": "stir-fry",
+        "am": "እያማሰሉ ይጥበሱ"
+    },
+    {
+        "id": "thaw",
+        "am": "አቅልጡ"
+    },
+    {
+        "id": "toast",
+        "am": "ቶስት ያድርጉ"
+    },
+    {
+        "id": "top",
+        "am": "ከላይ ያድርጉ"
+    },
+    {
+        "id": "toss",
+        "am": "ገልብጡ"
+    },
+    {
+        "id": "whisk",
+        "am": "ይምቱ"
+    },
+    {
+        "id": "combined_ingredients",
+        "am": "የተዋሃዱ ንጥረ ነገሮች"
+    },
+    {
+        "id": "grams",
+        "am": "ግራም"
+    },
+    {
+        "id": "ml",
+        "am": "ሚሊ"
+    },
+    {
+        "id": "whole",
+        "am": "ሙሉ"
+    },
+    {
+        "id": "half",
+        "am": "ግማሽ"
+    },
+    {
+        "id": "quarter",
+        "am": "ሩብ"
+    },
+    {
+        "id": "cup",
+        "am": "ኩባያ"
+    },
+    {
+        "id": "cups",
+        "am": "ኩባያዎች"
+    },
+    {
+        "id": "tbsp",
+        "am": "ማንኪያ"
+    },
+    {
+        "id": "in",
+        "am": "ውስጥ"
+    },
+    {
+        "id": "on",
+        "am": "ላይ"
+    },
+    {
+        "id": "over",
+        "am": "ላይ"
+    },
+    {
+        "id": "into",
+        "am": "ወደ"
+    },
+    {
+        "id": "toast-workout-complete",
+        "am": "እንኳን ደስ አልዎት! የዛሬውን የአካል ብቃት እንቅስቃሴ አጠናቅቀዋል።"
+    },
+    {
+        "id": "toast-workout-complete-failed",
+        "am": "የአካል ብቃት እንቅስቃሴውን ማጠናቀቅ አልተቻለም። እባክዎ እንደገና ይሞክሩ።"
+    },
+    {
         "id": "featured-workouts-title",
         "am": "ተለይተው የቀረቡ ስፖርቶች"
     },
     {
         "id": "featured-nutrition-title",
         "am": "ተለይቶ የቀረበ የአመጋገብ ይዘት"
+    },
+    {
+        "id": "gym-gallery",
+        "am": "የኛ ጂም በፎቶዎች"
+    },
+    {
+        "id": "our-gym-supplements",
+        "am": "ተጨማሪዎች"
+    },
+    {
+        "id": "our-gym-supplements-desc",
+        "am": "ከአካል ብቃት እንቅስቃሴዎ በኋላ የጡንቻን ማገገም እና እድገትን ለመደገፍ ከፍተኛ ጥራት ያላቸው ማሟያዎች።"
+    },
+    {
+        "id": "our-gym-accessories",
+        "am": "መለዋወጫዎች"
+    },
+    {
+        "id": "our-gym-accessories-desc",
+        "am": "የአካል ብቃት እንቅስቃሴ ልምድዎን ለማሻሻል አስፈላጊ መለዋወጫዎች እና መሳሪያዎች።"
+    },
+    {
+        "id": "our-gym-apparel",
+        "am": "አልባሳት"
+    },
+    {
+        "id": "our-gym-apparel-desc",
+        "am": "ለወንዶች እና ለሴቶች ምቹ እና የሚያምር የአካል ብቃት እንቅስቃሴ ልብስ ፣ ለማንኛውም የአካል ብቃት እንቅስቃሴ ተስማሚ።"
+    },
+    {
+        "id": "gym-products",
+        "am": "የእኛ የጂም ምርቶች"
+    },
+    {
+        "id": "dashboard-cta-description",
+        "am": "አሁን ይጀምሩ እና በእኛ AI በሚመራ የግል አሰልጣኝ ህይወትዎን ይለውጡ።"
     }
 ]

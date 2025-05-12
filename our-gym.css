@@ -834,128 +834,84 @@
   }
 }
 
-/* Gallery Section */
-.our-gym-gallery-section {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
+/* Products Section */
+.our-gym-products-section {
+  padding: 80px 0;
   background-color: var(--bg-primary);
 }
 
-.our-gym-gallery-slider {
-  position: relative;
-  width: 100%;
-  height: 100%;
+.our-gym-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.our-gym-product-card {
+  background-color: var(--accent-70);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.our-gym-product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.our-gym-product-image {
+  height: 70%;
   overflow: hidden;
 }
 
-.our-gym-gallery-slides {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.our-gym-gallery-slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 1s ease;
-  z-index: 1;
-}
-
-.our-gym-gallery-slide.active {
-  opacity: 1;
-  z-index: 2;
-}
-
-.our-gym-gallery-slide img {
+.our-gym-product-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.5s;
 }
 
-.our-gym-gallery-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 70px;
-  z-index: 5;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0) 100%);
+.our-gym-product-card:hover .our-gym-product-image img {
+  transform: scale(1.05);
 }
 
-.our-gym-gallery-overlay .our-gym-section-header {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+.our-gym-product-details {
+  padding: 20px;
   text-align: center;
 }
 
-.our-gym-gallery-overlay .our-gym-section-header h2 {
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+.our-gym-product-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--text-primary);
 }
 
-.our-gym-gallery-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 10;
-  transition: background-color 0.3s;
+.our-gym-product-description {
+  color: var(--text-primary);
+  margin-bottom: 15px;
+  min-height: 60px;
 }
 
-.our-gym-gallery-nav:hover {
-  background-color: var(--accent-primary);
+/* Media Queries for Products Section */
+@media (max-width: 992px) {
+  .our-gym-products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
 }
 
-.our-gym-gallery-nav.prev-btn {
-  left: 20px;
+@media (max-width: 768px) {
+  .our-gym-products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
 }
 
-.our-gym-gallery-nav.next-btn {
-  right: 20px;
-}
-
-/* Gallery Dots */
-.our-gym-gallery-dots {
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  z-index: 10;
-}
-
-.our-gym-gallery-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.our-gym-gallery-dot.active {
-  background-color: var(--accent-primary);
-  transform: scale(1.2);
-}
-
-.our-gym-gallery-dot:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+@media (max-width: 576px) {
+  .our-gym-products-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .our-gym-product-description {
+    min-height: auto;
+  }
 }

@@ -1333,6 +1333,7 @@ input[type="number"] {
 .exercises-section,
 .nutrition-section,
 .prizes-section,
+.personalization-section,
 .prizes-page {
   width: 100%;
   min-height: 70vh;
@@ -1347,15 +1348,19 @@ input[type="number"] {
 }
 
 .exercises-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/exercises-bg.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/exercises-bg.jpg');
 }
 
 .nutrition-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/nutrition-bg.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/nutrition-bg.jpg');
 }
 
 .prizes-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/wellness-bg.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/tracking-bg.jpg');
+}
+
+.personalization-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/personalization-bg.jpg');
 }
 
 .prizes-page {
@@ -1366,7 +1371,8 @@ input[type="number"] {
 .exercises-section-container,
 .nutrition-section-container,
 .prizes-section-container,
-.prizes-heading-container {
+.prizes-heading-container,
+.personalization-section-container {
   width: 80%;
   min-height: 80%;
   border-radius: 20px;
@@ -1401,10 +1407,15 @@ input[type="number"] {
   padding: 2%;
 }
 
+.personalization-section-container {
+  background: transparent;
+}
+
 .exercises-section-text-container,
 .nutrition-section-text-container,
 .prizes-section-text-container,
-.prizes-heading-text-container {
+.prizes-heading-text-container,
+.personalization-section-text-container {
   flex: 0 0 50%;
   display: flex;
   flex-direction: column;
@@ -1412,7 +1423,8 @@ input[type="number"] {
 
 .exercises-section-texts,
 .nutrition-section-texts,
-.prizes-section-texts {
+.prizes-section-texts,
+.personalization-section-texts {
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -1422,35 +1434,41 @@ input[type="number"] {
 .exercises-section-texts h1, 
 .nutrition-section-texts h1,
 .prizes-section-texts h1,
+.personalization-section-texts h1,
 .exercises-section-texts p,
 .nutrition-section-texts p,
-.prizes-section-texts p {
+.prizes-section-texts p,
+.personalization-section-texts p {
   color: var(--text-primary);
   align-content: left;
 }
 
 .exercises-section-texts h1,
 .nutrition-section-texts h1,
-.prizes-section-texts h1 {
+.prizes-section-texts h1,
+.personalization-section-texts h1 {
   font-size: 2.5rem;
 }
 
 .exercises-section-texts p,
 .nutrition-section-texts p,
-.prizes-section-texts p {
+.prizes-section-texts p,
+.personalization-section-texts p {
   font-size: 1.5rem;
 }
 
 .exercises-section-texts b,
 .nutrition-section-texts b,
-.prizes-section-texts b {
+.prizes-section-texts b,
+.personalization-section-texts b {
   color: white;
 }
 
 .exercises-section-image-container,
 .nutrition-section-image-container,
 .prizes-section-image-container,
-.prizes-heading-image {
+.prizes-heading-image,
+.personalization-section-image-container {
   flex: 1;
   height: fit-content;
   width: 90%;
@@ -1467,7 +1485,8 @@ input[type="number"] {
 .exercises-section-image-container img,
 .nutrition-section-image-container img,
 .prizes-section-image-container img,
-.prizes-heading-image img {
+.prizes-heading-image img,
+.personalization-section-image-container img {
   width: 100%;
   height: auto;
   object-fit: contain !important;
@@ -2046,12 +2065,11 @@ input[type="number"] {
   width: 70%;
   background: var(--accent-10);
   border-radius: 1rem;
-  margin: 2rem 0;
+  margin: 3rem auto;
   padding: 2rem;
   box-sizing: border-box;
   display: none;
   color: var(--text-primary);
-  margin: 0 auto;
 }
 
 .personalization-prompt.show {
@@ -2201,6 +2219,7 @@ input[type="number"] {
   .exercises-section-image-container,
   .nutrition-section-image-container,
   .prizes-section-image-container,
+  .personalization-section-image-container,
   .prizes-heading-image {
     height: fit-content;
     padding-top: 2rem;
@@ -2354,4 +2373,325 @@ input[type="number"] {
     gap: 1rem;
     text-align: center;
   }
+}
+
+/* Gallery Section */
+.our-gym-gallery-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--bg-primary);
+}
+
+.our-gym-gallery-aleo-text {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: var(--text-primary);
+}
+
+.our-gym-gallery-slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.our-gym-gallery-slides {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.our-gym-gallery-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease;
+  z-index: 1;
+}
+
+.our-gym-gallery-slide.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.our-gym-gallery-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.our-gym-gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  z-index: 5;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0) 100%);
+}
+
+.our-gym-gallery-overlay .our-gym-section-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.our-gym-gallery-overlay .our-gym-section-header h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.our-gym-gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s;
+}
+
+.our-gym-gallery-nav:hover {
+  background-color: var(--accent-primary);
+}
+
+.our-gym-gallery-nav.prev-btn {
+  left: 20px;
+}
+
+.our-gym-gallery-nav.next-btn {
+  right: 20px;
+}
+
+/* Gallery Dots */
+.our-gym-gallery-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 10;
+}
+
+.our-gym-gallery-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.our-gym-gallery-dot.active {
+  background-color: var(--accent-primary);
+  transform: scale(1.2);
+}
+
+.our-gym-gallery-dot:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* General Layout */
+.our-gym-gym-content {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.our-gym-gym-content section {
+  border-bottom: 1px solid var(--accent-primary);
+}
+
+.our-gym-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.our-gym-section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.our-gym-section-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: var(--text-primary);
+}
+
+.our-gym-divider {
+  height: 4px;
+  width: 60px;
+  background-color: var(--accent-primary);
+  margin: 0 auto;
+}
+
+/* Products Section */
+.our-gym-products-section {
+  padding: 80px 0;
+  background-color: var(--bg-primary);
+}
+
+.our-gym-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.our-gym-product-card {
+  background-color: var(--accent-70);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.our-gym-product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.our-gym-product-image {
+  height: 70%;
+  overflow: hidden;
+}
+
+.our-gym-product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.our-gym-product-card:hover .our-gym-product-image img {
+  transform: scale(1.05);
+}
+
+.our-gym-product-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.our-gym-product-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.our-gym-product-description {
+  color: var(--text-primary);
+  margin-bottom: 15px;
+  min-height: 60px;
+}
+
+/* Media Queries for Products Section */
+@media (max-width: 992px) {
+  .our-gym-products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .our-gym-products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .our-gym-products-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .our-gym-product-description {
+    min-height: auto;
+  }
+}
+
+/* CTA Section */
+.our-gym-cta-section {
+  padding: 80px 0;
+  background-color: var(--accent-color);
+  color: white;
+  text-align: center;
+}
+
+.our-gym-cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--text-primary);
+}
+
+.our-gym-cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.our-gym-cta-content p {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  color: var(--text-primary);
+}
+
+.our-gym-cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our-gym-cta-button.primary {
+  background-color: var(--accent-100);
+  color: var(--text-primary);
+  border: 2px solid var(--accent-100);
+}
+
+.our-gym-cta-button.primary:hover {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  border: 2px solid var(--text-primary);
+}
+
+.our-gym-cta-button.secondary {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.our-gym-cta-button.secondary:hover {
+  background-color: white;
+  color: var(--accent-color);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: var(--accent-primary);
+  color: var(--text-primary);
+  text-decoration: none;
+  border-radius: 1rem;
+  border: 0.2rem solid var(--accent-primary);
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background-color: transparent;
+  transform: translateY(-2px);
 }

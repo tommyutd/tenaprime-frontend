@@ -52,6 +52,34 @@
         "en": "Train with a coach tailored to your needs."
     },
     {
+        "id": "warmup-section",
+        "en": "Warm-up"
+    },
+    {
+        "id": "main-workout-section",
+        "en": "Main Workout"
+    },
+    {
+        "id": "cooldown-section",
+        "en": "Cool-down"
+    },
+    {
+        "id": "duration",
+        "en": "Duration"
+    },
+    {
+        "id": "primary-targets",
+        "en": "Primary Targets"
+    },
+    {
+        "id": "secondary-targets",
+        "en": "Secondary Targets"
+    },
+    {
+        "id": "complete-workout",
+        "en": "Complete Workout"
+    },
+    {
         "id": "prizes-title",
         "en": "Win Now"
     },
@@ -88,11 +116,683 @@
         "en": "Time"
     },
     {
+        "id": "toast-workout-regen",
+        "en": "Workout regenerated successfully!"
+    },
+    {
+        "id": "toast-workout-regen-error",
+        "en": "Failed to regenerate workout. Please try again."
+    },
+    {
+        "id": "toast-workout-reset",
+        "en": "Progress reset successfully!"
+    },
+    {
+        "id": "toast-workout-reset-error",
+        "en": "Failed to reset progress. Please try again."
+    },
+    {
+        "id": "prompt-workout-reset-title",
+        "en": "Reset Progress"
+    },
+    {
+        "id": "prompt-workout-reset-message",
+        "en": "Are you sure you want to reset your progress for this workout? This will clear all completed exercises."
+    },
+    {
+        "id": "prompt-workout-regen-title",
+        "en": "Regenerate Workout"
+    },
+    {
+        "id": "prompt-workout-regen-message",
+        "en": "Are you sure you want to regenerate this workout? This will create a new workout plan, but will not affect your progress."
+    },
+    {
+        "id": "prompt-workout-complete-title",
+        "en": "Complete Workout"
+    },
+    {
+        "id": "prompt-workout-complete-message",
+        "en": "Are you sure you want to complete the workout?"
+    },
+    {
+        "id": "prompt-workout-end-title",
+        "en": "End Workout"
+    },
+    {
+        "id": "prompt-workout-end-message",
+        "en": "Are you sure you want to end the workout?"
+    },
+    {
+        "id": "selected-day-workout-title",
+        "en": "Selected Day's Workout"
+    },
+    {
+        "id": "start-workout",
+        "en": "Start Workout"
+    },
+    {
+        "id": "regenerate-workout",
+        "en": "Regenerate Workout"
+    },
+    {
+        "id": "reset-progress",
+        "en": "Reset Progress"
+    },
+    {
+        "id": "current-exercise",
+        "en": "Current Exercise"
+    },
+    {
+        "id": "previous",
+        "en": "Previous"
+    },
+    {
+        "id": "next",
+        "en": "Next"
+    },
+    {
+        "id": "pause-workout",
+        "en": "Pause Workout"
+    },
+    {
+        "id": "resume-workout",
+        "en": "Resume Workout"
+    },
+    {
+        "id": "end-workout",
+        "en": "End Workout"
+    },
+    {
+        "id": "phase-label",
+        "en": "Phase:"
+    },
+    {
+        "id": "phase-text",
+        "en": "{{ordinal}} Phase"
+    },
+    {
+        "id": "exercises-label",
+        "en": "Exercises:"
+    },
+    {
+        "id": "estimated-duration-label",
+        "en": "Estimated Duration:"
+    },
+    {
+        "id": "exercise-duration-minutes",
+        "en": "{{exercise-duration}} Minutes"
+    },
+    {
+        "id": "no-exercises",
+        "en": "No Exercises Found"
+    },
+    {
+        "id": "rest-day-label",
+        "en": "<strong>Rest Day:</strong> No Workout Scheduled"
+    },
+    {
+        "id": "month-january",
+        "en": "January"
+    },
+    {
+        "id": "month-february",
+        "en": "February"
+    },
+    {
+        "id": "month-march",
+        "en": "March"
+    },
+    {
+        "id": "month-april",
+        "en": "April"
+    },
+    {
+        "id": "month-may",
+        "en": "May"
+    },
+    {
+        "id": "month-june",
+        "en": "June"
+    },
+    {
+        "id": "month-july",
+        "en": "July"
+    },
+    {
+        "id": "month-august",
+        "en": "August"
+    },
+    {
+        "id": "month-september",
+        "en": "September"
+    },
+    {
+        "id": "month-october",
+        "en": "October"
+    },
+    {
+        "id": "month-november",
+        "en": "November"
+    },
+    {
+        "id": "month-december",
+        "en": "December"
+    },
+    {
+        "id": "day-sun",
+        "en": "Sun"
+    },
+    {
+        "id": "day-mon",
+        "en": "Mon"
+    },
+    {
+        "id": "day-tue",
+        "en": "Tue"
+    },
+    {
+        "id": "day-wed",
+        "en": "Wed"
+    },
+    {
+        "id": "day-thu",
+        "en": "Thu"
+    },
+    {
+        "id": "day-fri",
+        "en": "Fri"
+    },
+    {
+        "id": "day-sat",
+        "en": "Sat"
+    },
+    {
+        "id": "duration-seconds",
+        "en": "{{exercise-duration}} Seconds"
+    },
+    {
+        "id": "set",
+        "en": "Set"
+    },
+    {
+        "id": "set-of-total",
+        "en": "{{current-set}} of {{total-sets}}"
+    },
+    {
+        "id": "exercise-reps",
+        "en": " - {{exercise-reps}} Reps"
+    },
+    {
+        "id": "nutrition-stats-title",
+        "en": "Nutrition Stats"
+    },
+    {
+        "id": "bmr-label",
+        "en": "Basal Metabolic Rate (BMR)"
+    },
+    {
+        "id": "tdee-label",
+        "en": "Total Daily Energy Expenditure (TDEE)"
+    },
+    {
+        "id": "nutrition-recommendations-title",
+        "en": "Recommendations"
+    },
+    {
+        "id": "calorie-adjustment-label",
+        "en": "Calorie Adjustment"
+    },
+    {
+        "id": "hydration-label",
+        "en": "Daily Hydration Goal"
+    },
+    {
+        "id": "macro-breakdown-title",
+        "en": "Macro Breakdown Goals"
+    },
+    {
+        "id": "meal-timings-title",
+        "en": "Ideal Meal Schedule"
+    },
+    {
+        "id": "nutrition-bmr-calories",
+        "en": "{{bmr}} Calories"
+    },
+    {
+        "id": "nutrition-tdee-calories",
+        "en": "{{tdee}} Calories"
+    },
+    {
+        "id": "nutrition-calorie-adjustment",
+        "en": "{{adjustment}} Calories"
+    },
+    {
+        "id": "nutrition-hydration-goal",
+        "en": "{{liters}} Liters"
+    },
+    {
+        "id": "macro-label-protein",
+        "en": "Protein"
+    },
+    {
+        "id": "macro-label-carbs",
+        "en": "Carbs"
+    },
+    {
+        "id": "macro-label-fats",
+        "en": "Fats"
+    },
+    {
+        "id": "meal-number",
+        "en": "Meal {{meal-number}}"
+    },
+    {
+        "id": "meal-calories",
+        "en": "{{meal-calories}} cal"
+    },
+    {
+        "id": "meal-percentage",
+        "en": "{{meal-percentage}}% of daily"
+    },
+    {
+        "id": "ingredients-title",
+        "en": "Ingredients"
+    },
+    {
+        "id": "instructions-title",
+        "en": "Instructions"
+    },
+    {
+        "id": "nutrition-distribution-title",
+        "en": "Nutrition Distribution"
+    },
+    {
+        "id": "prep-time",
+        "en": "Prep: {{prep-time}} min"
+    },
+    {
+        "id": "cook-time",
+        "en": "Cook: {{cook-time}} min"
+    },
+    {
+        "id": "add",
+        "en": "Add"
+    },
+    {
+        "id": "bake",
+        "en": "Bake"
+    },
+    {
+        "id": "beat",
+        "en": "Beat"
+    },
+    {
+        "id": "blanch",
+        "en": "Blanch"
+    },
+    {
+        "id": "blend",
+        "en": "Blend"
+    },
+    {
+        "id": "boil",
+        "en": "Boil"
+    },
+    {
+        "id": "broil",
+        "en": "Broil"
+    },
+    {
+        "id": "caramelize",
+        "en": "Caramelize"
+    },
+    {
+        "id": "chop",
+        "en": "Chop"
+    },
+    {
+        "id": "combine",
+        "en": "Combine"
+    },
+    {
+        "id": "cool",
+        "en": "Cool"
+    },
+    {
+        "id": "crack",
+        "en": "Crack"
+    },
+    {
+        "id": "crush",
+        "en": "Crush"
+    },
+    {
+        "id": "cut",
+        "en": "Cut"
+    },
+    {
+        "id": "deep-fry",
+        "en": "Deep-fry"
+    },
+    {
+        "id": "dice",
+        "en": "Dice"
+    },
+    {
+        "id": "dollop",
+        "en": "Dollop"
+    },
+    {
+        "id": "drain",
+        "en": "Drain"
+    },
+    {
+        "id": "drizzle",
+        "en": "Drizzle"
+    },
+    {
+        "id": "flip",
+        "en": "Flip"
+    },
+    {
+        "id": "fold",
+        "en": "Fold"
+    },
+    {
+        "id": "freeze",
+        "en": "Freeze"
+    },
+    {
+        "id": "fry",
+        "en": "Fry"
+    },
+    {
+        "id": "garnish",
+        "en": "Garnish"
+    },
+    {
+        "id": "grate",
+        "en": "Grate"
+    },
+    {
+        "id": "grill",
+        "en": "Grill"
+    },
+    {
+        "id": "grind",
+        "en": "Grind"
+    },
+    {
+        "id": "heat",
+        "en": "Heat"
+    },
+    {
+        "id": "julienne",
+        "en": "Julienne"
+    },
+    {
+        "id": "knead",
+        "en": "Knead"
+    },
+    {
+        "id": "layer",
+        "en": "Layer"
+    },
+    {
+        "id": "marinate",
+        "en": "Marinate"
+    },
+    {
+        "id": "mash",
+        "en": "Mash"
+    },
+    {
+        "id": "measure",
+        "en": "Measure"
+    },
+    {
+        "id": "mince",
+        "en": "Mince"
+    },
+    {
+        "id": "mix",
+        "en": "Mix"
+    },
+    {
+        "id": "open",
+        "en": "Open"
+    },
+    {
+        "id": "peel",
+        "en": "Peel"
+    },
+    {
+        "id": "place",
+        "en": "Place"
+    },
+    {
+        "id": "poach",
+        "en": "Poach"
+    },
+    {
+        "id": "pour",
+        "en": "Pour"
+    },
+    {
+        "id": "powder",
+        "en": "Powder"
+    },
+    {
+        "id": "prepare",
+        "en": "Prepare"
+    },
+    {
+        "id": "press",
+        "en": "Press"
+    },
+    {
+        "id": "put",
+        "en": "Put"
+    },
+    {
+        "id": "reduce",
+        "en": "Reduce"
+    },
+    {
+        "id": "refrigerate",
+        "en": "Refrigerate"
+    },
+    {
+        "id": "rinse",
+        "en": "Rinse"
+    },
+    {
+        "id": "roast",
+        "en": "Roast"
+    },
+    {
+        "id": "roll",
+        "en": "Roll"
+    },
+    {
+        "id": "saute",
+        "en": "Saute"
+    },
+    {
+        "id": "sear",
+        "en": "Sear"
+    },
+    {
+        "id": "shred",
+        "en": "Shred"
+    },
+    {
+        "id": "simmer",
+        "en": "Simmer"
+    },
+    {
+        "id": "slice",
+        "en": "Slice"
+    },
+    {
+        "id": "smash",
+        "en": "Smash"
+    },
+    {
+        "id": "soak",
+        "en": "Soak"
+    },
+    {
+        "id": "skim",
+        "en": "Skim"
+    },
+    {
+        "id": "squeeze",
+        "en": "Squeeze"
+    },
+    {
+        "id": "sprinkle",
+        "en": "Sprinkle"
+    },
+    {
+        "id": "spread",
+        "en": "Spread"
+    },
+    {
+        "id": "steam",
+        "en": "Steam"
+    },
+    {
+        "id": "stir",
+        "en": "Stir"
+    },
+    {
+        "id": "stir-fry",
+        "en": "Stir-fry"
+    },
+    {
+        "id": "thaw",
+        "en": "Thaw"
+    },
+    {
+        "id": "toast",
+        "en": "Toast"
+    },
+    {
+        "id": "top",
+        "en": "Top"
+    },
+    {
+        "id": "toss",
+        "en": "Toss"
+    },
+    {
+        "id": "whisk",
+        "en": "Whisk"
+    },
+    {
+        "id": "combined_ingredients",
+        "en": "Combined Ingredients"
+    },
+    {
+        "id": "grams",
+        "en": "Grams"
+    },
+    {
+        "id": "ml",
+        "en": "ml"
+    },
+    {
+        "id": "whole",
+        "en": "Whole"
+    },
+    {
+        "id": "half",
+        "en": "Half"
+    },
+    {
+        "id": "quarter",
+        "en": "Quarter"
+    },
+    {
+        "id": "cup",
+        "en": "Cup"
+    },
+    {
+        "id": "cups",
+        "en": "Cups"
+    },
+    {
+        "id": "tbsp",
+        "en": "Tablespoon"
+    },
+    {
+        "id": "in",
+        "en": "in"
+    },
+    {
+        "id": "on",
+        "en": "on"
+    },
+    {
+        "id": "over",
+        "en": "over"
+    },
+    {
+        "id": "into",
+        "en": "into"
+    },
+    {
+        "id": "toast-workout-complete",
+        "en": "Congratulations! You have completed today's workout."
+    },
+    {
+        "id": "toast-workout-complete-failed",
+        "en": "Unable to complete the workout. Please try again."
+    },
+    {
         "id": "featured-workouts-title",
         "en": "Featured Workouts"
     },
     {
         "id": "featured-nutrition-title",
         "en": "Featured Nutrition Content"
+    },
+    {
+        "id": "gym-gallery",
+        "en": "Our Gym in Pictures"
+    },
+    {
+        "id": "our-gym-supplements",
+        "en": "Supplements"
+    },
+    {
+        "id": "our-gym-supplements-desc",
+        "en": "High-quality supplements to support muscle recovery and growth after your workouts."
+    },
+    {
+        "id": "our-gym-accessories",
+        "en": "Accessories"
+    },
+    {
+        "id": "our-gym-accessories-desc",
+        "en": "Essential accessories and equipment to enhance your workout experience."
+    },
+    {
+        "id": "our-gym-apparel",
+        "en": "Apparel"
+    },
+    {
+        "id": "our-gym-apparel-desc",
+        "en": "Comfortable and stylish workout clothes for men and women, perfect for any exercise."
+    },
+    {
+        "id": "gym-products",
+        "en": "Our Gym Products"
+    },
+    {
+        "id": "dashboard-cta-description",
+        "en": "Start Now and transform your life with our AI driven personal trainer."
     }
 ]

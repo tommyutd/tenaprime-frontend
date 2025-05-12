@@ -70,6 +70,10 @@
   justify-content: space-between;
 }
 
+.guest-content > * {
+  border-bottom: 1px solid var(--accent-primary);
+}
+
 /*Greeting Section*/
 .greeting-section {
   display: flex;
@@ -195,7 +199,8 @@
 
 .exercises-section-texts,
 .nutrition-section-texts,
-.prizes-section-texts {
+.prizes-section-texts,
+.personalization-section-texts {
   padding: 1rem;
   border-radius: 15px;
   transition: background-color 0.3s ease, color 0.3s ease;

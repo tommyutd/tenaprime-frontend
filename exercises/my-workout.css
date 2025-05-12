@@ -5,6 +5,11 @@
     padding: 0 1rem;
     width: 100%;
     box-sizing: border-box;
+    display: none;
+}
+
+.my-workout-container p {
+    color: var(--text-primary);
 }
 
 .my-workout-content {

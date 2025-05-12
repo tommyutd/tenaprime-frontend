@@ -6,6 +6,8 @@
     <title>TenaPrime - Dashboard</title>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/dashboard.css" />
+    <link rel="stylesheet" href="/exercises/my-workout.css" />
+    <link rel="stylesheet" href="/nutrition/my-nutrition.css" />
     <link rel="icon" href="/assets/logo-mini.svg" />
     <script src="/scripts/config.js"></script>
     <script src="/scripts/route-guard.js"></script>
@@ -137,7 +139,7 @@
             <h1 data-text-key="front-page-user-greeting-1">Welcome Back!</h1>
           </div>
           <div class="cards-container">
-            <a href="/prizes/quiz" class="big-card">
+            <a href="/exercises" class="big-card">
               <div class="card-content big-card-content">
                 <h2 data-text-key="pt-card-title" style="color: #121518"></h2>
                 <p data-text-key="pt-card-content" style="color: #121518"></p>
@@ -167,7 +169,7 @@
                 </div>
               </a>
               <a
-                href="/prizes/dashboard#scoreboard"
+                href="/prizes/quiz"
                 class="small-card"
                 id="scoreboard-card"
               >
@@ -177,28 +179,6 @@
                 </div>
               </a>
             </div>
-          </div>
-        </div>
-        <div class="winners-section">
-          <div class="slideshow-container">
-            <div class="left-margin">
-              <button class="carousel-button prev-button">
-                <img src="/assets/prev-arrow.svg" alt="Previous" />
-              </button>
-            </div>
-            <div class="carousel"></div>
-            <div class="right-margin">
-              <button class="carousel-button next-button">
-                <img src="/assets/next-arrow.svg" alt="Next" />
-              </button>
-            </div>
-          </div>
-          <div class="winners-section-text-container">
-            <h1 data-text-key="winners-section-title">Meet the winners!</h1>
-            <h3 data-text-key="winners-section-description">
-              Here are some of the winners of our weekly contest.
-              <a href="#">Login</a> or <a href="#">Register</a> to participate.
-            </h3>
           </div>
         </div>
 
@@ -231,164 +211,384 @@
           </div>
         </div>
 
-        <div class="workout-plan-heading aleo-text" style="display: none">
-          <div class="workout-plan-heading-container">
-            <div class="workout-plan-heading-text-container">
-              <div class="workout-plan-heading-text">
-                <h1
-                  id="workout-plan-heading-title"
-                  data-text-key="workout-plan-heading-title"
-                >
-                  Your Personalized Plan
-                </h1>
-                <h3
-                  id="workout-plan-heading-description"
-                  data-text-key="workout-plan-heading-description"
-                >
-                  We've created a customized workout plan based on your fitness
-                  profile.
-                </h3>
-              </div>
-            </div>
-            <div class="workout-plan-heading-button-container">
-              <div class="workout-plan-heading-button">
-                <button
-                  class="workout-plan-view-button aleo-text"
-                  data-text-key="workout-plan-view-button"
-                  onclick="window.location.href='/exercises/my-workout'"
-                >
-                  Start<br />Your<br />Workout
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="featured-workouts aleo-text">
-          <div class="featured-workouts-container">
-            <h2
-              class="featured-workouts-title"
-              data-text-key="featured-workouts-title"
-            >
-              Featured Workouts
-            </h2>
-            <div class="featured-workouts-grid">
-              <!-- Workouts will be dynamically inserted here -->
-            </div>
-          </div>
-        </div>
-
-        <div class="nutrition-plan-heading aleo-text">
-          <div class="nutrition-plan-heading-container">
-            <div class="nutrition-plan-heading-text-container">
-              <div class="nutrition-plan-heading-text">
-                <h1
-                  id="nutrition-plan-heading-title"
-                  data-text-key="nutrition-plan-heading-title"
-                >
-                  Your Personalized Meals
-                </h1>
-                <h3
-                  id="nutrition-plan-heading-description"
-                  data-text-key="nutrition-plan-heading-description"
-                >
-                  We've created a customized nutrition plan based on your
-                  profile.
-                </h3>
-              </div>
-            </div>
-            <div class="nutrition-plan-heading-button-container">
-              <div class="nutrition-plan-heading-button">
-                <button
-                  class="nutrition-plan-view-button aleo-text"
-                  data-text-key="nutrition-plan-view-button"
-                  onclick="window.location.href='/nutrition/my-nutrition'"
-                >
-                  View Your Plan
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="featured-nutrition aleo-text">
-          <div class="featured-nutrition-container">
-            <h2
-              class="featured-nutrition-title"
-              data-text-key="featured-nutrition-title"
-            >
-              Featured Nutrition Content
-            </h2>
-            <div class="featured-nutrition-grid">
-              <!-- Nutrition content will be dynamically inserted here -->
-            </div>
-          </div>
-        </div>
-
-        <div class="prizes-page aleo-text">
-          <div class="prizes-heading-container">
-            <div class="prizes-heading-image">
-              <img src="/assets/prizes-heading.png" alt="Prizes" />
-            </div>
-            <div class="prizes-heading-text-container">
-              <div class="prizes-heading-text">
-                <h1 data-text-key="prizes-title">Win Now</h1>
-                <h3 data-text-key="prizes-description">
-                  You can win amazing prizes by competing in our weekly quizzes.
-                </h3>
-              </div>
-              <div class="prizes-heading-button">
-                <h2 data-text-key="prizes-play-now-button-text">
-                  Play Now and Win Big!
-                </h2>
-                <button
-                  class="prizes-play-now-button aleo-text"
-                  data-text-key="prizes-play-now-button"
-                  onclick="window.location.href='/prizes/quiz'"
-                >
-                  Play Now
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="prizes-scoreboard">
-          <div class="scoreboard-container">
-            <div class="scoreboard-header">
-              <div class="scoreboard-title-container">
-                <h2 data-text-key="scoreboard-title">
-                  Weekly Quiz Leaderboard
-                </h2>
-                <select id="weekSelector" class="week-dropdown aleo-text">
-                  <!-- Week options will be populated by JavaScript -->
-                </select>
-              </div>
-            </div>
-
-            <div class="scoreboard-content">
-              <div class="scoreboard-table">
-                <div class="scoreboard-table-header" id="scoreboard">
-                  <div class="rank-column" data-text-key="scoreboard-rank">
-                    Rank
-                  </div>
-                  <div class="player-column" data-text-key="scoreboard-player">
-                    Phone Number
-                  </div>
-                  <div class="score-column" data-text-key="scoreboard-score">
-                    Score
-                  </div>
-                  <div class="time-column" data-text-key="scoreboard-time">
-                    Time
-                  </div>
+        <div class="dashboard-workout-section">
+          <div class="workout-plan-heading aleo-text" style="display: none">
+            <div class="workout-plan-heading-container">
+              <div class="workout-plan-heading-text-container">
+                <div class="workout-plan-heading-text">
+                  <h1
+                    id="workout-plan-heading-title"
+                    data-text-key="workout-plan-heading-title"
+                  >
+                    Your Personalized Plan
+                  </h1>
+                  <h3
+                    id="workout-plan-heading-description"
+                    data-text-key="workout-plan-heading-description"
+                  >
+                    We've created a customized workout plan based on your fitness
+                    profile.
+                  </h3>
                 </div>
-                <div class="scoreboard-table-body">
-                  <!-- Scoreboard entries will be inserted here by JavaScript -->
+              </div>
+              <div class="workout-plan-heading-button-container">
+                <div class="workout-plan-heading-button">
+                  <button
+                    class="workout-plan-view-button aleo-text"
+                    data-text-key="workout-plan-view-button"
+                    onclick="window.location.href='/exercises/my-workout'"
+                  >
+                    Start<br />Your<br />Workout
+                  </button>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="my-workout-container">
+            <div class="loading-overlay">
+              <div class="loading-spinner-large"></div>
+              <div class="loading-text" data-text-key="loading-workout">
+                Loading Workout...
+              </div>
+            </div>
+            <div class="workout-calendar aleo-text">
+              <div class="calendar-container">
+                <div class="calendar-header">
+                  <button class="calendar-nav prev-month"><b>&lt;</b></button>
+                  <h2 class="calendar-title">September 2024</h2>
+                  <button class="calendar-nav next-month"><b>&gt;</b></button>
+                </div>
+                <div class="calendar-weekdays">
+                  <div>Sun</div>
+                  <div>Mon</div>
+                  <div>Tue</div>
+                  <div>Wed</div>
+                  <div>Thu</div>
+                  <div>Fri</div>
+                  <div>Sat</div>
+                </div>
+                <div class="calendar-days">
+                  <!-- Days will be populated by JavaScript -->
+                </div>
+              </div>
+              <div class="selected-day-workout">
+                <h3 data-text-key="selected-day-workout-title">
+                  Selected Day's Workout
+                </h3>
+                <div class="workout-summary">
+                  <!-- Workout summary will be populated by JavaScript -->
+                </div>
+    
+                <div class="workout-action-buttons">
+                  <button
+                    class="start-workout-button aleo-text"
+                    data-text-key="start-workout"
+                    onclick="window.location.href='/exercises/my-workout'"
+                  >
+                    Start Workout
+                  </button>
+                </div>
+    
+                <div class="workout-management-buttons">
+                  <button
+                    class="regenerate-workout-button aleo-text"
+                    data-text-key="regenerate-workout"
+                  >
+                    Regenerate Workout
+                  </button>
+                  <button
+                    class="reset-progress-button aleo-text"
+                    data-text-key="reset-progress"
+                  >
+                    Reset Progress
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="featured-workouts aleo-text">
+            <div class="featured-workouts-container">
+              <h2
+                class="featured-workouts-title"
+                data-text-key="featured-workouts-title"
+              >
+                Featured Workouts
+              </h2>
+              <div class="featured-workouts-grid">
+                <!-- Workouts will be dynamically inserted here -->
+              </div>
+            </div>
+          </div>
         </div>
+      
+        <div class="dashboard-nutrition-section">
+          <div class="nutrition-plan-heading aleo-text">
+            <div class="nutrition-plan-heading-container">
+              <div class="nutrition-plan-heading-text-container">
+                <div class="nutrition-plan-heading-text">
+                  <h1
+                    id="nutrition-plan-heading-title"
+                    data-text-key="nutrition-plan-heading-title"
+                  >
+                    Your Personalized Meals
+                  </h1>
+                  <h3
+                    id="nutrition-plan-heading-description"
+                    data-text-key="nutrition-plan-heading-description"
+                  >
+                    We've created a customized nutrition plan based on your
+                    profile.
+                  </h3>
+                </div>
+              </div>
+              <div class="nutrition-plan-heading-button-container">
+                <div class="nutrition-plan-heading-button">
+                  <button
+                    class="nutrition-plan-view-button aleo-text"
+                    data-text-key="nutrition-plan-view-button"
+                    onclick="window.location.href='/nutrition/my-nutrition'"
+                  >
+                    View Your Plan
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="my-nutrition-user aleo-text">
+              <div class="my-nutrition-overview">
+                <div class="my-nutrition-info">
+                  <div class="my-nutrition-section">
+                    <h1
+                      class="my-nutrition-section-title"
+                      data-text-key="nutrition-stats-title"
+                    >
+                      Nutrition Stats
+                    </h1>
+                    <div class="my-nutrition-stats">
+                      <div class="my-nutrition-stat-item">
+                        <span
+                          class="my-nutrition-stat-label"
+                          data-text-key="bmr-label"
+                          >Basal Metabolic Rate (BMR)</span
+                        >
+                        <span class="my-nutrition-stat-value" id="bmrValue">--</span>
+                      </div>
+                      <div class="my-nutrition-stat-item">
+                        <span
+                          class="my-nutrition-stat-label"
+                          data-text-key="tdee-label"
+                          >Total Daily Energy Expenditure (TDEE)</span
+                        >
+                        <span class="my-nutrition-stat-value" id="tdeeValue">--</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="my-nutrition-section">
+                    <h1
+                      class="my-nutrition-section-title"
+                      data-text-key="nutrition-recommendations-title"
+                    >
+                      Recommendations
+                    </h1>
+                    <div class="my-nutrition-stats">
+                      <div class="my-nutrition-stat-item">
+                        <span
+                          class="my-nutrition-stat-label"
+                          data-text-key="calorie-adjustment-label"
+                          >Calorie Adjustment</span
+                        >
+                        <span class="my-nutrition-stat-value" id="calorieAdjustment"
+                          >--</span
+                        >
+                      </div>
+                      <div class="my-nutrition-stat-item">
+                        <span
+                          class="my-nutrition-stat-label"
+                          data-text-key="hydration-label"
+                          >Daily Hydration Goal</span
+                        >
+                        <span class="my-nutrition-stat-value" id="hydrationGoal"
+                          >--</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="my-nutrition-section">
+                  <h1
+                    class="my-nutrition-section-title"
+                    data-text-key="macro-breakdown-title"
+                  >
+                    Macro Breakdown Goals
+                  </h1>
+                  <div class="my-nutrition-macro-breakdown">
+                    <div class="my-nutrition-macro-chart">
+                      <div class="my-nutrition-macro-bar protein">
+                        <span
+                          class="my-nutrition-macro-label"
+                          data-text-key="macro-label-protein"
+                          >Protein</span
+                        >
+                        <span class="my-nutrition-macro-value">--</span>
+                      </div>
+                      <div class="my-nutrition-macro-bar carbs">
+                        <span
+                          class="my-nutrition-macro-label"
+                          data-text-key="macro-label-carbs"
+                          >Carbs</span
+                        >
+                        <span class="my-nutrition-macro-value">--</span>
+                      </div>
+                      <div class="my-nutrition-macro-bar fats">
+                        <span
+                          class="my-nutrition-macro-label"
+                          data-text-key="macro-label-fats"
+                          >Fats</span
+                        >
+                        <span class="my-nutrition-macro-value">--</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="featured-nutrition aleo-text">
+            <div class="featured-nutrition-container">
+              <h2
+                class="featured-nutrition-title"
+                data-text-key="featured-nutrition-title"
+              >
+                Featured Nutrition Content
+              </h2>
+              <div class="featured-nutrition-grid">
+                <!-- Nutrition content will be dynamically inserted here -->
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+        <section class="our-gym-gallery-section aleo-text" id="gallery">
+          <div class="our-gym-gallery-slider">
+            <div class="our-gym-gallery-slides">
+              <div class="our-gym-gallery-slide active">
+                <img src="assets/our-gym/gallery/img1.jpg" alt="Gym Interior" />
+              </div>
+              <div class="our-gym-gallery-slide">
+                <img src="assets/our-gym/gallery/img2.jpg" alt="Weight Area" />
+              </div>
+              <div class="our-gym-gallery-slide">
+                <img src="assets/our-gym/gallery/img3.jpg" alt="Cardio Section" />
+              </div>
+              <div class="our-gym-gallery-slide">
+                <img src="assets/our-gym/gallery/img4.jpg" alt="Yoga Studio" />
+              </div>
+              <div class="our-gym-gallery-slide">
+                <img src="assets/our-gym/gallery/img5.jpg" alt="Yoga Studio" />
+              </div>
+            </div>
+            
+            <div class="our-gym-gallery-overlay">
+              <div class="our-gym-section-header">
+                <h2 class="our-gym-gallery-aleo-text" data-text-key="gym-gallery">Our Gym in Pictures</h2>
+                <div class="our-gym-divider"></div>
+              </div>
+            </div>
+            
+            <div class="our-gym-gallery-dots">
+              <span class="our-gym-gallery-dot active" data-index="0"></span>
+              <span class="our-gym-gallery-dot" data-index="1"></span>
+              <span class="our-gym-gallery-dot" data-index="2"></span>
+              <span class="our-gym-gallery-dot" data-index="3"></span>
+              <span class="our-gym-gallery-dot" data-index="4"></span>
+            </div>
+            
+            <button class="our-gym-gallery-nav prev-btn" aria-label="Previous image">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            <button class="our-gym-gallery-nav next-btn" aria-label="Next image">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </section>
+
+        <section class="our-gym-products-section aleo-text" id="products">
+          <div class="our-gym-container">
+            <div class="our-gym-section-header">
+              <h2 class="our-gym-aleo-text" data-text-key="gym-products">
+                Gym Products
+              </h2>
+              <div class="our-gym-divider"></div>
+            </div>
+            <div class="our-gym-products-grid">
+              <div class="our-gym-product-card">
+                <div class="our-gym-product-image">
+                  <img src="assets/our-gym/supplements.jpg" alt="Supplements" />
+                </div>
+                <div class="our-gym-product-details">
+                  <h3 class="our-gym-aleo-text" data-text-key="our-gym-supplements">Supplements</h3>
+                  <p class="our-gym-product-description" data-text-key="our-gym-supplements-desc">
+                    High-quality supplements to support muscle recovery and growth after your workouts.
+                  </p>
+                </div>
+              </div>
+              <div class="our-gym-product-card">
+                <div class="our-gym-product-image">
+                  <img src="assets/our-gym/accessories.jpg" alt="Workout Accessories" />
+                </div>
+                <div class="our-gym-product-details">
+                  <h3 class="our-gym-aleo-text" data-text-key="our-gym-accessories">Accessories</h3>
+                  <p class="our-gym-product-description" data-text-key="our-gym-accessories-desc">
+                    Essential accessories and equipment to enhance your workout experience.
+                  </p>
+                </div>
+              </div>
+              <div class="our-gym-product-card">
+                <div class="our-gym-product-image">
+                  <img src="assets/our-gym/apparel.jpg" alt="Workout Apparel" />
+                </div>
+                <div class="our-gym-product-details">
+                  <h3 class="our-gym-aleo-text" data-text-key="our-gym-apparel">Apparel</h3>
+                  <p class="our-gym-product-description" data-text-key="our-gym-apparel-desc">
+                    Comfortable and stylish workout clothes for men and women, perfect for any exercise.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="our-gym-cta-section aleo-text">
+          <div class="our-gym-container">
+            <div class="our-gym-cta-content">
+              <h2 class="our-gym-aleo-text" data-text-key="ready-to-join">
+                Ready to Start Your Fitness Journey?
+              </h2>
+              <p data-text-key="dashboard-cta-description">
+                Start Now and transform your life with
+                our AI driven personal trainer.
+              </p>
+              <div class="our-gym-cta-buttons">
+                <a
+                  href="/dashboard#"
+                  class="cta-button primary aleo-text"
+                  data-text-key="start-now"
+                  >Start Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
 
       <div class="footer aleo-text">
@@ -526,9 +726,12 @@
     <script src="/scripts/language-selector.js"></script>
     <script src="/scripts/user-stats-popup.js"></script>
     <script src="/scripts/sidebar-overlay.js"></script>
-    <script src="/scripts/winners-carousel.js"></script>
     <script src="/scripts/theme-manager.js"></script>
     <script src="/scripts/dashboard.js"></script>
-    <script src="/scripts/scoreboard-viewer.js"></script>
+    <script src="/scripts/our-gym-gallery.js"></script>
+    <script src="/scripts/my-workout-calendar.js"></script>
+    <script src="/scripts/my-nutrition-loader.js"></script>
+    <script src="/scripts/exercise-dashboard.js"></script>
+    <script src="/scripts/nutrition-dashboard.js"></script>
   </body>
 </html>

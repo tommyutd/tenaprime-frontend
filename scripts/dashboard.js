@@ -195,7 +195,7 @@ async function loadFeaturedWorkouts() {
 
         // Randomly select 3 unique workouts
         const selectedWorkouts = [];
-        const numFeatured = 3;
+        const numFeatured = 6;
         
         while (selectedWorkouts.length < numFeatured && allWorkouts.length > 0) {
             const randomIndex = Math.floor(Math.random() * allWorkouts.length);
@@ -272,7 +272,7 @@ async function loadFeaturedNutrition() {
 
         // Randomly select 3 unique nutrition items
         const selectedNutrition = [];
-        const numFeatured = 3;
+        const numFeatured = 6;
         
         while (selectedNutrition.length < numFeatured && allNutritionContent.length > 0) {
             const randomIndex = Math.floor(Math.random() * allNutritionContent.length);

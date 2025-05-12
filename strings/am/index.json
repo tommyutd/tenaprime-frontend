@@ -56,12 +56,12 @@
         "am": "<b>ጤናማ አመጋገብ፣ ጤናማ አኗኗር!</b><br><br>ምክሮችን ያግኙ እና ከግቦችዎ ጋር በሚስማሙ ጤናማ ምግቦች ይደሰቱ።"
     },
     {
-        "id": "prizes-section-title",
-        "am": "እውነተኛ ጤንነት"
+        "id": "tracking-section-title",
+        "am": "የራስዎን አሰራር ይፍጠሩ"
     },
     {
-        "id": "prizes-section-description",
-        "am": "<b>ጤንነት አዲሱ ሀብት ነው</b><br><br>የላቀ ስልጠና፣ ሚዛናዊ ኑሮ እና ሁለንተናዊ የእድገት ክትትል—ሁሉም በአንድ እንከን የለሽ መድረክ።"
+        "id": "tracking-section-description",
+        "am": "<b>የሚያታይ ግስጋሴ፣ ሊሰማዎት የሚችል ሃይል</b><br><br>ብልጥ ክትትል፣ ጥልቅ የአፈጻጸም ግንዛቤዎች፣ እና የሚያድጉ የግል መዝገቦች።"
     },
     {
         "id": "prizes-title",
@@ -74,5 +74,49 @@
     {
         "id": "prizes-play-now-button-text",
         "am": "አሁን ይጫወቱ እና በትልቁ ያሸንፉ!"
+    },
+    {
+        "id": "gym-gallery",
+        "am": "የኛ ጂም በፎቶዎች"
+    },
+    {
+        "id": "personalization-section-title",
+        "am": "የእርስዎን ንድፍ ይግለጹ"
+    },
+    {
+        "id": "personalization-section-description",
+        "am": "<b>ሁሉንም የሚስማማ የለም—አንተ ብቻ</b><br><br>ልዩ መገለጫህን ፍጠር፣ ዓላማህን አዘጋጅ እና ስርዓቱ ከእርስዎ ጋር እንዲስማማ አድርግ።"
+    },
+    {
+        "id": "our-gym-supplements",
+        "am": "ተጨማሪዎች"
+    },
+    {
+        "id": "our-gym-supplements-desc",
+        "am": "ከአካል ብቃት እንቅስቃሴዎ በኋላ የጡንቻን ማገገም እና እድገትን ለመደገፍ ከፍተኛ ጥራት ያላቸው ማሟያዎች።"
+    },
+    {
+        "id": "our-gym-accessories",
+        "am": "መለዋወጫዎች"
+    },
+    {
+        "id": "our-gym-accessories-desc",
+        "am": "የአካል ብቃት እንቅስቃሴ ልምድዎን ለማሻሻል አስፈላጊ መለዋወጫዎች እና መሳሪያዎች።"
+    },
+    {
+        "id": "our-gym-apparel",
+        "am": "አልባሳት"
+    },
+    {
+        "id": "our-gym-apparel-desc",
+        "am": "ለወንዶች እና ለሴቶች ምቹ እና የሚያምር የአካል ብቃት እንቅስቃሴ ልብስ ፣ ለማንኛውም የአካል ብቃት እንቅስቃሴ ተስማሚ።"
+    },
+    {
+        "id": "gym-products",
+        "am": "የእኛ የጂም ምርቶች"
+    },
+    {
+        "id": "index-cta-description",
+        "am": "አሁኑኑ ይቀላቀሉ እና በእኛ AI በሚመራ የግል አሰልጣኝ ህይወትዎን ይለውጡ።"
     }
 ]

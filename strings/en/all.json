@@ -82,5 +82,17 @@
     {
         "id": "loading-workout",
         "en": "Loading Workout…"
+    },
+    {
+        "id": "join-now",
+        "en": "Join Now"
+    },
+    {
+        "id": "ready-to-join",
+        "en": "Ready to Start Your Fitness Journey?"
+    },
+    {
+        "id": "start-now",
+        "en": "Start Now"
     }
 ]

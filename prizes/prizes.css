@@ -1,6 +1,6 @@
 @import '/themes.css';
 
-.navigation-prizes {
+.navigation-home {
   flex: 1;  /* Added to make it share width equally */
   height: 100%;
   display: flex;
@@ -9,7 +9,7 @@
   background-color: var(--accent-100);
 }
 
-.navigation-home,
+.navigation-prizes,
 .navigation-exercises,
 .navigation-nutrition,
 .navigation-about {
@@ -23,7 +23,7 @@
   transition: color 0.3s ease;
 }
 
-.navigation-home::after,
+.navigation-prizes::after,
 .navigation-exercises::after,
 .navigation-nutrition::after,
 .navigation-about::after {
@@ -38,7 +38,7 @@
   transform: translateX(-50%);
 }
 
-.navigation-home:hover a,
+.navigation-prizes:hover a,
 .navigation-exercises:hover a,
 .navigation-nutrition:hover a,
 .navigation-about:hover a {
@@ -46,7 +46,7 @@
   color: var(--accent-100);
 }
 
-.navigation-home:hover::after,
+.navigation-prizes:hover::after,
 .navigation-exercises:hover::after,
 .navigation-nutrition:hover::after,
 .navigation-about:hover::after {

@@ -16,6 +16,9 @@ class NutritionProfileLoader {
                 throw new Error('Failed to load nutrition profile');
             }
 
+            const nutritionContainer = document.querySelector(".my-nutrition-user");
+            if (nutritionContainer) nutritionContainer.style.display = "block";
+
             this.nutritionJson = await response.json();
             this.nutritionData = this.nutritionJson.nutritionProfile;
             this.updateUI();

@@ -21,13 +21,24 @@ class WorkoutCalendar {
 
     async init() {
         try {
-            this.showLoading(); // Use this.showLoading() instead
+            if (window.location.pathname.includes('my-workout')) {
+                this.showLoading(); // Use this.showLoading() instead
+            }
+            await window.authState.init();
+
             const token = localStorage.getItem('login-token');
             const response = await fetch(`${window.CONFIG.API_URL}/profile/workout`, {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }
             });
+
+            if (!response.ok) {
+                throw new Error('Failed to fetch workout data');
+            }
+            const workoutContainer = document.querySelector(".my-workout-container");
+            if (workoutContainer) workoutContainer.style.display = "block";
+
             this.workoutData = await response.json();
             
             // Store completed workouts
@@ -57,6 +68,8 @@ class WorkoutCalendar {
             });
         } catch (error) {
             console.error('Error initializing calendar:', error);
+            const workoutContainer = document.querySelector(".my-workout-container");
+            if (workoutContainer) workoutContainer.style.display = "none";
         } finally {
             this.hideLoading(); // Use this.hideLoading() instead
         }

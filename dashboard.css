@@ -59,6 +59,10 @@
   flex-direction: column;
 }
 
+.user-front-page-greeting > * {
+  border-bottom: 1px solid var(--accent-primary);
+}
+
 .user-front-page-greeting-texts {
   display: flex;
   margin-left: 3%;

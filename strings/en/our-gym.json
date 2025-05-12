@@ -8,10 +8,6 @@
         "en": "Where Fitness Meets Excellence"
     },
     {
-        "id": "join-now",
-        "en": "Join Now"
-    },
-    {
         "id": "about-gym",
         "en": "About Our Gym"
     },
@@ -280,10 +276,6 @@
         "en": "24/7 for Premium & Elite Members<br>6 AM - 10 PM for Basic Members"
     },
     {
-        "id": "ready-to-join",
-        "en": "Ready to Start Your Fitness Journey?"
-    },
-    {
         "id": "cta-description",
         "en": "Join TenaPrime Fitness Club today and transform your life with our premium facilities, expert trainers, and supportive community."
     },
@@ -342,5 +334,33 @@
     {
         "id": "gym-gallery",
         "en": "Our Gym in Pictures"
+    },
+    {
+        "id": "our-gym-supplements",
+        "en": "Supplements"
+    },
+    {
+        "id": "our-gym-supplements-desc",
+        "en": "High-quality supplements to support muscle recovery and growth after your workouts."
+    },
+    {
+        "id": "our-gym-accessories",
+        "en": "Accessories"
+    },
+    {
+        "id": "our-gym-accessories-desc",
+        "en": "Essential accessories and equipment to enhance your workout experience."
+    },
+    {
+        "id": "our-gym-apparel",
+        "en": "Apparel"
+    },
+    {
+        "id": "our-gym-apparel-desc",
+        "en": "Comfortable and stylish workout clothes for men and women, perfect for any exercise."
+    },
+    {
+        "id": "gym-products",
+        "en": "Our Gym Products"
     }
 ]
