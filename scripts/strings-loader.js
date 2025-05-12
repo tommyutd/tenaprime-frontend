@@ -33,7 +33,7 @@ function getPageTags(path) {
     // Get base path tags
     const basePageTagMap = {
         '/': ['index', 'guest'],
-        '/dashboard': ['dashboard', 'exercises-dashboard', 'nutrition-dashboard', 'user'],
+        '/dashboard': ['dashboard', 'exercises-dashboard', 'nutrition-dashboard', 'user', 'exercise', 'food'],
         '/exercises': ['exercises-index', 'guest'],
         '/exercises/dashboard': ['exercises-dashboard', 'user'],
         '/exercises/workout': ['workout', 'body', 'exercise', 'user'],
