@@ -173,7 +173,7 @@
     background-image: linear-gradient(
       var(--bg-primary-transparent),  /* This creates a semi-transparent overlay */
       var(--bg-primary-transparent)
-    ), url('/assets/muscleman.png');
+    ), url('/assets/main-bg-mobile.png');
   }
 }
 
