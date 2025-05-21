@@ -77,15 +77,15 @@
     },
     {
         "id": "black_pepper",
-        "am": "ጥቁር ፔፐር"
+        "am": "ቁንዶ በርበሬ"
     },
     {
         "id": "berbere",
-        "am": "በርበረ"
+        "am": "በርበሬ"
     },
     {
         "id": "mitmita",
-        "am": "ሚቲሚታ"
+        "am": "ሚጥሚጣ"
     },
     {
         "id": "shiro_powder",
@@ -105,7 +105,7 @@
     },
     {
         "id": "bell_pepper",
-        "am": "ደወል በርበሬ"
+        "am": "ትልቁ ቃሪያ"
     },
     {
         "id": "spinach",
@@ -413,6 +413,6 @@
     },
     {
         "id": "combined_ingredients",
-        "am": "የተዋሃዱ ንጥረ ነገሮች"
+        "am": "የተዋሃዱ ግብዓቶች"
     }
 ]

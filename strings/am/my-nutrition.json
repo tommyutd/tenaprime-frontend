@@ -5,7 +5,7 @@
     },
     {
         "id": "bmr-label",
-        "am": "ባሳል ሜታቦሊክ ሬት (ቢኤምአር)"
+        "am": "ባሳል ሜታቦሊክ ሬት (BMR)"
     },
     {
         "id": "tdee-label",
@@ -73,7 +73,7 @@
     },
     {
         "id": "ingredients-title",
-        "am": "ንጥረ ነገሮች"
+        "am": "ግብዓቶች"
     },
     {
         "id": "instructions-title",
@@ -369,7 +369,7 @@
     },
     {
         "id": "combined_ingredients",
-        "am": "የተዋሃዱ ንጥረ ነገሮች"
+        "am": "የተዋሃዱ ግብዓቶች"
     },
     {
         "id": "grams",

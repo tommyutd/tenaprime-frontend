@@ -25,7 +25,7 @@
     },
     {
         "id": "nutrition-better-nutrition",
-        "am": "<b>የተሻለ አመጋገብ፦</b> ለተሻለ ውጤት መጠኖችን እና ንጥረ ነገሮችን ይቆጣጠሩ"
+        "am": "<b>የተሻለ አመጋገብ፦</b> ለተሻለ ውጤት መጠኖችን እና ግብዓቶችን ይቆጣጠሩ"
     },
     {
         "id": "nutrition-cost-savings",
@@ -53,7 +53,7 @@
     },
     {
         "id": "nutrition-create-shopping-list",
-        "am": "<b>የግዢ ዝርዝር ይፍጠሩ፦</b> ከተቻለ ንጥረ ነገሮችን በጅምላ ይግዙ"
+        "am": "<b>የግዢ ዝርዝር ይፍጠሩ፦</b> ከተቻለ ግብዓቶችን በጅምላ ይግዙ"
     },
     {
         "id": "nutrition-quality-containers",

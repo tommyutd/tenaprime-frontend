@@ -81,7 +81,7 @@
     },
     {
         "id": "setup-dietary-preferences-label",
-        "en": "Dietary Preferences (Multiple Selection)"
+        "en": "Special Dietary Preferences (Skip if you don't have any)"
     },
     {
         "id": "setup-diet-vegan",
@@ -105,7 +105,7 @@
     },
     {
         "id": "setup-allergies-intolerances-label",
-        "en": "Allergies/Intolerances (Multiple Selection)"
+        "en": "Allergies/Intolerances (Multiple Selection, Skip if you don't have any)"
     },
     {
         "id": "setup-allergy-nuts",
@@ -433,7 +433,7 @@
     },
     {
         "id": "setup-health-conditions-label",
-        "en": "Health Conditions (Multiple Selection)"
+        "en": "Health Conditions (Multiple Selection, Skip if you don't have any)"
     },
     {
         "id": "setup-goals-title",

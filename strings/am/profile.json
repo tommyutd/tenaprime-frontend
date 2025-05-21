@@ -133,7 +133,7 @@
     },
     {
         "id": "hiit-training",
-        "am": "የ HIIT ስልጠና"
+        "am": "የHIIT ስልጠና"
     },
     {
         "id": "frequency-five-day",
@@ -161,10 +161,10 @@
     },
     {
         "id": "profile-ingredients-title",
-        "am": "ንጥረ ነገሮች"
+        "am": "ግብዓቶች"
     },
     {
         "id": "profile-available-ingredients",
-        "am": "የሚገኙ ንጥረ ነገሮች"
+        "am": "የሚገኙ ግብዓቶች"
     }
 ]

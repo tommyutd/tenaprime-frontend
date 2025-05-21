@@ -95,6 +95,7 @@
   width: 100%;
   height: 100%;
   padding: 2rem;
+  padding-top: 0;
   box-sizing: border-box;
 }
 
@@ -188,7 +189,7 @@
 
 .card-content {
   height: 100%;
-  max-width: 40%;
+  max-width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;

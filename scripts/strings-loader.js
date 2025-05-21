@@ -86,7 +86,7 @@ function getPageTags(path) {
 
     if (path === '/nutrition/learn' && params.has('topic')) {
         const topic = params.get('topic');
-        const matches = topic.match(/(basics|macros|meal-prep|carbs|protein|fats|vitamins|minerals|hydration|weight-loss|muscle-gain|maintenance|endurance|recomp|plant-based|low-carb|mediterranean|gluten-free|intermittent-fasting|dairy-free|high-protein|supplements-understanding|supplements-safety|supplements-shop|breakfast-recipes|lunch-recipes|dinner-recipes)/);
+        const matches = topic.match(/(basics|macros|meal-prep|carbs|protein|fats|vitamins|minerals|hydration|weight-loss|muscle-gain|maintenance|endurance|recomp|plant-based|low-carb|mediterranean|gluten-free|intermittent-fasting|dairy-free|high-protein|supplements-understanding|supplements-safety|supplements-shop|recipes-breakfast|recipes-lunch|recipes-dinner)/);
         if (matches) {
             tags.push(`${matches[1]}`);
         }

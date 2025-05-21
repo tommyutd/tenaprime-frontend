@@ -61,7 +61,7 @@
     },
     {
         "id": "nutrition-mixed-veggies",
-        "am": "1 ኩባያ የተቀላቀሉ አትክልቶች (ለምሳሌ ቤል ቃሪያ፣ ዝኩኒ፣ ሽንኩርት)"
+        "am": "1 ኩባያ የተቀላቀሉ አትክልቶች (ለምሳሌ ትልቁ ቃሪያ፣ ዝኩኒ፣ ሽንኩርት)"
     },
     {
         "id": "nutrition-sesame-oil",
@@ -165,11 +165,11 @@
     },
     {
         "id": "nutrition-stuffed-peppers",
-        "am": "የታሸገ ቤል ቃሪያ"
+        "am": "ስንግ"
     },
     {
         "id": "nutrition-bell-peppers",
-        "am": "2 ትልቅ ቤል ቃሪያ (ግማሽ እና የተከተፈ)"
+        "am": "2 ትልቁ ቃሪያ (ግማሽ እና የተከተፈ)"
     },
     {
         "id": "nutrition-quinoa-rice",
@@ -197,7 +197,7 @@
     },
     {
         "id": "nutrition-peppers-step3",
-        "am": "ቤል ቃሪያውን ከድብልቁ ጋር ያሽጉ እና ለ 25 ደቂቃዎች ይጋግሩ"
+        "am": "ትልቁ ቃሪያውን ከድብልቁ ጋር ያሽጉ እና ለ 25 ደቂቃዎች ይጋግሩ"
     },
     {
         "id": "nutrition-peppers-why",

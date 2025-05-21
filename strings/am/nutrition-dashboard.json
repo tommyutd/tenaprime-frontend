@@ -29,7 +29,7 @@
     },
     {
         "id": "macronutrients-text",
-        "am": "ማክሮ ንጥረ ነገሮች"
+        "am": "ማክሮ ግብዓቶች"
     },
     {
         "id": "carbs-title",
@@ -57,7 +57,7 @@
     },
     {
         "id": "micronutrients-text",
-        "am": "ማይክሮ ንጥረ ነገሮች እና ሃይድሬሽን"
+        "am": "ማይክሮ ግብዓቶች እና ሃይድሬሽን"
     },
     {
         "id": "vitamins-title",
@@ -137,7 +137,7 @@
     },
     {
         "id": "plant-based-diet-description",
-        "am": "በፕሮቲን እና ጠቃሚ ንጥረ ነገሮች የበለፀጉ የተመጣጠነ ተክል-ተኮር ምግቦች።"
+        "am": "በፕሮቲን እና ጠቃሚ ግብዓቶች የበለፀጉ የተመጣጠነ ተክል-ተኮር ምግቦች።"
     },
     {
         "id": "low-carb-diet-title",
@@ -161,7 +161,7 @@
     },
     {
         "id": "gluten-free-diet-description",
-        "am": "ከግሉተን ነፃ ከሆኑ ንጥረ ነገሮች የተሰሩ ጣፋጭ ምግቦች።"
+        "am": "ከግሉተን ነፃ ከሆኑ ግብዓቶች የተሰሩ ጣፋጭ ምግቦች።"
     },
     {
         "id": "if-diet-title",
@@ -245,22 +245,22 @@
     },
     {
         "id": "nutrition-generating-heading-title",
-        "am": "እቅድዎን በማመንጨት ላይ…"
+        "am": "እቅድዎን በማዘጋጀት ላይ…"
     },
     {
         "id": "nutrition-generating-heading-description",
-        "am": "እባክዎ የእርስዎን ግላዊ የተመጣጠነ ምግብ እቅድ እስክንፈጥር ድረስ ይጠብቁ።"
+        "am": "እባክዎ ለእርስዎ የተቀናበረ የአመጋገብ እቅድ እስክናዘጋጅ ድረስ ትንሽ ይጠብቁ።"
     },
     {
         "id": "nutrition-plan-heading-title",
-        "am": "የእርስዎ ግላዊ ምግቦች"
+        "am": "የግልዎ የአመጋገብ ስርዓት"
     },
     {
         "id": "nutrition-plan-heading-description",
-        "am": "በመገለጫዎ ላይ በመመስረት ምርጥ የሆነ የአመጋገብ ዕቅድ ፈጠርን።"
+        "am": "በፕሮፋይልዎ ላይ በመመስረት ምርጥ የአመጋገብ ስርዓት አዘጋጅተንልዎታል።"
     },
     {
         "id": "nutrition-plan-view-button",
-        "am": "እቅድዎን ይመልከቱ"
+        "am": "እቅዱን ይመልከቱ"
     }
 ]

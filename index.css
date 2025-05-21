@@ -201,10 +201,10 @@
 .nutrition-section-texts,
 .prizes-section-texts,
 .personalization-section-texts {
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 15px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  background-color: var(--accent-100);
+  background-color: var(--accent-70);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
 }
 

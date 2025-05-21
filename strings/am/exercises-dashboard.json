@@ -1,7 +1,7 @@
 [
     {
         "id": "workout-text",
-        "am": "የስፖርት እቅድ አውጪ"
+        "am": "የስፖርት እቅዶች"
     },
     {
         "id": "strength-text",
@@ -285,7 +285,7 @@
     },
     {
         "id": "hiit-guide",
-        "am": "የ HIIT መመሪያ"
+        "am": "የHIIT መመሪያ"
     },
     {
         "id": "hiit-workout",
@@ -293,19 +293,19 @@
     },
     {
         "id": "workout-generating-heading-title",
-        "am": "እቅድዎን በማመንጨት ላይ…"
+        "am": "እቅድዎን በማዘጋጀት ላይ…"
     },
     {
         "id": "workout-generating-heading-description",
-        "am": "እባክዎ የእርስዎን ግላዊ የስፖርት እቅድ እስክንፈጥር ድረስ ይጠብቁ።"
+        "am": "እባክዎ ለእርስዎ የተቀናበረ የስፖርት እቅድ እስክናዘጋጅ ድረስ ትንሽ ይጠብቁ።"
     },
     {
         "id": "workout-plan-heading-title",
-        "am": "የእርስዎ ግላዊ እቅድ"
+        "am": "ለእርስዎ የተዘጋጀ እቅድ"
     },
     {
         "id": "workout-plan-heading-description",
-        "am": "በአካል ብቃት መገለጫዎ ላይ በመመስረት ምርጥ የአካል ብቃት እንቅስቃሴ እቅድ ፈጥረንልዎታል።"
+        "am": "በፕሮፋይልዎ ላይ በመመስረት ምርጥ የስፖርት እቅድ አዘጋጅተንልዎታል።"
     },
     {
         "id": "workout-plan-view-button",

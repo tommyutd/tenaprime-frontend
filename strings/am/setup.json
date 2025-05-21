@@ -1,11 +1,11 @@
 [
     {
         "id": "setup-title",
-        "am": "የመገለጫ ማዋቀር"
+        "am": "ፕሮፋይል መሙያ"
     },
     {
         "id": "setup-description",
-        "am": "ተሞክሮዎን እናብጅ"
+        "am": "እቅድዎን በልክዎ እናዘጋጅ"
     },
     {
         "id": "setup-basic-info",
@@ -45,7 +45,7 @@
     },
     {
         "id": "setup-sedentary-desc",
-        "am": "ትንሽ ወይም ምንም ስፖርት"
+        "am": "ትንሽ ወይም ምንም ስፖርት አይሰሩም"
     },
     {
         "id": "setup-light",
@@ -53,7 +53,7 @@
     },
     {
         "id": "setup-light-desc",
-        "am": "በሳምንት 1-3 ጊዜ ስፖርት ያድርጉ"
+        "am": "በሳምንት 1-3 ጊዜ ስፖርት ይሰራሉ"
     },
     {
         "id": "setup-moderate",
@@ -61,7 +61,7 @@
     },
     {
         "id": "setup-moderate-desc",
-        "am": "በሳምንት 3-5 ጊዜ የአካል ብቃት እንቅስቃሴ ያድርጉ"
+        "am": "በሳምንት 3-5 ጊዜ ስፖርት ይሰራሉ"
     },
     {
         "id": "setup-active",
@@ -69,7 +69,7 @@
     },
     {
         "id": "setup-active-desc",
-        "am": "በሳምንት ከ6-7 ጊዜ የአካል ብቃት እንቅስቃሴ ያድርጉ"
+        "am": "በሳምንት ከ6-7 ጊዜ ስፖርት ይሰራሉ"
     },
     {
         "id": "setup-very-active",
@@ -77,23 +77,23 @@
     },
     {
         "id": "setup-very-active-desc",
-        "am": "በየቀኑ ከባድ የአካል ብቃት እንቅስቃሴ"
+        "am": "በየቀኑ ከባድ ስፖርት ይሰራሉ"
     },
     {
         "id": "setup-dietary-preferences-label",
-        "am": "የአመጋገብ ምርጫዎች (ብዙ ምርጫ)"
+        "am": "የተለየ አመጋገብ ምርጫ (ከሌልዎት ይዝለሉት)"
     },
     {
         "id": "setup-diet-vegan",
-        "am": "ቪጋን"
+        "am": "አትክልት ብቻ"
     },
     {
         "id": "setup-diet-vegetarian",
-        "am": "ቬጅቴሪያን"
+        "am": "አትክልት እና የእንስሳት ተዋጽዖ ከስጋ ውጪ"
     },
     {
         "id": "setup-diet-keto",
-        "am": "ኪቶ"
+        "am": "ኬቶ"
     },
     {
         "id": "setup-diet-paleo",
@@ -105,7 +105,7 @@
     },
     {
         "id": "setup-allergies-intolerances-label",
-        "am": "አለርጂ/አለመቻቻል (በርካታ ምርጫ)"
+        "am": "አለርጂዎች (ብዙ መምረጥ ይችላሉ፣ ከሌልዎት ይዝለሉት)"
     },
     {
         "id": "setup-allergy-nuts",
@@ -157,7 +157,7 @@
     },
     {
         "id": "setup-goal-maintenance-desc",
-        "am": "የአሁኑን ክብደት ይጠብቁ እና የሰውነት ስብጥርን ያሻሽሉ።"
+        "am": "የአሁኑን ክብደትዎን ይጠብቁ እና የሰውነት ስብጥርዎን ያሻሽሉ"
     },
     {
         "id": "setup-goal-performance",
@@ -165,7 +165,7 @@
     },
     {
         "id": "setup-goal-performance-desc",
-        "am": "የአትሌቲክ ልህቀትን እና ብርታትን ያሻሽሉ።"
+        "am": "የአትሌቲክ ልህቀትዎን እና ብርታትዎን ያሻሽሉ"
     },
     {
         "id": "setup-goal-wellness",
@@ -209,11 +209,11 @@
     },
     {
         "id": "setup-workout-full-body",
-        "am": "ሙሉ ሰውነት የመለጠጥ ሂደት"
+        "am": "ሙሉ ሰውነት"
     },
     {
         "id": "setup-workout-full-body-desc",
-        "am": "በእያንዳንዱ ክፍለ ጊዜ የአካል ብቃት እንቅስቃሴዎችን ያጠናቅቁ"
+        "am": "በእያንዳንዱ ክፍለ ጊዜ የሙሉ ሰውነት የአካል ብቃት እንቅስቃሴዎችን ያጠናቅቁ"
     },
     {
         "id": "setup-workout-split",
@@ -229,7 +229,7 @@
     },
     {
         "id": "setup-workout-env-gym-desc",
-        "am": "ከመሳሪያዎች ጋር"
+        "am": "የስፖርት መሳሪያዎች ያስፈልጋሉ"
     },
     {
         "id": "setup-workout-env-home",
@@ -237,7 +237,7 @@
     },
     {
         "id": "setup-workout-env-home-desc",
-        "am": "አነስተኛ መሣሪያዎች ያስፈልጋሉ"
+        "am": "የስፖርት መሳሪያዎች አያስፈልጉም"
     },
     {
         "id": "setup-performance-focus-label",
@@ -249,7 +249,7 @@
     },
     {
         "id": "setup-performance-endurance-desc",
-        "am": "ጉልበትን እና የልብና የደም ህክምናን ያሻሽሉ"
+        "am": "የአተነፋፈስ እና የልብ ብቃትን ያሻሽሉ"
     },
     {
         "id": "setup-performance-strength",
@@ -257,7 +257,7 @@
     },
     {
         "id": "setup-performance-strength-desc",
-        "am": "በኃይል እና በጡንቻ ጥንካሬ ላይ ያተኩሩ"
+        "am": "በጡንቻ ኃይል እና ጥንካሬ ላይ ያተኩሩ"
     },
     {
         "id": "setup-performance-agility",
@@ -337,7 +337,7 @@
     },
     {
         "id": "setup-frequency-three-days-desc",
-        "am": "ለጀማሪዎች ምርጥ ሲሆን በክፍለ-ጊዜዎች መካከል ሙሉ ማገገምን ያስችላል"
+        "am": "ለጀማሪዎች ምርጥ ሲሆን በስፖርት ቀናት መካከል ሙሉ ሰውነትዎ እንዲያገግም ያስችልዎታል"
     },
     {
         "id": "setup-frequency-four-days",
@@ -345,7 +345,7 @@
     },
     {
         "id": "setup-frequency-four-days-desc",
-        "am": "ለአብዛኛዎቹ የአካል ብቃት ደረጃዎች ተስማሚ የሆነ ሚዛናዊ አቀራረብ"
+        "am": "ለአብዛኞቹ የአካል ብቃት ደረጃዎች ተስማሚ ሲሆን ሚዛናዊ አቀራረብ ይይዛል"
     },
     {
         "id": "setup-frequency-five-days",
@@ -353,11 +353,11 @@
     },
     {
         "id": "setup-frequency-five-days-desc",
-        "am": "ለተወሰኑ የአካል ብቃት አድናቂዎች የተጠናከረ ፕሮግራም"
+        "am": "ለተወሰኑ የስፖርት አድናቂዎች የሚዘጋጅ ፕሮግራም"
     },
     {
         "id": "setup-intensity-level-label",
-        "am": "ምን ዓይነት የአካል ብቃት እንቅስቃሴ ደረጃ ይመቻችኋል?"
+        "am": "ምን ዓይነት የአካል ብቃት እንቅስቃሴ ደረጃ ይመችዎታል?"
     },
     {
         "id": "setup-intensity-beginner",
@@ -365,7 +365,7 @@
     },
     {
         "id": "setup-intensity-beginner-desc",
-        "am": "በአሰራር ላይ ያተኩሩ እና መሰረታዊ የአካል ብቃትን ይገንቡ"
+        "am": "በስፖርት አሰራር ላይ ማተኮር እና መሰረታዊ የአካል ብቃትን መገንባትን ያስችላል"
     },
     {
         "id": "setup-intensity-intermediate",
@@ -373,23 +373,23 @@
     },
     {
         "id": "setup-intensity-intermediate-desc",
-        "am": "ከአስቸጋሪ ልምምዶች ጋር መጠነኛ ክብደት ያለው ስፖርት"
+        "am": "ትንሽ አስቸጋሪ መጠነኛ ክብደት ያላቸውን ስፖርቶችን የያዘ"
     },
     {
         "id": "setup-intensity-advanced-desc",
-        "am": "ልምድ ላላቸው አትሌቶች ከፍተኛ ጥንካሬ ያላቸው የአካል ብቃት እንቅስቃሴዎች"
+        "am": "ልምድ ላላቸው አትሌቶች ከፍተኛ ልፋት የሚጠይቁ ስፖርቶች"
     },
     {
         "id": "setup-previous-btn",
-        "am": "ቀዳሚ"
+        "am": "የበፊት ገጽ"
     },
     {
         "id": "setup-next-btn",
-        "am": "ቀጥሎ"
+        "am": "ቀጣይ ገጽ"
     },
     {
         "id": "setup-complete-setup-btn",
-        "am": "ሙሉ መዋቅር"
+        "am": "መሙላት ይጨርሱ"
     },
     {
         "id": "setup-basic-info-title",
@@ -421,7 +421,7 @@
     },
     {
         "id": "setup-body-fat-label",
-        "am": "የሰውነት ስብ % (አማራጭ)"
+        "am": "የሰውነት ስብ % (ካወቁት)"
     },
     {
         "id": "setup-bmi-label",
@@ -429,11 +429,11 @@
     },
     {
         "id": "setup-activity-level-label",
-        "am": "የእንቅስቃሴ ደረጃ (ነጠላ ምርጫ)"
+        "am": "የእንቅስቃሴ ደረጃ (አንድ ብቻ ይምረጡ)"
     },
     {
         "id": "setup-health-conditions-label",
-        "am": "የጤና ሁኔታዎች (በርካታ ምርጫ)"
+        "am": "የጤንነት ሁኔታ (ብዙ መምረጥ ይችላሉ፣ ከሌልዎት ይዝለሉት)"
     },
     {
         "id": "setup-goals-title",
@@ -453,7 +453,7 @@
     },
     {
         "id": "setup-workout-environment-label",
-        "am": "የስፖርት አካባቢ"
+        "am": "የስፖርት ቦታ"
     },
     {
         "id": "setup-intensity-advanced",
@@ -461,15 +461,15 @@
     },
     {
         "id": "setup-ingredients",
-        "am": "ንጥረ ነገሮች"
+        "am": "ግብዓቶች"
     },
     {
         "id": "setup-ingredients-title",
-        "am": "የማይፈልጓቸውን ንጥረ ነገሮች አይምረጡ"
+        "am": "የማይፈልጓቸውን ግብዓቶች ከምርጫዎቹ ያውጡ"
     },
     {
         "id": "setup-ingredients-label",
-        "am": "በምግብ እቅድዎ ውስጥ ማካተት የማይፈልጓቸውን ንጥረ ነገሮች ይምረጡ።"
+        "am": "በምግብ እቅድዎ ውስጥ ማካተት የማይፈልጓቸውን ግብዓቶች ከምርጫዎቹ ያውጡ።"
     },
     {
         "id": "setup-ingredients-search-placeholder",

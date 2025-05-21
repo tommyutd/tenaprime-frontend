@@ -1337,7 +1337,7 @@ input[type="number"] {
 .prizes-page {
   width: 100%;
   min-height: 70vh;
-  background-color: var(--bg-primary); /* Similar to front-page background */
+  background-color: var(--bg-primary);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1447,7 +1447,7 @@ input[type="number"] {
 .nutrition-section-texts h1,
 .prizes-section-texts h1,
 .personalization-section-texts h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .exercises-section-texts p,

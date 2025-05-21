@@ -37,15 +37,15 @@
     },
     {
         "id": "personalization-prompt-title",
-        "am": "ተሞክሮዎን የግልዎ ያድርጉ"
+        "am": "በልክዎ የተዘጋጀ እቅድ"
     },
     {
         "id": "personalization-prompt-description",
-        "am": "የአካል ብቃት መገለጫዎን በማጠናቀቅ ለእርስዎ የተዘጋጁ ምክሮችን ያግኙ።"
+        "am": "የግል መረጃዎን በመሙላት ለእርስዎ የተዘጋጁ የስፖርት እና የአመጋገብ እቅዶችን ያግኙ።"
     },
     {
         "id": "personalization-prompt-button",
-        "am": "የመዋቅር መገለጫ"
+        "am": "ፕሮፋይልዎን ይሙሉ"
     },
     {
         "id": "weightLoss",
