@@ -209,27 +209,8 @@ function setupNavigationButtons() {
     pauseButton = document.querySelector('.pause-workout');
     endButton = document.querySelector('.end-workout');
 
-    // Remove any existing event listeners
-    prevButton.replaceWith(prevButton.cloneNode(true));
-    nextButton.replaceWith(nextButton.cloneNode(true));
-    pauseButton.replaceWith(pauseButton.cloneNode(true));
-    endButton.replaceWith(endButton.cloneNode(true));
-
-    // Get fresh references after cloning
-    nextButton = document.querySelector('.next-exercise');
-    prevButton = document.querySelector('.prev-exercise');
-    pauseButton = document.querySelector('.pause-workout');
-    endButton = document.querySelector('.end-workout');
-
-    prevButton.addEventListener('click', () => {
-        if (currentExerciseIndex > 0) {
-            clearInterval(timer);
-            currentExerciseIndex--;
-            updateExerciseDisplay(allExercises[currentExerciseIndex]);
-        }
-    });
-
-    nextButton.addEventListener('click', async () => {
+    // Store the next button click handler as a separate function so it can be reused
+    const handleNextButton = async () => {
         if (currentExerciseIndex < allExercises.length - 1) {
             clearInterval(timer);
             currentExerciseIndex++;
@@ -252,7 +233,43 @@ function setupNavigationButtons() {
                 }
             }
         }
+    };
+
+    // Define the keyboard event handler first
+    const handleKeyPress = (event) => {
+        if (event.key === 'Enter' && !isPaused) {
+            handleNextButton();
+        }
+    };
+
+    // Remove any existing event listeners
+    prevButton.replaceWith(prevButton.cloneNode(true));
+    nextButton.replaceWith(nextButton.cloneNode(true));
+    pauseButton.replaceWith(pauseButton.cloneNode(true));
+    endButton.replaceWith(endButton.cloneNode(true));
+    
+    // Now we can safely remove the keyboard event listener
+    document.removeEventListener('keydown', handleKeyPress);
+
+    // Get fresh references after cloning
+    nextButton = document.querySelector('.next-exercise');
+    prevButton = document.querySelector('.prev-exercise');
+    pauseButton = document.querySelector('.pause-workout');
+    endButton = document.querySelector('.end-workout');
+
+    prevButton.addEventListener('click', () => {
+        if (currentExerciseIndex > 0) {
+            clearInterval(timer);
+            currentExerciseIndex--;
+            updateExerciseDisplay(allExercises[currentExerciseIndex]);
+        }
     });
+
+    // Add event listener to the next button using the handler
+    nextButton.addEventListener('click', handleNextButton);
+    
+    // Add keyboard event listener
+    document.addEventListener('keydown', handleKeyPress);
 
     pauseButton.addEventListener('click', () => {
         isPaused = !isPaused;
