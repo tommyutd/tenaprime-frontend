@@ -165,7 +165,7 @@
     },
     {
         "id": "setup-goal-performance-desc",
-        "am": "የአትሌቲክ ልህቀትዎን እና ብርታትዎን ያሻሽሉ"
+        "am": "የሰውነትዎን አቅም እና ብርታት ያሻሽሉ"
     },
     {
         "id": "setup-goal-wellness",
@@ -185,7 +185,7 @@
     },
     {
         "id": "setup-workout-cardio-desc",
-        "am": "በሩጫ፣ በብስክሌት እና በብርታትት ስልጠና ላይ ያተኩሩ"
+        "am": "የሩጫ፣ ብስክሌት እና የአጠቃላይ ብርታትት ስልጠና"
     },
     {
         "id": "setup-workout-hiit",
@@ -193,7 +193,7 @@
     },
     {
         "id": "setup-workout-hiit-desc",
-        "am": "ለከፍተኛ የካሎሪ ማቃጠል HIIT"
+        "am": "ከፍተኛ ካሎሪ ለማቃጠል የሚረዳ HIIT"
     },
     {
         "id": "setup-workout-mixed",
@@ -221,7 +221,7 @@
     },
     {
         "id": "setup-workout-split-desc",
-        "am": "በተለያዩ ቀናት ውስጥ የተለያዩ የጡንቻ ቡድኖች"
+        "am": "በተለያዩ ቀናት ውስጥ የተለያዩ የጡንቻ ቡድኖች ያዳብሩ"
     },
     {
         "id": "setup-workout-env-gym",
@@ -269,7 +269,7 @@
     },
     {
         "id": "setup-maintenance-routine-label",
-        "am": "ምን አይነት የ<b>ክብደት መጠበቂያ</b> የዕለት ተዕለት ተግባር ነው የሚመርጡት?"
+        "am": "ምን አይነት የ<b>ክብደት መጠበቂያ</b> የዕለት ተዕለት ተግባራት ይመርጣሉ?"
     },
     {
         "id": "setup-maintenance-balanced",
@@ -281,7 +281,7 @@
     },
     {
         "id": "setup-maintenance-strength",
-        "am": "የጥንካሬ ክብደት መጠበቂያ"
+        "am": "ጥንካሬ-ተኮር ክብደት መጠበቂያ"
     },
     {
         "id": "setup-maintenance-strength-desc",
@@ -289,11 +289,11 @@
     },
     {
         "id": "setup-maintenance-cardio",
-        "am": "የካርዲዮ ክብደት መጠበቂያ"
+        "am": "ካርዲዮ-ተኮር ክብደት መጠበቂያ"
     },
     {
         "id": "setup-maintenance-cardio-desc",
-        "am": "የካርዲዮቫስኩላር ብቃትን መጠበቅ ላይ ማተኮር"
+        "am": "የካርዲዮ ብቃትን መጠበቅ ላይ ያተኩሩ"
     },
     {
         "id": "setup-wellness-focus-label",
@@ -301,19 +301,19 @@
     },
     {
         "id": "setup-wellness-mind-body",
-        "am": "የአእምሮ-ሰውነት ሚዛን"
+        "am": "የአእምሮ እና ሰውነት ሚዛን"
     },
     {
         "id": "setup-wellness-mind-body-desc",
-        "am": "በዮጋ፣ በማሰላሰል እና በመተጣጠፍ ላይ ያተኩሩ"
+        "am": "በዮጋ፣ በሜዲቴሽን እና በእንቅስቃሴ ችሎታ ላይ ያተኩሩ"
     },
     {
         "id": "setup-wellness-functional",
-        "am": "ጠቃሚ የአካል ብቃት"
+        "am": "ተግባራዊ የሚሆን የአካል ብቃት"
     },
     {
         "id": "setup-wellness-functional-desc",
-        "am": "የዕለት ተዕለት እንቅስቃሴን እና አጠቃላይ እንቅስቃሴን ያሻሽሉ።"
+        "am": "የዕለት ተዕለት እና አጠቃላይ እንቅስቃሴዎን ያሻሽሉ።"
     },
     {
         "id": "setup-wellness-low-impact",
@@ -321,7 +321,7 @@
     },
     {
         "id": "setup-wellness-low-impact-desc",
-        "am": "በመገጣጠሚያ ጤና እና ተንቀሳቃሽነት ላይ የሚያተኩሩ ረጋ ያሉ ልምምዶች"
+        "am": "በመገጣጠሚያዎች ጤንነት እና በእንቅስቃሴ ችሎታ ላይ የሚያተኩሩ ቀለል ያሉ ስፖርቶች"
     },
     {
         "id": "setup-exercise-schedule-title",
