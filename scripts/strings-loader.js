@@ -228,7 +228,7 @@ document.addEventListener("DOMContentLoaded", () => {
           border: 0;
         "
         src="https://www.sideprojectors.com/img/badges/badge_2_red.png"
-        alt="TenaPrime is sale."
+        alt="TenaPrime is for sale."
     /></a>`;
   forSaleElement = document.createElement("div");
   forSaleElement.innerHTML = forSale;
