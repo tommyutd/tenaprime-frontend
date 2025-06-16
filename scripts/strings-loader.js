@@ -218,7 +218,7 @@ window.stringsLoaded
 window.updatePageStrings = updatePageStrings;
 
 document.addEventListener("DOMContentLoaded", () => {
-  forSale = `<a href="mailto:contact@amistal.com" alt="TenaPrime is for sale."
+  const forSale = `<a href="mailto:contact@amistal.com" alt="TenaPrime is for sale."
       ><img
         style="
           position: fixed;
@@ -230,7 +230,7 @@ document.addEventListener("DOMContentLoaded", () => {
         src="https://www.sideprojectors.com/img/badges/badge_2_red.png"
         alt="TenaPrime is for sale."
     /></a>`;
-  forSaleElement = document.createElement("div");
+  const forSaleElement = document.createElement("div");
   forSaleElement.innerHTML = forSale;
   document.body.appendChild(forSaleElement);
 });

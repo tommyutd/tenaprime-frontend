@@ -207,9 +207,9 @@
             <div class="footer-section">
               <h3 data-text-key="footer-contact">Contact</h3>
               <ul>
-                <li><a href="tel:+251911234567">+251 911 234 567</a></li>
+                <li><a href="tel:+251911234567">+251 94 332 1022</a></li>
                 <li>
-                  <a href="mailto:info@tenaprime.com">info@tenaprime.com</a>
+                  <a href="mailto:info@tenaprime.com">contact@amistal.com</a>
                 </li>
                 <li><a href="#" data-text-key="contact-us">Contact Us</a></li>
                 <li><a href="#" data-text-key="support">Support</a></li>
@@ -232,7 +232,7 @@
             </div>
           </div>
           <div class="footer-bottom">
-            <p>© 2024 TenaPrime. All rights reserved.</p>
+            <p>© 2025 TenaPrime. All rights reserved.</p>
             <div class="footer-ethiotelecom">
               <img src="/assets/ethiotelecom.png" alt="Ethiotelecom" />
             </div>
@@ -295,7 +295,6 @@
       </div>
     </div>
 
-    <!-- Login Overlay -->
     <div class="login-overlay aleo-text" id="loginOverlay">
       <div class="login-container">
         <div class="login-header">
@@ -311,13 +310,14 @@
               >Phone Number</label
             >
             <div class="phone-input-container">
-              <span class="country-code">+251</span>
+              <!--span class="country-code">+251</span-->
+              <!--input type="number" id="number" required maxlength="6"-->
               <input
                 type="tel"
                 id="number"
                 name="username"
                 required
-                maxlength="9"
+                maxlength="15"
                 autocomplete="username"
               />
             </div>
@@ -327,6 +327,7 @@
               >PIN</label
             >
             <div class="pin-input-container">
+              <!--input type="number" id="pin" required maxlength="6"-->
               <input
                 type="password"
                 id="pin"
@@ -371,13 +372,42 @@
       </div>
     </div>
 
-    <!-- Register Overlay -->
     <div class="register-overlay aleo-text" id="registerOverlay">
-      <div class="register-toast-notification">
-        <span data-text-key="register-toast"
-          >If you don't have an account, you can register by sending OK to
-          8362.</span
-        >
+      <div class="register-container">
+        <div class="register-header">
+          <h2 data-text-key="register-title">Register for TenaPrime</h2>
+          <button class="close-button" id="closeRegister">&times;</button>
+        </div>
+        <form class="register-form">
+          <div class="form-group">
+            <label
+              for="registerNumber"
+              class="form-label"
+              data-text-key="phone-number-label"
+              >Phone Number</label
+            >
+            <div class="phone-input-container">
+              <!--span class="country-code">+251</span-->
+              <input
+                type="tel"
+                id="registerNumber"
+                name="phone"
+                required
+                maxlength="15"
+                autocomplete="tel"
+              />
+            </div>
+          </div>
+          <div class="register-buttons">
+            <button
+              type="submit"
+              class="register-submit aleo-text"
+              data-text-key="register"
+            >
+              Register
+            </button>
+          </div>
+        </form>
       </div>
     </div>
 
